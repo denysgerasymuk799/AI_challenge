@@ -72,10 +72,8 @@ def parse_main_pages(url_work):
 
 
 if __name__ == "__main__":
-    # n_vacancy = 1
-    #     # for i in range(423):
-    #     #     url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
-    #     #     url_work += str(i + 1)
-    #     #     pprint(parse_main_pages(url_work))
-    #     #     print(i)
-    print(time.version)
+    n_vacancy = 1
+    for i in range(423):
+        url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
+        url_work += str(i + 1)
+        pprint(parse_main_pages(url_work))
