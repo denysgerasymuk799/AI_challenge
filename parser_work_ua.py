@@ -62,6 +62,7 @@ def parse_main_pages(url_work):
         table[i + 1] = dict()
         table[i + 1]["title"] = title
         table[i + 1]["company"] = company
+        table[i + 1]["city"] = city
         table[i + 1]["date"] = date
         table[i + 1]["url"] = url
         # if i == 4:
@@ -71,8 +72,10 @@ def parse_main_pages(url_work):
 
 
 if __name__ == "__main__":
-    n_vacancy = 1
-    for i in range(423):
-        url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
-        url_work += str(i + 1)
-        pprint(parse_main_pages(url_work))
+    # n_vacancy = 1
+    #     # for i in range(423):
+    #     #     url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
+    #     #     url_work += str(i + 1)
+    #     #     pprint(parse_main_pages(url_work))
+    #     #     print(i)
+    print(time.version)
