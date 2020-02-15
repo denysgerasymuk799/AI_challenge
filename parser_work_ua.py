@@ -1,5 +1,9 @@
 import time
 import os
+import re
+from datetime import datetime
+
+import boto3
 import requests
 import json
 import urllib
@@ -31,10 +35,17 @@ def vacancy_pages_save(url, n_save_page):
         f.write(text)
 
 
-def cache_page(url):
-    path = slugify(url) + ".html"
+def cache_page(url, root_path):
+    session = boto3.session.Session()
+    client = session.client('s3',
+                            region_name='nyc3',
+                            endpoint_url='https://fra1.digitaloceanspaces.com',
+                            aws_access_key_id='4X7VNYMKWLTZV5G5JXEV',
+                            aws_secret_access_key='dmifQIBG5a8hzPcBXsohAnDeJCfMrY2W5ryOE87U1fE')
+
+    filename = slugify(url) + ".html"
     html_pages_path = os.path.join(os.getcwd(), 'work_ua_html_pages')
-    if path not in os.listdir(html_pages_path):
+    if filename not in os.listdir(html_pages_path):
         while True:
             try:
                 r = requests.get(url)
@@ -42,67 +53,32 @@ def cache_page(url):
             except Exception as e:
                 print(e.with_traceback())
                 time.sleep(1)
-        with open(os.path.join(html_pages_path, path), "w", encoding="utf-8") as f:
+        with open(os.path.join(html_pages_path, filename), "w", encoding="utf-8") as f:
             f.write(r.text)
-    with open(os.path.join(html_pages_path, path), encoding="utf-8") as f:
+    with open(os.path.join(html_pages_path, filename), encoding="utf-8") as f:
         text = f.read()
+
+    tmp_file = os.path.join(html_pages_path, filename)
+    client.upload_file(tmp_file, 'ai-scrapper', os.path.join(root_path, filename).replace("\\", "/"))
     return text
 
 
-def parse_vacancy_pages(url_work):
-    html_page = cache_page(url_work)
+def parse_vacancy_pages(url_work, root_path_vacancies, table, n_vacancy):
+    html_page = cache_page(url_work, root_path_vacancies)
 
     soup = BeautifulSoup(html_page, 'html.parser')
 
-    all_jobs_description = soup.find_all("div", {"class": "card card-hover card-visited wordwrap job-link js-hot-block"})
-    string = '{}'
-    table = json.loads(string)
-    for i, job_description in enumerate(all_jobs_description):
-        title_date = job_description.find_all("a")[0]['title']
-        title, date = '', ''
-        # if i == 3:
-        #     pprint(job_description)
-        try:
-            start_date = title_date.rfind(",")
-            title, date = title_date[:start_date], title_date[start_date:]
-        except:
-            print('no 1 parameter')
+    all_vacancy_description = soup.find_all("div", {"class": "card wordwrap"})
 
-        city_tag = job_description.find(class_="add-top-xs")
-
-        cities = ["Львів", "Київ", "Дніпро", "Одеса", "Харків", "Львов", "Киев", "Днепр", "Одесса", "Харьков"]
-        city = ''
-        for city_on_site in cities:
-            if str(city_tag).find(city_on_site):
-                city = city_on_site
-                break
-        company = ''
-        try:
-            company = job_description.find_all("img")[0]["alt"]
-        except:
-            print("company is not written")
-
-        if company == '':
-            company = job_description.find_all(class_="add-top-xs")
-            company = company.span
-
-        url = job_description.a['href']
-        url = "https://www.work.ua" + url
-        table[i + 1] = dict()
-        table[i + 1]["title"] = title
-        table[i + 1]["company"] = company
-        table[i + 1]["city"] = city
-        table[i + 1]["date"] = date
-        table[i + 1]["url"] = url
-        # if i == 4:
-        #     #     break
-
+    job_description = all_vacancy_description[0].find_all("div", {"id": "job-description"})
+    cleanr = re.compile('<.*?>')
+    clean_job_description = re.sub(cleanr, '', str(job_description))
+    table[n_vacancy]["job_description"] = clean_job_description
     return table
 
 
-def parse_main_pages(url_work, n_page, urls_vacancies):
-    html_page = cache_page(url_work)
-
+def parse_main_pages(url_work, n_page, urls_vacancies, root_path, root_path_vacancies):
+    html_page = cache_page(url_work, root_path)
     soup = BeautifulSoup(html_page, 'html.parser')
 
     if soup.find_all("div", {"class": "card card-hover card-visited wordwrap job-link js-hot-block"}):
@@ -112,6 +88,7 @@ def parse_main_pages(url_work, n_page, urls_vacancies):
                                              {"class": "card card-hover card-visited wordwrap job-link"})
     string = '{}'
     table = json.loads(string)
+
     for i, job_description in enumerate(all_jobs_description):
         title_date = job_description.find_all("a")[0]['title']
         title, date = '', ''
@@ -131,20 +108,13 @@ def parse_main_pages(url_work, n_page, urls_vacancies):
             if str(city_tag).find(city_on_site):
                 city = city_on_site
                 break
-        company = ''
-        # try:
-        #     company = job_description.find_all("img")[0]["alt"]
-        # except:
-        #     print("company is not written")
-        #
-        # if company == '':
+
         company = job_description.find(class_="add-top-xs")
         company = company.find('span')
         company = str(company.find('b'))
         start_company_title = company.find('>')
         end_company_title = company.rfind('<')
         company = company[start_company_title + 1: end_company_title]
-        # print('company', company)
 
         url = job_description.a['href']
         url = "https://www.work.ua" + url
@@ -157,35 +127,31 @@ def parse_main_pages(url_work, n_page, urls_vacancies):
         table[i + 1]["city"] = city
         table[i + 1]["date"] = date
         table[i + 1]["url"] = url
-        # parse_vacancy_pages(url)
-        # if i == 4:
-        #     #     break
+
+        n_vacancy = i + 1
+        table = parse_vacancy_pages(url, root_path_vacancies, table, n_vacancy)
 
     return table, html_page
 
 
 if __name__ == "__main__":
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
+    root_path = os.path.join('work_ua_pages', timestamp).replace("\\", "/")
+    root_path_vacancies = os.path.join('work_ua_vacancies_pages', timestamp).replace("\\", "/")
+
     n_vacancy = 1
-    n_pages = 20
+    n_pages = 3
     urls_vacancies = '{}'
     urls_vacancies = json.loads(urls_vacancies)
     for i in range(n_pages):
         url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
         url_work += str(i + 1)
-        table, html_page = parse_main_pages(url_work, i, urls_vacancies)
+        table, html_page = parse_main_pages(url_work, i, urls_vacancies, root_path, root_path_vacancies)
         print(i + 1)
         pprint(table)
-        if i == 0:
-            with open('first_page.html', "w", encoding="utf-8") as f:
-                f.write(html_page)
-
-        if table == {}:
-            with open('stop_page.html', "w", encoding="utf-8") as f:
-                f.write(html_page)
-            pprint(html_page)
-            break
         time.sleep(1)
 
-    static_path = os.path.join(os.getcwd(), 'static')
-    with open(os.path.join(static_path, 'urls_vacancies' + ".json"), "w", encoding="utf-8") as f:
-        json.dump(urls_vacancies, f, indent = 4)
+    # static_path = os.path.join(os.getcwd(), 'static')
+    # with open(os.path.join(static_path, 'urls_vacancies' + ".json"), "w", encoding="utf-8") as f:
+    #     json.dump(urls_vacancies, f, indent = 4)
