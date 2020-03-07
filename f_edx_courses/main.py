@@ -1,15 +1,29 @@
-"""
-This module generates a list of courses from edx in result.json. 
-"""
 import requests
-from requests import HTTPError
 from json import JSONDecodeError
 import json
+import get_descriptions
+from price_student_number import get_price, get_student_number
 
 # Global variables
 with open("access_token.json", 'r') as access_file:
     ACCESS_TOKEN = json.load(access_file)["access_token"]
-ERROR_NUMBER = 1
+ERROR_NUMBER = 0
+SKIPPED = 0
+PARSED_NUMBER = 0
+
+
+def generate_duration(start, end):
+    start = start.split('-')
+    end = end.split('-')
+    result = 0
+    start_year, end_year = int(start[0]), int(end[0])
+    start_week, end_week = int(start[1]), int(end[1])
+    start_day, end_day = int(start[2][:2]), int(end[2][:2])
+    result += abs(end_year - start_year)*52
+    result += abs(end_week - start_week)
+    result += abs(end_day - end_week)/7
+    return str(int(result)) + " weeks"
+
 
 def get_access_token():
     """
@@ -27,7 +41,7 @@ def get_access_token():
     ACCESS_TOKEN = response.json()["access_token"]
 
 
-def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/", writting_way='a'):
+def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
     """
     main fucntion
     :param max_page: a number of responses
@@ -36,31 +50,38 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/", 
     :param writting_way: 'a' to write all results, 'w' for saving only last
     :return: None
     """
+    global SKIPPED, PARSED_NUMBER
 
     if route == "":
-        web_page = beginner + "courses/v1/courses_ids/"
+        web_page = beginner + "courses/v1/courses/"
     else:
         web_page = beginner + route
 
+    # some variables
     current_page = 1
     global ACCESS_TOKEN
     global ERROR_NUMBER
+
     while current_page <= max_page:
-        "make main request"
+        PARSED_NUMBER += 1
+        # make main request
         response = requests.get(web_page, headers={"Authorization": f"JWT {ACCESS_TOKEN}"})
 
-        print(str(response.status_code) + '\n' + f"   Number of requests: {current_page}\n" +
+        # some info
+        print(str(response.status_code) + '\n' + f"   Number of API requests: {current_page}\n" +
               f"      Number of errors: {ERROR_NUMBER }")
 
         # Error handling
         if str(response.status_code)[0] == '4':
+            # writing error to file
             with open("errors.json", 'r') as error_file:
                 errors = json.load(error_file)
             errors[str(ERROR_NUMBER)] = response.text
             with open("errors.json", 'w') as error_file:
                 json.dump(errors, error_file, indent=3)
 
-            if response.status_code == 403 or response.status_code == 401:
+            # 401 - you should get new access token
+            if response.status_code == 401:
                 get_access_token()
                 current_page += 1
             ERROR_NUMBER += 1
@@ -69,27 +90,47 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/", 
         try:
             data = response.json()
         except JSONDecodeError:
+            print(">>> Json error occured! something wrong!!!")
             current_page += 1
             continue
 
-        # create result before writting in it
-        if writting_way == 'a':
-            with open("result.json", 'r', encoding='utf-8', errors='ignore') as res_file:
-                result = json.load(res_file)
-        else:
-            result = {}
+        # create result from result file before writting in it
+        with open("result.json", 'r', encoding='utf-8', errors='ignore') as res_file:
+            result = json.load(res_file)
 
         # adding new information about new courses
         for course in data["results"]:
-            result[course["name"]] = {
-                "url": course["blocks_url"],
+            PARSED_NUMBER += 1
+
+            # Writing all needed information
+            course_name = course["name"]
+            course_url = get_descriptions.convert_to_url(course_name)
+            description = get_descriptions.generate_description(course_name)
+            if description == -1:
+                SKIPPED += 1
+                continue
+
+            result[course_name] = {
                 "id": [course["id"], course["course_id"]],
-                "media": course["media"],
-                "short_description": course["short_description"],
-                "start_end": [course["start"], course["end"]],
-                "start_display": course["start_display"],
-                "org": course["org"]
+                "image": course["media"]["image"],
             }
+
+            # duration generation
+            start, end = course["start"], course["end"]
+            if start and end:
+                result[course_name]["course_duration"] = generate_duration(start, end)
+            else:
+                result[course_name]["course_duration"] = ""
+
+            result[course_name]["price"] = get_price()
+            result[course_name]["long_description"] = description["long_description"]
+            result[course_name]["short_description"] = description["short_description"]
+            result[course_name]["url"] = course_url
+            result[course_name]["number_of_students"] = get_student_number()
+            skipped_percentage = round(SKIPPED/PARSED_NUMBER, 2)
+            print(f"        Parsed_number: {PARSED_NUMBER}, Skipped Percentage: {skipped_percentage}\n"
+                  f"        Successful parse: {course_name}. ")
+
 
         # saving information
         with open("result.json", 'w', encoding='utf-8', errors='ignore') as res_file:
@@ -99,8 +140,10 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/", 
 
         web_page = data["pagination"]["next"]
         if web_page is None:
-            print(current_page)
+            with open("last_page.txt", 'w') as last_page_file:
+                last_page_file.write(web_page)
             break
+
 
 if __name__ == '__main__':
     # get_access_token()
@@ -108,4 +151,4 @@ if __name__ == '__main__':
         res_file.write("{}")
     with open("errors.json", 'w') as error_file:
         error_file.write("{}")
-    generate_info(1000, route="courses/v1/courses/", writting_way='a')
+    generate_info(10, route="courses/v1/courses/")
