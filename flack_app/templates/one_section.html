@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 {% block content %}
-    {% for courses in skills %}
+    {% for courses in courses_list %}
         <div class="site-section courses-title" id="courses-section">
           <div class="container">
             <div class="row mb-5 justify-content-center">
@@ -15,7 +15,7 @@
             <div class="row">
 
               <div class="owl-carousel col-12 nonloop-block-14">
-        {% for course in skills[courses] %}
+        {% for course in courses_list[courses] %}
             {% for el in course %}
                 <div class="course bg-white h-100 align-self-stretch">
                   <figure class="m-0">

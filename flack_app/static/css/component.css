@@ -29,14 +29,14 @@
 
 .ac-custom li {
 	margin: 0 auto;
-	padding: 2em 0;
+	padding: 1.5em 0;
 	position: relative;
 }
 
 .ac-custom label {
 	display: inline-block;
 	position: relative;
-	font-size: 2em;
+	font-size: 1.3em;
 	padding: 0 0 0 80px;
 	vertical-align: top;
 	color: rgba(0,0,0,0.2);

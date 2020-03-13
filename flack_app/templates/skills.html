@@ -9,21 +9,25 @@
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/button.css" />
 		<script src="static/js/modernizr.custom.js"></script>
 	</head>
 	<body>
+		<div class="header">
+		  <h1>Courses</h1>
+		  <p>What skills do you already have?</p>
+		</div>
 		<div class="container">
 			<section>
-				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-					<h2>What skills you already have?</h2>
+				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off" id="form" method="post">
 					<ul>
 						{%for i in skills %}
-							<li><input id={{i}} name={{i}} type="checkbox"><label for={{i}}>{{i}}</label></li>
+							<li><input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{i}}</label></li>
 						{%endfor%}
+						<div class="wrap">
+							<button class="button" type="submit" form="form" value="Submit">Confirm</button>
+						</div>
 					</ul>
-					<div class="container-contact100-form-btn">
-						<button class="contact100-form-btn" type="submit" form="form" value="Submit">Search now</button>
-					</div>
 				</form>
 			</section>
 		</div>
