@@ -1,4 +1,6 @@
 import json
+import os
+
 from flask import Flask, render_template, url_for, request, redirect
 
 app = Flask(__name__)
@@ -10,7 +12,7 @@ def get_courses(skills):
     :param skills:
     :return:
     """
-    with open("C:\\Users\\volod\\Downloads\\Telegram Desktop\\coursera_courses_for_profession.json",
+    with open(os.path.join(os.getcwd(), "courses_for_profession.json"),
               encoding='utf-8') as f:
         course_list = json.load(f)
     return course_list
