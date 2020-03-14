@@ -1,0 +1,2637 @@
+   Microsoft Excel - Excel from Beginner to Advanced | Udemy
+   *{box-sizing:border-box;margin:0;padding:0}html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;touch-action:manipulation;font-size:62.5%}body{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:1.6rem;color:#3c3b37;margin:0}body,.main-content-wrapper{display:flex;min-height:100vh;flex-direction:column}.main-content-wrapper,.main-content{flex:1 0 auto;overflow-x:hidden}img{max-width:100%;height:auto}a{color:#0f7c90;text-decoration:none}p,h1,h2,h3,h4,h5,h6,ul,ol{font-size:inherit;font-weight:normal;max-width:60rem}code,samp,kbd,pre{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace}button,input{background-image:none}input,select{color:#3c3b37}input[type='search']::-webkit-search-cancel-button,input[type='search']::-webkit-search-decoration{-webkit-appearance:none}ul,ol{padding-left:2.4rem}li{padding-left:.8rem}li+li{margin-top:.4rem}p+p,p+ul,p+ol,ul+p,ul+ol,ol+ol,ol+p,ol+ul{margin-top:.8rem}.unstyled-list{list-style:none;margin:0;padding:0}.unstyled-list li{padding-left:0}.unstyled-list li+li{margin-top:0}*:focus,a:focus,input:focus,button:focus{outline:none}body.keyboard-navigation-in-use *:not(.udlite-custom-focus-visible):focus,body.keyboard-navigation-in-use .udlite-custom-focus-visible:focus .udlite-focus-visible-target{outline:4px solid #f0bd4f}.udlite-heading-xxxl{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:4rem}.udlite-heading-xxl{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:3.2rem}.udlite-heading-xl{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:2.4rem}.udlite-heading-lg{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:1.9rem}.udlite-heading-md{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:1.6rem}.udlite-heading-sm{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:1.4rem}.udlite-heading-xs{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:700;line-height:1.2;letter-spacing:-0.02rem;font-size:1.2rem}.udlite-text-xl{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:2.4rem}.udlite-text-lg{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:1.9rem}.udlite-text-md{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:1.6rem}.udlite-text-sm{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:1.4rem}.udlite-text-xs{font-family:'SF Pro Text',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:400;line-height:1.4;font-size:1.2rem}.udlite-text-bold{font-weight:700}.udlite-sr-only{position:absolute !important;height:1px;width:1px;overflow:hidden;clip:rect(1px, 1px, 1px, 1px)}.udlite-container{width:100%;max-width:134rem;margin-right:auto;margin-left:auto;padding-right:2.4rem;padding-left:2.4rem}.udlite-full-width-container{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}
+.udlite-btn{position:relative;align-items:center;border-radius:4px;border:none;cursor:pointer;display:inline-flex;min-width:10rem;padding:0 1.6rem;justify-content:center;user-select:none;vertical-align:bottom;color:#0f7c90}.udlite-btn:hover,.udlite-btn:focus{color:#0f7c90}.udlite-btn>:not(:first-child){margin-left:.8rem}.udlite-btn::-moz-focus-inner{border:0}.udlite-btn-primary{background-color:#0f7c90;color:#fff}.udlite-btn-primary:hover,.udlite-btn-primary:focus{color:#fff}.udlite-btn-primary:active{background-color:#003640}.udlite-btn-secondary{background-color:transparent;border:1px solid #dcdacb}.udlite-btn-secondary:active{background-color:#f8f8f1}.udlite-btn-ghost{background-color:transparent;min-width:auto;padding:0}.udlite-btn-ghost:active{background-color:#f8f8f1}.udlite-btn-dark{background-color:#1e1e1c;color:#fff}.udlite-btn-dark:hover,.udlite-btn-dark:focus{color:#fff}.udlite-btn-dark:active{background-color:#3c3b37}.udlite-btn-disabled,.udlite-btn:disabled,.udlite-btn[disabled]{cursor:default}.udlite-btn-disabled:active,.udlite-btn:disabled:active,.udlite-btn[disabled]:active{background-color:transparent}.udlite-btn-disabled.udlite-btn-primary:active,.udlite-btn:disabled.udlite-btn-primary:active,.udlite-btn[disabled].udlite-btn-primary:active{background-color:#0f7c90}.udlite-btn-disabled.udlite-btn-dark:active,.udlite-btn:disabled.udlite-btn-dark:active,.udlite-btn[disabled].udlite-btn-dark:active{background-color:#1e1e1c}.udlite-btn-disabled:before,.udlite-btn:disabled:before,.udlite-btn[disabled]:before{content:'';position:absolute;width:100%;height:100%;opacity:0.5;background-color:#fff}.udlite-btn-large{height:4.8rem}.udlite-btn-small{height:4rem}.udlite-btn-icon{min-width:auto}.udlite-btn-icon-large{padding:0 1.2rem;width:4.8rem}.udlite-btn-icon-small{min-width:auto;padding:0 1rem;width:4rem}.udlite-btn-icon-round{border-radius:50%}
+.udlite-block-list{list-style:none;margin:0;padding:0}.udlite-block-list li{padding-left:0}.udlite-block-list li+li{margin-top:0}.udlite-block-list .udlite-block-list-item{display:flex;align-items:flex-start;width:100%;height:auto;text-align:left;letter-spacing:normal}.udlite-block-list .udlite-block-list-item{padding:.8rem 0}.udlite-block-list .udlite-block-list-item-loose{padding:1.6rem 0}.udlite-block-list .udlite-block-list-item-tight{padding:.4rem 0}.udlite-block-list-item-large .udlite-block-list-item-icon{min-height:2.24rem}.udlite-block-list-item-small .udlite-block-list-item-icon{min-height:1.96rem}.udlite-block-list .udlite-block-list-item-link{color:#0f7c90}.udlite-block-list .udlite-block-list-item-neutral{color:#3c3b37}.udlite-block-list-item-content{flex:1;min-width:1px}.udlite-block-list-item-content-loading{background:#dcdacb}.udlite-block-list-item-icon+.udlite-block-list-item-content{margin-left:1.6rem}.udlite-block-list-item-content+.udlite-block-list-item-icon{margin-left:.8rem}.udlite-block-list-item-icon.udlite-notification-counter{margin-top:-0.25em}
+.udlite-icon{fill:currentColor;display:inline-block;flex-shrink:0}.udlite-icon-xlarge{width:4rem;height:4rem}.udlite-icon-large{width:2.4rem;height:2.4rem}.udlite-icon-medium{width:2rem;height:2rem}.udlite-icon-small{width:1.6rem;height:1.6rem}.udlite-icon-color-neutral{color:#73726c}.udlite-icon-color-positive{color:#4dab65}.udlite-icon-color-negative{color:#ec5252}.udlite-icon-color-info{color:#2896a9}.udlite-icon-color-warning{color:#eb8a2f}
+/*# sourceMappingURL=entry-udlite-baseline-modern.1b4f4fb58e80ec02df6c.css.map*/
+   .legal-notice--toast--1iLrp{background:#1e1e1c;color:#fff;padding:1.6rem 5.6rem 1.6rem 2.4rem;position:fixed;bottom:0;left:0;width:100%;z-index:1030}.legal-notice--toast--1iLrp a{color:#fff;text-decoration:underline}.legal-notice--close-btn--2BZfw{position:absolute;top:.8rem;right:.8rem}
+.bai-banner--bai-banner--25Ewk{padding-top:1.6rem;padding-bottom:1.6rem}.bai-banner--subtitle--36Adc{padding:.8rem 0}@media screen and (min-width:43.81em){.bai-banner--bai-banner--25Ewk{display:flex;justify-content:space-between;align-items:center}.bai-banner--button-container--32up8{flex-shrink:0;padding-left:.8rem}}
+.udlite-select-container{position:relative}.udlite-select{background:#fff;border-radius:4px;border:1px solid #dcdacb;cursor:pointer;display:block;padding:0 4rem 0 1.6rem;width:100%;appearance:none;-moz-appearance:none;-webkit-appearance:none}.udlite-select:focus{border-color:#73726c}.udlite-select:invalid,.udlite-select [disabled]{color:#73726c}.udlite-select-icon-container{pointer-events:none;display:flex;align-items:center;position:absolute;top:0;height:100%;padding:0 .8rem}.udlite-select-icon-left{left:0;justify-content:flex-end}.udlite-select-icon-right{right:0}.udlite-select-container-large .udlite-select{height:4.8rem}.udlite-select-container-large .udlite-select-with-icon{padding-left:4rem}.udlite-select-container-large .udlite-select-icon-container{width:4rem}.udlite-select-container-small .udlite-select{height:4rem}.udlite-select-container-small .udlite-select-with-icon{padding-left:3.6rem}.udlite-select-container-small .udlite-select-icon-container{width:3.6rem}
+.ufb-notice--notice--12AAi{padding-top:2.4rem;padding-bottom:2.4rem}.ufb-notice--partner-logos--3HzrN{margin-right:-2.4rem}.ufb-notice--partner-logos--3HzrN img{margin-right:2.4rem;padding-bottom:2.4rem}@media screen and (min-width:43.81em){.ufb-notice--partner-logos--3HzrN{display:flex;align-items:center}}@media screen and (min-width:75.06em){.ufb-notice--notice-row--3tUOv{display:flex;justify-content:space-between;align-items:center}.ufb-notice--notice--12AAi{padding:2.4rem 3.2rem 2.4rem 0}.ufb-notice--partner-logos--3HzrN{padding:0;text-align:right;min-width:68.5rem}.ufb-notice--partner-logos--3HzrN img{padding-bottom:0}}
+.udlite-footer .footer-section{background:#fff;border-top:1px solid #dcdacb;padding-left:2.4rem;padding-right:2.4rem}.udlite-footer .locale-select-container,.udlite-footer .logo-container{padding:1.6rem 0}.udlite-footer .logo-container{display:flex;align-items:center}.udlite-footer .benesse-logo{margin:-0.8rem 0 0 2.4rem}.udlite-footer .link{display:block;padding:.4rem 0}.udlite-footer .copyright-container{color:#73726c;padding-bottom:1.6rem}@media screen and (min-width:43.81em){.udlite-footer .footer-section-main{padding-top:2.4rem}.udlite-footer .links-and-locale{display:flex}.udlite-footer .locale-select-container{padding:0;order:1;flex-shrink:0;margin-left:auto}.udlite-footer .link-column{flex-basis:25.6rem;margin-right:1.6rem}.udlite-footer .logo-and-copyright{display:flex;justify-content:space-between;align-items:center;margin:6.4rem 0 4.8rem 0}.udlite-footer .logo-and-copyright .logo-container{padding:0}.udlite-footer .logo-and-copyright .copyright-container{padding:0;height:100%;top:50%;color:#73726c}}@media screen and (min-width:61.31em){.udlite-footer .footer-section{padding-left:3.2rem;padding-right:3.2rem}}@media screen and (min-width:75.06em){.udlite-footer .footer-section{padding-left:4.8rem;padding-right:4.8rem}}
+.full-page-overlay--full-page-overlay--2EGvi{background:rgba(30,30,28,0.8);left:0;opacity:0;transform:scale(0);position:fixed;top:0;width:100%;height:100%;transition:opacity 100ms linear,transform 0ms linear 100ms;z-index:1040}.full-page-overlay-checkbox:checked~.full-page-overlay--full-page-overlay--2EGvi,.full-page-overlay-checkbox:checked ~ .full-page-overlay-container .full-page-overlay--full-page-overlay--2EGvi{opacity:1;cursor:pointer;transform:scale(1);transition:opacity 100ms linear}
+.udlite-text-input{border-radius:2px;border:1px solid #dcdacb;display:block;padding:0 1.6rem;width:100%}.udlite-text-input::-moz-placeholder{color:#73726c;opacity:1}.udlite-text-input:-ms-input-placeholder{color:#73726c}.udlite-text-input::-webkit-input-placeholder{color:#73726c}.udlite-text-input:focus{border-color:#3c3b37}.udlite-text-input-large{height:4.8rem}.udlite-text-input-small{height:4rem}
+.udlite-search-form-autocomplete{position:relative}.udlite-search-form-autocomplete .udlite-search-form-autocomplete-input{border:0;flex:1}.udlite-search-form-autocomplete .udlite-search-form-autocomplete-suggestions{animation:expand 150ms cubic-bezier(0, 0, .38, .9);background:#fff;border:1px solid #dcdacb;left:-1px;padding:1.6rem;position:absolute;right:0;top:100%;transform-origin:top;width:calc(100% + 2px);max-width:none;z-index:1000}.udlite-search-form-autocomplete-input-group{display:flex;align-items:center;height:100%}.udlite-search-form-autocomplete-input-group-reversed{flex-direction:row-reverse}.udlite-search-form-autocomplete-input-group-reversed .udlite-search-form-autocomplete-input{padding-left:.4rem}.udlite-search-form-autocomplete-suggestion{animation:fade-in 150ms linear 150ms forwards;opacity:0}@media (max-width:23.44em){.udlite-search-form-autocomplete-suggestions .udlite-search-form-autocomplete-suggestion{padding:.4rem 0}}.udlite-search-form-autocomplete-suggestion-focus{outline:4px solid #f0bd4f}.udlite-search-form-autocomplete-suggestion-content{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}@keyframes fade-in{from{opacity:0}to{opacity:1}}@keyframes expand{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.smart-bar--smart-bar--32jNQ{display:flex;position:relative;z-index:1010}.smart-bar--instructor-bar--purple--34JvV,.smart-bar--smart-bar--purple--2BIMb{color:#420e31;background:#d99bc4}.smart-bar--smart-bar--teal--1Hv2o{color:#003640;background:#8ed1dc}.smart-bar--smart-bar--yellow--3RXTf{color:#593d00;background:#ffe799}.smart-bar--smart-bar__action-url--29ljD{cursor:default;color:inherit}.smart-bar--smart-bar__close--2Xuuy{color:#3c3b37 !important;background:transparent !important;margin:.8rem}.smart-bar--smart-bar__content--3Y6xq{flex-basis:100%;padding-top:1.6rem;padding-bottom:1.6rem;padding-left:2.4rem}.smart-bar--smart-bar__subtitle--1MYlO a{text-decoration:underline}.smart-bar--smart-bar__title--3tKKr{font-weight:700;margin-right:.4rem}.smart-bar--basic-bar-content--1cTYB{text-align:left}@media (min-width:61.31em){.smart-bar--basic-bar-content--1cTYB{text-align:center}}
+.udlite-notification-badge{background:#ec5252;color:#fff;display:inline-block;font-weight:700;text-align:center}.udlite-notification-counter{border-radius:9999px;font-size:0.9em;min-width:2em;padding:.4rem .8rem}.udlite-notification-dot{font-size:1.2rem;border-radius:50%;height:1em;width:1em}
+.close-button--close-btn--CjQjb{background:#fff;border:0;box-shadow:0 2px 4px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.08);position:absolute}
+.udlite-avatar{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;object-fit:cover;color:#fff}.udlite-avatar-image{border:1px solid #dcdacb}
+.side-drawer--side-drawer--2btsf{display:block;position:fixed;top:0;width:28rem;max-width:78%;height:100%;background:#fff;z-index:1040;transition:transform 150ms cubic-bezier(.2, 0, 1, .9)}.side-drawer--side-drawer--2btsf .side-drawer--side-drawer--2btsf{position:absolute;max-width:100%;box-shadow:0 2px 4px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.08)}.side-drawer--side-drawer--2btsf .side-drawer--close-btn--B3lni{top:0;margin:1.6rem;transform:scale(0);transition:transform 150ms cubic-bezier(.2, 0, 1, .9)}.side-drawer--main-drawer-checkbox--MjJ8D:checked~.side-drawer--side-drawer--2btsf,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked+.side-drawer--side-drawer--2btsf,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked~.side-drawer--side-drawer--2btsf:last-of-type+.side-drawer--drawer-radio--2rJDZ+.side-drawer--side-drawer--2btsf{transform:translateX(0);transition:transform 250ms cubic-bezier(0, 0, .38, .9)}.side-drawer--main-drawer-checkbox--MjJ8D:checked~.side-drawer--side-drawer--2btsf .side-drawer--close-btn--B3lni,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked+.side-drawer--side-drawer--2btsf .side-drawer--close-btn--B3lni,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked~.side-drawer--side-drawer--2btsf:last-of-type+.side-drawer--drawer-radio--2rJDZ+.side-drawer--side-drawer--2btsf .side-drawer--close-btn--B3lni{transform:scale(1);transition:transform 100ms cubic-bezier(0, 0, .38, .9) 400ms}.side-drawer--main-drawer-checkbox--MjJ8D:checked~.side-drawer--side-drawer--2btsf .side-drawer--drawer-container--fv87h,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked+.side-drawer--side-drawer--2btsf .side-drawer--drawer-container--fv87h,.side-drawer--side-drawer--2btsf .side-drawer--drawer-radio--2rJDZ:checked~.side-drawer--side-drawer--2btsf:last-of-type+.side-drawer--drawer-radio--2rJDZ+.side-drawer--side-drawer--2btsf .side-drawer--drawer-container--fv87h{opacity:1;transition:opacity 250ms linear 250ms}.side-drawer--drawer-container--fv87h{position:absolute;top:0;left:0;width:100%;height:100%;clip:rect(auto, auto, auto, auto);opacity:0;transition:opacity 150ms linear}.side-drawer--drawer-content--1xUDo{height:100%;overflow:auto;padding-bottom:4.8rem}.side-drawer--side-left--Pmw8k{left:0;transform:translateX(-34.4rem)}.side-drawer--side-left--Pmw8k .side-drawer--side-drawer--2btsf{transform:translateX(34.4rem)}.side-drawer--side-left--Pmw8k .side-drawer--close-btn--B3lni{left:100%}.side-drawer--side-right--15KUh{right:0;transform:translateX(34.4rem)}.side-drawer--side-right--15KUh .side-drawer--side-drawer--2btsf{transform:translateX(34.4rem)}.side-drawer--side-right--15KUh .side-drawer--close-btn--B3lni{right:100%}.side-drawer--main-drawer-checkbox--MjJ8D:not(:checked)~.side-drawer--side-drawer--2btsf .side-drawer--close-btn--B3lni,.side-drawer--main-drawer-checkbox--MjJ8D:not(:checked)~.side-drawer--side-drawer--2btsf .side-drawer--drawer-content--1xUDo,.side-drawer--drawer-radio--2rJDZ:not(:checked)+.side-drawer--side-drawer--2btsf>.side-drawer--drawer-content--1xUDo,.side-drawer--drawer-radio--2rJDZ:not(:checked)+.side-drawer--side-drawer--2btsf>.side-drawer--drawer-container--fv87h>.side-drawer--drawer-content--1xUDo{visibility:hidden;transition:visibility 0ms linear 150ms}
+.mobile-nav--nav--1brOS .mobile-nav--nav-item--1hfFJ{padding-left:1.6rem;padding-right:1.6rem}.mobile-nav--nav--1brOS .mobile-nav--nav-item--1hfFJ.mobile-nav--bold--P2i_i{font-weight:700}.mobile-nav--nav--1brOS .mobile-nav--highlighted--M1nGW{background:#f8f8f1}.mobile-nav--nav--1brOS .mobile-nav--underlined--ODjSi{border-bottom:1px solid #dcdacb}.mobile-nav--auth-section--NtT1I{padding:.8rem 0}.mobile-nav--nav--1brOS .mobile-nav--profile-section--22AiC .mobile-nav--nav-item--1hfFJ,.mobile-nav--profile-section-content---u4ow{display:flex;align-items:center}.mobile-nav--go-back-section--1hoSL{margin-bottom:.8rem}.mobile-nav--nav-section-heading--3OccJ{padding:1.6rem 1.6rem .4rem 1.6rem}.mobile-nav--nav-section-heading--3OccJ~.mobile-nav--nav-section-heading--3OccJ{border-top:1px solid #dcdacb;margin-top:.8rem}.mobile-nav--profile-section-content---u4ow .mobile-nav--profile-badge--1EH_N{position:absolute;font-size:1.6rem;top:0;right:2%}.mobile-nav--profile-name--39fkZ{margin:0 .8rem 0 1.6rem;word-break:break-word}.mobile-nav--profile-welcome--Z65dC{color:#73726c;margin:0 .8rem 0 1.6rem}
+.udlite-header,.header--header--1ffLd{z-index:1010}.header--header--1ffLd{background:#fff;box-shadow:0 2px 4px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.08);padding:.4rem;position:relative}.header--row--29n3s{display:flex;align-items:center}.header--middle--F2ENI{flex:1;justify-content:center}.header--right-spacer--28fNG{width:4.8rem;height:4.8rem;visibility:hidden}.header--search-bar--1M3Y7{background:inherit;position:absolute;top:0;left:0;width:100%;height:100%}.header--search-bar--1M3Y7 .header--search-bar-form--2OElp{padding:.4rem 5.6rem .4rem .4rem}.header--search-bar-close--WDisN{position:absolute;top:.4rem;right:.4rem;z-index:1}#header-toggle-search-bar:not(:checked)~* .header--search-bar-layer--2Wow0{display:none}.header--header--1ffLd .header--cart-badge--Qq2Wb{position:absolute;font-size:1.2rem;margin:0 0 0 -0.4rem;top:0;left:50%}
+.styles--show-cache-debug-container--f7q1j{right:10px;padding:10px;position:fixed;bottom:50px;z-index:1050}
+.banner-alert--banner-alert--2yCaQ{background:#fff;border:1px solid #dcdacb;border-radius:2px;display:flex;padding:1.6rem}.banner-alert--banner-alert-cta-container--1fkJk{display:flex}.banner-alert--banner-alert-error--1SaF9{background:#fdf7f7;border-color:#f99;color:#b32929}.banner-alert--banner-alert-warning--3pOE4{background:#fff7f0;border-color:#ffc48c;color:#be5a0e}.banner-alert--banner-alert-icon-container--KERBs{margin-right:1.6rem}.banner-alert--banner-alert-text-frame--3OeqR{display:flex;flex-direction:column;margin:.8rem 0}.banner-alert--text-frame-with-icon--1M5PU{margin-top:.4rem;justify-content:center;min-height:3.2rem}.banner-alert--banner-alert-text--2Th5W{margin-top:.4rem}.banner-alert--button--2bCBG+.banner-alert--button--2bCBG{margin-left:1.6rem}
+.ui-feedback--ui-feedback-dialog--stDLH{position:fixed;bottom:0;left:0;width:100%;z-index:1030}
+/*# sourceMappingURL=udlite-common-css.56301d176e789c580e65.css.map*/
+   (window.webpackJsonp=window.webpackJsonp||[]).push([["udlite-common-css"],[]]);
+//# sourceMappingURL=udlite-common-css.6d7ec44efe0ed6019867.js.map
+   (window.webpackJsonp=window.webpackJsonp||[]).push([["common-udlite-desktop-server-side"],[]]);
+//# sourceMappingURL=common-udlite-desktop-server-side.0cf2c2c249458aad1f70.js.map
+   (window.webpackJsonp=window.webpackJsonp||[]).push([["course-landing-page-udlite-server-side","cart-udlite-pages-cart-success-modal-server-side"],[]]);
+//# sourceMappingURL=course-landing-page-udlite-server-side.088eb6123c4225f4d9d5.js.map
+            window.UD = window.UD || {};
+        window.UD.Config = {"features":{"referral_program_enabled":true,"social_share":{"email":true,"welcome_popup":true},"report_abuse":true,"ufb_notices_footer":{"top_com":true},"zendesk_chat":false,"notice":{"instructor_bar":false,"ufb_smart_bar":false,"smart_bar":true},"logged_in_home":{"ufb_ad":false,"linkbar_level_2":true},"hello_bar":{"instructor":false,"pricing":true,"terms":true},"flyout":true,"course":{"students":{"unenroll":false},"discussions":{"view":true},"refundable":true,"announcements":{"comments":{"view":true}}},"shopping_cart":true,"ufb_notices":true,"organization":{"enterprise":{"onboarding_enabled":true},"auth":{"scim_integration_component_enabled":true,"scim_api_enabled":false},"manage_insights":{"timeframe_filtering":false},"learning_path":{"enabled":false},"manage_satisfaction":{"satisfaction":false}},"intercom_chat":false,"course_badge":true,"home":{"my_courses":{"revenue":true,"free_label":true,"privacy":true},"signup_cta":true},"discount":{"change_alerts":true},"invite":{"alert":true},"bundle":{"instructor_bio":{"social_links":true}},"reviews":{"show_user_avatar":true},"wishlist":true,"course_review":{"clp_review_search":true,"leave_feedback":true},"course_landing_page":{"deal_badge":true,"incentives":{"access_tv":true,"lifetime_access":true},"money_back_guarantee":true,"instructor_bio":{"stats":true,"social_links":true,"image":true}}},"marketplace_country":{"title":"Ukraine","iso_code":"UKR","_class":"country","id":"UA","currency":"usd"},"url":{"to_js":"https://www.udemy.com/staticx/udemy/js/","to_page_events":"https://page-events-ustats.udemy.com/","to_app":"https://www.udemy.com/","to_images":"https://www.udemy.com/staticx/udemy/images/","to_root":"https://www.udemy.com/"},"use_cookieless_hls":true,"brand":{"product_name":"Udemy","is_autoshow_cc_enabled":true,"is_teaching_enabled":true,"is_share_to_workplace_enabled":false,"is_import_courses_enabled":true,"has_organization":false,"is_sso_enabled":false,"logo_url_2x":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_add_reviews_enabled":true,"is_feed_commenting_enabled":true,"identifier":"udemy","is_third_party_marketing_enabled":true,"is_social_sharing_enabled":true,"product_logo_light":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg","title":"Udemy","_class":"brand","is_messaging_enabled":true,"is_government":false,"is_external_sources_enabled":true,"is_discussions_enabled":true,"product_logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_profile_functions_enabled":true,"link_bar_nav_list_id":"ud-link-bar","organization":false,"is_team":false,"is_share_on_slack_enabled":false},"env":"PROD","app_name":"course_landing_page","third_party":{"filestack":{"s3_fineuploader_misc_extensions":[".qcp",".mms",".flac",".gre",".es",".fsc",".bz2",".fbs",".gtw",".docx",".cc",".nim",".tnef",".tif",".wiz",".rl",".x_t",".vbox",".docm",".ktr",".rcprofile",".mpg",".ltf",".lrm",".win",".xpdl",".vwx",".wpl",".tiff",".dssc",".vis",".t38",".pskcxml",".mif",".sfd-hdstx",".ksh",".vew",".zaz",".au",".mhtml",".epub",".map",".oda",".dart",".xer",".or2",".wqd",".siv",".csp",".src",".xsm",".itp",".c11amc",".hxx",".pl",".uvi",".sgif",".fvt",".wspolicy",".mads",".cxx",".sus",".tgz",".azv",".vcx",".xht",".dpg",".sdo",".xns",".ptid",".odg",".gram",".abc",".tcap",".ppm",".wv",".ipfix",".ktz",".s1j",".wbs",".csh",".enw",".json-patch",".ief",".pbm",".pvb",".uvd",".mgz",".es3",".roa",".cii",".uvvx",".bpd",".sgm",".dll",".msm",".ink",".xul",".odc",".u8hdr",".xyz",".dms",".ms",".1",".atomsvc",".kil",".dna",".mail",".sldm",".webp",".xml",".awb",".kpr",".seml",".g\u00b3",".clkp",".sic",".text",".dvi",".rdz",".mwf",".ppa",".gph",".mcd",".moml",".s1g",".hdf",".mb",".iif",".mgp",".mxmf",".rlc",".3dm",".grxml",".pkipath",".rnd",".mrc",".pptm",".shf",".mdi",".u8msg",".psb",".cdmid",".sig",".ns3",".kne",".hpi",".fly",".html",".ssw",".tau",".nnw",".p7m",".mpn",".pls",".mpt",".gex",".wk4",".nws",".mpc",".xif",".tar",".atomdeleted",".pti",".p10",".pgp",".m4a",".cdmic",".uoml",".chm",".aal",".lbd",".dir",".wbxml",".ico",".ogg",".art",".mts",".cil",".sla",".std",".csv",".mp2",".seed",".gsm",".oxps",".plb",".conf",".zfo",".oa3",".sem",".xwd",".psid",".preminet",".rgbe",".hvd",".bed",".sdp",".sv4crc",".scm",".listafp",".vrml",".tei",".request",".rsheet",".nnd",".gqs",".xhtml",".3gp",".cdkey",".o",".uvv",".pm",".kmz",".prc",".evb",".jpg",".provx",".wps",".ts",".irp",".pyo",".ppsm",".fdf",".ic2",".spq",".oas",".vxml",".semf",".scd",".fpx",".m21",".sh",".psd",".omg",".atx",".msl",".fo",".nml",".ac3",".azf",".p12",".ppsx",".thmx",".crl",".or3",".xslt",".sppt",".mp4",".potx",".sm",".vbk",".ktx",".fits",".jar",".123",".qxb",".prz",".ram",".sc",".apk",".otc",".spot",".tag",".et3",".nb",".vsc",".m2v",".plj",".uri",".xbd",".wk3",".uvp",".clkx",".mets",".pqa",".pack",".rp9",".dts",".p7s",".gv",".lbe",".pdb",".uvx",".dvc",".xar",".silo",".qfx",".vcd",".latex",".uva",".ssml",".xyze",".g3",".sit",".smh",".exe",".acutc",".frm",".ecelp4800",".ic0",".tsq",".package",".uvvd",".rpss",".zmm",".lzh",".wml",".c11amz",".ndl",".wk1",".tmo",".td",".tsd",".mpm",".cryptonote",".xlsm",".teacher",".x3d",".mpeg",".aso",".apr",".yang",".smv",".plf",".cmp",".4",".ics",".mid",".xdp",".rq",".rdf-crypt",".atom",".igl",".pcl",".doc",".ns2",".uvz",".bin",".nds",".shar",".qam",".c",".pyc",".odf",".2",".vst",".sgml",".dist",".pdf",".pki",".oti",".hvp",".xbm",".pkd",".cl",".uvvu",".fit",".btf",".sms",".smov",".tcu",".s1m",".smi",".xdssc",".flw",".xltx",".mpga",".ttf",".ic8",".xvm",".s1n",".dotx",".odd",".icd",".les",".uni",".stml",".rgb",".xsd",".ifb",".c4p",".dotm",".mfm",".mqy",".hvs",".dxp",".ic6",".lvp",".cw",".c4f",".sl",".evw",".icc",".pgm",".uvvt",".pgb",".kwt",".notebook",".plc",".evc",".vtu",".mmd",".edx",".gdl",".texi",".rtf",".list3820",".esf",".ggb",".i2g",".pil",".mht",".mpp",".htke",".3gpp2",".swi",".h",".xps",".rld",".fxp",".model-inter",".axv",".gz",".qxl",".jpx",".movie",".sac",".tpt",".xhtm",".u8dsn",".iges",".ftc",".rnc",".fxpl",".xlt",".wks",".dmp",".acu",".ecelp7470",".aiff",".uvvz",".bmml",".opf",".s1h",".opus",".m4v",".uvg",".igm",".dor",".study-inter",".dtshd",".ivu",".dfac",".provn",".hh",".str",".xpr",".unityweb",".tcl",".gbr",".rms",".dsm",".pps",".jpe",".ksp",".mseed",".o4a",".kon",".tga",".3g2",".qxd",".pbd",".wmlc",".rsm",".tsa",".mpy",".nlu",".cmc",".n3",".uvva",".acc",".oxt",".oth",".uvh",".qwd",".ppd",".txf",".slc",".tra",".gtm",".hal",".jam",".s1e",".m15",".auc",".msh",".igx",".uris",".tfx",".sswf",".quox",".smp3",".xdf",".wmlsc",".dp",".tur",".fcdt",".etx",".gsheet",".el",".emm",".cdmia",".hpgl",".odm",".joda",".yin",".wmls",".xvml",".jpgm",".msf",".sxw",".taglet",".mus",".org",".zirz",".ei6",".wbmp",".sml",".kfo",".entity",".ppt",".s1a",".vcg",".spo",".oprc",".kml",".s14",".m3u",".pfx",".pot",".jp2",".p7c",".asf",".nsg",".cap",".qbo",".stf",".scsf",".gtar",".xfdf",".rtx",".wdb",".djvu",".sql",".uvvg",".fnc",".uvvi",".utz",".wmc",".uvvh",".xmt_txt",".karbon",".ustar",".sse",".cer",".skp",".hps",".flo",".lostxml",".wm",".txt",".bh2",".acn",".pwz",".eol",".nns",".mp3",".soa",".mxf",".ufd",".dcr",".7",".lasxml",".qps",".spd",".scs",".cellml",".wmv",".xlam",".pnm",".flv",".xlm",".irm",".mesh",".8",".pwn",".wpd",".clkw",".c4u",".sxc",".ors",".see",".sandboxed",".hpid",".tsv",".sru",".ice",".xz",".fzs",".ssf",".ic4",".roff",".odp",".t",".tlclient",".cdmio",".vss",".igs",".txd",".sxm",".vsd",".jpg2",".ult",".ntf",".rpst",".ccxml",".ndc",".cdy",".smp",".vsw",".pyv",".ecelp9600",".cww",".3dml",".ps",".skm",".dd2",".atomcat",".css",".mdc",".6",".nsh",".miz",".ait",".mft",".bat",".ggt",".afp",".o4v",".stif",".qca",".mseq",".p8",".mod",".xcs",".quiz",".kwd",".ra",".cgm",".py",".sgi",".ism",".spn",".c4g",".cpt",".fg5",".wg",".l16",".btif",".mxl",".log",".xlw",".cdf",".clkk",".x_b",".cnd",".kpt",".torrent",".hbc",".vpm",".xlsb",".swf",".uvt",".saf",".uric",".rct",".uvvs",".cuc",".dr",".mpa",".emma",".soc",".json",".gim",".wav",".teiCorpus",".dsc",".sjp",".anx",".smo",".eml",".cdxml",".dd",".pod",".skd",".xop",".mpkg",".wvx",".pseg3820",".svg",".iota",".cst",".svgz",".s3m",".susp",".pre",".mag",".ttl",".sdkd",".xmt_bin",".sema",".mov",".xfdl",".lbc",".svc",".s3df",".ahead",".mpe",".tsr",".sxl",".uvm",".m3u8",".ods",".sv4cpio",".jlt",".oa2",".sdkm",".ez",".tfi",".texinfo",".mwc",".metalink",".st",".spdf",".jpf",".copyright",".3",".wsc",".ep",".stw",".twds",".gac",".osf",".m4u",".xlc",".ac",".ccc",".dcf",".rdf",".kcm",".sxg",".wtb",".fts",".cpkg",".htm",".ipk",".ez2",".flx",".obj",".s1q",".ivp",".mrcx",".dcm",".dot",".fdt",".zip",".xpi",".ez3",".u8mdn",".gmx",".sxd",".efif",".mpf",".qwt",".iso",".mbox",".pkg",".ngdat",".spl",".vsf",".grv",".ent",".semd",".inkml",".fxm",".xpm",".mtm",".nitf",".distz",".me",".rss",".xsf",".cpio",".dwf",".rif",".ras",".koz",".ogv",".dataless",".uvvm",".f90",".esa",".ghf",".scq",".mxml",".xel",".knp",".dpgraph",".amr",".sam",".at3",".fcs",".mxs",".zone",".qcall",".woff",".ims",".snd",".box",".bmi",".otg",".ns4",".midi",".mml",".wadl",".sub",".geo",".rst",".xca",".odi",".nc",".pfr",".umj",".tree",".xdw",".s1p",".axa",".lmp",".nbp",".mpg4",".rep",".spng",".cla",".g2w",".dxr",".chrt",".sxi",".m1v",".vcf",".bmp",".sieve",".img",".uvvf",".kia",".xo",".669",".viv",".link66",".med",".wsdl",".mlp",".jpm",".drc",".gxt",".ic1",".xlb",".ogx",".dpkg",".uvvv",".potm",".ic5",".tuc",".asc",".xspf",".finf",".ufdl",".exi",".uvu",".spp",".qxt",".class",".aep",".jad",".bdm",".icf",".726",".pgn",".spf",".crtr",".xav",".s1w",".otf",".odt",".ext",".cif",".ic7",".png",".slt",".stk",".sfd",".cdbcmsg",".mxu",".mbk",".xlim",".smzip",".ica",".sti",".fe_launch",".gif",".portpkg",".a",".dxf",".zir",".xfd",".odb",".xhvml",".mpd",".aifc",".cml",".wgt",".uo",".vcard",".uvs",".curl",".rng",".srx",".hdr",".kom",".jisp",".stm",".sdoc",".cab",".xmls",".mmf",".skt",".ots",".azs",".eot",".m",".wrl",".n-gage",".uvvp",".nsf",".sdf",".dvb",".relo",".ott",".mods",".clkt",".sis",".asx",".aif",".bcpio",".otp",".rip",".sid",".ma",".dwg",".msd",".mp1",".qt",".djv",".pml",".oga",".xsl",".xltm",".si",".tex",".lwp",".uvf",".rpm",".js",".dls",".sxls",".wif",".xpw",".xlsx",".mj2",".lha",".ifm",".kar",".tao",".sisx",".ppam",".manifest",".tnf",".bkm",".xdm",".mxi",".1905.1",".xla",".smpg",".jfif",".dis",".gqf",".sldx",".sjpg",".fla",".fm",".ter",".meta4",".tr",".appcache",".dm",".mp21",".jnlp",".msty",".lostsyncxml",".eps",".webm",".rs",".daf",".5",".pcap",".slaz",".g3w",".rm",".edm",".3gpp",".stc",".twd",".atc",".so",".dtd",".ccmp",".cdmiq",".wma",".ami",".spx",".hqx",".fti",".ic3",".tpl",".orq",".fst",".wax",".wcm",".ddd",".apxml",".dae",".crx",".wmx",".icm",".pptx",".imp",".aa3",".ai",".mjp2",".jpeg",".xpx",".xls",".mc1",".s11",".cpl",".bar",".davmount",".wlnk",".mmr",".c4d",".avi",".ppkg",".jtd",".paw",".sfs",".man",".smil",".ddf",".upa",".smht",".pya",".hbci"],"filepicker_misc_extensions":[".gif",".jpg",".jpeg",".png",".rar",".zip",".pdf"],"video_extensions":[".avi",".mpg",".mpeg",".flv",".mov",".m2v",".m4v",".mp4",".rm",".ram",".vob",".ogv",".webm",".wmv"],"key":"A0EHlHYkEQbCTpDvxEwAYz","audio_extensions":[".mp3",".wav"],"presentation_extensions":[".pdf"],"source_code_extensions":[".rb",".py"]},"intercom":{"app_id":"sehj53dd"},"stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","sift_account":"59c8e981ce","google_analytics_id_for_course_taking":"UA-12366301-45","pusher":{"coding_exercise_event":"coding-exercise-evaluated","key":"825910825f8199bd5b21"},"uft_stripe_publishable_key":"pk_live_dCyHJcZsk8NaNwx1PiRSpqqq","raven_dsn":"https://369c830fbf534485a068ab919d71b80d@sentry.io/38617","s3":{"asset":{"bucket_url":"https://udemy-web-upload-transitional.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"image_asset":{"bucket_url":"https://udemy-image-web-upload.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"images":{"base_url":"https://i.udemycdn.com/"}},"user_stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","google_analytics_id":"UA-12366301-1","google_tag_manager_id":"GTM-7BF3X","facebook_app_id":"313137469260","paypal":{"returnurl":"https://www.udemy.com/user/paypal-login-return","authend":"live","appid":"ASRJrkbBfTwvxWNTn-QRakeimIbsjmBuK5hWj4zq3QJL46CKIYNb-RiKjrTSe-2iZ-EFrCCuXGZTxHjY"},"zendesk":{"refund_form_id":406368},"google_analytics_id_for_ufb_only":"UA-12366301-47","branch_metrics":{"android_download_url":"http://ude.my/android","android_ufb_download_url":"http://ude.my/android-ufb","ios_ufb_download_url":"http://ude.my/ios-ufb","ios_download_url":"http://ude.my/ios"}},"supported_languages":[{"locale":"en_US","name":"English","lang":"en"},{"locale":"de_DE","name":"Deutsch","lang":"de"},{"locale":"es_ES","name":"Espa\u00f1ol","lang":"es"},{"locale":"fr_FR","name":"Fran\u00e7ais","lang":"fr"},{"locale":"id_ID","name":"Bahasa Indonesia","lang":"id"},{"locale":"it_IT","name":"Italiano","lang":"it"},{"locale":"ja_JP","name":"\u65e5\u672c\u8a9e","lang":"ja"},{"locale":"ko_KR","name":"\ud55c\uad6d\uc5b4","lang":"ko"},{"locale":"nl_NL","name":"Nederlands","lang":"nl"},{"locale":"pl_PL","name":"Polski","lang":"pl"},{"locale":"pt_BR","name":"Portugu\u00eas","lang":"pt"},{"locale":"ro_RO","name":"Rom\u00e2n\u0103","lang":"ro"},{"locale":"ru_RU","name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","lang":"ru"},{"locale":"th_TH","name":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","lang":"th"},{"locale":"tr_TR","name":"T\u00fcrk\u00e7e","lang":"tr"},{"locale":"zh_CN","name":"\u4e2d\u6587(\u7b80\u4f53)","lang":"zh-cn"},{"locale":"zh_TW","name":"\u4e2d\u6587(\u7e41\u9ad4)","lang":"zh-tw"}],"price_country":{"usd_currency_formatter":{"scale":2,"pattern":"!#,##0.00","decimal":".","locale":"en_US","symbol":"$","currency":"usd","group":","},"_class":"country","currency_charm_amount":-0.01,"currency_symbol":"$","currency_decimal_places":2,"currency_formatter":{"scale":2,"pattern":"!#,##0.00","decimal":".","locale":"en_US","symbol":"$","currency":"usd","group":","},"id":"UA","currency":"usd"},"js_bundle":"modern","version":"12bcc0fa2934e968d3cbd2cca3a5f2aa11fc87d1"};
+        window.UD.experiment = {"udlite":{"2652":{"state":"recorded","values":{"button_color":"red","is_udlite":true},"variant":6698}},"sw":{"2296":{"state":"recorded","values":{"update_list_price":false,"price_engine_variant":3},"variant":5814},"2448":{"state":"recorded","values":{"CDNProvider":"centurylink"},"variant":6224},"2578":{"state":"recorded","values":{"arabic_language_source":"browser"},"variant":6530},"2598":{"state":"recorded","values":{"nearest_99_adjustment":true},"variant":6568}}};
+        window.UD.request = {"termsBarUrls":"","navigation_locale":"en_US","termsBarType":"","serverTimestamp":"2020-03-13T18:35:19.660766+00:00","language":"en","isTablet":false,"locale":"en_US","language_simple_english_title":"English","isMobile":false,"third_party_location":"","isPC":true};
+        window.UD.request.clientTimestamp = new Date().toISOString();
+        window.UD.site_stats = {"default":{"num_students":24,"num_topics":2000,"num_instructors":35000,"num_courses":100000},"organizations":{"num_courses":4000}};
+        window.UD.meProperties = ["_class","id","email","display_name","job_title","initials","title","time_zone","country","created","locale","language","learning_languages","name","surname","image_50x50","image_100x100","settings","qualaroo_survey_ids","encrypted_affiliate_uid","encrypted_affiliate_email","percent_coupon_page_enabled","percent_coupon_page_creation_enabled","encrypted_id","has_made_paid_purchase","number_of_courses_purchased"];
+        window.UD.visitingProperties = ["visitor_uuid","is_first_time_visitor","first_visit_time"];
+        window.UD.trackingProperties = ["tracking_enabled","tracking_id","collector_url"];
+            if (window.performance && typeof window.performance.mark === 'function'
+            && typeof window.performance.measure === 'function') {
+        UD.performance = {
+            _trackedResources: [],
+            _eventNamePrefix: 'UD-',
+            trackResourceTiming: function (resourceName, resourceUrl) {
+                this._trackedResources.push({ name: resourceName, url: resourceUrl });
+            },
+            mark: function (name) {
+                window.performance.mark(this._eventNamePrefix + name);
+            },
+            start: function (name) {
+                window.performance.mark(this._eventNamePrefix + '_' + name + '-start');
+            },
+            end: function (name) {
+                var endMark = this._eventNamePrefix + '_' + name + '-end';
+                var startMark = this._eventNamePrefix + '_' + name + '-start';
+                window.performance.mark(endMark);
+                if (window.performance.getEntriesByName(startMark).length > 0) {
+                    window.performance.measure(this._eventNamePrefix + name, startMark, endMark);
+                }
+            },
+            sync: function() {
+                window.dispatchEvent(new CustomEvent('syncPerf',
+                    { detail: { trackedResources: this._trackedResources } }
+                ));
+            }
+        };
+    } else {
+        UD.performance = {
+            trackResourceTiming: Function.prototype,
+            mark: Function.prototype,
+            start: Function.prototype,
+            end: Function.prototype,
+            sync: Function.prototype
+        };
+    }
+            window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        (window.ga.q = window.ga.q || []).push(arguments);
+    };
+    window.ga.l = 1 * new Date();
+    UD.GoogleAnalytics = UD.GoogleAnalytics || {};
+    UD.GoogleAnalytics.createAccount = function (accountId, propertyName, domainName) {
+        if (accountId) {
+            if (propertyName) {
+                // Required for multiple trackers
+                window.ga('create', accountId, 'auto', {'name': propertyName, 'cookieDomain': domainName || 'none',
+                    'siteSpeedSampleRate': 10});
+            } else {
+                window.ga('create', accountId, 'auto', {'siteSpeedSampleRate': 10});
+                window.ga('require', 'displayfeatures'); // Enables retargeting
+            }
+            window.ga('set', {
+                'anonymizeIp': true,
+                'location' : ""
+            });
+        }
+    };
+    UD.GoogleAnalytics.createAccount(UD.Config.third_party.google_analytics_id);
+        Skip to content
+        Categories
+       Search for anything
+     Development
+      Web Development
+      Data Science
+      Mobile Apps
+      Programming Languages
+      Game Development
+      Databases
+      Software Testing
+      Software Engineering
+      Development Tools
+      E-Commerce
+     Business
+      Finance
+      Entrepreneurship
+      Communications
+      Management
+      Sales
+      Strategy
+      Operations
+      Project Management
+      Business Law
+      Data & Analytics
+      Home Business
+      Human Resources
+      Industry
+      Media
+      Real Estate
+      Other
+     Finance & Accounting
+      Accounting & Bookkeeping
+      Compliance
+      Cryptocurrency & Blockchain
+      Economics
+      Finance
+      Finance Cert & Exam Prep
+      Financial Modeling & Analysis
+      Investing & Trading
+      Money Management Tools
+      Taxes
+      Other Finance & Economics
+     IT & Software
+      IT Certification
+      Network & Security
+      Hardware
+      Operating Systems
+      Other
+     Office Productivity
+      Microsoft
+      Apple
+      Google
+      SAP
+      Oracle
+      Other
+     Personal Development
+      Personal Transformation
+      Productivity
+      Leadership
+      Personal Finance
+      Career Development
+      Parenting & Relationships
+      Happiness
+      Religion & Spirituality
+      Personal Brand Building
+      Creativity
+      Influence
+      Self Esteem
+      Stress Management
+      Memory & Study Skills
+      Motivation
+      Other
+     Design
+      Web Design
+      Graphic Design
+      Design Tools
+      User Experience
+      Game Design
+      Design Thinking
+      3D & Animation
+      Fashion
+      Architectural Design
+      Interior Design
+      Other
+     Marketing
+      Digital Marketing
+      Search Engine Optimization
+      Social Media Marketing
+      Branding
+      Marketing Fundamentals
+      Analytics & Automation
+      Public Relations
+      Advertising
+      Video & Mobile Marketing
+      Content Marketing
+      Growth Hacking
+      Affiliate Marketing
+      Product Marketing
+      Other
+     Lifestyle
+      Arts & Crafts
+      Food & Beverage
+      Beauty & Makeup
+      Travel
+      Gaming
+      Home Improvement
+      Pet Care & Training
+      Other
+     Photography
+      Digital Photography
+      Photography Fundamentals
+      Portraits
+      Photography Tools
+      Commercial Photography
+      Video Design
+      Other
+     Health & Fitness
+      Fitness
+      General Health
+      Sports
+      Nutrition
+      Yoga
+      Mental Health
+      Dieting
+      Self Defense
+      Safety & First Aid
+      Dance
+      Meditation
+      Other
+     Music
+      Instruments
+      Production
+      Music Fundamentals
+      Vocal
+      Music Techniques
+      Music Software
+      Other
+     Teaching & Academics
+      Engineering
+      Humanities
+      Math
+      Science
+      Online Education
+      Social Science
+      Language
+      Teacher Training
+      Test Prep
+      Other Teaching & Academics
+      Financial Analysis
+      Investing
+      Stock Trading
+      Forex
+      Finance Fundamentals
+      Financial Modeling
+      Excel
+      Accounting
+      Python
+      AWS Certification
+      AWS Certified Solutions Architect - Associate
+      Cisco CCNA
+      CompTIA A+
+      AWS Certified Developer - Associate
+      AWS Certified Cloud Practitioner
+      CompTIA Security+
+      CompTIA Network+
+      Microsoft AZ-900
+      Photoshop
+      Graphic Design
+      Drawing
+      Adobe Illustrator
+      Digital Painting
+      InDesign
+      Character Design
+      Figure Drawing
+      Logo Design
+      Life Coach Training
+      Reiki
+      Neuro-Linguistic Programming
+      Energy Healing
+      Neuroscience
+      Emotional Intelligence
+      Mindfulness
+      Hypnotherapy
+      Meditation
+      Web Development
+      JavaScript
+      React
+      Angular
+      CSS
+      PHP
+      Node.Js
+      WordPress
+      Python
+      Android Development
+      Google Flutter
+      iOS Development
+      Swift
+      React Native
+      Dart Programming Language
+      Mobile Development
+      Kotlin
+      Ionic
+      Digital Marketing
+      Google Ads (Adwords)
+      Google Ads (AdWords) Certification
+      Social Media Marketing
+      Marketing Strategy
+      Facebook Marketing
+      Google Analytics
+      Email Marketing
+      Internet Marketing
+      SQL
+      Microsoft Power BI
+      Business Analysis
+      Tableau
+      Business Intelligence
+      MySQL
+      Data Modeling
+      Data Analysis
+      Big Data
+      Business Fundamentals
+      Dropshipping
+      Amazon FBA
+      Entrepreneurship Fundamentals
+      Business Strategy
+      Business Plan
+      Startup
+      Blogging
+      WordPress
+      Unity
+      C#
+      Game Development Fundamentals
+      Unreal Engine
+      3D Game Development
+      C++
+      2D Game Development
+      Unreal Engine Blueprints
+      Mobile Game Development
+        [{"name":"Microsoft Excel - Excel from Beginner to Advanced","audience":{"@type":"Audience","audienceType":["This Microsoft Excel courses will take you through 4 levels of Microsoft Excel topics (Beginner, Intermediate, Advanced and Macros/VBA).","If your looking to take your Excel skills from beginner to advanced level and beyond, then this course is for you."]},"inLanguage":"en","provider":{"name":"Kyle Pew","@type":"Organization","sameAs":"www.udemy.com/user/kyle-pew/"},"image":"https://i.udemycdn.com/course/750x422/793796_0e89.jpg","@id":"https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/","@type":"Course","creator":[{"name":"Kyle Pew","@type":"Person"},{"name":"Office Newb LLC","@type":"Person"}],"aggregateRating":{"ratingCount":97196,"bestRating":5,"@type":"AggregateRating","worstRating":0.5,"ratingValue":"4.6"},"publisher":{"name":"Udemy","@type":"Organization","sameAs":"www.udemy.com"},"description":"\u003cp\u003e\u003cstrong\u003eMicrosoft Excel all in One Package\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eThis Microsoft Excel course combines \u003cstrong\u003e4 different courses\u003c/strong\u003e.\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 101 - An Introduction to Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 102 - Intermediate Level Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 103 - Advanced Level Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMaster Microsoft Excel Macros and VBA in 6 Simple Projects\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMaterial recorded with Excel 2013 but works in 2010, 2013, 2016, 2019 (Office 365)\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** Recent Student Review *****\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eYou sir are a life saver. Not everyone has the ability to teach. Thank you so much for taking the time to put together an amazing course bro. If anyone doubts buying this course, don't doubt it, buy it. I've learned so much in this course. Hope more courses are on the way because I'd buy every single one of them. Thanks again bro. God bless you and your family.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eHappy to say that I now \"know\" excel. I realize there is so much more to learn, but it's a start! Thank you for being such a great instructor... now on to the next class.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eThanks for a well made course. The progression of topics is well structured and the part about Macro and VBA was new for me. Excel is a really powerful tool and it is worth know all of its aspects. Kyle did a good job at explaining them.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eEnroll now to go through a deep dive\u003c/strong\u003e of the most popular spreadsheet tool on the market, Microsoft Excel. As your instructor I will use my \u003cstrong\u003e15+ years of Excel training \u003c/strong\u003eto guide you step by step through the beginner to advanced level and beyond.\u003c/p\u003e\u003cp\u003eAs you participate in each of the \u003cstrong\u003e4 courses you will master Excel tools \u003c/strong\u003ethat will clear away the pain of stumbling through your daily tasks. You will start with the basics, building a solid foundation that will give you further knowledge as you progress into intermediate and advanced level topics.\u003c/p\u003e\u003cp\u003eAt completion of this course you will have mastered the most popular Excel tools and come out with confidence to complete any Excel tasks with efficiency and grace. Below are just a few of the topics that you will master:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cp\u003eCreating effective spreadsheets\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eManaging large sets of data\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMastering the use of some of Excel's most popular and highly sought after functions (SUM, VLOOKUP, IF, AVERAGE, INDEX/MATCH and many more...)\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eCreate dynamic report with Excel PivotTables\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eUnlock the power and versatility of Microsoft Excel's AddIn, PowerPivot\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eAudit Excel Worksheet formulas to ensure clean formulas\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eAutomate your day to day Excel tasks by mastering the power of Macros and VBA\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cstrong\u003eSo, what are you waiting for, enroll now and take the next step in mastering Excel and go from Excel Newb to Excel Guru!\u003c/strong\u003e\u003c/p\u003e","@context":"http://schema.org","isAccessibleForFree":false,"about":{"name":"Office Productivity"}},{"name":"Microsoft Excel - Excel from Beginner to Advanced","aggregateRating":{"ratingCount":97196,"bestRating":5,"@type":"AggregateRating","worstRating":0.5,"ratingValue":"4.6"},"sku":"course:793796","mpn":"course:793796","description":"\u003cp\u003e\u003cstrong\u003eMicrosoft Excel all in One Package\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eThis Microsoft Excel course combines \u003cstrong\u003e4 different courses\u003c/strong\u003e.\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 101 - An Introduction to Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 102 - Intermediate Level Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMicrosoft Excel 103 - Advanced Level Excel\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMaster Microsoft Excel Macros and VBA in 6 Simple Projects\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMaterial recorded with Excel 2013 but works in 2010, 2013, 2016, 2019 (Office 365)\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** Recent Student Review *****\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eYou sir are a life saver. Not everyone has the ability to teach. Thank you so much for taking the time to put together an amazing course bro. If anyone doubts buying this course, don't doubt it, buy it. I've learned so much in this course. Hope more courses are on the way because I'd buy every single one of them. Thanks again bro. God bless you and your family.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eHappy to say that I now \"know\" excel. I realize there is so much more to learn, but it's a start! Thank you for being such a great instructor... now on to the next class.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e***** \"\u003c/strong\u003e\u003cem\u003eThanks for a well made course. The progression of topics is well structured and the part about Macro and VBA was new for me. Excel is a really powerful tool and it is worth know all of its aspects. Kyle did a good job at explaining them.\u003c/em\u003e\"\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eEnroll now to go through a deep dive\u003c/strong\u003e of the most popular spreadsheet tool on the market, Microsoft Excel. As your instructor I will use my \u003cstrong\u003e15+ years of Excel training \u003c/strong\u003eto guide you step by step through the beginner to advanced level and beyond.\u003c/p\u003e\u003cp\u003eAs you participate in each of the \u003cstrong\u003e4 courses you will master Excel tools \u003c/strong\u003ethat will clear away the pain of stumbling through your daily tasks. You will start with the basics, building a solid foundation that will give you further knowledge as you progress into intermediate and advanced level topics.\u003c/p\u003e\u003cp\u003eAt completion of this course you will have mastered the most popular Excel tools and come out with confidence to complete any Excel tasks with efficiency and grace. Below are just a few of the topics that you will master:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cp\u003eCreating effective spreadsheets\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eManaging large sets of data\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eMastering the use of some of Excel's most popular and highly sought after functions (SUM, VLOOKUP, IF, AVERAGE, INDEX/MATCH and many more...)\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eCreate dynamic report with Excel PivotTables\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eUnlock the power and versatility of Microsoft Excel's AddIn, PowerPivot\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eAudit Excel Worksheet formulas to ensure clean formulas\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eAutomate your day to day Excel tasks by mastering the power of Macros and VBA\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cstrong\u003eSo, what are you waiting for, enroll now and take the next step in mastering Excel and go from Excel Newb to Excel Guru!\u003c/strong\u003e\u003c/p\u003e","@context":"http://schema.org","image":"https://i.udemycdn.com/course/750x422/793796_0e89.jpg","review":{"author":{"name":"Kyle Pew","@type":"Organization","sameAs":"www.udemy.com/user/kyle-pew/"},"@type":"Review","reviewRating":{"ratingCount":97196,"bestRating":5,"@type":"AggregateRating","worstRating":0.5,"ratingValue":"4.6"}},"@type":"Product","brand":{"name":"Udemy","logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","@type":"Brand","description":"Udemy is the world's largest destination for online courses. Discover an online course on Udemy.com and start learning a new skill today."}},{"@type":"BreadcrumbList","itemListElement":[{"name":"Office Productivity","item":"https://www.udemy.com/courses/office-productivity/","@type":"ListItem","position":1},{"name":"Microsoft","item":"https://www.udemy.com/courses/office-productivity/microsoft/","@type":"ListItem","position":2},{"name":"Excel","item":"https://www.udemy.com/topic/excel/","@type":"ListItem","position":3}],"@context":"http://schema.org"}]
+          Microsoft
+          Excel
+              Preview this course
+           Microsoft Excel - Excel from Beginner to Advanced
+           Excel with this A-Z Microsoft Excel Course. Microsoft Excel 2010, 2013, 2016, Excel 2019 and Office 365
+             Bestseller
+                 Rating: 4.6 out of 5
+                 4.6
+               (97,259 ratings)
+             340,205 students
+                 Created by
+                 Kyle Pew, Office Newb LLC
+              Last updated 10/2019
+             English
+                English [Auto-generated], Indonesian [Auto-generated],
+                    6 more
+                    Current price
+                     $13.99
+                     Original Price
+                       $149.99
+                    Discount
+                    91% off
+                  5 hours
+                 left at this price!
+                 Add to cart
+                Buy now
+             UD.performance.mark('CLP.mobile.udlite.buy-button-rendered');
+            UD.performance.sync();
+             30-Day Money-Back Guarantee
+                Preview this course
+                  Add to cart
+                30-Day Money-Back Guarantee
+               This course includes:
+                   16 hours on-demand video
+                   4 articles
+                   37 downloadable resources
+                   Full lifetime access
+                   Access on mobile and TV
+              Training 5 or more people?
+              Get your team access to 4,000+ top Udemy courses anytime, anywhere.
+               Try Udemy for Business
+           What you'll learn
+              Master Microsoft Excel from Beginner to Advanced
+              Build a solid understanding on the Basics of Microsoft Excel
+              Learn the most common Excel functions used in the Office
+              Harness the full power of Microsoft Excel by automating your day to day tasks through Macros and VBA
+              Maintain large sets of Excel data in a list or table
+              Create dynamic reports by mastering one of the most popular tools, PivotTables
+              Wow your boss by unlocking dynamic formulas with IF, VLOOKUP, INDEX, MATCH functions and many more
+              Access to a Professional Trainer with 10+ years of Excel Training
+          Requirements
+             This course was created with Excel 2013. But all features will work in Excel 2010, 2013, 2016 and most will work in 2007.
+           Description
+                Microsoft Excel all in One Package
+               This Microsoft Excel course combines
+                4 different courses
+               .
+                 Microsoft Excel 101 - An Introduction to Excel
+                 Microsoft Excel 102 - Intermediate Level Excel
+                 Microsoft Excel 103 - Advanced Level Excel
+                 Master Microsoft Excel Macros and VBA in 6 Simple Projects
+               Material recorded with Excel 2013 but works in 2010, 2013, 2016, 2019 (Office 365)
+                ***** Recent Student Review *****
+                ***** "
+                You sir are a life saver. Not everyone has the ability to teach. Thank you so much for taking the time to put together an amazing course bro. If anyone doubts buying this course, don't doubt it, buy it. I've learned so much in this course. Hope more courses are on the way because I'd buy every single one of them. Thanks again bro. God bless you and your family.
+               "
+                ***** "
+                Happy to say that I now "know" excel. I realize there is so much more to learn, but it's a start! Thank you for being such a great instructor... now on to the next class.
+               "
+                ***** "
+                Thanks for a well made course. The progression of topics is well structured and the part about Macro and VBA was new for me. Excel is a really powerful tool and it is worth know all of its aspects. Kyle did a good job at explaining them.
+               "
+                Enroll now to go through a deep dive
+               of the most popular spreadsheet tool on the market, Microsoft Excel. As your instructor I will use my
+                15+ years of Excel training
+               to guide you step by step through the beginner to advanced level and beyond.
+               As you participate in each of the
+                4 courses you will master Excel tools
+               that will clear away the pain of stumbling through your daily tasks. You will start with the basics, building a solid foundation that will give you further knowledge as you progress into intermediate and advanced level topics.
+               At completion of this course you will have mastered the most popular Excel tools and come out with confidence to complete any Excel tasks with efficiency and grace. Below are just a few of the topics that you will master:
+                 Creating effective spreadsheets
+                 Managing large sets of data
+                 Mastering the use of some of Excel's most popular and highly sought after functions (SUM, VLOOKUP, IF, AVERAGE, INDEX/MATCH and many more...)
+                 Create dynamic report with Excel PivotTables
+                 Unlock the power and versatility of Microsoft Excel's AddIn, PowerPivot
+                 Audit Excel Worksheet formulas to ensure clean formulas
+                 Automate your day to day Excel tasks by mastering the power of Macros and VBA
+                So, what are you waiting for, enroll now and take the next step in mastering Excel and go from Excel Newb to Excel Guru!
+               Who this course is for:
+                This Microsoft Excel courses will take you through 4 levels of Microsoft Excel topics (Beginner, Intermediate, Advanced and Macros/VBA).
+                If your looking to take your Excel skills from beginner to advanced level and beyond, then this course is for you.
+              Show more
+              Show less
+             Featured review
+                Joe Hernandez
+               54 courses
+               5 reviews
+               Rating: 5.0 out of 1
+               5.0
+              9 months ago
+               You sir are a life saver. Not everyone has the ability to teach. Thank you so much for taking the time to put together an amazing course bro. If anyone doubts buying this course, don't doubt it, buy it. I've learned so much in this course. Hope more courses are on the way because I'd buy every single one of them. Thanks again bro. God bless you and your family.
+                Show more
+                Show less
+           Curriculum
+             39 sections • 195 lectures •
+               15h 58m
+              total length
+             Expand all sections
+                Microsoft Excel 101 Course Introduction
+                3 lectures •
+                 10min
+                   Ask Questions
+                    Preview
+                   Course Exercise Files
+                    Preview
+
+
+
+
+
+
+
+
+                   Certificate of Completion
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Microsoft Excel Fundamentals
+
+                9 lectures •
+                 31min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Launching Excel
+                    Preview
+
+
+
+
+
+
+
+
+
+
+
+
+                   Microsoft Excel Startup Screen
+
+
+
+
+
+
+
+
+
+
+
+                   Introduction to the Excel Interface
+                    Preview
+
+
+
+
+
+
+
+
+
+
+
+
+                   Customizing the Excel Quick Access Toolbar
+
+
+
+
+
+
+
+
+
+
+
+                   More on the Excel Interface
+
+
+
+
+
+
+
+
+
+
+
+                   Understanding the Structure of an Excel Workbook
+
+
+
+
+
+
+
+
+
+
+
+                   Saving an Excel Document
+
+
+
+
+
+
+
+
+
+
+
+                   Opening an Existing Excel Document
+
+
+
+
+
+
+
+
+
+
+
+                   Common Excel Shortcut Keys
+
+
+
+
+
+
+
+
+
+
+
+                   Excel Fundamentals Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Entering and Editing Text and Formulas
+
+                7 lectures •
+                 1hr 3min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Entering Text to Create Spreadsheet Titles
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Numeric Data in Excel
+
+
+
+
+
+
+
+
+
+
+
+                   Entering Date Values in Excel
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Cell References
+
+
+
+
+
+
+
+
+
+
+
+                   Creating Basic Formulas in Excel
+
+
+
+
+
+
+
+
+
+
+
+                   Relative Versus Absolute Cell References in Formulas
+
+
+
+
+
+
+
+
+
+
+
+                   Understanding the Order of Operation (DOWNLOAD EXERCISE FILE)
+
+
+
+
+
+
+
+
+
+
+
+                   Entering and Editing Text and Formulas Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Working with Basic Excel Functions
+
+                9 lectures •
+                 46min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   The structure of an Excel Function
+                    Preview
+
+
+
+
+
+
+
+
+
+
+
+
+                   Working with the SUM() Function
+
+
+
+
+
+
+
+
+
+
+
+                   Working with the MIN() and MAX() Functions
+
+
+
+
+
+
+
+
+
+
+
+                   Working with the AVERAGE() Function
+
+
+
+
+
+
+
+
+
+
+
+                   Working with the COUNT() Function
+
+
+
+
+
+
+
+
+
+
+
+                   Adjacent Cells Error in Excel Calculations
+
+
+
+
+
+
+
+
+
+
+
+                   Using the AutoSum Command
+
+
+
+
+
+
+
+
+
+
+
+                   Excel's AutoSum Shortcut Key
+
+
+
+
+
+
+
+
+
+
+
+                   Using the AutoFill Command to Copy Formulas
+
+
+
+
+
+
+
+
+
+
+
+                   Basic Excel Functions Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Modifying an Excel Worksheet
+
+                7 lectures •
+                 37min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Moving and Copying Data in an Excel Worksheet
+
+
+
+
+
+
+
+
+
+
+
+                   Inserting and Deleting Rows and Columns
+
+
+
+
+
+
+
+
+
+
+
+                   Changing the Width and Height of Cells
+
+
+
+
+
+
+
+
+
+
+
+                   Hiding and Unhiding Excel Rows and Columns
+
+
+
+
+
+
+
+
+
+
+
+                   Renaming an Excel Worksheet
+
+
+
+
+
+
+
+
+
+
+
+                   Deleting an Excel Worksheet
+
+
+
+
+
+
+
+
+
+
+
+                   Moving and Copying an Excel Worksheet
+
+
+
+
+
+
+
+
+
+
+
+                   Modifying Worksheets Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Formatting Data in an Excel Worksheet
+
+                9 lectures •
+                 36min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Font Formatting Commands
+
+
+
+
+
+
+
+
+
+
+
+                   Changing the Background Color of a Cell
+
+
+
+
+
+
+
+
+
+
+
+                   Adding Borders to Cells
+
+
+
+
+
+
+
+
+
+
+
+                   Formatting Data as Currency Values
+
+
+
+
+
+
+
+
+
+
+
+                   Formatting Percentages
+
+
+
+
+
+
+
+
+
+
+
+                   Using Excel's Format Painter
+
+
+
+
+
+
+
+
+
+
+
+                   Creating Styles to Format Data
+
+
+
+
+
+
+
+
+
+
+
+                   Merging and Centering Cells
+
+
+
+
+
+
+
+
+
+
+
+                   Using Conditional Formatting
+
+
+
+
+
+
+
+
+
+
+
+                   Formatting Data Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Inserting Images and Shapes into an Excel Worksheet
+
+                4 lectures •
+                 19min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Inserting Images
+
+
+
+
+
+
+
+
+
+
+
+                   Inserting Excel Shapes
+
+
+
+
+
+
+
+
+
+
+
+                   Formatting Excel Shapes
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Excel SmartArt
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Creating Basic Charts in Excel
+
+                6 lectures •
+                 26min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Creating an Excel Column Chart
+
+
+
+
+
+
+
+
+
+
+
+                   Working with the Excel Chart Ribbon
+
+
+
+
+
+
+
+
+
+
+
+                   Adding and Modifying Data on an Excel Chart
+
+
+
+
+
+
+
+
+
+
+
+                   Formatting an Excel Chart
+
+
+
+
+
+
+
+
+
+
+
+                   Moving a Chart to another Worksheet
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Excel Pie Charts
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Excel Charts Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Printing an Excel Worksheet
+
+                5 lectures •
+                 22min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Viewing your Document in Print Preview
+
+
+
+
+
+
+
+
+
+
+
+                   Changing the Margins, Scaling and Orientation
+
+
+
+
+
+
+
+
+
+
+
+                   Working with Page Layout View
+
+
+
+
+
+
+
+
+
+
+
+                   Adding Header and Footer Content
+
+
+
+
+
+
+
+
+
+
+
+                   Printing a Specific Range of Cells
+
+
+
+
+
+
+
+
+
+
+
+                   Printing and Excel Worksheet Quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Working with Excel Templates
+
+                3 lectures •
+                 12min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   Intro to Excel Templates
+                    Preview
+
+
+
+
+
+
+
+
+
+
+
+
+                   Opening an Existing Template
+
+
+
+
+
+
+
+
+
+
+
+                   Creating a Custom Template
+
+
+
+
+
+
+
+
+
+
+            29 more sections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Instructors
+
+
+
+
+
+
+               Kyle Pew
+
+
+              Microsoft Certified Trainer - 380,000+ Udemy Students
+
+
+
+
+
+
+
+               4.6 Instructor Rating
+
+               123,064 Reviews
+
+               426,968 Students
+
+               18 Courses
+
+
+
+
+
+
+
+
+
+                  Qualifications:
+
+
+                 Kyle is a Microsoft Certified Trainer (MCT) and a certified Microsoft Office Master Instructor and has been teaching and consulting for the past 10+ years on various computer applications, including;
+
+                 Microsoft Office Suite 1997, 2000, XP, 2003, 2007, 2010, 2013Excel, Word, PowerPoint, Outlook, Access and Visio
+
+                 SharePoint End-User 2007, 2010, 2013
+
+                 VBA (Excel and Access)
+
+                 Adobe SuitePhotoshop, Illustrator, InDesign
+
+                 Maya (Modeling and Animation)
+
+                 Unity3d (Game Design)
+
+                 HTML, CSS and JavaScript
+
+                 Crystal Reports
+
+                 Kyle is a graduate of the San Francisco Art Institute in the Media Arts and Animation Program. He has worked as a Game Designer for Electronic Arts, designing on games such as Nerf N-Strike, Nerf N-Strike Elite, both for the Wii, and a Sims 3 Expansion Pack for the PC.
+
+                 Kyle has facilitated courses that range from 1-on-1 interactions to large scale groups of 100+ participants, including; live in person classes, webinar style classes online and live online full courses. He is consistently ranked top in reviews for each of the courses he teaches.
+
+
+                  Some of the clients Kyle has provided training for include:
+
+
+                 Brocade
+
+                 Chevron
+
+                 Genentech
+
+                 Facebook
+
+                 Levi Strauss
+
+                 PMI Mortgage Insurance
+
+                 State Fund
+
+                 Bank of the West
+
+                 VISA
+
+                 Walmart
+
+                 and many more...
+
+
+
+
+
+
+
+                  What Students have said about Kyle:
+
+
+
+
+                   "Kyle was off the chart "GOOD""
+
+
+
+
+
+
+
+                   "ONE OF THE BEST COURSES THAT I'VE HAD... (IN 12+ YEARS)."
+
+
+
+
+
+
+
+                   "Awesome trainer because I'm computer "stupid" and he helped me understand it."
+
+
+
+
+
+
+
+                   "Kyle Pew is very knowledgeable and presented information with exceptional skill."
+
+
+
+
+
+
+
+                  In his 10+ years of training (corporate training, 1-on-1 consulting and college courses), Kyle has taught 1000's of courses and 10's of thousands of students all the while maintaining a high level of delivery and satisfaction from the student he has taught.
+
+
+
+                  Teaching Philosophy:
+
+
+                 Kyle believes that student’s best learn through the application of real-life business situations through exercises. Allowing students to guide the class with their specific situations allows for the quickest and easiest adaptation to new technology and skills.
+
+
+                  In His Spare Time:
+
+
+                 Kyle enjoys spending time with his family (6 children). When he’s not busy entertaining his kids, you will find him cheering on his favorite hockey team, the San Jose Sharks, this is their year!
+
+
+
+
+
+
+                Show more
+
+                Show less
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Office Newb LLC
+
+
+              Software Trainer
+
+
+
+
+               OL
+
+
+
+               4.6 Instructor Rating
+
+               97,196 Reviews
+
+               340,130 Students
+
+               1 Course
+
+
+
+
+
+
+
+
+                 Here to support your progress through courses provided by Office Newb, LLC.
+
+
+
+
+
+
+                Show more
+
+                Show less
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Udemy for Business
+
+
+
+         Teach on Udemy
+
+
+
+         Get the app
+
+
+
+         About us
+
+
+
+
+
+         Careers
+
+
+
+         Blog
+
+
+
+         Help and Support
+
+
+
+         Affiliate
+
+
+
+
+
+         Terms
+
+
+
+         Privacy policy and cookie policy
+
+
+
+         Sitemap
+
+
+
+         Featured courses
+
+
+
+
+
+
+
+
+
+
+       © 2020 Udemy, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      article
+
+
+
+
+
+      cart
+
+
+
+
+
+      close
+
+
+
+
+
+      collapse
+
+
+
+
+
+      error
+
+
+
+
+
+      expand
+
+
+
+
+
+      info
+
+
+
+
+
+      language
+
+
+
+
+
+      menu
+
+
+
+
+
+      next
+
+
+
+
+
+      person
+
+
+
+
+
+      previous
+
+
+
+
+
+      search
+
+
+
+
+
+      warning
+
+
+
+
+
+
+
+
+
+      assignment
+
+
+
+
+
+      cloud
+
+
+
+
+
+      loading-spinner
+
+
+
+
+
+      notification
+
+
+
+
+
+      open-in-new
+
+
+
+
+
+      people
+
+
+
+
+
+      security
+
+
+
+
+
+      server
+
+
+
+
+
+      wishlisted
+
+
+
+
+
+
+
+
+
+      alarm
+
+
+
+
+
+      assignment
+
+
+
+
+
+      audio
+
+
+
+
+
+      bullet
+
+
+
+
+
+      calendar30
+
+
+
+
+
+
+
+
+
+      captions
+
+
+
+
+
+      certificate
+
+
+
+
+
+      code
+
+
+
+
+
+      downloadable-resource
+
+
+
+
+
+      lifetime
+
+
+
+
+
+      lightbulb
+
+
+
+
+
+      loading-spinner
+
+
+
+
+
+      lock
+
+
+
+
+
+      logo-symbol
+
+
+
+
+
+      mobile
+
+
+
+
+
+      new
+
+
+
+
+
+      people
+
+
+
+
+
+      play-overlay
+
+
+
+
+
+
+
+      play
+
+
+
+
+
+      quiz
+
+
+
+
+
+      rating-star
+
+
+
+
+
+      share
+
+
+
+
+
+      success
+
+
+
+
+
+      thumb-down
+
+
+
+
+
+      thumb-up
+
+
+
+
+
+      tick
+
+
+
+
+
+      video-mashup
+
+
+
+
+
+      video
+
+
+
+
+
+      wishlisted
+
+
+
+
+
+      email
+
+
+
+
+
+      facebook-messenger
+
+
+
+
+
+      facebook
+
+
+
+
+
+      twitter
+
+
+
+
+
+      whatsapp
+
+
+
+
+
+
+
+
+

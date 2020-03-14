@@ -140,7 +140,7 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
 
         web_page = data["pagination"]["next"]
         with open("tmp_files/last_page.txt", 'w') as last_page_file:
-            last_page_file.write(web_page)
+            last_page_file.write(web_page + '\n')
 
 
 if __name__ == '__main__':

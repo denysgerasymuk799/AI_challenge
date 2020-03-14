@@ -1,0 +1,218 @@
+{
+   "count": 126,
+   "next": "https://www.udemy.com/api-2.0/courses/362328/public-curriculum-items/?page=2",
+   "previous": null,
+   "results": [
+      {
+         "_class": "chapter",
+         "id": 3249560,
+         "created": "2019-03-01T10:25:40Z",
+         "sort_order": 282,
+         "title": "Introduction",
+         "description": "",
+         "is_published": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13885822,
+         "title": "Introduction 2019",
+         "created": "2019-03-04T09:30:39Z",
+         "description": "",
+         "title_cleaned": "introduction-2019",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17185940,
+            "asset_type": "Video",
+            "title": "S1_L1_Intro_2019.mp4",
+            "created": "2019-03-19T05:27:13Z"
+         },
+         "sort_order": 281,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "lecture",
+         "id": 14238218,
+         "title": "How To Find The Resources For This Course.",
+         "created": "2019-04-02T08:53:46Z",
+         "description": "",
+         "title_cleaned": "how-to-find-the-resources-for-this-course",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17409980,
+            "asset_type": "Video",
+            "title": "UdemyOnlyLecture.mp4",
+            "created": "2019-04-02T08:54:16Z"
+         },
+         "sort_order": 280,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13885830,
+         "title": "The Exam Blue Print",
+         "created": "2019-03-04T09:31:11Z",
+         "description": "",
+         "title_cleaned": "the-exam-blue-print",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17185802,
+            "asset_type": "Video",
+            "title": "S1_L3_The_Exam_Blue_Print - new.mp4",
+            "created": "2019-03-19T05:17:19Z"
+         },
+         "sort_order": 279,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "lecture",
+         "id": 18310550,
+         "title": "Why Should I Learn AWS",
+         "created": "2020-03-05T20:18:17Z",
+         "description": "",
+         "title_cleaned": "why-should-i-learn-aws",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": false,
+         "asset": {
+            "_class": "asset",
+            "id": 22690862,
+            "asset_type": "Video",
+            "title": "S1_L2_Why_Learn_AWS.mp4",
+            "created": "2020-03-05T20:48:25Z"
+         },
+         "sort_order": 278,
+         "can_be_previewed": false
+      },
+      {
+         "_class": "chapter",
+         "id": 3257616,
+         "created": "2019-03-04T09:52:18Z",
+         "sort_order": 277,
+         "title": "AWS - 10,000 Foot Overview",
+         "description": "",
+         "is_published": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13886072,
+         "title": "The History Of AWS",
+         "created": "2019-03-04T09:54:15Z",
+         "description": "",
+         "title_cleaned": "the-history-of-aws",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17185944,
+            "asset_type": "Video",
+            "title": "S2_L1_The_History_So_Far.mp4",
+            "created": "2019-03-19T05:27:17Z"
+         },
+         "sort_order": 276,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13886076,
+         "title": "AWS - 10,000 Foot Overview",
+         "created": "2019-03-04T09:54:29Z",
+         "description": "",
+         "title_cleaned": "aws-10000-foot-overview",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17185998,
+            "asset_type": "Video",
+            "title": "S2_L2_The_10000_Foot_Overview.mp4",
+            "created": "2019-03-19T05:33:31Z"
+         },
+         "sort_order": 275,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13886078,
+         "title": "How To Sign Up To AWS.",
+         "created": "2019-03-04T09:54:44Z",
+         "description": "",
+         "title_cleaned": "how-to-sign-up-to-aws",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": true,
+         "asset": {
+            "_class": "asset",
+            "id": 17185786,
+            "asset_type": "Video",
+            "title": "S2_L3_Sign_Up_To_AWS.mp4",
+            "created": "2019-03-19T05:16:07Z"
+         },
+         "sort_order": 274,
+         "can_be_previewed": true
+      },
+      {
+         "_class": "quiz",
+         "id": 4664376,
+         "title": "10,000 Foot Overview Quiz",
+         "type": "simple-quiz",
+         "created": "2019-06-18T09:57:56Z",
+         "description": "",
+         "title_cleaned": "",
+         "is_published": true,
+         "sort_order": 273,
+         "object_index": 1,
+         "is_draft": false,
+         "version": 1,
+         "duration": 0,
+         "pass_percent": 70
+      },
+      {
+         "_class": "chapter",
+         "id": 3257618,
+         "created": "2019-03-04T09:52:30Z",
+         "sort_order": 272,
+         "title": "Identity Access Management & S3",
+         "description": "",
+         "is_published": true
+      },
+      {
+         "_class": "lecture",
+         "id": 13886244,
+         "title": "IAM 101",
+         "created": "2019-03-04T10:14:12Z",
+         "description": "",
+         "title_cleaned": "iam-101",
+         "is_published": true,
+         "transcript": "",
+         "is_downloadable": true,
+         "is_free": false,
+         "asset": {
+            "_class": "asset",
+            "id": 17200550,
+            "asset_type": "Video",
+            "title": "S3_L1_IAM_101.mp4",
+            "created": "2019-03-19T22:49:15Z"
+         },
+         "sort_order": 271,
+         "can_be_previewed": false
+      }
+   ]
+}
