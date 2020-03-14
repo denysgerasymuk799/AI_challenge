@@ -2,6 +2,7 @@ import time
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
 import boto3
 import requests
@@ -11,8 +12,10 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 from slugify import slugify
 
+from working_with_files_functions import save_json_name_profession
 
-def vacancy_pages_save(url, n_save_page):
+
+def vacancy_pages_save(url, n_save_page, name_profession_save):
     html = urllib.request.urlopen(url).read()
     vacancy_pages_path = os.path.join(os.getcwd(), 'vacancy_text_pages')
     soup = BeautifulSoup(html, "lxml")
@@ -31,7 +34,12 @@ def vacancy_pages_save(url, n_save_page):
     # drop blank lines
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
-    with open(os.path.join(vacancy_pages_path, 'vacancy_page{}'.format(str(n_save_page))), "w", encoding="utf-8") as f:
+    temp_directory = Path('vacancy_text_pages')
+    temp_directory.mkdir(exist_ok=True)
+    profession_directory = Path(os.path.join(os.getcwd(), 'vacancy_text_pages', name_profession_save))
+    profession_directory.mkdir(exist_ok=True)
+
+    with open(os.path.join(vacancy_pages_path, profession_directory, name_profession_save + '_page{}'.format(str(n_save_page))), "w", encoding="utf-8") as f:
         f.write(text)
 
 
@@ -77,7 +85,7 @@ def parse_vacancy_pages(url_work, root_path_vacancies, table, n_vacancy):
     return table
 
 
-def parse_main_pages(url_work, n_page, urls_vacancies, root_path, root_path_vacancies):
+def parse_main_pages(url_work, n_page, urls_vacancies, root_path, root_path_vacancies, name_profession_main):
     html_page = cache_page(url_work, root_path)
     soup = BeautifulSoup(html_page, 'html.parser')
 
@@ -119,7 +127,7 @@ def parse_main_pages(url_work, n_page, urls_vacancies, root_path, root_path_vaca
         url = job_description.a['href']
         url = "https://www.work.ua" + url
         start_save_page = n_page * len(all_jobs_description) + i + 1
-        # vacancy_pages_save(url, start_save_page)
+        vacancy_pages_save(url, start_save_page, name_profession_main)
         urls_vacancies[str(start_save_page)] = url
         table[i + 1] = dict()
         table[i + 1]["title"] = title
@@ -134,27 +142,65 @@ def parse_main_pages(url_work, n_page, urls_vacancies, root_path, root_path_vaca
     return table, html_page
 
 
-if __name__ == "__main__":
+def get_name_profession(name_profession):
+    name_profession = name_profession.lower()
+    name_profession = name_profession.replace(" ", "+")
+
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
     root_path = os.path.join('work_ua_pages', timestamp).replace("\\", "/")
     root_path_vacancies = os.path.join('work_ua_vacancies_pages', timestamp).replace("\\", "/")
 
-    n_vacancy = 1
-    n_pages = 3
+    n_pages = 200
     urls_vacancies = '{}'
     urls_vacancies = json.loads(urls_vacancies)
-    work_ua_vacancies = ["Администратор", "Специалист технической поддержки",
-                         "Системный администратор", "SMM-менеджер", "Аналитик", "Интернет-маркетолог",
-                         "Менеджер по работе с клиентами", "Маркетолог", "Программист PHP", "IT-специалист"]
     for i in range(n_pages):
-        url_work = 'https://www.work.ua/jobs-it/?advs=1&page='
-        url_work += str(i + 1)
-        table, html_page = parse_main_pages(url_work, i, urls_vacancies, root_path, root_path_vacancies)
-        print(i + 1)
-        pprint(table)
-        time.sleep(1)
+        try:
+            url_work = 'https://www.work.ua/jobs-{}/?advs=1&page='.format(name_profession)
+            url_work += str(i + 1)
+            table, html_page = parse_main_pages(url_work, i, urls_vacancies, root_path,
+                                                root_path_vacancies, name_profession)
+            print(i + 1)
+            if table == {}:
+                print(name_profession, i, "last page of this profession")
+                break
+            # pprint(table)
+            save_json_name_profession(n_save_page=i + 1, json_page_professions=table,
+                                      name_profession_json_save=name_profession)
+            time.sleep(1)
+        except Exception:
+            print(name_profession, i, "last page of this profession")
 
+
+if __name__ == "__main__":
+    # "Специалист технической поддержки", "Администратор",
+    # "Системный администратор", "SMM-менеджер", "Аналитик",
+    work_ua_vacancies = ["Интернет-маркетолог",
+                         "Менеджер по работе с клиентами", "Маркетолог", "Программист PHP", "IT-специалист",
+                            
+                         "Customer support representative", "Support manager", "Спеціаліст технічної підтримки",
+
+                         "Customer support specialist", "Менеджер з продажу", "Онлайн-консультант" ,
+                         "Менеджер інтернет-магазину", "Sales manager", "Javascript-програміст", 'Javascript developer',
+
+                         "Контент-менеджер",  "Маркетолог", "Бренд-менеджер", "Marketing manager", "Content manager",
+
+                         "Business analyst", "Data analyst", "Адміністратор баз даних",
+
+                         "Інтернет-маркетолог", "Маркетолог", "Бренд-менеджер", "Менеджер з реклами",
+                         "Marketing manager", "Адміністратор сайта",
+
+                         "Менеджер з продажу", "Онлайн-консультант", "Менеджер інтернет-магазину", "Sales manager",
+
+                         "Бренд-менеджер", "Marketing manager", "Інтернет-маркетолог", "Data scientist", "Аналітик",
+                         "Analyst",
+
+                         "Програміст PHP", "PHP developer", "Розробник PHP", "Full stack developer",
+                         "Full stack програміст",
+                         "Back end програміст", "Back end developer"]
+
+    for name_profession in work_ua_vacancies:
+        get_name_profession(name_profession)
     # static_path = os.path.join(os.getcwd(), 'static')
     # with open(os.path.join(static_path, 'urls_vacancies' + ".json"), "w", encoding="utf-8") as f:
     #     json.dump(urls_vacancies, f, indent = 4)

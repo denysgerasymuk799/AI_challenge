@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 def dir_for_save_html(dir_name):
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
-    root_path_vacancies = os.path.join(os.path.join(os.getcwd(), "html_pages", dir_name), timestamp).replace("\\", "/")
+    root_path_vacancies = os.path.join(os.getcwd(), "html_pages", dir_name, timestamp).replace("\\", "/")
     return root_path_vacancies
 
 
@@ -127,34 +127,23 @@ def parse_course_pages(url_work, root_path_vacancies, table):
     return table
 
 
-def find1_course_for_skill(courses_json_find1, skill_list_find1):
+def find1_course_for_skill(courses_json_find1):
     courses_for_profession = dict()
-    courses_name_for_profession = []
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
 
-    for skill in skill_list_find1:
-        courses_for_profession[skill] = []
-        for course in courses_json_find1[:100]:
-            if skill in course["description"]:
-                if course["name"] not in courses_name_for_profession:
-                    course_for_profession = {}
+    for course in courses_json_find1[:10]:
+        courses_for_profession[course["name"]] = {}
 
-                    course_for_profession[course["name"]] = {}
+        # root_path = dir_for_save_html("coursera_courses_pages")
+        root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
+        url = "https://www.coursera.org/learn/" + course["slug"]
 
-                    # root_path = dir_for_save_html("coursera_courses_pages")
-                    root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
-                    url = "https://www.coursera.org/learn/" + course["slug"]
+        # course_for_profession = parse_course_pages(url, root_path, course_for_profession)
+        courses_for_profession[course["name"]] = parse_course_pages(url, root_path, courses_for_profession[course["name"]])
 
-                    # course_for_profession = parse_course_pages(url, root_path, course_for_profession)
-                    course_for_profession[course["name"]] = parse_course_pages(url, root_path, course_for_profession[course["name"]])
-
-                    course_for_profession[course["name"]]["long_description"] = course["description"]
-                    course_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
-                    # append to list and dict after
-                    courses_for_profession[skill].append(course_for_profession)
-                    courses_name_for_profession.append(course["name"])
-    print(courses_for_profession, type(courses_for_profession))
+        courses_for_profession[course["name"]]["long_description"] = course["description"]
+        courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
     with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + '.json'), "w", encoding="utf-8") as f:
         json.dump(courses_for_profession, f, indent=4)
 
@@ -175,4 +164,4 @@ if __name__ == '__main__':
     #     json.dump(courses_json, f, indent = 4)
     #
     skill_list = ["AWS Machine Learning", "design", "Gamification"]
-    find1_course_for_skill(courses_json, skill_list)
+    find1_course_for_skill(courses_json)
