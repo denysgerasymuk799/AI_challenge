@@ -9,6 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)/flack_app'
