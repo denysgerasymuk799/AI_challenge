@@ -13,11 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-steps:
 - script: ls
   displayName: 'Run a one-line script'
 
-steps:
 - script: pwd
   displayName: 'Run a one-line script'
 
