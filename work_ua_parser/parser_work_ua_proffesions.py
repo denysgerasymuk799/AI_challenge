@@ -164,7 +164,7 @@ def get_name_profession(name_profession):
     urls_vacancies = '{}'
     urls_vacancies = json.loads(urls_vacancies)
     for i in range(n_pages):
-        # try:
+        try:
             url_work = 'https://www.work.ua/jobs-{}/?advs=1&page='.format(name_profession)
             url_work += str(i + 1)
             table, html_page = parse_main_pages(url_work, i, urls_vacancies, root_path,
@@ -177,8 +177,8 @@ def get_name_profession(name_profession):
             save_json_name_profession(n_save_page=i + 1, json_page_professions=table,
                                       name_profession_json_save=name_profession)
             time.sleep(1)
-        # except Exception:
-        #     print(name_profession, i, "last page of this profession")
+        except Exception:
+            print(name_profession, i, "last page of this profession")
 
 
 if __name__ == "__main__":
