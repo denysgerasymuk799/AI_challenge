@@ -13,6 +13,14 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
+steps:
+- script: ls
+  displayName: 'Run a one-line script'
+
+steps:
+- script: pwd
+  displayName: 'Run a one-line script'
+
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)/AI_challenge/flask_app'
