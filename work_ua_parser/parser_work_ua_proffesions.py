@@ -11,7 +11,7 @@ import urllib
 from bs4 import BeautifulSoup
 from slugify import slugify
 
-from work_ua_parser.working_with_files_functions import save_json_name_profession
+from working_with_files_functions import save_json_name_profession
 
 
 def vacancy_pages_save(url, n_save_page, name_profession_save):
