@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614ec033-2c20-4ec8-880b-eb2a741ef05f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/udemy/draft.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/draft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/get_more_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/tmp_files/tmp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/tmp_files/tmp_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy/udemy_result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access_token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/edx_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/edx/edx_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/get_more_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/edx/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/tmp_files/access_token.json" beforeDir="false" afterPath="$PROJECT_DIR$/edx/tmp_files/access_token.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/tmp_files/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/edx/tmp_files/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/tmp_files/errors.json" beforeDir="false" afterPath="$PROJECT_DIR$/edx/tmp_files/errors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edx/tmp_files/last_page.txt" beforeDir="false" afterPath="$PROJECT_DIR$/edx/tmp_files/last_page.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_descriptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price_student_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/udemy_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/udemy_corses.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Lab_6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RunDashboard">
