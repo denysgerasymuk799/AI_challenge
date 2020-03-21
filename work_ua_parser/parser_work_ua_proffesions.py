@@ -8,16 +8,18 @@ import boto3
 import requests
 import json
 import urllib
-from pprint import pprint
 from bs4 import BeautifulSoup
 from slugify import slugify
 
-from working_with_files_functions import save_json_name_profession
+from work_ua_parser.working_with_files_functions import save_json_name_profession
 
 
 def vacancy_pages_save(url, n_save_page, name_profession_save):
     html = urllib.request.urlopen(url).read()
+    mycwd = os.getcwd()
+    os.chdir("..")
     vacancy_pages_path = os.path.join(os.getcwd(), 'vacancy_text_pages')
+    os.chdir(mycwd)
     soup = BeautifulSoup(html, "lxml")
 
     # kill all script and style elements
@@ -34,10 +36,13 @@ def vacancy_pages_save(url, n_save_page, name_profession_save):
     # drop blank lines
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
+    mycwd = os.getcwd()
+    os.chdir("..")
     temp_directory = Path('vacancy_text_pages')
     temp_directory.mkdir(exist_ok=True)
     profession_directory = Path(os.path.join(os.getcwd(), 'vacancy_text_pages', name_profession_save))
     profession_directory.mkdir(exist_ok=True)
+    os.chdir(mycwd)
 
     with open(os.path.join(vacancy_pages_path, profession_directory, name_profession_save + '_page{}'.format(str(n_save_page))), "w", encoding="utf-8") as f:
         f.write(text)
@@ -52,7 +57,11 @@ def cache_page(url, root_path):
                             aws_secret_access_key='dmifQIBG5a8hzPcBXsohAnDeJCfMrY2W5ryOE87U1fE')
 
     filename = slugify(url) + ".html"
+
+    mycwd = os.getcwd()
+    os.chdir("..")
     html_pages_path = os.path.join(os.getcwd(), 'work_ua_html_pages')
+    os.chdir(mycwd)
     if filename not in os.listdir(html_pages_path):
         while True:
             try:
@@ -155,7 +164,7 @@ def get_name_profession(name_profession):
     urls_vacancies = '{}'
     urls_vacancies = json.loads(urls_vacancies)
     for i in range(n_pages):
-        try:
+        # try:
             url_work = 'https://www.work.ua/jobs-{}/?advs=1&page='.format(name_profession)
             url_work += str(i + 1)
             table, html_page = parse_main_pages(url_work, i, urls_vacancies, root_path,
@@ -168,8 +177,8 @@ def get_name_profession(name_profession):
             save_json_name_profession(n_save_page=i + 1, json_page_professions=table,
                                       name_profession_json_save=name_profession)
             time.sleep(1)
-        except Exception:
-            print(name_profession, i, "last page of this profession")
+        # except Exception:
+        #     print(name_profession, i, "last page of this profession")
 
 
 if __name__ == "__main__":
