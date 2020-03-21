@@ -66,4 +66,4 @@ def generate_result(max_page=999999999):
 if __name__ == '__main__':
     with open("udemy_result.json", 'w') as res_file:
         res_file.write("{}")
-    generate_result(5)
+    generate_result()
