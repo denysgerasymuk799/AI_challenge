@@ -30,7 +30,10 @@ def cache_page(url, root_path, dir_name):
                             aws_secret_access_key='dmifQIBG5a8hzPcBXsohAnDeJCfMrY2W5ryOE87U1fE')
 
     filename = slugify(url) + ".html"
+    mycwd = os.getcwd()
+    os.chdir("..")
     html_pages_path = os.path.join(os.path.join(os.getcwd(), "html_pages", dir_name))
+    os.chdir(mycwd)
     if filename not in os.listdir(html_pages_path):
         while True:
             try:
@@ -119,7 +122,7 @@ def parse_course_pages(url_work, root_path_vacancies, table):
         if text_parameters[n_parameter] == "short_description":
             table["short_description"] = ""
             for line_description in skills_description:
-                table["short_description"] += " " + line_description
+                table["short_description"] += " " + str(line_description)
 
         else:
             table[text_parameters[n_parameter]] = parameters[n_parameter]
@@ -144,8 +147,8 @@ def find1_course_for_skill(courses_json_find1):
 
         courses_for_profession[course["name"]]["long_description"] = course["description"]
         courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
-    with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + '.json'), "w", encoding="utf-8") as f:
-        json.dump(courses_for_profession, f, indent=4)
+        with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + '.json'), "w", encoding="utf-8") as f:
+            json.dump(courses_for_profession, f, indent=4)
 
     print("key2", len(courses_for_profession.keys()))
 
@@ -158,10 +161,13 @@ if __name__ == '__main__':
     courses_json = data["elements"]
     print("key1", len(data["elements"]))
 
-
-    # pprint(courses_json[:10])
-    # with open(os.path.join(os.getcwd(), 'coursera_courses' + ".json"), "w", encoding="utf-8") as f:
-    #     json.dump(courses_json, f, indent = 4)
-    #
     skill_list = ["AWS Machine Learning", "design", "Gamification"]
     find1_course_for_skill(courses_json)
+
+# if __name__ == '__main__':
+#     now = datetime.now()
+#     table = dict()
+#     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
+#     root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
+#     print(parse_course_pages("https://www.coursera.org/learn/social-media-advertising",
+#                        root_path, table))
