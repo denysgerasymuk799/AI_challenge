@@ -132,7 +132,7 @@ def find1_course_for_skill(courses_json_find1):
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
 
-    for course in courses_json_find1[:10]:
+    for course in courses_json_find1:
         courses_for_profession[course["name"]] = {}
 
         # root_path = dir_for_save_html("coursera_courses_pages")
