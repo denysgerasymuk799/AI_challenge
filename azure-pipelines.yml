@@ -21,7 +21,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(System.DefaultWorkingDirectory)/AI_challenge/flask_app'
+    SourceFolder: '$(System.DefaultWorkingDirectory)/flask_app'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
