@@ -10,18 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: ls
-  displayName: 'Run a one-line script'
-
-- script: pwd
-  displayName: 'Run a one-line script'
-
-- script: ls $(System.DefaultWorkingDirectory)/flack_app
-  displayName: 'Run a one-line script'
-
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)/flack_app'
