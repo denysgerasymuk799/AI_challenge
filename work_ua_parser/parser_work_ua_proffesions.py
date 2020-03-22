@@ -72,7 +72,7 @@ def cache_page(url, root_path):
             except Exception as e:
                 print(e.with_traceback())
                 time.sleep(1)
-        with open(os.path.join(html_pages_path, filename), "w", encoding="utf-8") as f:
+        with open(os.path.join(html_pages_path, filename), "w") as f:
             f.write(r.text)
     with open(os.path.join(html_pages_path, filename), encoding="utf-8") as f:
         text = f.read()
