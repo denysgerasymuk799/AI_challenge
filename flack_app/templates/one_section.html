@@ -19,7 +19,10 @@
             {% for el in course %}
                 <div class="course bg-white h-100 align-self-stretch">
                   <figure class="m-0">
-                    <a href={{course[el]['url']}}><img src="{{ course[el]['img'] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+                    <a href={{course[el]['url']}}>
+                        <input id="{{i}}" value="{{i}}" name="chosen_course" type="checkbox">
+                        <img src="{{ course[el]['img'] }}" alt="static/images/img_1.jpg" class="img-fluid">
+                    </a>
                   </figure>
                   <div class="course-inner-text py-4 px-4">
                     <span class="course-price">{{ course[el]['price'] }}</span>
