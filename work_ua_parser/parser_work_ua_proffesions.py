@@ -187,24 +187,25 @@ def get_name_profession(name_profession):
 if __name__ == "__main__":
     # "Специалист технической поддержки", "Администратор",
     # "Системный администратор", "SMM-менеджер", "Аналитик",
-    work_ua_vacancies = ["Интернет-маркетолог",
-                         "Менеджер по работе с клиентами", "Маркетолог", "Программист PHP", "IT-специалист",
-                            
-                         "Customer support representative", "Support manager", "Спеціаліст технічної підтримки",
 
-                         "Customer support specialist", "Менеджер з продажу", "Онлайн-консультант" ,
-                         "Менеджер інтернет-магазину", "Sales manager", "Javascript-програміст", 'Javascript developer',
+    # "Интернет-маркетолог",
+    # "Менеджер по работе с клиентами", "Маркетолог", "Программист PHP", "IT-специалист",
+    #
+    # "Customer support representative", "Support manager", "Спеціаліст технічної підтримки",
+    #
+    # "Customer support specialist", "Менеджер з продажу", "Онлайн-консультант",
+    # "Менеджер інтернет-магазину", "Sales manager", "Javascript-програміст", 'Javascript developer',
+    #
+    # "Контент-менеджер", "Маркетолог", "Бренд-менеджер", "Marketing manager", "Content manager",
+    #
+    # "Business analyst", "Data analyst", "Адміністратор баз даних",
+    #
+    # "Інтернет-маркетолог", "Маркетолог", "Бренд-менеджер", "Менеджер з реклами",
+    # "Marketing manager", "Адміністратор сайта",
+    #
+    # "Менеджер з продажу", "Онлайн-консультант", "Менеджер інтернет-магазину", "Sales manager",
 
-                         "Контент-менеджер",  "Маркетолог", "Бренд-менеджер", "Marketing manager", "Content manager",
-
-                         "Business analyst", "Data analyst", "Адміністратор баз даних",
-
-                         "Інтернет-маркетолог", "Маркетолог", "Бренд-менеджер", "Менеджер з реклами",
-                         "Marketing manager", "Адміністратор сайта",
-
-                         "Менеджер з продажу", "Онлайн-консультант", "Менеджер інтернет-магазину", "Sales manager",
-
-                         "Бренд-менеджер", "Marketing manager", "Інтернет-маркетолог", "Data scientist", "Аналітик",
+    work_ua_vacancies = ["Бренд-менеджер", "Marketing manager", "Інтернет-маркетолог", "Data scientist", "Аналітик",
                          "Analyst",
 
                          "Програміст PHP", "PHP developer", "Розробник PHP", "Full stack developer",
