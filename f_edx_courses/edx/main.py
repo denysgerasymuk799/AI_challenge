@@ -74,10 +74,10 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
         # Error handling
         if str(response.status_code)[0] == '4':
             # writing error to file
-            with open("tmp_files/errors.json", 'r') as error_file:
+            with open("tmp_files/errors.json", 'r', encoding="utf-8") as error_file:
                 errors = json.load(error_file)
             errors[str(ERROR_NUMBER)] = response.text
-            with open("tmp_files/errors.json", 'w') as error_file:
+            with open("tmp_files/errors.json", 'w', encoding="utf-8") as error_file:
                 json.dump(errors, error_file, indent=3)
 
             # 401 - you should get new access token
@@ -131,7 +131,6 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
             print(f"        Parsed_number: {PARSED_NUMBER}, Skipped Percentage: {skipped_percentage}\n"
                   f"        Successful parse: {course_name}. ")
 
-
         # saving information
         with open("edx_results.json", 'w', encoding='utf-8', errors='ignore') as res_file:
             json.dump(result, res_file, indent=4)
@@ -139,14 +138,14 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
         current_page += 1
 
         web_page = data["pagination"]["next"]
-        with open("tmp_files/last_page.txt", 'w') as last_page_file:
+        with open("tmp_files/last_page.txt", 'w', encoding="utf-8") as last_page_file:
             last_page_file.write(web_page + '\n')
 
 
 if __name__ == '__main__':
     # get_access_token()
-    with open("edx_results.json", 'w') as res_file:
+    with open("edx_results.json", 'w', encoding="utf-8") as res_file:
         res_file.write("{}")
-    with open("tmp_files/errors.json", 'w') as error_file:
+    with open("tmp_files/errors.json", 'w', encoding="utf-8") as error_file:
         error_file.write("{}")
     generate_info(10, route="courses/v1/courses/")

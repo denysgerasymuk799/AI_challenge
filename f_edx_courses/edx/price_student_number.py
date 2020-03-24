@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 
 def get_price():
-    html_file = open("tmp_files/description.html", 'r')
+    html_file = open("tmp_files/description.html", 'r', encoding="utf-8")
     data = html_file.read()
     html_file.close()
     soup = BeautifulSoup(data, 'html.parser')
@@ -24,7 +24,7 @@ def get_price():
 
 
 def get_student_number():
-    html_file = open("tmp_files/description.html", 'r')
+    html_file = open("tmp_files/description.html", 'r', encoding="utf-8")
     data = html_file.read()
     html_file.close()
     soup = BeautifulSoup(data, 'html.parser')

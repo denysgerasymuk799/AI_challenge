@@ -18,7 +18,7 @@ def parsing_special_courses(key_word):
     description = ""
 
     # this is case, when page has another format
-    with open("tmp_file/description.html", 'r') as html_file:
+    with open("tmp_file/description.html", 'r', encoding="utf-8") as html_file:
         data = html_file.read()
         begin_index = data.find(key_word)
 
@@ -52,15 +52,15 @@ def generate_description(course_name):
 
     # make request and generate file to parse
     response = requests.get(URL)
-    with open("tmp_files/description.html", 'w') as res_file:
+    with open("tmp_files/description.html", 'w', encoding="utf-8") as res_file:
         res_file.write(response.text)
 
     result = {}
 
-    # Look for desciption and parse it
+    # Look for description and parse it
     description = ""
     what_you_learn = ""
-    with open("tmp_files/description.html", 'r') as html_file:
+    with open("tmp_files/description.html", 'r', encoding="utf-8") as html_file:
         end_reading = False
         for line in html_file:
             if "course-description" in line: # Checkpot!
@@ -85,7 +85,7 @@ def generate_description(course_name):
                 break
 
     # Look for <what you'll be learnt> in the course
-    with open("tmp_files/description.html", 'r') as html_file:
+    with open("tmp_files/description.html", 'r', encoding="utf-8") as html_file:
         for line in html_file:
             if line.startswith("<li>"):
                 new_line = line
@@ -124,7 +124,7 @@ def download_course_page(course_name=""):
     response = requests.get(URL)
     print("    " + str(response.status_code))
 
-    with open("tmp_files/description.html", 'w') as res_file:
+    with open("tmp_files/description.html", 'w', encoding="utf-8") as res_file:
         res_file.write(response.text)
 
 
