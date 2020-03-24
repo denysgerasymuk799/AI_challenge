@@ -134,8 +134,9 @@ def find1_course_for_skill(courses_json_find1):
     courses_for_profession = dict()
     now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
+    n = 0
 
-    for course in courses_json_find1:
+    for n_course, course in enumerate(courses_json_find1):
         courses_for_profession[course["name"]] = {}
 
         # root_path = dir_for_save_html("coursera_courses_pages")
@@ -147,8 +148,16 @@ def find1_course_for_skill(courses_json_find1):
 
         courses_for_profession[course["name"]]["long_description"] = course["description"]
         courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
-        with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + '.json'), "w", encoding="utf-8") as f:
-            json.dump(courses_for_profession, f, indent=4)
+        if n_course % 5 == 0:
+            n += 1
+            with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + str(n) + '.json'), "a",
+                      encoding="utf-8") as f:
+                json.dump(courses_for_profession, f, indent=4, ensure_ascii=False)
+
+            courses_for_profession = {}
+        else:
+            with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + str(n) + '.json'), "w", encoding="utf-8") as f:
+                json.dump(courses_for_profession, f, indent=4, ensure_ascii=False)
 
     print("key2", len(courses_for_profession.keys()))
 
