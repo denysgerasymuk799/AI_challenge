@@ -148,7 +148,7 @@ def find1_course_for_skill(courses_json_find1):
 
         courses_for_profession[course["name"]]["long_description"] = course["description"]
         courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
-        if n_course % 5 == 0:
+        if n_course % 200 == 0:
             n += 1
             with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + str(n) + '.json'), "a",
                       encoding="utf-8") as f:
