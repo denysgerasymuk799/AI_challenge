@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614ec033-2c20-4ec8-880b-eb2a741ef05f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MICROSOFT_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MICROSOFT_API.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/main.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="f_edx_courses" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,23 +29,46 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MICROSOFT_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Python.main" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,5 +98,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1920" height="261" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585072308085">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="261" key="GridCell.Tab.0.bottom.inPresentationMode/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585072308085" />
+    <state width="1920" height="261" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585072308085">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="261" key="GridCell.Tab.0.center.inPresentationMode/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585072308085" />
+    <state width="1920" height="261" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585072308085">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="261" key="GridCell.Tab.0.left.inPresentationMode/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585072308085" />
+    <state width="1920" height="261" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585072308085">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="261" key="GridCell.Tab.0.right.inPresentationMode/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585072308085" />
+    <state x="333" y="1091" width="1254" height="914" key="SettingsEditor" timestamp="1585067259113">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state x="333" y="1091" width="1254" height="914" key="SettingsEditor/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585067259113" />
+    <state x="255" y="1024" width="1399" height="1040" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode" timestamp="1585070877937">
+      <screen x="0" y="1024" width="1920" height="1080" />
+    </state>
+    <state x="255" y="1024" width="1399" height="1040" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode/0.1024.1920.1080/640.0.1280.1024@0.1024.1920.1080" timestamp="1585070877937" />
   </component>
 </project>

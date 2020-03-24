@@ -16,13 +16,13 @@ UDEMY = Udemy(CLIENT_ID, CLIENT_SECRET)
 
 def generate_result(max_page=999999999):
     """
-    Main function, that generates udemy_result.json file
+    Main function, that generates udemy_results.json file
     :param max_page: number of pages to search
     """
     current_page = 1
     while current_page <= max_page:
         # getting result dictionary
-        result = json.load(open("udemy_result.json", 'r'))
+        result = json.load(open("udemy_results.json", 'r'))
 
         # getting information from API
         current_courses_info = UDEMY.courses(page=current_page)
@@ -57,13 +57,13 @@ def generate_result(max_page=999999999):
             #
             # time.sleep(random.random()*2 + 1)
 
-        with open("udemy_result.json", 'w', encoding='utf-8', errors='ignore') as res_file:
+        with open("udemy_results.json", 'w', encoding='utf-8', errors='ignore') as res_file:
             json.dump(result, res_file, indent=4)
 
         current_page += 1
 
 
 if __name__ == '__main__':
-    with open("udemy_result.json", 'w') as res_file:
+    with open("udemy_results.json", 'w') as res_file:
         res_file.write("{}")
     generate_result(5)
