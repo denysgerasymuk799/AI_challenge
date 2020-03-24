@@ -1,0 +1,58 @@
+[
+   {
+      "id": "functional-consultant",
+      "name": "Functional Consultant"
+   },
+   {
+      "id": "business-user",
+      "name": "Business User"
+   },
+   {
+      "id": "developer",
+      "name": "Developer"
+   },
+   {
+      "id": "administrator",
+      "name": "Administator"
+   },
+   {
+      "id": "solution-architect",
+      "name": "Solution Architect"
+   },
+   {
+      "id": "maker",
+      "name": "Maker"
+   },
+   {
+      "id": "security-engineer",
+      "name": "Security Engineer"
+   },
+   {
+      "id": "data-engineer",
+      "name": "Data Engineer"
+   },
+   {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer"
+   },
+   {
+      "id": "data-scientist",
+      "name": "Data Scientist"
+   },
+   {
+      "id": "ai-engineer",
+      "name": "AI Engineer"
+   },
+   {
+      "id": "business-analyst",
+      "name": "Business Analyst"
+   },
+   {
+      "id": "data-analyst",
+      "name": "Data Analyst"
+   },
+   {
+      "id": "ai-edge-engineer",
+      "name": "AI Edge Engineer"
+   }
+]
