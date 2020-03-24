@@ -37,6 +37,7 @@ def generate_result(max_page=999999999):
             result[course_name]["id"] = course["id"]
             result[course_name]["url"] = 'https://udemy.com' + course["url"]
             result[course_name]["price"] = course["price"]
+            result[course_name]["short_description"] = course["headline"]
             result[course_name]["image"] = {
                 "image_125_H": course["image_125_H"],
                 "image_240x135": course["image_240x135"],
