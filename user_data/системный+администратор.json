@@ -1,0 +1,578 @@
+{
+    "design": {
+        "UX / UI: Fundamentos para o design de interface": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 18 hours to complete",
+            "number_of_students": "82,715 students",
+            "short_description": " ",
+            "long_description": "Aprenda com uma das maiores startups do Brasil, a Taqtile sobre com criar a melhor experiência para o seu usuário, formas de gerar ideias, princípios básicos de design e como desenvolver interfaces de aplicativos e sites, esse curso introdutório é composto de aulas teóricas com exemplos práticos de aplicação de cada assunto abordado. \n\nNeste curso serão abordados os seguintes temas:\nComo conhecer o seu usuário\nUsabilidade e Prototipação rápida\nArquitetura de informação e wireframe\nPrincípios de design\nAcessibilidade e multi plataforma\nElementos de interface do usuário\nLinguagem da empresa, lidando com o cliente e copyright\nMonitoração, Mensuração e Teste \n\nAo final desse curso, esperamos que você esteja familiarizado com os principais conceitos, ferramentas e metodologias de criação de interfaces e experiência de usuário. \n\nNão deixe de ver as perguntas frequentes antes de se inscrever\n\nConheça os nossos outros cursos:\n- Criação de Startups: Como desenvolver negócios inovadores\n       https://www.coursera.org/learn/criacao-startups  \n- Consolidando empresas: Estrutura jurídica e financeira\n       https://www.coursera.org/learn/consolidando-empresas\n- Marketing Digital\n       https://www.coursera.org/learn/estrategia-marketing-digital \n- Inove na gestão de equipes e negócios: o crescimento da empresa\n       https://www.coursera.org/learn/gestao-equipes-negocios \n- Marketing e vendas B2B: fechando novos negócios\n       https://www.coursera.org/learn/marketing-vendas-b2b",
+            "url": "https://www.coursera.org/learn/ux-ui-design-de-interface"
+        },
+        "Use Lifecycle Services to design and plan an implementation of Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/use-lcs-design-plan-implementation-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-with-lcs": "https://docs.microsoft.com/en-us/learn/modules/get-started-lifecycle-services-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.design-plan-implementation-in-f-and-o": "https://docs.microsoft.com/en-us/learn/modules/design-plan-implementation-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "131 minutes",
+            "short_description": "Lifecycle Services (LCS) is a collaborative workspace that customers and their partners use to manage Finance and Operations apps projects from pre-sales to the implementation phase and finally to the production environment. It provides checklists and tools that help you manage the project, including pre-build methodologies to help with implementation and regularly updated services.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/use-lcs-to-design-and-plan-an-implementation-of-f-and-o.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.use-lcs-to-design-and-plan-an-implementation-of-f-and-o",
+            "number_of_students": "unknown"
+        }
+    },
+    "processes": {
+        "Simulation and modeling of natural processes": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 33 hours to complete",
+            "number_of_students": "14,379 students",
+            "short_description": " ",
+            "long_description": "This course gives you an introduction to modeling methods and simulation tools for a wide range of natural phenomena. The different methodologies that will be presented here can be applied to very wide range of topics such as fluid motion, stellar dynamics, population evolution, ... This course does not intend to go deeply into any numerical method or process and does not provide any recipe for the resolution of a particular problem. It is rather a basic guideline towards different methodologies that can be applied to solve any kind of problem and help you pick the one best suited for you.\n\nThe assignments of this course will be made as practical as possible in order to allow you to actually create from scratch short programs that will solve simple problems. Although programming will be used extensively in this course we do not require any advanced programming experience in order to complete it.",
+            "url": "https://www.coursera.org/learn/modeling-simulation-natural-processes"
+        }
+    },
+    "services": {
+        "The hidden value – Lean in manufacturing and services": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "",
+            "short_description": " ",
+            "long_description": "Lean is a powerful methodology that enables managers and employees to shift their mindset and helps companies to keep their business sustainable by creating competitive advantage. Today, in an increasingly complex and dynamic world, where companies struggle to maintain competitive advantage, Lean is more important than ever.\n\nThis course combines the experience of many senior experts and practitioners from the Boston Consulting Group and École des Ponts, and brings perspectives on Lean in manufacturing and services. It offers strong topic foundation as well as deep practical insights into the art of continuous improvement.\n\nIn this course, you will learn:\n- why Lean is a key driver for sustainable competitive advantage\n- how different companies can leverage Lean to create value both in manufacturing and services\n- what it takes to drive a Lean transformation and build a culture of continuous improvement \n- how new technologies impact traditional lean practices",
+            "url": "https://www.coursera.org/learn/lean-manufacturing-services"
+        },
+        "Connect your services together": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/connect-your-services-together/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.choose-messaging-model": "https://docs.microsoft.com/en-us/learn/modules/choose-a-messaging-model-in-azure-to-connect-your-services/?WT.mc_id=api_CatalogApi",
+                "learn.implement-message-workflows-with-service-bus": "https://docs.microsoft.com/en-us/learn/modules/implement-message-workflows-with-service-bus/?WT.mc_id=api_CatalogApi",
+                "learn.communicate-between-applications-with-azure-queue-storage": "https://docs.microsoft.com/en-us/learn/modules/communicate-between-apps-with-azure-queue-storage/?WT.mc_id=api_CatalogApi",
+                "learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs": "https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "211 minutes",
+            "short_description": "Azure lets you create applications composed of various components: web site front-ends, back-end services, and triggered functions that perform compute-on-demand services. Azure also includes various communication strategies to let these various components pass data to each other. Learn how to leverage these communication services to create scalable, efficient solutions out of testable components.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-service-bus",
+                    "azure-event-grid",
+                    "azure-event-hubs",
+                    "azure-storage"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/connect-your-services-together.svg",
+            "price": "FREE",
+            "uid": "learn.connect-your-services-together",
+            "number_of_students": "unknown"
+        },
+        "AI business school for financial services": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/ai-business-school-financial-services/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-wwl.ai-strategy-to-create-business-value": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-financial-services": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-financial-services/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.build-an-ai-ready-culture": "https://docs.microsoft.com/en-us/learn/modules/build-an-ai-ready-culture/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.foster-ai-culture-finance": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-finance/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.foster-ai-culture-marketing": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-marketing/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.foster-ai-culture-sales": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-sales/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.foster-ai-culture-customer-service": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-customer-service/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.responsible-ai-guiding-principles": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.responsible-ai-governing-practices": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-governing-practices/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.microsoft-responsible-ai-practices": "https://docs.microsoft.com/en-us/learn/modules/microsoft-responsible-ai-practices/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.intro-to-ai-technology": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-ai-technology/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.microsoft-approach-to-ai": "https://docs.microsoft.com/en-us/learn/modules/microsoft-approach-to-ai/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "576 minutes",
+            "short_description": "Decision-makers in financial services have considerations that are particular to their industry to help them realize the true transformational impact of AI in the enterprise. It is critical to understand the components of a strategy that will help the financial services sector create business value with AI.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "dynamics",
+                    "m365"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/ai-business-school-financial-services.svg",
+            "price": "FREE",
+            "uid": "learn.ai-business-school-financial-services",
+            "number_of_students": "unknown"
+        },
+        "Purchase items and services in Microsoft Dynamics 365 Business Central": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/purchase-items-services-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.create-purchase-documents-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/create-purchase-documents-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.receive-invoice-dynamics-d365-business-central": "https://docs.microsoft.com/en-us/learn/modules/receive-invoice-dynamics-d365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.set-up-prices-discounts-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/set-up-prices-discounts-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.post-purchase-item-charges-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/post-purchase-item-charges-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.estimate-receipt-dates-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/estimate-receipt-dates-dynamics-365-business-central/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "184 minutes",
+            "short_description": "Do you need to create purchase documents like purchase orders and purchase invoices? This learning path shows you how to create purchase documents and address things such as discounts and item charges.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-business-central"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/purchase-items-services-dynamics-365-business-central.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.purchase-items-services-dynamics-365-business-central",
+            "number_of_students": "unknown"
+        },
+        "Sell items and services in Microsoft Dynamics 365 Business Central": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sell-items-services-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.create-sales-documents-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/create-sales-documents-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.ship-invoice-items-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/ship-invoice-items-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-sales-prices-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/manage-sales-prices-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.customer-discounts-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/customer-discounts-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.promising-sales-order-delivery-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "289 minutes",
+            "short_description": "If you sell items or services to customers, this learning path can help you learn how to use Business Central to manage the sales process.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-business-central"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sell-items-services-dynamics-365-business-central.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.sell-items-services-dynamics-365-business-central",
+            "number_of_students": "unknown"
+        }
+    },
+    "world": {
+        "Cities are back in town : urban sociology for a globalizing urban world ": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 18 hours to complete",
+            "number_of_students": "",
+            "short_description": " ",
+            "long_description": "Urbanization is reaching a new peak in the contemporary world with the rise of mega cities. Researchers try to make sense of these large urban areas using a variety of concepts. The class will review debates and present social science models of cities to analyse and compare contemporary developments.\n\nGeneral Overview Help Center\n\nUrbanization is reaching a new peak in the contemporary world with the rise of mega cities. Researchers try to make sense of these large urban areas using a variety of concepts. The class will review debates and present social science models of cities to analyse and compare contemporary developments.\nGlobalization, Europeanization processes support the rapid developments of cities in different part of the world. Urbanization is reaching a new high in the contemporary world with the rise of mega cities (beyond 15 million inhabitants) such as Calcutta, Los Angeles, Dhaka, Cairo, Tokyo, New York, Shanghai, Mexico or Seoul. Beyond the modern metropolis, researchers try to make sense of these large urban areas using a variety of concepts such as the ‘postmetropolis’, ‘global cities’, and ‘global city-regions’. The class will review debates and present social science models of cities and metropolis to analyse and compare contemporary developments. How can do we study those cities when they become mega urban regions, does size matter and for what? Do we see the making of a vast urban world or by contrast beyond the apparent convergence of complex globalisation processes understood in relation to globalised capitalism, is it possible to identify masked differentiations and the strengthening of different urban worlds? How do we make sense of this urban world when cities are not independent units but have to be understood both in terms of territories, rootedness, and at the same time in terms of relations to take into account flux, mobility, circulations ? What is the relevance of social science concepts developed in the Western world to analyse the transformation of Lagos? To what extent may the systematic development of new forms of comparison between northern cities and cities from the South change social sciences and contribute to overcome the bias towards national comparison? \nFor the time being, given current conditions of capitalism, political, economic, cultural and social questions are increasingly becoming urban questions. In the modern conception of the world/globalcity, characterised by size, the aggregation of housing, differentiated divisions of labour, and the density of interaction, several conceptions of cities exist which have become entangled and sometimes opposed to each other. These different conceptions underline different processes of integration: the material city of walls, squares, houses, roads, light, utilities, buildings, waste, and physical infrastructure; the cultural city in terms of imaginations, differences, representations, ideas, symbols, arts, texts, senses, religion, and aesthetics; the politics and policies of the city in terms of domination, power, government, mobilisation, public policies, welfare, education; the social city of riots, ethnic, economic and gender inequalities, everyday life and social movements; and the economy of the city : the division of labour, scale, production, consumption, trade.....\nClassic urban questions about inequalities, housing, government, integration, are combined with issues about the urban fabric, questions of mobility and rootedness, sustainable development and risks, the making of the cyborg cities, questions of social control and riots, urban culture, innovation and urban economic development.\n\nAll video produced by Sciences Po for this Mooc are under Creative Commons (BY / NC / SA)\n\nRecommended Background\nThe course is designed for undergraduates but it also will interest graduates and professionals concerned in urban issues.\n\nThe course is organized in 8 sequences and displays multimedia contents (images, video, original documents). There will be also assignments that consist in participating to discussions related to theoretical models presented in the course based on case studies of your choice, and peer assessments on your contributions.\n\nSyllabus :\n\nWeek #1 : Introduction, definition, urban questions and the use of models\n\nWeek #2 : European cities and the weberian model of integration\n\nWeek #3 : Colonial and post colonial cities\n\nWeek #4 : Industrial cities (and Socialist cities) and Marxist models\n\nWeek #5 : The American metropolis and the Chicago School, \n\nWeek #6 : Post metropolis, fragments and differences\n\nWeek #7 : Global cities and mega cities\n\nWeek #8 : Smart cities and the sociology of science and technology",
+            "url": "https://www.coursera.org/learn/urban-development"
+        }
+    },
+    "point": {
+        "Mécanique du point matériel": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 32 hours to complete",
+            "number_of_students": "19,821 students",
+            "short_description": " ",
+            "long_description": "Ces quelques leçons de mécanique du point matériel font partie d'un cours de formation de base en mécanique Newtonienne présenté sous la forme d'un MOOC en quatre parties : \n\n1. Lois de Newton\nhttps://www.coursera.org/learn/mecanique-newton\n\n2. Mécanique du point matériel\n\nPour illustrer les concepts introduits dans la première partie, on traite ici des problèmes pour lesquels le système mécanique peut être considéré comme un point matériel.  Cette partie couvre notamment les problèmes à traiter en coordonnées cylindriques ou sphériques,  le problème des orbites des planètes et les référentiels accélérés.\n\n3. Mécanique du Solide Indéformable\nhttps://www.coursera.org/learn/mecanique-solide\n\n4. Mécanique Lagrangienne\nhttps://www.coursera.org/learn/mecanique-lagrangienne",
+            "url": "https://www.coursera.org/learn/mecanique-point-materiel"
+        }
+    },
+    "customers": {
+        "Marketing analytics: Know your customers": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "",
+            "short_description": " Analyse the concept of customer value and its importance to an organisation. None Examine the tools used and determine what works best to solve which problem. Use customer data to both understand the current situation and develop and drive strategy.",
+            "long_description": "Are your customers at the centre of your organisation’s strategy? An understanding of marketing analytics, the core component of this course, is crucial to serving your customers well. Through structured learning activities (video lectures, quizzes, discussion prompts, industry interviews and written assessments) this course will teach you what to measure – and how – in order to maximise customer value. Rapid advancements in technology mean more powerful data and analytics can inform marketing decisions. However, multiple touchpoints across the customer journey make it increasingly difficult to measure effectiveness. You will develop an understanding of traditional and digital marketing metrics and what questions they answer, as well as how to achieve a single integrated view of the customer. You’ll experiment with behaviour and predictive analytics to develop marketing that delivers customers the right product via the right channel at the right time.",
+            "url": "https://www.coursera.org/learn/marketing-analytics-customers"
+        },
+        "Configure and manage sales, and customers in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-manage-order-to-cash": "https://docs.microsoft.com/en-us/learn/modules/configure-manage-order-cash-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-use-agreements-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-use-agreements-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-use-intercompany-trade": "https://docs.microsoft.com/en-us/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "422 minutes",
+            "short_description": "The process of working with customers, understanding the life cycle of the sales process, and setting up sales agreements are all important factors that impact a company's success.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-manage-sales-customers-in-dynamics-365-scm.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-manage-sales-customers-dyn365-supply-chain-mgmt",
+            "number_of_students": "unknown"
+        },
+        "Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-customer-service-omnichannel/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.getting-started-omnichannel": "https://docs.microsoft.com/en-us/learn/modules/getting-started-omnichannel/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.entity-record-routing": "https://docs.microsoft.com/en-us/learn/modules/entity-record-routing/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-distribution-omnichannel": "https://docs.microsoft.com/en-us/learn/modules/work-distribution-omnichannel/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-message-channels": "https://docs.microsoft.com/en-us/learn/modules/configure-message-channels/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "288 minutes",
+            "short_description": "Developing and deploying true omnichannel solutions are critical to the success of any organization that provides customer service to its customers.  By ensuring the unified and contextual experience regardless of the channel used, organizations can increase customer satisfaction, resolve issues faster, and increase revenue.  With Dynamics 365’s Omnichannel for Customer Service solution, organizations deploy a true Omnichannel solution that exists inside the Dynamics 365 organization that they use every day.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-service"
+                ],
+                "roles": [
+                    "administrator",
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-customer-service-omnichannel.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-customer-service-omnichannel",
+            "number_of_students": "unknown"
+        }
+    },
+    "application": {
+        "Migrate application workloads and data to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-application-workloads-data-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.design-your-migration-to-azure": "https://docs.microsoft.com/en-us/learn/modules/design-your-migration-to-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.prepare-onpremises-workloads-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/prepare-onpremises-workloads-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-onpremises-workloads-azure": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-workloads-azure/?WT.mc_id=api_CatalogApi",
+                "learn.migrate-sql-server-relational-data": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-server-relational-data/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "194 minutes",
+            "short_description": "Determine a migration approach for on-premises workloads and databases and ready those resources for migration to Microsoft Azure. Migrate on-premises Hyper-V-based application workloads and relational data to the cloud using Azure Migrate.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-sql-database"
+                ],
+                "roles": [
+                    "administrator",
+                    "data-engineer",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/migrate-application-workloads-data-azure.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrate-application-workloads-data-azure",
+            "number_of_students": "unknown"
+        },
+        "Create a model-driven application in Power Apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/create-app-models-business-processes/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.intro-model-driven-apps-common-data-service": "https://docs.microsoft.com/en-us/learn/modules/intro-model-driven-apps-common-data-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.powerapps-common-data-service": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps-common-data-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.powerapps-design-model-driven-apps": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-model-driven-apps-in-powerapps/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "160 minutes",
+            "short_description": "This learning path introduces you to creating a model-driven app in Power Apps that uses Common Data Service.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "power-platform",
+                    "powerapps"
+                ],
+                "roles": [
+                    "business-user",
+                    "functional-consultant",
+                    "maker"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/create-app-models-business-processes.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.create-app-models-business-processes",
+            "number_of_students": "unknown"
+        }
+    },
+    "software": {
+        "Capture feedback and monitoring data to continuously improve your software": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/capture-feedback-monitoring/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.azdo.recommend-system-feedback-mechanisms": "https://docs.microsoft.com/en-us/learn/modules/recommend-system-feedback-mechanisms/?WT.mc_id=api_CatalogApi",
+                "learn.azdo.route-system-feedback": "https://docs.microsoft.com/en-us/learn/modules/route-system-feedback/?WT.mc_id=api_CatalogApi",
+                "learn.azdo.manage-site-reliability": "https://docs.microsoft.com/en-us/learn/modules/manage-site-reliability/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "106 minutes",
+            "short_description": "Learn how to recommend and design system feedback mechanisms, implement a process for routing system feedback to development teams, and optimize feedback mechanisms.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-devops"
+                ],
+                "roles": [
+                    "devops-engineer",
+                    "administrator",
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/azure-devops/capture-feedback-monitoring.svg",
+            "price": "FREE",
+            "uid": "learn.azdo.capture-feedback-monitoring",
+            "number_of_students": "unknown"
+        }
+    },
+    "mobile": {
+        "Build mobile apps with Xamarin.Forms": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/build-mobile-apps-with-xamarin-forms/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-xamarin.create-a-mobile-app-with-xamarin-forms": "https://docs.microsoft.com/en-us/learn/modules/create-a-mobile-app-with-xamarin-forms/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.introduction-to-xamarin-android": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-xamarin-android/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.introduction-to-xamarin-ios": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-xamarin-ios/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.create-ui-in-xamarin-forms-apps-with-xaml": "https://docs.microsoft.com/en-us/learn/modules/create-ui-in-xamarin-forms-apps-with-xaml/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.customize-layout-in-xamarin-forms-xaml-pages": "https://docs.microsoft.com/en-us/learn/modules/customize-layout-in-xamarin-forms-xaml-pages/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.design-consistent-xaml-pages-with-shared-resources-and-styles": "https://docs.microsoft.com/en-us/learn/modules/design-consistent-xaml-pages-with-shared-resources-and-styles/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.prepare-to-publish-your-xamarin-application": "https://docs.microsoft.com/en-us/learn/modules/prepare-to-publish-your-xamarin-application/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.consume-rest-services": "https://docs.microsoft.com/en-us/learn/modules/consume-rest-services/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.store-local-data-with-sqlite": "https://docs.microsoft.com/en-us/learn/modules/store-local-data-with-sqlite/?WT.mc_id=api_CatalogApi",
+                "learn-xamarin.create-multi-page-xamarin-forms-apps-with-stack-and-tab-navigation": "https://docs.microsoft.com/en-us/learn/modules/create-multi-page-xamarin-forms-apps-with-stack-and-tab-navigation/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "574 minutes",
+            "short_description": "Use C# and Visual Studio to create apps that run on iOS and Android devices.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "xamarin",
+                    "dotnet",
+                    "vs"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/xamarin/build-mobile-apps-with-xamarin-forms-trophy.svg",
+            "price": "FREE",
+            "uid": "learn-xamarin.build-mobile-apps-with-xamarin-forms",
+            "number_of_students": "unknown"
+        }
+    },
+    "developers": {
+        "Cloud computing basics for developers": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/cmu-cloud-admin-basics/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.cmu-cloud-computing.cloud-basics.cmu-cloud-computing-overview": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-cloud-computing-overview/?WT.mc_id=api_CatalogApi",
+                "learn.cmu-cloud-computing.cloud-basics.cmu-cloud-economics": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-cloud-economics/?WT.mc_id=api_CatalogApi",
+                "learn.cmu-cloud-computing.cloud-basics.cmu-data-centers": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-data-centers/?WT.mc_id=api_CatalogApi",
+                "learn.cmu-cloud-computing.cloud-basics.cmu-data-center-design": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-data-center-design/?WT.mc_id=api_CatalogApi",
+                "learn.cmu-cloud-computing.cloud-basics.cmu-data-center-cloud-service": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-data-center-cloud-service/?WT.mc_id=api_CatalogApi",
+                "learn.cmu-cloud-computing.cloud-basics.cmu-build-apps-cloud": "https://docs.microsoft.com/en-us/learn/cmu-cloud-computing/cmu-build-apps-cloud/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "413 minutes",
+            "short_description": "Learn about the basics of the cloud, including the history, building blocks, and types, in preparation for real-world cloud practice on Azure.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "developer",
+                    "student"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/cmu-cloud-developer/cloud-computing-basics-for-developers.svg",
+            "price": "FREE",
+            "uid": "learn.cmu-cloud-computing.cmu-cloud-computing-basics",
+            "number_of_students": "unknown"
+        }
+    },
+    "reports": {
+        "Create and use analytics reports with Power BI": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/create-use-analytics-reports-power-bi/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.get-started-with-power-bi": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.get-data-power-bi": "https://docs.microsoft.com/en-us/learn/modules/get-data-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.model-data-power-bi": "https://docs.microsoft.com/en-us/learn/modules/model-data-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.visuals-in-power-bi": "https://docs.microsoft.com/en-us/learn/modules/visuals-in-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.explore-data-power-bi": "https://docs.microsoft.com/en-us/learn/modules/explore-data-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.publish-share-power-bi": "https://docs.microsoft.com/en-us/learn/modules/publish-share-power-bi/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "382 minutes",
+            "short_description": "This learning path introduces you to Power BI, and teaches you to use and build business intelligence reports.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "power-platform",
+                    "power-bi"
+                ],
+                "roles": [
+                    "business-user",
+                    "functional-consultant",
+                    "data-analyst"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/create-use-analytics-reports-power-bi.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.create-use-analytics-reports-power-bi",
+            "number_of_students": "unknown"
+        },
+        "Create financial reports in Microsoft Dynamics 365 Business Central": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/create-financial-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.budgets-exchange-rates-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/budgets-exchange-rates-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-financial-reports-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/configure-financial-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.dimensions-financial-reports-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/dimensions-financial-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.forecast-cash-flow-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/forecast-cash-flow-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.xbrl-reports-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/xbrl-reports-dynamics-365-business-central/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "224 minutes",
+            "short_description": "Are you responsible for generating financial reports from Business Central? This learning path discusses creating budgets, and using account schedules, dimensions, and eXtensible business reporting language (XBRL) to generate the financial reports that are typically needed for most businesses.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-business-central"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/create-financial-reports-dynamics-365-business-central.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.create-financial-reports-dynamics-365-business-central",
+            "number_of_students": "unknown"
+        }
+    },
+    "Core": {
+        "Work with core features in Dynamics 365 Marketing": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-core-features-marketing/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.manage-assets-content-settings": "https://docs.microsoft.com/en-us/learn/modules/manage-assets-content-settings/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-customers": "https://docs.microsoft.com/en-us/learn/modules/manage-customers/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-forms-pages-subscriptions": "https://docs.microsoft.com/en-us/learn/modules/manage-forms-pages-subscriptions/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-emails-journey": "https://docs.microsoft.com/en-us/learn/modules/manage-emails-journey/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-subscription-centers-double-opt": "https://docs.microsoft.com/en-us/learn/modules/manage-subscription-centers-double-opt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-websites-redirects-social": "https://docs.microsoft.com/en-us/learn/modules/manage-websites-redirects-social/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "396 minutes",
+            "short_description": "Learn how to use the Marketing application to guide your prospects and customers through a process of automated messaging, activity generation, and interactive decision points. You’ll learn how to create and manage marketing content such as marketing forms, pages, and emails. Additionally, you’ll learn how to tailor your messages to specific audiences through segmentation and build automated campaigns known as customer journeys.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-marketing"
+                ],
+                "roles": [
+                    "administrator",
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-core-features-marketing.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-core-features-marketing",
+            "number_of_students": "unknown"
+        }
+    },
+    "level": {
+        "Work with entitlements and service level agreements in Microsoft Dynamics 365 Customer Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.creating-and-managing-entitlements-in-dynamics-365": "https://docs.microsoft.com/en-us/learn/modules/creating-and-managing-entitlements-in-dynamics-365/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.dynamics-365-service-level-agreements": "https://docs.microsoft.com/en-us/learn/modules/dynamics-365-service-level-agreements/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "128 minutes",
+            "short_description": "This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 Customer Service.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-service"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-entitlements-and-slas-dyn365-customer-service.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.work-with-entitlements-and-slas-dyn365-customer-service",
+            "number_of_students": "unknown"
+        }
+    },
+    "cases": {
+        "Work with cases in Microsoft Dynamics 365 Customer Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-cases-in-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.customer-service-get-started": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.customer-service-cases": "https://docs.microsoft.com/en-us/learn/modules/managing-cases-with-dynamics-365/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads": "https://docs.microsoft.com/en-us/learn/modules/using-dynamics-365-queues-to-manage-case-workloads/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "177 minutes",
+            "short_description": "This learning path focuses on Case Management capabilities of Dynamics 365 Customer Service including options for creating cases, managing the case resolution process, working with case hierarchies and merging similar cases. Queues can be leveraged to maintain and manage Case workloads for customer service agents to include defining queues for different types of cases, managing queue items, picking and releasing queue items, and designing queue routing rules.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-service"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.customer-service-hub-cases-slas",
+            "number_of_students": "unknown"
+        }
+    },
+    "Information": {
+        "Protect enterprise information with Microsoft 365": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-information-protection/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.m365-security-info-overview": "https://docs.microsoft.com/en-us/learn/modules/m365-security-info-overview/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-digital-estate": "https://docs.microsoft.com/en-us/learn/modules/m365-security-digital-estate/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-sensitivity-labels": "https://docs.microsoft.com/en-us/learn/modules/m365-security-sensitivity-labels/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-data-loss": "https://docs.microsoft.com/en-us/learn/modules/m365-security-data-loss/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-monitor-sensitive-data": "https://docs.microsoft.com/en-us/learn/modules/m365-security-monitor-sensitive-data/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "60 minutes",
+            "short_description": "Protecting and securing your organization's information is more challenging than ever. The <strong sourcefile=\"paths/m365-information-protection/index.yml\" sourcestartlinenumber=\"1\">Protect enterprise information with Microsoft 365</strong> learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "office-365",
+                    "m365-information-protection",
+                    "m365-security-center"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/protect-enterprise-information-microsoft-365.svg",
+            "price": "FREE",
+            "uid": "learn-m365.m365-information-protection",
+            "number_of_students": "unknown"
+        }
+    }
+}
