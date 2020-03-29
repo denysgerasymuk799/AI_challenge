@@ -99,11 +99,5 @@ def middle():
 def index():
     return render_template("one_section.html", courses_list=courses)
 
-
-@app.route('/check')
-def check():
-    return "simple check 10"
-
-
 if __name__ == '__main__':
     app.run(debug=True)
