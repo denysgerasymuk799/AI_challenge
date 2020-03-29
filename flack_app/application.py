@@ -49,7 +49,8 @@ def skills_for_job(job):
         all_skills = json.load(json_file)
 
     os.chdir(mycwd)
-    return all_skills[job]
+    title_profession = '+'.join(job.split())
+    return all_skills[title_profession]
 
 
 global skills
