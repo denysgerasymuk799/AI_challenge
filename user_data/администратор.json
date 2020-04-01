@@ -1,0 +1,198 @@
+{
+    "bash": {
+        "Using Python to Interact with the Operating System": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system"
+        }
+    },
+    "IP": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "NAT": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "Apache": {
+        "Managing Big Data in Clusters and Cloud Storage": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql"
+        }
+    },
+    "MySQL": {
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+            "id": 1187016,
+            "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+            }
+        }
+    },
+    "Linux": {
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "Windows Server": {
+        "SQL Server upgrades": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-upgrades/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-upgrading-sql-server": "https://docs.microsoft.com/en-us/learn/modules/introduction-upgrading-sql-server/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.use-sql-server-query-tuning-assistant": "https://docs.microsoft.com/en-us/learn/modules/use-sql-server-query-tuning-assistant/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "198 minutes",
+            "short_description": "Running the latest version of SQL Server provides you with numerous performance and functionality benefits while also extending the support of your database platform. In this learning path you will learn how to take an inventory of your SQL Server deployments using the Microsoft Assessment and Planning toolkit, how to upgrade SQL Server databases using the Data Migration Assistant, and how to optimize your updated system using both the Database Experimentation Assistant and Query Tuning Assistant.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-upgrades.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-upgrades",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "Excel": {
+        "Microsoft Excel - Excel from Beginner to Advanced": {
+            "id": 793796,
+            "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+            }
+        }
+    }
+}
