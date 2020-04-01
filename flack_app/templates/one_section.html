@@ -23,8 +23,11 @@
         {% for course in courses_list[skill].keys() %}
 
             <div class="course bg-white h-100 align-self-stretch">
-                  <div class="data">
-                    <input type="checkbox" name="{{ courses_list[skill][course]['id']  }}" id="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}" /><label for="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}"></label>
+                  <div class="checkbox-field">
+
+                    <input type="checkbox" name="{{ courses_list[skill][course]['id']  }}" id="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}" />
+{#                      <span></span>#}
+{#                       <label for="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}">                     </label>#}
                   </div>
 
               <figure class="m-0">
