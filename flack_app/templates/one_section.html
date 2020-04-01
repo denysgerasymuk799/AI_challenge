@@ -1,5 +1,6 @@
 {% extends "index.html" %}
 {% block content %}
+    <form method="post" id="the-form" action="selected">
     {% for skill in courses_list.keys() %}
         {% set outer_loop = loop %}
         <div class="site-section courses-title" id="courses-section">
@@ -15,7 +16,7 @@
           <div class="container">
             <div class="row">
               <div class="col-1 custom-btn">
-                <button class="customNextBtn btn btn-primary">Prev</button>
+                <a class="customPrevBtn btn btn-primary" href="#">Prev</a>
               </div>
               <div class="owl-carousel col-10 nonloop-block-14">
 
@@ -23,7 +24,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
                   <div class="data">
-                    <input type="checkbox" id="{{outer_loop.index}}-{{loop.index}}" /><label for="{{outer_loop.index}}-{{loop.index}}"></label>
+                    <input type="checkbox" name="{{ courses_list[skill][course]['id']  }}" id="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}" /><label for="{{outer_loop.index}}-{{loop.index}}-{{courses_list[skill][course]['id']}}"></label>
                   </div>
 
               <figure class="m-0">
@@ -70,7 +71,7 @@
 
               </div>
                <div class="col-1 custom-btn">
-                <button class="customNextBtn btn btn-primary">Next</button>
+                <a class="customNextBtn btn btn-primary" href="#">Next</a>
               </div>
                 </div>
                 <div class="row justify-content-center">
@@ -82,4 +83,5 @@
               </div>
             </div>
         {% endfor %}
+    </form>
 {% endblock %}

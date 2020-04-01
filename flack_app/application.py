@@ -32,6 +32,13 @@ def get_courses(current_skills):
                 courses_list_input_profession[skill] = course_list[skill]
 
     os.chdir(mycwd)
+
+    id = 0
+    for i, skill in enumerate(courses_list_input_profession.keys()):
+        for j, course in enumerate(courses_list_input_profession[skill].keys()):
+            courses_list_input_profession[skill][course]["name"] = course
+            courses_list_input_profession[skill][course]["id"] = "course-" + str(id)
+            id += 1
     return courses_list_input_profession
 
 
@@ -91,6 +98,7 @@ def middle():
         print(current_skills)
         global courses
         courses = get_courses(current_skills)  # your function
+
         return redirect(url_for("index"))
     else:
         return render_template("skills.html", skills=skills)
@@ -100,9 +108,16 @@ def middle():
 def index():
     return render_template("one_section.html", courses_list=courses)
 
-@app.route('/test')
-def test():
-    return render_template("test.html")
+@app.route('/selected', methods=['POST', 'GET'])
+def selected():
+    my_courses = []
+    data = request.form
+    for i, skill in enumerate(courses.keys()):
+        for j, course in enumerate(courses[skill].keys()):
+            if courses[skill][course]['id'] in data:
+                my_courses.append(courses[skill][course])
+    print(my_courses)
+    return render_template("selected.html", my_courses=my_courses)
 
 if __name__ == '__main__':
     app.run(debug=True)
