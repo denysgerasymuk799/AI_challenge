@@ -5,7 +5,7 @@
           <div class="container">
             <div class="row mb-5 justify-content-center">
               <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
-                <h3 class="section-title">{{skill}}</h3>
+                <h3 class="section-title">{{skill.capitalize()}}</h3>
               </div>
             </div>
           </div>
@@ -18,7 +18,7 @@
         {% for course in courses_list[skill].keys() %}
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image'] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+                <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image'].rsplit("?")[0] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">{{ courses_list[skill][course]['price'] }}</span>
@@ -29,7 +29,7 @@
                   {% endif %}
 
                   {% if courses_list[skill][course]['short_description'] == ' ' %}
-                    <p>{{".".join(courses_list[skill][course]['long_description'].split(".")[:1])+"."}}</p>
+                    <p>{{ courses_list[skill][course]['long_description'].split(".")[0] }}</p>
                   {% endif %}
               </div>
               <div class="d-flex border-top stats">

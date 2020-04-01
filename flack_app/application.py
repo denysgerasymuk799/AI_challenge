@@ -24,7 +24,7 @@ def get_courses(current_skills):
 
     title_profession = '+'.join(all_user_data['profession'].split())
     courses_list_input_profession = {}
-    with open(os.path.join(os.getcwd(), 'user_data', title_profession + '.json'), 'r', encoding='utf-8') as\
+    with open(os.path.join(os.getcwd(), 'user_data', title_profession + '.json'), 'r', encoding='utf-8') as \
             json_file:
         course_list = json.load(json_file)
         for skill in course_list.keys():
@@ -99,6 +99,7 @@ def middle():
 @app.route('/courses', methods=['POST', 'GET'])
 def index():
     return render_template("one_section.html", courses_list=courses)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
