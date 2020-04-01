@@ -1,6 +1,7 @@
 {% extends "index.html" %}
 {% block content %}
     {% for skill in courses_list.keys() %}
+        {% set outer_loop = loop %}
         <div class="site-section courses-title" id="courses-section">
           <div class="container">
             <div class="row mb-5 justify-content-center">
@@ -13,11 +14,18 @@
         <div class="site-section courses-entry-wrap"  data-aos="fade-up" data-aos-delay="100">
           <div class="container">
             <div class="row">
+              <div class="col-1 custom-btn">
+                <button class="customNextBtn btn btn-primary">Prev</button>
+              </div>
+              <div class="owl-carousel col-10 nonloop-block-14">
 
-              <div class="owl-carousel col-12 nonloop-block-14">
         {% for course in courses_list[skill].keys() %}
 
             <div class="course bg-white h-100 align-self-stretch">
+                  <div class="data">
+                    <input type="checkbox" id="{{outer_loop.index}}-{{loop.index}}" /><label for="{{outer_loop.index}}-{{loop.index}}"></label>
+                  </div>
+
               <figure class="m-0">
               {% if courses_list[skill][course]['image'] %}
                   {% if courses_list[skill][course]['image']['image_240x135'] %}
@@ -58,14 +66,17 @@
                 <div class="py-3 px-4"><span class="icon-users"></span>{{courses_list[skill][course]['number_of_students']}}</div>
               </div>
             </div>
-
             {% endfor %}
+
+              </div>
+               <div class="col-1 custom-btn">
+                <button class="customNextBtn btn btn-primary">Next</button>
               </div>
                 </div>
                 <div class="row justify-content-center">
                   <div class="col-7 text-center">
-                    <button class="customPrevBtn btn btn-primary m-1">Prev</button>
-                    <button class="customNextBtn btn btn-primary m-1">Next</button>
+
+
                   </div>
                 </div>
               </div>
