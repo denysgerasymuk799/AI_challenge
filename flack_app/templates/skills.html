@@ -22,7 +22,7 @@
 				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off" id="form" method="post">
 					<ul>
 						{%for i in skills %}
-							<li><input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{i}}</label></li>
+							<li><input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{i.capitalize()}}</label></li>
 						{%endfor%}
 						<div class="wrap">
 							<button class="button" type="submit" form="form" value="Submit">Confirm</button>

@@ -24,8 +24,14 @@
                 <span class="course-price">{{ courses_list[skill][course]['price'] }}</span>
                 <div class="meta"><span class="icon-clock-o"></span>{{courses_list[skill][course]['course_duration']}}</div>
                 <h3><a href={{courses_list[skill][course]['url']}}>{{course}}</a></h3>
-                  {% if courses_list[skill][course]['short_description'] != '   ' %}
-                    <p>{{".".join(courses_list[skill][course]['short_description'].split(".")[:1])+"."}}</p>
+                  {% if courses_list[skill][course]['short_description'] != ' ' %}
+
+                    {% if courses_list[skill][course]['short_description'][150] %}
+                        <p>{{ courses_list[skill][course]['short_description'][:150] + "..." }}</p>
+                    {% else %}
+                        <p>{{ courses_list[skill][course]['short_description']}}</p>
+                    {% endif %}
+
                   {% endif %}
 
                   {% if courses_list[skill][course]['short_description'] == ' ' %}
