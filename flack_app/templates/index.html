@@ -48,14 +48,7 @@
                 <div class="site-logo mr-auto w-25"><a href="#">S.E.A</a></div>
 
                 <div class="ml-auto">
-                    <nav class="site-navigation position-relative text-right" role="navigation">
-                        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                            <li class="cta"><a href="{{ url_for("start") }}"
-                                               class="nav-link"><span>Find other courses</span></a></li>
-                            <li class="cta"><a id="selected" href="#" class="nav-link"><span>View selected</span></a>
-                            </li>
-                        </ul>
-                    </nav>
+                    {% block nav %}{% endblock %}
                     <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
                             class="icon-menu h3"></span></a>
                 </div>
