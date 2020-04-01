@@ -16,26 +16,42 @@
 
               <div class="owl-carousel col-12 nonloop-block-14">
         {% for course in courses_list[skill].keys() %}
+
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image'].rsplit("?")[0] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+              {% if courses_list[skill][course]['image'] %}
+                  {% if courses_list[skill][course]['image']['image_240x135'] %}
+                    <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image']['image_480x270'] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                  {% elif courses_list[skill][course]['image']['small'] %}
+                        <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image']['large'] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                  {% else %}
+                    <a href={{courses_list[skill][course]['url']}}><img src="{{ courses_list[skill][course]['image'].rsplit("?")[0] }}" alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                  {% endif %}
+
+
+              {% endif %}
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">{{ courses_list[skill][course]['price'] }}</span>
                 <div class="meta"><span class="icon-clock-o"></span>{{courses_list[skill][course]['course_duration']}}</div>
                 <h3><a href={{courses_list[skill][course]['url']}}>{{course}}</a></h3>
-                  {% if courses_list[skill][course]['short_description'] != ' ' %}
+                  {% if courses_list[skill][course]['short_description'] %}
+                      {% if courses_list[skill][course]['short_description'] != ' ' %}
 
-                    {% if courses_list[skill][course]['short_description'][150] %}
-                        <p>{{ courses_list[skill][course]['short_description'][:150] + "..." }}</p>
-                    {% else %}
-                        <p>{{ courses_list[skill][course]['short_description']}}</p>
-                    {% endif %}
+                        {% if courses_list[skill][course]['short_description'][150] %}
+                            <p>{{ courses_list[skill][course]['short_description'][:150] + "..." }}</p>
+                        {% else %}
+                            <p>{{ courses_list[skill][course]['short_description']}}</p>
+                        {% endif %}
 
-                  {% endif %}
+                      {% endif %}
 
-                  {% if courses_list[skill][course]['short_description'] == ' ' %}
-                    <p>{{ courses_list[skill][course]['long_description'].split(".")[0] }}</p>
+                      {% if courses_list[skill][course]['short_description'] == ' ' %}
+                        <p>{{ courses_list[skill][course]['long_description'].split(".")[0] }}</p>
+                      {% endif %}
                   {% endif %}
               </div>
               <div class="d-flex border-top stats">
