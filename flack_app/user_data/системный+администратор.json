@@ -1,0 +1,832 @@
+{
+    "AWS": {
+        "Getting Started with AWS Machine Learning": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "85,849 students",
+            "short_description": " Key problems that Machine Learning can address and ultimately help solve. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance. Sneak peek into AWS DeepLens - The worldâs first deep learning enabled video camera for developers.",
+            "long_description": "Machine learning (ML) is one of the fastest growing areas in technology and a highly sought after skillset in today’s job market. The World Economic Forum states the growth of artificial intelligence (AI) could create 58 million net new jobs in the next few years, yet it’s estimated that currently there are 300,000 AI engineers worldwide, but millions are needed. This means there is a unique and immediate opportunity for you to get started with learning the essential ML concepts that are used to build AI applications – no matter what your skill levels are. Learning the foundations of ML now, will help you keep pace with this growth, expand your skills and even help advance your career. \n\nThis course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS. Each topic consists of several modules deep-diving into variety of ML concepts, AWS services as well as insights from experts to put the concepts into practice.",
+            "url": "https://www.coursera.org/learn/aws-machine-learning"
+        },
+        "Migrating to Google Cloud Platform": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 31 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Assess the source environment and identify potential virtual machines to migrate Familiarize with Google Cloud Platform's fundamental concepts and deploy virtual machines and global networks Set up and migrate virtual machines from On-Premises or AWS to Google Cloud Platform  Leverage the elasticity and globalization of the cloud with automation and load balancers",
+            "long_description": "This training course introduces participants to migrating workloads to Google Cloud Platform. The course explains the strategies to migrate from the source environment to the cloud. Participants are introduced to Google Cloud Platform's fundamental concepts and more in depth topics, like managing virtual machines and configuring networks. In addition to learning how to use Google Cloud Platform, the participants learn how to leverage Google's workload mobility application, Migrate for Compute Engine. The training covers the installation and migration process, including special features like test clones and wave migrations. The course also covers topics related to governance, including resource hierarchy, user identities in the cloud, and Active Directory. Lastly, participants learn how to monitor and log their environment with Stackdriver, leverage the elasticity of the cloud with managed instance groups, and use a global load balancer. \n\n>>> By enrolling in this course you agree to the Qwiklabs Terms of Service as set out in the FAQ and located at: https://qwiklabs.com/terms_of_service <<<",
+            "url": "https://www.coursera.org/learn/migrating-to-gcp"
+        },
+        "AWS Fundamentals: Going Cloud-Native": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "66,244 students",
+            "short_description": " Learn AWS fundamental concepts including Regions, Availability Zones, and Virtual Private Clouds (VPCs) Learn how to use AWS compute, storage, database, and security services via the AWS Console How to make an applications durable, distributed, and highly available",
+            "long_description": "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application. \n\nEarly in the course, your AWS instructors will discuss how the AWS cloud infrastructure is built, walk you through Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Lightsail compute services. They'll also introduce you to networking on AWS, including how to set up Amazon Virtual Public Cloud (VPC) and different cloud storage options, including Amazon Elastic Block Storage (EBS), Amazon Simple Storage Service (S3) and Amazon Elastic File Service (EFS). Later in the course you'll learn about AWS Database services, such as Amazon Relational Database Service (RDS) and Amazon DynomoDB. Your instructors will also walk you through how to monitor and scale you application on AWS using Amazon CloudWatch and Amazon EC2 Elastic Load Balancing (ELB) and Auto Scaling. Lastly, you'll learn about security on AWS, as well as how to manage costs when using the AWS cloud platform. \n\nIn this course, you won't be required to complete hands-on exercises, but we strongly suggest you take advantage of the AWS Free Tier to follow along as the instructors demonstrate the AWS services. Class forums will also allow you to ask questions and interact with AWS training instructors. After completing this course, you'll have the basic fundamentals to get started on AWS. \n\nThis course has been developed by AWS, and is delivered by AWS technical instructors who teach cloud computing courses around the globe.",
+            "url": "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native"
+        },
+        "AWS Certified Solutions Architect - Associate 2020": {
+            "id": 362328,
+            "url": "https://udemy.com/course/aws-certified-solutions-architect-associate/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/362328_91f3_10.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/362328_91f3_10.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/362328_91f3_10.jpg"
+            }
+        },
+        "AWS Certified Developer - Associate 2020": {
+            "id": 393306,
+            "url": "https://udemy.com/course/aws-certified-developer-associate/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/393306_f2a5_6.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/393306_f2a5_6.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/393306_f2a5_6.jpg"
+            }
+        }
+    },
+    "Server": {
+        "Cybersecurity Compliance Framework & System Administration": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " List and describe several key cybersecurity compliance and industry standards including NIST, GDPR, HIPAA, SANS and PCI. Describe an overview of the design, roles and function of server and user administration. Understand the concept of patching and endpoint protection as it relates to client system administration. Define encryption, encoding, hashing and digital certificates as it relates to cryptography",
+            "long_description": "This course gives you the background needed to understand the key cybersecurity compliance and industry standards.  This knowledge will be important for you to learn no matter what cybersecurity role you would like to acquire or have within an organization.\n\n You will learn the basic commands for user and server administration as it relates to security. You will need this skill to be able to understand vulnerabilities within your organizations operating systems.\n\nYou will learn the concepts of endpoint security and patch management.  Both of these topics are important to keep systems current to avoid cybersecurity incidents against an organization.\n\nFinally you will learn in depth skills around cryptography and encryption to understand how these concepts affect software within a company.  \n\nThis course is intended for anyone who wants to gain a basic understanding of Security Frameworks, Compliance, endpoint management, encryption or cryptography or as the third course in a series of courses to gain the skill as a Jr Cybersecurity analyst.",
+            "url": "https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration"
+        },
+        "Migrate SQL workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-sql-workloads-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-sql-databases": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-sql-databases/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-managed-instances": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-managed-instances/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "The objective of this learning path is to educate the learner how they can migrate SQL Server workloads to SQL Services that exist on Azure.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure-sql-database",
+                    "azure-virtual-machines",
+                    "sql-server"
+                ],
+                "roles": [
+                    "administrator",
+                    "data-engineer",
+                    "developer",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/migrate-sql-workloads-to-azure.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrate-sql-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "SQL Server upgrades": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-upgrades/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-upgrading-sql-server": "https://docs.microsoft.com/en-us/learn/modules/introduction-upgrading-sql-server/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.use-sql-server-query-tuning-assistant": "https://docs.microsoft.com/en-us/learn/modules/use-sql-server-query-tuning-assistant/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "198 minutes",
+            "short_description": "Running the latest version of SQL Server provides you with numerous performance and functionality benefits while also extending the support of your database platform. In this learning path you will learn how to take an inventory of your SQL Server deployments using the Microsoft Assessment and Planning toolkit, how to upgrade SQL Server databases using the Data Migration Assistant, and how to optimize your updated system using both the Database Experimentation Assistant and Query Tuning Assistant.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-upgrades.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-upgrades",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "SQL": {
+        "Introduction to Clinical Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science"
+        },
+        "Databases and SQL for Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science"
+        },
+        "Distributed Computing with Spark SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "",
+            "short_description": " Uâse the collaborative Databricks workspace and write SQL code that executes against a cluster of machines Use Spark UI to analyze performance and identify bottlenecks Create an end-to-end pipeline that reads data, transforms it, and saves the result Bâuild a linear regression model and make predictions using SparkSQL",
+            "long_description": "This course is for students with SQL experience and now want to take the next step in gaining familiarity with distributed computing using Spark. Students will gain an understanding of when to use Spark and how Spark as an engine uniquely combines Data and AI technologies at scale. The four modules build on one another and by the end of the course the student will understand: Spark architecture, Spark DataFrame, optimizing reading/writing data, and how to build a machine learning model. The first module will introduce Spark, including how Spark works with distributed computing and what are Spark Dataframes. Module 2 covers the core concepts of Spark such as storage vs. computing, caching, partitions and Spark UI. The third module looks at Engineering Data Pipelines covering connecting to databases, schemas and type, file formats and writing good data. The final module looks at the application of Spark with Machine Learning through the business use case, a short introduction to what machine learning is, building and applying models and a final course conclusion. By understanding when to use Spark, either scaling out when the model or data is too large to process on a single machine, or having a need to simply speed up to get faster results, students will hone their SQL skills and become a more adept Data Scientist.",
+            "url": "https://www.coursera.org/learn/spark-sql"
+        },
+        "Data Wrangling, Analysis and AB Testing with SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 22 hours to complete",
+            "number_of_students": "3,171 students",
+            "short_description": " Validate and clean a dataset Assess and create datasets to answer your questions Solve problems using SQL Build a simple testing framework to touch on AB Testing",
+            "long_description": "This course allows you to apply the SQL skills taught in “SQL for Data Science” to four increasingly complex and authentic data science inquiry case studies. We'll learn how to convert timestamps of all types to common formats and perform date/time calculations. We'll select and perform the optimal JOIN for a data science inquiry and clean data within an analysis dataset by deduping, running quality checks, backfilling, and handling nulls. We'll learn how to segment and analyze data per segment using windowing functions and use case statements to execute conditional logic to address a data science inquiry. We'll also describe how to convert a query into a scheduled job and how to insert data into a date partition. Finally, given a predictive analysis need, we'll engineer a feature from raw data using the tools and skills we've built over the course. The real-world application of these skills will give you the framework for performing the analysis of an AB test.",
+            "url": "https://www.coursera.org/learn/data-wrangling-analysis-abtesting"
+        },
+        "Foundations for Big Data Analysis with SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "5,564 students",
+            "short_description": " Distinguish operational from analytic databases, and understand how these are applied in big data Understand how database and table design provides structures for working with data Appreciate how differences in volume and variety of data affects your choice of an appropriate database system Recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis",
+            "long_description": "In this course, you'll get a big-picture view of using SQL for big data, starting with an overview of data, database systems, and the common querying language (SQL). Then you'll learn the characteristics of big data and SQL tools for working on big data platforms. You'll also install an exercise environment (virtual machine) to be used through the specialization courses, and you'll have an opportunity to do some initial exploration of databases and tables in that environment.\n\nBy the end of the course, you will be able to\n• distinguish operational from analytic databases, and understand how these are applied in big data;\n• understand how database and table design provides structures for working with data;\n• appreciate how differences in volume and variety of data affects your choice of an appropriate database system;\n• recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis; and \n• explore databases and tables in a big data platform.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/foundations-big-data-analysis-sql"
+        },
+        "Migrate SQL workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-sql-workloads-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-sql-databases": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-sql-databases/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-managed-instances": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-managed-instances/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "The objective of this learning path is to educate the learner how they can migrate SQL Server workloads to SQL Services that exist on Azure.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure-sql-database",
+                    "azure-virtual-machines",
+                    "sql-server"
+                ],
+                "roles": [
+                    "administrator",
+                    "data-engineer",
+                    "developer",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/migrate-sql-workloads-to-azure.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrate-sql-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "Work with relational data in Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.provision-azure-sql-db": "https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/?WT.mc_id=api_CatalogApi",
+                "learn.create-azure-db-for-postgresql": "https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/?WT.mc_id=api_CatalogApi",
+                "learn.azure-scale-azure-sql-dbs-elastic-pools": "https://docs.microsoft.com/en-us/learn/modules/scale-sql-databases-elastic-pools/?WT.mc_id=api_CatalogApi",
+                "learn.secure-your-azure-sql-database": "https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/?WT.mc_id=api_CatalogApi",
+                "learn.develop-app-that-queries-azure-sql": "https://docs.microsoft.com/en-us/learn/modules/develop-app-that-queries-azure-sql/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "250 minutes",
+            "short_description": "Azure supports several popular SQL-based database solutions including SQL Server, PostgreSQL, and MySQL. Learn how to use these enterprise data solutions in Azure to store and retrieve your app's data in the cloud.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-sql-database",
+                    "azure-cloud-shell",
+                    "azure-clis"
+                ],
+                "roles": [
+                    "developer",
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-relational-data-in-azure.svg",
+            "price": "FREE",
+            "uid": "learn.work-with-relational-data-in-azure",
+            "number_of_students": "unknown"
+        },
+        "SQL Server upgrades": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-upgrades/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-upgrading-sql-server": "https://docs.microsoft.com/en-us/learn/modules/introduction-upgrading-sql-server/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.use-sql-server-query-tuning-assistant": "https://docs.microsoft.com/en-us/learn/modules/use-sql-server-query-tuning-assistant/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "198 minutes",
+            "short_description": "Running the latest version of SQL Server provides you with numerous performance and functionality benefits while also extending the support of your database platform. In this learning path you will learn how to take an inventory of your SQL Server deployments using the Microsoft Assessment and Planning toolkit, how to upgrade SQL Server databases using the Data Migration Assistant, and how to optimize your updated system using both the Database Experimentation Assistant and Query Tuning Assistant.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-upgrades.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-upgrades",
+            "number_of_students": "unknown"
+        },
+        "Work with NoSQL data in Azure Cosmos DB": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.create-cosmos-db-for-scale": "https://docs.microsoft.com/en-us/learn/modules/create-cosmos-db-for-scale/?WT.mc_id=api_CatalogApi",
+                "learn.azure.choose-the-appropriate-api-for-cosmos-db-storage": "https://docs.microsoft.com/en-us/learn/modules/choose-api-for-cosmos-db/?WT.mc_id=api_CatalogApi",
+                "learn.access-data-with-cosmos-db-and-sql-api": "https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/?WT.mc_id=api_CatalogApi",
+                "learn.azure.store-access-data-cosmos-graph-api": "https://docs.microsoft.com/en-us/learn/modules/store-access-data-cosmos-graph-api/?WT.mc_id=api_CatalogApi",
+                "learn.azure.store-access-data-cosmos-table-api": "https://docs.microsoft.com/en-us/learn/modules/store-access-data-cosmos-table-api/?WT.mc_id=api_CatalogApi",
+                "learn.cosmos-db-app-with-vscode": "https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/?WT.mc_id=api_CatalogApi",
+                "learn.monitor-azure-cosmos-db": "https://docs.microsoft.com/en-us/learn/modules/monitor-and-scale-cosmos-db/?WT.mc_id=api_CatalogApi",
+                "learn.distribute-data-globally-with-cosmos-db": "https://docs.microsoft.com/en-us/learn/modules/distribute-data-globally-with-cosmos-db/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "355 minutes",
+            "short_description": "NoSQL data is an efficient way to store information that doesn’t map to the requirements of a relational SQL database. Learn how to use the Azure portal, the Azure Cosmos DB extension for Visual Studio Code, and the Azure Cosmos DB .NET Core SDK to work with your NoSQL data where you want, and provide your users with high availability, no matter where they are in the world.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-cosmos-db",
+                    "vs-code",
+                    "azure-portal",
+                    "azure-clis"
+                ],
+                "roles": [
+                    "developer",
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-nosql-data-in-azure-cosmos-db.svg",
+            "price": "FREE",
+            "uid": "learn.work-with-nosql-data-in-azure-cosmos-db",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        },
+        "The Complete SQL Bootcamp": {
+            "id": 762616,
+            "url": "https://udemy.com/course/the-complete-sql-bootcamp/",
+            "price": "$194.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/762616_7693_3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/762616_7693_3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/762616_7693_3.jpg"
+            }
+        },
+        "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+            "id": 1187016,
+            "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+            }
+        }
+    },
+    "Python": {
+        "Project: Multiple Linear Regression with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build univariate and multivariate linear regression models in Python using scikit-learn Perform Exploratory Data Analysis (EDA) and data visualization with seaborn Evaluate model fit and accuracy using numerical measures such as RÂ² and RMSE Model interaction effects in regression using basic feature engineering techniques",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate multiple linear regression models using Python. You will use scikit-learn to calculate the regression, while using pandas for data management and seaborn for data visualization. The data for this project consists of the very popular Advertising dataset to predict sales revenue based on advertising spending through media such as TV, radio, and newspaper. \n\nBy the end of this project, you will be able to:\n\n- Build univariate and multivariate linear regression models using scikit-learn\n- Perform Exploratory Data Analysis (EDA) and data visualization with seaborn\n- Evaluate model fit and accuracy using numerical measures such as R² and RMSE\n- Model interaction effects in regression using basic feature engineering techniques\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, this means instant access to a cloud desktop with Jupyter Notebooks and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-multiple-linear-regression"
+        },
+        "Using Python to Interact with the Operating System": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system"
+        },
+        "Project: Logistic Regression with Python and Numpy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "2,837",
+            "short_description": " Implement Logistic Regression using Python and Numpy. Apply Logistic Regression to solve binary classification problems.",
+            "long_description": "In this 2-hour long project-based course, you will learn how to implement Logistic Regression using Python and Numpy. Logistic Regression is an important fundamental concept if you want break into Machine Learning and Deep Learning. Even though popular machine learning frameworks have implementations of logistic regression available, it's still a great idea to learn to implement it on your own to understand the mechanics of optimization algorithm, and the training and validation process.\n\nSince this is a practical, project-based course, you will need to have a theoretical understanding of logistic regression, and gradient descent. We will focus on the practical aspect of implementing logistic regression with gradient descent, but not on the theoretical aspect.\n\nBy the end of this course, you would create and train a logistic model that will be able to predict if a given image is of hand-written digit zero or of hand-written digit one. The model will be able to distinguish between images or 0s and 1s, and it will do that with a very high accuracy. Not only that, your implementation of the logistic model will also be able to solve any generic binary classiﬁcation problem. You will still have to train model instances on speciﬁc datasets of course, but you won’t have to change the implementation and it will be re-usable. The dataset for images of hand written digits comes from the popular MNIST dataset. This data set consists of images for the 10 hand-written digits (from 0 to 9), but since we are implementing logistic regression, and are looking to solve binary classiﬁcation problems - we will work with examples of hand written zeros, and hand written ones and we will ignore examples of rest of the digits.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and Tensorflow pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/deep-learning-fundamentals-logistic-regression"
+        },
+        "Project: Predict Sales Revenue with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build simple linear regression models in Python Apply scikit-learn and statsmodels to regression problems Employ explorartory data analysis (EDA) with seaborn and pandas Explain linear regression to both technical and non-technical audiences",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate a simple linear regression model using Python. You will employ the scikit-learn module for calculating the linear regression, while using pandas for data management, and seaborn for plotting. You will be working with the very popular Advertising data set to predict sales revenue based on advertising spending through mediums such as TV, radio, and newspaper. \n\nBy the end of this course, you will be able to:\n- Explain the core ideas of linear regression to technical and non-technical audiences\n- Build a simple linear regression model in Python with scikit-learn\n- Employ Exploratory Data Analysis (EDA) to small data sets with seaborn and pandas\n- Evaluate a simple linear regression model using appropriate metrics\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Jupyter and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-simple-linear-regression"
+        },
+        "Inferential Statistical Analysis with Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "",
+            "short_description": " Determine assumptions needed to calculate confidence intervals for their respective population parameters. Create confidence intervals in Python and interpret the results. Review how inferential procedures are applied and interpreted step by step when analyzing real data. Run hypothesis tests in Python and interpret the results.",
+            "long_description": "In this course, we will explore basic principles behind using data for estimation and for assessing theories. We will analyze both categorical data and quantitative data, starting with one population techniques and expanding to handle comparisons of two populations. We will learn how to construct confidence intervals. We will also use sample data to assess whether or not a theory about the value of a parameter is consistent with the data. A major focus will be on interpreting inferential results appropriately.  \n\nAt the end of each week, learners will apply what they’ve learned using Python within the course environment. During these lab-based sessions, learners will work through tutorials focusing on specific case studies to help solidify the week’s statistical concepts, which will include further deep dives into Python libraries including Statsmodels, Pandas, and Seaborn. This course utilizes the Jupyter Notebook environment within Coursera.",
+            "url": "https://www.coursera.org/learn/inferential-statistical-analysis-python"
+        },
+        "Databases and SQL for Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science"
+        },
+        "Estructuras de datos en Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "",
+            "short_description": " Utilizar strings Comprender las diferentes estructuras de datos que provee Python Comprender cÃ³mo se trabaja con archivos Comprender quÃ© son las excepciones y el uso de los decoradores",
+            "long_description": "Este curso te dará ágil acceso a  las estructuras de datos principales del lenguaje de programación Python en su versión 3.0. \nUna vez que termines este curso tendrás un conocimiento general de Python, que te permitirá realizar programas que trabajen con muchos datos tomados desde archivos de la computadora. Aquí podrás conocer cómo utilizar las estructuras de datos integradas en Python, como las listas, los diccionarios y las tuplas. Además entenderás cómo trabajar con archivos y el manejo de excepciones. \n\nComo se trata del segundo curso dentro de un programa especializado, se requiere tener conocimientos de los conceptos básicos de programación y saber escribir y ejecutar scripts de Python.\nEste curso cubrirá las secciones 6-9 del libro de texto “El Tutorial de Python” de Guido Van Rossum, el creador de Python.",
+            "url": "https://www.coursera.org/learn/estructura-de-datos-python"
+        },
+        "Project: Linear Regression with NumPy and Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 2 hours to complete",
+            "number_of_students": "",
+            "short_description": " Implement the gradient descent algorithm from scratch Perform univariate linear regression with Numpy and Python Create data visualizations and plots using matplotlib",
+            "long_description": "Welcome to this project-based course on Linear Regression with NumPy and Python. In this project, you will do all the machine learning without using any of the popular machine learning libraries such as scikit-learn and statsmodels. The aim of this project and is to implement all the machinery, including gradient descent and linear regression, of the various learning algorithms yourself, so you have a deeper understanding of the fundamentals.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, NumPy, and Seaborn pre-installed.",
+            "url": "https://www.coursera.org/learn/linear-regression-numpy-python"
+        },
+        "Machine Learning for Accounting with Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 30 hours to complete",
+            "number_of_students": "6,016",
+            "short_description": " The concept of various machine learning algorithms. How to apply machine learning models on datasets with Python in Jupyter Notebook. How to evaluate machine learning models. How to optimize machine learning models.",
+            "long_description": "This course, Machine Learning for Accounting with Python, introduces machine learning algorithms (models) and their applications in accounting problems. It covers classification, regression, clustering, text analysis, time series analysis. It also discusses model evaluation and model optimization. This course provides an entry point for students to be able to apply proper machine learning models on business related datasets with Python to solve various problems.\n\nAccounting Data Analytics with Python is a prerequisite for this course. This course is running on the same platform (Jupyter Notebook) as that of the prerequisite course. While Accounting Data Analytics with Python covers data understanding and data preparation in the data analytics process, this course covers the next two steps in the process, modeling and model evaluation. Upon completion of the two courses, students should be able to complete an entire data analytics process with Python.",
+            "url": "https://www.coursera.org/learn/machine-learning-accounting-python"
+        },
+        "Introducción a la programación con Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "4,400 students",
+            "short_description": " Comprender los conceptos bÃ¡sicos de programaciÃ³n.   Entender cÃ³mo la computadora interpreta el cÃ³digo.   Crear tus propios scripts en Python y ejecutarlos (tanto los propios como los de otras personas).   Leer e interpretar cÃ³digo bÃ¡sico escrito en Python.  ",
+            "long_description": "Este curso te dará ágil acceso a los conceptos básicos de programación utilizando el lenguaje de programación Python en su versión 3.0. Python tiene una sintaxis sencilla y compacta. Esto te permitirá aplicar rápidamente los conceptos aprendidos en los distintos aspectos de tu vida.\n\nUna vez que completes este curso, podrás construir pequeños programas que te ayuden en tu trabajo y estarás preparado para tomar cursos de programación más avanzados. \n\nEl curso no requiere conocimientos previos de programación y utiliza sólo matemática básica. Cualquier persona con un manejo de informática moderado podrá ser capaz de dominar los materiales que se presentarán. \n\nUtilizaremos como bibliografía el libro “El Tutorial de Python” de Guido Van Rossum, el creador de Python.",
+            "url": "https://www.coursera.org/learn/introduccion-python"
+        },
+        "Python Project: pillow, tesseract, and opencv": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "325,983 students",
+            "short_description": " How to inspect and understand APIs and third party libraries to be used with Python 3 How to apply the Python imaging library (pillow) to open, view, and manipulate images, including cropping, resizing, recoloring, and overlaying text How to apply the python tesseract (py-tesseract) library with Python 3 in order to detect text in images through optical character recognition (OCR) How to apply the open source computer vision library (opencv) to detect faces in images, & how to crop and manipulate these faces into contact sheets",
+            "long_description": "This course will walk you through a hands-on project suitable for a portfolio. You will be introduced to third-party APIs and will be shown how to manipulate images using the Python imaging library (pillow), how to apply optical character recognition to images to recognize text (tesseract and py-tesseract), and how to identify faces in images using the popular opencv library. By the end of the course you will have worked with three different libraries available for Python 3 to create a real-world data-analysis project.\n\nThe course is best-suited for learners who have taken the first four courses of the Python 3 Programming Specialization. Learners who already have Python programming skills but want to practice with a hands-on, real-world data-analysis project can also benefit from this course.\n\nThis is the fifth and final course in the Python 3 Programming Specialization.",
+            "url": "https://www.coursera.org/learn/python-project"
+        },
+        "Project: Analyze Box Office Data with Plotly and Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Produce interactive data visualizations with Plotly Python Use Plotly Python and Seaborn during EDA and feature engineering",
+            "long_description": "Welcome to this project-based course on Analyzing Box Office Data with Plotly and Python. In this course, you will be working with the The Movie Database (TMDB) Box Office Prediction data set. The motion picture industry is raking in more revenue than ever with its expansive growth the world over. Can we build models to accurately predict movie revenue? Could the results from these models be used to further increase revenue? We try to answer these questions by way of exploratory data analysis (EDA)  and feature engineering. We will primarily use Plotly for data visualization. Plotly Python which is Plotly's Python graphing library makes interactive, publication-quality graphs ready for both online and offline use.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and scikit-learn pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/analyze-data-plotly-python"
+        },
+        "Project: Principal Component Analysis with NumPy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/5e/4c158b1f9440ed834b59c3c4eae9bd/Illinois-imba-new-image.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "",
+            "short_description": " Implement Principal Component Analysis (PCA) from scratch with NumPy and Python Conduct basic exploratory data analysis (EDA) Create simple data visualizations with Seaborn and Matplotlib",
+            "long_description": "Welcome to this 2 hour long project-based course on Principal Component Analysis with NumPy and Python. In this project, you will do all the machine learning without using any of the popular machine learning libraries such as scikit-learn and statsmodels. The aim of this project and is to implement all the machinery of the various learning algorithms yourself, so you have a deeper understanding of the fundamentals. By the time you complete this project, you will be able to implement and apply PCA from scratch using NumPy in Python, conduct basic exploratory data analysis, and create simple data visualizations with Seaborn and Matplotlib. The prerequisites for this project are prior programming experience in Python and a basic understanding of machine learning theory.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, NumPy, and Seaborn pre-installed.",
+            "url": "https://www.coursera.org/learn/principal-component-analysis-numpy"
+        },
+        "Foundations of Data Science: K-Means Clustering in Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 29 hours to complete",
+            "number_of_students": "172,553 students",
+            "short_description": " Define\nand explain the key concepts of data clustering     Demonstrate\nunderstanding of the key constructs and features of the Python language.     Implement\nin Python the principle steps of the K-means algorithm.     Design\nand execute a whole data clustering workflow and interpret the outputs.    ",
+            "long_description": "Organisations all around the world are using data to predict behaviours and extract valuable real-world insights to inform decisions. Managing and analysing big data has become an essential part of modern finance, retail, marketing, social science, development and research, medicine and government.\n\nThis MOOC, designed by an academic team from Goldsmiths, University of London, will quickly introduce you to the core concepts of Data Science to prepare you for intermediate and advanced Data Science courses. It focuses on the basic mathematics, statistics and programming skills that are necessary for typical data analysis tasks. \n\nYou will consider these fundamental concepts on an example data clustering task, and you will use this example to learn basic programming skills that are necessary for mastering Data Science techniques. During the course, you will be asked to do a series of mathematical and programming exercises and a small data clustering project for a given dataset.",
+            "url": "https://www.coursera.org/learn/data-science-k-means-clustering-python"
+        },
+        "Project: Logistic Regression with NumPy and Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "",
+            "short_description": " Implement the gradient descent algorithm from scratch Perform logistic regression with NumPy and Python Create data visualizations with Matplotlib and Seaborn",
+            "long_description": "Welcome to this project-based course on Logistic with NumPy and Python. In this project, you will do all the machine learning without using any of the popular machine learning libraries such as scikit-learn and statsmodels. The aim of this project and is to implement all the machinery, including gradient descent, cost function, and logistic regression, of the various learning algorithms yourself, so you have a deeper understanding of the fundamentals. By the time you complete this project, you will be able to build a logistic regression model using Python and NumPy, conduct basic exploratory data analysis, and implement gradient descent from scratch. The prerequisites for this project are prior programming experience in Python and a basic understanding of machine learning theory.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, NumPy, and Seaborn pre-installed.",
+            "url": "https://www.coursera.org/learn/logistic-regression-numpy-python"
+        },
+        "Introduction to machine learning with Python and Azure Notebooks": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/intro-to-ml-with-python/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.student-evangelism.analyze-climate-data-with-azure-notebooks": "https://docs.microsoft.com/en-us/learn/modules/analyze-climate-data-with-azure-notebooks/?WT.mc_id=api_CatalogApi",
+                "learn.student-evangelism.predict-flight-delays-with-python": "https://docs.microsoft.com/en-us/learn/modules/predict-flight-delays-with-python/?WT.mc_id=api_CatalogApi",
+                "learn.student-evangelism.analyze-review-sentiment-with-keras": "https://docs.microsoft.com/en-us/learn/modules/analyze-review-sentiment-with-keras/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "131 minutes",
+            "short_description": "Python has become a dominant language for doing data analysis with machine learning. Learn how to leverage Python and associated libraries in Jupyter Notebooks run on Azure Notebooks to predict patterns and identify trends.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-portal"
+                ],
+                "roles": [
+                    "developer",
+                    "data-scientist"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/student-evangelism/intro-to-ml-with-python-badge.svg",
+            "price": "FREE",
+            "uid": "learn.data-ai.intro-to-ml-with-python",
+            "number_of_students": "unknown"
+        },
+        "Complete Python Bootcamp: Go from zero to hero in Python 3": {
+            "id": 567828,
+            "url": "https://udemy.com/course/complete-python-bootcamp/",
+            "price": "$194.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/567828_67d0.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/567828_67d0.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/567828_67d0.jpg"
+            }
+        },
+        "Machine Learning A-Z™: Hands-On Python & R In Data Science": {
+            "id": 950390,
+            "url": "https://udemy.com/course/machinelearning/",
+            "price": "$199.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/950390_270f_3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/950390_270f_3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/950390_270f_3.jpg"
+            }
+        },
+        "Python for Data Science and Machine Learning Bootcamp": {
+            "id": 903744,
+            "url": "https://udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/",
+            "price": "$194.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/903744_8eb2.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/903744_8eb2.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/903744_8eb2.jpg"
+            }
+        },
+        "Automate the Boring Stuff with Python Programming": {
+            "id": 543600,
+            "url": "https://udemy.com/course/automate/",
+            "price": "$49.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/543600_64d1_4.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/543600_64d1_4.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/543600_64d1_4.jpg"
+            }
+        },
+        "Learn Python Programming Masterclass": {
+            "id": 629302,
+            "url": "https://udemy.com/course/python-the-complete-python-developer-course/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/629302_8a2d_2.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/629302_8a2d_2.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/629302_8a2d_2.jpg"
+            }
+        },
+        "The Python Mega Course: Build 10 Real World Applications": {
+            "id": 692188,
+            "url": "https://udemy.com/course/the-python-mega-course/",
+            "price": "$199.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/692188_9da7_13.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/692188_9da7_13.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/692188_9da7_13.jpg"
+            }
+        },
+        "Python and Django Full Stack Web Developer Bootcamp": {
+            "id": 822444,
+            "url": "https://udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/",
+            "price": "$199.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/822444_a6db.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/822444_a6db.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/822444_a6db.jpg"
+            }
+        },
+        "The Python Bible™ | Everything You Need to Program in Python": {
+            "id": 903378,
+            "url": "https://udemy.com/course/the-python-bible/",
+            "price": "$194.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/903378_f32d_5.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/903378_f32d_5.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/903378_f32d_5.jpg"
+            }
+        }
+    },
+    "AD": {
+        "Native Advertising": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "",
+            "short_description": " Execute native advertising campaigns in Taboola How to target native ad campaigns to desired audiences Use free tools to actively gather news coverage for native advertising Develop content seeding strategies through incentive programs",
+            "long_description": "Native advertising is a niche form of advertising that leverages the design and format of news and entertainment content. Native advertising is less about selling products and more about producing useful content for consumers who are in the ‘consideration’ phase of the advertising purchase funnel. Often in the form of news-like stories, native advertising has been shown to persuade consumers. Native advertising is affordable, and doesn’t require graphic design to get started. For these reasons, it’s a compelling advertising technique for small businesses. This course outlines a case study where a small travel startup used native advertising to drive hotel sales. Execution strategies for a successful, no-creative native campaign are laid out, including: gathering existing news coverage, ethical content seeding, and content generation.",
+            "url": "https://www.coursera.org/learn/native-advertising"
+        }
+    },
+    "bash": {
+        "Using Python to Interact with the Operating System": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system"
+        }
+    },
+    "Kerio Control": {
+        "Sensor Manufacturing and Process Control": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 26 hours to complete",
+            "number_of_students": "",
+            "short_description": "    Understand how sensor manufacturers characterize and calibrate their sensors.   Tune a PID control loop and access the PID control function of the Cypress PSoC development kit for a motor control application      Understand manufacturing methods used to build electro-mechanical and micro-machined sensors.   ",
+            "long_description": "\"Sensor Manufacturing and Process Control\" can also be taken for academic credit as ECEA 5343, part of CU Boulder’s Master of Science in Electrical Engineering degree.\n\nThis is our fourth course in our specialization on Embedding Sensor and Motors. To get the most out of this course, you should first take our first course entitled \"Sensors and Sensor Circuits\", our second course entitled \"Motor and Motor Control Circuits\", and our third course entitled \"Pressure, Force, Motion, and Humidity Sensors\". Our first course gives you a tutorial on how to use the hardware and software development kit we have chosen for the lab exercises. Our second and third courses give you three hands-on lab experiments using the kit. This third course assumes that you already know how to use the kit.\n\nYou will learn about sensor signal characterization and manufacturing techniques and how to optimize the accuracy of sensors. You will also learn about more advanced sensors, proportional-integral-derivative (PID) control, and how this method is used to give you a closed loop sensor feedback system.\n\nAfter taking this course, you will be able to:\n●\tUnderstand how sensor manufacturers characterize and calibrate their sensors.\n●\tTune a PID control loop and access the PID control function of the Cypress PSoC development kit for a motor control application.  \n●\tUnderstand manufacturing methods used to build electro-mechanical and micro-machined sensors.\n\nYou will need to buy the following components to do the two course projects based on the videos in this module. Note that if you have already purchased the PSOC 5LP PROTOTYPING KIT, you do not need to buy it again. \n\nThese parts may be purchased off the Digikey web site, www. Digikey.com. Or, you may obtain the specs from the site, and purchase them elsewhere. All are quantity one except for N107-ND where you need three, and 493-15371-ND where you need two. \n\n428-3390-ND\nP14355-ND\nFQU13N10LTU-ND\nN107-ND\n1N5393-E3/54GICT-ND \nRNF14FTD1K00CT-ND \nP0.62W-1BK-ND\n493-15371-ND",
+            "url": "https://www.coursera.org/learn/sensor-manufacturing-process-control"
+        }
+    },
+    "IP": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "NAT": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "Apache": {
+        "Managing Big Data in Clusters and Cloud Storage": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql"
+        }
+    },
+    "Unix": {
+        "Basic System Programming on IBM Z": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "",
+            "short_description": " Explain how to submit and view JCL output Describe the use of applications such as CICS, IMS, and DB2 on z/OS Summarize the application services provided in UNIX Describe the purpose, benefits, and functions provided by z/OSMF",
+            "long_description": "The foundational knowledge for the position of an IBM z/OS System Programmer and System Administrator begins with this third and final course in the three course professional certificate track. This course provides hands-on labs to everyday z/OS tasks with JCL, JES, ISHELL and HFS, and z/OSMF. Topics covered include VSAM, z/OS System Libraries, the Language Environment, Generation Data Groups, RAIM, DB2, UNIX System Services, and USS File System.\n\nOn successful completion of this course, the learners are eligible to claim the Basic System Programming on IBM Z badge. More information can be found here : \nhttps://www.youracclaim.com/org/ibm/badge/basic-system-programming-on-ibm-z",
+            "url": "https://www.coursera.org/learn/system-programming"
+        }
+    },
+    "MySQL": {
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+            "id": 1187016,
+            "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+            }
+        }
+    },
+    "PostgreSQL": {
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        }
+    },
+    "PowerShell": {
+        "Run Azure for SAP workloads": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/running-azure-sap-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.implement-azure-vm-based-sap-solutions": "https://docs.microsoft.com/en-us/learn/modules/implement-azure-vm-based-sap-solutions/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-sap-workloads-azure": "https://docs.microsoft.com/en-us/learn/modules/migrate-sap-workloads-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.maintain-azure-sap-workloads": "https://docs.microsoft.com/en-us/learn/modules/maintain-azure-sap-workloads/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "153 minutes",
+            "short_description": "This learning path augments existing knowledge around the deployment methodologies for SAP workloads in Azure, focusing on Azure Marketplace and custom images using the Azure portal, Azure Resource Manager (ARM) templates, and Azure PowerShell cmdlets.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/run-azure-sap-workloads.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.run-azure-sap-workloads",
+            "number_of_students": "unknown"
+        }
+    },
+    "Linux": {
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "Docker": {
+        "Docker Mastery: with Kubernetes +Swarm from a Docker Captain": {
+            "id": 1035000,
+            "url": "https://udemy.com/course/docker-mastery/",
+            "price": "$199.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1035000_c1aa_6.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1035000_c1aa_6.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1035000_c1aa_6.jpg"
+            }
+        },
+        "Docker and Kubernetes: The Complete Guide": {
+            "id": 1793828,
+            "url": "https://udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+            "price": "$99.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1793828_7999.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1793828_7999.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1793828_7999.jpg"
+            }
+        }
+    }
+}

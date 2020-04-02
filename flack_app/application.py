@@ -15,8 +15,6 @@ def get_courses(current_skills):
     # with open(os.path.join(os.getcwd(), "courses_for_profession.json"),
     #           encoding='utf-8') as f:
     #     course_list = json.load(f)
-    mycwd = os.getcwd()
-    os.chdir("..")
 
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
@@ -30,8 +28,6 @@ def get_courses(current_skills):
         for skill in course_list.keys():
             if skill not in current_skills:
                 courses_list_input_profession[skill] = course_list[skill]
-
-    os.chdir(mycwd)
 
     id = 0
     for i, skill in enumerate(courses_list_input_profession.keys()):
@@ -48,14 +44,11 @@ def skills_for_job(job):
     :param job:
     :return:
     """
-    mycwd = os.getcwd()
-    os.chdir("..")
 
     with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions.json'), 'r', encoding='utf-8') as \
             json_file:
         all_skills = json.load(json_file)
 
-    os.chdir(mycwd)
     title_profession = '+'.join(job.split())
     return all_skills[title_profession]
 
@@ -75,15 +68,11 @@ def start():
         job = request.values.get("job")
         global skills
 
-        mycwd = os.getcwd()
-        os.chdir("..")
         with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
                 user_data_json_from_file:
             user_data_json = {}
             user_data_json['profession'] = job
             json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
-
-        os.chdir(mycwd)
 
         skills = skills_for_job(job)  # your function
         return redirect(url_for("middle"))
@@ -108,6 +97,7 @@ def middle():
 def index():
     return render_template("one_section.html", courses_list=courses)
 
+
 @app.route('/selected', methods=['POST', 'GET'])
 def selected():
     my_courses = []
@@ -118,6 +108,7 @@ def selected():
                 my_courses.append(courses[skill][course])
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
