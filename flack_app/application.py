@@ -7,6 +7,7 @@ from flask import Flask, render_template, url_for, request, redirect, session, s
 app = Flask(__name__)
 app.secret_key = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
 
+
 def get_courses(current_skills):
     """
     test function
@@ -110,6 +111,7 @@ def selected():
                 my_courses.append(courses[skill][course])
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
+
 
 @app.route("/download")
 def download():
