@@ -1,10 +1,11 @@
 import json
 import os
 
-from flask import Flask, render_template, url_for, request, redirect
+from docx import Document
+from flask import Flask, render_template, url_for, request, redirect, session, send_from_directory, send_file
 
 app = Flask(__name__)
-
+app.secret_key = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
 
 def get_courses(current_skills):
     """
@@ -102,12 +103,28 @@ def index():
 def selected():
     my_courses = []
     data = request.form
+    session['my_courses'] = list(data.keys())
     for i, skill in enumerate(courses.keys()):
         for j, course in enumerate(courses[skill].keys()):
             if courses[skill][course]['id'] in data:
                 my_courses.append(courses[skill][course])
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
+
+@app.route("/download")
+def download():
+    data = session['my_courses']
+    document = Document()
+
+    for i, skill in enumerate(courses.keys()):
+        for j, course in enumerate(courses[skill].keys()):
+            if courses[skill][course]['id'] in data:
+                document.add_heading(courses[skill][course]['name'], level=2)g
+                document.add_paragraph("URL: " + courses[skill][course]['url'])
+                document.add_paragraph(courses[skill][course]['long_description'])
+    path = 'data/selected.docx'
+    document.save(path)
+    return send_file(path, as_attachment=True)
 
 
 if __name__ == '__main__':
