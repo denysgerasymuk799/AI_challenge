@@ -119,7 +119,7 @@ def download():
     for i, skill in enumerate(courses.keys()):
         for j, course in enumerate(courses[skill].keys()):
             if courses[skill][course]['id'] in data:
-                document.add_heading(courses[skill][course]['name'], level=2)g
+                document.add_heading(courses[skill][course]['name'], level=2)
                 document.add_paragraph("URL: " + courses[skill][course]['url'])
                 document.add_paragraph(courses[skill][course]['long_description'])
     path = 'data/selected.docx'
