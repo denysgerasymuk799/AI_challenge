@@ -67,7 +67,12 @@ def a():
 @app.route('/', methods=['POST', 'GET'])
 def start():
     if request.method == 'POST':
-        job = request.values.get("job")
+        job = request.values.get("job").lower()
+        eng_job_titles = ["system administrator", "analyst"]
+        ru_job_titles = ["системный администратор", "аналитик"]
+        if job in eng_job_titles:
+            job = ru_job_titles[eng_job_titles.index(job)]
+
         global skills
 
         with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
