@@ -1,109 +1,66 @@
 {
-    "аналитик": [
-        "visualization of data",
+    "analyst2": [
         "data analysis",
-        "team",
+        "performance",
         "Tableau",
-        "management",
-        "Google Analytics",
         "SQL",
         "Business Analyst",
-        "Python",
         "Finance",
-        "databases",
+        "presentation",
         "Economics",
-        "Spark",
-        "presentations",
-        "Power BI",
-        "Excel"
+        "management"
     ],
-    "smm-менеджер": [
-        "website",
-        "Google Analytics",
-        "Social Media Marketing",
-        "Business Management",
-        "verbal communication skills",
-        "Excel",
-
-        "Instagram",
-        "Facebook",
-        "Telegram",
-        "YouTube",
-        "SMM",
-        "Twitter",
-        "Google Analytics"
+    "business+analyst2": [
+        "team",
+        "data analysis",
+        "Tableau",
+        "SQL",
+        "Business Analyst",
+        "Finance",
+        "G Suite Services",
+        "presentation",
+        "Economics"
     ],
-    "специалист+технической+поддержки": [
-        "management",
-        "web hosting services",
-        "Internet services",
-        "IP",
-        "Excellent communication skills",
-        "MySQL",
-        "Linux",
-        "Excel",
-
-        "English",
-        "DNS",
-        "web hosting services",
-        "WordPress",
-        "management",
-        "Jira",
-        "SSH",
-        "HTML"
+    "data+scientist2": [
+        "data analysis",
+        "Tableau",
+        "SQL",
+        "Business Analyst",
+        "Finance",
+        "team",
+        "Economics",
+        "presentations"
     ],
-    "интернет-маркетолог": [
-        "HTML",
-        "SMM",
-        "Bing Ads",
-        "Google Ads Editor",
-        "Google Spreadsheet",
-        "Google Spreadsheets",
-        "ROI",
-        "Telegram",
-        "Facebook",
-        "Instagram",
-        "Google Ads",
-        "Мониторинг коммуникаций конкурентов",
-        "Google Adwords",
-        "smm Знание сервисов рассылок",
-        "Linkedin",
-        "Youtube",
-        "копирайтинг",
-        "Service Group",
-        "CMS WordPress",
-        "TAMGA Group"
+    "адміністратор+баз+даних2": [
+        "data analysis",
+        "data visualization skills",
+        "Data Analyst",
+        "stakeholders",
+        "pipeline",
+        "Tableau",
+        "software skills",
+        "SQL",
+        "team",
+        "presentation"
     ],
-    "администратор": [
-        "bash",
-        "IP",
-        "NAT",
+    "программист+php2": [
+        "team",
+        "Python",
+        "Design Patterns",
+        "API",
+        "JavaScript",
+        "code standards development",
         "Apache",
-        "MySQL",
-        "Linux",
-        "Windows Server",
-        "Excel",
-
-        "Instagram",
-        "Power Point",
-        "Facebook",
-        "CSS"
+        "AWS"
     ],
-    "системный+администратор": [
+    "системный+администратор2": [
+        "services",
         "AWS",
-        "Server",
         "SQL",
         "Python",
         "bash",
-        "Kerio Control",
         "IP",
         "NAT",
-        "Apache",
-        "Unix",
-        "MySQL",
-        "PostgreSQL",
-        "PowerShell",
-        "Linux",
-        "Docker"
+        "Apache"
     ]
 }

@@ -14,10 +14,6 @@ def get_courses(current_skills):
     :param skills:
     :return:
     """
-    # with open(os.path.join(os.getcwd(), "courses_for_profession.json"),
-    #           encoding='utf-8') as f:
-    #     course_list = json.load(f)
-
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         all_user_data = json.load(user_data_json_from_file)
@@ -30,12 +26,14 @@ def get_courses(current_skills):
         for skill in course_list.keys():
             if skill not in current_skills:
                 courses_list_input_profession[skill] = course_list[skill]
+                print("courses_list_input_profession[skill]", courses_list_input_profession[skill])
 
     id = 0
     for i, skill in enumerate(courses_list_input_profession.keys()):
-        for j, course in enumerate(courses_list_input_profession[skill].keys()):
-            courses_list_input_profession[skill][course]["name"] = course
-            courses_list_input_profession[skill][course]["id"] = "course-" + str(id)
+        for j, course in enumerate(courses_list_input_profession[skill]):
+            print('courses_list_input_profession[skill]', courses_list_input_profession[skill])
+            courses_list_input_profession[skill][j]["name"] = course['course_title']
+            courses_list_input_profession[skill][j]["id"] = "course-" + str(id)
             id += 1
     return courses_list_input_profession
 
@@ -68,8 +66,10 @@ def a():
 def start():
     if request.method == 'POST':
         job = request.values.get("job").lower()
-        eng_job_titles = ["system administrator", "analyst"]
-        ru_job_titles = ["системный администратор", "аналитик"]
+        eng_job_titles = ["system administrator", "analyst", "business analyst",
+                          "data scientist", "database administrator", "programmer"]
+        ru_job_titles = ["системный администратор2", "analyst2", "business analyst2", "data scientist2",
+                         "адміністратор баз даних2", "программист php2"]
         if job in eng_job_titles:
             job = ru_job_titles[eng_job_titles.index(job)]
 
@@ -93,6 +93,15 @@ def middle():
         current_skills = request.form.getlist("chosen_skills")
         print(current_skills)
         global courses
+        with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+                user_data_json_from_file:
+            user_data_json = json.load(user_data_json_from_file)
+            user_data_json['current_skills'] = current_skills
+
+        with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
+                user_data_json_from_file:
+            json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+
         courses = get_courses(current_skills)  # your function
 
         return redirect(url_for("index"))
@@ -111,9 +120,9 @@ def selected():
     data = request.form
     session['my_courses'] = list(data.keys())
     for i, skill in enumerate(courses.keys()):
-        for j, course in enumerate(courses[skill].keys()):
-            if courses[skill][course]['id'] in data:
-                my_courses.append(courses[skill][course])
+        for j, course in enumerate(courses[skill]):
+            if course['id'] in data:
+                my_courses.append(course)
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
 

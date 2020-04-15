@@ -1,3 +1,7 @@
 {
-    "profession": "аналитик"
+    "profession": "программист php2",
+    "current_skills": [
+        "Python",
+        "JavaScript"
+    ]
 }
