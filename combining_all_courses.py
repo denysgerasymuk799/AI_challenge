@@ -1,9 +1,41 @@
+import copy
 import json
 import os
 import re
 
 temp_dir = os.getcwd()
 update_courses_dir = os.path.join(temp_dir, 'courses_jsons', '28.03.2020')
+
+
+def sort_courses_by_num_students(dict_courses_for_job):
+    for skill in dict_courses_for_job.keys():
+        start_lst_courses_positions = []
+        lst_courses_before_sort = []
+        for position_course, course in enumerate(dict_courses_for_job[skill]):
+            if "number_of_students" in course.keys():
+                if course["number_of_students"] != "" \
+                        and ',' in course["number_of_students"]:
+                    print('position', position_course)
+                    str_number = course["number_of_students"].split()[0]
+                    int_num = ''.join(str_number.split(','))
+                    int_num = int(int_num)
+                    start_lst_courses_positions.append(int_num)
+                    lst_courses_before_sort.append(course)
+
+        sorted_courses_lst = []
+        sorted_positions_lst_courses = copy.deepcopy(start_lst_courses_positions)
+        # print('start_lst_courses_positions', start_lst_courses_positions)
+        sorted_positions_lst_courses.sort(reverse=True)
+        # print('sorted_positions_lst_courses', sorted_positions_lst_courses)
+        # print('sorted_positions_lst_courses', len(sorted_positions_lst_courses))
+        # print('dict_courses_for_job[skill]', len(dict_courses_for_job[skill]))
+        for num_students in range(len(sorted_positions_lst_courses)):
+            position_to_sort_courses_in_skill = start_lst_courses_positions.index(sorted_positions_lst_courses[num_students])
+            sorted_courses_lst.append(lst_courses_before_sort[position_to_sort_courses_in_skill])
+
+        dict_courses_for_job[skill] = sorted_courses_lst
+
+    return dict_courses_for_job
 
 
 def is_profession_skills_course(description, title_profession):
@@ -18,23 +50,22 @@ def is_profession_skills_course(description, title_profession):
     skill_lst = []
 
     for skill in filtered_skills_for_professions[title_profession]:
-        if re.match(r"[A-z]", skill[0]):
-            # for word_in_skill in skill.split():
-            if len(skill.split()) > 1:
-                flag_similar = 0
-                for word in description.strip().split():
-                    if word.lower() in [item.lower() for item in skill.split()]:
-                        flag_similar += 1
+        # for word_in_skill in skill.split():
+        if len(skill.split()) > 1:
+            flag_similar = 0
+            for word in description.strip().split():
+                if word.lower() in [item.lower() for item in skill.split()]:
+                    flag_similar += 1
 
-                    if flag_similar > 2:
-                        skill_lst.append(skill)
-                        break
+                if flag_similar > 1:
+                    skill_lst.append(skill)
+                    break
 
-            else:
-                for word in description.strip().split():
-                    if skill.lower() == word.lower():
-                        skill_lst.append(skill)
-                        break
+        else:
+            for word in description.strip().split():
+                if skill.lower() == word.lower():
+                    skill_lst.append(skill)
+                    break
 
     if skill_lst:
         return True, skill_lst
@@ -49,17 +80,17 @@ def create_courses_json_for_profession(title_profession):
 
     # from dir courses_jsons//28.03.2020 extract all courses
     for file in os.listdir(update_courses_dir):
-        print("file--------------------------------------------", file)
+        # print("file--------------------------------------------", file)
         with open(os.path.join(update_courses_dir, file), 'r', encoding='utf-8') as json_file:
             page_courses_json = json.load(json_file)
 
             # get description from all courses
             for course_title in page_courses_json.keys():
-                # print()
-                # print('number of course', i + 1)
+                print()
+                print('number of course', i + 1)
                 # print('course_title --', course_title)
-                # i += 1
-                # if i == 100:
+                i += 1
+                # if i == 500:
                 #     checker_break = 1
                 #     break
 
@@ -118,32 +149,56 @@ def create_courses_json_for_profession(title_profession):
 
                 # print(skill_names_lst)
                 for skill_from_course in skill_names_lst:
-                    courses_skill_dict = dict_courses_for_profession.get(skill_from_course, {})
-                    courses_skill_dict[course_title] = page_courses_json[course_title]
+                    courses_skill_dict = dict_courses_for_profession.get(skill_from_course, [])
+                    page_courses_json2 = copy.deepcopy(page_courses_json)
+                    page_courses_json2[course_title]['course_title'] = course_title
+                    checker_not_english_course = 0
+                    for word in course_title.split():
+                        for character in word:
+                            if re.match(r'[^ A-z]', character) and re.match(r'[^ \d]', character) and re.match(
+                                    r'[^ \s]', character) and character not in '(I)&-:!.,?;_/™|+–\'“”#':
+                                checker_not_english_course = 1
+                                print(character)
+                                print('course_title', course_title)
+                                break
+
+                        if checker_not_english_course == 1:
+                            break
+
+                    if checker_not_english_course == 1:
+                        continue
+
+                    courses_skill_dict.append(page_courses_json2[course_title])
                     dict_courses_for_profession[skill_from_course] = courses_skill_dict
 
-                # save dict_courses_for_profession
-                with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
-                        user_profession_courses:
-                    json.dump(dict_courses_for_profession, user_profession_courses, indent=4, ensure_ascii=False)
+            if checker_break == 1:
+                break
 
-        # if checker_break == 1:
-        #     break
+    dict_courses_for_profession = sort_courses_by_num_students(dict_courses_for_profession)
+    print('here')
+    copy_dict_courses_for_profession = copy.deepcopy(dict_courses_for_profession)
+    for skill in copy_dict_courses_for_profession.keys():
+        if not dict_courses_for_profession[skill]:
+            dict_courses_for_profession.pop(skill)
+
+    # save dict_courses_for_profession
+    with open(os.path.join(temp_dir, 'user_data', title_profession + '2.json'), 'w', encoding='utf-8') as \
+            user_profession_courses:
+        json.dump(dict_courses_for_profession, user_profession_courses, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':
-    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions2.json'), 'r',
+    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_all_professions.json'), 'r',
               encoding='utf-8') as json_file:
         filtered_skills_for_professions = json.load(json_file)
 
-    lst_professions = ['аналитик', "smm-менеджер", 'специалист+технической+поддержки', 'интернет-маркетолог',
-                       'администратор', 'системный+администратор']
-
-    dict_profession_skills = dict()
-
-    for profession in lst_professions:
+    # i = 0
+    for profession in filtered_skills_for_professions.keys():
         create_courses_json_for_profession(profession)
         print(profession)
+        # i += 1
+        # if i == 4:
+        #     break
 
     # to write skills which starts with big letter
 
