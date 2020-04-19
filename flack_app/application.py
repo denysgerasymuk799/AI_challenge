@@ -2,7 +2,9 @@ import json
 import os
 
 # from docx import Document
-from flask import Flask, render_template, url_for, request, redirect, session, send_from_directory, send_file
+from flask import Flask, render_template, url_for, request, redirect, session
+
+from sea_db.db_functions import get_parts
 
 app = Flask(__name__)
 app.secret_key = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
@@ -44,7 +46,8 @@ def skills_for_job(job):
     :param job:
     :return:
     """
-
+    # dict_skills = get_parts(["job_title", "skills_list"], "skills_for_all_professions")
+    # print(dict_skills)
     with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions.json'), 'r', encoding='utf-8') as \
             json_file:
         all_skills = json.load(json_file)
@@ -119,8 +122,8 @@ def selected():
     my_courses = []
     data = request.form
     session['my_courses'] = list(data.keys())
-    for i, skill in enumerate(courses.keys()):
-        for j, course in enumerate(courses[skill]):
+    for skill in courses.keys():
+        for course in courses[skill]:
             if course['id'] in data:
                 my_courses.append(course)
     print(my_courses)

@@ -3,7 +3,7 @@ import os
 from configparser import ConfigParser
 
 
-def config(filename="./sea_db/database.ini", section='postgresql'):
+def config(filename="./sea_db/courses_and_skills_db.ini", section='postgresql'):
     db = {}
     try:
         # create a parser
