@@ -1,0 +1,1178 @@
+{
+    "count": 10000,
+    "next": "https://www.udemy.com/api-2.0/courses/?page=2&page_size=12",
+    "previous": null,
+    "results": [
+        {
+            "_class": "course",
+            "id": 362328,
+            "title": "AWS Certified Solutions Architect - Associate 2020",
+            "url": "/course/aws-certified-solutions-architect-associate/",
+            "is_paid": true,
+            "price": "$179.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 179.99,
+                "price_string": "$179.99"
+            },
+            "price_serve_tracking_id": "9b48ee556c10453faba6eb8bb2694420",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Ryan",
+                    "url": "/user/ryankroonenburg/",
+                    "job_title": "Solutions Architect",
+                    "title": "Ryan Kroonenburg",
+                    "initials": "RK",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/646294_3e1d_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/646294_3e1d_3.jpg",
+                    "display_name": "Ryan Kroonenburg"
+                },
+                {
+                    "_class": "user",
+                    "name": "Faye",
+                    "url": "/user/faye-ellis-2/",
+                    "job_title": "Instructor at A Cloud Guru",
+                    "title": "Faye Ellis",
+                    "initials": "FE",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/44848936_b7c8_2.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/44848936_b7c8_2.jpg",
+                    "display_name": "Faye Ellis"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/362328_91f3_10.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/362328_91f3_10.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/362328_91f3_10.jpg",
+            "published_title": "aws-certified-solutions-architect-associate",
+            "predictive_score": null,
+            "relevancy_score": 111.0,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Want to pass the AWS Solutions Architect - Associate Exam? Want to become Amazon Web Services Certified? Do this course!",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 625204,
+            "title": "The Web Developer Bootcamp",
+            "url": "/course/the-web-developer-bootcamp/",
+            "is_paid": true,
+            "price": "$199.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 199.99,
+                "price_string": "$199.99"
+            },
+            "price_serve_tracking_id": "eb7072046a204af49f87f6ed94a7e942",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Colt",
+                    "url": "/user/coltsteele/",
+                    "job_title": "Developer and Bootcamp Instructor",
+                    "title": "Colt Steele",
+                    "initials": "CS",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/4466306_6fd8_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/4466306_6fd8_3.jpg",
+                    "display_name": "Colt Steele"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/625204_436a_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/625204_436a_2.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/625204_436a_2.jpg",
+            "published_title": "the-web-developer-bootcamp",
+            "predictive_score": null,
+            "relevancy_score": 111.0,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 567828,
+            "title": "Complete Python Bootcamp: Go from zero to hero in Python 3",
+            "url": "/course/complete-python-bootcamp/",
+            "is_paid": true,
+            "price": "$194.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 194.99,
+                "price_string": "$194.99"
+            },
+            "price_serve_tracking_id": "5732d2f4e9b248b481e2aeb3c6492402",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Jose",
+                    "url": "/user/joseportilla/",
+                    "job_title": "Head of Data Science, Pierian Data Inc.",
+                    "title": "Jose Portilla",
+                    "initials": "JP",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/9685726_67e7_4.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/9685726_67e7_4.jpg",
+                    "display_name": "Jose Portilla"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/567828_67d0.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/567828_67d0.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/567828_67d0.jpg",
+            "published_title": "complete-python-bootcamp",
+            "predictive_score": null,
+            "relevancy_score": 111.0,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 756150,
+            "title": "Angular - The Complete Guide (2020 Edition)",
+            "url": "/course/the-complete-guide-to-angular-2/",
+            "is_paid": true,
+            "price": "$189.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 189.99,
+                "price_string": "$189.99"
+            },
+            "price_serve_tracking_id": "8117d46e5516470ba44626257d747774",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Maximilian",
+                    "url": "/user/maximilian-schwarzmuller/",
+                    "job_title": "Professional Web Developer and Instructor",
+                    "title": "Maximilian Schwarzm\u00fcller",
+                    "initials": "MS",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/13952972_e853.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/13952972_e853.jpg",
+                    "display_name": "Maximilian Schwarzm\u00fcller"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/756150_c033_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/756150_c033_2.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/756150_c033_2.jpg",
+            "published_title": "the-complete-guide-to-angular-2",
+            "predictive_score": null,
+            "relevancy_score": 110.999985,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Master Angular 9 (formerly \"Angular 2\") and build awesome, reactive web apps with the successor of Angular.js",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 950390,
+            "title": "Machine Learning A-Z\u2122: Hands-On Python & R In Data Science",
+            "url": "/course/machinelearning/",
+            "is_paid": true,
+            "price": "$199.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 199.99,
+                "price_string": "$199.99"
+            },
+            "price_serve_tracking_id": "ea771f1679ae499a9041b11e6e557060",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Kirill",
+                    "url": "/user/kirilleremenko/",
+                    "job_title": "Data Scientist",
+                    "title": "Kirill Eremenko",
+                    "initials": "KE",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/2364054_83cd_5.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/2364054_83cd_5.jpg",
+                    "display_name": "Kirill Eremenko"
+                },
+                {
+                    "_class": "user",
+                    "name": "Hadelin",
+                    "url": "/user/hadelin-de-ponteves/",
+                    "job_title": "AI Entrepreneur",
+                    "title": "Hadelin de Ponteves",
+                    "initials": "HD",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/22113450_6fb5_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/22113450_6fb5_3.jpg",
+                    "display_name": "Hadelin de Ponteves"
+                },
+                {
+                    "_class": "user",
+                    "name": "SuperDataScience",
+                    "url": "/user/superdatascience-team/",
+                    "job_title": "Helping Data Scientists Succeed",
+                    "title": "SuperDataScience Team",
+                    "initials": "ST",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/27129696_acc1.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/27129696_acc1.jpg",
+                    "display_name": "SuperDataScience Team"
+                },
+                {
+                    "_class": "user",
+                    "name": "SuperDataScience",
+                    "url": "/user/superdatascience-support/",
+                    "job_title": "Answering All Your Questions",
+                    "title": "SuperDataScience Support",
+                    "initials": "SS",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/49643366_0fa3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/49643366_0fa3.jpg",
+                    "display_name": "SuperDataScience Support"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/950390_270f_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/950390_270f_3.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/950390_270f_3.jpg",
+            "published_title": "machinelearning",
+            "predictive_score": null,
+            "relevancy_score": 110.99998,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 533682,
+            "title": "Java Programming Masterclass for Software Developers",
+            "url": "/course/java-the-complete-java-developer-course/",
+            "is_paid": true,
+            "price": "$149.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 149.99,
+                "price_string": "$149.99"
+            },
+            "price_serve_tracking_id": "7a6cee25bd55453cb2efc7c094315636",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Tim",
+                    "url": "/user/timbuchalka/",
+                    "job_title": "Java Python Android and C# Expert Developer - 582K+ students",
+                    "title": "Tim Buchalka",
+                    "initials": "TB",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/599932_71aa_5.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/599932_71aa_5.jpg",
+                    "display_name": "Tim Buchalka"
+                },
+                {
+                    "_class": "user",
+                    "name": "Tim Buchalka's Learn",
+                    "url": "/user/learn-programming-academy/",
+                    "job_title": "Professional Programmers and Teachers - 664K+ students",
+                    "title": "Tim Buchalka's Learn Programming Academy",
+                    "initials": "TP",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/35101150_6f0c_4.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/35101150_6f0c_4.jpg",
+                    "display_name": "Tim Buchalka's Learn Programming Academy"
+                },
+                {
+                    "_class": "user",
+                    "name": "Goran",
+                    "url": "/user/jojo-rabbit/",
+                    "job_title": "Software Engineer | Udemy Instructor | Indie Game Developer",
+                    "title": "Goran Lochert",
+                    "initials": "GL",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/19087122_6d0f_2.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/19087122_6d0f_2.jpg",
+                    "display_name": "Goran Lochert"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/533682_c10c_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/533682_c10c_4.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/533682_c10c_4.jpg",
+            "published_title": "java-the-complete-java-developer-course",
+            "predictive_score": null,
+            "relevancy_score": 110.99996,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 793796,
+            "title": "Microsoft Excel - Excel from Beginner to Advanced",
+            "url": "/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "is_paid": true,
+            "price": "$149.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 149.99,
+                "price_string": "$149.99"
+            },
+            "price_serve_tracking_id": "f0c933f326894b92b511b5663a507536",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Kyle",
+                    "url": "/user/kyle-pew/",
+                    "job_title": "Microsoft Certified Trainer - 380,000+ Udemy Students",
+                    "title": "Kyle Pew",
+                    "initials": "KP",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/16649710_ee35_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/16649710_ee35_3.jpg",
+                    "display_name": "Kyle Pew"
+                },
+                {
+                    "_class": "user",
+                    "name": "Office Newb",
+                    "url": "/user/llc-office-newb/",
+                    "job_title": "Software Trainer",
+                    "title": "Office Newb LLC",
+                    "initials": "OL",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/anonymous_3.png",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/anonymous_3.png",
+                    "display_name": "Office Newb LLC"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg",
+            "published_title": "microsoft-excel-2013-from-beginner-to-advanced-and-beyond",
+            "predictive_score": null,
+            "relevancy_score": 110.99993,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Excel with this A-Z Microsoft Excel Course. Microsoft Excel 2010, 2013, 2016, Excel 2019 and Office 365",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 874012,
+            "title": "The Ultimate Drawing Course - Beginner to Advanced",
+            "url": "/course/the-ultimate-drawing-course-beginner-to-advanced/",
+            "is_paid": true,
+            "price": "$149.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 149.99,
+                "price_string": "$149.99"
+            },
+            "price_serve_tracking_id": "723c9c8e6ef84a53a2526f2553d43124",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Jaysen",
+                    "url": "/user/jaysen-batchelor/",
+                    "job_title": "Illustrator & Designer",
+                    "title": "Jaysen Batchelor",
+                    "initials": "JB",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/17082766_0590_7.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/17082766_0590_7.jpg",
+                    "display_name": "Jaysen Batchelor"
+                },
+                {
+                    "_class": "user",
+                    "name": "Quinton",
+                    "url": "/user/quinton-batchelor-2/",
+                    "job_title": "Photographer",
+                    "title": "Quinton Batchelor",
+                    "initials": "QB",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/32143518_ff3d_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/32143518_ff3d_3.jpg",
+                    "display_name": "Quinton Batchelor"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/874012_c7f2_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/874012_c7f2_3.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/874012_c7f2_3.jpg",
+            "published_title": "the-ultimate-drawing-course-beginner-to-advanced",
+            "predictive_score": null,
+            "relevancy_score": 110.9996,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Learn the #1 most important building block of all art",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 914296,
+            "title": "The Complete Digital Marketing Course - 12 Courses in 1",
+            "url": "/course/learn-digital-marketing-course/",
+            "is_paid": true,
+            "price": "$199.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 199.99,
+                "price_string": "$199.99"
+            },
+            "price_serve_tracking_id": "d69e0d22de694a58803c693582e2a507",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Rob",
+                    "url": "/user/robpercival/",
+                    "job_title": "Web Developer And Teacher",
+                    "title": "Rob Percival",
+                    "initials": "RP",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/4387876_78bc.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/4387876_78bc.jpg",
+                    "display_name": "Rob Percival"
+                },
+                {
+                    "_class": "user",
+                    "name": "Daragh",
+                    "url": "/user/daraghmichaelw/",
+                    "job_title": "Join 500,000+ Students In My Best Selling Courses!",
+                    "title": "Daragh Walsh",
+                    "initials": "DW",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/1800590_e000_5.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/1800590_e000_5.jpg",
+                    "display_name": "Daragh Walsh"
+                },
+                {
+                    "_class": "user",
+                    "name": "Codestars",
+                    "url": "/user/codestars/",
+                    "job_title": "Teaching the Next Generation of Coders",
+                    "title": "Codestars by Rob Percival",
+                    "initials": "CB",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/33231436_2824_3.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/33231436_2824_3.jpg",
+                    "display_name": "Codestars by Rob Percival"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/914296_3670_8.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/914296_3670_8.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/914296_3670_8.jpg",
+            "published_title": "learn-digital-marketing-course",
+            "predictive_score": null,
+            "relevancy_score": 110.99953,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Master Digital Marketing: Strategy, Social Media Marketing, SEO, YouTube, Email, Facebook Marketing, Analytics & More!",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 258316,
+            "title": "Complete C# Unity Developer 2D: Learn to Code Making Games",
+            "url": "/course/unitycourse/",
+            "is_paid": true,
+            "price": "$194.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 194.99,
+                "price_string": "$194.99"
+            },
+            "price_serve_tracking_id": "11c4a5665532425cacbf43e0896f1502",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Ben",
+                    "url": "/user/bentristem/",
+                    "job_title": "GameDev.tv Founder :: Entrepreneur :: Passionate Teacher",
+                    "title": "Ben Tristem",
+                    "initials": "BT",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/4355282_676b_2.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/4355282_676b_2.jpg",
+                    "display_name": "Ben Tristem"
+                },
+                {
+                    "_class": "user",
+                    "name": "GameDev.tv",
+                    "url": "/user/gamedevtv/",
+                    "job_title": "Learn to Make and Sell Games",
+                    "title": "GameDev.tv Team",
+                    "initials": "GT",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/33027212_4271_5.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/33027212_4271_5.jpg",
+                    "display_name": "GameDev.tv Team"
+                },
+                {
+                    "_class": "user",
+                    "name": "Rick",
+                    "url": "/user/rick-davidson-5/",
+                    "job_title": "Career Coach with 14+ years in the Video Game Industry",
+                    "title": "Rick Davidson",
+                    "initials": "RD",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/24317920_c8a2_2.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/24317920_c8a2_2.jpg",
+                    "display_name": "Rick Davidson"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/258316_55e9_8.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/258316_55e9_8.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/258316_55e9_8.jpg",
+            "published_title": "unitycourse",
+            "predictive_score": null,
+            "relevancy_score": 110.99906,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Game development & design. Learn Unity 2018 in C#. Your first 7 2D Unity games for web, Mac & PC. Includes Tilemap",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 1362070,
+            "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+            "url": "/course/react-the-complete-guide-incl-redux/",
+            "is_paid": true,
+            "price": "$189.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 189.99,
+                "price_string": "$189.99"
+            },
+            "price_serve_tracking_id": "6b3e2d5420024452957cf878d954ebeb",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Academind by Maximilian",
+                    "url": "/user/academind/",
+                    "job_title": "Online Education",
+                    "title": "Academind by Maximilian Schwarzm\u00fcller",
+                    "initials": "AS",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/31926668_94e7_6.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/31926668_94e7_6.jpg",
+                    "display_name": "Academind by Maximilian Schwarzm\u00fcller"
+                },
+                {
+                    "_class": "user",
+                    "name": "Maximilian",
+                    "url": "/user/maximilian-schwarzmuller/",
+                    "job_title": "Professional Web Developer and Instructor",
+                    "title": "Maximilian Schwarzm\u00fcller",
+                    "initials": "MS",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/13952972_e853.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/13952972_e853.jpg",
+                    "display_name": "Maximilian Schwarzm\u00fcller"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1362070_b9a1_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1362070_b9a1_2.jpg",
+            "published_title": "react-the-complete-guide-incl-redux",
+            "predictive_score": null,
+            "relevancy_score": 110.998634,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+            "instructor_name": null
+        },
+        {
+            "_class": "course",
+            "id": 903744,
+            "title": "Python for Data Science and Machine Learning Bootcamp",
+            "url": "/course/python-for-data-science-and-machine-learning-bootcamp/",
+            "is_paid": true,
+            "price": "$194.99",
+            "price_detail": {
+                "currency_symbol": "$",
+                "currency": "USD",
+                "amount": 194.99,
+                "price_string": "$194.99"
+            },
+            "price_serve_tracking_id": "8b91cd36f0a5479e8e81bedb9b1e231f",
+            "visible_instructors": [
+                {
+                    "_class": "user",
+                    "name": "Jose",
+                    "url": "/user/joseportilla/",
+                    "job_title": "Head of Data Science, Pierian Data Inc.",
+                    "title": "Jose Portilla",
+                    "initials": "JP",
+                    "image_100x100": "https://i.udemycdn.com/user/100x100/9685726_67e7_4.jpg",
+                    "image_50x50": "https://i.udemycdn.com/user/50x50/9685726_67e7_4.jpg",
+                    "display_name": "Jose Portilla"
+                }
+            ],
+            "image_125_H": "https://i.udemycdn.com/course/125_H/903744_8eb2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/903744_8eb2.jpg",
+            "is_practice_test_course": false,
+            "image_480x270": "https://i.udemycdn.com/course/480x270/903744_8eb2.jpg",
+            "published_title": "python-for-data-science-and-machine-learning-bootcamp",
+            "predictive_score": null,
+            "relevancy_score": 110.99847,
+            "input_features": null,
+            "lecture_search_result": null,
+            "curriculum_lectures": [],
+            "order_in_results": null,
+            "curriculum_items": [],
+            "headline": "Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+            "instructor_name": null
+        }
+    ],
+    "aggregations": [
+        {
+            "options": [
+                {
+                    "value": "price-paid",
+                    "title": "Paid",
+                    "count": 10000,
+                    "key": "price"
+                },
+                {
+                    "value": "price-free",
+                    "title": "Free",
+                    "count": 10000,
+                    "key": "price"
+                }
+            ],
+            "title": "Price",
+            "id": "price"
+        },
+        {
+            "options": [
+                {
+                    "value": "all",
+                    "title": "All Levels",
+                    "count": 10000,
+                    "key": "instructional_level"
+                },
+                {
+                    "value": "beginner",
+                    "title": "Beginner",
+                    "count": 10000,
+                    "key": "instructional_level"
+                },
+                {
+                    "value": "intermediate",
+                    "title": "Intermediate",
+                    "count": 10000,
+                    "key": "instructional_level"
+                },
+                {
+                    "value": "expert",
+                    "title": "Expert",
+                    "count": 2539,
+                    "key": "instructional_level"
+                }
+            ],
+            "title": "Level",
+            "id": "instructional_level"
+        },
+        {
+            "options": [
+                {
+                    "value": "true",
+                    "title": "Captions",
+                    "count": 10000,
+                    "key": "has_closed_caption"
+                },
+                {
+                    "value": "true",
+                    "title": "Quizzes",
+                    "count": 10000,
+                    "key": "has_simple_quiz"
+                },
+                {
+                    "value": "true",
+                    "title": "Coding Exercises",
+                    "count": 450,
+                    "key": "has_coding_exercises"
+                }
+            ],
+            "title": "Features",
+            "id": "features"
+        },
+        {
+            "options": [
+                {
+                    "value": "en",
+                    "title": "English",
+                    "count": 10000,
+                    "key": "language"
+                },
+                {
+                    "value": "pt",
+                    "title": "Portugu\u00eas",
+                    "count": 10000,
+                    "key": "language"
+                },
+                {
+                    "value": "es",
+                    "title": "Espa\u00f1ol",
+                    "count": 9016,
+                    "key": "language"
+                },
+                {
+                    "value": "tr",
+                    "title": "T\u00fcrk\u00e7e",
+                    "count": 3435,
+                    "key": "language"
+                },
+                {
+                    "value": "de",
+                    "title": "Deutsch",
+                    "count": 3346,
+                    "key": "language"
+                },
+                {
+                    "value": "fr",
+                    "title": "Fran\u00e7ais",
+                    "count": 2595,
+                    "key": "language"
+                },
+                {
+                    "value": "ja",
+                    "title": "\u65e5\u672c\u8a9e",
+                    "count": 2512,
+                    "key": "language"
+                },
+                {
+                    "value": "ar",
+                    "title": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                    "count": 1581,
+                    "key": "language"
+                },
+                {
+                    "value": "it",
+                    "title": "Italiano",
+                    "count": 1579,
+                    "key": "language"
+                },
+                {
+                    "value": "zh",
+                    "title": "\u4e2d\u6587",
+                    "count": 1331,
+                    "key": "language"
+                },
+                {
+                    "value": "ru",
+                    "title": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+                    "count": 1200,
+                    "key": "language"
+                },
+                {
+                    "value": "pl",
+                    "title": "Polski",
+                    "count": 798,
+                    "key": "language"
+                },
+                {
+                    "value": "hi",
+                    "title": "\u0939\u093f\u0928\u094d\u0926\u0940",
+                    "count": 506,
+                    "key": "language"
+                },
+                {
+                    "value": "id",
+                    "title": "Bahasa Indonesia",
+                    "count": 297,
+                    "key": "language"
+                },
+                {
+                    "value": "ko",
+                    "title": "\ud55c\uad6d\uc5b4",
+                    "count": 236,
+                    "key": "language"
+                },
+                {
+                    "value": "ur",
+                    "title": "\u0627\u0631\u062f\u0648",
+                    "count": 220,
+                    "key": "language"
+                },
+                {
+                    "value": "th",
+                    "title": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22",
+                    "count": 163,
+                    "key": "language"
+                },
+                {
+                    "value": "nl",
+                    "title": "Nederlands",
+                    "count": 117,
+                    "key": "language"
+                },
+                {
+                    "value": "ro",
+                    "title": "Rom\u00e2n\u0103",
+                    "count": 116,
+                    "key": "language"
+                },
+                {
+                    "value": "he",
+                    "title": "\u200f\u05e2\u05d1\u05e8\u05d9\u05ea\u200f",
+                    "count": 100,
+                    "key": "language"
+                },
+                {
+                    "value": "vi",
+                    "title": "Ti\u1ebfng Vi\u1ec7t",
+                    "count": 81,
+                    "key": "language"
+                },
+                {
+                    "value": "hu",
+                    "title": "Magyar",
+                    "count": 68,
+                    "key": "language"
+                },
+                {
+                    "value": "el",
+                    "title": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+                    "count": 60,
+                    "key": "language"
+                },
+                {
+                    "value": "ta",
+                    "title": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
+                    "count": 58,
+                    "key": "language"
+                },
+                {
+                    "value": "te",
+                    "title": "Telugu",
+                    "count": 40,
+                    "key": "language"
+                },
+                {
+                    "value": "az",
+                    "title": "Az\u0259rbaycan dili",
+                    "count": 39,
+                    "key": "language"
+                },
+                {
+                    "value": "bn",
+                    "title": "Bangla",
+                    "count": 26,
+                    "key": "language"
+                },
+                {
+                    "value": "fa",
+                    "title": "\u0641\u0627\u0631\u0633\u06cc",
+                    "count": 24,
+                    "key": "language"
+                },
+                {
+                    "value": "hr",
+                    "title": "Hrvatski",
+                    "count": 15,
+                    "key": "language"
+                },
+                {
+                    "value": "ml",
+                    "title": "Malay\u0101\u1e37am",
+                    "count": 14,
+                    "key": "language"
+                },
+                {
+                    "value": "bg",
+                    "title": "\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438",
+                    "count": 13,
+                    "key": "language"
+                },
+                {
+                    "value": "mr",
+                    "title": "\u092e\u0930\u093e\u0920\u0940",
+                    "count": 13,
+                    "key": "language"
+                },
+                {
+                    "value": "af",
+                    "title": "Afrikaans",
+                    "count": 11,
+                    "key": "language"
+                },
+                {
+                    "value": "uk",
+                    "title": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
+                    "count": 11,
+                    "key": "language"
+                },
+                {
+                    "value": "da",
+                    "title": "Dansk",
+                    "count": 9,
+                    "key": "language"
+                },
+                {
+                    "value": "sv",
+                    "title": "Svenska",
+                    "count": 9,
+                    "key": "language"
+                },
+                {
+                    "value": "my",
+                    "title": "\u1019\u103c\u1014\u103a\u1019\u102c\u1018\u102c\u101e\u102c",
+                    "count": 8,
+                    "key": "language"
+                },
+                {
+                    "value": "ps",
+                    "title": "\u067e\u069a\u062a\u0648",
+                    "count": 8,
+                    "key": "language"
+                },
+                {
+                    "value": "ms",
+                    "title": "Bahasa Melayu",
+                    "count": 7,
+                    "key": "language"
+                },
+                {
+                    "value": "sr",
+                    "title": "\u0421\u0440\u043f\u0441\u043a\u0438",
+                    "count": 7,
+                    "key": "language"
+                },
+                {
+                    "value": "et",
+                    "title": "Eesti",
+                    "count": 6,
+                    "key": "language"
+                },
+                {
+                    "value": "fi",
+                    "title": "Suomi",
+                    "count": 6,
+                    "key": "language"
+                },
+                {
+                    "value": "nb",
+                    "title": "Norsk",
+                    "count": 6,
+                    "key": "language"
+                },
+                {
+                    "value": "uz",
+                    "title": "O'zbek",
+                    "count": 6,
+                    "key": "language"
+                },
+                {
+                    "value": "ca",
+                    "title": "Catal\u00e0",
+                    "count": 5,
+                    "key": "language"
+                },
+                {
+                    "value": "cs",
+                    "title": "\u010ce\u0161tina",
+                    "count": 5,
+                    "key": "language"
+                },
+                {
+                    "value": "kk",
+                    "title": "\u049a\u0430\u0437\u0430\u049b\u0448\u0430",
+                    "count": 5,
+                    "key": "language"
+                },
+                {
+                    "value": "sk",
+                    "title": "Sloven\u010dina",
+                    "count": 5,
+                    "key": "language"
+                },
+                {
+                    "value": "ka",
+                    "title": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8",
+                    "count": 4,
+                    "key": "language"
+                },
+                {
+                    "value": "lv",
+                    "title": "Latvie\u0161u",
+                    "count": 3,
+                    "key": "language"
+                },
+                {
+                    "value": "tl",
+                    "title": "Filipino",
+                    "count": 3,
+                    "key": "language"
+                },
+                {
+                    "value": "lt",
+                    "title": "Lietuvi\u0173",
+                    "count": 2,
+                    "key": "language"
+                },
+                {
+                    "value": "ne",
+                    "title": "\u0928\u0947\u092a\u093e\u0932\u0940",
+                    "count": 2,
+                    "key": "language"
+                },
+                {
+                    "value": "pa",
+                    "title": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40",
+                    "count": 2,
+                    "key": "language"
+                },
+                {
+                    "value": "so",
+                    "title": "Soomaaliga",
+                    "count": 2,
+                    "key": "language"
+                },
+                {
+                    "value": "sq",
+                    "title": "Shqip",
+                    "count": 2,
+                    "key": "language"
+                },
+                {
+                    "value": "gn",
+                    "title": "Ava\u00f1e'\u1ebd",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "ht",
+                    "title": "Ayisyen",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "hy",
+                    "title": "\u0540\u0561\u0575\u0565\u0580\u0565\u0576",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "ku",
+                    "title": "Kurd\u00ee",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "sl",
+                    "title": "Sloven\u0161\u010dina",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "sw",
+                    "title": "Kiswahili",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "tt",
+                    "title": "\u0442\u0430\u0442\u0430\u0440\u0447\u0430 / Tatar\u00e7a / \u062a\u0627\u062a\u0627\u0631\u0686\u0627",
+                    "count": 1,
+                    "key": "language"
+                },
+                {
+                    "value": "xh",
+                    "title": "isiXhosa",
+                    "count": 1,
+                    "key": "language"
+                }
+            ],
+            "title": "Language",
+            "id": "language"
+        },
+        {
+            "options": [
+                {
+                    "value": "4.5",
+                    "title": "4.5 & up",
+                    "count": 10000,
+                    "key": "ratings"
+                },
+                {
+                    "value": "4.0",
+                    "title": "4.0 & up",
+                    "count": 10000,
+                    "key": "ratings"
+                },
+                {
+                    "value": "3.5",
+                    "title": "3.5 & up",
+                    "count": 10000,
+                    "key": "ratings"
+                },
+                {
+                    "value": "3.0",
+                    "title": "3.0 & up",
+                    "count": 10000,
+                    "key": "ratings"
+                }
+            ],
+            "title": "Ratings",
+            "id": "ratings"
+        },
+        {
+            "options": [
+                {
+                    "value": "short",
+                    "title": "0-2 Hours",
+                    "count": 10000,
+                    "key": "duration"
+                },
+                {
+                    "value": "medium",
+                    "title": "3-6 Hours",
+                    "count": 10000,
+                    "key": "duration"
+                },
+                {
+                    "value": "long",
+                    "title": "7-16 Hours",
+                    "count": 10000,
+                    "key": "duration"
+                },
+                {
+                    "value": "extraLong",
+                    "title": "17+ Hours",
+                    "count": 3914,
+                    "key": "duration"
+                }
+            ],
+            "title": "Duration",
+            "id": "duration"
+        }
+    ]
+}

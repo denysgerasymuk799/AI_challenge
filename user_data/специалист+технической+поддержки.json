@@ -1,0 +1,970 @@
+{
+    "management": {
+        "Designing for Sustainment: Keeping Improvement Work on Track (Patient Safety IV)": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,695",
+            "short_description": " Recognize the importance of planning for project sustainment.  Use the pre-mortem exercise to identify risks of project failure.  Design a change management plan that addresses technical and adaptive challenges.  Describe the 4Eâs + 2 Model and its use to engage stakeholders. ",
+            "long_description": "Keeping patient safety and quality improvement projects on track, on time, and on budget is critical to ensuring their success. In this course, students will be introduced and given the opportunity to apply a series of tools to guide and manage patient safety and quality initiatives. These include tools for defining what success looks like, developing a change management plan, and conducting a pre-mortem to identify risks for project failure.  This course will also provide tools for engaging stakeholders to ensure key players are invested in your project’s success.",
+            "url": "https://www.coursera.org/learn/patient-safety-sustainment"
+        },
+        "Google Cloud Product Fundamentals": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals"
+        },
+        "Cybersecurity Awareness and Innovation": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Cibersecurity awareness mainly focused on identity management Understanding of effective protection mechanisms against common threats related with Identity Capacity to devise disruptive ideas related with identity protection",
+            "long_description": "It’s not you, it’s me! What’s going on? \n\nThis course empowers students, professionals and wider community to deal with cybersecurity attacks and risks focused on identity management and it is an introduction to the upcoming full course focused on cybersecurity awareness.\nIt is provided a practical overview of challenging issues like identity credentials management and security, e-mail threats and web impersonation, or web hacking. In addition to this, you will have a practical appreciation to innovation applied to these concepts through an interview with a renowned expert in fraud and cybercrime. Teaching staff consists of Iván Pau, UPM researcher and expert in usable security, and Román Ramírez, hacker and cybersecurity expert.  \nLearning will be carried out by introducing use cases related with cybersecurity incidents, in a way which ensures that participants get really involved in the course. You will easily acquire practical skills and be ready to face real threats in a digital world.\n\nThis course is part of an online programme developed by Universidad Politécnica de Madrid (world class tech university renowned for the quality of its education programmes and the research undertaken at its centres), Ferrovial (world's leading private investor in cities and infrastructures, with a workforce of more than 74.000 employees and operations in more than 16 countries) and EIT Digital.\n\nStay tuned for the full course! COMING SOON!",
+            "url": "https://www.coursera.org/learn/cybersecurity"
+        },
+        "Configuration Management and the Cloud": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c3/059b9940594ff98c9406ce78b78943/UMich-MADS-promo-unit_logo-only.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand the benefits of configuration management and infrastructure as code Manage a fleet of computers using Puppet Automatically deploy new virtual machines running in the Cloud Deploy changes in a safe manner",
+            "long_description": "In this course, you’ll learn how to apply automation to manage fleets of computers. You’ll understand how to automate the process for deploying new computers, keeping those machines updated, managing large-scale changes, and a lot more. We'll discuss managing both physical machines running in our offices and virtual machines running in the Cloud.\n\nWe'll start by looking into an automation technique called configuration management, which lets you manage the configuration of our computers at scale. Specifically, you'll learn how to use Puppet, the current industry standard for configuration management. We'll look at some simple examples, and then see how we can apply the same concepts to more complex cases. You’ll be a Puppet-master in no time!\n\nLater on, you'll expand your automation skills by understanding how to use the Cloud to help scale your infrastructure. You'll check out some best practices for handling hundreds of virtual machines running in the Cloud and troubleshooting them when things don't go according to plan.",
+            "url": "https://www.coursera.org/learn/configuration-management-cloud"
+        },
+        "Understanding Your Google Cloud Platform (GCP) Costs": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Plan for effective cloud cost management by setting up your teams, tools, and applying financial governance best practices. Set up GCP Billing account(s) and organize your resources for cost management. Export Billing reports to Google Sheets or BigQuery to gain visibility into your current cost trends and forecasted costs. Visualize billing data with Billing reports and build custom dashboards with Data Studio.",
+            "long_description": "Understanding Your Google Cloud Platform (GCP) Costs is most suitable for those working in a technology or finance role who are responsible for managing GCP costs. \n\nYou’ll learn how to set up a billing account, organize resources, and manage billing access permissions. \n\nIn the hands-on labs, you'll learn how to view your invoice, track your GCP costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Data Studio.\t\t\n\nStudents enrolling in this course do not need any prior Google Cloud technical experience.",
+            "url": "https://www.coursera.org/learn/gcp-cost-management"
+        },
+        "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "24,851 students",
+            "short_description": " Draw and organize objects, use advanced editing functions, and draw accurately using the User Coordinate System.  Create and manage your layouts, outputs, printings, and use annotation techniques like markup tools, hatch and fill, multileaders, and dimensioning.  Perform drawing management techniques, use blocks for efficiency, and control external reference and underlay files. Demonstrate the skills and knowledge required for taking the Autodesk Certified Professional: AutoCAD for Design and Drafting exam.",
+            "long_description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.\n\nAbout the Autodesk Certified Professional: AutoCAD for Design and Drafting Exam:\nThe Autodesk Certified Professional: AutoCAD for Design and Drafting exam is the recognized standard for measuring your skills and knowledge in AutoCAD. Certification at this level demonstrates a comprehensive skill set that provides an opportunity for individuals to stand out in a competitive professional environment. This type of experience typically comes from having worked with the software on a regular basis for at least 2 years, equivalent to approximately 400 hours (minimum) - 1200 hours (recommended), of real-world Autodesk software experience. Ready to take the exam? Schedule to take the exam online or find a testing center near you on pearsonvue.com/autodesk.",
+            "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting"
+        },
+        "Supply chain management: Be global": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,770 students",
+            "short_description": " Identify the key drivers of global supply chain effectiveness   Create supply chain networks that are aligned with supply chain and business strategy of the firm   Identify the critical success factors, pitfalls, and risks of global supply chain management   Evaluate the sustainability of global supply chain operations  ",
+            "long_description": "Businesses and their supply chains are facing increasing competition and uncertainty in what is now a truly globalised trade environment. To remain competitive, organisations need to think globally – ensuring supply chains meet customer demands while minimising costs and maximising responsiveness. From a strategic perspective, this involves making important trade-off decisions between cost, quality and flexibility of supply chains. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) this course will equip you with the future-focused capabilities needed to design and manage effective, sustainable and efficient global supply chains of tomorrow.",
+            "url": "https://www.coursera.org/learn/supply-chain-management-global"
+        },
+        "Software Processes and Agile Practices": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "142,928 students",
+            "short_description": " Distinguish between different process models for organizing software production. Gauge the applicability of process models for a software development project. Apply the fundamentals of Agile software development and management practices.",
+            "long_description": "This course delves into a variety of processes to structure software development. It also covers the foundations of core Agile practices, such as Extreme Programming and Scrum.",
+            "url": "https://www.coursera.org/learn/software-processes-and-agile-practices"
+        },
+        "Leading Change in Health Informatics": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "",
+            "short_description": " Describe essential steps in the process of successfully leading change in health IT organizations. Recognize the importance of multidisciplinary and interprofessional teamwork in health informatics. Utilize several common project management and strategic planning tools used by health informaticists. Apply best practices for successful change management in health informatics.",
+            "long_description": "Do you dream of being a CMIO or a Senior Director of Clinical Informatics? If you are aiming to rise up in the ranks in your health system or looking to pivot your career in the direction of big data and health IT, this course is made for you. You'll hear from experts at Johns Hopkins about their experiences harnessing the power of big data in healthcare, improving EHR adoption, and separating out the hope vs hype when it comes to digital medicine. \n\nWhether you're a nurse, pharmacist, physician, other allied health professional or come from a non-clinical background--you know that Health Informatics skills are in demand. This newly launched 5-course specialization by JohnsHopkins faculty members provides a solid foundation for anyone wanting to become a leader in  one of the hottest fields in healthcare. \n\nAs health informaticians, we need to be very clear in our understanding of the current state (as-is), the future state (to-be) and any unintended consequences that can result from our interventions. Prior to introducing large scale change, we need to assess whether a healthcare organization is truly ready for change. This involves taking into account an organization's current culture and values. Successfully leading change through health informatics also requires strategic planning and careful financial considerations. Proper workflow redesign and a clear change management strategy are of utmost importance when introducing new technologies and in ensuring their successful adoption and proper use. \n\nBy the end of this course, students will become familiar with examples of successful and failed attempts at change in health informatics, and the reasons for each. Students will be armed with tools to help optimize their chances for successfully leading change in their respective organizations. ",
+            "url": "https://www.coursera.org/learn/leading-change-health-informatics"
+        },
+        "Introduction to Software Product Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Relate software product management to better software products Recognize the role of a software product manager Reflect on how Agile principles will improve your own projects",
+            "long_description": "This course highlights the importance and role of software product management. It also provides an overview of the specialization, as well as its goals, structure, and expectations. The course explains the value of process, requirements, planning, and monitoring in producing better software.",
+            "url": "https://www.coursera.org/learn/introduction-to-software-product-management"
+        },
+        "Weight Management: Beyond Balancing Calories": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "12,799 students",
+            "short_description": " Understand obesity, appetite hormones, and weight set point. Identify the main dietary factors that affect weight. Recognize underemphasized barriers to weight loss such as stress and inadequate sleep. Develop a weight management plan you can follow for life.",
+            "long_description": "Across the globe, more people are suffering from obesity than at any other time in our history. Why has obesity become so common and so challenging? In this course, we will look at the root cause of obesity, as explained by the latest science. We will see how our food environment has evolved over the last half-century, and how it is altering our biology to over-consume calories and resist sustained weight loss. We will also see how stress, a sedentary lifestyle, and inadequate sleep disrupt our appetite control system to promote gaining weight. By developing a better understanding of the physiology behind obesity, you will learn how to work with your body to prevent and manage weight gain. This course will also provide practical tools and strategies for creating a long-term, sustainable weight management plan to leverage your habits and your surroundings.",
+            "url": "https://www.coursera.org/learn/weight-management-beyond-balancing-calories"
+        },
+        "Corporate finance: Know your numbers 2": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 18 hours to complete",
+            "number_of_students": "",
+            "short_description": " Explain the role of financial management in assessing the ongoing financial health and performance of organisations Demonstrate an understanding of financial management tools and techniques for financial analysis and modeling Use analytical techniques to make financial decisions related to financing operations and valuation of organisations and investment opportunities",
+            "long_description": "Every manager must have a foundational understanding of financial management. This course will prepare you for responsible and sustainable leadership from a financial management perspective. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) you’ll learn the key aspects of effective financial management by focusing on: the assessment of an organisation’s financial health; planning future financial performance; financing of operations; and evaluating business and investment opportunities for the organisation. This course will emphasise how crucial sound financial management is for you and your organisation to be successful in the real-world.",
+            "url": "https://www.coursera.org/learn/corporate-finance-know-your-numbers-2"
+        },
+        "Effective Compliance Programs": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "6,281 students",
+            "short_description": " Recognize strategies for building a culture of compliance within an organization Identify the fundamental components of a compliance program Identify techniques and methods for compliance management and provide psychological theories that explain why they are effective Devise strategies for managing noncompliance and incident response",
+            "long_description": "Once you have an understanding of what compliance is, and why it may be important, it is natural to wonder next, “What should I do about it?”  In this course, we’ll explore one of the key factors for creating a positive culture of compliance: human psychology. We’ll think about what drives us, what makes us pay attention, what distracts, and how all of these pieces help build a strong belief in an organizational culture of compliance. \n\nWe will examine formal compliance programs, diving into the nuances of how they are applied in practice. We’ll also explore the technologies, workflows, policies, monitoring, and training necessary to create a toolkit for designing an effective compliance program.",
+            "url": "https://www.coursera.org/learn/effective-compliance-programs"
+        },
+        "Grow to Greatness: Smart Growth for Private Businesses, Part II": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " Different types of costs and how they are represented graphically Cost-volume-profit analyses to answer questions around breaking even and generating profit How to calculate and allocate overhead rates within both traditional and activity-based cost allocation systems How to distinguish costs and benefits that are relevant from those that are irrelevant for a given management decision",
+            "long_description": "This course focuses on the common human resource (\"people\") challenges faced by existing private businesses when they attempt to grow substantially. PART 1 OF THE GROW TO GREATNESS COURSE IS NOT A PREREQUISITE FOR TAKING THIS COURSE.",
+            "url": "https://www.coursera.org/learn/uva-darden-smart-growth-strategy-2"
+        },
+        "Major Engineering Projects: Governance, Risk and Scope": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/53/92bd88767e435b9a401baabf1e4e45/Promo-Units-784x1096-2-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,922 students",
+            "short_description": " Identify key\nstakeholders in major projects and understand stakeholder management       Understand the governance of major\nprojects and its challenges and learn how governance informs project management Understand strategic risk management\nand how to manage opportunities and risks Understand the theory and practice of\nscope management",
+            "long_description": "Gain confidence when dealing with stakeholders of major projects by learning to identify and manage those that are involved in the project planning and delivery. This course will enable you to explore project governance in theory and practice.\nThrough real life examples you’ll understand how the critical challenges of the governance in major projects are resolved.\n\nBeing able to successfully manage risk and uncertainty in major projects is vital for their delivery. In this course you’ll learn to distinguish between risk and uncertainty and the role of risk register. You’ll identify the unique challenges of scope management in major projects and employ scope management tools and techniques that will facilitate your project planning. \n\nThis course explores concepts analysed in the University’s Online MSc in Engineering Management. If you are interested to develop your skills further, take a look at our online degree.",
+            "url": "https://www.coursera.org/learn/major-engineering-projects"
+        },
+        "Population Health: Panel Management Next Level": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "",
+            "short_description": " How to change from reactive to proactive care To empanel patient with the same risk and allocate the appropriate intervention to your panels Operationalise surveillance on care gaps and evaluate your panel management approach based on the triple aim How to apply Panel Management Next Level to your own case",
+            "long_description": "How can you, as a healthcare professional, identify patients that share the same risk of an adverse event? How do you transform your healthcare practice in such a way that you are not only able to provide proactive care but you are also able to improve the health of populations at risk?\nIn this course you will learn how to apply the panel management approach to tackle these questions in order to change from reactive to proactive care. \n\nYou will learn how to empanel (patient)groups that share the same risk and how you can allocate the appropriate intervention to each panel of patients. From there you will dive into ways to transform current workflows for optimal in-reach and out-reach care both at the cultural and behavioral change level. As a final step you will learn how to evaluate both effectiveness and process based on the triple aim. This will give you insight into what can be improved in the next panel management cycle. \n\nThis course will help you gain an understanding of the panel management approach and enable you to change from reactive to proactive care.\n\n This course is part of the Leiden University Master Programme Population Health Management. If you wish to find out more about this programme check-out the course Fundamentals of Population Health Management at: https://www.coursera.org/learn/fundamentals-population-health-management",
+            "url": "https://www.coursera.org/learn/panel-management"
+        },
+        "Store data in Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.choose-storage-approach-in-azure": "https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-azure-storage-account": "https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/?WT.mc_id=api_CatalogApi",
+                "learn.connect-app-to-azure-storage": "https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/?WT.mc_id=api_CatalogApi",
+                "learn.azure.secure-azure-storage-account": "https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/?WT.mc_id=api_CatalogApi",
+                "learn.store-app-data-with-azure-blob-storage": "https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "230 minutes",
+            "short_description": "Azure provides a variety of ways to store data: unstructured, archival, relational, and more. Learn the basics of storage management in Azure, how to create a Storage Account, and how to choose the right model for the data you want to store in the cloud.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-storage",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer",
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/store-data-in-azure.svg",
+            "price": "FREE",
+            "uid": "learn.store-data-in-azure",
+            "number_of_students": "unknown"
+        },
+        "Process customer and vendor payments in Microsoft Dynamics 365 Business Central": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.cash-management-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/cash-management-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.enter-payments-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/enter-payments-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.suggest-vendor-payments-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/suggest-vendor-payments-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.use-checks-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/use-checks-dynamics-365-business-central/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "156 minutes",
+            "short_description": "Do you receive payments from customers and pay vendors? This module will help you track both in cash management and process those transactions as necessary in Business Central.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-business-central"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/process-customer-vendor-payments-dynamics-365-business-central.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.process-customer-vendor-payments-dynamics-365-business-central",
+            "number_of_students": "unknown"
+        },
+        "Work with Knowledge Management Solutions in Microsoft Dynamics 365 Customer Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-knowledge-management-solutions-in-microsoft-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.creating-and-designing-knowledge-management-solutions": "https://docs.microsoft.com/en-us/learn/modules/creating-and-designing-knowledge-management-solutions/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.consuming-knowledge-articles-for-case-resolutions": "https://docs.microsoft.com/en-us/learn/modules/consuming-knowledge-articles-for-case-resolutions/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "120 minutes",
+            "short_description": "This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 Customer Service.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-service"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-knowledge-management-solutions-dyn365-customer-service.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.work-with-knowledge-management-solutions-dyn365-customer-service",
+            "number_of_students": "unknown"
+        },
+        "Configure and work with transportation management in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-work-with-transportation-management-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-transportation-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "184 minutes",
+            "short_description": "Transportation management in Dynamics 365 Supply Chain Management helps you find the most efficient way to deliver goods to your customers. Transportation management calculates the least expensive and fastest way of delivering goods and lets you identify vendor and routing solutions for inbound and outbound orders.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-work-transportation-mgmt-dyn365-supply-chain-mgmt",
+            "number_of_students": "unknown"
+        },
+        "Assemble items in Microsoft Dynamics 365 Business Central": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/assemble-items-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.set-up-assembly-management-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/set-up-assembly-management-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.set-up-assembly-items-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/set-up-assembly-items-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.assemble-to-order-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/assemble-to-order-dynamics-365-business-central/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.assemble-to-stock-dynamics-365-business-central": "https://docs.microsoft.com/en-us/learn/modules/assemble-to-stock-dynamics-365-business-central/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "146 minutes",
+            "short_description": "Do you sell assembled items? This learning path provides the information you need to assembly management and items. It also provides steps to produce assembled items to stock or order.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-business-central"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/assemble-items-dynamics-365-business-central.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.assemble-items-dynamics-365-business-central",
+            "number_of_students": "unknown"
+        },
+        "Configure and use discrete manufacturing in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-with-production-control-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/get-started-production-control-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.get-started-discrete-manufacturing-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/get-started-discrete-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-discrete-manufacturing-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-discrete-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-costing-sheet-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/work-costing-sheet-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-capacity-planning-scheduling-discrete-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/work-capacity-planning-scheduling-discrete-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-manufacturing-execution": "https://docs.microsoft.com/en-us/learn/modules/work-manufacturing-execution-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.get-started-product-configuration": "https://docs.microsoft.com/en-us/learn/modules/get-started-product-configuration-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "979 minutes",
+            "short_description": "If a company only produces simple products, production can be scheduled manually with the correct bill of materials (BOM) parts arriving on the production floor, at the correct time, and at the proper resource. As a functional consultant for manufacturing, you need to know how to configure Dynamics 365 Supply Chain Management for discrete manufacturing, so your customer can perform and control the production lifecycle.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-and-use-discrete-manufacturing-in-microsoft-dynamics-for-finance-and-operations.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-and-use-discrete-manufacturing-in-d365-finance-ops",
+            "number_of_students": "unknown"
+        },
+        "Get started with cost accounting for supply chains in Dynamics 365 Finance": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-with-cost-accounting-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/get-started-cost-accounting-dyn365-finance/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "56 minutes",
+            "short_description": "Cost accounting lets you collect data from various sources, such as the general ledger, sub-ledgers, budgets, and statistical information. You can then analyze, summarize, and evaluate cost data so that management can make the best possible decisions for price updates, budgets, cost control, and so on.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/get-started-cost-accounting-supply-chains-dyn365-finance.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.get-started-cost-accounting-supply-chains-dyn365-finance",
+            "number_of_students": "unknown"
+        },
+        "Work with portals in Dynamics 365": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-portals-in-dynamics-365/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.portal-components": "https://docs.microsoft.com/en-us/learn/modules/work-with-dynamics-365-portal-components/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.authentication-user-management-portals": "https://docs.microsoft.com/en-us/learn/modules/manage-users-auth-dynamics-365-portals/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.portal-content-management": "https://docs.microsoft.com/en-us/learn/modules/create-content-dynamics-365-portals/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.content-security": "https://docs.microsoft.com/en-us/learn/modules/secure-dynamics-365-portal-content/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "226 minutes",
+            "short_description": "Dynamics 365 portals are designed for interaction with the internal and external audiences. There are additional requirements for content management and design, as well as the need to secure the content. This learning path describes how portal components work within context of Dynamics 365 to deliver the content and Common Data Service for Apps data to external and internal audiences. We will cover the topics of user authentication and how to secure access to different parts of the portal content based on the target audience and relationship to the content.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "power-platform"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-portals.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-with-portals",
+            "number_of_students": "unknown"
+        },
+        "Configure Asset Management for Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-asset-management": "https://docs.microsoft.com/en-us/learn/modules/get-started-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.setup-functional-locations-asset-management": "https://docs.microsoft.com/en-us/learn/modules/setup-functional-locations-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.setup-assets-asset-management": "https://docs.microsoft.com/en-us/learn/modules/setup-assets-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.setup-work-orders-asset-management": "https://docs.microsoft.com/en-us/learn/modules/setup-work-orders-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.setup-maintenance-asset-management": "https://docs.microsoft.com/en-us/learn/modules/setup-maintenance-asset-management/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "436 minutes",
+            "short_description": "Asset Management is an add-in for Dynamics 365 Supply Chain Management, that is used to manage assets that are used in the daily operation of your company. Some examples of these types of assets are machinery, production equipment, and fork lifts.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-asset-mgmt-dyn365-supply-chain-mgmt.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-asset-management-dyn365-supply-chain-mgmt",
+            "number_of_students": "unknown"
+        },
+        "Configure and work with warehouse management in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-work-warehouse-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-warehouse-management-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-warehouse-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-warehouse-management": "https://docs.microsoft.com/en-us/learn/modules/work-warehouse-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "514 minutes",
+            "short_description": "Warehouse management in Dynamics 365 Supply Chain Management helps optimize and streamline warehouse processes according to your individual needs and provides the insight into your inventory and the tools to help increase customer satisfaction and reduce costs.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-and-work-with-warehouse-management-in-dynamics-365-for-finance-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-work-warehouse-management-d365-finance-ops",
+            "number_of_students": "unknown"
+        },
+        "Use warehouse management in manufacturing in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/use-warehouse-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-warehouse-management-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-warehouse-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-warehouse-management": "https://docs.microsoft.com/en-us/learn/modules/work-warehouse-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manufacture-wms-dyn365-fo": "https://docs.microsoft.com/en-us/learn/modules/manufacture-warehouse-mgmt-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "633 minutes",
+            "short_description": "Using warehouse management in manufacturing processes in Dynamics 365 Supply Chain Management helps optimize and streamline warehouse processes in your manufacturing environment, according to your company's needs.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/use-warehouse-manufacturing-dyn365-fo.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.use-warehouse-in-manufacturing-dyn365-fo",
+            "number_of_students": "unknown"
+        },
+        "Configure and use cash and bank management, and sales tax in Dynamics 365 Finance": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-cash-and-bank-management-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-cash-bank-management-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-with-cash-and-bank-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/work-cash-bank-dyn365-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-letters-of-credit-guarantees-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-letters-credit-guarantees-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-and-process-postdated-checks-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-process-postdated-checks-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-tax-module-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-tax-module-dyn365-finance/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "442 minutes",
+            "short_description": "You can use the Cash and bank management module in Dynamics 365 Finance to maintain an organization's bank accounts and the financial instruments that are associated with those bank accounts. All businesses must collect and pay taxes to various tax authorities. In this learning path you will learn how to configure and use these areas of Dynamics 365 Finance.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-use-cash-bank-management-sales-tax-d365-finance-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-use-cash-bank-management-tax-d365-finance-ops",
+            "number_of_students": "unknown"
+        },
+        "Work with cases in Microsoft Dynamics 365 Customer Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-cases-in-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.customer-service-get-started": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-dynamics-365-for-customer-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.customer-service-cases": "https://docs.microsoft.com/en-us/learn/modules/managing-cases-with-dynamics-365/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads": "https://docs.microsoft.com/en-us/learn/modules/using-dynamics-365-queues-to-manage-case-workloads/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "177 minutes",
+            "short_description": "This learning path focuses on Case Management capabilities of Dynamics 365 Customer Service including options for creating cases, managing the case resolution process, working with case hierarchies and merging similar cases. Queues can be leveraged to maintain and manage Case workloads for customer service agents to include defining queues for different types of cases, managing queue items, picking and releasing queue items, and designing queue routing rules.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-service"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.customer-service-hub-cases-slas",
+            "number_of_students": "unknown"
+        },
+        "Configure and use lean manufacturing in Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-with-production-control-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/get-started-production-control-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.get-started-with-lean-manufacturing": "https://docs.microsoft.com/en-us/learn/modules/get-started-lean-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-lean-manufacturing": "https://docs.microsoft.com/en-us/learn/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-process-fixed-kanbans": "https://docs.microsoft.com/en-us/learn/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-process-event-kanban-rules": "https://docs.microsoft.com/en-us/learn/modules/create-process-event-kanban-rules-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-process-scheduled-kanbans": "https://docs.microsoft.com/en-us/learn/modules/create-process-scheduled-kanbans-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-activity-based-subcontracting-production-flow-costing-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-subcontracting-flow-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "742 minutes",
+            "short_description": "Lean manufacturing is a journey of continuous improvement. The goal is to produce exactly what the customer wants, when the customer wants it, and to do it economically. You can use lean manufacturing in a unified (mixed-mode) manufacturing environment that combines various supply, production, and sourcing strategies. These strategies include production orders, batch orders for process industries, purchase orders, and transfer orders. The lean manufacturing architecture in Dynamics 365 Supply Chain Management consists of production flows, activities, and Kanban rules.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-and-use-lean-manufacturing-in-d365-finance-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-and-use-lean-manufacturing-in-d365-finance-ops",
+            "number_of_students": "unknown"
+        },
+        "Work with Asset Management for Dynamics 365 Supply Chain Management": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-asset-management": "https://docs.microsoft.com/en-us/learn/modules/get-started-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-functional-locations-assets-management": "https://docs.microsoft.com/en-us/learn/modules/work-functional-locations-assets-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.work-assets-management": "https://docs.microsoft.com/en-us/learn/modules/work-assets-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-maintenance-requests": "https://docs.microsoft.com/en-us/learn/modules/manage-maintenance-requests/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-work-orders-asset-management": "https://docs.microsoft.com/en-us/learn/modules/manage-work-orders-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.schedule-work-orders-asset-management": "https://docs.microsoft.com/en-us/learn/modules/schedule-work-orders-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.controls-reports-asset-management": "https://docs.microsoft.com/en-us/learn/modules/controls-reports-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.preventive-reactive-asset-management": "https://docs.microsoft.com/en-us/learn/modules/preventive-reactive-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.capacity-plan-asset-management": "https://docs.microsoft.com/en-us/learn/modules/capacity-plan-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.register-report-consumption-asset-management": "https://docs.microsoft.com/en-us/learn/modules/register-report-consumption-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.warranties-asset-management": "https://docs.microsoft.com/en-us/learn/modules/warranties-asset-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.maintenance-budget-asset-management": "https://docs.microsoft.com/en-us/learn/modules/maintenance-budget-asset-management/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "756 minutes",
+            "short_description": "Asset Management is an add-in to Dynamics 365 Supply Chain Management, that is used to manage assets that are used in the daily operation of your company. Some examples of these types of assets are machinery, production equipment, and fork lifts.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-asset-management-dyn365-supply-chain-mgmt.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-asset-management-dyn365-supply-chain-mgmt",
+            "number_of_students": "unknown"
+        },
+        "Apply goal management to Microsoft Dynamics 365 Customer Engagement": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/apply-goal-management-dynamics-365/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.define-track-individual-goals": "https://docs.microsoft.com/en-us/learn/modules/define-track-goals-in-dynamics-365/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.use-goal-metrics": "https://docs.microsoft.com/en-us/learn/modules/use-goal-metrics-in-dynamics-365/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "80 minutes",
+            "short_description": "Apply goal management to track your individual, parent, and child goals. Analyze the results of your goal management to make better business decisions.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-sales"
+                ],
+                "roles": [
+                    "business-user",
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/applying-goal-management-dyn365-customer-service.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.applying-goal-management",
+            "number_of_students": "unknown"
+        },
+        "Prepare to complete the Project Specialist Technical Achievement": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/project-specialist-technical-achievement/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.intro-teamwork-in-m365": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.facilitate-teamwork-with-microsoft-365": "https://docs.microsoft.com/en-us/learn/modules/facilitate-teamwork-with-microsoft-365/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.modern-communications-in-microsoft-teams": "https://docs.microsoft.com/en-us/learn/modules/modern-communications-in-microsoft-teams/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.get-data-power-bi": "https://docs.microsoft.com/en-us/learn/modules/get-data-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.flow-get-started": "https://docs.microsoft.com/en-us/learn/modules/get-started-flows/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.powerapps-get-started": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/?WT.mc_id=api_CatalogApi",
+                "learn-m365.security-m365": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/?WT.mc_id=api_CatalogApi",
+                "learn-m365.meet-compliance-with-m365": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.compliance-with-microsoft-365": "https://docs.microsoft.com/en-us/learn/modules/compliance-with-microsoft-365/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.microsoft-runs-on-trust": "https://docs.microsoft.com/en-us/learn/modules/microsoft-runs-on-trust/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "417 minutes",
+            "short_description": "This learning path, which provides introductory level information on Teams, Power Platform, Security, and Compliance, will provide learners with knowledge on adjacent technologies that can come into play when positioning secure, integrated work management solutions.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "power-automate",
+                    "m365",
+                    "power-platform",
+                    "powerapps"
+                ],
+                "roles": [
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/project-specialist-technical-achievement.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.project-specialist-technical-achievement",
+            "number_of_students": "unknown"
+        },
+        "Protect identity and access with Microsoft 365": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-identity/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365-identity.m365-identity-overview": "https://docs.microsoft.com/en-us/learn/modules/m365-identity-overview/?WT.mc_id=api_CatalogApi",
+                "learn-m365-identity.m365-identity-provisioning": "https://docs.microsoft.com/en-us/learn/modules/m365-identity-provisioning/?WT.mc_id=api_CatalogApi",
+                "learn-m365-identity.m365-identity-authentication": "https://docs.microsoft.com/en-us/learn/modules/m365-identity-authentication/?WT.mc_id=api_CatalogApi",
+                "learn-m365-identity.m365-identity-secure-administrators": "https://docs.microsoft.com/en-us/learn/modules/m365-identity-secure-administrators/?WT.mc_id=api_CatalogApi",
+                "learn-m365-identity.m365-identity-cultural-shift": "https://docs.microsoft.com/en-us/learn/modules/m365-identity-cultural-shift/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "60 minutes",
+            "short_description": "Identity &amp; access management is the foundation for a secure digital estate. The credentials that you issue to your users prove that they are who they claim to be and that they have permission to access your resources. Learn how to use Microsoft 365 to for authentication and authorization in your enterprise environment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "azure"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/protect-identity-and-access-with-microsoft-365.svg",
+            "price": "FREE",
+            "uid": "learn-m365.identity-and-access",
+            "number_of_students": "unknown"
+        },
+        "Manage security with Microsoft 365": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-security-management/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.m365-security-management-center": "https://docs.microsoft.com/en-us/learn/modules/m365-security-management-center/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-management-secure-score": "https://docs.microsoft.com/en-us/learn/modules/m365-security-management-secure-score/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-management-mail": "https://docs.microsoft.com/en-us/learn/modules/m365-security-management-mail/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-security-management-endpoints": "https://docs.microsoft.com/en-us/learn/modules/m365-security-management-endpoints/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "44 minutes",
+            "short_description": "We live in an always connected, technology-driven world. Efficient security management is the foundation to managing your assets – in the cloud, on-premises, or across a hybrid environment. You need to proactively manage and secure your organization’s identities, devices, end points (both apps and data), and IT infrastructure. Microsoft 365 helps you secure your infrastructure with a focus on visibility, control, and guidance, and helps you consolidate from a plethora of specialized functions and tools, leveraging the shared intelligence, to keep your security teams focused on the most critical insights for their workloads.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "office-365",
+                    "windows",
+                    "m365-security-center"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/manage-security-microsoft-365.svg",
+            "price": "FREE",
+            "uid": "learn-m365.m365-security-management",
+            "number_of_students": "unknown"
+        },
+        "Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.get-modern-intro": "https://docs.microsoft.com/en-us/learn/modules/m365-get-modern-intro/?WT.mc_id=api_CatalogApi",
+                "learn-m365.modern-device-app": "https://docs.microsoft.com/en-us/learn/modules/m365-modern-device-app/?WT.mc_id=api_CatalogApi",
+                "learn-m365.directory-network-readiness": "https://docs.microsoft.com/en-us/learn/modules/m365-directory-network-readiness/?WT.mc_id=api_CatalogApi",
+                "learn-m365.office-lob-apps": "https://docs.microsoft.com/en-us/learn/modules/m365-office-lob-apps/?WT.mc_id=api_CatalogApi",
+                "learn-m365.user-files-settings": "https://docs.microsoft.com/en-us/learn/modules/m365-user-files-settings/?WT.mc_id=api_CatalogApi",
+                "learn-m365.get-modern-security-compliance": "https://docs.microsoft.com/en-us/learn/modules/m365-modern-security-and-compliance/?WT.mc_id=api_CatalogApi",
+                "learn-m365.modern-os-deployment": "https://docs.microsoft.com/en-us/learn/modules/m365-modern-os-deployment/?WT.mc_id=api_CatalogApi",
+                "learn-m365.modern-windows-office-servicing": "https://docs.microsoft.com/en-us/learn/modules/m365-modern-windows-office-servicing/?WT.mc_id=api_CatalogApi",
+                "learn-m365.modern-usercomm-training": "https://docs.microsoft.com/en-us/learn/modules/m365-modern-usercomm-training/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "197 minutes",
+            "short_description": "Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Office 365 ProPlus apps and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Office 365 ProPlus, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "windows",
+                    "office-365"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/get-modern-with-windows-10-and-office-365-proplus-in-microsoft-365.svg",
+            "price": "FREE",
+            "uid": "learn-m365.microsoft-365-get-modern",
+            "number_of_students": "unknown"
+        }
+    },
+    "web hosting services": {
+        "Building Cloud Services with the Java Spring Framework": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework"
+        },
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        }
+    },
+    "Internet services": {
+        "Building Cloud Services with the Java Spring Framework": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework"
+        }
+    },
+    "IP": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "Excellent communication skills": {
+        "English Grammar and Essay Writing": {
+            "id": [
+                "BerkeleyX/ColWri.2.2x/1T2015",
+                "BerkeleyX/ColWri.2.2x/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/asset/images_course_image.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-750x400.jpg"
+            },
+            "course_duration": "2 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/english-grammar-and-essay-writing",
+            "number_of_students": "284,676 students"
+        },
+        "Principles of Written English, Part 3": {
+            "id": [
+                "BerkeleyX/ColWri2.3x/1T2014",
+                "BerkeleyX/ColWri2.3x/1T2014"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/principles-of-written-english-part-3",
+            "number_of_students": "284,676 students"
+        },
+        "Academic and Business Writing": {
+            "id": [
+                "BerkeleyX/ColWri2.3x_2/1T2015",
+                "BerkeleyX/ColWri2.3x_2/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/academic-and-business-writing",
+            "number_of_students": "284,676 students"
+        }
+    },
+    "MySQL": {
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+            "id": 1187016,
+            "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+            }
+        }
+    },
+    "Linux": {
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "clients": {
+        "Secure your cloud data": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/secure-your-cloud-data/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-security": "https://docs.microsoft.com/en-us/learn/modules/intro-to-security-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.top-5-security-items-to-consider": "https://docs.microsoft.com/en-us/learn/modules/top-5-security-items-to-consider/?WT.mc_id=api_CatalogApi",
+                "learn.azure-security.configure-security-policies-to-manage-data": "https://docs.microsoft.com/en-us/learn/modules/configure-security-policies-to-manage-data/?WT.mc_id=api_CatalogApi",
+                "learn.azure.secure-azure-storage-account": "https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/?WT.mc_id=api_CatalogApi",
+                "learn.azure-security.configure-and-manage-azure-key-vault": "https://docs.microsoft.com/en-us/learn/modules/configure-and-manage-azure-key-vault/?WT.mc_id=api_CatalogApi",
+                "learn.secure-azure-resources-with-rbac": "https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-rbac/?WT.mc_id=api_CatalogApi",
+                "learn.secure-your-azure-sql-database": "https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "338 minutes",
+            "short_description": "Azure was designed for security and compliance. Learn how to leverage the built-in services to store your app data securely to ensure that only authorized services and clients have access to it.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-key-vault",
+                    "azure-storage",
+                    "azure-cosmos-db",
+                    "azure-synapse-analytics",
+                    "azure-sql-database"
+                ],
+                "roles": [
+                    "developer",
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/secure-your-cloud-data.svg",
+            "price": "FREE",
+            "uid": "learn.secure-your-cloud-data",
+            "number_of_students": "unknown"
+        },
+        "Implementing Dynamics 365 Customer Engagement Online": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/implementing-customer-engagement-apps/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.designing-power-platform-deployments": "https://docs.microsoft.com/en-us/learn/modules/designing-power-platform-deployments/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.administrating-power-platform-subscriptions": "https://docs.microsoft.com/en-us/learn/modules/administrating-power-platform-subscriptions/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-clients": "https://docs.microsoft.com/en-us/learn/modules/manage-clients/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.power-platform-mobile-management": "https://docs.microsoft.com/en-us/learn/modules/power-platform-mobile-management/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "305 minutes",
+            "short_description": "Create, design, and administer Microsoft Dynamics 365 Customer Engagement tenants and instances including planning for multi-instance deployments, managing authentication methods, managing updates, backup and restore instances, install and manage Microsoft Dynamics 365 clients for end-users, and authorizing access to different features for all users in the organization.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "power-platform"
+                ],
+                "roles": [
+                    "administrator",
+                    "business-user",
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/implementing-customer-engagement-online.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.implementing-customer-engagement-online",
+            "number_of_students": "unknown"
+        }
+    },
+    "Excel": {
+        "Microsoft Excel - Excel from Beginner to Advanced": {
+            "id": 793796,
+            "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+            }
+        }
+    }
+}
