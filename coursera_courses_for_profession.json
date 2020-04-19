@@ -1,0 +1,92 @@
+{
+    "Gamification": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/5e/4c158b1f9440ed834b59c3c4eae9bd/Illinois-imba-new-image.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 30 hours to complete",
+        "number_of_students": "96,560 students",
+        "short_description": " ",
+        "long_description": "Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course will teach you the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively. For additional information on the concepts described in the course, you can purchase Professor Werbach's book For the Win: How Game Thinking Can Revolutionize Your Business in print or ebook format in several languages.",
+        "url": "https://www.coursera.org/learn/gamification"
+    },
+    "Dealing With Missing Data": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 9 hours to complete",
+        "number_of_students": "9,803 students",
+        "short_description": " ",
+        "long_description": "This course will cover the steps used in weighting sample surveys, including methods for adjusting for nonresponse and using data external to the survey for calibration.  Among the techniques discussed are adjustments using estimated response propensities, poststratification, raking, and general regression estimation.  Alternative techniques for imputing values for missing items will be discussed.  For both weighting and imputation, the capabilities of different statistical software packages will be covered, including R\u00ae, Stata\u00ae, and SAS\u00ae.",
+        "url": "https://www.coursera.org/learn/missing-data"
+    },
+    "Unordered Data Structures": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 16 hours to complete",
+        "number_of_students": "",
+        "short_description": " ",
+        "long_description": "The Unordered Data Structures course covers the data structures and algorithms needed to implement hash tables, disjoint sets and graphs. These fundamental data structures are useful for unordered data. For example, a hash table provides immediate access to data indexed by an arbitrary key value, that could be a number (such as a memory address for cached memory), a URL (such as for a web cache) or a dictionary. Graphs are used to represent relationships between items, and this course covers several different data structures for representing graphs and several different algorithms for traversing graphs, including finding the shortest route from one node to another node. These graph algorithms will also depend on another concept called disjoint sets, so this course will also cover its data structure and associated algorithms.",
+        "url": "https://www.coursera.org/learn/cs-fundamentals-3"
+    },
+    "Vital Signs: Understanding What the Body Is Telling Us": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 16 hours to complete",
+        "number_of_students": "148,047 students",
+        "short_description": " ",
+        "long_description": "The vital signs \u2013 heart rate, blood pressure, body temperature, respiration rate, and pain \u2013 communicate important information about the physiological status of the human body. In this six-part course we explore the anatomy and physiology underlying the vital signs so that you will develop a systematic, integrated understanding of how the body functions. Relevant body systems are reviewed including cardiovascular and respiratory, followed by explanations of how the function of these systems affects vital signs. We discuss normal ranges, normal variants, and the mechanisms that underlie changes in the objective measurement of vital signs. The course also includes demonstrations of appropriate techniques for measuring vital signs in yourself and others.\n\nThe course is designed for a broad, general audience but will be particularly interesting for individuals working in healthcare, those considering a career as a healthcare professional, lay caregivers, those with an interest in personal health and fitness, or anyone who simply wants to understand how the body functions.",
+        "url": "https://www.coursera.org/learn/vital-signs"
+    },
+    "FinTech Disruptive Innovation: Implications for Society": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 12 hours to complete",
+        "number_of_students": "15,104 students",
+        "short_description": " ",
+        "long_description": "This course \u201cFinTech Disruptive Innovation: Implications for Society\u201d help you understand how disruptive innovations create opportunity in finance industry and its impact to society especially your career. You would be able to examine and analyse how FinTech innovations would affect companies that relates to FinTech services and how it might affect your career in finance.\n\nYou will learn about how peer to peer lending disrupt finance industry in different countries, the diversity of impact by FinTech in the comparison of East vs West, Big firms vs Small firms, and different generations etc., how to predict FinTech trends in different markets, and finally what you should do to pursue your career and secure your position in FinTech industry.",
+        "url": "https://www.coursera.org/learn/fintech-disruption"
+    },
+    "Modern Art & Ideas": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/4c/f00688208c46878944beca94dce581/IBM-data-science-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 12 hours to complete",
+        "number_of_students": "263,431 students",
+        "short_description": " ",
+        "long_description": "Welcome to Modern Art & Ideas! This course is designed for anyone interested in learning more about modern and contemporary art. Over the next five weeks, you will look at art through a variety of themes: Places & Spaces, Art & Identity, Transforming Everyday Objects, and Art & Society. Each week kicks off with a video that connects works of art from The Museum of Modern Art\u2019s collection to the theme. You will hear audio interviews with artists, designers, and curators and learn more about selected works in the additional readings and resources.\n\nThroughout this course you will discover how artists:\n-- represent place and take inspiration from their environment,\n-- create works of art to express, explore, and question identity,\n-- use everyday objects to challenge assumptions about what constitutes a work of art and how it should be made,\n-- and respond to the social, cultural, and political issues of their time through works of art.\n\nThrough the discussion forum prompts and peer review assignment, you will also have the opportunity to connect with other learners and explore how these themes resonate with your own life and experience.",
+        "url": "https://www.coursera.org/learn/modern-art-ideas"
+    },
+    "The Evolving Universe": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 41 hours to complete",
+        "number_of_students": "50,141 students",
+        "short_description": " ",
+        "long_description": "This is an introductory astronomy survey class that covers our understanding of the physical universe and its major constituents, including planetary systems, stars, galaxies, black holes, quasars, larger structures, and the universe as a whole.",
+        "url": "https://www.coursera.org/learn/evolvinguniverse"
+    },
+    "The Changing Global Order": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 18 hours to complete",
+        "number_of_students": "19,659 students",
+        "short_description": " ",
+        "long_description": "How are international power relations changing and how can global peace and stability be maintained? This course familiarizes you with some main theories of international relations, shows how the global order is gradually changing and discusses how selected international and regional organizations contribute to the maintenance of global peace and security. You learn what research findings tell us in terms of the capacity of international organizations and actors to help prevent or stop violent conflict, what tools are used to negotiate agreements and how foundations for sustainable peace are best created. We will also focus on the role of the European Union in terms of diplomacy and efforts to prevent conflict, the North Atlantic Treaty Organization and the contribution of organizations such as the African Union to the prevention of conflict and war. We will study the United Nations Security Council and see in which ways its membership could be adapted to more accurately reflect the power relations of the current global order. Through quizzes and exercises testing your knowledge of these subjects, you will understand crucial concepts and get insights into how the academic study of international relations and international organization contributes to the search for global stability and peace in practice.",
+        "url": "https://www.coursera.org/learn/changing-global-order"
+    },
+    "Getting Started with AWS Machine Learning": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 10 hours to complete",
+        "number_of_students": "85,849 students",
+        "short_description": " Key problems that Machine Learning can address and ultimately help solve. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance. Sneak peek into AWS DeepLens - The world\u00e2\u0080\u0099s first deep learning enabled video camera for developers.",
+        "long_description": "Machine learning (ML) is one of the fastest growing areas in technology and a highly sought after skillset in today\u2019s job market. The World Economic Forum states the growth of artificial intelligence (AI) could create 58 million net new jobs in the next few years, yet it\u2019s estimated that currently there are 300,000 AI engineers worldwide, but millions are needed. This means there is a unique and immediate opportunity for you to get started with learning the essential ML concepts that are used to build AI applications \u2013 no matter what your skill levels are. Learning the foundations of ML now, will help you keep pace with this growth, expand your skills and even help advance your career. \n\nThis course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS. Each topic consists of several modules deep-diving into variety of ML concepts, AWS services as well as insights from experts to put the concepts into practice.",
+        "url": "https://www.coursera.org/learn/aws-machine-learning"
+    },
+    "Design: Creation of Artifacts in Society": {
+        "price": "Free",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+        "course_duration": "Approx. 26 hours to complete",
+        "number_of_students": "113,330 students",
+        "short_description": " ",
+        "long_description": "This is a course aimed at making you a better designer. The course marries theory and practice, as both are valuable in improving design performance. Lectures and readings will lay out the fundamental concepts that underpin design as a human activity. Weekly design challenges test your ability to apply those ideas to solve real problems. The course is deliberately broad - spanning all domains of design, including architecture, graphics, services, apparel, engineered goods, and products. The emphasis of the course is the basic design process: define, explore, select, and refine. You, the student, bring to the course your particular interests and expertise related to, for instance, engineering, furniture, fashion, architecture, or products. In prior sessions of the course about half of the participants were novices and about half had prior professional design expertise. Both groups seem to benefit substantially from the course. All project work is evaluated by your peers -- and indeed, you will also be a peer reviewer. This format allows you to see an interesting collection of projects while getting useful feedback on your own project.",
+        "url": "https://www.coursera.org/learn/design"
+    }
+}

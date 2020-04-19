@@ -1,24 +1,4 @@
 {
-    "website": {
-        "Advanced Search Engine Optimization Strategies": {
-            "price": "Free",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
-            "course_duration": "Approx. 14 hours to complete",
-            "number_of_students": "17,764 students",
-            "short_description": " Demonstrate how to find and fix problems, heighten visibility, improve site architecture, and accelerate page load speed within your own website\n\n Develop engaging strategies to launch a global web marketing campaign\n\n Use tools to provide insightful data to evaluate your competitors\n\n Conduct data analysis to bring value to stakeholders\n\n",
-            "long_description": "This course focuses on technical, mobile and social strategies for increasing site traffic. Learn how to build SEO for international audiences through content localization, global team alignment and optimizing for local search engines. Discover techniques to optimize mobile-friendly websites, get mobile apps discovered, and leverage social media to drive organic SEO traffic.  You will also learn how to identify key SEO metrics and collect, interpret, validate, and report success to your clients and stakeholders.",
-            "url": "https://www.coursera.org/learn/seo-strategies"
-        },
-        "Optimizing a Website for Search": {
-            "price": "Free",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
-            "course_duration": "Approx. 14 hours to complete",
-            "number_of_students": "91,162 students",
-            "short_description": " Use keyword research to select best keywords to optimize your website in search results\n\n Examine how to analyze, organize, create, and build content utilizing various strategies\n\n \nUse best practices to develop a high quality local SEO approach\n\n Develop a solid approach for achieving a productive and successful relationship with your client\n\n",
-            "long_description": "Learn the ins and outs of optimizing a website, from conducting an initial audit to presenting your findings and recommendations. Hands-on activities include learning how to select and apply appropriate keywords throughout a website, incorporating keyword research in a content marketing strategy, and optimizing a site for local search. You will also learn strategies for setting goals and client/stakeholder expectations, building effective analytics and reports, and communicating SEO improvements.",
-            "url": "https://www.coursera.org/learn/optimizing-web-search"
-        }
-    },
     "Google Analytics": {
         "Google Cloud Product Fundamentals": {
             "price": "Free",
