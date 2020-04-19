@@ -1,0 +1,308 @@
+{
+    "management": {
+        "Designing for Sustainment: Keeping Improvement Work on Track (Patient Safety IV)": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,695",
+            "short_description": " Recognize the importance of planning for project sustainment.  Use the pre-mortem exercise to identify risks of project failure.  Design a change management plan that addresses technical and adaptive challenges.  Describe the 4Eâs + 2 Model and its use to engage stakeholders. ",
+            "long_description": "Keeping patient safety and quality improvement projects on track, on time, and on budget is critical to ensuring their success. In this course, students will be introduced and given the opportunity to apply a series of tools to guide and manage patient safety and quality initiatives. These include tools for defining what success looks like, developing a change management plan, and conducting a pre-mortem to identify risks for project failure.  This course will also provide tools for engaging stakeholders to ensure key players are invested in your project’s success.",
+            "url": "https://www.coursera.org/learn/patient-safety-sustainment"
+        },
+        "Google Cloud Product Fundamentals": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals"
+        },
+        "Cybersecurity Awareness and Innovation": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Cibersecurity awareness mainly focused on identity management Understanding of effective protection mechanisms against common threats related with Identity Capacity to devise disruptive ideas related with identity protection",
+            "long_description": "It’s not you, it’s me! What’s going on? \n\nThis course empowers students, professionals and wider community to deal with cybersecurity attacks and risks focused on identity management and it is an introduction to the upcoming full course focused on cybersecurity awareness.\nIt is provided a practical overview of challenging issues like identity credentials management and security, e-mail threats and web impersonation, or web hacking. In addition to this, you will have a practical appreciation to innovation applied to these concepts through an interview with a renowned expert in fraud and cybercrime. Teaching staff consists of Iván Pau, UPM researcher and expert in usable security, and Román Ramírez, hacker and cybersecurity expert.  \nLearning will be carried out by introducing use cases related with cybersecurity incidents, in a way which ensures that participants get really involved in the course. You will easily acquire practical skills and be ready to face real threats in a digital world.\n\nThis course is part of an online programme developed by Universidad Politécnica de Madrid (world class tech university renowned for the quality of its education programmes and the research undertaken at its centres), Ferrovial (world's leading private investor in cities and infrastructures, with a workforce of more than 74.000 employees and operations in more than 16 countries) and EIT Digital.\n\nStay tuned for the full course! COMING SOON!",
+            "url": "https://www.coursera.org/learn/cybersecurity"
+        },
+        "Configuration Management and the Cloud": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c3/059b9940594ff98c9406ce78b78943/UMich-MADS-promo-unit_logo-only.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand the benefits of configuration management and infrastructure as code Manage a fleet of computers using Puppet Automatically deploy new virtual machines running in the Cloud Deploy changes in a safe manner",
+            "long_description": "In this course, you’ll learn how to apply automation to manage fleets of computers. You’ll understand how to automate the process for deploying new computers, keeping those machines updated, managing large-scale changes, and a lot more. We'll discuss managing both physical machines running in our offices and virtual machines running in the Cloud.\n\nWe'll start by looking into an automation technique called configuration management, which lets you manage the configuration of our computers at scale. Specifically, you'll learn how to use Puppet, the current industry standard for configuration management. We'll look at some simple examples, and then see how we can apply the same concepts to more complex cases. You’ll be a Puppet-master in no time!\n\nLater on, you'll expand your automation skills by understanding how to use the Cloud to help scale your infrastructure. You'll check out some best practices for handling hundreds of virtual machines running in the Cloud and troubleshooting them when things don't go according to plan.",
+            "url": "https://www.coursera.org/learn/configuration-management-cloud"
+        },
+        "Understanding Your Google Cloud Platform (GCP) Costs": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Plan for effective cloud cost management by setting up your teams, tools, and applying financial governance best practices. Set up GCP Billing account(s) and organize your resources for cost management. Export Billing reports to Google Sheets or BigQuery to gain visibility into your current cost trends and forecasted costs. Visualize billing data with Billing reports and build custom dashboards with Data Studio.",
+            "long_description": "Understanding Your Google Cloud Platform (GCP) Costs is most suitable for those working in a technology or finance role who are responsible for managing GCP costs. \n\nYou’ll learn how to set up a billing account, organize resources, and manage billing access permissions. \n\nIn the hands-on labs, you'll learn how to view your invoice, track your GCP costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Data Studio.\t\t\n\nStudents enrolling in this course do not need any prior Google Cloud technical experience.",
+            "url": "https://www.coursera.org/learn/gcp-cost-management"
+        },
+        "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "24,851 students",
+            "short_description": " Draw and organize objects, use advanced editing functions, and draw accurately using the User Coordinate System.  Create and manage your layouts, outputs, printings, and use annotation techniques like markup tools, hatch and fill, multileaders, and dimensioning.  Perform drawing management techniques, use blocks for efficiency, and control external reference and underlay files. Demonstrate the skills and knowledge required for taking the Autodesk Certified Professional: AutoCAD for Design and Drafting exam.",
+            "long_description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.\n\nAbout the Autodesk Certified Professional: AutoCAD for Design and Drafting Exam:\nThe Autodesk Certified Professional: AutoCAD for Design and Drafting exam is the recognized standard for measuring your skills and knowledge in AutoCAD. Certification at this level demonstrates a comprehensive skill set that provides an opportunity for individuals to stand out in a competitive professional environment. This type of experience typically comes from having worked with the software on a regular basis for at least 2 years, equivalent to approximately 400 hours (minimum) - 1200 hours (recommended), of real-world Autodesk software experience. Ready to take the exam? Schedule to take the exam online or find a testing center near you on pearsonvue.com/autodesk.",
+            "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting"
+        },
+        "Supply chain management: Be global": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,770 students",
+            "short_description": " Identify the key drivers of global supply chain effectiveness   Create supply chain networks that are aligned with supply chain and business strategy of the firm   Identify the critical success factors, pitfalls, and risks of global supply chain management   Evaluate the sustainability of global supply chain operations  ",
+            "long_description": "Businesses and their supply chains are facing increasing competition and uncertainty in what is now a truly globalised trade environment. To remain competitive, organisations need to think globally – ensuring supply chains meet customer demands while minimising costs and maximising responsiveness. From a strategic perspective, this involves making important trade-off decisions between cost, quality and flexibility of supply chains. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) this course will equip you with the future-focused capabilities needed to design and manage effective, sustainable and efficient global supply chains of tomorrow.",
+            "url": "https://www.coursera.org/learn/supply-chain-management-global"
+        },
+        "Software Processes and Agile Practices": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "142,928 students",
+            "short_description": " Distinguish between different process models for organizing software production. Gauge the applicability of process models for a software development project. Apply the fundamentals of Agile software development and management practices.",
+            "long_description": "This course delves into a variety of processes to structure software development. It also covers the foundations of core Agile practices, such as Extreme Programming and Scrum.",
+            "url": "https://www.coursera.org/learn/software-processes-and-agile-practices"
+        },
+        "Leading Change in Health Informatics": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "",
+            "short_description": " Describe essential steps in the process of successfully leading change in health IT organizations. Recognize the importance of multidisciplinary and interprofessional teamwork in health informatics. Utilize several common project management and strategic planning tools used by health informaticists. Apply best practices for successful change management in health informatics.",
+            "long_description": "Do you dream of being a CMIO or a Senior Director of Clinical Informatics? If you are aiming to rise up in the ranks in your health system or looking to pivot your career in the direction of big data and health IT, this course is made for you. You'll hear from experts at Johns Hopkins about their experiences harnessing the power of big data in healthcare, improving EHR adoption, and separating out the hope vs hype when it comes to digital medicine. \n\nWhether you're a nurse, pharmacist, physician, other allied health professional or come from a non-clinical background--you know that Health Informatics skills are in demand. This newly launched 5-course specialization by JohnsHopkins faculty members provides a solid foundation for anyone wanting to become a leader in  one of the hottest fields in healthcare. \n\nAs health informaticians, we need to be very clear in our understanding of the current state (as-is), the future state (to-be) and any unintended consequences that can result from our interventions. Prior to introducing large scale change, we need to assess whether a healthcare organization is truly ready for change. This involves taking into account an organization's current culture and values. Successfully leading change through health informatics also requires strategic planning and careful financial considerations. Proper workflow redesign and a clear change management strategy are of utmost importance when introducing new technologies and in ensuring their successful adoption and proper use. \n\nBy the end of this course, students will become familiar with examples of successful and failed attempts at change in health informatics, and the reasons for each. Students will be armed with tools to help optimize their chances for successfully leading change in their respective organizations. ",
+            "url": "https://www.coursera.org/learn/leading-change-health-informatics"
+        },
+        "Introduction to Software Product Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Relate software product management to better software products Recognize the role of a software product manager Reflect on how Agile principles will improve your own projects",
+            "long_description": "This course highlights the importance and role of software product management. It also provides an overview of the specialization, as well as its goals, structure, and expectations. The course explains the value of process, requirements, planning, and monitoring in producing better software.",
+            "url": "https://www.coursera.org/learn/introduction-to-software-product-management"
+        }
+    },
+    "web hosting services": {
+        "Building Cloud Services with the Java Spring Framework": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework"
+        },
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        }
+    },
+    "Internet services": {
+        "Building Cloud Services with the Java Spring Framework": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework"
+        }
+    },
+    "IP": {
+        "Networking in GCP: Hybrid Connectivity and Network Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management"
+        }
+    },
+    "Excellent communication skills": {
+        "English Grammar and Essay Writing": {
+            "id": [
+                "BerkeleyX/ColWri.2.2x/1T2015",
+                "BerkeleyX/ColWri.2.2x/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/asset/images_course_image.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-750x400.jpg"
+            },
+            "course_duration": "2 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/english-grammar-and-essay-writing",
+            "number_of_students": "284,676 students"
+        },
+        "Principles of Written English, Part 3": {
+            "id": [
+                "BerkeleyX/ColWri2.3x/1T2014",
+                "BerkeleyX/ColWri2.3x/1T2014"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/principles-of-written-english-part-3",
+            "number_of_students": "284,676 students"
+        },
+        "Academic and Business Writing": {
+            "id": [
+                "BerkeleyX/ColWri2.3x_2/1T2015",
+                "BerkeleyX/ColWri2.3x_2/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/academic-and-business-writing",
+            "number_of_students": "284,676 students"
+        }
+    },
+    "MySQL": {
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+            "id": 1187016,
+            "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+            "price": "$179.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+            }
+        }
+    },
+    "Linux": {
+        "Deploy a website with Azure virtual machines": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.introduction-to-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn.create-linux-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.create-a-windows-vm-in-azure": "https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/?WT.mc_id=api_CatalogApi",
+                "learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm": "https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-virtual-machines",
+                    "azure-portal",
+                    "azure-cloud-shell"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+            "price": "FREE",
+            "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "Excel": {
+        "Microsoft Excel - Excel from Beginner to Advanced": {
+            "id": 793796,
+            "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+            }
+        }
+    }
+}

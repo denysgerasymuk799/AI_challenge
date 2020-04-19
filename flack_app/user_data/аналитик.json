@@ -1,0 +1,1276 @@
+{
+    "data analysis": {
+        "Project: Analyze Box Office Data with Seaborn and Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 3 hours to complete",
+            "number_of_students": "",
+            "short_description": " Produce data visualizations with Seaborn Apply graphical techniques used in exploratory data analysis (EDA)",
+            "long_description": "Welcome to this project-based course on Analyzing Box Office Data with Seaborn and Python. In this course, you will be working with the The Movie Database (TMDB) Box Office Prediction data set. The motion picture industry is raking in more revenue than ever with its expansive growth the world over. Can we build models to accurately predict movie revenue? Could the results from these models be used to further increase revenue? We try to answer these questions by way of exploratory data analysis (EDA) in this project and the next. The statistical data visualization libraries Seaborn and Plotly will be our workhorses to generate interactive, publication-quality graphs. By the end of this course, you will be able to produce data visualizations in Python with Seaborn, and apply graphical techniques used in exploratory data analysis (EDA).\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and scikit-learn pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/analyze-data-seaborn-python"
+        },
+        "Code Free Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 16 hours to complete",
+            "number_of_students": "",
+            "short_description": " How to design Data Science workflows without any programming involved Essential Data Science skills to design, build, test and evaluate predictive models Data Manipulation, preparation and cclassification and clustering methods Ways to apply Data Science algorithms to real data and evaluate and interpret the results",
+            "long_description": "The Code Free Data Science class is designed for learners seeking to gain or expand their knowledge in the area of Data Science.  Participants will receive the basic training in effective predictive analytic approaches accompanying the growing discipline of Data Science without any programming requirements.  Machine Learning methods will be presented by utilizing the KNIME Analytics Platform to discover patterns and relationships in data. Predicting future trends and behaviors allows for proactive, data-driven decisions.  During the class learners will acquire new skills to apply predictive algorithms to real data, evaluate, validate and interpret the results without any pre requisites for any kind of programming.  Participants will gain the essential skills to design, build, verify and test predictive models.  \nYou Will Learn\n•\tHow to design Data Science workflows without any programming involved\n•\tEssential Data Science skills to design, build, test and evaluate predictive models\n•\tData Manipulation, preparation and Classification and clustering methods\n•\tWays to apply Data Science algorithms to real data and evaluate and interpret the results",
+            "url": "https://www.coursera.org/learn/code-free-data-science"
+        },
+        "Advanced Search Engine Optimization Strategies": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "17,764 students",
+            "short_description": " Demonstrate how to find and fix problems, heighten visibility, improve site architecture, and accelerate page load speed within your own website\n\n Develop engaging strategies to launch a global web marketing campaign\n\n Use tools to provide insightful data to evaluate your competitors\n\n Conduct data analysis to bring value to stakeholders\n\n",
+            "long_description": "This course focuses on technical, mobile and social strategies for increasing site traffic. Learn how to build SEO for international audiences through content localization, global team alignment and optimizing for local search engines. Discover techniques to optimize mobile-friendly websites, get mobile apps discovered, and leverage social media to drive organic SEO traffic.  You will also learn how to identify key SEO metrics and collect, interpret, validate, and report success to your clients and stakeholders.",
+            "url": "https://www.coursera.org/learn/seo-strategies"
+        },
+        "GIS Data Formats, Design and Quality": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/27/88f9c2b3e644808ee0d85b2cca6a9b/HPP-Penn-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "83,979 students",
+            "short_description": " Design data tables and use separating and joining data in a relational database Write query strings to subset data Create and work with raster data Create web maps",
+            "long_description": "In this course, the second in the Geographic Information Systems (GIS) Specialization, you will go in-depth with common data types (such as raster and vector data), structures, quality and storage during four week-long modules: \n\nWeek 1: Learn about data models and formats, including a full understanding of vector data and raster concepts. You will also learn about the implications of a data’s scale and how to load layers from web services. \n\nWeek 2: Create a vector data model by using vector attribute tables, writing query strings, defining queries, and adding and calculating fields. You'll also learn how to create new data through the process of digitizing and you'll use the built-in Editor tools in ArcGIS.\n\nWeek 3: Learn about common data storage mechanisms within GIS, including geodatabases and shapefiles. Learn how to choose between them for your projects and how to optimize them for speed and size. You'll also work with rasters for the first time, using digital elevation models and creating slope and distance analysis products.\n\nWeek 4: Explore datasets and assess them for quality and uncertainty.  You will also learn how to bring your maps and data to the Internet and create web maps quickly with ArcGIS Online.\n\nTake GIS Data Formats, Design and Quality as a standalone course or as part of the Geographic Information Systems (GIS) Specialization. You should have equivalent experience to completing the first course in this specialization, Fundamentals of GIS, before taking this course. By completing the second class in the Specialization you will gain the skills needed to succeed in the full program.",
+            "url": "https://www.coursera.org/learn/gis-data"
+        },
+        "Security and Privacy for Big Data - Part 2": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 3 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand what data protection is and why this is important. Explain what personal data is, and know the essential facts about the GDPR, what the GDPR has changed compared to previous data protection law. Know privacy risks arising from Big Data applications and methods which reduce or prevent privacy risks of data processing activities.  Know concepts like anonymization and pseudonymization, k-anonymity, differential privacy, secure multiparty computation, and homomorphic encryption.",
+            "long_description": "This course sensitizes regarding privacy and data protection in Big Data environments. You will discover privacy preserving methodologies, as well as data protection regulations and concepts in your Big Data system. By the end of the course, you will be ready to plan your next Big Data project successfully, ensuring that all privacy and data protection related issues are under control. You will look at decent-sized big data projects with privacy-skilled eyes, being able to recognize dangers. This will allow you to improve your systems to a grown and sustainable level. \n\nIf you are an ICT professional or someone who designs and manages systems in big data environments, this course is for you! Knowledge about Big Data and IT is advantageous, but if you are e.g. a product manager just touching the surface of Big Data and privacy, this course will suit you as well.",
+            "url": "https://www.coursera.org/learn/security-privacy-big-data-protection"
+        },
+        "Introduction to Clinical Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science"
+        },
+        "Project: Multiple Linear Regression with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build univariate and multivariate linear regression models in Python using scikit-learn Perform Exploratory Data Analysis (EDA) and data visualization with seaborn Evaluate model fit and accuracy using numerical measures such as RÂ² and RMSE Model interaction effects in regression using basic feature engineering techniques",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate multiple linear regression models using Python. You will use scikit-learn to calculate the regression, while using pandas for data management and seaborn for data visualization. The data for this project consists of the very popular Advertising dataset to predict sales revenue based on advertising spending through media such as TV, radio, and newspaper. \n\nBy the end of this project, you will be able to:\n\n- Build univariate and multivariate linear regression models using scikit-learn\n- Perform Exploratory Data Analysis (EDA) and data visualization with seaborn\n- Evaluate model fit and accuracy using numerical measures such as R² and RMSE\n- Model interaction effects in regression using basic feature engineering techniques\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, this means instant access to a cloud desktop with Jupyter Notebooks and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-multiple-linear-regression"
+        },
+        "Data Structures and Algorithms (II)": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,875",
+            "short_description": " Algorithms used to solve complex problems Principles and methods in the design and implementation of various data structures Skills for algorithm design and performance analysis Background on fundamental data structures and recent results",
+            "long_description": "By learning this course, you will get a comprehensive  grasp of stack, queue, binary tree, graph and BST structures and algorithms, as well as their applications. By the end of this course, you will be able to understand and implement stack, queue and binary tree, use binary trees to solve problems such Huffman encoding, understand and implement the graph structure as well as related algorithms such BFS, DFS and PFS, understand and implement  AVL tree.\n\n通过学习本课程，你将全面了解栈、队列、二叉树、图和二叉搜索树结构、算法及其应用。 在本课程结束时，你将能够理解和实现栈、队列和二叉树，使用二叉树解决霍夫曼编码等问题，理解并实现图结构以及相关算法（例如BFS，DFS和PFS），理解并实现AVL树。",
+            "url": "https://www.coursera.org/learn/data-structures-algorithms-2"
+        },
+        "The Data Science of Health Informatics": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "1,352 students",
+            "short_description": " Articulate different forms of clinical and population level data. Describe the data required to answer a healthcare information problem. Distinguish between data questions and data queries when dealing with a healthcare information problem.",
+            "long_description": "Health data are notable for how many types there are, how complex they are, and how serious it is to get them straight. These data are used for treatment of the patient from whom they derive, but also for other uses. Examples of such secondary use of health data include population health (e.g., who requires more attention), research (e.g., which drug is more effective in practice), quality (e.g., is the institution meeting benchmarks), and translational research (e.g., are new technologies being applied appropriately). By the end of this course, students will recognize the different types of health and healthcare data, will articulate a coherent and complete question, will interpret queries designed for secondary use of EHR data, and will interpret the results of those queries.",
+            "url": "https://www.coursera.org/learn/the-data-science-of-health-informatics"
+        },
+        "Logistic Regression in R for Public Health": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "10,941 students",
+            "short_description": " Describe a data set from scratch using descriptive statistics and simple graphical methods as a first step for advanced analysis using R software   Interpret the output from your analysis and appraise the role of chance and bias as potential explanations Run multiple logistic regression analysis in R and interpret the output      Evaluate the model assumptions for multiple logistic regression in R  ",
+            "long_description": "Welcome to Logistic Regression in R for Public Health! \n\nWhy logistic regression for public health rather than just logistic regression? Well, there are some particular considerations for every data set, and public health data sets have particular features that need special attention. In a word, they're messy. Like the others in the series, this is a hands-on course, giving you plenty of practice with R on real-life, messy data, with predicting who has diabetes from a set of patient characteristics as the worked example for this course. Additionally, the interpretation of the outputs from the regression model can differ depending on the perspective that you take, and public health doesn’t just take the perspective of an individual patient but must also consider the population angle. That said, much of what is covered in this course is true for logistic regression when applied to any data set, so you will be able to apply the principles of this course to logistic regression more broadly too. \n\nBy the end of this course, you will be able to: \nExplain when it is valid to use logistic regression \nDefine odds and odds ratios \nRun simple and multiple logistic regression analysis in R and interpret the output \nEvaluate the model assumptions for multiple logistic regression in R \nDescribe and compare some common ways to choose a multiple regression model \n\nThis course builds on skills such as hypothesis testing, p values, and how to use R, which are covered in the first two courses of the Statistics for Public Health specialisation. If you are unfamiliar with these skills, we suggest you review Statistical Thinking for Public Health and Linear Regression for Public Health before beginning this course. If you are already familiar with these skills, we are confident that you will enjoy furthering your knowledge and skills in Statistics for Public Health: Logistic Regression for Public Health. \n\nWe hope you enjoy the course!",
+            "url": "https://www.coursera.org/learn/logistic-regression-r-public-health"
+        }
+    },
+    "visualization of data": {
+        "Introduction to Enterprise Computing": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 8 hours to complete",
+            "number_of_students": "",
+            "short_description": " Identify the different architectural families, explain the enhancements for each architecture family and the functions of an operating system Explain the concept of a Sysplex and describe methods available for z/OS security.  Define the IOCP statements for the IOCDS and explain the concept of activation profiles.  Describe the process of IPLing an operating system",
+            "long_description": "Large Scale Enterprise Computing powers all major transactions, and the Mainframe is responsible for 87% of all credit card transactions and enables 71% of all Fortune 500 companies. Mainframes are fundamental on how we do business, and IBM Z is the only production mainframe sold today. Virtually everyone depends on it. This is your introduction to the hardware, operating systems, security, and features that make this possible.\n\nOn successful completion of this course, learners are eligible to earn their Introduction to Enterprise Computing badge. More information can be found here: https://www.youracclaim.com/org/ibm/badge/introduction-to-enterprise-computing",
+            "url": "https://www.coursera.org/learn/introduction-enterprise-computing"
+        },
+        "Code Free Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 16 hours to complete",
+            "number_of_students": "",
+            "short_description": " How to design Data Science workflows without any programming involved Essential Data Science skills to design, build, test and evaluate predictive models Data Manipulation, preparation and cclassification and clustering methods Ways to apply Data Science algorithms to real data and evaluate and interpret the results",
+            "long_description": "The Code Free Data Science class is designed for learners seeking to gain or expand their knowledge in the area of Data Science.  Participants will receive the basic training in effective predictive analytic approaches accompanying the growing discipline of Data Science without any programming requirements.  Machine Learning methods will be presented by utilizing the KNIME Analytics Platform to discover patterns and relationships in data. Predicting future trends and behaviors allows for proactive, data-driven decisions.  During the class learners will acquire new skills to apply predictive algorithms to real data, evaluate, validate and interpret the results without any pre requisites for any kind of programming.  Participants will gain the essential skills to design, build, verify and test predictive models.  \nYou Will Learn\n•\tHow to design Data Science workflows without any programming involved\n•\tEssential Data Science skills to design, build, test and evaluate predictive models\n•\tData Manipulation, preparation and Classification and clustering methods\n•\tWays to apply Data Science algorithms to real data and evaluate and interpret the results",
+            "url": "https://www.coursera.org/learn/code-free-data-science"
+        },
+        "Cybersecurity Compliance Framework & System Administration": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " List and describe several key cybersecurity compliance and industry standards including NIST, GDPR, HIPAA, SANS and PCI. Describe an overview of the design, roles and function of server and user administration. Understand the concept of patching and endpoint protection as it relates to client system administration. Define encryption, encoding, hashing and digital certificates as it relates to cryptography",
+            "long_description": "This course gives you the background needed to understand the key cybersecurity compliance and industry standards.  This knowledge will be important for you to learn no matter what cybersecurity role you would like to acquire or have within an organization.\n\n You will learn the basic commands for user and server administration as it relates to security. You will need this skill to be able to understand vulnerabilities within your organizations operating systems.\n\nYou will learn the concepts of endpoint security and patch management.  Both of these topics are important to keep systems current to avoid cybersecurity incidents against an organization.\n\nFinally you will learn in depth skills around cryptography and encryption to understand how these concepts affect software within a company.  \n\nThis course is intended for anyone who wants to gain a basic understanding of Security Frameworks, Compliance, endpoint management, encryption or cryptography or as the third course in a series of courses to gain the skill as a Jr Cybersecurity analyst.",
+            "url": "https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration"
+        },
+        "GIS Data Formats, Design and Quality": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/27/88f9c2b3e644808ee0d85b2cca6a9b/HPP-Penn-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "83,979 students",
+            "short_description": " Design data tables and use separating and joining data in a relational database Write query strings to subset data Create and work with raster data Create web maps",
+            "long_description": "In this course, the second in the Geographic Information Systems (GIS) Specialization, you will go in-depth with common data types (such as raster and vector data), structures, quality and storage during four week-long modules: \n\nWeek 1: Learn about data models and formats, including a full understanding of vector data and raster concepts. You will also learn about the implications of a data’s scale and how to load layers from web services. \n\nWeek 2: Create a vector data model by using vector attribute tables, writing query strings, defining queries, and adding and calculating fields. You'll also learn how to create new data through the process of digitizing and you'll use the built-in Editor tools in ArcGIS.\n\nWeek 3: Learn about common data storage mechanisms within GIS, including geodatabases and shapefiles. Learn how to choose between them for your projects and how to optimize them for speed and size. You'll also work with rasters for the first time, using digital elevation models and creating slope and distance analysis products.\n\nWeek 4: Explore datasets and assess them for quality and uncertainty.  You will also learn how to bring your maps and data to the Internet and create web maps quickly with ArcGIS Online.\n\nTake GIS Data Formats, Design and Quality as a standalone course or as part of the Geographic Information Systems (GIS) Specialization. You should have equivalent experience to completing the first course in this specialization, Fundamentals of GIS, before taking this course. By completing the second class in the Specialization you will gain the skills needed to succeed in the full program.",
+            "url": "https://www.coursera.org/learn/gis-data"
+        },
+        "Essential Design Principles for Tableau": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "73,631 students",
+            "short_description": " Examine and improve an ineffective visualization \nExamine and improve an ineffective visualization \nApply visualization best practices \nCreate and design visualizations that work best for the target audience\n\n",
+            "long_description": "In this course, you will analyze and apply essential design principles to your Tableau visualizations. This course assumes you understand the tools within Tableau and have some knowledge of the fundamental concepts of data visualization. You will define and examine the similarities and differences of exploratory and explanatory analysis as well as begin to ask the right questions about what’s needed in a visualization. You will assess how data and design work together, including how to choose the appropriate visual representation for your data, and the difference between effective and ineffective visuals. You will apply effective best practice design principles to your data visualizations and be able to illustrate examples of strategic use of contrast to highlight important elements. You will evaluate pre-attentive attributes and why they are important in visualizations. You will exam the importance of using the \"right\" amount of color and in the right place and be able to apply design principles to de-clutter your data visualization.",
+            "url": "https://www.coursera.org/learn/dataviz-design"
+        },
+        "Security and Privacy for Big Data - Part 2": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 3 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand what data protection is and why this is important. Explain what personal data is, and know the essential facts about the GDPR, what the GDPR has changed compared to previous data protection law. Know privacy risks arising from Big Data applications and methods which reduce or prevent privacy risks of data processing activities.  Know concepts like anonymization and pseudonymization, k-anonymity, differential privacy, secure multiparty computation, and homomorphic encryption.",
+            "long_description": "This course sensitizes regarding privacy and data protection in Big Data environments. You will discover privacy preserving methodologies, as well as data protection regulations and concepts in your Big Data system. By the end of the course, you will be ready to plan your next Big Data project successfully, ensuring that all privacy and data protection related issues are under control. You will look at decent-sized big data projects with privacy-skilled eyes, being able to recognize dangers. This will allow you to improve your systems to a grown and sustainable level. \n\nIf you are an ICT professional or someone who designs and manages systems in big data environments, this course is for you! Knowledge about Big Data and IT is advantageous, but if you are e.g. a product manager just touching the surface of Big Data and privacy, this course will suit you as well.",
+            "url": "https://www.coursera.org/learn/security-privacy-big-data-protection"
+        },
+        "Introduction to Clinical Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science"
+        },
+        "Project: Multiple Linear Regression with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build univariate and multivariate linear regression models in Python using scikit-learn Perform Exploratory Data Analysis (EDA) and data visualization with seaborn Evaluate model fit and accuracy using numerical measures such as RÂ² and RMSE Model interaction effects in regression using basic feature engineering techniques",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate multiple linear regression models using Python. You will use scikit-learn to calculate the regression, while using pandas for data management and seaborn for data visualization. The data for this project consists of the very popular Advertising dataset to predict sales revenue based on advertising spending through media such as TV, radio, and newspaper. \n\nBy the end of this project, you will be able to:\n\n- Build univariate and multivariate linear regression models using scikit-learn\n- Perform Exploratory Data Analysis (EDA) and data visualization with seaborn\n- Evaluate model fit and accuracy using numerical measures such as R² and RMSE\n- Model interaction effects in regression using basic feature engineering techniques\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, this means instant access to a cloud desktop with Jupyter Notebooks and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-multiple-linear-regression"
+        },
+        "Computational Vision": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Apply various models of human and machine vision and discuss their limitations. Demonstrate the geon model of object recognition and its limitations. Argue the benefits and drawbacks of the symbolist and visualist perspectives of mental imagery. Recognize the single layer and multi-layer perceptron neural network models of artificial intelligence.",
+            "long_description": "In this course, we will expand on vision as a cognitive problem space and explore models that address various vision tasks. We will then explore how the boundaries of these problems lead to a more complex analysis of the mind and the brain and how these explorations lead to more complex computational models of understanding.",
+            "url": "https://www.coursera.org/learn/mind-machine-computational-vision"
+        },
+        "Major Engineering Project Performance": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "2,922 students",
+            "short_description": "   Understand the key phases of a project life cycle   Discriminate between projects, programmes and\nportfolios and identify the key characteristics of major projects   Define forms of bias and strategic misinterpretation and ways of mitigating against them   Analyse the cost and time performance indicators of major\nprojects",
+            "long_description": "Manage large projects by identifying their key characteristics, examining the key factors and risks that affect their performance and exploring methods to counter their impact on the successful delivery of projects.\n\nLooking into examples of best practice, you'll explore the relationship between projects, programmes and portfolios.  You'll also discover the roles performed by the project manager, examine the difficulties associated with quantifying transaction costs in major project management and consider how different management approaches impact on these costs. Optimism bias and strategic misinterpretation regularly cause delays to major engineering projects. Using stimulating case studies, you'll evaluate the measures of success and compare and contrast 'project success' versus 'project management success'. In the final week of the course, you'll research and present a contemporary example of a major engineering project from your own country. \n\nThis course explores concepts analysed in the University’s Online MSc in Engineering Management. If you are interested to develop your skills further, take a look at our online degree.",
+            "url": "https://www.coursera.org/learn/major-engineering-project-performance"
+        }
+    },
+    "team": {
+        "Continuous Delivery & DevOps ": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " How to diagnose a teamâs delivery pipeline and bring forward prioritized recommendations to improve it The skill sets and roles involved in DevOps and how they contribute toward a continuous delivery capability How to review and deliver automation tests across the development stack How to facilitate prioritized, iterative team progress on improving a delivery pipeline  ",
+            "long_description": "Amazon famously delivers new code every 11.6 seconds. Just a few years ago, this was unthinkable: many ‘cutting edge’ firms would release software quarterly. When it comes to digital innovation, velocity is critical and many would say it’s the most reliable determinant of success. \n\nBringing an organization to the state of the art (or even functional capability) in this area requires strong work in a combination of disciplines and a combination of both technical and managerial skills. There is no single cookie-cutter approach for achieving this capability. Much like agile, the right focus and formulation depends a lot on the facts and circumstances of the team. This course will provide you with the interdisciplinary skill set to cultivate a continuous deployment capability in your organization. \n\nAfter completing this course, you will be able to: \n1. Diagnose a team’s delivery pipeline and bring forward prioritized recommendations to improve it\n2. Explain the skill sets and roles involved in DevOps and how they contribute toward a continuous delivery capability\n3. Review and deliver automation tests across the development stack\n4. Explain the key jobs of system operations and how today’s leading techniques and tools apply to them\n5. Explain how high-functioning teams use DevOps  and related methods to reach a continuous delivery capability \n6. Facilitate prioritized, iterative team progress on improving a delivery pipeline",
+            "url": "https://www.coursera.org/learn/uva-darden-continous-delivery-devops"
+        },
+        "Hypothesis-Driven Development": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "145,936 students",
+            "short_description": " How to use metrics to facilitate alignment with your companyâs objectives while keeping your team autonomous, creative, and evidence-driven How to drive to evidence-based, testable ideas that maximize outcomes and minimize waste How to test alternative interface patterns before you build them to maximize both product usability and purposeful implementation How to prioritize and execute investments in your delivery pipeline to increase the frequency of releases and decrease manual grunt work",
+            "long_description": "To deliver agile outcomes, you have to do more than implement an agile process- you have to create focus around what matters to your user and rigorously test how well what you’re doing is delivering on that focus. Driving to testable ideas (hypotheses) and maximizing the results of your experimentation is at the heart of a high-functioning practice of agile. This course shows you how to facilitate alignment and create a culture of experimentation across your product pipeline. \n\nYou’ll understand how to answer these four big questions: \n1. How do we drive our agility with analytics?\n2. How do we create compelling propositions for our user? \n3. How do we achieve excellent usability? \n4. How do we release fast without creating disasters? \n\nAs a Project Management Institute (PMI®) Registered Education Provider, the University of Virginia Darden School of Business has been approved by PMI to issue 20 professional development units (PDUs) for this course, which focuses on core competencies recognized by PMI. (Provider #2122) \n\nThis course is supported by the Batten Institute at UVA’s Darden School of Business. The Batten Institute’s mission is to improve the world through entrepreneurship and innovation: www.batteninstitute.org.",
+            "url": "https://www.coursera.org/learn/uva-darden-agile-testing"
+        },
+        "Managing an Agile Team": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/4c/f00688208c46878944beca94dce581/IBM-data-science-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "145,936 students",
+            "short_description": " How to select and test agile practices to adaptively improve your teamâs practice of agile \n How to create an agile team charter that aligns your teamâs focus with company strategy while leaving it free to work creatively\n How to facilitate retrospectives with your team to iteratively, collaboratively improve your practice of agile How to support your teamâs transition to agile",
+            "long_description": "While agile has become the de facto standard for managing digital innovation teams, many wonder if they’re doing it ‘right’. Twitter is full of jokes about how teams say they do agile but don’t ‘really’ do it. The reality is that getting the most out of agile is less about observing specific procedures and more about how a team focuses and measures their progress. \n\nRather than just boring you with an accounting of agile methodologies, this course focuses on helping you better charter your team’s focus, definition of success, and practice of agile. While learning about agile mainstays like Scrum, XP, and kanban, you’ll also learn to help your team ask the right questions about how they’re working and facilitate good answers on how agile can help.    \n\nAs a  Project Management Institute (PMI®) Registered Education Provider, the University of Virginia Darden School of Business has been approved by PMI to issue 20 professional development units (PDUs) for this course, which focuses on core competencies recognized by PMI. (Provider #2122) \n\nThis course is supported by the Batten Institute at UVA’s Darden School of Business. The Batten Institute’s mission is to improve the world through entrepreneurship and innovation: www.batteninstitute.org.",
+            "url": "https://www.coursera.org/learn/uva-darden-agile-team-management"
+        },
+        "Developing AI Applications on Azure": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "13,065",
+            "short_description": " Define Artificial Intelligence and Machine Language Describe AI tools and roles, and the Microsoft Team Data Science Process  Work with Azure APIs, including those for vision, language, and search Create, train, test and deploy your AI model in the cloud",
+            "long_description": "This course introduces the concepts of Artificial Intelligence and Machine learning. We'll discuss machine learning types and tasks, and machine learning algorithms. You'll  explore Python as a popular programming language for machine learning solutions, including using some scientific ecosystem packages which will help you implement machine learning. \n\nNext, this course introduces the machine learning tools available in Microsoft Azure. We'll review standardized approaches to data analytics and you'll receive specific guidance on Microsoft's Team Data Science Approach. As you go through the course, we'll introduce you to Microsoft's pre-trained and managed machine learning offered as REST API's in their suite of cognitive services. We'll implement solutions using the computer vision API and the facial recognition API, and we'll do sentiment analysis by calling the natural language service.   \n\nUsing the Azure Machine Learning Service you'll create and use an Azure Machine Learning Worksace.Then you'll train your own model, and you'll deploy and test your model in the cloud. Throughout the course you will perform hands-on exercises to practice your new AI skills. By the end of this course, you will be able to create, implement and deploy machine learning models.",
+            "url": "https://www.coursera.org/learn/developing-ai-applications-azure"
+        },
+        "Negotiation skills: Negotiate and resolve conflict": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "7,476",
+            "short_description": " None Develop and analyse strategies and tactics to undertake both one on one, multiparty and also team based negotiation processes None",
+            "long_description": "Modern organisations are characterised by increasingly higher levels of uncertainty, complexity and diversity. In our current globalised work environment, how can you manage the power and politics that persistently influence organisational decision-making? Being savvy about organisational politics and having the nous to negotiate and resolve conflict is a critical capability for managers at all levels. This course will develop your negotiation and conflict resolution skills – crucial to becoming a positive influence in your organisation. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) you will conceptualise and measure power and politics; analyse and develop strategies for influencing stakeholders; and learn how to act with integrity and purpose when ‘playing politics’.",
+            "url": "https://www.coursera.org/learn/negotiation-skills-conflict"
+        },
+        "Manage team collaboration with Microsoft Teams": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-manage-team-collaboration/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.m365-teams-collab-prepare-deployment": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-collab-prepare-deployment/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-collab-deploy-clients": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-collab-deploy-clients/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-collab-manage-teams": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-collab-manage-teams/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-collab-apps-bots-connectors": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-collab-apps-bots-connectors/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-collab-manage-meetings": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-collab-manage-meetings/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "137 minutes",
+            "short_description": "Manage team collaboration with Microsoft Teams</strong> introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365. You’ll learn how you can use Teams to facilitate teamwork and communication within your organization, both on and off premises, on a wide range of devices—from desktops to tablets to phones—while taking advantage of all the rich functionality of Office 365 applications. You’ll gain an understanding of how Teams provides a comprehensive and flexible environment for collaboration across applications and devices.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "office-teams",
+                    "office-365"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/manage-team-collaboration-with-microsoft-teams.svg",
+            "price": "FREE",
+            "uid": "learn-m365.m365-manage-team-collaboration",
+            "number_of_students": "unknown"
+        }
+    },
+    "Tableau": {
+        "Fundamentals of Visualization with Tableau": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "72,393 students",
+            "short_description": " \nInstall Tableau Public Software and create a visualization \nExamine and navigate the Tableau Public workspace \nPractice and connect to different data sources \nExamine ways to define your project",
+            "long_description": "In this first course of the specialization, you will discover just what data visualization is, and how we can use it to better see and understand data. Using Tableau, we’ll examine the fundamental concepts of data visualization and explore the Tableau interface, identifying and applying the various tools Tableau has to offer. By the end of the course you will be able to prepare and import data into Tableau and explain the relationship between data analytics and data visualization. This course is designed for the learner who has never used Tableau before, or who may need a refresher or want to explore Tableau in more depth.  No prior technical or analytical background is required.  The course will guide you through the steps necessary to create your first visualization story from the beginning based on data context,  setting the stage for you to advance to the next course in the Specialization.",
+            "url": "https://www.coursera.org/learn/data-visualization-tableau"
+        },
+        "Project: Visualizing Citibike Trips with Tableau": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 3 hours to complete",
+            "number_of_students": "",
+            "short_description": " Create data visualizations with Tableau Publish data visualizations with dashboard in Tableau",
+            "long_description": "In this 1-hour long project-based course, you will learn the basics of using Tableau Public software to visualize Citibike Trips Dataset. By the end of this project, you will have created a few visualizations and a collection of visualizations called a dashboard.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Tableau Public pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/visualizing-citibike-trips-tableau"
+        },
+        "Visual Analytics with Tableau": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "72,393 students",
+            "short_description": " \nCreate a chart using Tableau\n\n \nCreate dates using calculated fields\n\n \nCustomize table calculations\n\n \nCustomize and create dual layer maps\n\n",
+            "long_description": "In this third course of the specialization, we’ll drill deeper into the tools Tableau offers in the areas of charting, dates, table calculations and mapping. We’ll explore the best choices for charts, based on the type of data you are using. We’ll look at specific types of charts including scatter plots, Gantt charts, histograms, bullet charts and several others, and we’ll address charting guidelines. We’ll define discrete and continuous dates, and examine when to use each one to explain your data.  You’ll learn how to create custom and quick table calculations and how to create parameters. We’ll also introduce mapping and explore how Tableau can use different types of geographic data, how to connect to multiple data sources and how to create custom maps.",
+            "url": "https://www.coursera.org/learn/dataviz-visual-analytics"
+        }
+    },
+    "management": {
+        "Designing for Sustainment: Keeping Improvement Work on Track (Patient Safety IV)": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,695",
+            "short_description": " Recognize the importance of planning for project sustainment.  Use the pre-mortem exercise to identify risks of project failure.  Design a change management plan that addresses technical and adaptive challenges.  Describe the 4Eâs + 2 Model and its use to engage stakeholders. ",
+            "long_description": "Keeping patient safety and quality improvement projects on track, on time, and on budget is critical to ensuring their success. In this course, students will be introduced and given the opportunity to apply a series of tools to guide and manage patient safety and quality initiatives. These include tools for defining what success looks like, developing a change management plan, and conducting a pre-mortem to identify risks for project failure.  This course will also provide tools for engaging stakeholders to ensure key players are invested in your project’s success.",
+            "url": "https://www.coursera.org/learn/patient-safety-sustainment"
+        },
+        "Google Cloud Product Fundamentals": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals"
+        },
+        "Cybersecurity Awareness and Innovation": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Cibersecurity awareness mainly focused on identity management Understanding of effective protection mechanisms against common threats related with Identity Capacity to devise disruptive ideas related with identity protection",
+            "long_description": "It’s not you, it’s me! What’s going on? \n\nThis course empowers students, professionals and wider community to deal with cybersecurity attacks and risks focused on identity management and it is an introduction to the upcoming full course focused on cybersecurity awareness.\nIt is provided a practical overview of challenging issues like identity credentials management and security, e-mail threats and web impersonation, or web hacking. In addition to this, you will have a practical appreciation to innovation applied to these concepts through an interview with a renowned expert in fraud and cybercrime. Teaching staff consists of Iván Pau, UPM researcher and expert in usable security, and Román Ramírez, hacker and cybersecurity expert.  \nLearning will be carried out by introducing use cases related with cybersecurity incidents, in a way which ensures that participants get really involved in the course. You will easily acquire practical skills and be ready to face real threats in a digital world.\n\nThis course is part of an online programme developed by Universidad Politécnica de Madrid (world class tech university renowned for the quality of its education programmes and the research undertaken at its centres), Ferrovial (world's leading private investor in cities and infrastructures, with a workforce of more than 74.000 employees and operations in more than 16 countries) and EIT Digital.\n\nStay tuned for the full course! COMING SOON!",
+            "url": "https://www.coursera.org/learn/cybersecurity"
+        },
+        "Configuration Management and the Cloud": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c3/059b9940594ff98c9406ce78b78943/UMich-MADS-promo-unit_logo-only.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand the benefits of configuration management and infrastructure as code Manage a fleet of computers using Puppet Automatically deploy new virtual machines running in the Cloud Deploy changes in a safe manner",
+            "long_description": "In this course, you’ll learn how to apply automation to manage fleets of computers. You’ll understand how to automate the process for deploying new computers, keeping those machines updated, managing large-scale changes, and a lot more. We'll discuss managing both physical machines running in our offices and virtual machines running in the Cloud.\n\nWe'll start by looking into an automation technique called configuration management, which lets you manage the configuration of our computers at scale. Specifically, you'll learn how to use Puppet, the current industry standard for configuration management. We'll look at some simple examples, and then see how we can apply the same concepts to more complex cases. You’ll be a Puppet-master in no time!\n\nLater on, you'll expand your automation skills by understanding how to use the Cloud to help scale your infrastructure. You'll check out some best practices for handling hundreds of virtual machines running in the Cloud and troubleshooting them when things don't go according to plan.",
+            "url": "https://www.coursera.org/learn/configuration-management-cloud"
+        },
+        "Understanding Your Google Cloud Platform (GCP) Costs": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Plan for effective cloud cost management by setting up your teams, tools, and applying financial governance best practices. Set up GCP Billing account(s) and organize your resources for cost management. Export Billing reports to Google Sheets or BigQuery to gain visibility into your current cost trends and forecasted costs. Visualize billing data with Billing reports and build custom dashboards with Data Studio.",
+            "long_description": "Understanding Your Google Cloud Platform (GCP) Costs is most suitable for those working in a technology or finance role who are responsible for managing GCP costs. \n\nYou’ll learn how to set up a billing account, organize resources, and manage billing access permissions. \n\nIn the hands-on labs, you'll learn how to view your invoice, track your GCP costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Data Studio.\t\t\n\nStudents enrolling in this course do not need any prior Google Cloud technical experience.",
+            "url": "https://www.coursera.org/learn/gcp-cost-management"
+        },
+        "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "24,851 students",
+            "short_description": " Draw and organize objects, use advanced editing functions, and draw accurately using the User Coordinate System.  Create and manage your layouts, outputs, printings, and use annotation techniques like markup tools, hatch and fill, multileaders, and dimensioning.  Perform drawing management techniques, use blocks for efficiency, and control external reference and underlay files. Demonstrate the skills and knowledge required for taking the Autodesk Certified Professional: AutoCAD for Design and Drafting exam.",
+            "long_description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.\n\nAbout the Autodesk Certified Professional: AutoCAD for Design and Drafting Exam:\nThe Autodesk Certified Professional: AutoCAD for Design and Drafting exam is the recognized standard for measuring your skills and knowledge in AutoCAD. Certification at this level demonstrates a comprehensive skill set that provides an opportunity for individuals to stand out in a competitive professional environment. This type of experience typically comes from having worked with the software on a regular basis for at least 2 years, equivalent to approximately 400 hours (minimum) - 1200 hours (recommended), of real-world Autodesk software experience. Ready to take the exam? Schedule to take the exam online or find a testing center near you on pearsonvue.com/autodesk.",
+            "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting"
+        },
+        "Supply chain management: Be global": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,770 students",
+            "short_description": " Identify the key drivers of global supply chain effectiveness   Create supply chain networks that are aligned with supply chain and business strategy of the firm   Identify the critical success factors, pitfalls, and risks of global supply chain management   Evaluate the sustainability of global supply chain operations  ",
+            "long_description": "Businesses and their supply chains are facing increasing competition and uncertainty in what is now a truly globalised trade environment. To remain competitive, organisations need to think globally – ensuring supply chains meet customer demands while minimising costs and maximising responsiveness. From a strategic perspective, this involves making important trade-off decisions between cost, quality and flexibility of supply chains. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) this course will equip you with the future-focused capabilities needed to design and manage effective, sustainable and efficient global supply chains of tomorrow.",
+            "url": "https://www.coursera.org/learn/supply-chain-management-global"
+        },
+        "Software Processes and Agile Practices": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "142,928 students",
+            "short_description": " Distinguish between different process models for organizing software production. Gauge the applicability of process models for a software development project. Apply the fundamentals of Agile software development and management practices.",
+            "long_description": "This course delves into a variety of processes to structure software development. It also covers the foundations of core Agile practices, such as Extreme Programming and Scrum.",
+            "url": "https://www.coursera.org/learn/software-processes-and-agile-practices"
+        },
+        "Leading Change in Health Informatics": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "",
+            "short_description": " Describe essential steps in the process of successfully leading change in health IT organizations. Recognize the importance of multidisciplinary and interprofessional teamwork in health informatics. Utilize several common project management and strategic planning tools used by health informaticists. Apply best practices for successful change management in health informatics.",
+            "long_description": "Do you dream of being a CMIO or a Senior Director of Clinical Informatics? If you are aiming to rise up in the ranks in your health system or looking to pivot your career in the direction of big data and health IT, this course is made for you. You'll hear from experts at Johns Hopkins about their experiences harnessing the power of big data in healthcare, improving EHR adoption, and separating out the hope vs hype when it comes to digital medicine. \n\nWhether you're a nurse, pharmacist, physician, other allied health professional or come from a non-clinical background--you know that Health Informatics skills are in demand. This newly launched 5-course specialization by JohnsHopkins faculty members provides a solid foundation for anyone wanting to become a leader in  one of the hottest fields in healthcare. \n\nAs health informaticians, we need to be very clear in our understanding of the current state (as-is), the future state (to-be) and any unintended consequences that can result from our interventions. Prior to introducing large scale change, we need to assess whether a healthcare organization is truly ready for change. This involves taking into account an organization's current culture and values. Successfully leading change through health informatics also requires strategic planning and careful financial considerations. Proper workflow redesign and a clear change management strategy are of utmost importance when introducing new technologies and in ensuring their successful adoption and proper use. \n\nBy the end of this course, students will become familiar with examples of successful and failed attempts at change in health informatics, and the reasons for each. Students will be armed with tools to help optimize their chances for successfully leading change in their respective organizations. ",
+            "url": "https://www.coursera.org/learn/leading-change-health-informatics"
+        },
+        "Introduction to Software Product Management": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Relate software product management to better software products Recognize the role of a software product manager Reflect on how Agile principles will improve your own projects",
+            "long_description": "This course highlights the importance and role of software product management. It also provides an overview of the specialization, as well as its goals, structure, and expectations. The course explains the value of process, requirements, planning, and monitoring in producing better software.",
+            "url": "https://www.coursera.org/learn/introduction-to-software-product-management"
+        }
+    },
+    "Google Analytics": {
+        "Google Cloud Product Fundamentals": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals"
+        }
+    },
+    "SQL": {
+        "Introduction to Clinical Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science"
+        },
+        "Databases and SQL for Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science"
+        },
+        "Distributed Computing with Spark SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "",
+            "short_description": " Uâse the collaborative Databricks workspace and write SQL code that executes against a cluster of machines Use Spark UI to analyze performance and identify bottlenecks Create an end-to-end pipeline that reads data, transforms it, and saves the result Bâuild a linear regression model and make predictions using SparkSQL",
+            "long_description": "This course is for students with SQL experience and now want to take the next step in gaining familiarity with distributed computing using Spark. Students will gain an understanding of when to use Spark and how Spark as an engine uniquely combines Data and AI technologies at scale. The four modules build on one another and by the end of the course the student will understand: Spark architecture, Spark DataFrame, optimizing reading/writing data, and how to build a machine learning model. The first module will introduce Spark, including how Spark works with distributed computing and what are Spark Dataframes. Module 2 covers the core concepts of Spark such as storage vs. computing, caching, partitions and Spark UI. The third module looks at Engineering Data Pipelines covering connecting to databases, schemas and type, file formats and writing good data. The final module looks at the application of Spark with Machine Learning through the business use case, a short introduction to what machine learning is, building and applying models and a final course conclusion. By understanding when to use Spark, either scaling out when the model or data is too large to process on a single machine, or having a need to simply speed up to get faster results, students will hone their SQL skills and become a more adept Data Scientist.",
+            "url": "https://www.coursera.org/learn/spark-sql"
+        },
+        "Data Wrangling, Analysis and AB Testing with SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 22 hours to complete",
+            "number_of_students": "3,171 students",
+            "short_description": " Validate and clean a dataset Assess and create datasets to answer your questions Solve problems using SQL Build a simple testing framework to touch on AB Testing",
+            "long_description": "This course allows you to apply the SQL skills taught in “SQL for Data Science” to four increasingly complex and authentic data science inquiry case studies. We'll learn how to convert timestamps of all types to common formats and perform date/time calculations. We'll select and perform the optimal JOIN for a data science inquiry and clean data within an analysis dataset by deduping, running quality checks, backfilling, and handling nulls. We'll learn how to segment and analyze data per segment using windowing functions and use case statements to execute conditional logic to address a data science inquiry. We'll also describe how to convert a query into a scheduled job and how to insert data into a date partition. Finally, given a predictive analysis need, we'll engineer a feature from raw data using the tools and skills we've built over the course. The real-world application of these skills will give you the framework for performing the analysis of an AB test.",
+            "url": "https://www.coursera.org/learn/data-wrangling-analysis-abtesting"
+        },
+        "Foundations for Big Data Analysis with SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "5,564 students",
+            "short_description": " Distinguish operational from analytic databases, and understand how these are applied in big data Understand how database and table design provides structures for working with data Appreciate how differences in volume and variety of data affects your choice of an appropriate database system Recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis",
+            "long_description": "In this course, you'll get a big-picture view of using SQL for big data, starting with an overview of data, database systems, and the common querying language (SQL). Then you'll learn the characteristics of big data and SQL tools for working on big data platforms. You'll also install an exercise environment (virtual machine) to be used through the specialization courses, and you'll have an opportunity to do some initial exploration of databases and tables in that environment.\n\nBy the end of the course, you will be able to\n• distinguish operational from analytic databases, and understand how these are applied in big data;\n• understand how database and table design provides structures for working with data;\n• appreciate how differences in volume and variety of data affects your choice of an appropriate database system;\n• recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis; and \n• explore databases and tables in a big data platform.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/foundations-big-data-analysis-sql"
+        },
+        "Migrate SQL workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-sql-workloads-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-virtual-machines": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-virtual-machines/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-sql-databases": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-sql-databases/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.migrate-sql-workloads-azure-managed-instances": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-workloads-azure-managed-instances/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "246 minutes",
+            "short_description": "The objective of this learning path is to educate the learner how they can migrate SQL Server workloads to SQL Services that exist on Azure.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure-sql-database",
+                    "azure-virtual-machines",
+                    "sql-server"
+                ],
+                "roles": [
+                    "administrator",
+                    "data-engineer",
+                    "developer",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/migrate-sql-workloads-to-azure.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrate-sql-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "Work with relational data in Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.provision-azure-sql-db": "https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/?WT.mc_id=api_CatalogApi",
+                "learn.create-azure-db-for-postgresql": "https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/?WT.mc_id=api_CatalogApi",
+                "learn.azure-scale-azure-sql-dbs-elastic-pools": "https://docs.microsoft.com/en-us/learn/modules/scale-sql-databases-elastic-pools/?WT.mc_id=api_CatalogApi",
+                "learn.secure-your-azure-sql-database": "https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/?WT.mc_id=api_CatalogApi",
+                "learn.develop-app-that-queries-azure-sql": "https://docs.microsoft.com/en-us/learn/modules/develop-app-that-queries-azure-sql/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "250 minutes",
+            "short_description": "Azure supports several popular SQL-based database solutions including SQL Server, PostgreSQL, and MySQL. Learn how to use these enterprise data solutions in Azure to store and retrieve your app's data in the cloud.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-sql-database",
+                    "azure-cloud-shell",
+                    "azure-clis"
+                ],
+                "roles": [
+                    "developer",
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-relational-data-in-azure.svg",
+            "price": "FREE",
+            "uid": "learn.work-with-relational-data-in-azure",
+            "number_of_students": "unknown"
+        },
+        "SQL Server upgrades": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-upgrades/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-upgrading-sql-server": "https://docs.microsoft.com/en-us/learn/modules/introduction-upgrading-sql-server/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.use-sql-server-query-tuning-assistant": "https://docs.microsoft.com/en-us/learn/modules/use-sql-server-query-tuning-assistant/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "198 minutes",
+            "short_description": "Running the latest version of SQL Server provides you with numerous performance and functionality benefits while also extending the support of your database platform. In this learning path you will learn how to take an inventory of your SQL Server deployments using the Microsoft Assessment and Planning toolkit, how to upgrade SQL Server databases using the Data Migration Assistant, and how to optimize your updated system using both the Database Experimentation Assistant and Query Tuning Assistant.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-upgrades.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-upgrades",
+            "number_of_students": "unknown"
+        },
+        "Work with NoSQL data in Azure Cosmos DB": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.create-cosmos-db-for-scale": "https://docs.microsoft.com/en-us/learn/modules/create-cosmos-db-for-scale/?WT.mc_id=api_CatalogApi",
+                "learn.azure.choose-the-appropriate-api-for-cosmos-db-storage": "https://docs.microsoft.com/en-us/learn/modules/choose-api-for-cosmos-db/?WT.mc_id=api_CatalogApi",
+                "learn.access-data-with-cosmos-db-and-sql-api": "https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/?WT.mc_id=api_CatalogApi",
+                "learn.azure.store-access-data-cosmos-graph-api": "https://docs.microsoft.com/en-us/learn/modules/store-access-data-cosmos-graph-api/?WT.mc_id=api_CatalogApi",
+                "learn.azure.store-access-data-cosmos-table-api": "https://docs.microsoft.com/en-us/learn/modules/store-access-data-cosmos-table-api/?WT.mc_id=api_CatalogApi",
+                "learn.cosmos-db-app-with-vscode": "https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/?WT.mc_id=api_CatalogApi",
+                "learn.monitor-azure-cosmos-db": "https://docs.microsoft.com/en-us/learn/modules/monitor-and-scale-cosmos-db/?WT.mc_id=api_CatalogApi",
+                "learn.distribute-data-globally-with-cosmos-db": "https://docs.microsoft.com/en-us/learn/modules/distribute-data-globally-with-cosmos-db/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "355 minutes",
+            "short_description": "NoSQL data is an efficient way to store information that doesn’t map to the requirements of a relational SQL database. Learn how to use the Azure portal, the Azure Cosmos DB extension for Visual Studio Code, and the Azure Cosmos DB .NET Core SDK to work with your NoSQL data where you want, and provide your users with high availability, no matter where they are in the world.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-cosmos-db",
+                    "vs-code",
+                    "azure-portal",
+                    "azure-clis"
+                ],
+                "roles": [
+                    "developer",
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-nosql-data-in-azure-cosmos-db.svg",
+            "price": "FREE",
+            "uid": "learn.work-with-nosql-data-in-azure-cosmos-db",
+            "number_of_students": "unknown"
+        },
+        "SQL Server on Linux": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-on-linux/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/introduction-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.deploy-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/deploy-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.automatically-tune-sql-server-linux": "https://docs.microsoft.com/en-us/learn/modules/automatically-tune-sql-server-linux/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.run-sql-server-2017-linux-containers": "https://docs.microsoft.com/en-us/learn/modules/run-sql-server-2017-linux-containers/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "148 minutes",
+            "short_description": "SQL Server now runs  on your choice of operating system. In this learning path you will discover the fundamentals of SQL Server on Linux, before discovering how to run SQL Server on Linux containers and deploy SQL Server on Linux. You will then learn how to automatically tune your SQL Server on Linux deployment.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-on-linux.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-on-linux",
+            "number_of_students": "unknown"
+        }
+    },
+    "Business Analyst": {
+        "Grow Your Business with Goldman Sachs 10,000 Women": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "27,612 students",
+            "short_description": "   Analyze the growth potential of your current business by evaluating your available internal business resources.   Generate and refine your opportunities\nfor business growth. Develop your confidence with learning and communicating online.    ",
+            "long_description": "Welcome to Grow Your Business with Goldman Sachs 10,000 Women.\n\nGoldman Sachs 10,000 Women is a global initiative that fosters economic growth by providing women business owners around the world with business and management education, mentoring and networking, and access to capital.\n\nThis introductory business course has been developed from the face-to-face program which has enabled over 10,000 women to see immediate and sustained business growth. It is designed for women business owners, running established businesses operating for more than one year, to provide the practical tools and skills required to help you grow your business. The course will enable you to develop your understanding of the three key ingredients of growth potential: you, your business, and your opportunity. \n\nThrough focused and tailored exercises, you will assess the strengths and weaknesses of your business and yourself as a business leader. You will also identify and refine your key opportunities for business growth. As you complete the course, you will be connecting with like-minded business owners from around the world. The course will provide you with a unique forum to share your experiences, and provide support and advice to others. \n\nWhat can you do after this introductory course?\n\nOnce you finish this introductory course, you will have the opportunity to continue your learning journey with 10,000 Women through a further 10 weeks of online learning.\n\nThe innovative 10-week course covers a full range of business topics from your leadership style and management structure to resource allocation and operational efficiency. You will build on what you learn in the introductory course and analyze the growth of your business further through the creation of a Business Growth Plan (BGP). The BGP is a strategic and tactical implementation tool designed to guide your business’s growth and help you to communicate your opportunity, vision, and ideas to your team, stakeholders, and customers.\n\nUpon successfully completing the two courses, you will be able to join the 10,000 Women alumni community and connect with a global network of past participants.",
+            "url": "https://www.coursera.org/learn/gs10kw"
+        },
+        "Global sustainability and corporate social responsibility: Be sustainable": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Assess business decisions using metrics including financial maximization, shareholder value, customer well-being, and societal impact   Apply the principles and tools of complex systems thinking to sustainable business challenges and/or opportunities   Identify and evaluate strategies, processes and leadership techniques that enable successful sustainability transitions in a business context ",
+            "long_description": "It is no longer acceptable for organisations to focus entirely on financial success if they are to be competitive on the global stage. As corporate scandals continue to make headlines, you will expand your strategic thinking beyond your organisation’s competitive financial environment to consider its broader impact on society. You will grapple with the conflicting outcomes of maximising financial return and societal impact as you develop the skills to create a balance that is sustainable. Through structured learning activities (video lectures, quizzes, discussion prompts and written assessments) you will gain an appreciation of how important sustainability will be for every organisation in the future – and how to achieve it.",
+            "url": "https://www.coursera.org/learn/global-sustainability-be-sustainable"
+        },
+        "Green Business Strategy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " Â·        \nDescribe the motivations\nfor green business and explain how the social license to operate affects a business  Â·        \nDescribe the\nimplications of path dependency for business and environment Â·        \nAssess and choose environmental\nstrategies for businesses \n\nÂ· Describe the evolution of green business",
+            "long_description": "Course Overview:  https://youtu.be/g-pt2Q4UhT4\n\nThe global environment will continue to degrade until there are significant changes in business practices. In this course, we look at how some firms are responding positively to environmental concerns with new strategies. \n\nWe look at 'best practices' of companies across countries and industries from different perspectives. We introduce a very helpful framework to structure your thinking about environment and business strategy. We explore why current destructive business practices are so 'sticky' and resistant to change. \n\nYou don’t have to be an environmentalist or a tree-hugger to benefit from this course. \n\nBusinesses should respond to change, environment is one of these changes. If you have an interest in the environment and some understanding of business strategy then this course should be useful to you.",
+            "url": "https://www.coursera.org/learn/green-business-strategy"
+        },
+        "Define an AI strategy to create business value": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/ai-strategy-for-business-value/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-wwl.ai-strategy-to-create-business-value": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-financial-services": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-financial-services/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-government": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-government/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-education": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-education/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-retail": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-retail/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-manufacturing": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-manufacturing/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-healthcare": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-healthcare/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "334 minutes",
+            "short_description": "In this learning path, you will hear from Peter Zemsky, INSEAD's Eli Lilly Chaired Professor of Strategy and Innovation, about how AI is driving business value across industries and companies as well as Microsoft customers and partners. You will be able to discuss how technical teams are brining AI into business applications and how business leaders of different industries are thinking about AI for their own businesses.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "dynamics",
+                    "m365"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/ai-strategy-for-business-value.svg",
+            "price": "FREE",
+            "uid": "learn.ai-strategy-for-business-value",
+            "number_of_students": "unknown"
+        },
+        "Configure and work with analytics and reporting in Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-analytics-reporting-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.work-with-analytics-reporting-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/work-analytics-reporting-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-electronic-reporting": "https://docs.microsoft.com/en-us/learn/modules/configure-electronic-reporting-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "263 minutes",
+            "short_description": "Business leaders can make important decisions in their company if they have accurate insight into the underlying financial and operational data. A business user can also configure, and use the electronic reporting tool without a single line of code, to adopt new regulatory requirements and generate business documents in the required format to electronically exchange information with government bodies, banks, and other parties.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations",
+                    "dynamics-finance"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-analytics-reporting-finance-operations.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-analytics-reporting-finance-operations",
+            "number_of_students": "unknown"
+        },
+        "Create relationships, business rules, calculations, and rollups in Common Data Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/create-relationships-common-data-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.create-relationship-between-cds-entities": "https://docs.microsoft.com/en-us/learn/modules/create-relationship-between-cds-entities/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.define-create-business-rules": "https://docs.microsoft.com/en-us/learn/modules/define-create-business-rules/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-define-calculation-rollup-fields": "https://docs.microsoft.com/en-us/learn/modules/create-define-calculation-rollup-fields/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "141 minutes",
+            "short_description": "Do you need to create data relationships, business rules, calculations, and rollups in Common Data Service? These modules help you use Common Data Service to build powerful business solutions that will transform your operations, processes, and your entire organization. The learning path Get started with Common Data Service introduces you to Common Data Service and many of the key concepts which include environment, entities, fields, and options sets.  This learning path continues and expands the exploration of Common Data Service with an overview how to form relationships between entities, how to build business rules to perform logic based upon your organization's needs, and how to add calculations and rollup fields.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "power-platform",
+                    "common-data-service",
+                    "powerapps"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/create-relationships-business-rules-calculations-and-rollups-in-common-data-service.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.create-relationships-business-rules-calculations-and-rollups-in-common-data-service",
+            "number_of_students": "unknown"
+        },
+        "Upgrade to Microsoft Teams": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-teams-upgrade/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.m365-teams-upgrade-getting-started": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-getting-started/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-plan-upgrade": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-plan-upgrade/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-coexistence-interoperability": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-coexistence-interoperability/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-skype-business": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-skype-business/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-hybrid": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-hybrid/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "160 minutes",
+            "short_description": "Upgrade to Microsoft Teams</strong> explains how to upgrade from Skype for Business Online and Skype for Business on-premises to Microsoft Teams. You’ll learn how to plan your upgrade, how Skype for Business and Teams coexist and interoperate during the upgrade, and how to plan and configure a hybrid environment to move all users to the cloud when upgrading from Skype for Business on-premises.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "office-365",
+                    "office-teams"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/upgrade-to-microsoft-teams.svg",
+            "price": "FREE",
+            "uid": "learn-m365.m365-teams-upgrade",
+            "number_of_students": "unknown"
+        }
+    },
+    "Python": {
+        "Project: Multiple Linear Regression with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build univariate and multivariate linear regression models in Python using scikit-learn Perform Exploratory Data Analysis (EDA) and data visualization with seaborn Evaluate model fit and accuracy using numerical measures such as RÂ² and RMSE Model interaction effects in regression using basic feature engineering techniques",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate multiple linear regression models using Python. You will use scikit-learn to calculate the regression, while using pandas for data management and seaborn for data visualization. The data for this project consists of the very popular Advertising dataset to predict sales revenue based on advertising spending through media such as TV, radio, and newspaper. \n\nBy the end of this project, you will be able to:\n\n- Build univariate and multivariate linear regression models using scikit-learn\n- Perform Exploratory Data Analysis (EDA) and data visualization with seaborn\n- Evaluate model fit and accuracy using numerical measures such as R² and RMSE\n- Model interaction effects in regression using basic feature engineering techniques\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, this means instant access to a cloud desktop with Jupyter Notebooks and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-multiple-linear-regression"
+        },
+        "Using Python to Interact with the Operating System": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system"
+        },
+        "Project: Logistic Regression with Python and Numpy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "2,837",
+            "short_description": " Implement Logistic Regression using Python and Numpy. Apply Logistic Regression to solve binary classification problems.",
+            "long_description": "In this 2-hour long project-based course, you will learn how to implement Logistic Regression using Python and Numpy. Logistic Regression is an important fundamental concept if you want break into Machine Learning and Deep Learning. Even though popular machine learning frameworks have implementations of logistic regression available, it's still a great idea to learn to implement it on your own to understand the mechanics of optimization algorithm, and the training and validation process.\n\nSince this is a practical, project-based course, you will need to have a theoretical understanding of logistic regression, and gradient descent. We will focus on the practical aspect of implementing logistic regression with gradient descent, but not on the theoretical aspect.\n\nBy the end of this course, you would create and train a logistic model that will be able to predict if a given image is of hand-written digit zero or of hand-written digit one. The model will be able to distinguish between images or 0s and 1s, and it will do that with a very high accuracy. Not only that, your implementation of the logistic model will also be able to solve any generic binary classiﬁcation problem. You will still have to train model instances on speciﬁc datasets of course, but you won’t have to change the implementation and it will be re-usable. The dataset for images of hand written digits comes from the popular MNIST dataset. This data set consists of images for the 10 hand-written digits (from 0 to 9), but since we are implementing logistic regression, and are looking to solve binary classiﬁcation problems - we will work with examples of hand written zeros, and hand written ones and we will ignore examples of rest of the digits.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and Tensorflow pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/deep-learning-fundamentals-logistic-regression"
+        },
+        "Project: Predict Sales Revenue with scikit-learn": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "",
+            "short_description": " Build simple linear regression models in Python Apply scikit-learn and statsmodels to regression problems Employ explorartory data analysis (EDA) with seaborn and pandas Explain linear regression to both technical and non-technical audiences",
+            "long_description": "In this 2-hour long project-based course, you will build and evaluate a simple linear regression model using Python. You will employ the scikit-learn module for calculating the linear regression, while using pandas for data management, and seaborn for plotting. You will be working with the very popular Advertising data set to predict sales revenue based on advertising spending through mediums such as TV, radio, and newspaper. \n\nBy the end of this course, you will be able to:\n- Explain the core ideas of linear regression to technical and non-technical audiences\n- Build a simple linear regression model in Python with scikit-learn\n- Employ Exploratory Data Analysis (EDA) to small data sets with seaborn and pandas\n- Evaluate a simple linear regression model using appropriate metrics\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Jupyter and Python 3.7 with all the necessary libraries pre-installed.\n\nNotes:\n- You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/scikit-learn-simple-linear-regression"
+        },
+        "Inferential Statistical Analysis with Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "",
+            "short_description": " Determine assumptions needed to calculate confidence intervals for their respective population parameters. Create confidence intervals in Python and interpret the results. Review how inferential procedures are applied and interpreted step by step when analyzing real data. Run hypothesis tests in Python and interpret the results.",
+            "long_description": "In this course, we will explore basic principles behind using data for estimation and for assessing theories. We will analyze both categorical data and quantitative data, starting with one population techniques and expanding to handle comparisons of two populations. We will learn how to construct confidence intervals. We will also use sample data to assess whether or not a theory about the value of a parameter is consistent with the data. A major focus will be on interpreting inferential results appropriately.  \n\nAt the end of each week, learners will apply what they’ve learned using Python within the course environment. During these lab-based sessions, learners will work through tutorials focusing on specific case studies to help solidify the week’s statistical concepts, which will include further deep dives into Python libraries including Statsmodels, Pandas, and Seaborn. This course utilizes the Jupyter Notebook environment within Coursera.",
+            "url": "https://www.coursera.org/learn/inferential-statistical-analysis-python"
+        },
+        "Databases and SQL for Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science"
+        },
+        "Estructuras de datos en Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "",
+            "short_description": " Utilizar strings Comprender las diferentes estructuras de datos que provee Python Comprender cÃ³mo se trabaja con archivos Comprender quÃ© son las excepciones y el uso de los decoradores",
+            "long_description": "Este curso te dará ágil acceso a  las estructuras de datos principales del lenguaje de programación Python en su versión 3.0. \nUna vez que termines este curso tendrás un conocimiento general de Python, que te permitirá realizar programas que trabajen con muchos datos tomados desde archivos de la computadora. Aquí podrás conocer cómo utilizar las estructuras de datos integradas en Python, como las listas, los diccionarios y las tuplas. Además entenderás cómo trabajar con archivos y el manejo de excepciones. \n\nComo se trata del segundo curso dentro de un programa especializado, se requiere tener conocimientos de los conceptos básicos de programación y saber escribir y ejecutar scripts de Python.\nEste curso cubrirá las secciones 6-9 del libro de texto “El Tutorial de Python” de Guido Van Rossum, el creador de Python.",
+            "url": "https://www.coursera.org/learn/estructura-de-datos-python"
+        },
+        "Project: Linear Regression with NumPy and Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 2 hours to complete",
+            "number_of_students": "",
+            "short_description": " Implement the gradient descent algorithm from scratch Perform univariate linear regression with Numpy and Python Create data visualizations and plots using matplotlib",
+            "long_description": "Welcome to this project-based course on Linear Regression with NumPy and Python. In this project, you will do all the machine learning without using any of the popular machine learning libraries such as scikit-learn and statsmodels. The aim of this project and is to implement all the machinery, including gradient descent and linear regression, of the various learning algorithms yourself, so you have a deeper understanding of the fundamentals.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, NumPy, and Seaborn pre-installed.",
+            "url": "https://www.coursera.org/learn/linear-regression-numpy-python"
+        },
+        "Machine Learning for Accounting with Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 30 hours to complete",
+            "number_of_students": "6,016",
+            "short_description": " The concept of various machine learning algorithms. How to apply machine learning models on datasets with Python in Jupyter Notebook. How to evaluate machine learning models. How to optimize machine learning models.",
+            "long_description": "This course, Machine Learning for Accounting with Python, introduces machine learning algorithms (models) and their applications in accounting problems. It covers classification, regression, clustering, text analysis, time series analysis. It also discusses model evaluation and model optimization. This course provides an entry point for students to be able to apply proper machine learning models on business related datasets with Python to solve various problems.\n\nAccounting Data Analytics with Python is a prerequisite for this course. This course is running on the same platform (Jupyter Notebook) as that of the prerequisite course. While Accounting Data Analytics with Python covers data understanding and data preparation in the data analytics process, this course covers the next two steps in the process, modeling and model evaluation. Upon completion of the two courses, students should be able to complete an entire data analytics process with Python.",
+            "url": "https://www.coursera.org/learn/machine-learning-accounting-python"
+        },
+        "Introducción a la programación con Python": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "4,400 students",
+            "short_description": " Comprender los conceptos bÃ¡sicos de programaciÃ³n.   Entender cÃ³mo la computadora interpreta el cÃ³digo.   Crear tus propios scripts en Python y ejecutarlos (tanto los propios como los de otras personas).   Leer e interpretar cÃ³digo bÃ¡sico escrito en Python.  ",
+            "long_description": "Este curso te dará ágil acceso a los conceptos básicos de programación utilizando el lenguaje de programación Python en su versión 3.0. Python tiene una sintaxis sencilla y compacta. Esto te permitirá aplicar rápidamente los conceptos aprendidos en los distintos aspectos de tu vida.\n\nUna vez que completes este curso, podrás construir pequeños programas que te ayuden en tu trabajo y estarás preparado para tomar cursos de programación más avanzados. \n\nEl curso no requiere conocimientos previos de programación y utiliza sólo matemática básica. Cualquier persona con un manejo de informática moderado podrá ser capaz de dominar los materiales que se presentarán. \n\nUtilizaremos como bibliografía el libro “El Tutorial de Python” de Guido Van Rossum, el creador de Python.",
+            "url": "https://www.coursera.org/learn/introduccion-python"
+        }
+    },
+    "Finance": {
+        "Key Success Factors in Supply Chain Finance": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 16 hours to complete",
+            "number_of_students": "3,523 students",
+            "short_description": " Identify the main success factors in Supply Chain Finance. Gain knowledge about the ideal customer for Supply Chain Finance. Understand how Supply Chain Finance is priced. Identify the relevant factors for suppliers to come onboard and trade.",
+            "long_description": "Implement and manage a successful financing program for a corporate buying organization by learning about the key success factors in Supply Chain Finance. In this course, you'll learn about the challenges and bottlenecks in Supply Chain Finance and understand their impact on Supply Chain Finance programs. This course will help you understand who the ideal customer is for a Supply Chain Finance program and understand how revenue is generated and such programs are priced. You'll learn about the relevant factors for suppliers to come onboard and trade as well as identify the key roles and responsibilities involved in Supply Chain Finance.\n\nAdditionally, this course will explain how to develop metrics and list the necessary elements for developing an effective financing program. By the end of this course, you’ll be able to perform a pre-sales analysis and a detailed supplier analysis, which are crucial for setting up a Supply Chain Finance program.",
+            "url": "https://www.coursera.org/learn/key-success-factors-supply-chain-finance"
+        },
+        "Python and Machine-Learning for Asset Management with Alternative Data Sets": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Learn what alternative data is and how it is used in financial market applications.Â  Become immersed in current academic and practitioner state-of-the-art research pertaining to alternative data applications. Perform data analysis of real-world alternative datasets using Python. Gain an understanding and hands-on experience in data analytics, visualization and quantitative modeling applied to alternative data in finance",
+            "long_description": "Over-utilization of market and accounting data over the last few decades has led to portfolio crowding, mediocre performance and systemic risks, incentivizing financial institutions which are looking for an edge to quickly adopt alternative data as a substitute to traditional data. This course introduces the core concepts around alternative data, the most recent research in this area, as well as practical portfolio examples and actual applications. The approach of this course is somewhat unique because while the theory covered is still a main component, practical lab sessions and examples of working with alternative datasets are also key. This course is fo you if you are aiming at carreers prospects as a data scientist in financial markets, are looking to enhance your analytics skillsets to the financial markets, or if you are interested in cutting-edge technology and research as  they apply to big data. The required background is: Python programming, Investment theory , and Statistics. This course will enable you to learn new data and research techniques applied to the financial markets while strengthening data science and python skills.",
+            "url": "https://www.coursera.org/learn/machine-learning-asset-management-alternative-data"
+        },
+        "Time Value of Money": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/4c/f00688208c46878944beca94dce581/IBM-data-science-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 8 hours to complete",
+            "number_of_students": "",
+            "short_description": " To be able to understand and apply one of the two main building blocks of finance - Time Value of Money (TVM) To evaluate alternatives  To make decisions",
+            "long_description": "This course is an introduction to time value of money (TVM) and decision-making to help you understand the basics of finance. This course is part of a specialization titled “Foundational Finance for Strategic Decision-Making” and is helpful if you are interested in applying to an MBA degree program or learning the foundations of finance to be more effective in your career. \n\nThis course is applied and problem-based with assignments that are intentionally introductory and simpler than real-world applications you will confront when making day-to-day financial decisions and in more advanced courses.",
+            "url": "https://www.coursera.org/learn/time-value-of-money"
+        },
+        "Financing and Initiating Major Engineering Projects": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Understand major project\nfinancing and key financial indicators used in major project finance Identify\nthe key investors in major projects Explore\ndifferent approaches to project contracting and earn how to ensure successful project initiation  Understand\nhow to assess an organisation's capabilities ",
+            "long_description": "To successfully lead major projects you have to understand typical investor and project financing approaches. In this course, you’ll learn to interpret some key contractual instruments that are relevant for the financing of major engineering projects so that you are in a position to ensure the financially secure delivery of your project. You’ll explore the concept of “time value of money” and be able to compute key indicators such as “Pay-back time”, “Net Present value” and “Internal Rate of Return”.\nYou’ll identify common stakeholder and management approaches, and be able to implement key messaging, taking accurate requirements and manage expectations.\n\nThrough real-life case studies you’ll identify appropriate best practice related to governance, execution strategies, requirements management, procurement, asset and risk management and organisational design and development for the successful delivery of large engineering projects. \n\nThis course explores concepts analysed in the University’s Online MSc in Engineering Management. If you are interested to develop your skills further, take a look at our online degree.",
+            "url": "https://www.coursera.org/learn/financing-major-engineering-projects"
+        },
+        "Introduction to developing with Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/introduction-develop-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.explore-ecosystem-main-components-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/explore-ecosystem-main-components-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.explore-technical-architecture-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/explore-technical-architecture-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.design-deployment-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/design-deployment-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-lcs-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/manage-lifecycle-services-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.performance-monitoring-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/performance-monitoring-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-source-code-using-version-control-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/manage-source-code-version-control-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.explore-test-framework-tools-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/explore-test-framework-tools-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.explore-reporting-tools-dynamics-365-finance-operations": "https://docs.microsoft.com/en-us/learn/modules/explore-reporting-tools-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "523 minutes",
+            "short_description": "As a developer working with Finance and Operations apps, it's important to have a firm grasp of the main architecture components of the Dynamics 365 ecosystem and Finance and Operations apps. Knowledge of core developer concepts, including technical capabilities, source code, testing frameworks, and reporting tools, will support your further efforts in building development skills that you can apply to Finance and Operations apps.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "developer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/introduction-develop-dynamics-365-finance-operations.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.introduction-develop-dynamics-365-finance-operations",
+            "number_of_students": "unknown"
+        },
+        "Get started with Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/get-started-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.wwl.introduction-dynamics-365-finance": "https://docs.microsoft.com/en-us/learn/wwl/introduction-dynamics-365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.wwl.introduction-dynamics-365-supply-chain-management": "https://docs.microsoft.com/en-us/learn/wwl/introduction-dynamics-365-supply-chain-management/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.wwl.introduction-dynamics-365-commerce": "https://docs.microsoft.com/en-us/learn/wwl/introduction-dynamics-365-commerce/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.navigating-in-f-and-o": "https://docs.microsoft.com/en-us/learn/modules/navigate-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.get-help-with-f-and-o": "https://docs.microsoft.com/en-us/learn/modules/get-help-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "215 minutes",
+            "short_description": "Learn how Finance and Operations apps support businesses to manage their global financial systems, operational business processes, and streamlined supply chains to empower people to make fast, informed decisions. As the first step in your career of working with Finance and Operations apps, you must familiarize yourself with its features and functionality, whatever your desired role.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations",
+                    "dynamics-finance",
+                    "dynamics-scm",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "business-user",
+                    "functional-consultant",
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/get-started-with-d365-for-finance-and-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.get-started-with-dynamics-365-for-finance-and-operations",
+            "number_of_students": "unknown"
+        },
+        "Work with accounts receivable in Dynamics 365 Finance": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-accounts-receivable-dyn365-finance/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.configure-accounts-receivable-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-accounts-receivable-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.accounts-receivable-daily-procedures-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/accounts-receivable-daily-procedures-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-credit-and-collections-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/configure-credit-collections-dyn365-finance/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.process-credit-collections-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/process-credit-collections-dyn365-finance/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "421 minutes",
+            "short_description": "Configure the Accounts receivable module in Dynamics 365 Finance to create customer invoices, post packing slips, and use free text invoices that are not related to sales orders. In this learning path, you will also learn how to do daily tasks in accounts receivable.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-with-accounts-receivable-in-dynamics-365-for-finance-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-accounts-receivable-d365-finance-ops",
+            "number_of_students": "unknown"
+        },
+        "Configure apps in Finance and Operations": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/config-d365-finance-operations-apps/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduce-configure-personalization-dynamics-365-finance-operations-apps": "https://docs.microsoft.com/en-us/learn/wwl/introduce-configure-personalization-dynamics-365-finance-operations-apps/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.configure-your-ui-dynamics-365-finance-operations-apps": "https://docs.microsoft.com/en-us/learn/wwl/configure-your-ui-dynamics-365-finance-operations-apps/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.configure-your-data-dynamics-365-finance-operations-apps": "https://docs.microsoft.com/en-us/learn/wwl/configure-your-data-dynamics-365-finance-operations-apps/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "48 minutes",
+            "short_description": "This course is a bridge between the Dynamics 365 Fundamentals course and the Dynamics 365 Finance and Operations Apps core course.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance",
+                    "dynamics-finance-operations",
+                    "dynamics-human-resources",
+                    "dynamics-operations",
+                    "dynamics-sales",
+                    "dynamics-scm",
+                    "dynamics-talent"
+                ],
+                "roles": [
+                    "business-analyst",
+                    "business-user",
+                    "developer",
+                    "functional-consultant",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-dynamics-365-finance-operations-apps.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.config-d365-finance-operations-apps",
+            "number_of_students": "unknown"
+        },
+        "Configure your organization in Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-your-organization-finance-ops/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.plan-config-global-address-book-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/plan-config-global-address-book-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.plan-implement-legal-entities-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/plan-implement-legal-entities-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.plan-and-implement-security-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/plan-implement-security-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.setup-batch-jobs-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/setup-batch-jobs-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-use-workflows-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/create-use-workflows-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.design-and-build-mobile-apps-for-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/design-build-mobile-apps-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.personalize-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/personalize-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.implement-common-integration-features-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/implement-common-integration-features-finance-ops/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "715 minutes",
+            "short_description": "As a functional consultant who works with Finance and Operations apps, you must understand how to set up an organization for your customer. This learning path shows you, amongst other tasks, how to set up legal entities, implement security settings, personalize the user interface for users, design, and build mobile apps, and implement common integrations.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "business-user",
+                    "functional-consultant",
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-your-organization-in-finance-and-ops.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-your-organization-in-finance-and-ops",
+            "number_of_students": "unknown"
+        },
+        "Use Lifecycle Services to design and plan an implementation of Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/use-lcs-design-plan-implementation-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.get-started-with-lcs": "https://docs.microsoft.com/en-us/learn/modules/get-started-lifecycle-services-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.design-plan-implementation-in-f-and-o": "https://docs.microsoft.com/en-us/learn/modules/design-plan-implementation-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "131 minutes",
+            "short_description": "Lifecycle Services (LCS) is a collaborative workspace that customers and their partners use to manage Finance and Operations apps projects from pre-sales to the implementation phase and finally to the production environment. It provides checklists and tools that help you manage the project, including pre-build methodologies to help with implementation and regularly updated services.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/use-lcs-to-design-and-plan-an-implementation-of-f-and-o.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.use-lcs-to-design-and-plan-an-implementation-of-f-and-o",
+            "number_of_students": "unknown"
+        }
+    },
+    "databases": {
+        "Building Cloud Services with the Java Spring Framework": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework"
+        },
+        "Databases and SQL for Data Science": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science"
+        },
+        "Managing Big Data in Clusters and Cloud Storage": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql"
+        },
+        "Migrate application workloads and data to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-application-workloads-data-azure/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.design-your-migration-to-azure": "https://docs.microsoft.com/en-us/learn/modules/design-your-migration-to-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.prepare-onpremises-workloads-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/prepare-onpremises-workloads-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-onpremises-workloads-azure": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-workloads-azure/?WT.mc_id=api_CatalogApi",
+                "learn.migrate-sql-server-relational-data": "https://docs.microsoft.com/en-us/learn/modules/migrate-sql-server-relational-data/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "194 minutes",
+            "short_description": "Determine a migration approach for on-premises workloads and databases and ready those resources for migration to Microsoft Azure. Migrate on-premises Hyper-V-based application workloads and relational data to the cloud using Azure Migrate.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "azure-sql-database"
+                ],
+                "roles": [
+                    "administrator",
+                    "data-engineer",
+                    "solution-architect"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/migrate-application-workloads-data-azure.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrate-application-workloads-data-azure",
+            "number_of_students": "unknown"
+        },
+        "Migrating open-source workloads to Azure": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/migrate-open-source-workloads/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn.wwl.introduction-open-source-database-migration-azure": "https://docs.microsoft.com/en-us/learn/modules/introduction-open-source-database-migration-azure/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-mysql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql": "https://docs.microsoft.com/en-us/learn/modules/migrate-on-premises-postgresql-databases/?WT.mc_id=api_CatalogApi",
+                "learn.wwl.protecting-monitoring-tuning-migrated-database": "https://docs.microsoft.com/en-us/learn/modules/protect-monitor-tuning-migrated-database/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "188 minutes",
+            "short_description": "Learn how to migrate open-source workloads from PostgreSQL and MySQL databases to the equivalent services in Azure. Explore the processes and tools, and learn how to validate application dependencies to support a successful migration.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/learn-pr/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+            "price": "FREE",
+            "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+            "number_of_students": "unknown"
+        },
+        "SQL Server upgrades": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/sql-server-2017-upgrades/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-sqlserver.introduction-upgrading-sql-server": "https://docs.microsoft.com/en-us/learn/modules/introduction-upgrading-sql-server/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.sql-server-discovery-using-map": "https://docs.microsoft.com/en-us/learn/modules/sql-server-discovery-using-map/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.assess-convert-sql-server-databases-using-dma": "https://docs.microsoft.com/en-us/learn/modules/assess-convert-sql-server-databases-using-dma/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.test-optimize-sql-server-databases-using-dea": "https://docs.microsoft.com/en-us/learn/modules/test-optimize-sql-server-databases-using-dea/?WT.mc_id=api_CatalogApi",
+                "learn-sqlserver.use-sql-server-query-tuning-assistant": "https://docs.microsoft.com/en-us/learn/modules/use-sql-server-query-tuning-assistant/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "198 minutes",
+            "short_description": "Running the latest version of SQL Server provides you with numerous performance and functionality benefits while also extending the support of your database platform. In this learning path you will learn how to take an inventory of your SQL Server deployments using the Microsoft Assessment and Planning toolkit, how to upgrade SQL Server databases using the Data Migration Assistant, and how to optimize your updated system using both the Database Experimentation Assistant and Query Tuning Assistant.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "sql-server"
+                ],
+                "roles": [
+                    "data-engineer"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/sqlserver/sql-server-2017-upgrades.svg",
+            "price": "FREE",
+            "uid": "learn-sqlserver.sql-server-2017-upgrades",
+            "number_of_students": "unknown"
+        }
+    },
+    "Economics": {
+        "Cost and Economics in Pricing Strategy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 23 hours to complete",
+            "number_of_students": "16,233 students",
+            "short_description": " How to apply knowledge of basic economics to make better pricing decisions How to recognize opportunities for price discrimination and recommend strategies to maximize sales and profits   How to calculate three types of price elasticities to determine the impact of price on demand   How to analyze and apply different pricing models, including: cost-plus pricing, marginal cost-plus pricing, peak-load pricing, index-based pricing.",
+            "long_description": "How much should you charge for your products and services? Traditionally, businesses have answered this question based on the cost to produce or provide their goods and services. This course shows you the economic factors behind pricing based on cost and the pros and cons of a cost-based pricing approach. Led by Darden faculty and Boston Consulting Group global pricing experts, the course provides the practical and research-based models and methods you need to set prices that maximize your profits. \n\nBy the end of this course, you’ll be able to:\n--Apply knowledge of basic economics to make better pricing decisions\n--Recognize opportunities for price discrimination—selling the same product at different prices to different buyers—and recommend strategies to maximize sales and profits\n--Calculate three types of price elasticities to determine the impact of price on demand\n--Analyze and apply different pricing models\n  -Cost-plus pricing\n  -Marginal cost-plus pricing\n  -Peak-load pricing\n  -Index-based pricing\n--Evaluate the impact of channel intermediaries and customer lifetime value on pricing",
+            "url": "https://www.coursera.org/learn/uva-darden-bcg-pricing-strategy-cost-economics"
+        },
+        "Digital Transformation": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "",
+            "short_description": " The underlying economics of innovation, technology, and market disruptions The pros and cons of current digital technologies driving advancement How to utilize BCG's digital transformation framework as a \"how-to\" for digitizing your organization",
+            "long_description": "Digital transformation is a hot topic--but what exactly is it and what does it mean for companies? In this course, we talk about digital transformation in two ways. First we discuss the pace of change and the imperative it creates for businesses. Next we provide the context for this transformation and what it takes to win in the digital age. Then we walk through BCG's proprietary framework, which helps you identify key areas to digitize, including strategy, core processes, and technology.\n\nBy the end of this course, you'll be able to:\n--describe the underlying economics of innovation, technology, and market disruptions\n--weigh the pros and cons of current digital technologies driving advancement\n--utilize BCG's digital transformation framework as a \"\"how-to\"\" for digitizing your organization",
+            "url": "https://www.coursera.org/learn/bcg-uva-darden-digital-transformation"
+        }
+    },
+    "Spark": {
+        "Distributed Computing with Spark SQL": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "",
+            "short_description": " Uâse the collaborative Databricks workspace and write SQL code that executes against a cluster of machines Use Spark UI to analyze performance and identify bottlenecks Create an end-to-end pipeline that reads data, transforms it, and saves the result Bâuild a linear regression model and make predictions using SparkSQL",
+            "long_description": "This course is for students with SQL experience and now want to take the next step in gaining familiarity with distributed computing using Spark. Students will gain an understanding of when to use Spark and how Spark as an engine uniquely combines Data and AI technologies at scale. The four modules build on one another and by the end of the course the student will understand: Spark architecture, Spark DataFrame, optimizing reading/writing data, and how to build a machine learning model. The first module will introduce Spark, including how Spark works with distributed computing and what are Spark Dataframes. Module 2 covers the core concepts of Spark such as storage vs. computing, caching, partitions and Spark UI. The third module looks at Engineering Data Pipelines covering connecting to databases, schemas and type, file formats and writing good data. The final module looks at the application of Spark with Machine Learning through the business use case, a short introduction to what machine learning is, building and applying models and a final course conclusion. By understanding when to use Spark, either scaling out when the model or data is too large to process on a single machine, or having a need to simply speed up to get faster results, students will hone their SQL skills and become a more adept Data Scientist.",
+            "url": "https://www.coursera.org/learn/spark-sql"
+        }
+    },
+    "presentations": {
+        "Research Report: Delivering Insights": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "2,713 students",
+            "short_description": " Synthesize research findings and develop insights Assess the changing roles of digital and traditional advertising Apply storytelling strategies in presentations Demonstrate effective presentation skills and deliver insights",
+            "long_description": "You have completed all the hard work of conducting your internal, secondary, and primary research. You have analyzed all the data and are able to formulate insights and recommendations based on your research proposal. But what is the best way to present your findings and be able to make a decision? \n\nIn this course, you will discuss how to incorporate a story in your marketing presentation to help you capture the attention and gain support of stakeholders and business leaders. You will choose the most effective analytical method for delivering your insights and the best presentation method for your given audience. You will incorporate data visualization best practices and use tips and tricks when presenting to your various levels of decision makers and stakeholders.",
+            "url": "https://www.coursera.org/learn/marketing-research-report"
+        }
+    },
+    "Power BI": {
+        "Averaged-Switch Modeling and Simulation": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "10,920 students",
+            "short_description": " Explain operation and modeling of switched-mode power converters Model open-loop transfer functions and frequency responses Design closed-loop regulated switched-mode power converters Verify operation of switched-mode power converters by simulations",
+            "long_description": "This course can also be taken for academic credit as ECEA 5705, part of CU Boulder’s Master of Science in Electrical Engineering degree.\n\nThis is Course #1 in the Modeling and Control of Power Electronics course sequence. The course is focused on practical design-oriented modeling and control of pulse-width modulated switched mode power converters using analytical and simulation tools in time and frequency domains. A design-oriented analysis technique known as the Middlebrook's feedback theorem is introduced and applied to analysis and design of voltage regulators and other feedback circuits. Furthermore, it is shown how circuit averaging and averaged-switch modeling techniques lead to converter averaged models suitable for hand analysis, computer-aided analysis, and simulations of converters. After completion of this course, the student will be able to practice design of high-performance control loops around switched-mode power converters using analytical and simulation techniques. \n\nWe strongly recommend students complete the CU Boulder Power Electronics specialization before enrolling in this course (course numbers provided for students in CU Boulder's MS-EE program):\n \n● Introduction to Power Electronics (ECEA 5700)\n● Converter Circuits (ECEA 5701)\n● Converter Control (ECEA 5702)\n\nAfter completing this course, you will be able to:\n\n● Explain operation and modeling of switched-mode power converters\n● Model open-loop transfer functions and frequency responses\n● Design closed-loop regulated switched-mode power converters\n● Verify operation of switched-mode power converters by simulations\n● Understand the Feedback Theorem principles\n● Apply the Feedback Theorem to practical design examples\n● Derive averaged switch models of and averaged circuit models of power converters\n● Apply averaged-switch modeling techniques to analysis and design and simulations of power converters",
+            "url": "https://www.coursera.org/learn/averagedswitchmodelingandsimulation"
+        },
+        "Consume data with Power BI": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.intro-to-power-bi-service": "https://docs.microsoft.com/en-us/learn/modules/explore-power-bi-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.analyze-explore-data-power-bi": "https://docs.microsoft.com/en-us/learn/modules/analyze-data-power-bi/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "129 minutes",
+            "short_description": "Do you want to make business decisions backed by data? Learn how to do that in Power BI. Learn to work in Power BI to review and interact with this content to make business decisions.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "power-bi",
+                    "power-platform"
+                ],
+                "roles": [
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/get-started-using-power-bi.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.get-started-using-power-bi",
+            "number_of_students": "unknown"
+        },
+        "Microsoft Power Platform Fundamentals": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/power-plat-fundamentals/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.wwl.introduction-power-platform": "https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.introduction-power-apps": "https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.build-app-solution": "https://docs.microsoft.com/en-us/learn/modules/build-app-solution/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.introduction-common-data-service": "https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.introduction-power-automate": "https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.build-automated-solution": "https://docs.microsoft.com/en-us/learn/modules/build-automated-solution/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.introduction-power-bi": "https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.wwl.build-simple-dashboard": "https://docs.microsoft.com/en-us/learn/modules/build-simple-dashboard/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "162 minutes",
+            "short_description": "Learn the business value and product capabilities of Power Platform. Create a simple PowerApp, connect data with CDS, build a Power BI Dashboard, and automate a process with Microsoft Flow.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-customer-engagement",
+                    "dynamics-finance-operations",
+                    "power-platform"
+                ],
+                "roles": [
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/power-plat-fundamentals.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.wwl.power-plat-fundamentals",
+            "number_of_students": "unknown"
+        },
+        "Use best practices to secure and govern Power Automate environments": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/best-practices-environments/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-bizapps.security-governance-intro": "https://docs.microsoft.com/en-us/learn/modules/security-governance-intro/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.plan-manage-environment": "https://docs.microsoft.com/en-us/learn/modules/plan-manage-environment/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.implementation-recommendations": "https://docs.microsoft.com/en-us/learn/modules/implementation-recommendations/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.manage-environmental-changes": "https://docs.microsoft.com/en-us/learn/modules/manage-environmental-changes/?WT.mc_id=api_CatalogApi",
+                "learn-bizapps.templates-governance-policies": "https://docs.microsoft.com/en-us/learn/modules/templates-governance-policies/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "275 minutes",
+            "short_description": "Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "power-automate",
+                    "power-platform",
+                    "powerapps"
+                ],
+                "roles": [
+                    "administrator",
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/best-practices-environments.svg",
+            "price": "FREE",
+            "uid": "learn-bizapps.best-practices-environments",
+            "number_of_students": "unknown"
+        }
+    },
+    "Excel": {
+        "Microsoft Excel - Excel from Beginner to Advanced": {
+            "id": 793796,
+            "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{% extends "index.html" %}
+{% block nav %}
+        <nav class="site-navigation position-relative text-right" role="navigation">
+        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+            <li class="cta"><a href="{{ url_for("start") }}"
+                               class="nav-link"><span>Find other courses</span></a></li>
+            <li class="cta"><a id="selected" href="download" class="nav-link" target="_blank"><span>Download</span></a>
+            </li>
+        </ul>
+    </nav>
+{% endblock nav %}
+{% block content %}
+    <div class="site-section courses-title" id="courses-section">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+                    <h3 class="section-title">Selected courses</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="col-12">
+                {% for course in my_courses %}
+                    <div class="course bg-white mb-5">
+                        <div class="row">
+                            <div class="col-3">
+                                <figure class="m-0">
+                                    {% if course['image'] %}
+                                        {% if course['image']['image_240x135'] %}
+                                            <a href={{ course['url'] }}><img src="{{ course['image']['image_480x270'] }}" class="img-fluid"></a>
+                                        {% elif course['image']['small'] %}
+                                            <a href={{ course['url'] }}><img src="{{ course['image']['large'] }}" class="img-fluid"></a>
+                                        {% else %}
+                                            <a href={{ course['url'] }}><img src="{{ course['image'].rsplit("?")[0] }}" class="img-fluid"></a>
+                                        {% endif %}
+                                    {% endif %}
+                                </figure>
+                            </div>
+                            <div class="col-9 pt-4">
+                                <h3><a href={{ course['url'] }}>{{ course['name'] }}</a></h3>
+                                <div class="meta"><span class="icon-clock-o"></span>{{ course['course_duration'] }}</div>
+                                <p>{{ course['long_description'] }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

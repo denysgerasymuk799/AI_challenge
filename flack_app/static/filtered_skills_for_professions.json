@@ -1,0 +1,66 @@
+{
+    "analyst2": [
+        "data analysis",
+        "performance",
+        "Tableau",
+        "SQL",
+        "Business Analyst",
+        "Finance",
+        "presentation",
+        "Economics",
+        "management"
+    ],
+    "business+analyst2": [
+        "team",
+        "data analysis",
+        "Tableau",
+        "SQL",
+        "Business Analyst",
+        "Finance",
+        "G Suite Services",
+        "presentation",
+        "Economics"
+    ],
+    "data+scientist2": [
+        "data analysis",
+        "Tableau",
+        "SQL",
+        "Business Analyst",
+        "Finance",
+        "team",
+        "Economics",
+        "presentations"
+    ],
+    "адміністратор+баз+даних2": [
+        "data analysis",
+        "data visualization skills",
+        "Data Analyst",
+        "stakeholders",
+        "pipeline",
+        "Tableau",
+        "software skills",
+        "SQL",
+        "team",
+        "presentation"
+    ],
+    "программист+php2": [
+        "team",
+        "Python",
+        "Design Patterns",
+        "API",
+        "JavaScript",
+        "code standards development",
+        "Apache",
+        "AWS"
+    ],
+    "системный+администратор2": [
+        "services",
+        "AWS",
+        "SQL",
+        "Python",
+        "bash",
+        "IP",
+        "NAT",
+        "Apache"
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "website": {
+        "Advanced Search Engine Optimization Strategies": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "17,764 students",
+            "short_description": " Demonstrate how to find and fix problems, heighten visibility, improve site architecture, and accelerate page load speed within your own website\n\n Develop engaging strategies to launch a global web marketing campaign\n\n Use tools to provide insightful data to evaluate your competitors\n\n Conduct data analysis to bring value to stakeholders\n\n",
+            "long_description": "This course focuses on technical, mobile and social strategies for increasing site traffic. Learn how to build SEO for international audiences through content localization, global team alignment and optimizing for local search engines. Discover techniques to optimize mobile-friendly websites, get mobile apps discovered, and leverage social media to drive organic SEO traffic.  You will also learn how to identify key SEO metrics and collect, interpret, validate, and report success to your clients and stakeholders.",
+            "url": "https://www.coursera.org/learn/seo-strategies"
+        },
+        "Optimizing a Website for Search": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "91,162 students",
+            "short_description": " Use keyword research to select best keywords to optimize your website in search results\n\n Examine how to analyze, organize, create, and build content utilizing various strategies\n\n \nUse best practices to develop a high quality local SEO approach\n\n Develop a solid approach for achieving a productive and successful relationship with your client\n\n",
+            "long_description": "Learn the ins and outs of optimizing a website, from conducting an initial audit to presenting your findings and recommendations. Hands-on activities include learning how to select and apply appropriate keywords throughout a website, incorporating keyword research in a content marketing strategy, and optimizing a site for local search. You will also learn strategies for setting goals and client/stakeholder expectations, building effective analytics and reports, and communicating SEO improvements.",
+            "url": "https://www.coursera.org/learn/optimizing-web-search"
+        }
+    },
+    "Google Analytics": {
+        "Google Cloud Product Fundamentals": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals"
+        }
+    },
+    "Social Media Marketing": {
+        "Social Media Advertising": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "1,629 students",
+            "short_description": " Identify social media advertising types that are likely to succeed Understand the different types of social media ads None Execute social media advertising campaigns",
+            "long_description": "Social media platforms are driven by digital advertising. As a result, social media advertising is affordable and can be purchased at almost any budget. Targeting options in social media advertising are also sophisticated. It is possible to tailor ads around a user’s behaviors (e.g., likes, posts and clicks). This course unpacks small business use cases of Facebook, Instagram and Twitter advertising. From basic campaigns, to advanced techniques including lookalike modeling and audience retargeting, this course shows how to effectively advertise on three major social media platforms.",
+            "url": "https://www.coursera.org/learn/social-media-advertising"
+        },
+        "Work with core features in Dynamics 365 Marketing": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/work-core-features-marketing/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.manage-assets-content-settings": "https://docs.microsoft.com/en-us/learn/modules/manage-assets-content-settings/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-customers": "https://docs.microsoft.com/en-us/learn/modules/manage-customers/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-forms-pages-subscriptions": "https://docs.microsoft.com/en-us/learn/modules/manage-forms-pages-subscriptions/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-emails-journey": "https://docs.microsoft.com/en-us/learn/modules/manage-emails-journey/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-subscription-centers-double-opt": "https://docs.microsoft.com/en-us/learn/modules/manage-subscription-centers-double-opt/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.manage-websites-redirects-social": "https://docs.microsoft.com/en-us/learn/modules/manage-websites-redirects-social/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "396 minutes",
+            "short_description": "Learn how to use the Marketing application to guide your prospects and customers through a process of automated messaging, activity generation, and interactive decision points. You’ll learn how to create and manage marketing content such as marketing forms, pages, and emails. Additionally, you’ll learn how to tailor your messages to specific audiences through segmentation and build automated campaigns known as customer journeys.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-marketing"
+                ],
+                "roles": [
+                    "administrator",
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/work-core-features-marketing.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.work-core-features-marketing",
+            "number_of_students": "unknown"
+        }
+    },
+    "Business Management": {
+        "Grow Your Business with Goldman Sachs 10,000 Women": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "27,612 students",
+            "short_description": "   Analyze the growth potential of your current business by evaluating your available internal business resources.   Generate and refine your opportunities\nfor business growth. Develop your confidence with learning and communicating online.    ",
+            "long_description": "Welcome to Grow Your Business with Goldman Sachs 10,000 Women.\n\nGoldman Sachs 10,000 Women is a global initiative that fosters economic growth by providing women business owners around the world with business and management education, mentoring and networking, and access to capital.\n\nThis introductory business course has been developed from the face-to-face program which has enabled over 10,000 women to see immediate and sustained business growth. It is designed for women business owners, running established businesses operating for more than one year, to provide the practical tools and skills required to help you grow your business. The course will enable you to develop your understanding of the three key ingredients of growth potential: you, your business, and your opportunity. \n\nThrough focused and tailored exercises, you will assess the strengths and weaknesses of your business and yourself as a business leader. You will also identify and refine your key opportunities for business growth. As you complete the course, you will be connecting with like-minded business owners from around the world. The course will provide you with a unique forum to share your experiences, and provide support and advice to others. \n\nWhat can you do after this introductory course?\n\nOnce you finish this introductory course, you will have the opportunity to continue your learning journey with 10,000 Women through a further 10 weeks of online learning.\n\nThe innovative 10-week course covers a full range of business topics from your leadership style and management structure to resource allocation and operational efficiency. You will build on what you learn in the introductory course and analyze the growth of your business further through the creation of a Business Growth Plan (BGP). The BGP is a strategic and tactical implementation tool designed to guide your business’s growth and help you to communicate your opportunity, vision, and ideas to your team, stakeholders, and customers.\n\nUpon successfully completing the two courses, you will be able to join the 10,000 Women alumni community and connect with a global network of past participants.",
+            "url": "https://www.coursera.org/learn/gs10kw"
+        },
+        "Global sustainability and corporate social responsibility: Be sustainable": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "",
+            "short_description": " Assess business decisions using metrics including financial maximization, shareholder value, customer well-being, and societal impact   Apply the principles and tools of complex systems thinking to sustainable business challenges and/or opportunities   Identify and evaluate strategies, processes and leadership techniques that enable successful sustainability transitions in a business context ",
+            "long_description": "It is no longer acceptable for organisations to focus entirely on financial success if they are to be competitive on the global stage. As corporate scandals continue to make headlines, you will expand your strategic thinking beyond your organisation’s competitive financial environment to consider its broader impact on society. You will grapple with the conflicting outcomes of maximising financial return and societal impact as you develop the skills to create a balance that is sustainable. Through structured learning activities (video lectures, quizzes, discussion prompts and written assessments) you will gain an appreciation of how important sustainability will be for every organisation in the future – and how to achieve it.",
+            "url": "https://www.coursera.org/learn/global-sustainability-be-sustainable"
+        },
+        "Green Business Strategy": {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "",
+            "short_description": " Â·        \nDescribe the motivations\nfor green business and explain how the social license to operate affects a business  Â·        \nDescribe the\nimplications of path dependency for business and environment Â·        \nAssess and choose environmental\nstrategies for businesses \n\nÂ· Describe the evolution of green business",
+            "long_description": "Course Overview:  https://youtu.be/g-pt2Q4UhT4\n\nThe global environment will continue to degrade until there are significant changes in business practices. In this course, we look at how some firms are responding positively to environmental concerns with new strategies. \n\nWe look at 'best practices' of companies across countries and industries from different perspectives. We introduce a very helpful framework to structure your thinking about environment and business strategy. We explore why current destructive business practices are so 'sticky' and resistant to change. \n\nYou don’t have to be an environmentalist or a tree-hugger to benefit from this course. \n\nBusinesses should respond to change, environment is one of these changes. If you have an interest in the environment and some understanding of business strategy then this course should be useful to you.",
+            "url": "https://www.coursera.org/learn/green-business-strategy"
+        },
+        "Define an AI strategy to create business value": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/ai-strategy-for-business-value/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-wwl.ai-strategy-to-create-business-value": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-financial-services": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-financial-services/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-government": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-government/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-education": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-education/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-retail": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-retail/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-manufacturing": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-manufacturing/?WT.mc_id=api_CatalogApi",
+                "learn-wwl.ai-strategy-in-healthcare": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-healthcare/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "334 minutes",
+            "short_description": "In this learning path, you will hear from Peter Zemsky, INSEAD's Eli Lilly Chaired Professor of Strategy and Innovation, about how AI is driving business value across industries and companies as well as Microsoft customers and partners. You will be able to discuss how technical teams are brining AI into business applications and how business leaders of different industries are thinking about AI for their own businesses.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "azure",
+                    "dynamics",
+                    "m365"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/ai-strategy-for-business-value.svg",
+            "price": "FREE",
+            "uid": "learn.ai-strategy-for-business-value",
+            "number_of_students": "unknown"
+        },
+        "Configure and work with analytics and reporting in Finance and Operations apps": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/configure-analytics-reporting-finance-operations/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.work-with-analytics-reporting-in-dynamics-365-finance-ops": "https://docs.microsoft.com/en-us/learn/modules/work-analytics-reporting-finance-operations/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.configure-electronic-reporting": "https://docs.microsoft.com/en-us/learn/modules/configure-electronic-reporting-finance-operations/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "263 minutes",
+            "short_description": "Business leaders can make important decisions in their company if they have accurate insight into the underlying financial and operational data. A business user can also configure, and use the electronic reporting tool without a single line of code, to adopt new regulatory requirements and generate business documents in the required format to electronically exchange information with government bodies, banks, and other parties.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "dynamics-finance-operations",
+                    "dynamics-finance"
+                ],
+                "roles": [
+                    "functional-consultant",
+                    "business-user"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/configure-analytics-reporting-finance-operations.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.configure-analytics-reporting-finance-operations",
+            "number_of_students": "unknown"
+        },
+        "Create relationships, business rules, calculations, and rollups in Common Data Service": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/create-relationships-common-data-service/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-dynamics.create-relationship-between-cds-entities": "https://docs.microsoft.com/en-us/learn/modules/create-relationship-between-cds-entities/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.define-create-business-rules": "https://docs.microsoft.com/en-us/learn/modules/define-create-business-rules/?WT.mc_id=api_CatalogApi",
+                "learn-dynamics.create-define-calculation-rollup-fields": "https://docs.microsoft.com/en-us/learn/modules/create-define-calculation-rollup-fields/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "141 minutes",
+            "short_description": "Do you need to create data relationships, business rules, calculations, and rollups in Common Data Service? These modules help you use Common Data Service to build powerful business solutions that will transform your operations, processes, and your entire organization. The learning path Get started with Common Data Service introduces you to Common Data Service and many of the key concepts which include environment, entities, fields, and options sets.  This learning path continues and expands the exploration of Common Data Service with an overview how to form relationships between entities, how to build business rules to perform logic based upon your organization's needs, and how to add calculations and rollup fields.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "dynamics",
+                    "power-platform",
+                    "common-data-service",
+                    "powerapps"
+                ],
+                "roles": [
+                    "functional-consultant"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/create-relationships-business-rules-calculations-and-rollups-in-common-data-service.svg",
+            "price": "FREE",
+            "uid": "learn-dynamics.create-relationships-business-rules-calculations-and-rollups-in-common-data-service",
+            "number_of_students": "unknown"
+        },
+        "Upgrade to Microsoft Teams": {
+            "url": "https://docs.microsoft.com/en-us/learn/paths/m365-teams-upgrade/?WT.mc_id=api_CatalogApi",
+            "modules": {
+                "learn-m365.m365-teams-upgrade-getting-started": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-getting-started/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-plan-upgrade": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-plan-upgrade/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-coexistence-interoperability": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-coexistence-interoperability/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-skype-business": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-skype-business/?WT.mc_id=api_CatalogApi",
+                "learn-m365.m365-teams-upgrade-hybrid": "https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-hybrid/?WT.mc_id=api_CatalogApi"
+            },
+            "course_duration": "160 minutes",
+            "short_description": "Upgrade to Microsoft Teams</strong> explains how to upgrade from Skype for Business Online and Skype for Business on-premises to Microsoft Teams. You’ll learn how to plan your upgrade, how Skype for Business and Teams coexist and interoperate during the upgrade, and how to plan and configure a hybrid environment to move all users to the cloud when upgrading from Skype for Business on-premises.",
+            "long_description": "",
+            "roles_and_products": {
+                "products": [
+                    "m365",
+                    "office-365",
+                    "office-teams"
+                ],
+                "roles": [
+                    "administrator"
+                ]
+            },
+            "image": "https://docs.microsoft.com/en-us/learn/achievements/upgrade-to-microsoft-teams.svg",
+            "price": "FREE",
+            "uid": "learn-m365.m365-teams-upgrade",
+            "number_of_students": "unknown"
+        }
+    },
+    "verbal communication skills": {
+        "English Grammar and Essay Writing": {
+            "id": [
+                "BerkeleyX/ColWri.2.2x/1T2015",
+                "BerkeleyX/ColWri.2.2x/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/asset/images_course_image.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-750x400.jpg"
+            },
+            "course_duration": "2 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/english-grammar-and-essay-writing",
+            "number_of_students": "284,676 students"
+        },
+        "Principles of Written English, Part 3": {
+            "id": [
+                "BerkeleyX/ColWri2.3x/1T2014",
+                "BerkeleyX/ColWri2.3x/1T2014"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/principles-of-written-english-part-3",
+            "number_of_students": "284,676 students"
+        },
+        "Academic and Business Writing": {
+            "id": [
+                "BerkeleyX/ColWri2.3x_2/1T2015",
+                "BerkeleyX/ColWri2.3x_2/1T2015"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/asset/course-image-sans_text_2.jpg",
+                "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-375x200.jpg",
+                "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-750x400.jpg"
+            },
+            "course_duration": "1 weeks",
+            "price": "FREE",
+            "long_description": "College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.",
+            "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+            "url": "https://www.edx.org/course/academic-and-business-writing",
+            "number_of_students": "284,676 students"
+        }
+    },
+    "Excel": {
+        "Microsoft Excel - Excel from Beginner to Advanced": {
+            "id": 793796,
+            "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+            "price": "$149.99",
+            "image": {
+                "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+                "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+            }
+        }
+    }
+}

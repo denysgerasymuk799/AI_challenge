@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>S.E.A - skills</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/button.css" />
+		<script src="static/js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="header">
+		  <h1>Courses</h1>
+		  <p>What skills do you already have?</p>
+		</div>
+		<div class="container">
+			<section>
+				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off" id="form" method="post">
+					<ul>
+						{%for i in skills %}
+							<li><input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{ i[0].upper() + i[1:] }}</label></li>
+						{%endfor%}
+						<div class="wrap">
+							<button class="button" type="submit" form="form" value="Submit">Confirm</button>
+						</div>
+					</ul>
+				</form>
+			</section>
+		</div>
+		<script src="static/js/svgcheckbx.js"></script>
+	</body>
+</html>

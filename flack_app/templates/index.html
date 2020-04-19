@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S.E.A &mdash; Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="static/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="static/css/aos.css">
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <link rel="stylesheet" href="static/css/my.css">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="site-logo mr-auto w-25"><a href="#">S.E.A</a></div>
+
+                <div class="ml-auto">
+                    {% block nav %}{% endblock %}
+                    <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
+                            class="icon-menu h3"></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+{% block content %}{% endblock %}
+
+<script src="static/js/jquery-3.3.1.min.js"></script>
+<script src="static/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="static/js/jquery-ui.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/jquery.stellar.min.js"></script>
+<script src="static/js/jquery.countdown.min.js"></script>
+<script src="static/js/bootstrap-datepicker.min.js"></script>
+<script src="static/js/jquery.easing.1.3.js"></script>
+<script src="static/js/aos.js"></script>
+<script src="static/js/jquery.fancybox.min.js"></script>
+<script src="static/js/jquery.sticky.js"></script>
+
+
+<script src="static/js/main.js"></script>
+<script>
+    $("#selected").click(function () {
+        document.getElementById('the-form').submit()
+    });
+</script>
+</body>
+</html>

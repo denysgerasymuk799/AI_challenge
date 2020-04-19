@@ -1,0 +1,109 @@
+{% extends "index.html" %}
+{% block nav %}
+    <nav class="site-navigation position-relative text-right" role="navigation">
+        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+            <li class="cta"><a href="{{ url_for('start') }}"
+                class="nav-link"><span>Find other courses</span></a></li>
+            <li class="cta"><a id="selected" href="#" class="nav-link"><span>View selected</span></a>
+            </li>
+        </ul>
+    </nav>
+{% endblock nav %}
+{% block content %}
+    <form method="post" id="the-form" action="selected">
+        {% for skill in courses_list.keys() %}
+            {% set outer_loop = loop %}
+            <div class="site-section courses-title" id="courses-section">
+                <div class="container">
+                    <div class="row mb-5 justify-content-center">
+                        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+                            <h3 class="section-title">{{ skill[0].upper() + skill[1:] }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1 custom-btn">
+                            <a class="customPrevBtn btn btn-primary" href="#">Prev</a>
+                        </div>
+                        <div class="owl-carousel col-10 nonloop-block-14">
+
+                            {% for course in courses_list[skill] %}
+
+                                <div class="course bg-white h-100 align-self-stretch">
+                                    <div class="checkbox-field">
+
+                                        <input type="checkbox" name="{{ course['id'] }}"
+                                               id="{{ outer_loop.index }}-{{ loop.index }}-{{ course['id'] }}"/>
+                                    </div>
+
+                                    <figure class="m-0">
+                                        {% if course['image'] %}
+                                            {% if course['image']['image_240x135'] %}
+                                                <a href="{{ course['url'] }}"><img
+                                                        src="{{ course['image']['image_480x270'] }}"
+                                                        alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                                            {% elif course['image']['small'] %}
+                                                <a href="{{ course['url'] }}"><img
+                                                        src="{{ course['image']['large'] }}"
+                                                        alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                                            {% else %}
+                                                <a href="{{ course['url'] }}"><img
+                                                        src="{{ course['image'].rsplit('?')[0] }}"
+                                                        alt="static/images/img_1.jpg" class="img-fluid"></a>
+
+                                            {% endif %}
+
+
+                                        {% endif %}
+                                    </figure>
+                                    <div class="course-inner-text py-4 px-4">
+                                        <span class="course-price">{{ course['price'] }}</span>
+                                        <div class="meta"><span
+                                                class="icon-clock-o"></span>{{ course['course_duration'] }}
+                                        </div>
+                                        <h3><a href="{{ course['url'] }}">{{ course['course_title'] }}</a></h3>
+                                        {% if course['short_description'] %}
+                                            {% if course['short_description'] != ' ' %}
+
+                                                {% if course['short_description'][150] %}
+                                                    <p>{{ course['short_description'][:150] + "..." }}</p>
+                                                {% else %}
+                                                    <p>{{ course['short_description'] }}</p>
+                                                {% endif %}
+
+                                            {% endif %}
+
+                                            {% if course['short_description'] == ' ' %}
+                                                <p>{{ course['long_description'].split(".")[0] }}</p>
+                                            {% endif %}
+                                        {% endif %}
+                                    </div>
+                                    <div class="d-flex border-top stats">
+                                        <div class="py-3 px-4"><span
+                                                class="icon-users"></span>{{ course['number_of_students'] }}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+
+                        </div>
+                        <div class="col-1 custom-btn">
+                            <a class="customNextBtn btn btn-primary" href="#">Next</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-7 text-center">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </form>
+{% endblock %}
