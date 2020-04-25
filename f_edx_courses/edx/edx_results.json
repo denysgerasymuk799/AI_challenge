@@ -1,0 +1,189 @@
+{
+    "Essential Human Biology: Cells and Tissues": {
+        "id": [
+            "AdelaideX/HumBio101x/1T2015",
+            "AdelaideX/HumBio101x/1T2015"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/AdelaideX/HumBio101x/asset/image002.jpg",
+            "small": "https://courses.edx.org/c4x/AdelaideX/HumBio101x/thumbnail/image002-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/AdelaideX/HumBio101x/thumbnail/image002-750x400.jpg"
+        },
+        "course_duration": "5 weeks",
+        "price": "FREE",
+        "long_description": " <p><img alt=\"\" src=\"https://www.edx.org/sites/default/files/edx-prize-logo-2016-nominee.png\" />Are you preparing for a health-related career, or planning to study in the health sciences? Perhaps you're just keen to learn more about the wonders of the human body? Our bodies are amazing but complex biological machines. This course will provide you with an outstanding foundation of knowledge in human anatomy and physiology. </p>\n",
+        "short_description": "Knowledge of structure and function of human cells and tissues.\n\nUnderstanding of basic human anatomy and physiology.\n\nPreparation for study of health sciences and careers in health. *\n\n",
+        "url": "https://www.edx.org/course/essential-human-biology-cells-and-tissues",
+        "number_of_students": "59,775 students"
+    },
+    "Greatest Unsolved Mysteries of the Universe": {
+        "id": [
+            "ANUx/ANU-ASTRO1x/1T2014",
+            "ANUx/ANU-ASTRO1x/1T2014"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO1x/asset/dome_dashboard.jpg",
+            "small": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO1x/thumbnail/dome_dashboard-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO1x/thumbnail/dome_dashboard-750x400.jpg"
+        },
+        "course_duration": "55 weeks",
+        "price": "FREE",
+        "long_description": " <p>Despite spectacular recent progress, there is still a lot we don't know about our universe. We don't know why the Big Bang happened. We don't know what most of the universe is made of. We don't know whether there is life in space. We don't know how planets form, how black holes get so big, or where the first stars have gone. This course will take you through nine of the greatest unsolved problems of modern astrophysics. We can't promise you the answers, but we will explain what we do and don't know, and give you an up-to-date understanding of current research. This course is designed for people who would like to get a deeper understanding of these mysteries than that offered by popular science articles and shows. </p>\n",
+        "short_description": "",
+        "url": "https://www.edx.org/course/greatest-unsolved-mysteries-of-the-universe",
+        "number_of_students": "87,786 students"
+    },
+    "Exoplanets": {
+        "id": [
+            "ANUx/ANU-ASTRO2x/2T2014",
+            "ANUx/ANU-ASTRO2x/2T2014"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO2x/asset/cassini_jupiter.jpg",
+            "small": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO2x/thumbnail/cassini_jupiter-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO2x/thumbnail/cassini_jupiter-750x400.jpg"
+        },
+        "course_duration": "55 weeks",
+        "price": "FREE",
+        "long_description": " <p>The discovery of exoplanets is one of the greatest revolutions in modern astrophysics. Twenty years ago, we had no idea whether any of the countless stars out there beyond our solar system had planets or not.</p>\n",
+        "short_description": "",
+        "url": "https://www.edx.org/course/exoplanets",
+        "number_of_students": "46,346 students"
+    },
+    "The Violent Universe": {
+        "id": [
+            "ANUx/ANU-ASTRO3x/4T2014",
+            "ANUx/ANU-ASTRO3x/4T2014"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO3x/asset/course_image1.png",
+            "small": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO3x/thumbnail/course_image1-png-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO3x/thumbnail/course_image1-png-750x400.jpg"
+        },
+        "course_duration": "111 weeks",
+        "price": "FREE",
+        "long_description": " <p>Interested in exploring the deadliest and most mysterious parts of our universe? Or, investigating black holes, which warp the very fabric of space-time around them?</p>\n",
+        "short_description": "",
+        "url": "https://www.edx.org/course/the-violent-universe",
+        "number_of_students": "61,767 students"
+    },
+    "COSMOLOGY": {
+        "id": [
+            "ANUx/ANU-ASTRO4x/1T2015",
+            "ANUx/ANU-ASTRO4x/1T2015"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO4x/asset/ASTRO4x_dashboard_image.jpeg",
+            "small": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO4x/thumbnail/ASTRO4x_dashboard_image-jpeg-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/ANUx/ANU-ASTRO4x/thumbnail/ASTRO4x_dashboard_image-jpeg-750x400.jpg"
+        },
+        "course_duration": "55 weeks",
+        "price": "FREE",
+        "long_description": " <p>This course covers cosmology \u00e2\u0080\u0093 the study of our entire universe. Where did the universe come from? How will it end? What is the nature of space and time? For the first time in human history, we can give precise, reliable answers to many cosmological questions, thanks to a spectacular series of recent breakthroughs. But many of the most fundamental mysteries remain unsolved. In this course we will cover the latest advances and the unsolved mysteries. We will explain the recent observations, and with the help of guest speakers Lawrence Krauss and Brian Cox, we will explore the theories behind modern cosmology.</p>\n",
+        "short_description": "",
+        "url": "https://www.edx.org/course/cosmology",
+        "number_of_students": "76,841 students"
+    },
+    "Science at the Polls: Biology for Voters, Part 1": {
+        "id": [
+            "BerkeleyX/BFV101x/T12015",
+            "BerkeleyX/BFV101x/T12015"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/BFV101x/asset/ThumbnailFinal.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/BFV101x/thumbnail/ThumbnailFinal-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/BFV101x/thumbnail/ThumbnailFinal-750x400.jpg"
+        },
+        "course_duration": "4 weeks",
+        "price": "FREE",
+        "long_description": " <p>Science plays a crucial role in your decisions as you go about your daily life. The representatives you elect and the legislation you vote on influences science legislation, limits and funding. This class will teach you fundamentals of modern biology to help you make more informed voting decisions.</p>\n",
+        "short_description": "Evolution vs. creationism\n\nReactions to pandemic disease\n\nThe risks and benefits of vaccination \n\nHow extinctions impact the planet\n\nSpace exploration and the search for extraterrestrial life\n\nSexual behavior\n\n",
+        "url": "https://www.edx.org/course/science-at-the-polls-biology-for-voters-part-1",
+        "number_of_students": ""
+    },
+    "The Beauty and Joy of Computing (CS Principles), Part 3": {
+        "id": [
+            "BerkeleyX/BJC.3x/1T2016",
+            "BerkeleyX/BJC.3x/1T2016"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/BJC.3x/asset/4_thumb_v2.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/BJC.3x/thumbnail/4_thumb_v2-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/BJC.3x/thumbnail/4_thumb_v2-750x400.jpg"
+        },
+        "course_duration": "2 weeks",
+        "price": "FREE",
+        "long_description": " <p>Discover the big ideas and thinking practices in computer science plus learn how to code using one of the friendliest programming languages, Snap! <em>(based on Scratch).</em></p>\n",
+        "short_description": "Data and Information\n\nComplexity Theory\n\nRecursion, Lambda and Higher Order Functions\n\nArtificial Intelligence\n\nHuman Computer Interaction\n\nLab-based Topics: Algorithms and Data, Trees and Fractals, Recursion and Higher Order Functions\n\n",
+        "url": "https://www.edx.org/course/the-beauty-and-joy-of-computing-cs-principles-part-3",
+        "number_of_students": ""
+    },
+    "The Beauty and Joy of Computing (CS Principles), Part 4": {
+        "id": [
+            "BerkeleyX/BJC.4x/1T2016",
+            "BerkeleyX/BJC.4x/1T2016"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/BJC.4x/asset/3_thumb.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/BJC.4x/thumbnail/3_thumb-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/BJC.4x/thumbnail/3_thumb-750x400.jpg"
+        },
+        "course_duration": "3 weeks",
+        "price": "FREE",
+        "long_description": " <p>Discover the big ideas and thinking practices in computer science plus learn how to code using one of the friendliest programming languages, Snap! <em>(based on Scratch).</em></p>\n",
+        "short_description": "Data and Information\n\nComplexity Theory\n\nRecursion, Lambda and Higher Order Functions\n\nArtificial Intelligence\n\nHuman Computer Interaction\n\nLab-based Topics: Algorithms and Data, Trees and Fractals, Recursion and Higher Order Functions\n\n",
+        "url": "https://www.edx.org/course/the-beauty-and-joy-of-computing-cs-principles-part-4",
+        "number_of_students": ""
+    },
+    "English Grammar and Essay Writing": {
+        "id": [
+            "BerkeleyX/ColWri.2.2x/1T2015",
+            "BerkeleyX/ColWri.2.2x/1T2015"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/asset/images_course_image.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri.2.2x/thumbnail/images_course_image-750x400.jpg"
+        },
+        "course_duration": "2 weeks",
+        "price": "FREE",
+        "long_description": " <p>College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.</p></",
+        "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+        "url": "https://www.edx.org/course/english-grammar-and-essay-writing",
+        "number_of_students": "284,676 students"
+    },
+    "Principles of Written English, Part 3": {
+        "id": [
+            "BerkeleyX/ColWri2.3x/1T2014",
+            "BerkeleyX/ColWri2.3x/1T2014"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/asset/course-image-sans_text_2.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x/thumbnail/course-image-sans_text_2-750x400.jpg"
+        },
+        "course_duration": "1 weeks",
+        "price": "FREE",
+        "long_description": " <p>College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.</p></",
+        "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+        "url": "https://www.edx.org/course/principles-of-written-english-part-3",
+        "number_of_students": "284,676 students"
+    },
+    "Academic and Business Writing": {
+        "id": [
+            "BerkeleyX/ColWri2.3x_2/1T2015",
+            "BerkeleyX/ColWri2.3x_2/1T2015"
+        ],
+        "image": {
+            "raw": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/asset/course-image-sans_text_2.jpg",
+            "small": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-375x200.jpg",
+            "large": "https://courses.edx.org/c4x/BerkeleyX/ColWri2.3x_2/thumbnail/course-image-sans_text_2-750x400.jpg"
+        },
+        "course_duration": "1 weeks",
+        "price": "FREE",
+        "long_description": " <p>College Writing 2.2x providesan introduction to academic and business writing for English Language Learners. In this course, students focus on understanding the demands of different styles of writing, andwork to improve grammatical correctness, vocabulary development, and revision and editing skills. The five-week course includes material on vocabulary, tone, diction, and editing, all in the areas of academic and business writing. Students will have the opportunity to write on a number of different topics and ideas, always centered on areas of interest to them. The course materials are offered through readings and videos. Assignments include short writing assignments, quizzes, journal entries, and longer essays.</p></",
+        "short_description": "Refine persuasive writing techniques and essay development\n\nGain skills for proofreading, self-editing, revision, tone, and vocabulary\n\nDevelop strong English-language writing and communication skills\n\n",
+        "url": "https://www.edx.org/course/academic-and-business-writing",
+        "number_of_students": "284,676 students"
+    }
+}

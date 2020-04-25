@@ -1,0 +1,602 @@
+{
+    "AWS Certified Solutions Architect - Associate 2020": {
+        "id": 362328,
+        "url": "https://udemy.com/course/aws-certified-solutions-architect-associate/",
+        "price": "$179.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/362328_91f3_10.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/362328_91f3_10.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/362328_91f3_10.jpg"
+        }
+    },
+    "The Web Developer Bootcamp": {
+        "id": 625204,
+        "url": "https://udemy.com/course/the-web-developer-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/625204_436a_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/625204_436a_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/625204_436a_2.jpg"
+        }
+    },
+    "Complete Python Bootcamp: Go from zero to hero in Python 3": {
+        "id": 567828,
+        "url": "https://udemy.com/course/complete-python-bootcamp/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/567828_67d0.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/567828_67d0.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/567828_67d0.jpg"
+        }
+    },
+    "Angular - The Complete Guide (2020 Edition)": {
+        "id": 756150,
+        "url": "https://udemy.com/course/the-complete-guide-to-angular-2/",
+        "price": "$189.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/756150_c033_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/756150_c033_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/756150_c033_2.jpg"
+        }
+    },
+    "Machine Learning A-Z\u2122: Hands-On Python & R In Data Science": {
+        "id": 950390,
+        "url": "https://udemy.com/course/machinelearning/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/950390_270f_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/950390_270f_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/950390_270f_3.jpg"
+        }
+    },
+    "Java Programming Masterclass for Software Developers": {
+        "id": 533682,
+        "url": "https://udemy.com/course/java-the-complete-java-developer-course/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/533682_c10c_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/533682_c10c_4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/533682_c10c_4.jpg"
+        }
+    },
+    "Microsoft Excel - Excel from Beginner to Advanced": {
+        "id": 793796,
+        "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/793796_0e89.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/793796_0e89.jpg"
+        }
+    },
+    "The Ultimate Drawing Course - Beginner to Advanced": {
+        "id": 874012,
+        "url": "https://udemy.com/course/the-ultimate-drawing-course-beginner-to-advanced/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/874012_c7f2_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/874012_c7f2_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/874012_c7f2_3.jpg"
+        }
+    },
+    "The Complete Digital Marketing Course - 12 Courses in 1": {
+        "id": 914296,
+        "url": "https://udemy.com/course/learn-digital-marketing-course/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/914296_3670_8.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/914296_3670_8.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/914296_3670_8.jpg"
+        }
+    },
+    "Complete C# Unity Developer 2D: Learn to Code Making Games": {
+        "id": 258316,
+        "url": "https://udemy.com/course/unitycourse/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/258316_55e9_8.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/258316_55e9_8.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/258316_55e9_8.jpg"
+        }
+    },
+    "React - The Complete Guide (incl Hooks, React Router, Redux)": {
+        "id": 1362070,
+        "url": "https://udemy.com/course/react-the-complete-guide-incl-redux/",
+        "price": "$189.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1362070_b9a1_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1362070_b9a1_2.jpg"
+        }
+    },
+    "Python for Data Science and Machine Learning Bootcamp": {
+        "id": 903744,
+        "url": "https://udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/903744_8eb2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/903744_8eb2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/903744_8eb2.jpg"
+        }
+    },
+    "The Complete JavaScript Course 2020: Build Real Projects!": {
+        "id": 851712,
+        "url": "https://udemy.com/course/the-complete-javascript-course/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/851712_fc61_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/851712_fc61_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/851712_fc61_5.jpg"
+        }
+    },
+    "Learn Ethical Hacking From Scratch": {
+        "id": 857010,
+        "url": "https://udemy.com/course/learn-ethical-hacking-from-scratch/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/857010_8239_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/857010_8239_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/857010_8239_2.jpg"
+        }
+    },
+    "The Complete Web Developer Course 2.0": {
+        "id": 764164,
+        "url": "https://udemy.com/course/the-complete-web-developer-course-2/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/764164_de03_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/764164_de03_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/764164_de03_2.jpg"
+        }
+    },
+    "The Complete SQL Bootcamp": {
+        "id": 762616,
+        "url": "https://udemy.com/course/the-complete-sql-bootcamp/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/762616_7693_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/762616_7693_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/762616_7693_3.jpg"
+        }
+    },
+    "Modern React with Redux [2020 Update]": {
+        "id": 705264,
+        "url": "https://udemy.com/course/react-redux/",
+        "price": "$179.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/705264_caa9_11.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/705264_caa9_11.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/705264_caa9_11.jpg"
+        }
+    },
+    "The Data Science Course 2020: Complete Data Science Bootcamp": {
+        "id": 1754098,
+        "url": "https://udemy.com/course/the-data-science-course-complete-data-science-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1754098_e0df_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1754098_e0df_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1754098_e0df_3.jpg"
+        }
+    },
+    "Automate the Boring Stuff with Python Programming": {
+        "id": 543600,
+        "url": "https://udemy.com/course/automate/",
+        "price": "$49.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/543600_64d1_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/543600_64d1_4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/543600_64d1_4.jpg"
+        }
+    },
+    "The Complete 2020 Web Development Bootcamp": {
+        "id": 1565838,
+        "url": "https://udemy.com/course/the-complete-web-development-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1565838_e54e_11.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1565838_e54e_11.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1565838_e54e_11.jpg"
+        }
+    },
+    "The Complete Node.js Developer Course (3rd Edition)": {
+        "id": 922484,
+        "url": "https://udemy.com/course/the-complete-nodejs-developer-course-2/",
+        "price": "$84.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/922484_52a1_8.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/922484_52a1_8.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/922484_52a1_8.jpg"
+        }
+    },
+    "Tableau 10 A-Z: Hands-On Tableau Training For Data Science!": {
+        "id": 937678,
+        "url": "https://udemy.com/course/tableau10/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/937678_abd2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/937678_abd2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/937678_abd2.jpg"
+        }
+    },
+    "PMP Exam Prep Seminar -  PMBOK Guide 6": {
+        "id": 1361790,
+        "url": "https://udemy.com/course/pmp-pmbok6-35-pdus/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1361790_2eb7.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1361790_2eb7.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1361790_2eb7.jpg"
+        }
+    },
+    "Unreal Engine C++ Developer: Learn C++ and Make Video Games": {
+        "id": 657932,
+        "url": "https://udemy.com/course/unrealcourse/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/657932_c7e0_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/657932_c7e0_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/657932_c7e0_3.jpg"
+        }
+    },
+    "Selenium WebDriver with Java -Basics to Advanced+Frameworks": {
+        "id": 354176,
+        "url": "https://udemy.com/course/selenium-real-time-examplesinterview-questions/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/354176_fe73_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/354176_fe73_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/354176_fe73_5.jpg"
+        }
+    },
+    "Data Structures & Algorithms !": {
+        "id": 1330262,
+        "url": "https://udemy.com/course/learn-data-structure-algorithms-with-java-interview/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1330262_8d3d_3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1330262_8d3d_3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1330262_8d3d_3.jpg"
+        }
+    },
+    "Spring & Hibernate for Beginners (includes Spring Boot)": {
+        "id": 647428,
+        "url": "https://udemy.com/course/spring-hibernate-tutorial/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/647428_be28_6.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/647428_be28_6.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/647428_be28_6.jpg"
+        }
+    },
+    "Character Art School: Complete Character Drawing Course": {
+        "id": 1259404,
+        "url": "https://udemy.com/course/character-art-school-complete-character-drawing/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1259404_72d4_7.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1259404_72d4_7.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1259404_72d4_7.jpg"
+        }
+    },
+    "Learn Python Programming Masterclass": {
+        "id": 629302,
+        "url": "https://udemy.com/course/python-the-complete-python-developer-course/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/629302_8a2d_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/629302_8a2d_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/629302_8a2d_2.jpg"
+        }
+    },
+    "JavaScript: Understanding the Weird Parts": {
+        "id": 364426,
+        "url": "https://udemy.com/course/understand-javascript/",
+        "price": "$174.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/364426_2991_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/364426_2991_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/364426_2991_5.jpg"
+        }
+    },
+    "Build Responsive Real World Websites with HTML5 and CSS3": {
+        "id": 437398,
+        "url": "https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/437398_46c3_9.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/437398_46c3_9.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/437398_46c3_9.jpg"
+        }
+    },
+    "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert": {
+        "id": 1187016,
+        "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+        "price": "$179.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1187016_51b3.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1187016_51b3.jpg"
+        }
+    },
+    "Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)": {
+        "id": 995016,
+        "url": "https://udemy.com/course/vuejs-2-the-complete-guide/",
+        "price": "$189.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/995016_ebf4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/995016_ebf4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/995016_ebf4.jpg"
+        }
+    },
+    "Ultimate Google Ads Training 2020: Profit with Pay Per Click": {
+        "id": 671544,
+        "url": "https://udemy.com/course/the-ultimate-google-adwords-training-course/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/671544_9613_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/671544_9613_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/671544_9613_5.jpg"
+        }
+    },
+    "AWS Certified Developer - Associate 2020": {
+        "id": 393306,
+        "url": "https://udemy.com/course/aws-certified-developer-associate/",
+        "price": "$149.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/393306_f2a5_6.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/393306_f2a5_6.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/393306_f2a5_6.jpg"
+        }
+    },
+    "Complete Blender Creator: Learn 3D Modelling for Beginners": {
+        "id": 438522,
+        "url": "https://udemy.com/course/blendertutorial/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/438522_500f_6.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/438522_500f_6.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/438522_500f_6.jpg"
+        }
+    },
+    "Reiki Level I, II and Master/Teacher Program": {
+        "id": 59527,
+        "url": "https://udemy.com/course/reikicourse/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/59527_ac27_15.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/59527_ac27_15.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/59527_ac27_15.jpg"
+        }
+    },
+    "iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp": {
+        "id": 1778502,
+        "url": "https://udemy.com/course/ios-13-app-development-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1778502_f4b9_11.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1778502_f4b9_11.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1778502_f4b9_11.jpg"
+        }
+    },
+    "The Python Mega Course: Build 10 Real World Applications": {
+        "id": 692188,
+        "url": "https://udemy.com/course/the-python-mega-course/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/692188_9da7_13.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/692188_9da7_13.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/692188_9da7_13.jpg"
+        }
+    },
+    "Docker Mastery: with Kubernetes +Swarm from a Docker Captain": {
+        "id": 1035000,
+        "url": "https://udemy.com/course/docker-mastery/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1035000_c1aa_6.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1035000_c1aa_6.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1035000_c1aa_6.jpg"
+        }
+    },
+    "An Entire MBA in 1 Course:Award Winning Business School Prof": {
+        "id": 637930,
+        "url": "https://udemy.com/course/an-entire-mba-in-1-courseaward-winning-business-school-prof/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/637930_9a22_19.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/637930_9a22_19.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/637930_9a22_19.jpg"
+        }
+    },
+    "C# Basics for Beginners: Learn C# Fundamentals by Coding": {
+        "id": 382002,
+        "url": "https://udemy.com/course/csharp-tutorial-for-beginners/",
+        "price": "$179.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/382002_5d4a.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/382002_5d4a.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/382002_5d4a.jpg"
+        }
+    },
+    "The Complete Web Developer in 2020: Zero to Mastery": {
+        "id": 1430746,
+        "url": "https://udemy.com/course/the-complete-web-developer-zero-to-mastery/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1430746_2f43_9.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1430746_2f43_9.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1430746_2f43_9.jpg"
+        }
+    },
+    "iOS 11 & Swift 4 - The Complete iOS App Development Bootcamp": {
+        "id": 1289478,
+        "url": "https://udemy.com/course/ios11-app-development-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1289478_5831_9.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1289478_5831_9.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1289478_5831_9.jpg"
+        }
+    },
+    "The Complete React Native + Hooks Course [2020 Edition]": {
+        "id": 959700,
+        "url": "https://udemy.com/course/the-complete-react-native-and-redux-course/",
+        "price": "$94.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/959700_8bd2_11.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/959700_8bd2_11.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/959700_8bd2_11.jpg"
+        }
+    },
+    "The Complete Financial Analyst Course 2020": {
+        "id": 648826,
+        "url": "https://udemy.com/course/the-complete-financial-analyst-course/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/648826_f0e5_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/648826_f0e5_4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/648826_f0e5_4.jpg"
+        }
+    },
+    "Photography Masterclass: A Complete Guide to Photography": {
+        "id": 1462428,
+        "url": "https://udemy.com/course/photography-masterclass-complete-guide-to-photography/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1462428_639f_7.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1462428_639f_7.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1462428_639f_7.jpg"
+        }
+    },
+    "Deep Learning A-Z\u2122: Hands-On Artificial Neural Networks": {
+        "id": 1151632,
+        "url": "https://udemy.com/course/deeplearning/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1151632_de9b.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1151632_de9b.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1151632_de9b.jpg"
+        }
+    },
+    "R Programming A-Z\u2122: R For Data Science With Real Exercises!": {
+        "id": 765242,
+        "url": "https://udemy.com/course/r-programming/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/765242_2578.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/765242_2578.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/765242_2578.jpg"
+        }
+    },
+    "Microsoft Power BI - A Complete Introduction": {
+        "id": 1208634,
+        "url": "https://udemy.com/course/powerbi-complete-introduction/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1208634_cd50.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1208634_cd50.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1208634_cd50.jpg"
+        }
+    },
+    "Pianoforall - Incredible New Way To Learn Piano & Keyboard": {
+        "id": 238934,
+        "url": "https://udemy.com/course/pianoforall-incredible-new-way-to-learn-piano-keyboard/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/238934_4d81_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/238934_4d81_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/238934_4d81_5.jpg"
+        }
+    },
+    "Python and Django Full Stack Web Developer Bootcamp": {
+        "id": 822444,
+        "url": "https://udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/822444_a6db.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/822444_a6db.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/822444_a6db.jpg"
+        }
+    },
+    "The Complete Ethical Hacking Course: Beginner to Advanced!": {
+        "id": 437490,
+        "url": "https://udemy.com/course/penetration-testing/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/437490_c76a_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/437490_c76a_4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/437490_c76a_4.jpg"
+        }
+    },
+    "The Complete Cyber Security Course : Hackers Exposed!": {
+        "id": 614772,
+        "url": "https://udemy.com/course/the-complete-internet-security-privacy-course-volume-1/",
+        "price": "$119.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/614772_233b_9.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/614772_233b_9.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/614772_233b_9.jpg"
+        }
+    },
+    "The Complete Android N Developer Course": {
+        "id": 951618,
+        "url": "https://udemy.com/course/complete-android-n-developer-course/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/951618_0839_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/951618_0839_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/951618_0839_2.jpg"
+        }
+    },
+    "CCNA 2019 200-125 Video Boot Camp With Chris Bryant": {
+        "id": 10812,
+        "url": "https://udemy.com/course/ccna-on-demand-video-boot-camp/",
+        "price": "$19.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/10812_b0af_6.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/10812_b0af_6.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/10812_b0af_6.jpg"
+        }
+    },
+    "The Python Bible\u2122 | Everything You Need to Program in Python": {
+        "id": 903378,
+        "url": "https://udemy.com/course/the-python-bible/",
+        "price": "$194.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/903378_f32d_5.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/903378_f32d_5.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/903378_f32d_5.jpg"
+        }
+    },
+    "Docker and Kubernetes: The Complete Guide": {
+        "id": 1793828,
+        "url": "https://udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+        "price": "$99.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/1793828_7999.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/1793828_7999.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/1793828_7999.jpg"
+        }
+    },
+    "Data Science A-Z\u2122: Real-Life Data Science Exercises Included": {
+        "id": 513244,
+        "url": "https://udemy.com/course/datascience/",
+        "price": "$199.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/513244_b831_2.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/513244_b831_2.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/513244_b831_2.jpg"
+        }
+    },
+    "Microsoft Excel - Advanced Excel Formulas & Functions": {
+        "id": 516446,
+        "url": "https://udemy.com/course/excel-for-analysts/",
+        "price": "$174.99",
+        "image": {
+            "image_125_H": "https://i.udemycdn.com/course/125_H/516446_4935_4.jpg",
+            "image_240x135": "https://i.udemycdn.com/course/240x135/516446_4935_4.jpg",
+            "image_480x270": "https://i.udemycdn.com/course/480x270/516446_4935_4.jpg"
+        }
+    }
+}

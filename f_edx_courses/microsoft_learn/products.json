@@ -1,0 +1,436 @@
+[
+   {
+      "id": "dotnet",
+      "name": ".NET",
+      "children": [
+         {
+            "id": "dotnet-core",
+            "name": ".NET Core"
+         },
+         {
+            "id": "dotnet-standard",
+            "name": ".NET Standard"
+         },
+         {
+            "id": "aspnet-core",
+            "name": "ASP.NET Core"
+         },
+         {
+            "id": "ef-core",
+            "name": "Entity Framework Core"
+         },
+         {
+            "id": "xamarin",
+            "name": "Xamarin"
+         }
+      ]
+   },
+   {
+      "id": "azure",
+      "name": "Azure",
+      "children": [
+         {
+            "id": "azure-api-management",
+            "name": "API Management"
+         },
+         {
+            "id": "azure-app-service",
+            "name": "App Service"
+         },
+         {
+            "id": "azure-application-gateway",
+            "name": "Application Gateway"
+         },
+         {
+            "id": "azure-application-insights",
+            "name": "Application Insights"
+         },
+         {
+            "id": "azure-automation",
+            "name": "Automation"
+         },
+         {
+            "id": "azure-active-directory",
+            "name": "Azure Active Directory"
+         },
+         {
+            "id": "azure-advisor",
+            "name": "Azure Advisor"
+         },
+         {
+            "id": "azure-devops",
+            "name": "Azure DevOps"
+         },
+         {
+            "id": "azure-notebooks",
+            "name": "Azure Notebooks"
+         },
+         {
+            "id": "azure-portal",
+            "name": "Azure Portal"
+         },
+         {
+            "id": "azure-resource-manager",
+            "name": "Azure Resource Manager"
+         },
+         {
+            "id": "azure-backup",
+            "name": "Backup"
+         },
+         {
+            "id": "azure-batch",
+            "name": "Batch"
+         },
+         {
+            "id": "azure-blueprints",
+            "name": "Blueprints"
+         },
+         {
+            "id": "azure-bot-service",
+            "name": "Bot Service"
+         },
+         {
+            "id": "azure-clis",
+            "name": "CLIs"
+         },
+         {
+            "id": "azure-cloud-shell",
+            "name": "Cloud Shell"
+         },
+         {
+            "id": "azure-cognitive-services",
+            "name": "Cognitive Services"
+         },
+         {
+            "id": "azure-container-instances",
+            "name": "Container Instances"
+         },
+         {
+            "id": "azure-container-registry",
+            "name": "Container Registry"
+         },
+         {
+            "id": "azure-cdn",
+            "name": "Content Delivery Network"
+         },
+         {
+            "id": "azure-cosmos-db",
+            "name": "Cosmos DB"
+         },
+         {
+            "id": "azure-cost-management",
+            "name": "Cost Management"
+         },
+         {
+            "id": "azure-data-box-family",
+            "name": "Data Box Family"
+         },
+         {
+            "id": "azure-data-lake",
+            "name": "Data Lake"
+         },
+         {
+            "id": "azure-data-science-vm",
+            "name": "Data Science Virtual Machines"
+         },
+         {
+            "id": "azure-event-grid",
+            "name": "Event Grid"
+         },
+         {
+            "id": "azure-event-hubs",
+            "name": "Event Hubs"
+         },
+         {
+            "id": "azure-expressroute",
+            "name": "ExpressRoute"
+         },
+         {
+            "id": "azure-files",
+            "name": "Files"
+         },
+         {
+            "id": "azure-functions",
+            "name": "Functions"
+         },
+         {
+            "id": "azure-hdinsight",
+            "name": "HDInsight"
+         },
+         {
+            "id": "azure-iot",
+            "name": "IoT"
+         },
+         {
+            "id": "azure-iot-central",
+            "name": "IoT Central"
+         },
+         {
+            "id": "azure-iot-edge",
+            "name": "IoT Edge"
+         },
+         {
+            "id": "azure-iot-hub",
+            "name": "IoT Hub"
+         },
+         {
+            "id": "azure-key-vault",
+            "name": "Key Vault"
+         },
+         {
+            "id": "azure-kubernetes-service",
+            "name": "Kubernetes Service"
+         },
+         {
+            "id": "azure-language-understanding",
+            "name": "Language Understanding"
+         },
+         {
+            "id": "azure-load-balancer",
+            "name": "Load Balancer"
+         },
+         {
+            "id": "azure-logic-apps",
+            "name": "Logic Apps"
+         },
+         {
+            "id": "azure-machine-learning-service",
+            "name": "Machine Learning Service"
+         },
+         {
+            "id": "azure-machine-learning-studio",
+            "name": "Machine Learning Studio"
+         },
+         {
+            "id": "azure-maps",
+            "name": "Maps"
+         },
+         {
+            "id": "azure-monitor",
+            "name": "Monitor"
+         },
+         {
+            "id": "azure-policy",
+            "name": "Policy"
+         },
+         {
+            "id": "azure-redis-cache",
+            "name": "Redis Cache"
+         },
+         {
+            "id": "azure-sdks",
+            "name": "SDKs"
+         },
+         {
+            "id": "azure-security-center",
+            "name": "Security Center"
+         },
+         {
+            "id": "azure-sentinel",
+            "name": "Sentinel"
+         },
+         {
+            "id": "azure-service-bus",
+            "name": "Service Bus"
+         },
+         {
+            "id": "azure-service-health",
+            "name": "Service Health"
+         },
+         {
+            "id": "azure-site-recovery",
+            "name": "Site Recovery"
+         },
+         {
+            "id": "azure-sql-data-warehouse",
+            "name": "SQL Data Warehouse"
+         },
+         {
+            "id": "azure-sql-database",
+            "name": "SQL Database"
+         },
+         {
+            "id": "azure-storage",
+            "name": "Storage"
+         },
+         {
+            "id": "azure-stream-analytics",
+            "name": "Stream Analytics"
+         },
+         {
+            "id": "azure-traffic-manager",
+            "name": "Traffic Manager"
+         },
+         {
+            "id": "azure-virtual-machines",
+            "name": "Virtual Machines"
+         },
+         {
+            "id": "azure-virtual-network",
+            "name": "Virtual Network"
+         },
+         {
+            "id": "azure-vpn-gateway",
+            "name": "VPN Gateway"
+         }
+      ]
+   },
+   {
+      "id": "dynamics",
+      "name": "Dynamics 365",
+      "children": [
+         {
+            "id": "dynamics-ai-customer-service",
+            "name": "AI for Customer Service"
+         },
+         {
+            "id": "dynamics-ai-sales",
+            "name": "AI for Sales"
+         },
+         {
+            "id": "dynamics-business-central",
+            "name": "Business Central"
+         },
+         {
+            "id": "dynamics-customer-engagement",
+            "name": "Customer Engagement apps"
+         },
+         {
+            "id": "dynamics-customer-service",
+            "name": "Customer Service"
+         },
+         {
+            "id": "dynamics-field-service",
+            "name": "Field Service"
+         },
+         {
+            "id": "dynamics-finance",
+            "name": "Finance"
+         },
+         {
+            "id": "dynamics-finance-operations",
+            "name": "Finance and Operations"
+         },
+         {
+            "id": "dynamics-layout",
+            "name": "Layout"
+         },
+         {
+            "id": "dynamics-marketing",
+            "name": "Marketing"
+         },
+         {
+            "id": "dynamics-remote-assist",
+            "name": "Remote Assist"
+         },
+         {
+            "id": "dynamics-retail",
+            "name": "Retail"
+         },
+         {
+            "id": "dynamics-sales",
+            "name": "Sales"
+         },
+         {
+            "id": "dynamics-scm",
+            "name": "Supply Chain Management"
+         },
+         {
+            "id": "dynamics-talent",
+            "name": "Talent"
+         }
+      ]
+   },
+   {
+      "id": "m365",
+      "name": "Microsoft 365",
+      "children": [
+         {
+            "id": "m365-information-protection",
+            "name": "Information Protection"
+         },
+         {
+            "id": "m365-security-center",
+            "name": "Security Center"
+         },
+         {
+            "id": "m365-security-score",
+            "name": "Security Score"
+         },
+         {
+            "id": "m365-threat-protection",
+            "name": "Threat Protection"
+         }
+      ]
+   },
+   {
+      "id": "ms-graph",
+      "name": "Microsoft Graph"
+   },
+   {
+      "id": "office",
+      "name": "Office",
+      "children": [
+         {
+            "id": "office-365",
+            "name": "Office 365"
+         },
+         {
+            "id": "office-add-ins",
+            "name": "Office Add-ins"
+         },
+         {
+            "id": "office-teams",
+            "name": "Teams"
+         }
+      ]
+   },
+   {
+      "id": "power-platform",
+      "name": "Power Platform",
+      "children": [
+         {
+            "id": "common-data-service",
+            "name": "Common Data Service"
+         },
+         {
+            "id": "powerapps",
+            "name": "Power Apps"
+         },
+         {
+            "id": "power-automate",
+            "name": "Power Automate"
+         },
+         {
+            "id": "power-bi",
+            "name": "Power BI"
+         }
+      ]
+   },
+   {
+      "id": "sql-server",
+      "name": "SQL Server"
+   },
+   {
+      "id": "vs",
+      "name": "Visual Studio",
+      "children": [
+         {
+            "id": "vs-app-center",
+            "name": "App Center"
+         },
+         {
+            "id": "vs-code",
+            "name": "Visual Studio Code"
+         },
+         {
+            "id": "vs-mac",
+            "name": "Visual Studio for Mac"
+         }
+      ]
+   },
+   {
+      "id": "windows",
+      "name": "Windows"
+   }
+]
