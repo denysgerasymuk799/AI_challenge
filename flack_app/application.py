@@ -46,14 +46,22 @@ def skills_for_job(job):
     :param job:
     :return:
     """
-    # dict_skills = get_parts(["job_title", "skills_list"], "skills_for_all_professions")
-    # print(dict_skills)
-    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions.json'), 'r', encoding='utf-8') as \
-            json_file:
-        all_skills = json.load(json_file)
+    temp_dir = os.getcwd()
+    os.chdir('..')
+    # retrieve skills from database
+    filename = os.path.join(os.getcwd(), 'sea_db', 'courses_and_skills_db.ini')
+    list_from_db = get_parts(["job_title", "skills_list"], "skills_for_all_professions", filename=filename)
+    os.chdir(temp_dir)
 
     title_profession = '+'.join(job.split())
-    return all_skills[title_profession]
+    result_skill_list = []
+    for tuple_data in list_from_db:
+        title_profession_from_db, list_skills = tuple_data
+        if title_profession_from_db == title_profession:
+            result_skill_list = list_skills
+            break
+
+    return result_skill_list
 
 
 global skills
