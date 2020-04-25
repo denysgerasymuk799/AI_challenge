@@ -1,22 +1,16 @@
-import json
-import re
-import ssl
 import time
 from datetime import datetime
 
 import boto3
-import psycopg2
 import requests
-from pprint import pprint
 import os
 
-from psycopg2._json import Json
 from psycopg2._psycopg import AsIs
 from slugify import slugify
 from bs4 import BeautifulSoup
 
-# from parser_work_ua import cache_page
 from sea_db import config, db_functions
+from sea_db.db_functions import if_course_in_db
 
 
 def dir_for_save_html(dir_name):
@@ -151,13 +145,14 @@ def find1_course_for_skill(courses_json_find1):
     cur, conn = db_functions.connect_to_db(filename=filename)
 
     if cur:
+        columns = []
         for n_course, course in enumerate(courses_json_find1):
             courses_for_profession[course["name"]] = {}
 
             root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
             url = "https://www.coursera.org/learn/" + course["slug"]
 
-            # course_for_profession = parse_course_pages(url, root_path, course_for_profession)
+            # parse all courses from this page
             courses_for_profession[course["name"]] = parse_course_pages(url, root_path, courses_for_profession[course["name"]])
 
             courses_for_profession[course["name"]]["long_description"] = course["description"]
@@ -165,13 +160,21 @@ def find1_course_for_skill(courses_json_find1):
             # if n_course % 200 == 0:
             n += 1
 
-            columns = courses_for_profession[course["name"]].keys()
+            # write in database
+            if n_course == 0:
+                columns = courses_for_profession[course["name"]].keys()
+
             values = [course["name"]] + [courses_for_profession[course["name"]][column] for column in columns]
 
             insert_statement = 'INSERT INTO {} (course_title, %s) VALUES %s'.format("Coursera")
 
+            if if_course_in_db(course["name"], ['course_title'], "coursera", filename):
+                print("Found in db")
+                continue
+
             cur.execute("ROLLBACK")
             conn.commit()
+
             cur.execute(insert_statement, (AsIs(', '.join(columns)), tuple(values)))
             conn.commit()
 
@@ -180,7 +183,7 @@ def find1_course_for_skill(courses_json_find1):
             #     break
 
         cur.close()
-        print("key2", len(courses_for_profession.keys()))
+        print("number_all_parse_courses", len(courses_for_profession.keys()))
 
 
 if __name__ == '__main__':
@@ -189,7 +192,7 @@ if __name__ == '__main__':
           "v2Details&fields=instructorIds,partnerIds,specializations,s12nlds,description"
     data = requests.get(url).json()
     courses_json = data["elements"]
-    print("key1", len(data["elements"]))
+    print("number_of_all_courses", len(data["elements"]))
 
     skill_list = ["AWS Machine Learning", "design", "Gamification"]
     find1_course_for_skill(courses_json)

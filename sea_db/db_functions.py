@@ -9,8 +9,6 @@ from sea_db import config
 
 def get_parts(retrieve_parameters, title_table, filename):
     """ query parts from the parts table """
-    conn = None
-    # try:
     params = config.config(filename=filename)
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
@@ -22,11 +20,6 @@ def get_parts(retrieve_parameters, title_table, filename):
 
     cur.close()
     return rows_copy
-    # except (Exception, psycopg2.DatabaseError) as error:
-    #     print(error)
-    # finally:
-    #     if conn is not None:
-    #         conn.close()
 
 
 def create_table(online_platform_name, filename):
@@ -43,11 +36,6 @@ def create_table(online_platform_name, filename):
         conn = psycopg2.connect(**params)
         # create a new cursor
         cur = conn.cursor()
-        # cur.execute('''
-        # CREATE TABLE IF NOT EXISTS Coursera (num_course_page character varying, courses_from_page TEXT)''')
-        #
-        # columns = samle_course_dict.keys()
-        # values = [samle_course_dict[column] for column in columns]
 
         cur.execute('''CREATE TABLE IF NOT EXISTS {} (course_title character varying, price character varying,
          image character varying, course_duration character varying,
@@ -69,12 +57,6 @@ def connect_to_db(filename):
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
-    #
-    # temp_dir = os.getcwd()
-    # os.chdir('..')
-    # # retrieve skills from database
-    # filename = os.path.join(os.getcwd(), 'sea_db', 'courses_and_skills_db.ini')
-    # os.chdir(temp_dir)
 
     conn = None
     try:
@@ -85,7 +67,6 @@ def connect_to_db(filename):
         # create a new cursor
         cur = conn.cursor()
 
-        # cur.execute(insert_statement, (AsIs(','.join(columns)), tuple(values)))
         return cur, conn
 
     except (Exception, psycopg2.DatabaseError) as error:
@@ -115,7 +96,6 @@ def transform_data_from_table_in_json(table_name, filename):
     print(list_from_db)
     print(page_courses_json)
     return page_courses_json
-    # page_courses_json
 
 
 def insert_sql(table_name, answers):
@@ -184,6 +164,16 @@ def update_sql(name_table, name_parameter, username, parameter):
             conn.close()
 
     return updated_rows
+
+
+def if_course_in_db(course_name, retrieve_parameters, table_name, filename):
+    course_inf = get_parts(retrieve_parameters, table_name, filename)
+    # search course_name in database
+    for course_data in course_inf:
+        if course_data[0] == course_name:
+            return True
+
+    return False
 
 
 if __name__ == '__main__':
