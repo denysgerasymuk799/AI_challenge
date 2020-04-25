@@ -1,17 +1,22 @@
 import json
 import re
+import ssl
 import time
 from datetime import datetime
 
 import boto3
+import psycopg2
 import requests
 from pprint import pprint
 import os
-from slugify import slugify
 
+from psycopg2._json import Json
+from psycopg2._psycopg import AsIs
+from slugify import slugify
 from bs4 import BeautifulSoup
 
 # from parser_work_ua import cache_page
+from sea_db import config, db_functions
 
 
 def dir_for_save_html(dir_name):
@@ -136,30 +141,46 @@ def find1_course_for_skill(courses_json_find1):
     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
     n = 0
 
-    for n_course, course in enumerate(courses_json_find1):
-        courses_for_profession[course["name"]] = {}
+    # create path for config from this module to connect to database
+    temp_dir = os.getcwd()
+    os.chdir('..')
+    filename = os.path.join(os.getcwd(), 'sea_db', 'courses_and_skills_db.ini')
+    os.chdir(temp_dir)
 
-        # root_path = dir_for_save_html("coursera_courses_pages")
-        root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
-        url = "https://www.coursera.org/learn/" + course["slug"]
+    db_functions.create_table("Coursera", filename=filename)
+    cur, conn = db_functions.connect_to_db(filename=filename)
 
-        # course_for_profession = parse_course_pages(url, root_path, course_for_profession)
-        courses_for_profession[course["name"]] = parse_course_pages(url, root_path, courses_for_profession[course["name"]])
+    if cur:
+        for n_course, course in enumerate(courses_json_find1):
+            courses_for_profession[course["name"]] = {}
 
-        courses_for_profession[course["name"]]["long_description"] = course["description"]
-        courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
-        if n_course % 200 == 0:
+            root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
+            url = "https://www.coursera.org/learn/" + course["slug"]
+
+            # course_for_profession = parse_course_pages(url, root_path, course_for_profession)
+            courses_for_profession[course["name"]] = parse_course_pages(url, root_path, courses_for_profession[course["name"]])
+
+            courses_for_profession[course["name"]]["long_description"] = course["description"]
+            courses_for_profession[course["name"]]["url"] = "https://www.coursera.org/learn/" + course["slug"]
+            # if n_course % 200 == 0:
             n += 1
-            with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + str(n) + '.json'), "a",
-                      encoding="utf-8") as f:
-                json.dump(courses_for_profession, f, indent=4, ensure_ascii=False)
+
+            columns = courses_for_profession[course["name"]].keys()
+            values = [course["name"]] + [courses_for_profession[course["name"]][column] for column in columns]
+
+            insert_statement = 'INSERT INTO {} (course_title, %s) VALUES %s'.format("Coursera")
+
+            cur.execute("ROLLBACK")
+            conn.commit()
+            cur.execute(insert_statement, (AsIs(', '.join(columns)), tuple(values)))
+            conn.commit()
 
             courses_for_profession = {}
-        else:
-            with open(os.path.join(os.getcwd(), 'coursera_courses_for_profession' + str(n) + '.json'), "w", encoding="utf-8") as f:
-                json.dump(courses_for_profession, f, indent=4, ensure_ascii=False)
+            # if n == 2:
+            #     break
 
-    print("key2", len(courses_for_profession.keys()))
+        cur.close()
+        print("key2", len(courses_for_profession.keys()))
 
 
 if __name__ == '__main__':
@@ -172,11 +193,3 @@ if __name__ == '__main__':
 
     skill_list = ["AWS Machine Learning", "design", "Gamification"]
     find1_course_for_skill(courses_json)
-
-# if __name__ == '__main__':
-#     now = datetime.now()
-#     table = dict()
-#     timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
-#     root_path = os.path.join('coursera_pages', timestamp).replace("\\", "/")
-#     print(parse_course_pages("https://www.coursera.org/learn/social-media-advertising",
-#                        root_path, table))

@@ -14,9 +14,6 @@ def write_json_in_db(record_list):
 
     # get the column names
     columns = list(record_list.keys())
-    # columns_lst = []
-    # for column in columns:
-    #     columns_lst.append(''.join(column.split("+")))
 
     # value string for the SQL string
     values_str = []
