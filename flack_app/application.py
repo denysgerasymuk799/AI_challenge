@@ -3,11 +3,14 @@ import os
 
 # from docx import Document
 from flask import Flask, render_template, url_for, request, redirect, session
+from flask_sqlalchemy import SQLAlchemy
 
-from sea_db.db_functions import get_parts
+#from sea_db.db_functions import get_parts
 
 app = Flask(__name__)
 app.secret_key = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+db = SQLAlchemy(app)
 
 
 def get_courses(current_skills):
