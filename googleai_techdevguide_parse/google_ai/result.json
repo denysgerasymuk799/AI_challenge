@@ -1,0 +1,317 @@
+{
+   "AI for Social Good Guide": {
+      "url": "/education/social-good-guide/",
+      "image": "https://lh3.googleusercontent.com/WR793ooi_g9rIe7VCks41GX9_FsyxAQ3BvOmKp8zcOsz1ASJpeyDV1TDoUJituXbscMSlPmRW_D82puK0srj9DGlYc6qMVoxqRAMoA",
+      "short_description": "Learn how to apply artificial intelligence (AI) and machine learning (ML) to social, humanitarian or environmental challenges.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Introduction to Federated Learning": {
+      "url": "https://federated.withgoogle.com/",
+      "image": "https://lh3.googleusercontent.com/2Xo0dfcbxf9IAXiyC3MXTiUdY_6eG0bCZUrz8krYJC1tbR0eqFLDZiTM_kKL6k1N5t4A8cK8OnJjDsPiYk7vT2BTfBw5kwrq2r-FJw",
+      "short_description": "Learn how to build better products with on-device data and privacy by default in a new online comic from Google AI.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "People + AI Guidebook": {
+      "url": "https://design.google/ai-guidebook",
+      "image": "https://lh3.googleusercontent.com/TnzV3wx_0U-wNopKQ9QV6_H3coyvFMTGrnv-_KgDOPCepW-DbP4Ft59cRxKW3m25MGKMWbnFCcO7uishXW3V6PJxyzvUYomK7ghJ0g",
+      "short_description": "Tools, methods and best practices for designing AI products in a human-centered way.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Clustering": {
+      "url": "https://developers.google.com/machine-learning/clustering/",
+      "image": "https://lh3.googleusercontent.com/r7y1b39sh7xfkUN6pBey7BzbNgMGxgOHCln4NrDNffWspxcltLdmIkBx5jLb6bf51GwrS8LZZFuG3sDPTct5zKMoc7AFYE9me9rA7g",
+      "short_description": "This four-hour, self-study course is an implementation-oriented introduction to clustering.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Recommendation Systems": {
+      "url": "https://developers.google.com/machine-learning/recommendation/",
+      "image": "https://lh3.googleusercontent.com/HfTFuCePp8wmY9_rCwJB2yPP8TnK3rCMl18F6rTeEm4HTGyurtMArUsiXDzFQZoPRs-aDj7zpHGSuqi_9elMm6ScLRzl2lfaRY5f3NE",
+      "short_description": "This four-hour course is designed to expand your knowledge of recommendation systems and explain different models used in recommendation, including matrix factorization and deep neural networks.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Testing and Debugging in Machine Learning": {
+      "url": "https://developers.google.com/machine-learning/testing-debugging/",
+      "image": "https://lh3.googleusercontent.com/Mt4Ee2qhw5P_yT2t56fxs18xqgB8gaSTlA3_0jZSeRgUhVDu4THdWtRMQFe0S_6wmMYVrlLuLovj7Heq-kMwhPXtoOCxtG06_InjQQ",
+      "short_description": "Testing and debugging machine learning systems differs significantly from testing and debugging traditional software. This four-hour course describes how, starting from debugging your model all the way to monitoring your pipeline in production.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Introduction to Machine Learning Problem Framing": {
+      "url": "https://developers.google.com/machine-learning/problem-framing/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=problem-framing",
+      "image": "https://lh3.googleusercontent.com/PRotPPURtGlMjzxd8Irny87OqVJUjfhzgve-xPsmnzpwzf9uC1wtsQ5_DeVg5n1P-AOKb7Coj79N0abcYKn5WVvu3najPsRxV5szk0c",
+      "short_description": "This one-hour course introduces the machine learning mindset and helps you identify appropriate situations for machine learning.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Data Preparation and Feature Engineering for Machine Learning": {
+      "url": "https://developers.google.com/machine-learning/data-prep/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=data-prep",
+      "image": "https://lh3.googleusercontent.com/hRsRTbtB6pjfcb5OVA2Rqq8lBiCKtbiuuC_RxPMDIAbYEBesjNwM7VHl0_KELVmcV7ZdPL1TR3Fw5EeSzx2Hi7Nop-G8xul-gr9_IA",
+      "short_description": "This three-hour course focuses on creating good data sets, choosing the best features, and representing those features optimally.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Machine learning guides": {
+      "url": "https://developers.google.com/machine-learning/guides",
+      "image": "https://lh3.googleusercontent.com/F20B4JKU4q4lqdgz5SpZCEQ3bQK38n3uDXi41FJkFs8UGfszOBmouIaVBFdR045X8UH463wsDRJp7Kn4wsfIhvzQCxcXtLOvacypng",
+      "short_description": "Explore a gallery of simple guides to solve common machine learning problems using best practices.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Machine Learning Crash Course with TensorFlow APIs": {
+      "url": "https://developers.google.com/machine-learning/crash-course/",
+      "image": "https://lh3.googleusercontent.com/6YnovTClZnOSH503_N7vMiXqKvv3i7sQdpRSNrLaIrUK1Uo7HvM752WYKboFcgecAsvPr4hqwOnVc3GL1zliiiHc4IlcpjhfLuDV4w",
+      "short_description": "Google's fast-paced, practical introduction to machine learning. A self-study guide for aspiring machine learning practitioners.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Intro to Fairness in Machine Learning module": {
+      "url": "https://developers.google.com/machine-learning/crash-course/fairness/video-lecture",
+      "image": "https://lh3.googleusercontent.com/zg8w6WOuyty18CSPQJQwmz5091cpB8gu1vn32P_-N-feQK6hbwOzG8Lsj8KFAMBULoFNfmYl45CaFMCDPCGaZcKvpIhVeaoeTMNQaMs",
+      "short_description": "This one-hour module within Google's MLCC introduces learners to different types of human biases that can manifest in training data, as well as strategies for identifying, and evaluating their effects.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Responsible AI practices": {
+      "url": "/responsibilities/responsible-ai-practices/",
+      "image": "https://lh3.googleusercontent.com/CPslEsa2zVWPTWzBhoLHJFa6i8LSuurTBtkNYomAiB-CwZwQ89McPKITFJWbJFvDxuNKqpVmxPdmBnSkW5H8W9QqMx97mMpssu2J",
+      "short_description": "We're committed to progress in the responsible development of AI and to sharing knowledge, research, tools, datasets, and other resources. Learn more about recommended practices and our current work.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Seedbank - Machine Learning Discovery": {
+      "url": "https://tools.google.com/seedbank/",
+      "image": "https://lh3.googleusercontent.com/IT0duFMm0bLQ1_0QhPmdwcjB06-w3GV5A4df4xa3-4y_IZ9A3V5i3_orCUFi4Vfp_vNYWfkjyImQN6FuXuzFr8pr-GLtdxOvdiA",
+      "short_description": "Seedbank is a place to discover and search for interactive ML examples which you can run from your browser, no set-up required. Each example can be edited, extended, and adapted into your own project.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Machine Learning Recipes with Josh Gordon: Hello World": {
+      "url": "https://youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal",
+      "image": "https://lh3.googleusercontent.com/YQk-N_atF_K7AP1PQk65ERXHjkTw9Iq3jE2VZ-oFJmDmt4lYxy-UeDXdhkuKh2b5AJklCGqkl61v0ypQkyk3C6cGNG3KuX51gZpaTzA",
+      "short_description": "Educational how-to's for developers new to Machine Learning.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "TensorFlow Workshops": {
+      "url": "https://github.com/tensorflow/workshops",
+      "image": "https://lh3.googleusercontent.com/FaTNl3YZl-eV3daHECXevwK3F1waKx86w6fMk6JXIHeNM9bUhsVAQGndJqhKFzAMDgV60xY_zBY1T4UlJqZbmN7NpX7CSFakymKF",
+      "short_description": "Jupyter notebooks that introduce developers to TensorFlow.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Machine Learning Glossary": {
+      "url": "https://developers.google.com/machine-learning/glossary?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-glossary",
+      "image": "https://lh3.googleusercontent.com/HEZs1TeHWabcEw-MCnL7gTPzMqT2lv3mBXtNOiiUcw3eCr0P4vmsk-FHPChteKRZkEiKI4hYxV2Mg3PCA3FuUV6dHqaLW-ByMaMp8zo",
+      "short_description": "This glossary defines general machine learning terms as well as terms specific to TensorFlow.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Deep Playground": {
+      "url": "http://playground.tensorflow.org",
+      "image": "https://lh3.googleusercontent.com/_bQmXRJMt7MD57FmvO9gV0vwdv7pXs3uEXSKK0e30WLhv8yyqJR6-Kal6MlFjoG2CzZIEVWOjmron2VeRCTMTlGQZDoaWtDdhOp_nw",
+      "short_description": "Tinker with a neural network in your browser with this interactive visual tool.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "AI Adventures: 7 Steps of Machine Learning": {
+      "url": "https://www.youtube.com/watch?v=nKW8Ndu7Mjw&list=PLMUdwhLW7A0icUPn6LT5Zj0rDqZ2OOP8Y&index=3",
+      "image": "https://lh3.googleusercontent.com/SfmguXyc2OONjTkmFWnDXMn8IJWJLbUg-notwVTE3MBZ08NqXM8UVYyIxYJgKVjjN_pC5ShQykZqBbXcfvNfohO89xSj8BVWLJbnaQ",
+      "short_description": [],
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "AI Experiments": {
+      "url": "https://experiments.withgoogle.com/collection/ai",
+      "image": "https://lh3.googleusercontent.com/iBDUK_syKgCcWwcLBmWFlCfgNUMO-c2hBtfNy2DGCLn_0cjbiJNh3aZbXVH4WRXreLsXNnIxf1bjYAPukE6chl1IRDN15_QxpG3z5A",
+      "short_description": "AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning, through pictures, drawings, language, music, and more.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Serverless Machine Learning with TensorFlow on Google Cloud Platform": {
+      "url": "https://www.coursera.org/learn/serverless-machine-learning-gcp/?utm_source=google_cloud&utm_medium=ai_hub&utm_campaign=data_engineer_specialization",
+      "image": "https://lh3.googleusercontent.com/2fGvTNOtESaN42e6LeAzzl_ELcu4gY9DswSylKk0bVcdvBC794sCpPHvKJWjDB_g3UheiKEn2V0sq4m2UUFpdYXqFJGQbR7Xsu-UhQ",
+      "short_description": "This accelerated on-demand course provides participants a a hands-on introduction to designing and building machine learning models on Google Cloud Platform.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Samples for Google Cloud Machine Learning Engine": {
+      "url": "https://github.com/GoogleCloudPlatform/cloudml-samples/",
+      "image": "https://lh3.googleusercontent.com/O_M7d_g66xMzfbQFbKjYzgHleoF5GBJpARVp6JvrlDEkUS0A3twVMYdpslMi1EsBfhIwkdAy-u1H41nnGBClaDNGHmdIyVhMhqCRpQ",
+      "short_description": "Github repository with samples for usage of the Google Cloud Machine Learning Engine.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Guides for Machine Learning on Google Cloud Platform": {
+      "url": "https://github.com/GoogleCloudPlatform/ml-on-gcp",
+      "image": "https://lh3.googleusercontent.com/RpP5e7b4vTdDMCFgivEpZq6umweKlLcN_sElzUpiCoQdmPByrdwOXDw8V4ApAo-0d34gCYlMeWbdp72mQCW-gsv-rAoSAT37ah_SOQ",
+      "short_description": "Guides to bringing your code from various Machine Learning frameworks to Google Cloud Platform.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "TensorFlow documentation": {
+      "url": "https://www.tensorflow.org/programmers_guide/",
+      "image": "https://lh3.googleusercontent.com/cnes7C6p2SGWjymTY7kMd1CUFejlVuP_5GGY2gnvzgSPLc80XI5nhGRueAHuN_K80gW6_gONxYrdMrx9w8gvJySAiavMZka7_nsDfYw",
+      "short_description": "Programmers guides to help you dive into the details of writing TensorFlow code.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "GCP TensorFlow Machine learning Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/end-to-end-ml/index.html",
+      "image": "https://lh3.googleusercontent.com/63TCLu_ZrcU4eWw3k-b68FEphoFAXGMaUPH6QQzrbFCwGdyRTVlS-GKtrma0Gli-NtWI4UtUmGpA3hRmVC1BcRc_l06oJvrL-QkN",
+      "short_description": "In this lab, you will go through the process of building a complete machine learning pipeline covering ingest, exploration, training, evaluation, deployment, and prediction.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Cloud Machine Learning Engine Documentation": {
+      "url": "https://cloud.google.com/ml-engine/docs/",
+      "image": "https://lh3.googleusercontent.com/XyqjYVQ9xr35bu4lk1UaYb-rMj3fdbMocZ_o99Km94RhOmyJDUJYebSVoNYzNQ_mJHfdw1kU3ADX6aCOdHXJWI-dhUCLf7VjVm9zHxA",
+      "short_description": "Cloud Machine Learning Engine brings the power and flexibility of TensorFlow to the cloud.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Rules of Machine Learning": {
+      "url": "https://developers.google.com/machine-learning/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules",
+      "image": "https://lh3.googleusercontent.com/D_9FORDnxUgGwoOtffRZvG5_hIiU7m4syWUtGSWb5jH60S2mSbFEztz9NwkkrxK8t2DV8OFhiF5AiscsqCysnApPNV0Zo16TjZikRg",
+      "short_description": "This document is intended to help those with a basic knowledge of machine learning get the benefit of Google's best practices in the field. It presents a style for machine learning, similar to the Google C++ Style Guide and other popular guides to practical programming. If you have taken a class in machine learning, or worked on a machine-learned model, then you have the necessary background to read this document.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Deep Learning Nanodegree Foundation": {
+      "url": "https://www.udacity.com/course/deep-learning--ud730",
+      "image": "https://lh3.googleusercontent.com/CZMRWNj6jQNrc2dMmmlqvNgRu0sxA90oT2CH_Xkb7AOCeQMdLXtgY_X2qtqCnRj8fW-QU52J9NbfKaF3csS9xTYmr8gW2rkwxvotrg",
+      "short_description": "Machine learning is one of the fastest-growing and most exciting fields out there, and deep learning represents its true bleeding edge. In this course, you\u2019ll develop a clear understanding of the motivation for deep learning, and design intelligent systems that learn from complex and/or large-scale datasets.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "CloudVision API Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/cloud-vision-intro/index.html",
+      "image": "https://lh3.googleusercontent.com/-1BqEG9l8nyFYRWFtCocn_E-jeT3jIXjA-n9oimRmeOzUXHOPhUfDXe72Eh8lHIwW6DXKs12JctPEgXrfCXoidimlQOY_5jk5XJf",
+      "short_description": "In this lab, you will learn how to create a Vision API request and how to call the API with curl. You will then send images to the Vision API and see it detect objects, faces, and landmarks.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Getting Started with Machine Learning Competitions": {
+      "url": "https://www.kaggle.com/competitions?sortBy=grouped&group=general&page=1&pageSize=20&category=gettingStarted&utm_medium=partner&utm_source=google.com&utm_campaign=google+ai+hub",
+      "image": "https://lh3.googleusercontent.com/bxJidMGvI5j8eB3GGOR38OFrrTxUWz83844NUNrJxYc7LWyXacN377TkoyTo1Hpf5yICPKfE9xN_al2-mb09YoWDwfaBudNn3oVfzw",
+      "short_description": "Challenge yourself with real-world focused machine learning competitions, complete with extensive tutorials to help you succeed. Build a model to make predictions and upload your submission file to see your score on a live leaderboard.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Serverless Machine Learning Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/dataeng-machine-learning/index.html",
+      "image": "https://lh3.googleusercontent.com/vqvUE0xMU-yC12vkKYjNM5Nk7mSaPhYG83f_Q-MdHOYutizms-JQx8ILmJg0Bi6nLzZmnTgeouY7-6NMED6YTGUpseVkKnFEjx6XrQ",
+      "short_description": "In this lab, you go from exploring a taxicab dataset to training and deploying a high-accuracy distributed model with Cloud ML Engine.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Data Engineering on Google Cloud Platform Specialization": {
+      "url": "https://www.coursera.org/specializations/gcp-data-machine-learning?utm_source=google_cloud&utm_medium=ai_hub&utm_campaign=data_engineer_specialization",
+      "image": "https://lh3.googleusercontent.com/pJB3CwHjf6pdhlYI5ESBKw_AXzKAZfRmfsV3i88-ZWbUswvhrcXd5vVJu-m5UhBDpfrBzSA0RrfEYfjdBi9pBayIQx6aDYI_592T",
+      "short_description": "This five-course accelerated specialization is designed for data professionals who are responsible for designing, building, analyzing, and optimizing big data solutions. Through a combination of video lectures, quizzes, and hands-on labs, you'll learn how to carry out serverless data analysis and productionize machine learning models. This specialization is designed to give participants a robust hands-on experience and is primarily lab-focused.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Kaggle Learn": {
+      "url": "https://www.kaggle.com/learn/overview?utm_medium=partner&utm_source=google.com&utm_campaign=google+ai+hub",
+      "image": "https://lh3.googleusercontent.com/n1gJZ_z0Di0vF1uXFh2dUi3M-FIBz3YeCvCXME2A6h_sitPb3R99vgnjYgMnIlRPUYQ_iAzHpD5bud9NPgEL4ItQktp_1JPzeg_wGg",
+      "short_description": "This free, online course is for someone who wants to start doing data science and machine learning right now. You\u2019ll spend more time writing code than reading about it. You\u2019ll get the theoretical background you need to make good modeling decisions, but won\u2019t waste your time with historical background that won\u2019t help you become a practicing data scientist.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "Android and TensorFlow: Artistic Style Transfer Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/tensorflow-style-transfer-android/index.html",
+      "image": "https://lh3.googleusercontent.com/gxbkQUvbuAte2-2Lcu4P-BHrJfYAdrHjvRB7_xsVYP3RVeJIBMQ8YXiFbi-vmh7b3rZiViaDveymy7F2LbTGvFqPFdk9lY-kd12VpQ",
+      "short_description": "In this codelab, you're going to take an existing Android app and add a TensorFlow model to generate stylised images using the device's camera. You can also use the techniques outlined in this codelab to implement any TensorFlow network you have already trained.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "TensorFlow for Poets 2: TensorFlow Lite Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/index.html",
+      "image": "https://lh3.googleusercontent.com/hyX22wJ_7PPUmQiJkAz-cpjLS08aa5wE_Yztnf-S76hyaEhg470p66sfu0i6ue8QC-hXVCX2arQ0lBvryyuQlrm6yT2vsnCeJP-63ik",
+      "short_description": "In this codelab, you will learn how to train a custom image recognition model on a pre-made Android app. The outcome is a simple camera app that runs a TensorFlow image recognition program to identify flowers.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   },
+   "TensorFlow for Poets Codelab": {
+      "url": "https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html",
+      "image": "https://lh3.googleusercontent.com/z8xO4xjR1wue0sQfrR5sV25B_UAvl8z3VkHkmqGXRJAeDuITpp7w2TqEtlnP8OsPSzLrQLYQB-t-swgdejfNPEaXDus0imoEw3rJXw",
+      "short_description": "In this codelab, you will learn how to run TensorFlow on a single machine, and will train a simple classifier to classify images of flowers.",
+      "price": "Free",
+      "number_of_students": "",
+      "long_description": "",
+      "course_duration": ""
+   }
+}
