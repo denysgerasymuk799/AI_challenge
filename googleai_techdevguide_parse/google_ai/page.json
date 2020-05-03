@@ -1,0 +1,2152 @@
+[
+   {
+      "type_of_content@": [
+         "video",
+         "documentation",
+         "courses",
+         "interactive"
+      ],
+      "audience@": [
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "video",
+         "documentation",
+         "courses",
+         "interactive"
+      ],
+      "audience": [
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Learn how to apply artificial intelligence (AI) and machine learning (ML) to social, humanitarian or environmental challenges."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "AI for Social Good Guide",
+            "breadcrumbs": null,
+            "brow": "Guide",
+            "cta": [],
+            "body@": [
+               "Learn how to apply artificial intelligence (AI) and machine learning (ML) to social, humanitarian or environmental challenges."
+            ],
+            "subtitle": null
+         },
+         "href": "/education/social-good-guide/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/WR793ooi_g9rIe7VCks41GX9_FsyxAQ3BvOmKp8zcOsz1ASJpeyDV1TDoUJituXbscMSlPmRW_D82puK0srj9DGlYc6qMVoxqRAMoA",
+            "width": 1252,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/b07469c130d5a583ecb9ccc8d3b5966c35c523a8feda5c7519a043394a29f6595f6d7b076387fa41dc277dde6b3745b29113531b8da015d50b371ee0bca5b598",
+            "height": 840
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation",
+         "guide"
+      ],
+      "audience@": [
+         "curious_cat",
+         "student",
+         "software_engineer",
+         "data_scientist",
+         "researcher"
+      ],
+      "type_of_content": [
+         "documentation",
+         "guide"
+      ],
+      "audience": [
+         "curious_cat",
+         "student",
+         "software_engineer",
+         "data_scientist",
+         "researcher"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Learn how to build better products with on-device data and privacy by default in a new online comic from Google AI."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Introduction to Federated Learning",
+            "breadcrumbs": null,
+            "brow": "Concept overview",
+            "cta": [],
+            "body@": [
+               "Learn how to build better products with on-device data and privacy by default in a new online comic from Google AI."
+            ],
+            "subtitle": null
+         },
+         "href": "https://federated.withgoogle.com/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/2Xo0dfcbxf9IAXiyC3MXTiUdY_6eG0bCZUrz8krYJC1tbR0eqFLDZiTM_kKL6k1N5t4A8cK8OnJjDsPiYk7vT2BTfBw5kwrq2r-FJw",
+            "width": 512,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/c45ea855471e0e68259e08d2ba7866f6e728f38be9e0ec8bd3ea9858bc2ab9fc98129cf934b09a32c5943f3cfdb7e14eb7ea76acd39b9a4bae05a1d7f8643324",
+            "height": 240
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "documentation"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Tools, methods and best practices for designing AI products in a human-centered way."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "People + AI Guidebook",
+            "breadcrumbs": null,
+            "brow": "Guide",
+            "cta": [],
+            "body@": [
+               "Tools, methods and best practices for designing AI products in a human-centered way."
+            ],
+            "subtitle": null
+         },
+         "href": "https://design.google/ai-guidebook",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/TnzV3wx_0U-wNopKQ9QV6_H3coyvFMTGrnv-_KgDOPCepW-DbP4Ft59cRxKW3m25MGKMWbnFCcO7uishXW3V6PJxyzvUYomK7ghJ0g",
+            "width": 2400,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/7e778ed277eb62c071a003a29b7349b5a73ebb8f298ddec990ba868df60d1144a6f301d1fc04157e655bd40c14e9b84ed19a886cef99718a79167130d6104d46",
+            "height": 1120
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses"
+      ],
+      "audience@": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "courses"
+      ],
+      "audience": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_preparation",
+         "model_construction"
+      ],
+      "stage_of_development@": [
+         "data_preparation",
+         "model_construction"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This four-hour, self-study course is an implementation-oriented introduction to clustering."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Clustering",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This four-hour, self-study course is an implementation-oriented introduction to clustering."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/clustering/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/r7y1b39sh7xfkUN6pBey7BzbNgMGxgOHCln4NrDNffWspxcltLdmIkBx5jLb6bf51GwrS8LZZFuG3sDPTct5zKMoc7AFYE9me9rA7g",
+            "width": 332,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/84ab39154bef48907c0958da03dfed627fbdb86a2f65b555cc4f8005e3744aaf70795d143586a5a37a2f8a40e6d16035bf6f182b01da6695b9aeee8c8543fbca",
+            "height": 220
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses"
+      ],
+      "audience@": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "courses"
+      ],
+      "audience": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This four-hour course is designed to expand your knowledge of recommendation systems and explain different models used in recommendation, including matrix factorization and deep neural networks."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Recommendation Systems",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This four-hour course is designed to expand your knowledge of recommendation systems and explain different models used in recommendation, including matrix factorization and deep neural networks."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/recommendation/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/HfTFuCePp8wmY9_rCwJB2yPP8TnK3rCMl18F6rTeEm4HTGyurtMArUsiXDzFQZoPRs-aDj7zpHGSuqi_9elMm6ScLRzl2lfaRY5f3NE",
+            "width": 674,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/51551aa4f95886dcc504bd30127a9d766ec98256571e6c7fee60b651bb97178cc3a7a208aed94eaad7ee366d8a86946069e0fb407af0a2346caf73c550457e5b",
+            "height": 343
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses"
+      ],
+      "audience@": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "courses"
+      ],
+      "audience": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Testing and debugging machine learning systems differs significantly from testing and debugging traditional software. This four-hour course describes how, starting from debugging your model all the way to monitoring your pipeline in production."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Testing and Debugging in Machine Learning",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "Testing and debugging machine learning systems differs significantly from testing and debugging traditional software. This four-hour course describes how, starting from debugging your model all the way to monitoring your pipeline in production."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/testing-debugging/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/Mt4Ee2qhw5P_yT2t56fxs18xqgB8gaSTlA3_0jZSeRgUhVDu4THdWtRMQFe0S_6wmMYVrlLuLovj7Heq-kMwhPXtoOCxtG06_InjQQ",
+            "width": 533,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/e340b8425c6494918f41d7d5b187b4b1670ec9e48ec526cebf7ea7745b859502f28c1ab441f910c8909e7d968b9af6c8ba7d00c119011e7251c7f146109b31b9",
+            "height": 253
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses",
+         "interactive"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "courses",
+         "interactive"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea"
+      ],
+      "stage_of_development@": [
+         "developing_idea"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This one-hour course introduces the machine learning mindset and helps you identify appropriate situations for machine learning."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Introduction to Machine Learning Problem Framing",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This one-hour course introduces the machine learning mindset and helps you identify appropriate situations for machine learning."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/problem-framing/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=problem-framing",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/PRotPPURtGlMjzxd8Irny87OqVJUjfhzgve-xPsmnzpwzf9uC1wtsQ5_DeVg5n1P-AOKb7Coj79N0abcYKn5WVvu3najPsRxV5szk0c",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/8f2895f534db73ff192b8a8b955534b5fe3e1ada64ef4a01e564ef722f1c26213d9b752a70c2472b852e07ed0587f210b804e0ec18b998a135c456cc51d7c7d9",
+            "height": 341
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial",
+         "courses",
+         "interactive"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "curious_cat",
+         "student"
+      ],
+      "type_of_content": [
+         "tutorial",
+         "courses",
+         "interactive"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "curious_cat",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_collection",
+         "data_preparation"
+      ],
+      "stage_of_development@": [
+         "data_collection",
+         "data_preparation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This three-hour course focuses on creating good data sets, choosing the best features, and representing those features optimally."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Data Preparation and Feature Engineering for Machine Learning",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This three-hour course focuses on creating good data sets, choosing the best features, and representing those features optimally."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/data-prep/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=data-prep",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/hRsRTbtB6pjfcb5OVA2Rqq8lBiCKtbiuuC_RxPMDIAbYEBesjNwM7VHl0_KELVmcV7ZdPL1TR3Fw5EeSzx2Hi7Nop-G8xul-gr9_IA",
+            "width": 3360,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/17c73265cb5529779f414fb831890e5985f3730658ae68a6d5da3e72c23f56288e58f0c61be6761dadd9bdf1a5eaf4386196918a520ab1ad9161e5a29be23222",
+            "height": 1846
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation",
+         "sample_code"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "documentation",
+         "sample_code"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Explore a gallery of simple guides to solve common machine learning problems using best practices."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Machine learning guides",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "Explore a gallery of simple guides to solve common machine learning problems using best practices."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/guides",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/F20B4JKU4q4lqdgz5SpZCEQ3bQK38n3uDXi41FJkFs8UGfszOBmouIaVBFdR045X8UH463wsDRJp7Kn4wsfIhvzQCxcXtLOvacypng",
+            "width": 1254,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/c535af01d57c40839f62016796c738ae",
+            "height": 800
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "documentation",
+         "tutorial",
+         "sample_code",
+         "courses",
+         "interactive"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "video",
+         "documentation",
+         "tutorial",
+         "sample_code",
+         "courses",
+         "interactive"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_evaluation",
+         "model_construction",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_evaluation",
+         "model_construction",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Google's fast-paced, practical introduction to machine learning. A self-study guide for aspiring machine learning practitioners."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Machine Learning Crash Course with TensorFlow APIs",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "Google's fast-paced, practical introduction to machine learning. A self-study guide for aspiring machine learning practitioners."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/crash-course/",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/6YnovTClZnOSH503_N7vMiXqKvv3i7sQdpRSNrLaIrUK1Uo7HvM752WYKboFcgecAsvPr4hqwOnVc3GL1zliiiHc4IlcpjhfLuDV4w",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/d1cac82a766f426c9a50a7f2510ca41d",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "documentation",
+         "tutorial",
+         "courses",
+         "interactive"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "video",
+         "documentation",
+         "tutorial",
+         "courses",
+         "interactive"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "stage_of_development@": [
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This one-hour module within Google's MLCC introduces learners to different types of human biases that can manifest in training data, as well as strategies for identifying, and evaluating their effects."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Intro to Fairness in Machine Learning module",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This one-hour module within Google's MLCC introduces learners to different types of human biases that can manifest in training data, as well as strategies for identifying, and evaluating their effects."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/crash-course/fairness/video-lecture",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/zg8w6WOuyty18CSPQJQwmz5091cpB8gu1vn32P_-N-feQK6hbwOzG8Lsj8KFAMBULoFNfmYl45CaFMCDPCGaZcKvpIhVeaoeTMNQaMs",
+            "width": 1238,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/9b61ee5984ecc9ce17d32efe83cc9741f10a2db0263290f7d9869de90200d58e9f0ed362851e04f456bf7806a2f43aa4fc01d7a41b2dd1fe3db02cbef96d578a",
+            "height": 688
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation",
+         "courses"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "documentation",
+         "courses"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment",
+         "developing_idea"
+      ],
+      "stage_of_development@": [
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment",
+         "developing_idea"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "We're committed to progress in the responsible development of AI and to sharing knowledge, research, tools, datasets, and other resources. Learn more about recommended practices and our current work."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Responsible AI practices",
+            "breadcrumbs": null,
+            "brow": "Guide",
+            "cta": [],
+            "body@": [
+               "We're committed to progress in the responsible development of AI and to sharing knowledge, research, tools, datasets, and other resources. Learn more about recommended practices and our current work."
+            ],
+            "subtitle": null
+         },
+         "href": "/responsibilities/responsible-ai-practices/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/CPslEsa2zVWPTWzBhoLHJFa6i8LSuurTBtkNYomAiB-CwZwQ89McPKITFJWbJFvDxuNKqpVmxPdmBnSkW5H8W9QqMx97mMpssu2J",
+            "width": 596,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/99cf129379a14a45b3129c9b78a2142f",
+            "height": 282
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "sample_code",
+         "interactive",
+         "tutorial"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "sample_code",
+         "interactive",
+         "tutorial"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_construction"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_construction"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Seedbank is a place to discover and search for interactive ML examples which you can run from your browser, no set-up required. Each example can be edited, extended, and adapted into your own project."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Seedbank - Machine Learning Discovery",
+            "breadcrumbs": null,
+            "brow": "Hands-on \u00b7 Machine Learning",
+            "cta": [],
+            "body@": [
+               "Seedbank is a place to discover and search for interactive ML examples which you can run from your browser, no set-up required. Each example can be edited, extended, and adapted into your own project."
+            ],
+            "subtitle": null
+         },
+         "href": "https://tools.google.com/seedbank/",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/IT0duFMm0bLQ1_0QhPmdwcjB06-w3GV5A4df4xa3-4y_IZ9A3V5i3_orCUFi4Vfp_vNYWfkjyImQN6FuXuzFr8pr-GLtdxOvdiA",
+            "width": 605,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/666f4727e4284bfc8c0f534dd1f563d0",
+            "height": 240
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "video",
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Educational how-to's for developers new to Machine Learning."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Machine Learning Recipes with Josh Gordon: Hello World",
+            "breadcrumbs": null,
+            "brow": "Videos",
+            "cta": [],
+            "body@": [
+               "Educational how-to's for developers new to Machine Learning."
+            ],
+            "subtitle": null
+         },
+         "href": "https://youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/YQk-N_atF_K7AP1PQk65ERXHjkTw9Iq3jE2VZ-oFJmDmt4lYxy-UeDXdhkuKh2b5AJklCGqkl61v0ypQkyk3C6cGNG3KuX51gZpaTzA",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/b122beadb1314923953750d86b542bdd",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "sample_code"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "sample_code"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Jupyter notebooks that introduce developers to TensorFlow."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "TensorFlow Workshops",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "Jupyter notebooks that introduce developers to TensorFlow."
+            ],
+            "subtitle": null
+         },
+         "href": "https://github.com/tensorflow/workshops",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/FaTNl3YZl-eV3daHECXevwK3F1waKx86w6fMk6JXIHeNM9bUhsVAQGndJqhKFzAMDgV60xY_zBY1T4UlJqZbmN7NpX7CSFakymKF",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/43d7cc4db6144cb8b4e5e6d05e72152c",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "documentation"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [],
+      "stage_of_development@": [],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This glossary defines general machine learning terms as well as terms specific to TensorFlow."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Machine Learning Glossary",
+            "breadcrumbs": null,
+            "brow": "Glossary",
+            "cta": [],
+            "body@": [
+               "This glossary defines general machine learning terms as well as terms specific to TensorFlow."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/glossary?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-glossary",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/HEZs1TeHWabcEw-MCnL7gTPzMqT2lv3mBXtNOiiUcw3eCr0P4vmsk-FHPChteKRZkEiKI4hYxV2Mg3PCA3FuUV6dHqaLW-ByMaMp8zo",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/e9b42d72e8c64be3a589217548eac299",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "interactive"
+      ],
+      "audience@": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "interactive"
+      ],
+      "audience": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "model_construction"
+      ],
+      "stage_of_development@": [
+         "model_construction"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Tinker with a neural network in your browser with this interactive visual tool."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Deep Playground",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "Tinker with a neural network in your browser with this interactive visual tool."
+            ],
+            "subtitle": null
+         },
+         "href": "http://playground.tensorflow.org",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/_bQmXRJMt7MD57FmvO9gV0vwdv7pXs3uEXSKK0e30WLhv8yyqJR6-Kal6MlFjoG2CzZIEVWOjmron2VeRCTMTlGQZDoaWtDdhOp_nw",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/a09ecd1fb00e44b3aea7ef1521c77ae5",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "video",
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [],
+            "title_icon": null,
+            "cta@": [],
+            "title": "AI Adventures: 7 Steps of Machine Learning",
+            "breadcrumbs": null,
+            "brow": "Videos",
+            "cta": [],
+            "body@": [],
+            "subtitle": null
+         },
+         "href": "https://www.youtube.com/watch?v=nKW8Ndu7Mjw&list=PLMUdwhLW7A0icUPn6LT5Zj0rDqZ2OOP8Y&index=3",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/SfmguXyc2OONjTkmFWnDXMn8IJWJLbUg-notwVTE3MBZ08NqXM8UVYyIxYJgKVjjN_pC5ShQykZqBbXcfvNfohO89xSj8BVWLJbnaQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/cbfed48cb32945138a15c06fde3e6fa5",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "interactive",
+         "documentation",
+         "sample_code"
+      ],
+      "audience@": [
+         "student",
+         "curious_cat",
+         "software_engineer",
+         "researcher"
+      ],
+      "type_of_content": [
+         "video",
+         "interactive",
+         "documentation",
+         "sample_code"
+      ],
+      "audience": [
+         "student",
+         "curious_cat",
+         "software_engineer",
+         "researcher"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning, through pictures, drawings, language, music, and more."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "AI Experiments",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning, through pictures, drawings, language, music, and more."
+            ],
+            "subtitle": null
+         },
+         "href": "https://experiments.withgoogle.com/collection/ai",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/iBDUK_syKgCcWwcLBmWFlCfgNUMO-c2hBtfNy2DGCLn_0cjbiJNh3aZbXVH4WRXreLsXNnIxf1bjYAPukE6chl1IRDN15_QxpG3z5A",
+            "width": 1919,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/5e984600cba949f3aa6be22c50e8b1d0",
+            "height": 1084
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "tutorial",
+         "courses"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student"
+      ],
+      "type_of_content": [
+         "video",
+         "tutorial",
+         "courses"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This accelerated on-demand course provides participants a a hands-on introduction to designing and building machine learning models on Google Cloud Platform."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Serverless Machine Learning with TensorFlow on Google Cloud Platform",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This accelerated on-demand course provides participants a a hands-on introduction to designing and building machine learning models on Google Cloud Platform."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.coursera.org/learn/serverless-machine-learning-gcp/?utm_source=google_cloud&utm_medium=ai_hub&utm_campaign=data_engineer_specialization",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/2fGvTNOtESaN42e6LeAzzl_ELcu4gY9DswSylKk0bVcdvBC794sCpPHvKJWjDB_g3UheiKEn2V0sq4m2UUFpdYXqFJGQbR7Xsu-UhQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/454ce751aaea45868f13ce3f2ccc818d",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "sample_code"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "sample_code"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Github repository with samples for usage of the Google Cloud Machine Learning Engine."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Samples for Google Cloud Machine Learning Engine",
+            "breadcrumbs": null,
+            "brow": "Samples",
+            "cta": [],
+            "body@": [
+               "Github repository with samples for usage of the Google Cloud Machine Learning Engine."
+            ],
+            "subtitle": null
+         },
+         "href": "https://github.com/GoogleCloudPlatform/cloudml-samples/",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/O_M7d_g66xMzfbQFbKjYzgHleoF5GBJpARVp6JvrlDEkUS0A3twVMYdpslMi1EsBfhIwkdAy-u1H41nnGBClaDNGHmdIyVhMhqCRpQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/0a7d9c5feb25437a8c58498c97b8231a",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "sample_code"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "sample_code"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Guides to bringing your code from various Machine Learning frameworks to Google Cloud Platform."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Guides for Machine Learning on Google Cloud Platform",
+            "breadcrumbs": null,
+            "brow": "Guide",
+            "cta": [],
+            "body@": [
+               "Guides to bringing your code from various Machine Learning frameworks to Google Cloud Platform."
+            ],
+            "subtitle": null
+         },
+         "href": "https://github.com/GoogleCloudPlatform/ml-on-gcp",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/RpP5e7b4vTdDMCFgivEpZq6umweKlLcN_sElzUpiCoQdmPByrdwOXDw8V4ApAo-0d34gCYlMeWbdp72mQCW-gsv-rAoSAT37ah_SOQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/fde60e401f82449c88308559af7141b7",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation",
+         "tutorial",
+         "sample_code"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "documentation",
+         "tutorial",
+         "sample_code"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Programmers guides to help you dive into the details of writing TensorFlow code."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "TensorFlow documentation",
+            "breadcrumbs": null,
+            "brow": "Documentation",
+            "cta": [],
+            "body@": [
+               "Programmers guides to help you dive into the details of writing TensorFlow code."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.tensorflow.org/programmers_guide/",
+         "external": false,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/cnes7C6p2SGWjymTY7kMd1CUFejlVuP_5GGY2gnvzgSPLc80XI5nhGRueAHuN_K80gW6_gONxYrdMrx9w8gvJySAiavMZka7_nsDfYw",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/409edc59f10542c2a2261e5499fa0281",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this lab, you will go through the process of building a complete machine learning pipeline covering ingest, exploration, training, evaluation, deployment, and prediction."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "GCP TensorFlow Machine learning Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this lab, you will go through the process of building a complete machine learning pipeline covering ingest, exploration, training, evaluation, deployment, and prediction."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/end-to-end-ml/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/63TCLu_ZrcU4eWw3k-b68FEphoFAXGMaUPH6QQzrbFCwGdyRTVlS-GKtrma0Gli-NtWI4UtUmGpA3hRmVC1BcRc_l06oJvrL-QkN",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/1e204cf6d1554a7b826f305929dca8ee",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation",
+         "tutorial",
+         "sample_code"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "documentation",
+         "tutorial",
+         "sample_code"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Cloud Machine Learning Engine brings the power and flexibility of TensorFlow to the cloud."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Cloud Machine Learning Engine Documentation",
+            "breadcrumbs": null,
+            "brow": "Documentation",
+            "cta": [],
+            "body@": [
+               "Cloud Machine Learning Engine brings the power and flexibility of TensorFlow to the cloud."
+            ],
+            "subtitle": null
+         },
+         "href": "https://cloud.google.com/ml-engine/docs/",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/XyqjYVQ9xr35bu4lk1UaYb-rMj3fdbMocZ_o99Km94RhOmyJDUJYebSVoNYzNQ_mJHfdw1kU3ADX6aCOdHXJWI-dhUCLf7VjVm9zHxA",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/62182394630842b6b699a59116b95ff5",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "documentation"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "documentation"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "business",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea"
+      ],
+      "stage_of_development@": [
+         "developing_idea"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This document is intended to help those with a basic knowledge of machine learning get the benefit of Google's best practices in the field. It presents a style for machine learning, similar to the Google C++ Style Guide and other popular guides to practical programming. If you have taken a class in machine learning, or worked on a machine-learned model, then you have the necessary background to read this document."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Rules of Machine Learning",
+            "breadcrumbs": null,
+            "brow": "Guide",
+            "cta": [],
+            "body@": [
+               "This document is intended to help those with a basic knowledge of machine learning get the benefit of Google's best practices in the field. It presents a style for machine learning, similar to the Google C++ Style Guide and other popular guides to practical programming. If you have taken a class in machine learning, or worked on a machine-learned model, then you have the necessary background to read this document."
+            ],
+            "subtitle": null
+         },
+         "href": "https://developers.google.com/machine-learning/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/D_9FORDnxUgGwoOtffRZvG5_hIiU7m4syWUtGSWb5jH60S2mSbFEztz9NwkkrxK8t2DV8OFhiF5AiscsqCysnApPNV0Zo16TjZikRg",
+            "width": 787,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/65016951957386fd103da03525055e0a6f5d7ef31fd6a9b5fa2c5d6b893e4534a6558ee7e8968273f922ce0a0398c2e7c93896e540f562ecf3e4d78de96327e9",
+            "height": 424
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "courses"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_collection",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Machine learning is one of the fastest-growing and most exciting fields out there, and deep learning represents its true bleeding edge. In this course, you\u2019ll develop a clear understanding of the motivation for deep learning, and design intelligent systems that learn from complex and/or large-scale datasets."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Deep Learning Nanodegree Foundation",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "Machine learning is one of the fastest-growing and most exciting fields out there, and deep learning represents its true bleeding edge. In this course, you\u2019ll develop a clear understanding of the motivation for deep learning, and design intelligent systems that learn from complex and/or large-scale datasets."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.udacity.com/course/deep-learning--ud730",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/CZMRWNj6jQNrc2dMmmlqvNgRu0sxA90oT2CH_Xkb7AOCeQMdLXtgY_X2qtqCnRj8fW-QU52J9NbfKaF3csS9xTYmr8gW2rkwxvotrg",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/0d47e7f8ed0d402b84e696acfeb591db",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "researcher",
+         "software_engineer"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "researcher",
+         "software_engineer"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this lab, you will learn how to create a Vision API request and how to call the API with curl. You will then send images to the Vision API and see it detect objects, faces, and landmarks."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "CloudVision API Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this lab, you will learn how to create a Vision API request and how to call the API with curl. You will then send images to the Vision API and see it detect objects, faces, and landmarks."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/cloud-vision-intro/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/-1BqEG9l8nyFYRWFtCocn_E-jeT3jIXjA-n9oimRmeOzUXHOPhUfDXe72Eh8lHIwW6DXKs12JctPEgXrfCXoidimlQOY_5jk5XJf",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/2c2ec8410f5f4ec9a96893aa69e4e63a",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "courses"
+      ],
+      "audience@": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "courses"
+      ],
+      "audience": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "Challenge yourself with real-world focused machine learning competitions, complete with extensive tutorials to help you succeed. Build a model to make predictions and upload your submission file to see your score on a live leaderboard."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Getting Started with Machine Learning Competitions",
+            "breadcrumbs": null,
+            "brow": "Competition",
+            "cta": [],
+            "body@": [
+               "Challenge yourself with real-world focused machine learning competitions, complete with extensive tutorials to help you succeed. Build a model to make predictions and upload your submission file to see your score on a live leaderboard."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.kaggle.com/competitions?sortBy=grouped&group=general&page=1&pageSize=20&category=gettingStarted&utm_medium=partner&utm_source=google.com&utm_campaign=google+ai+hub",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/bxJidMGvI5j8eB3GGOR38OFrrTxUWz83844NUNrJxYc7LWyXacN377TkoyTo1Hpf5yICPKfE9xN_al2-mb09YoWDwfaBudNn3oVfzw",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/e4c49216498e4b6d9f8f3c02f3ec5935",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "researcher",
+         "data_scientist"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "researcher",
+         "data_scientist"
+      ],
+      "stage_of_development": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this lab, you go from exploring a taxicab dataset to training and deploying a high-accuracy distributed model with Cloud ML Engine."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Serverless Machine Learning Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this lab, you go from exploring a taxicab dataset to training and deploying a high-accuracy distributed model with Cloud ML Engine."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/dataeng-machine-learning/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/vqvUE0xMU-yC12vkKYjNM5Nk7mSaPhYG83f_Q-MdHOYutizms-JQx8ILmJg0Bi6nLzZmnTgeouY7-6NMED6YTGUpseVkKnFEjx6XrQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/b64e4765831c49a4b2fd51199d40ee79",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "video",
+         "tutorial",
+         "courses"
+      ],
+      "audience@": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "business",
+         "student"
+      ],
+      "type_of_content": [
+         "video",
+         "tutorial",
+         "courses"
+      ],
+      "audience": [
+         "data_scientist",
+         "researcher",
+         "software_engineer",
+         "business",
+         "student"
+      ],
+      "stage_of_development": [
+         "data_collection",
+         "developing_idea",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "data_collection",
+         "developing_idea",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This five-course accelerated specialization is designed for data professionals who are responsible for designing, building, analyzing, and optimizing big data solutions. Through a combination of video lectures, quizzes, and hands-on labs, you'll learn how to carry out serverless data analysis and productionize machine learning models. This specialization is designed to give participants a robust hands-on experience and is primarily lab-focused."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Data Engineering on Google Cloud Platform Specialization",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This five-course accelerated specialization is designed for data professionals who are responsible for designing, building, analyzing, and optimizing big data solutions. Through a combination of video lectures, quizzes, and hands-on labs, you'll learn how to carry out serverless data analysis and productionize machine learning models. This specialization is designed to give participants a robust hands-on experience and is primarily lab-focused."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.coursera.org/specializations/gcp-data-machine-learning?utm_source=google_cloud&utm_medium=ai_hub&utm_campaign=data_engineer_specialization",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/pJB3CwHjf6pdhlYI5ESBKw_AXzKAZfRmfsV3i88-ZWbUswvhrcXd5vVJu-m5UhBDpfrBzSA0RrfEYfjdBi9pBayIQx6aDYI_592T",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/d30d432e1f764346b2f95577ebc9c5c8",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial",
+         "interactive"
+      ],
+      "audience@": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "type_of_content": [
+         "tutorial",
+         "interactive"
+      ],
+      "audience": [
+         "software_engineer",
+         "student",
+         "curious_cat"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "data_preparation",
+         "model_construction",
+         "model_evaluation"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "This free, online course is for someone who wants to start doing data science and machine learning right now. You\u2019ll spend more time writing code than reading about it. You\u2019ll get the theoretical background you need to make good modeling decisions, but won\u2019t waste your time with historical background that won\u2019t help you become a practicing data scientist."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Kaggle Learn",
+            "breadcrumbs": null,
+            "brow": "Course",
+            "cta": [],
+            "body@": [
+               "This free, online course is for someone who wants to start doing data science and machine learning right now. You\u2019ll spend more time writing code than reading about it. You\u2019ll get the theoretical background you need to make good modeling decisions, but won\u2019t waste your time with historical background that won\u2019t help you become a practicing data scientist."
+            ],
+            "subtitle": null
+         },
+         "href": "https://www.kaggle.com/learn/overview?utm_medium=partner&utm_source=google.com&utm_campaign=google+ai+hub",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/n1gJZ_z0Di0vF1uXFh2dUi3M-FIBz3YeCvCXME2A6h_sitPb3R99vgnjYgMnIlRPUYQ_iAzHpD5bud9NPgEL4ItQktp_1JPzeg_wGg",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/345994474c97428c95a2cf5ca85f9071",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this codelab, you're going to take an existing Android app and add a TensorFlow model to generate stylised images using the device's camera. You can also use the techniques outlined in this codelab to implement any TensorFlow network you have already trained."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "Android and TensorFlow: Artistic Style Transfer Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this codelab, you're going to take an existing Android app and add a TensorFlow model to generate stylised images using the device's camera. You can also use the techniques outlined in this codelab to implement any TensorFlow network you have already trained."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/tensorflow-style-transfer-android/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/gxbkQUvbuAte2-2Lcu4P-BHrJfYAdrHjvRB7_xsVYP3RVeJIBMQ8YXiFbi-vmh7b3rZiViaDveymy7F2LbTGvFqPFdk9lY-kd12VpQ",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/e2bf6f03d89d4bbf9fc8175b07419704",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_construction",
+         "model_evaluation",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this codelab, you will learn how to train a custom image recognition model on a pre-made Android app. The outcome is a simple camera app that runs a TensorFlow image recognition program to identify flowers."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "TensorFlow for Poets 2: TensorFlow Lite Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this codelab, you will learn how to train a custom image recognition model on a pre-made Android app. The outcome is a simple camera app that runs a TensorFlow image recognition program to identify flowers."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/hyX22wJ_7PPUmQiJkAz-cpjLS08aa5wE_Yztnf-S76hyaEhg470p66sfu0i6ue8QC-hXVCX2arQ0lBvryyuQlrm6yT2vsnCeJP-63ik",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/54921bada0e84b5fae14846959b8d4cb",
+            "height": 280
+         },
+         "type": "default"
+      }
+   },
+   {
+      "type_of_content@": [
+         "tutorial"
+      ],
+      "audience@": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "type_of_content": [
+         "tutorial"
+      ],
+      "audience": [
+         "data_scientist",
+         "software_engineer",
+         "student"
+      ],
+      "stage_of_development": [
+         "developing_idea",
+         "model_evaluation",
+         "model_construction",
+         "model_deployment"
+      ],
+      "stage_of_development@": [
+         "developing_idea",
+         "model_evaluation",
+         "model_construction",
+         "model_deployment"
+      ],
+      "card": {
+         "publication_pk": null,
+         "dark_background": false,
+         "content": {
+            "body": [
+               "In this codelab, you will learn how to run TensorFlow on a single machine, and will train a simple classifier to classify images of flowers."
+            ],
+            "title_icon": null,
+            "cta@": [],
+            "title": "TensorFlow for Poets Codelab",
+            "breadcrumbs": null,
+            "brow": "Hands-on",
+            "cta": [],
+            "body@": [
+               "In this codelab, you will learn how to run TensorFlow on a single machine, and will train a simple classifier to classify images of flowers."
+            ],
+            "subtitle": null
+         },
+         "href": "https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html",
+         "external": true,
+         "background": {
+            "url": "https://lh3.googleusercontent.com/z8xO4xjR1wue0sQfrR5sV25B_UAvl8z3VkHkmqGXRJAeDuITpp7w2TqEtlnP8OsPSzLrQLYQB-t-swgdejfNPEaXDus0imoEw3rJXw",
+            "width": 600,
+            "file_path": "_63f5788344d04ce496b130ed12020254_/_0eede1c1f5aa4719b6b6f0a3f6bd5512_/601a7a9645074344add9deb2bd7ce65d",
+            "height": 280
+         },
+         "type": "default"
+      }
+   }
+]

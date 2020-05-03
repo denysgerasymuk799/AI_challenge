@@ -1,0 +1,1800 @@
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebSite">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+
+    <title>Intro to Computer Science, Udacity - Google Tech Dev Guide</title>
+    <link rel="canonical" href="https://techdevguide.withgoogle.com/resources/intro-to-computer-science-udacity/" />
+
+    <link href="/static/css/site-c39aba24f438fbd848ddc842f7d2c680.min.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/icons/manifest.json">
+    <link rel="mask-icon" href="/static/images/icons/safari-pinned-tab.svg" color="#ea4335">
+    <link rel="shortcut icon" href="/static/images/icons/favicon.ico">
+    <meta name="msapplication-config" content="/static/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#fbbc05">
+
+    <meta property="og:image" content="https://techdevguide.withgoogle.com/static/images/resources/r-01-intro-computer.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:alt" content="Intro to Computer Science, Udacity">
+    <meta property="og:title" content="Intro to Computer Science, Udacity – Google Tech Dev Guide">
+    <meta property="og:site_name" content="Google Tech Dev Guide" itemprop="name">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techdevguide.withgoogle.com/resources/intro-to-computer-science-udacity/" itemprop="url">
+      <meta name="description" content="Get a grip on basic programming concepts by creating your own search engine and a social network using the popular Python programming language. (paywall)" itemprop="description">
+      <meta property="og:description" content="Get a grip on basic programming concepts by creating your own search engine and a social network using the popular Python programming language. (paywall)">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body nojs site-section="Resource Library">
+    <div id="app">
+
+
+
+<header role="banner" class="page-header">
+  <nav is="gtd-sticky-header" role="navigation" class="page-header__drawer sticky-header">
+    <div
+      is="gtd-class-toggler"
+      class="page-header__backdrop"
+      aria-label="Close navigation menu"
+      toggle-target="body"
+      toggle-class="open-drawer"
+      ga-action="Header Menu Closed"
+      ga-label="Menu">
+    </div>
+    <div class="page-header__content content-controls content-controls--flex">
+      <div class="page-nav__header">
+        <a href="/"
+          class="page-logo"
+          ga-action="Header Logo Clicked"
+          ga-label="Google">
+          <svg viewBox="0 0 74 24" class="svg-logo " aria-label="Google" width="80px" height="26.5938px">
+  <defs>
+    <polygon id="g-color-path-1" points="0 0.123 73.1824056 0.123 73.1824056 24 0 24"></polygon>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-21.000000, -20.000000)">
+      <g transform="translate(21.389831, 20.000000)">
+        <path d="M0,9.38465294 C0,4.27953529 4.29106473,0.123123529 9.39531632,0.123123529 C12.2184456,0.123123529 14.2285644,1.22994706 15.7416671,2.67559412 L13.9573845,4.46024118 C12.8733706,3.44359412 11.4054352,2.65300588 9.39531632,2.65300588 C5.66884215,2.65300588 2.75537839,5.65741765 2.75537839,9.38465294 C2.75537839,13.1118882 5.66884215,16.1163 9.39531632,16.1163 C11.8117639,16.1163 13.1895414,15.1450059 14.0703026,14.2638882 C14.793155,13.5410647 15.2672346,12.5020059 15.44808,11.0789471 L9.39531632,11.0789471 L9.39531632,8.54888824 L17.9096949,8.54888824 C18.0000294,9.00065294 18.0451967,9.54277059 18.0451967,10.1302412 C18.0451967,12.0276529 17.5257733,14.3770059 15.8544088,16.0485353 C14.2285644,17.7426529 12.1505183,18.6461824 9.39531632,18.6461824 C4.29106473,18.6461824 0,14.4899471 0,9.38465294" fill="#4285F4"></path>
+        <path d="M24.9262853,16.2969882 C23.1194191,16.2969882 21.5611491,14.8061647 21.5611491,12.6826941 C21.5611491,10.5366353 23.1194191,9.0684 24.9262853,9.0684 C26.7329751,9.0684 28.2912451,10.5366353 28.2912451,12.6826941 C28.2912451,14.8061647 26.7329751,16.2969882 24.9262853,16.2969882 M24.9262853,6.71922353 C21.6289,6.71922353 18.9412725,9.22651765 18.9412725,12.6826941 C18.9412725,16.1162824 21.6289,18.6463412 24.9262853,18.6463412 C28.2234942,18.6463412 30.9111217,16.1162824 30.9111217,12.6826941 C30.9111217,9.22651765 28.2234942,6.71922353 24.9262853,6.71922353" fill="#EB4335"></path>
+        <path d="M37.9823539,16.2969882 C36.1756641,16.2969882 34.6172177,14.8061647 34.6172177,12.6826941 C34.6172177,10.5366353 36.1756641,9.0684 37.9823539,9.0684 C39.7890437,9.0684 41.3473137,10.5366353 41.3473137,12.6826941 C41.3473137,14.8061647 39.7890437,16.2969882 37.9823539,16.2969882 M37.9823539,6.71922353 C34.6849686,6.71922353 31.9973411,9.22651765 31.9973411,12.6826941 C31.9973411,16.1162824 34.6849686,18.6463412 37.9823539,18.6463412 C41.2795628,18.6463412 43.9673668,16.1162824 43.9673668,12.6826941 C43.9673668,9.22651765 41.2795628,6.71922353 37.9823539,6.71922353" fill="#FBBC05"></path>
+        <path d="M51.0042295,16.2969882 C49.1975397,16.2969882 47.6842606,14.7835765 47.6842606,12.7052824 C47.6842606,10.6045765 49.1975397,9.0684 51.0042295,9.0684 C52.7883357,9.0684 54.1886968,10.6045765 54.1886968,12.7052824 C54.1886968,14.7835765 52.7883357,16.2969882 51.0042295,16.2969882 L51.0042295,16.2969882 Z M54.0078513,7.08045882 L54.0078513,8.05192941 L53.9176933,8.05192941 C53.3305191,7.35169412 52.2011615,6.71922353 50.7783933,6.71922353 C47.7971787,6.71922353 45.0643839,9.33945882 45.0643839,12.7052824 C45.0643839,16.0485176 47.7971787,18.6463412 50.7783933,18.6463412 C52.2011615,18.6463412 53.3305191,18.0138706 53.9176933,17.2908706 L54.0078513,17.2908706 L54.0078513,18.1494 C54.0078513,20.4308118 52.7883357,21.6505765 50.8235605,21.6505765 C49.2201233,21.6505765 48.2262675,20.4985765 47.8197623,19.5272824 L45.53864,20.4759882 C46.193565,22.0573412 47.9326804,23.9999294 50.8235605,23.9999294 C53.8951097,23.9999294 56.4922263,22.1928706 56.4922263,17.7879882 L56.4922263,7.08045882 L54.0078513,7.08045882 Z" fill="#4285F4"></path>
+        <mask id="g-color-mask-1" fill="white">
+          <use xlink:href="#g-color-path-1"></use>
+        </mask>
+        <polygon fill="#34A853" mask="url(#g-color-mask-1)" points="60.9187927 18.2848235 58.2989161 18.2848235 58.2989161 0.755470588 60.9187927 0.755470588"></polygon>
+        <path d="M67.8975026,9.02325882 C68.9365257,9.02325882 69.817287,9.54278824 70.1108741,10.2882 L64.7809627,12.5020235 C64.7130354,10.1978471 66.5650689,9.02325882 67.8975026,9.02325882 M68.1007552,16.2970235 C66.7683215,16.2970235 65.8198094,15.6871412 65.2100515,14.4899647 L73.1824232,11.1919059 L72.9114197,10.5140824 C72.41458,9.18137647 70.9013009,6.71908235 67.8071681,6.71908235 C64.735619,6.71908235 62.1836697,9.1362 62.1836697,12.6827294 C62.1836697,16.0259647 64.7130354,18.6462 68.1007552,18.6462 C70.83355,18.6462 72.41458,16.9746706 73.0693287,16.0033765 L71.0368026,14.6480824 C70.3592939,15.6419647 69.4333654,16.2970235 68.1007552,16.2970235" fill="#EB4335" mask="url(#g-color-mask-1)"></path>
+      </g>
+    </g>
+  </g>
+</svg>
+        </a>
+        <a class="a11y-teleport" href="/resources/intro-to-computer-science-udacity/#a11y-main">
+          Skip to content
+        </a>
+        <button
+          is="gtd-class-toggler"
+          class="page-nav__header-button page-nav__header-close"
+          aria-label="Close navigation menu"
+          toggle-target="body"
+          toggle-class="open-drawer"
+          ga-action="Header Menu Closed"
+          ga-label="Menu"
+        >
+          <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+</svg>
+        </button>
+        <div class="page-nav__login">
+
+<gtd-login inline-template>
+  <div class="upper js-only">
+      <a href="#" v-on:click.prevent="login" v-if="user.anonymous">Sign In</a>
+    <a href="/profile/"
+      class="profile-picture-link"
+      v-if="!user.anonymous"
+      ga-action="Profile Link Clicked (header)"
+      ga-label="My Profile"
+    >
+      <div :style="{ backgroundImage: 'url(' + user.photoURL + ')' }"
+        class="profile-picture"
+        role="img"
+        aria-label="User profile"
+        title="Go to profile"
+      ></div>
+    </a>
+  </div>
+</gtd-login>        </div>
+      </div>
+
+      <div class="page-nav__divider"></div>
+
+      <div class="page-nav">
+        <button
+          is="gtd-class-toggler"
+          class="page-nav__header-button page-nav__header-open"
+          aria-label="See navigation menu"
+          toggle-target="body"
+          toggle-class="open-drawer"
+          focus-target="#page-nav-main"
+          :remove-on-esc="true"
+          ga-action="Header Menu Opened"
+          ga-label="Menu"
+        >
+          <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+</svg>
+        </button>
+        <a href="/"
+          class="page-nav__title"
+          aria-label="Google Tech Dev Guide"
+          ga-action="Header Site Link Clicked"
+          ga-label="Guide to Technical Development"
+        >
+          Tech Dev Guide
+        </a>
+        <div class="page-nav__main" tabindex="-1" id="page-nav-main">
+          <div class="page-nav__links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+              <a class="page-nav__link"
+                href="/"
+                itemprop="url"
+                ga-action="Nav Link Clicked"
+                ga-label="Overview"
+              >
+                Overview
+              </a>
+              <a class="page-nav__link"
+                href="/paths/"
+                itemprop="url"
+                ga-action="Nav Link Clicked"
+                ga-label="Suggested Paths"
+              >
+                Suggested Paths
+              </a>
+              <a class="page-nav__link"
+                href="/faculty/"
+                itemprop="url"
+                ga-action="Nav Link Clicked"
+                ga-label="For Faculty"
+              >
+                For Faculty
+              </a>
+              <a class="page-nav__link active"
+                href="/resources/"
+                itemprop="url"
+                ga-action="Nav Link Clicked"
+                ga-label="Resource Library"
+              >
+                Resource Library
+              </a>
+              <a class="page-nav__link"
+                href="/explore-cs/"
+                itemprop="url"
+                ga-action="Nav Link Clicked"
+                ga-label="Explore CS"
+              >
+                Explore CS
+              </a>
+          </div>
+
+
+<gtd-search inline-template path-anchor="#!">
+  <div class="search js-only"
+    v-bind:class="{ 'search--open': isOpen }"
+    v-on:keydown.down.prevent="keyDown"
+    v-on:keydown.up.prevent="keyUp"
+    v-on:keydown.esc.prevent="close"
+    v-on:keyup.enter="keyEnter"
+  >
+    <div class="search__main">
+      <div class="search__icon-wrapper" v-on:click="inputFocus">
+        <svg alt="" class="svg-icon search__icon search__icon--glass" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path d="M12.864494,11.3207547 L12.051458,11.3207547 L11.7632933,11.0428816 C12.7718696,9.86963979 13.3790738,8.3464837 13.3790738,6.68953688 C13.3790738,2.9948542 10.3842196,0 6.68953688,0 C2.9948542,0 0,2.9948542 0,6.68953688 C0,10.3842196 2.9948542,13.3790738 6.68953688,13.3790738 C8.3464837,13.3790738 9.86963979,12.7718696 11.0428816,11.7632933 L11.3207547,12.051458 L11.3207547,12.864494 L16.4665523,18 L18,16.4665523 L12.864494,11.3207547 L12.864494,11.3207547 Z M6.68953688,11.3207547 C4.12692967,11.3207547 2.05831904,9.25214408 2.05831904,6.68953688 C2.05831904,4.12692967 4.12692967,2.05831904 6.68953688,2.05831904 C9.25214408,2.05831904 11.3207547,4.12692967 11.3207547,6.68953688 C11.3207547,9.25214408 9.25214408,11.3207547 6.68953688,11.3207547 Z"></path>
+</svg>
+      </div>
+      <input class="search__input"
+        ref="searchInput"
+        v-model="query"
+        v-on:focus="inputFocus"
+        v-on:blur="inputBlur"
+        aria-label="Search"
+        placeholder="Search"
+      />
+      <ul class="search__results" v-if="results.length">
+        <li class="search__result-item"
+          v-for="(r, index) in results"
+        >
+          <a ref="results"
+            :href="r.url"
+            v-bind:class="{ 'active': selectedIndex === index }"
+            v-on:focus="selectResult(index)"
+            v-on:click.prevent="goToResult(r)"
+          >
+            <span v-if="r.isFullText">Search for <em v-text="r.title"></em></span>
+            <span v-else v-text="r.title"></span>
+        </a>
+        </li>
+      </ul>
+      <transition name="fade-fast">
+        <button class="search__button"
+          v-if="isOpen"
+          v-on:click="close"
+          aria-label="Close search"
+        >
+          <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon search__icon search__icon--close">
+  <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+</svg>
+        </button>
+      </transition>
+    </div>
+    <div class="search__backdrop"
+      v-if="isOpen"
+      v-on:click="close"
+    ></div>
+  </div>
+</gtd-search>
+          <div class="page-header__drawer-footer">
+            <gtd-login inline-template><div>
+              <a href="#" class="button" v-on:click.prevent="login" v-if="user.anonymous">Sign In</a>
+              <a href="/profile/" class="button" v-else>Profile</a>
+            </div></gtd-login>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>      <main class="page-body" id="a11y-main" role="main" tabindex="-1">
+
+  <div >
+<section class="hero hero--resources hero--overlapped">
+  <div class="grid hero__inner">
+    <div class="grid__item tablet--one-sixth desk--one-quarter hero__gutter">
+    </div>
+    <div class="grid__item one-whole tablet--two-thirds desk--one-half hero__main">
+      <h1>Resource Library</h1>
+      <p>You’re invited to check out out all the different learning resources in the guide: problems and projects, former Google interview questions, online courses, education sites, videos, and more.</p>
+    </div>
+    <div class="grid__item tablet--one-sixth desk--one-quarter hero__gutter">
+    </div>
+  </div>
+</section>
+  <section class="section bg bg--white">
+    <div class="section__inner">
+      <a class="content-anchor" id="!"></a>
+
+
+
+      <div class="grid layout layout--hero-overlap">
+        <div class="grid__item mobile--collapse tablet--one-third desk--one-quarter">
+
+<gtd-sidebar inline-template base-path="/resources/#!">
+    <div class="sidebar" :class="[ transition ? '' : 'sidebar--no-transition' ]"
+         id="sidebar"
+         :aria-expanded="open">
+
+      <transition name="fade-fast">
+        <div class="sidebar__inner"
+             :class="[ 'sidebar__inner-activated' ]"
+             ref="inner"
+             v-if="open"
+             tabindex="-1">
+
+            <a href="#"
+               class="link link--cta sidebar__back-link"
+               v-on:click.prevent="cancel"
+ga-action="Filters Closed"ga-label="Resource Library">
+              <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 18 18">
+  <path d="M8.5.727l7.742 7.743L8.5 16.212l-1.358-1.358L12.53 9.42H.758v-1.9H12.53L7.142 2.085" fill-rule="nonzero"/>
+</svg>
+              <span>Resource Library</span>
+            </a>
+
+                      <div class="sidebar__panel">
+              <h2>Filters</h2>
+
+
+
+    <gtd-accordion inline-template
+:start-open="$store.state.filters[&#34;types&#34;] &amp;&amp; $store.state.filters[&#34;types&#34;].length">
+
+      <fieldset class="accordion sidebar__panel-full-width">
+        <button
+           type="button"
+           class="accordion__header"
+           aria-controls="types-filters"
+           :aria-expanded="shown"
+           v-on:click.prevent="shown = !shown"
+           :ga-action="shown ? 'Filter Group Opened' : 'Filter Group Closed'"
+           ga-label="Content Type"
+        >
+          <div class="accordion__title">
+            Content Type
+          </div>
+          <div class="accordion__icon js-only" v-if="shown">
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+</svg>
+          </div>
+          <div class="accordion__icon" v-else>
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+</svg>
+          </div>
+        </button>
+
+        <div class="accordion__content-wrapper" id="types-filters">
+          <transition name="slide"
+                      v-on:enter="expand"
+                      v-on:leave="collapse"
+v-on:after-enter="focusFirstItem">
+
+            <div class="accordion__content"
+                 ref="content"
+                 v-if="shown">
+              <div class="accordion__content-inner">
+                
+                  <p class="accordion__description">Choose how you want to learn</p>
+
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="career-prep"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/career-prep/#!">
+      Career Prep
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-career-prep"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Career Prep"
+    ></input>
+
+    <label class="js-only" for="filter-career-prep">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Career Prep
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="code-review"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/code-review/#!">
+      Code Review
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-code-review"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Code Review"
+    ></input>
+
+    <label class="js-only" for="filter-code-review">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Code Review
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="coding-interview-question"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/coding-interview-question/#!">
+      Coding Interview Question
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-coding-interview-question"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Coding Interview Question"
+    ></input>
+
+    <label class="js-only" for="filter-coding-interview-question">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Coding Interview Question
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="competition"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/competition/#!">
+      Competition
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-competition"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Competition"
+    ></input>
+
+    <label class="js-only" for="filter-competition">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Competition
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="education-site"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/education-site/#!">
+      Education Site / Program
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-education-site"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Education Site / Program"
+    ></input>
+
+    <label class="js-only" for="filter-education-site">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Education Site / Program
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="kernel"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/kernel/#!">
+      Kernel
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-kernel"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Kernel"
+    ></input>
+
+    <label class="js-only" for="filter-kernel">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Kernel
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="lab-codelab-qwiklab"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/lab-codelab-qwiklab/#!">
+      Lab, Codelab, Qwiklab
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-lab-codelab-qwiklab"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Lab, Codelab, Qwiklab"
+    ></input>
+
+    <label class="js-only" for="filter-lab-codelab-qwiklab">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Lab, Codelab, Qwiklab
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="online-course"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/online-course/#!">
+      Online Course
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-online-course"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Online Course"
+    ></input>
+
+    <label class="js-only" for="filter-online-course">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Online Course
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="practice-problem"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/practice-problem/#!">
+      Practice Problem
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-practice-problem"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Practice Problem"
+    ></input>
+
+    <label class="js-only" for="filter-practice-problem">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Practice Problem
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="project"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/project/#!">
+      Project
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-project"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Project"
+    ></input>
+
+    <label class="js-only" for="filter-project">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Project
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="reading"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/reading/#!">
+      Reading
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-reading"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Reading"
+    ></input>
+
+    <label class="js-only" for="filter-reading">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Reading
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="types"
+  filter="video"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/types/video/#!">
+      Video
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-video"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Content Type: Video"
+    ></input>
+
+    <label class="js-only" for="filter-video">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Video
+    </label>
+  </div>
+</gtd-library-filter>
+
+              </div>
+            </div>
+
+          </transition>
+        </div>
+
+      </fieldset>
+    </gtd-accordion>
+
+
+
+    <gtd-accordion inline-template
+:start-open="$store.state.filters[&#34;programming_languages&#34;] &amp;&amp; $store.state.filters[&#34;programming_languages&#34;].length">
+
+      <fieldset class="accordion sidebar__panel-full-width">
+        <button
+           type="button"
+           class="accordion__header"
+           aria-controls="programming_languages-filters"
+           :aria-expanded="shown"
+           v-on:click.prevent="shown = !shown"
+           :ga-action="shown ? 'Filter Group Opened' : 'Filter Group Closed'"
+           ga-label="Programming Language"
+        >
+          <div class="accordion__title">
+            Programming Language
+          </div>
+          <div class="accordion__icon js-only" v-if="shown">
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+</svg>
+          </div>
+          <div class="accordion__icon" v-else>
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+</svg>
+          </div>
+        </button>
+
+        <div class="accordion__content-wrapper" id="programming_languages-filters">
+          <transition name="slide"
+                      v-on:enter="expand"
+                      v-on:leave="collapse"
+v-on:after-enter="focusFirstItem">
+
+            <div class="accordion__content"
+                 ref="content"
+                 v-if="shown">
+              <div class="accordion__content-inner">
+                
+                  <p class="accordion__description">Choose your language(s)</p>
+
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="java"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/java/#!">
+      Java
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-java"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: Java"
+    ></input>
+
+    <label class="js-only" for="filter-java">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Java
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="python"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/python/#!">
+      Python
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-python"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: Python"
+    ></input>
+
+    <label class="js-only" for="filter-python">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Python
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="c-plus-plus"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/c-plus-plus/#!">
+      C++
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-c-plus-plus"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: C++"
+    ></input>
+
+    <label class="js-only" for="filter-c-plus-plus">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      C++
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="javascript"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/javascript/#!">
+      JavaScript
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-javascript"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: JavaScript"
+    ></input>
+
+    <label class="js-only" for="filter-javascript">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      JavaScript
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="bash"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/bash/#!">
+      Bash
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-bash"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: Bash"
+    ></input>
+
+    <label class="js-only" for="filter-bash">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Bash
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="programming_languages"
+  filter="sql"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/programming_languages/sql/#!">
+      SQL
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-sql"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Programming Language: SQL"
+    ></input>
+
+    <label class="js-only" for="filter-sql">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      SQL
+    </label>
+  </div>
+</gtd-library-filter>
+
+              </div>
+            </div>
+
+          </transition>
+        </div>
+
+      </fieldset>
+    </gtd-accordion>
+
+
+
+    <gtd-accordion inline-template
+:start-open="$store.state.filters[&#34;courses&#34;] &amp;&amp; $store.state.filters[&#34;courses&#34;].length">
+
+      <fieldset class="accordion sidebar__panel-full-width">
+        <button
+           type="button"
+           class="accordion__header"
+           aria-controls="courses-filters"
+           :aria-expanded="shown"
+           v-on:click.prevent="shown = !shown"
+           :ga-action="shown ? 'Filter Group Opened' : 'Filter Group Closed'"
+           ga-label="Path"
+        >
+          <div class="accordion__title">
+            Path
+          </div>
+          <div class="accordion__icon js-only" v-if="shown">
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+</svg>
+          </div>
+          <div class="accordion__icon" v-else>
+            <svg height="24" viewBox="0 0 24 24" width="24" class="svg-icon ">
+  <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+</svg>
+          </div>
+        </button>
+
+        <div class="accordion__content-wrapper" id="courses-filters">
+          <transition name="slide"
+                      v-on:enter="expand"
+                      v-on:leave="collapse"
+v-on:after-enter="focusFirstItem">
+
+            <div class="accordion__content"
+                 ref="content"
+                 v-if="shown">
+              <div class="accordion__content-inner">
+                
+                  <p class="accordion__description">Choose from these suggested paths</p>
+
+
+<gtd-library-filter inline-template
+  filter-type="courses"
+  filter="foundational"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/courses/foundational/#!">
+      Foundations of Programming
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-foundational"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Path: Foundations of Programming"
+    ></input>
+
+    <label class="js-only" for="filter-foundational">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Foundations of Programming
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="courses"
+  filter="advanced"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/courses/advanced/#!">
+      Advanced Programming
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-advanced"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Path: Advanced Programming"
+    ></input>
+
+    <label class="js-only" for="filter-advanced">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Advanced Programming
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="courses"
+  filter="machine_learning"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/courses/machine_learning/#!">
+      Machine Learning
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-machine_learning"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Path: Machine Learning"
+    ></input>
+
+    <label class="js-only" for="filter-machine_learning">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Machine Learning
+    </label>
+  </div>
+</gtd-library-filter>
+
+<gtd-library-filter inline-template
+  filter-type="courses"
+  filter="cloud"
+  base-path="/resources/#!"
+>
+  <div class="library-filter accordion__item">
+    <a v-if="!progressive"
+       href="/resources/courses/cloud/#!">
+      Cloud Computing
+      <span></span>
+    </a>
+    <input class="js-only visually-hidden"
+      type="checkbox"
+      id="filter-cloud"
+      v-model="active"
+      :ga-action="active ? 'Filter Activated' : 'Filter Deactivated'"
+      ga-label="Path: Cloud Computing"
+    ></input>
+
+    <label class="js-only" for="filter-cloud">
+
+      <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 2v14H2V2h14zm0-2H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" fill-rule="evenodd" fill="#7d7d7d"/>
+</svg>
+      <transition name="grow">
+        <span v-show="active" class="grow">
+          <svg alt="" class="svg-icon " xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
+  <path xmlns="http://www.w3.org/2000/svg" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM7 14L2 9.192l1.4-1.346L7 11.308 14.6 4 16 5.346 7 14z" fill="#4480ff"/>
+</svg>
+        </span>
+      </transition>
+
+      Cloud Computing
+    </label>
+  </div>
+</gtd-library-filter>
+
+              </div>
+            </div>
+
+          </transition>
+        </div>
+
+      </fieldset>
+    </gtd-accordion>
+
+
+            </div>
+
+
+        </div>
+      </transition>
+
+
+
+          <button class="sidebar__toggle button js-only"
+                  type="button"
+                  aria-controls="sidebar"
+                  ref="toggle"
+                  v-on:click="toggle"
+v-if="!open&& !filtersActive"ga-action="Filters Opened"ga-label="Filters">
+            <span>Filters</span>
+          </button>
+
+
+
+          <button class="sidebar__toggle button js-only"
+                  type="button"
+                  aria-controls="sidebar"
+                  ref="toggle"
+                  v-on:click="toggle"
+v-if="open"
+ga-action="Filters Applied"ga-label="Apply Filters">
+            <span>Apply Filters</span>
+          </button>
+
+
+          <button class="sidebar__toggle button js-only"
+                  type="button"
+                  aria-controls="sidebar"
+                  ref="toggle"
+                  v-on:click="toggle"
+v-if="!open && filtersActive"
+ga-action="Filters Opened"ga-label="Filters">
+            <span>Filters Applied</span>
+          </button>
+
+    </div>
+  </gtd-sidebar>
+
+        </div>
+
+        <div class="grid__item tablet--two-thirds desk--three-quarters">
+
+  <div class="approach-header">
+    <a class="approach-header__back approach-header__always-open"
+       href="/resources/#!"
+       ga-action="Course Return Link Clicked"
+       ga-label="Intro to Computer Science, Udacity"
+    >
+      <svg alt="" class="svg-icon link-icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 18 18">
+  <path d="M8.5.727l7.742 7.743L8.5 16.212l-1.358-1.358L12.53 9.42H.758v-1.9H12.53L7.142 2.085" fill-rule="nonzero"/>
+</svg>
+      <span>View all resources</span>
+    </a>
+  </div>
+
+  <gtd-resource
+    inline-template
+    class="resource resource--focused"
+    unique_id="r-01-intro-computer"
+    itemscope
+    itemtype="http://schema.org/CreativeWork"
+  >
+      <div class="resource__inner">
+        <transition name="fade-fast" appear>
+          <div class="resource__inner" :class="[ shown ? '' : 'resource__inner-hidden' ]">
+
+              <meta itemprop="image" content="http://localhost/static/images/resources/r-01-intro-computer.jpg" />
+
+            <div class="resource__image resource__image--desk resource__featured-image
+resource__image--r-01-intro-computer
+"></div>
+
+            <div class="resource__content">
+
+                <div class="resource__header resource__image resource__image--tablet
+resource__image--r-01-intro-computer
+">
+                  <span><a class="resource__type link link--inverted"
+                     href="/resources/types/online-course/#!"
+                     aria-label="View more Online Course content"
+                     ga-action="Resource Type Clicked"
+                     ga-label="Online Course"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon " width="18" height="18" viewBox="0 0 24 18">
+  <g fill="none" fill-rule="evenodd" transform="translate(2)">
+    <path d="M0 0h24v24H0"/>
+    <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z" fill-rule="nonzero" class="svg-icon__fill"/>
+  </g>
+</svg> <span>Online Course</span>
+                  </a></span>
+                </div>
+
+              <div class="resource__body">
+                <h3 itemprop="name" class="link link--header">
+                  Intro to Computer Science, Udacity
+                </h3>
+                <p itemprop="description" class="resource__description">
+                      Get a grip on basic programming concepts by creating your own search engine and a social network using the popular Python programming language. (paywall)
+                </p>
+
+<link rel="dns-prefetch" href="https://www.udacity.com/course/intro-to-computer-science--cs101">                  <meta itemprop="url" content="https://www.udacity.com/course/intro-to-computer-science--cs101" />
+                  <a href="https://www.udacity.com/course/intro-to-computer-science--cs101"
+                     target="_blank"
+                     rel="noopener"
+                     class="link link--cta resource__link"
+                     ga-action="Resource External Link Clicked"
+                     ga-label="Intro to Computer Science, Udacity: Open Link"
+                  >
+                    Open link <svg viewBox="-2 -2 30 30" class="svg-icon link-icon link-icon-up-right">
+  <path d="M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12c6.6,0,12-5.4,12-12S18.6,0,12,0z M15.8,18l0-7.9l-8.4,8.4l-1.9-1.9
+  l8.4-8.4H6V5.6h11.2h1.2l0,1.9l0,10.5L15.8,18z" />
+</svg>
+                  </a>
+
+
+
+                  <p>
+                      <a href="/resources/sources/udacity/#!" class="resource__source-label">
+                        Udacity</a>                  </p>
+              </div>
+              <div class="resource__footer">
+
+                <button class="button button--resource button--complete js-only"
+                        :class="{ 'button--checked': completed }"
+                        v-on:click.prevent="toggleComplete">
+                  <svg alt="" xmlns="http://www.w3.org/2000/svg" width="29px" height="29px" viewBox="0 0 29 29" class="svg-icon">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <circle cx="14.5" cy="14.5" r="14.5"></circle>
+      <polygon fill-rule="nonzero" points="13.4442827 17.1302184 25.625455 5.27272727 27.2424242 6.83979617 13.4442827 20.2121212 7.03030303 13.9960797 8.59337307 12.4290108"></polygon>
+    </g>
+  </g>
+</svg>
+                  <span v-if="completed">Marked as Done</span>
+                  <span v-else>Mark as Done</span>
+                </button>
+                <button class="button button--resource button--bookmark js-only"
+                        :class="{ 'button--checked': bookmarked }"
+                        v-on:click.prevent="toggleBookmarked">
+                  <svg alt="" xmlns="http://www.w3.org/2000/svg" width="29px" height="29px" viewBox="0 0 29 29" class="svg-icon">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <path d="M14.5,29 C6.49187113,29 0,22.5081289 0,14.5 C0,6.49187113 6.49187113,0 14.5,0 C22.5081289,0 29,6.49187113 29,14.5 C29,22.5081289 22.5081289,29 14.5,29 Z M18.9892938,5.02596618 L10.0107062,5.02596618 C9.5352043,5.02596618 9.12263669,5.22160873 8.77300338,5.61289459 C8.42337007,6.00417968 8.24855306,6.45566331 8.24855306,6.96734393 L8.24855306,22.3629227 L14.5,19.47343 L20.7514469,22.3629227 L20.7514469,6.96734393 C20.7514469,6.45566331 20.5766299,6.00417968 20.2269966,5.61289459 C19.8773633,5.22160873 19.4647957,5.02596618 18.9892938,5.02596618 Z"></path>
+      <polygon points="18.9892938 19.47343 18.9892938 6.96734393 10.0107062 6.96734393 10.0107062 19.47343 14.5 17.3514589"></polygon>
+    </g>
+  </g>
+</svg>
+                  <span v-if="bookmarked">Saved for Later</span>
+                  <span v-else>Save for Later</span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+        </transition>
+      </div>
+  </gtd-resource>
+
+
+
+    <div class="grid">
+      <div class="grid__item">
+        <h4 class="section__supplementary-header">
+          Related Topics
+        </h4>
+        <ul class="topic-list">
+<li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-intro-tooltip"
+    tooltip_html="Explore more <strong>Introductory Articles</strong> content"
+    element_html="Introductory Articles"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Introductory Articles"
+    url="/resources/topics/intro/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/intro/#!"
+       aria-label="Explore more Introductory Articles content"
+       class="link link--topic">
+      Introductory Articles
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-programming-tooltip"
+    tooltip_html="Explore more <strong>Programming</strong> content"
+    element_html="Programming"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Programming"
+    url="/resources/topics/programming/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/programming/#!"
+       aria-label="Explore more Programming content"
+       class="link link--topic">
+      Programming
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-data-structures-tooltip"
+    tooltip_html="Explore more <strong>Data Structures</strong> content"
+    element_html="Data Structures"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Data Structures"
+    url="/resources/topics/data-structures/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/data-structures/#!"
+       aria-label="Explore more Data Structures content"
+       class="link link--topic">
+      Data Structures
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-lists-tooltip"
+    tooltip_html="Explore more <strong>Lists</strong> content"
+    element_html="Lists"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Lists"
+    url="/resources/topics/lists/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/lists/#!"
+       aria-label="Explore more Lists content"
+       class="link link--topic">
+      Lists
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-lookup-tooltip"
+    tooltip_html="Explore more <strong>Lookup</strong> content"
+    element_html="Lookup"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Lookup"
+    url="/resources/topics/lookup/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/lookup/#!"
+       aria-label="Explore more Lookup content"
+       class="link link--topic">
+      Lookup
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-loops-tooltip"
+    tooltip_html="Explore more <strong>Loops</strong> content"
+    element_html="Loops"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Loops"
+    url="/resources/topics/loops/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/loops/#!"
+       aria-label="Explore more Loops content"
+       class="link link--topic">
+      Loops
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-nesting-tooltip"
+    tooltip_html="Explore more <strong>Nesting</strong> content"
+    element_html="Nesting"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Nesting"
+    url="/resources/topics/nesting/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/nesting/#!"
+       aria-label="Explore more Nesting content"
+       class="link link--topic">
+      Nesting
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-problem-solving-tooltip"
+    tooltip_html="Explore more <strong>Problem Solving</strong> content"
+    element_html="Problem Solving"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Problem Solving"
+    url="/resources/topics/problem-solving/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/problem-solving/#!"
+       aria-label="Explore more Problem Solving content"
+       class="link link--topic">
+      Problem Solving
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-procedures-tooltip"
+    tooltip_html="Explore more <strong>Procedures</strong> content"
+    element_html="Procedures"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Procedures"
+    url="/resources/topics/procedures/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/procedures/#!"
+       aria-label="Explore more Procedures content"
+       class="link link--topic">
+      Procedures
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-queries-tooltip"
+    tooltip_html="Explore more <strong>Queries</strong> content"
+    element_html="Queries"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Queries"
+    url="/resources/topics/queries/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/queries/#!"
+       aria-label="Explore more Queries content"
+       class="link link--topic">
+      Queries
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-recursion-tooltip"
+    tooltip_html="Explore more <strong>Recursion</strong> content"
+    element_html="Recursion"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Recursion"
+    url="/resources/topics/recursion/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/recursion/#!"
+       aria-label="Explore more Recursion content"
+       class="link link--topic">
+      Recursion
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-strings-tooltip"
+    tooltip_html="Explore more <strong>Strings</strong> content"
+    element_html="Strings"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Strings"
+    url="/resources/topics/strings/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/strings/#!"
+       aria-label="Explore more Strings content"
+       class="link link--topic">
+      Strings
+    </a>
+  </noscript>
+</li><li class="topic-list__item">
+  <gtd-tooltip
+    unique_id="topic-variables-tooltip"
+    tooltip_html="Explore more <strong>Variables</strong> content"
+    element_html="Variables"
+    element_classes="link link--topic"
+    ga-action="Resource Topic Clicked"
+    ga-label="Variables"
+    url="/resources/topics/variables/#!"
+  >
+  </gtd-tooltip>
+  <noscript>
+    <a href="/resources/topics/variables/#!"
+       aria-label="Explore more Variables content"
+       class="link link--topic">
+      Variables
+    </a>
+  </noscript>
+</li>        </ul>
+      </div>
+    </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+      </main>
+
+<footer class="page-footer" role="contentinfo">
+
+  <div class="section pre-footer">
+    <div class="section__inner grid">
+      <div class="grid__item one-whole desk--one-third">
+        <h2>About the guide</h2>
+        <p>The guide provides tips and resources to help you develop your technical skills through self-paced, hands-on learning. It is intended for university-level Computer Science students considering seeking an internship or full-time role at Google or in the tech industry generally; and university faculty; and others working in, studying, or curious about software engineering.  The resources we’ve cited aren’t meant to replace courses available at your university, but they may help supplement your education or provide an introduction to a topic.</p>
+      </div>
+      <div class="grid__item one-whole desk--one-third">
+        <h2>Notices</h2>
+        <p>Following the recommendations or using the resources cited in the guide does not guarantee a job at Google. If you choose to sign in to the guide using a Google account, you are agreeing to Google’s Terms of Service.</p>
+      </div>
+      <div class="grid__item one-whole desk--one-third">
+        <h2>Acknowledgements</h2>
+        <p>Much of the information in the guide has been gathered via our work with students, faculty, and universities. In particular, Google would like to express our profound gratitude to our outstanding volunteer faculty advisors: Laleh Behjat, University of Calgary; Judith Gal-Ezer, Open University of Israel; Mia Minnes, University of California San Diego; Sathya Narayanan, California State University Monterey Bay; and S. Monisha Pulimood, The College of New Jersey. They gave substantial input to the design and content, and helped us keep the needs of their faculty peers and students front and center.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section content-controls">
+    <div class="section__inner grid footer-google">
+      <div class="grid__item">
+        <a href="https://www.google.com"
+          class="footer-google__logo"
+          ga-action="Footer Logo Clicked"
+          ga-label="Google"
+        >
+          <svg viewBox="0 0 86 28" class="svg-logo " aria-label="Google" width="86px" height="30px">
+  <defs>
+    <polygon id="g-gray-path-1"  points="0 0 85.8570241 0 85.8570241 28 0 28"></polygon>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
+    <g transform="translate(-39.000000, -234.000000)">
+      <g transform="translate(0.000000, 203.000000)">
+        <g>
+          <g transform="translate(82.000000, 45.000000) scale(1, -1) translate(-82.000000, -45.000000) translate(39.000000, 31.000000)">
+            <path d="M0.149114663,17.1777118 C0.149114663,23.1336824 5.16865477,27.9828294 11.1394329,27.9828294 C14.4418325,27.9828294 16.7932005,26.6915353 18.5631761,25.0049471 L16.4759836,22.9228588 C15.2079414,24.1089471 13.4908009,25.0313 11.1394329,25.0313 C6.78033145,25.0313 3.37226165,21.5261529 3.37226165,17.1777118 C3.37226165,12.8292706 6.78033145,9.32412353 11.1394329,9.32412353 C13.9661103,9.32412353 15.577787,10.4573 16.6080713,11.4852706 C17.4536391,12.3285647 18.0082012,13.5408 18.219748,15.2010353 L11.1394329,15.2010353 L11.1394329,18.1527706 L21.0992605,18.1527706 C21.2049307,17.6257118 21.2577658,16.9932412 21.2577658,16.3078588 C21.2577658,14.0942118 20.6501622,11.3533 18.6950574,9.40318235 C16.7932005,7.42671176 14.3623735,6.37259412 11.1394329,6.37259412 C5.16865477,6.37259412 0.149114663,11.2215353 0.149114663,17.1777118" fill="#000000"></path>
+            <path d="M29.3070475,9.1133 C27.1934375,9.1133 25.3706268,10.8525941 25.3706268,13.3299765 C25.3706268,15.8337118 27.1934375,17.5466529 29.3070475,17.5466529 C31.4204512,17.5466529 33.2432619,15.8337118 33.2432619,13.3299765 C33.2432619,10.8525941 31.4204512,9.1133 29.3070475,9.1133 M29.3070475,20.2873588 C25.4498794,20.2873588 22.3059851,17.3621824 22.3059851,13.3299765 C22.3059851,9.32412353 25.4498794,6.37238824 29.3070475,6.37238824 C33.1640092,6.37238824 36.3079036,9.32412353 36.3079036,13.3299765 C36.3079036,17.3621824 33.1640092,20.2873588 29.3070475,20.2873588" fill="#000000"></path>
+            <path d="M44.579588,9.1133 C42.4661844,9.1133 40.6431673,10.8525941 40.6431673,13.3299765 C40.6431673,15.8337118 42.4661844,17.5466529 44.579588,17.5466529 C46.6929917,17.5466529 48.5158024,15.8337118 48.5158024,13.3299765 C48.5158024,10.8525941 46.6929917,9.1133 44.579588,9.1133 M44.579588,20.2873588 C40.7224199,20.2873588 37.5785256,17.3621824 37.5785256,13.3299765 C37.5785256,9.32412353 40.7224199,6.37238824 44.579588,6.37238824 C48.4365497,6.37238824 51.5806505,9.32412353 51.5806505,13.3299765 C51.5806505,17.3621824 48.4365497,20.2873588 44.579588,20.2873588" fill="#000000"></path>
+            <path d="M59.8121101,9.1133 C57.6987064,9.1133 55.9285245,10.8789471 55.9285245,13.3036235 C55.9285245,15.7544471 57.6987064,17.5466529 59.8121101,17.5466529 C61.8990962,17.5466529 63.5371905,15.7544471 63.5371905,13.3036235 C63.5371905,10.8789471 61.8990962,9.1133 59.8121101,9.1133 L59.8121101,9.1133 Z M63.3256437,19.8659176 L63.3256437,18.7325353 L63.2201799,18.7325353 C62.5333237,19.5494765 61.21224,20.2873588 59.5479346,20.2873588 C56.0606122,20.2873588 52.8638828,17.2304176 52.8638828,13.3036235 C52.8638828,9.40318235 56.0606122,6.37238824 59.5479346,6.37238824 C61.21224,6.37238824 62.5333237,7.11027059 63.2201799,7.95377059 L63.3256437,7.95377059 L63.3256437,6.95215294 C63.3256437,4.29050588 61.8990962,2.86744706 59.6007697,2.86744706 C57.725124,2.86744706 56.5625456,4.21144706 56.0870297,5.34462353 L53.4186512,4.2378 C54.18476,2.39288824 56.2191175,0.126535294 59.6007697,0.126535294 C63.1937624,0.126535294 66.2317801,2.23477059 66.2317801,7.3738 L66.2317801,19.8659176 L63.3256437,19.8659176 Z" fill="#000000"></path>
+            <mask id="g-gray-mask-1" fill="white">
+              <use xlink:href="#g-gray-path-1"></use>
+            </mask>
+            <polygon fill="#000000" mask="url(#g-gray-mask-1)" points="71.4099287 6.79411765 68.345287 6.79411765 68.345287 27.2450294 71.4099287 27.2450294"></polygon>
+            <path d="M79.5732806,17.5993176 C80.7886941,17.5993176 81.8189784,16.9932 82.1624065,16.1235529 L75.9276593,13.5407588 C75.8482002,16.2289647 78.0146454,17.5993176 79.5732806,17.5993176 M79.8110385,9.11325882 C78.2524033,9.11325882 77.1428664,9.82478824 76.4295926,11.2214941 L85.7553991,15.0692294 L85.4383886,15.8600235 C84.8572025,17.4148471 83.0870206,20.2875235 79.4676104,20.2875235 C75.8746178,20.2875235 72.8894351,17.4675529 72.8894351,13.3299353 C72.8894351,9.42949412 75.8482002,6.37255294 79.8110385,6.37255294 C83.007768,6.37255294 84.8572025,8.32267059 85.623105,9.45584706 L83.2455259,11.0370235 C82.4529995,9.87749412 81.3698801,9.11325882 79.8110385,9.11325882" fill="#000000" mask="url(#g-gray-mask-1)"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+        </a>
+        <ul>
+          <li><a href="https://www.google.com/intl/en/policies/privacy/"
+                 class="footer-google__link"
+                 ga-action="Footer Link Clicked"
+                 ga-label="Privacy">
+            Privacy
+          </a></li>
+          <li><a href="https://www.google.com/intl/en/policies/terms/"
+                 class="footer-google__link"
+                 ga-action="Footer Link Clicked"
+                 ga-label="Terms">
+            Terms
+          </a></li>
+          <li><a href="https://www.google.com/intl/en/about/"
+                 class="footer-google__link"
+                 ga-action="Footer Link Clicked"
+                 ga-label="About Google">
+            About Google
+          </a></li>
+          <li><a href="https://www.google.com/intl/en/about/products/"
+                 class="footer-google__link"
+                 ga-action="Footer Link Clicked"
+                 ga-label="Google Products">
+            Google Products
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</footer>    </div>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-101788211-1', 'auto');
+      (function() {
+        let anchor = window.location.hash.replace('#', '');
+        let expectedAnchor = '!';
+        let anchorEl = document.getElementById(expectedAnchor);
+        if (!anchorEl || anchor !== expectedAnchor) {
+          return;
+        }
+        let anchorTop = anchorEl.getBoundingClientRect().top;
+        document.body.scrollTop = anchorTop;
+      })();
+    </script>
+    <script src="/static/js/vendor-80d8ff0f47dc0fe82d1cccf5f6ec94ad.min.js"></script>
+    <script src="/static/js/site-5711e2c583b43d558475ce83a250c2d2.min.js"></script>
+  </body>
+</html>

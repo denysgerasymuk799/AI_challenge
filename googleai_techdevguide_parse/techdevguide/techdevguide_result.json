@@ -1,0 +1,2207 @@
+{
+   "Google Cloud Platform Education Credits": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-cloud-platform-education-credits/#!",
+      "short_description": "Want to try tools in the Cloud for free? Apply for a grant to get free credits if you\u00e2\u0080\u0099re a teacher or researcher.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Learn to Program:  Crafting Quality Code, University of Toronto": {
+      "url": "https://techdevguide.withgoogle.com/resources/learn-to-program-the-fundamentals-university-of-toronto/#!",
+      "short_description": "Not all programs are created equal, and now that you have some experience under your belt, you&#39;ll design, write, and validate code in an object-oriented language as you learn to compare programs that address the same task. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Careers: How We Hire": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-careers-how-we-hire/#!",
+      "short_description": "If you want to join us here at Google, get the inside track on how to apply for a job and prepare for Google&#39;s singular interviews.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "List of data structures, Wikipedia": {
+      "url": "https://techdevguide.withgoogle.com/resources/list-of-data-structures-wikipedia/#!",
+      "short_description": "Firm up your knowledge of data structures with this Wikipedia index of critical data structure types.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "ACM Computing Curricula": {
+      "url": "https://techdevguide.withgoogle.com/resources/acm-computer-curricula/#!",
+      "short_description": "Looking for guidance in keeping your undergraduate curricula fresh and relevant? Developed jointly by the ACM and IEEE, these are the most recent college curricular guidelines in various computing disciplines. They include course exemplars to suggested learning outcomes.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Successful mock phone coding interview, from University of California San Diego, on Coursera": {
+      "url": "https://techdevguide.withgoogle.com/resources/successful-mock-phone-coding-interview/#!",
+      "short_description": "Learn by example when you listen in on this 16-minute tech phone interview, which shows how a successful candidate codes and communicates live to answer technical problems set by her interviewer. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Working in multiple languages: Maximum Vacation Days!": {
+      "url": "https://techdevguide.withgoogle.com/resources/working-in-multiple-languages-maximum-vacation-days/#!",
+      "short_description": "Trot out everything you know about recursion, graphs and arrays as you formulate a travel schedule that maximizes an employee&#39;s number of vacation days as she travels the world collecting algorithm problems. To raise the difficulty level of this exercise, practice it in a programming language you&#39;re not as fluent in. (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Sort array problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/array-sort-problem-sorted-values/#!",
+      "short_description": "Take a stab at this Google-created problem-solving, a mid-level exercise that involves returning an array where duplicate values from the input array have been removed.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Careers: Interview": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-careers-interview/#!",
+      "short_description": "So you&#39;ve got an interview here with us at Google? Good job! Whether you&#39;re applying for a software engineering position or another role at Google, here&#39;s some information on prepping for remote and in-person onsite interviews.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Debugging Your App": {
+      "url": "https://techdevguide.withgoogle.com/resources/debugging-apps-video/#!",
+      "short_description": "Need help finding and squashing bugs in your app code? This video tutorial designed by Google&#39;s Developer Training is useful for students and teachers alike, covering topics from Android Studio logging to working with breakpoints.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Introduction to Algorithms, MIT": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-algorithms-mit/#!",
+      "short_description": "Build on an already secure foundation of Python programming with this course, which will help you develop a strong understanding of algorithms and data structures. A solid background in discrete mathematics is a must for the great things you&#39;ll build as a software engineer.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Preparing to Apply or Interview at Google:  YouTube playlist": {
+      "url": "https://techdevguide.withgoogle.com/resources/preparing-to-apply-or-interview-at-google-youtube-playlist/#!",
+      "short_description": "Dive deeper into Google&#39;s hiring process by watching videos from this YouTube playlist covering a wide variety of interviewing topics, as well as tips on putting together your resume.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google for Education: Computer Science Learning Opportunities": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-for-education-site-computer-science-learning-opportunities/#!",
+      "short_description": "This is an extensive Google-designed resource set for students and educators interested in computer science. Professional development courses, programs that support diversity, and grants for teaching computing are just a few of the many offerings found here.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Algorithms Part 1, Princeton University": {
+      "url": "https://techdevguide.withgoogle.com/resources/algorithms-part-1-princeton-university/#!",
+      "short_description": "In this first half of a two-part course on the fundamentals of algorithms and data structures, you&#39;ll tackle applications and performance analysis of Java implementations. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Cryptography 1, Stanford University, on Coursera": {
+      "url": "https://techdevguide.withgoogle.com/resources/cryptography-stanford-university-on-coursera/#!",
+      "short_description": "Encryption isn&#39;t just for spies, it&#39;s a vital cog in the online machine. Enlist in this course and become a crack cryptographic coder, learning how to keep private information safe from prying eyes. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Introduction to Mathematical Thinking, Stanford University": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-mathematical-thinking-stanford-university/#!",
+      "short_description": "Looking to improve your analytical skills for professional reasons? Contemplating a math-related major? You\u00e2\u0080\u0099ll learn to develop logical reasoning and increase your knowledge of discrete math in this general course designed to help you think like a mathematician. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "CS Teaching Tips": {
+      "url": "https://techdevguide.withgoogle.com/resources/cs-teaching-tips/#!",
+      "short_description": "Find some new tools and resources for your CS program and lesson plans with these tips from your faculty peers on computer science instruction, care of the National Science Foundation. They cover everything from lectures to labs to code assessment.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "LeetCode": {
+      "url": "https://techdevguide.withgoogle.com/resources/leetcode-interview-practice/#!",
+      "short_description": "Students can practice coding skills and/or prep for their dream tech job interview on this platform, which features an expanding library of over 400 coding questions in 11 programming languages. It includes solutions and discussion. One good choice for hands-on practice. (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Object Oriented Java Programming: Data Structures and Beyond Specialization, University of California San Diego": {
+      "url": "https://techdevguide.withgoogle.com/resources/object-oriented-java-programming-data-structures-and-beyond-specialization-university-of-california-san-diego/#!",
+      "short_description": "Take your Java skills to the next level with this intermediate course series that features real-world project contributions by Google. You&#39;ll learn to efficiently organize large datasets and assess the quality of your own code. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "canBalance problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/canbalance-problem-arrays-non-empty/#!",
+      "short_description": "Put on your thinking cap for this ambitious exercise, where you&#39;ll need to determine if there&#39;s a place to split a non-empty array so that the sums of the numbers on both sides equal each other.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Implementing a key value store in a hash table": {
+      "url": "https://techdevguide.withgoogle.com/resources/implementing-a-key-value-store-in-a-hash-table/#!",
+      "short_description": "Check out this comprehensive article to learn everything you need to know about hash table implementations in C++\u00e2\u0080\u00a6 and probably never even thought to ask.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Movie Review Sentiment Analysis": {
+      "url": "https://techdevguide.withgoogle.com/resources/movie-review-sentiment/#!",
+      "short_description": "Get a grip on machine learning with this intermediate-level problem-solving, whose solution involves writing a program that must predict whether a Rotten Tomatoes movie review is positive or negative.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "ACM-ICPC": {
+      "url": "https://techdevguide.withgoogle.com/resources/acm-icpc/#!",
+      "short_description": "Pit your wits against past competitors in the Association for Computing Machinery&#39;s International Collegiate Programming Contest by trying out past problems. You can even see historic problems from the 1970s, when the first contest was held using an IBM 360!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deep Learning by Google, Udacity": {
+      "url": "https://techdevguide.withgoogle.com/resources/deep-learning-by-google-udacity/#!",
+      "short_description": "Never mind cutting edge, deep learning is bleeding edge. Find out what makes it so powerful, and breathe life into your very own intelligent system--which you&#39;ll design to learn from big, complicated datasets. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Applied Cryptography:  Science of Secrets, on Udacity": {
+      "url": "https://techdevguide.withgoogle.com/resources/applied-cryptography-science-of-secrets/#!",
+      "short_description": "Enter the covert world of cryptography and learn how to use it to keep commercial transactions secure while also protecting confidential data. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Learning multiple languages: Java for C++ programmers": {
+      "url": "https://techdevguide.withgoogle.com/resources/learning-multiple-languages-java-for-c-plus-plus-programmers/#!",
+      "short_description": "If you&#39;re already a C++ ace, this tutorial site featuring lessons, assignments, and tools, will get you up to speed in Java as well.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Former Coding Interview Question: Compression and Decompression": {
+      "url": "https://techdevguide.withgoogle.com/resources/compress-decompression/#!",
+      "short_description": "Challenge your knowlege of data structures, algorithms and more with this gentle practice problem that involves compressing and decompressing a string.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Mastering the Software Engineering Interview, University of California San Diego, on Coursera": {
+      "url": "https://techdevguide.withgoogle.com/resources/mastering-the-software-engineering-interview/#!",
+      "short_description": "We know you&#39;re a qualified programmer, but to successfully land your dream internship or job, you&#39;ll need to convince someone else of that, too. Acquire the skills you&#39;ll need to ace a software engineering job interview at any number of tech companies. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "collapseDuplicates problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/collapseduplicates-problem-fix/#!",
+      "short_description": "Break out your Java toolbox to fix the duplicate collapsing code you&#39;ll encounter in this medium-difficulty problem created by Google.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "stringSplosion problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/stringsplosion-problem-ccocodcode/#!",
+      "short_description": "Want to warm up your coding muscles with a quick drill? Try this easy, Java-based strings exercise.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Former Coding Interview Question: Minesweeper": {
+      "url": "https://techdevguide.withgoogle.com/resources/coding-question-minesweeper/#!",
+      "short_description": "Put your problem-solving skills (and everything you know about algorithms, data structures, and dynamic programming) to the test as you work to create your own version of the game Minesweeper for this former Google interview question.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "5 Java Debugging Problems You Probably Have and How to Solve Them": {
+      "url": "https://techdevguide.withgoogle.com/resources/5-java-debugging-problems-you-probably-have/#!",
+      "short_description": "Debugging is no joke. Review 5 common problems that cause Java production errors in this essential read.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Case study: Program suggestions for faculty at one university": {
+      "url": "https://techdevguide.withgoogle.com/resources/university-cs-programs-suggestions-for-faculty/#!",
+      "short_description": "Google is frequently asked to provide an industry/employer perspective on what students need to know to be career-ready. This slide deck represents the thoughts of a Google engineer who is also an adjunct faculty member in CS at a major university.  He created this deck for the CS department at another institution, and they found the information helpful. We&#39;re sharing it as a case study and invite you to use it as you see fit.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Analyzing (Social) Network Data:  Capstone Project for Object Oriented Programming in Java specialization, University of California San Diego, on Coursera": {
+      "url": "https://techdevguide.withgoogle.com/resources/analyzing-social-network-data-capstone-project/#!",
+      "short_description": "Choose your own coding adventure as you work to analyze a social network. You&#39;ll be given a real-world dataset and infrastructure, and then after some warm-up tasks, you&#39;re off on your own to take the project wherever you like. Scroll down the page to get to the capstone.  (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Nifty Assignments": {
+      "url": "https://techdevguide.withgoogle.com/resources/nifty-assignments/#!",
+      "short_description": "Looking for assignment ideas that will challenge your computer science students and also rate high on the fun scale? This free site features high-quality materials generated by fellow educators that may spark ideas for your own curriculum.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Java Programming and Software Engineering Fundamentals Specialization, Duke University": {
+      "url": "https://techdevguide.withgoogle.com/resources/java-programming-and-software-engineering-fundamentals-specialization/#!",
+      "short_description": "Learn core programming skills that you\u00e2\u0080\u0099ll need to solve complex real world problems in this intro-level Java course series. You\u00e2\u0080\u0099ll tackle everything from algorithm design to program debugging. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using the Advanced Learning path with your students": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-industry-pathway-with-your-students/#!",
+      "short_description": "Give your students rigorous practice in integrating all the skills and knowledge they\u00e2\u0080\u0099ve built on campus and in your classroom. This content bundle will give them a chance to experience what programming is like in the real world at companies like Google. Key topics include working with existing code bases and open source tools.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Introduction to Programming in Java, MIT": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-programming-in-java-mit/#!",
+      "short_description": "Learn the basics of the Java programming language as you develop real software to solve real problems. This course is designed for people with some programming experience, but even if you&#39;re starting from scratch you&#39;ll do fine with a bit of determination!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Probabilistic Graphical Models 1: Representation": {
+      "url": "https://techdevguide.withgoogle.com/resources/probabilistic-graphical-models-representation/#!",
+      "short_description": "Develop logical reasoning and an understanding of discrete math in this course on probabilistic graphical models, which underpin applications in fields as diverse as medicine and language, as well as machine learning. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Team Geek: A Software Developer's Guide to Working Well with Others, by Brian Fitzpatrick and Ben Collins-Sussman": {
+      "url": "https://techdevguide.withgoogle.com/resources/team-geek-a-software-developer-s-guide-to-working-well-with-others-by-brian-fitzpatrick-and-ben-collins-sussman/#!",
+      "short_description": "In a perfect world, software engineers who produce the best code are the most successful. But in our perfectly messy world, success also depends on how you work with people to get your job done. This highly entertaining book covers basic patterns and anti-patterns for working with other people, teams, and users while trying to develop software.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "CodingBat": {
+      "url": "https://techdevguide.withgoogle.com/resources/codingbat-live-coding/#!",
+      "short_description": "Students can deepen their Java and Python skills using this free site\u00e2\u0080\u0099s practice problems. Faculty may want to use them as homework drills, lab exercises or lecture examples.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Anatomy of a Large-Scale Hypertextual Web Search Engine": {
+      "url": "https://techdevguide.withgoogle.com/resources/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/#!",
+      "short_description": "Want your students to understand how Google&#39;s algorithm worked when it debuted? Here&#39;s the original paper by its founders that lays out the hypertext-heavy structure of a prototype search engine.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google's Python class": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-s-python-class/#!",
+      "short_description": "Know a bit about programming and feel ready to start learning about Python? This free class offers plenty to read and watch, as well as lots of coding exercises that&#39;ll let you practice your Python skills.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "FreeTechBooks": {
+      "url": "https://techdevguide.withgoogle.com/resources/freetechbooks/#!",
+      "short_description": "What&#39;s better than free stuff! A database of free / open access online Computer Science books, textbooks, and lecture notes.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "IEEE Computer Engineering Curricula 2016": {
+      "url": "https://techdevguide.withgoogle.com/resources/ieee-computer-engineering-curricula-2016/#!",
+      "short_description": "This report by the IEEE (partnered with ACM) details suggested curriculum guidelines for college programs in computer engineering globally. It also traces the evolution of the discipline and outlines requirements for program accrediation.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Web: Google Developer Training for Web, on Udacity": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-developer-training-for-web-on-udacity/#!",
+      "short_description": "Pick and mix from this collection of HTML, CSS and JavaScript courses to bolster your web development skills for desktop and mobile-first apps.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "wordLen problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/wordlen-problems-array-strings-medium/#!",
+      "short_description": "Work your way through this medium-difficulty problem. The journey to a solution will lead you through arrays, strings, key values, and maps.  Stay the course!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Interview with winner of Red Hat's Women in Open Source Academic Award, Kesha Shah": {
+      "url": "https://techdevguide.withgoogle.com/resources/interview-with-winner-of-red-hat-s-women-in-open-source-academic-award-kesha-shah/#!",
+      "short_description": "Illustrate the benefits of participating in the open source community and tout the advantages of mentorship to your students using this article, which features an interview with the inaugural winner of Red Hat&#39;s Open Source Academic Award.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Producing Open Source Software: How to Run a Successful Free Software Project, by Karl Fogel": {
+      "url": "https://techdevguide.withgoogle.com/resources/producing-open-source-software-how-to-run-a-successful-free-software-project-by-karl-fogel/#!",
+      "short_description": "There&#39;s more to successful software than just code! Bury yourself in this book on the human side of open source software development, including project operation, user and developer expectations, and the culture of the free software community.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "An Introduction to Interactive Programming in Python, Rice University": {
+      "url": "https://techdevguide.withgoogle.com/resources/an-introduction-to-interactive-programming-in-python-rice-university/#!",
+      "short_description": "Write software for a digital stopwatch, the classic arcade game &#39;Pong,&#39; and more, in this introductory course on the Python programming language. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "withoutString problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/withoutstring-problem-strings-base-remove-return/#!",
+      "short_description": "You&#39;ll get a good programming workout with this mid-range Java problem-solving, which involves removing one string from another. Hint: this one isn&#39;t case sensitive.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Working in multiple languages: \"Distributing Candies\" problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/working-in-multiple-languages-distributing-candies-problem/#!",
+      "short_description": "Looking for a simpler practice problem that will let you stretch your coding skills in a language you&#39;re not as comfortable with? This candy distribution option comes in a number of programming flavors. Sweet!  (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Project Euler": {
+      "url": "https://techdevguide.withgoogle.com/resources/projecteuler-math-program-problems/#!",
+      "short_description": "Another good source for challenging problems that will require both math and programming skills to solve. Students can use the free practice problems to have fun while they hone their problem solving, coding, and math abilities.  Faculty may want to use them as homework drills, lab exercises or lecture examples. (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Machine Learning Engineer Nanodegree, Udacity": {
+      "url": "https://techdevguide.withgoogle.com/resources/machine-learning-engineer-nanodegree-udacity/#!",
+      "short_description": "Get yourself up to speed with machine learning, one of computer science&#39;s hottest topics. In this program you&#39;ll learn how to apply predictive models to data in finance, healthcare, education, and more. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "wordCount problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/wordcount-problem-classic-algorithm-hard/#!",
+      "short_description": "A solution to this classic Java word count conundrum will be hard won, but arrive at the proper solution and you\u00e2\u0080\u0099ll have mastered the use of a map to process bulk data. Can you determine how many times each string appears in an array?",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Working in multiple languages: Palindrome Permutation II": {
+      "url": "https://techdevguide.withgoogle.com/resources/working-in-multiple-languages-palindrome-permutation-2/#!",
+      "short_description": "Demonstrate your knowledge of lists, arrays and hashmaps as you seek out all the palindromic permutations within a given string. Make this coding conundrum a bit more of a challenge by tackling it in a programming language your not as familiar with. (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google's Applied CS Skills program": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-applied-cs-with-android-program/#!",
+      "short_description": "A great place to start is the Touring Musician problem (Unit 5), where you can practice your coding velocity and efficiency. (login and a brief survey required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Software Debugging: Automating the Boring Tasks": {
+      "url": "https://techdevguide.withgoogle.com/resources/software-debugging-automating-the-boring-tasks/#!",
+      "short_description": "Finding bugs is a vital part of the software development process, and in this course you&#39;ll use Python to create automated debugging software to help lighten the load. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Testing and confidence: Optimizing performance": {
+      "url": "https://techdevguide.withgoogle.com/resources/testing-and-confidence-optimizing-performance/#!",
+      "short_description": "Build confidence in your coding and testing with this video that illustrates how big data structures optimize performance. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "App development for infectious microbial genomics (former Summer of Code project with Google)": {
+      "url": "https://techdevguide.withgoogle.com/resources/app-development-for-infectious-microbial-genomics-former-summer-of-code-project-with-google/#!",
+      "short_description": "Review current open source code and even help further develop an app that tracks the spread and evolution of infectious disease, as part of a high-impact C++ project.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Compiler Rules for Class Construction": {
+      "url": "https://techdevguide.withgoogle.com/resources/compiler-rules-for-constructing-classes/#!",
+      "short_description": "This intermediate-level video shows how compiler rules play a role in the construction of objects in Java. It&#39;s project based, so you&#39;ll get some practice, too. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Former Coding Interview Question: Flatten an iterator of iterators (interleaved iteration)": {
+      "url": "https://techdevguide.withgoogle.com/resources/former-coding-interview-question-flatten-an-iterator-of-iterators/#!",
+      "short_description": "If you like tongue twisters and a challenge that tests your coding skills and creativity, sink your teeth into this former Google interview question.  Given an iterator of iterators, implement an interleaving iterator (We promise Dr. Seuss didn&#39;t invent this one). Great opportunity to practice with nesting, choosing between data structures, and more.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Design of Computer Programs: Programming Principles": {
+      "url": "https://techdevguide.withgoogle.com/resources/design-of-computer-programs-programming-principles/#!",
+      "short_description": "Challenge yourself and expand your Python toolkit in this course for experienced coders, where you&#39;ll learn new ways to approach solving problems from an expert programmer. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Machine Learning, Stanford University": {
+      "url": "https://techdevguide.withgoogle.com/resources/machine-learning-stanford-university/#!",
+      "short_description": "Machine learning comes in many flavors, and this juicy course will let you taste a variety of them as you also explore their application in such exciting fields as robotics, speech recognition, and bioinformatics.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "NCWIT's EngageCSEdu repository": {
+      "url": "https://techdevguide.withgoogle.com/resources/ncwit-s-engagecsedu-repository/#!",
+      "short_description": "Expand your teaching repertoire with resources from this free repository created by the National Center for Women in Information Technology. You&#39;ll find options ranging from peer-reviewed CS1/CS2 course materials to research-based teaching practices that help support diversity in undergraduate computer science.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Algorithmic problem solving and interviews": {
+      "url": "https://techdevguide.withgoogle.com/resources/algorithmic-problem-solving-and-interviews/#!",
+      "short_description": "Conceptualizing solutions to technical issues can feel like untangling knots in a demanding situation like an interview.  Here&#39;s an effective problem-solving strategy for those times when you&#39;re under pressure. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Challenge:  Which tests should you run?": {
+      "url": "https://techdevguide.withgoogle.com/resources/challenge-which-tests-should-you-run/#!",
+      "short_description": "Testing is crucial to code health, but how do you make sure your testing is actually getting the job done? This video challenges you with a test verification problem and shows how some university students went about solving it.  (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Android: Google Developer Training for Android, on Udacity": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-developer-training-for-android-on-udacity/#!",
+      "short_description": "Whether you&#39;re a budding programmer or an old hand, there&#39;s something for you in this set of Android app development and design courses.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Open source skills: Commonly used GitHub tips and tricks": {
+      "url": "https://techdevguide.withgoogle.com/resources/open-source-skills-commonly-used-github-tips-and-tricks/#!",
+      "short_description": "Power up your GitHub performance kit with pointers posted by users on this open source thread.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Tool up: A sampler of tools for software engineers": {
+      "url": "https://techdevguide.withgoogle.com/resources/tool-up-a-sampler-of-tools-for-software-engineers/#!",
+      "short_description": "Many software engineers in industry use a variety of open source tools as they code.  There are many out there to choose from, and engineers\u00e2\u0080\u0099 preferences vary.  Here are a few examples that some Google engineers have used.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Mathematics for Computer Science": {
+      "url": "https://techdevguide.withgoogle.com/resources/mathematics-for-computer-science-mit/#!",
+      "short_description": "Broaden your knowledge of discrete math with this undergraduate-level course that teaches mathematical ideas useful for computer scientists. You\u00e2\u0080\u0099ll also sharpen your logical reasoning skills and learn about definitions and proofs.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Open source skills: GitHub usage and workflows": {
+      "url": "https://techdevguide.withgoogle.com/resources/opensource-skills-workflows/#!",
+      "short_description": "Get to know the GitHub code repository by following this user Q&amp;A thread on the Stack Overflow programmers&#39; community site.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Hangman Part 2: One open source solution": {
+      "url": "https://techdevguide.withgoogle.com/resources/hangman-solutions-open-source-answer/#!",
+      "short_description": "(We recommend trying Hangman Part 1, the challenge, before looking at solutions). Test your approach to the classic puzzle game Hangman against other people&#39;s solutions, using an open source word list to see which finds the greatest number of words. Game on!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Successful mock in-person interview, from University of California San Diego, on Coursera": {
+      "url": "https://techdevguide.withgoogle.com/resources/successful-mock-in-person-interview/#!",
+      "short_description": "Discover what happens in a live in-person tech interview in this half-hour video showing how a good candidate thinks on their feet to solve a tricky technical problem.  (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Algorithm Design Manual, by Steven S. Skiena": {
+      "url": "https://techdevguide.withgoogle.com/resources/the-algorithm-design-manual-by-steven-s-skiena/#!",
+      "short_description": "Consult this handy reference book when you need help identifying and working with key algorithms. The first part is a guide to algorithm design and analysis; the second is a reference catalog of 75 crucial algorithmic problems.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using the Foundations path with your students": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-foundational-pathway-with-your-students/#!",
+      "short_description": "Looking to increase your students\u00e2\u0080\u0099 confidence so they want to stay in CS? To strengthen their foundation as a potential software engineer? To help them master at least one programming language? Here\u00e2\u0080\u0099s a curated path designed to support you in your efforts.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Mapshare problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/mapshare-problem-return-given-map/#!",
+      "short_description": "Here\u00e2\u0080\u0099s the coding equivalent of a warm-up stretch: you\u00e2\u0080\u0099ll modify and return a given map in this easy Java exercise.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Software Testing, How to Make Software Fail": {
+      "url": "https://techdevguide.withgoogle.com/resources/software-testing-how-to-make-software-fail/#!",
+      "short_description": "Breaking things can be fun, and valuable too! In this course you&#39;ll learn how to destruct-test your code to uncover bugs and help you build more robust software. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Simple interpreter problem-solving, in Python": {
+      "url": "https://techdevguide.withgoogle.com/resources/interpreter-problems-for-python/#!",
+      "short_description": "Writing a simple interpreter in Python that understands the &#34;+&#34;, &#34;-&#34;, and &#34;*&#34; operations -- and then applying them -- is no piece of cake. Solve this challenging, Google-designed problem and victory will feel ever so sweet.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Codecademy": {
+      "url": "https://techdevguide.withgoogle.com/resources/codecademy-all/#!",
+      "short_description": "Meet Codeacademy, an online learning platform with free coding classes in 12 different programming languages, including Python and Java, as well as the markup languages HTML and CSS. There&#39;s also a paid service that unlocks a personalized learning plan, quizzes, projects, and a live help service.  (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Former Coding Interview Question: Word Squares": {
+      "url": "https://techdevguide.withgoogle.com/resources/former-coding-interview-question-word-squares/#!",
+      "short_description": "Pit yourself against this advanced problem that requires you to write a program that can identify word sequences defined as word squares, and then return all word square sequences within a given list of words. It&#39;s a former Google interview question that will challenge your knowledge of algorithms, arrays, recursion and testing. Ready, set, go!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "List of algorithms, Wikipedia": {
+      "url": "https://techdevguide.withgoogle.com/resources/list-of-algorithms-wikipedia/#!",
+      "short_description": "Boost your knowledge base by consulting this extensive Wikipedia entry, which catalogs hundreds of important algorithms and classes of algorithms.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Students YouTube Channel": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-students-youtube-channel/#!",
+      "short_description": "YouTube channel built especially for students interested in Google. Get lots of information and insights about applying for jobs and internships, prepping for interviews, and what life and work are like at Google.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Former Coding Interview Question: Find the Volume of Each Lake Created by Rainwater": {
+      "url": "https://techdevguide.withgoogle.com/resources/volume-of-water/#!",
+      "short_description": "Your mission: Apply all the coding knowledge you&#39;ve gained to write a program that solves a fascinating problem. Given an array of integers representing varying terrain heights, you need to find the volume of the lakes that form when it rains. Good luck! (Note: The example code solution snippets are on LeetCode.com, which may require login to access)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "blackjack problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/software-debugging-warmup/#!",
+      "short_description": "Coding goes to the casino for some practice in testing and debugging via this blackjack-inspired warm-up exercise created by Google.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Algorithms Part 2, Princeton University": {
+      "url": "https://techdevguide.withgoogle.com/resources/algorithms-part-2-princeton-university/#!",
+      "short_description": "When you&#39;ve completed the first chunk of this two-part course on algorithms and data structures, you can move on to this second half, where you&#39;ll cross paths with graph- and string-processing algorithms. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Class Central: What do you want to learn?": {
+      "url": "https://techdevguide.withgoogle.com/resources/class-central-what-do-you-want-to-learn/#!",
+      "short_description": "Class Central is a search engine and reviews site for free online courses popularly known as Massive Open Online Courses (MOOCs).",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Cracking the Coding Interview: 150 Programming Questions and Solutions": {
+      "url": "https://techdevguide.withgoogle.com/resources/cracking-the-coding-interview/#!",
+      "short_description": "Prepping for a coding interview for your dream job? This book is widely used and gives detailed and deeply technical preparation, focusing on the software engineering skills to ace your interview.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Programming Interviews Exposed: Secrets to Landing Your Next Job": {
+      "url": "https://techdevguide.withgoogle.com/resources/programming-interviews-exposed/#!",
+      "short_description": "The pressure is on but with the right preparation you can land your dream job. This book uncovers what interviews are really like and includes expert tips on what questions to ask, how to approach a problem, and how to recover if you become stuck.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Myth of the Genius Programmer": {
+      "url": "https://techdevguide.withgoogle.com/resources/the-myth-of-the-genius-programmer/#!",
+      "short_description": "Even though software development is collaborative, it&#39;s human to want to be seen as a genius. In this talk two engineers discuss how to avoid this trap and gracefully exchange personal ego for growth and super-charged collaboration.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "How Open Source Projects Survive Poisonous People": {
+      "url": "https://techdevguide.withgoogle.com/resources/how-open-source-projects-survive-poisonous-people/#!",
+      "short_description": "Every open source project runs into people who are selfish, uncooperative, and disrespectful, and can poison the atmosphere of a happy developer community. Learn how to identify and peacefully de-fuse them before they derail your project.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Applied CS Skills: Faculty case studies": {
+      "url": "https://techdevguide.withgoogle.com/resources/applied-cs-skills-faculty-case-studies/#!",
+      "short_description": "Applied CS Skills is a free online course by Google that emphasizes hands on coding experience. It has great resources for faculty too, including these examples of university adaptation and use of course content.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google AI": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-ai/#!",
+      "short_description": "Welcome to Google&#39;s AI site.  Looking for news and resources on artificial intelligence? Here\u00e2\u0080\u0099s where you\u00e2\u0080\u0099ll find recent updates and publications, stories of AI in action, and tools and guides for your own projects.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Intro to Deep Learning Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/intro-to-deep-learning-course/#!",
+      "short_description": "Boost your skills with this hands-on Udacity course by Google. You\u00e2\u0080\u0099ll start with the history of deep learning, and then move on to train deep neural networks, convolutional networks, and recurrent networks. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deep Learning A-Z Repository": {
+      "url": "https://techdevguide.withgoogle.com/resources/deep-learning-az-repository/#!",
+      "short_description": "Hone your skills with an amazing set of resources, courtesy of this SuperDataScience course. You can download practice datasets and check out curated links to related academic papers. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Implement Gradient Descent from Scratch": {
+      "url": "https://techdevguide.withgoogle.com/resources/implement-gradient-descent-from-scratch/#!",
+      "short_description": "Need a new perspective on solving ML problems? In this tutorial, you&#39;ll discover how gradient descent can help. It starts you off with an intro, and then walks you through a linear regression example to gain a deeper understanding of the algorithm.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Neural Networks and Backpropagation": {
+      "url": "https://techdevguide.withgoogle.com/resources/neural-networks-and-backpropagation/#!",
+      "short_description": "Trying to comprehend the basics of backpropagation? This tutorial explains them while walking you through the building of a bare-bones neural network using a couple of handfuls of code in Python.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "But What Is a Neural Network?": {
+      "url": "https://techdevguide.withgoogle.com/resources/but-what-is-a-neural-network/#!",
+      "short_description": "Cook up a medley of math, entertainment, and a little biology, and then add a dash of deep learning and you get this engaging video. Driven by animations, it helps turn the difficult topic of neural networks into something far more digestible.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Step-by-step Backpropagation Example": {
+      "url": "https://techdevguide.withgoogle.com/resources/step-by-step-backpropagation-example/#!",
+      "short_description": "Wish you could find a coherent explanation of backpropagation neural network training that also includes an example with actual numbers? Such things are few and far between, but this tutorial offers you a rare opportunity to check one out.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Practicals for Practice": {
+      "url": "https://techdevguide.withgoogle.com/resources/practicals-for-practice/#!",
+      "short_description": "Designed as part of a program to increase African contribution to advances in AI and ML, these practice opportunities and courses are an excellent resource for learners of all levels to use when exploring practical applications of deep learning. Topics range from convolutional neural networks to LSTMs.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deep Learning Tutorial": {
+      "url": "https://techdevguide.withgoogle.com/resources/deep-learning-tutorial/#!",
+      "short_description": "Work your way through this tutorial and you&#39;ll get to implement several feature learning/deep learning algorithms, see them work for yourself, and learn how to apply/adapt these ideas to new problems. Prerequisite: Python and basic ML skills",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Fast.ai Courses": {
+      "url": "https://techdevguide.withgoogle.com/resources/fast-ai-courses/#!",
+      "short_description": "Empower yourself with the knowledge and practical know-how gained from these 3 free Fast.ai classes focusing on deep learning and linear algebra. You&#39;ll learn everything from developing state-of-the-art models to using the PyTorch Library. Allot 10 hours per week for 7 weeks, per course.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Bag of Words Meets Bags of Popcorn": {
+      "url": "https://techdevguide.withgoogle.com/resources/bag-of-words-meets-bags-of-popcorn/#!",
+      "short_description": "Dig deep into sentiment analysis and natural language processing using this classic tutorial on Kaggle. You&#39;ll use the Word2Vec tool to analyze the IMDB movie dataset in order classify movie reviews as having either a positive or negative tilt.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Applied Machine Learning Semester Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-applied-machine-learning-semester-course/#!",
+      "short_description": "College and university faculty: Are you Interested in offering a practical and engaging hands-on undergraduate course in Machine Learning, but pressed for time to develop the labs and materials? You&#39;ve come to the right place! This course teaches students how to explore data sets, apply feature engineering, train models using TensorFlow, and assess model performance. Prereqs: basic Python and a semester of calculus or discrete mathematics.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Hardware at Google \u2014 YouTube playlist": {
+      "url": "https://techdevguide.withgoogle.com/resources/hardware-at-google-youtube-channel/#!",
+      "short_description": "If you&#39;re curious about hardware-related careers or internships at Google, check out this YouTube playlist. The Hardware team at Google researches, designs, and develops new technologies and hardware to make users\u00e2\u0080\u0099 interaction with computing faster, more powerful, and seamless.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Get started with the Machine Learning Crash Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/ml-crash-course/#!",
+      "short_description": "Google&#39;s fast-paced, practical introduction to machine learning features a series of lessons with video lectures, real-world case studies, and hands-on practice exercises.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "ML Glossary": {
+      "url": "https://techdevguide.withgoogle.com/resources/ml-glossary/#!",
+      "short_description": "Confused by the &#34;confusion matrix&#34; or other ML terms? This reference guide is here to help whenever you need a definition.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - Housing Regression Analysis": {
+      "url": "https://techdevguide.withgoogle.com/resources/house-prices-advanced-regression-techniques/#!",
+      "short_description": "Armed with Python &amp; R, you\u00e2\u0080\u0099re ready to put theory into practice and flex your data analysis skills in a competition environment. Don\u00e2\u0080\u0099t worry about leaderboard rankings yet; you&#39;ll start climbing as you progress through more activities.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "How to get started with Kaggle Competitions": {
+      "url": "https://techdevguide.withgoogle.com/resources/get-started-with-kaggle-competitions/#!",
+      "short_description": "New to competitions? Watch this short video and then get ready to match your skills against other data scientists as you tackle real-world ML problems.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Introduction to Kaggle Kernels": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-kaggle-kernels/#!",
+      "short_description": "Want more ML processing power? For free? Google developer Yufeng Guo explains how to set up a notebook environment in your browser. Then let the adventures begin!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "From Novice to Grandmaster": {
+      "url": "https://techdevguide.withgoogle.com/resources/novice-to-grandmaster/#!",
+      "short_description": "Budding data scientists should look no further than this entry for a great example of survey analysis and data visualization. It uses Exploratory Data Analysis (EDA) to break down a Kaggle survey. Bonus: you&#39;ll also learn more about Kaggle users.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "ML Recipes with Josh Gordon": {
+      "url": "https://techdevguide.withgoogle.com/resources/ml-recipes-with-josh-gordon/#!",
+      "short_description": "Discover how decision trees work and why we use them in this helpful video. Then apply what you&#39;ve learned to build a model that classifies pieces of fruit. Python skills required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Machine Learning Level 1": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-ml-level-1/#!",
+      "short_description": "Get ready to compete. In this mini course, data scientist Dan Becker guides you through decision trees as you build a model and improve it with more sophisticated algorithms. Python is a prerequisite.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Visual Intro to ML with Decision Trees": {
+      "url": "https://techdevguide.withgoogle.com/resources/visual-intro-to-ml-part-1/#!",
+      "short_description": "Don\u00e2\u0080\u0099t miss this enjoyable blog post which brings ML terms and concepts to life through data visualization. Follow along as interactive images show how decision trees sort data and make predictions.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Complete Guide to Tree-Based Modeling": {
+      "url": "https://techdevguide.withgoogle.com/resources/tree-based-modeling/#!",
+      "short_description": "Build your confidence with decision trees. This comprehensive article has everything you ever wanted to know but forgot to ask. Get ready to learn about gradient boosting and XGBoost. Python skills required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Cleaning Challenge": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-cleaning-challenge/#!",
+      "short_description": "Missing values in your data? Don\u00e2\u0080\u0099t panic! In this tutorial, you\u00e2\u0080\u0099ll learn how to investigate what\u00e2\u0080\u0099s missing and why it\u00e2\u0080\u0099s not there. Then you\u00e2\u0080\u0099ll go over ways to deal with it using such skills as scaling and normalization.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Machine Learning Level 2": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-ml-level-2/#!",
+      "short_description": "Pick up advanced strategies in the second level of this mini course. You\u00e2\u0080\u0099ll continue working with decision trees and get familiar with ensembling and XGBoost. Python is a prerequisite.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Kaggle Master Explains Gradient Boosting": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-master-explains-gradient-boosting/#!",
+      "short_description": "Increase your odds of winning structured data competitions. You\u00e2\u0080\u0099ll learn why XGBoost could be your lucky charm in this No Free Hunch blog post.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Ensembling Guide": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-ensembling-guide/#!",
+      "short_description": "Hone your decision tree skills by analyzing the works of a premier Kaggler. Explore techniques that\u00e2\u0080\u0099ll give you a head start in Kaggle competitions, then take them out for a test drive. You&#39;ll need to know Python.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Stacked Regressions": {
+      "url": "https://techdevguide.withgoogle.com/resources/stacked-regressions/#!",
+      "short_description": "Improve your competition results by learning how to ensemble models together. This clear and straightforward kernel walks you through the concept of model stacking.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Introduction to Ensembling/Stacking in Python": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-ensembling-stacking-in-python/#!",
+      "short_description": "Looking for a basic primer on ensembling? Check out this tutorial, which neatly explains the method using the Titanic dataset.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Guide to Hyperparameter Tuning with XGBoost": {
+      "url": "https://techdevguide.withgoogle.com/resources/guide-to-hyperparameter-tuning-with-xgboost/#!",
+      "short_description": "Have questions about parameters? This article has answers and will give you rmore confidence to apply XGBoost to data science problems. Python is required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Winners of the Predicting Housing Prices Playground Competition": {
+      "url": "https://techdevguide.withgoogle.com/resources/predicting-house-prices-playground-competition-winners/#!",
+      "short_description": "Ramp up your skills by learning from the experts. Studying these winning solutions to a Kaggle compeition will help you refine your models and explore new approaches.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - MNIST Dataset": {
+      "url": "https://techdevguide.withgoogle.com/resources/digit-recognizer/#!",
+      "short_description": "Build confidence as you challenge your machine learning and data analysis skills. You&#39;ll predict home prices using advanced regression techniques like random forest and gradient boosting.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Brief History of Deep Learning": {
+      "url": "https://techdevguide.withgoogle.com/resources/brief-history-of-deep-learning/#!",
+      "short_description": "Step into the past and explore how deep learning progressed from the perceptron to neural networks. Along the way, you\u00e2\u0080\u0099ll learn about great thinkers in the field and get helpful references to academic sources.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Neural Networks and Deep Learning (Chapter 1)": {
+      "url": "https://techdevguide.withgoogle.com/resources/neural-networks-deep-learning-chapter-1/#!",
+      "short_description": "Learn to code a neural network class in Python from scratch thanks to this engaging tutorial. Along the way you&#39;ll also learn about activation functions, backpropagation, and mini-batch gradient descent.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Learn Deep Learning": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-learn-deep-learning/#!",
+      "short_description": "Take your ML skills to the next level as you learn to code in TensorFlow and Keras. Topics in this engaging course by data scientist Dan Becker range from neural networks to transfer learning. Python proficiency is required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Stanford CS231 - CNN for Visual Recognition": {
+      "url": "https://techdevguide.withgoogle.com/resources/stanford-cs231/#!",
+      "short_description": "Looking to improve your knowledge of convolutional neural networks and computer vision? Try this comprehensive course, put together by a trio of Stanford AI experts. The notes and practice activities are freely available. Python proficiency is required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Intro to Convolutional Neural Networks with Keras": {
+      "url": "https://techdevguide.withgoogle.com/resources/introduction-to-cnn-keras/#!",
+      "short_description": "Learn to cook up a 5-layer convoluted neural network for digit recognition using this easy-to-follow-along recipe. The network was built with the intuitive Keras API (Tensorflow backend). You&#39;ll need Python to get started.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using CNNs to Analyze 3-D Models for Lung Cancer": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-cnns-to-analyze-3d-models-for-lung-cancer/#!",
+      "short_description": "Dive into deep learning with this advanced tutorial featuring comprehensive videos and instructions showing how a Kaggle competitor used a 3D convolutional neural network to a dataset to predict if a patient might have cancer. You&#39;ll need basic Python 3 coding skills.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Building Blocks of Interpretability": {
+      "url": "https://techdevguide.withgoogle.com/resources/building-blocks-of-interpretability/#!",
+      "short_description": "Assessing the architecture of a modern neural network can be a difficult task. This Distill post explores a visualization technique that will help you peel back a complex model&#39;s layers and explain its decisions.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition Winning Solutions": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-competition-winning-solutions/#!",
+      "short_description": "Sort through the winning solutions to many a Kaggle data competition on this site, so you can analyze the techniques the victors used. You might pick up a trick or two to help improve your own models.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - Titanic": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-competition-titanic/#!",
+      "short_description": "Time to put on your prediction hat. In this classic competition, you\u00e2\u0080\u0099ll analyze who was most likely to survive the tragic shipwreck. You\u00e2\u0080\u0099ll practice binary classification and use Python and R.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Rules of Machine Learning": {
+      "url": "https://techdevguide.withgoogle.com/resources/rules-of-ml/#!",
+      "short_description": "Want to learn some best practices for ML engineering? How about 43 of them? Google Research Scientist Martin Zinkevich sums up advice for developers in this article. Prerequisite: basic knowledge of ML.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Science Tutorial for Beginners": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-science-tutorial-for-beginners/#!",
+      "short_description": "Go back to basics with this phenomenal intro to Python and data science. You\u00e2\u0080\u0099ll want to use this kernel as a reference on data science fundamentals.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "EDA to Prediction": {
+      "url": "https://techdevguide.withgoogle.com/resources/eda-to-prediction/#!",
+      "short_description": "Fork this EDA - which gets high quality predictions on the Titanic dataset - and add your own analysis. Can you beat the benchmark? Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Titanic Data Solutions": {
+      "url": "https://techdevguide.withgoogle.com/resources/titanic-data-solutions/#!",
+      "short_description": "What&#39;s a typical workflow for competitions? This tutorial takes you through each step and the rationale behind them. You&#39;ll walk through EDA, model comparison, feature engineering, and more. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Simple Methods to Deal with Categorical Variables": {
+      "url": "https://techdevguide.withgoogle.com/resources/simple-methods-categorical-variables/#!",
+      "short_description": "Problems with your predictive model? Learn about the challenges of categorical data and methods to deal with them, such as one hot encoding, in this blog post.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Python walk-through for Titanic data analysis": {
+      "url": "https://techdevguide.withgoogle.com/resources/python-walk-through-titanic-data-analysis/#!",
+      "short_description": "See how Kaggle\u00e2\u0080\u0099s top kernel contributor, Heads or Tails, approaches this classic challenge. Among the topics reviewed: feature engineering, scikit-learn, decision trees, and data cleaning. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Learning from the Best": {
+      "url": "https://techdevguide.withgoogle.com/resources/learning-from-the-best/#!",
+      "short_description": "Climb the leaderboard with advice from Kaggle masters. This 2014 blog post summarizes their approaches and insights to performing well in competitions. You&#39;ll get tips on model complexity, overfitting, feature engineering, ensembling, and success metrics.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "DonorsChoose Data Exploration": {
+      "url": "https://techdevguide.withgoogle.com/resources/donorschoose-data-exploration/#!",
+      "short_description": "The challenge? Help a nonprofit organization that funds school projects. Featuring an expansive dataset, this kernel goes through data visualization, model comparison, and gradient boosting. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - Iris Species Classification": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-competition-iris/#!",
+      "short_description": "Ready to test your skills? Classify flowers into 3 species using this well-known dataset from the UCI Machine Learning Repository. Python or R required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "EDA Tutorial Using the Iris Species Dataset": {
+      "url": "https://techdevguide.withgoogle.com/resources/eda-tutorial-iris-dataset/#!",
+      "short_description": "Explore the basics of decision trees in this tutorial that walks you through the analysis of a classic dataset. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Few Useful Things About Machine Learning, by Pedro Domingos": {
+      "url": "https://techdevguide.withgoogle.com/resources/ml-pedro-domingos/#!",
+      "short_description": "Don\u00e2\u0080\u0099t skip this important paper from a world-famous author and professor. He shares key lessons learned by ML researchers and practitioners over the years.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Titanic End-to-End ML Pipeline": {
+      "url": "https://techdevguide.withgoogle.com/resources/titanic-end-to-end-ml-pipeline/#!",
+      "short_description": "Take a look at an effective ML pipeline in this kernel showcasing an attempt to predict the survival rates  of the sinking of the Titanic. The analysis also highlights data visualization and ensembling. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Learn - Data Visualizations": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-learn-data-visualization/#!",
+      "short_description": "Master a core skill you\u00e2\u0080\u0099ll need for data science. Aleksey Bilogur, a data analyst, takes you through the fundamentals in this mini-course. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "SRK's Simple Exploration of the Instacart Competition": {
+      "url": "https://techdevguide.withgoogle.com/resources/simple-exploration-instacart-competition/#!",
+      "short_description": "Walk through an extensive EDA for a competition to predict online grocery orders. This self-taught data scientist provides an excellent detailed analysis. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Implement the K-Nearest Neighbor Algorithm from Scratch": {
+      "url": "https://techdevguide.withgoogle.com/resources/implement-k-nearest-neighbor-algorithm-from-scratch/#!",
+      "short_description": "Practice coding a simple but powerful classification algorithm in this tutorial, and then use it to classify Iris flowers. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Exploratory Study on ML Algorithms": {
+      "url": "https://techdevguide.withgoogle.com/resources/exploratory-study-on-ml-algorithms/#!",
+      "short_description": "Can you predict auto insurance claims? This kernel uses data from Allstate to compare ML models. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Camp Scikit Learn Tutorial": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-camp-scikit-learn-tutorial/#!",
+      "short_description": "Learn to use Python and its libraries to work with KMeans algorithms and Support Vector Machines (SVM). Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Classifying Comments using Naive Bayes &amp; Support Vector Machine, by Jeremy Howard": {
+      "url": "https://techdevguide.withgoogle.com/resources/classifying-comments-using-nbsvm-by-jeremy-howard/#!",
+      "short_description": "Learn how a former Kaggle CEO used two simple algorithms to solve an NLP challenge. You can then fork this kernel and try it yourself. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Naive Bayes Algorithm Explained": {
+      "url": "https://techdevguide.withgoogle.com/resources/naive-bayes-algorithm-explained/#!",
+      "short_description": "Looking for more info on this classification algorithm? Review what it is and how it works. Then go over how to build a model and improve it. Python &amp; R required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Visualizing KNN, SVM, and XGBoost": {
+      "url": "https://techdevguide.withgoogle.com/resources/visualizing-knn-svm-and-xgboost/#!",
+      "short_description": "Gain a better understanding of these 3 ML algorithms. In this kernel, data visualizations demonstrate how each approach segments the data on the Iris dataset. Python required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Past Solutions": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-past-solutions/#!",
+      "short_description": "Sort through the winning solutions to many Kaggle data competitions on this site, so you can analyze the techniques the victors used. You might pick up a trick or two to help improve your own models.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - ImageNet Object Localization Challenge": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-competition-imagenet-object-localization-challenge/#!",
+      "short_description": "The annual ImageNet Large Scale Visual Recognition Challenge (ILSVRC) began in 2010 and Kaggle hosts it every year. Build a Machine Learnng model that can accurately classify the images in each of the 150,000 images shown.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "TensorFlow and Deep Learning, without a PhD": {
+      "url": "https://techdevguide.withgoogle.com/resources/tensorflow-and-deep-learning-without-a-phd/#!",
+      "short_description": "Learn to build and train a neural network to recognize handwritten digits in this codelab. As you code in Python and TensorFlow, you&#39;ll discover tips and tricks that will make you a more efficient programmer and add to your deep learning toolkit.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Hacker's Guide to Neural Networks": {
+      "url": "https://techdevguide.withgoogle.com/resources/hackers-guide-to-neural-networks/#!",
+      "short_description": "New to deep learning? This excellent article by noted AI expert Andrej Karpathy is a must-read and will help you implement a neural network from scratch in JavaScript.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Overview of Optimization Algorithms for Gradient Descent": {
+      "url": "https://techdevguide.withgoogle.com/resources/optimizing-gradient-descent/#!",
+      "short_description": "Trying to tell the difference between different optimization algorithms used to train neural networks? This excellent article details them and visualizes how each one works. Python is a prerequisite.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deep Learning with Keras": {
+      "url": "https://techdevguide.withgoogle.com/resources/deep-learning-with-keras/#!",
+      "short_description": "Dive into this collection of Jupyter notebooks, which was designed to accompany an exceptional book authored by the creator of Keras, Deep Learning with Python. You&#39;ll gain insight into implementing deep learning like a pro.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deep Learning Through Neuron Deletion": {
+      "url": "https://techdevguide.withgoogle.com/resources/deep-learning-through-neuron-deletion/#!",
+      "short_description": "The Google AI research powerhouse behind AlphaGo tackles deep learning and neural networks in this high-quality article. The written and visual content turn the difficult into the easily digestible, even for novice learners.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Feature Visualization": {
+      "url": "https://techdevguide.withgoogle.com/resources/feature-visualization/#!",
+      "short_description": "Showcasing research by the Google Brain team, this Distill article will teach you how neural networks build up their understanding of images using feature visualization and model regularization.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Competition - DonorsChoose": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-competition-donorschoose/#!",
+      "short_description": "Your mission - predict whether a classroom project will successfully obtain crowd-source funding through a non-profit based on data about the teacher, school and more. Success requires a number of NLP skills. Good luck!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Peter Norvig's Statistical NLP": {
+      "url": "https://techdevguide.withgoogle.com/resources/peter-norvigs-statistical-nlp/#!",
+      "short_description": "Code along with Google&#39;s legendary research director and AI legend, Peter Norvig, who authored this (mostly) easy-to-follow Jupyter Notebook introduction to natural language processing in Python. It requires a bit of set-up, but this resource is worth the effort.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "How to Solve (Almost) Any NLP Problem": {
+      "url": "https://techdevguide.withgoogle.com/resources/how-to-solve-almost-any-nlp-problem/#!",
+      "short_description": "Score some tips on approaching natural language processing problems in Kaggle competitions using this kernel, which also features info on deep neural networks and ensembling. JavaScript is a prerequisite.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Sequence Modeling (The Deep Learning Book, Chapter 10)": {
+      "url": "https://techdevguide.withgoogle.com/resources/sequence-modeling-the-deep-learning-book-chapter-10/#!",
+      "short_description": "Looking for a compelling explanation of recurrent neural networks and natural language processing? Consult this book chapter, part of a seminal academic resource by noted computer scientists, and you&#39;ll get up to speed. Knowledge of Python is a must.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Unreasonable Effectiveness of RNNs": {
+      "url": "https://techdevguide.withgoogle.com/resources/the-unreasonable-effectiveness-of-rnns/#!",
+      "short_description": "Witness the power of a Recurrent Neural Network in this engaging article by Andrej Karpathy, head of AI at Tesla. Follow along as he demonstrates how, using LSTMs, he can get a neural net to generate writing that&#39;s almost comparable to human speech.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Applied Introduction to LSTMs for Text Generation": {
+      "url": "https://techdevguide.withgoogle.com/resources/applied-introduction-to-lstms-for-text-generation/#!",
+      "short_description": "Searching for an interactive way to learn how to implement Long Short-Term Memory networks in Python? Fork the kernel that accompanies this article by Kaggle data scientist Megan Risdal and you&#39;ll soon be able to generate novel sequences of text.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Understanding LSTM Networks": {
+      "url": "https://techdevguide.withgoogle.com/resources/understanding-lstm-networks/#!",
+      "short_description": "Increase your understanding of recurrent neural net architecture by reading this blog entry on Long Short-Term Memory networks. The remarkably clear writing and visualizations help explain recent advances in things like Natural Language Processing.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using Machine Learning to Explore Neural Network Architecture": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-machine-learning-to-explore-neural-network-architecture/#!",
+      "short_description": "Catch a glimpse of the future of deep learning and neural net architecture in this clear, concise blog entry by the Google Brain team. It discusses their efforts in AutoML and reinforment learning.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "First steps for Google Cloud Shell and SDK gcloud command": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-cloud-shell/#!",
+      "short_description": "Connect to tools that you\u00e2\u0080\u0099ll use to access other GCP services as you move through the Cloud landscape. Prerequisite for this Codelab tutorial: familiarity with standard Linux text editors such as Vim, EMACs or Nano",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Serverless Architectures": {
+      "url": "https://techdevguide.withgoogle.com/resources/serverless-architectures/#!",
+      "short_description": "Want to know more about this trend in application development? This blog post serves as a great intro to these &#34;serverless&#34; internet-based systems and also helpfully defines related cloud computing terms.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Guide to Serverless": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-guide-to-serverless/#!",
+      "short_description": "Discover the business benefits of serverless products. Whether you\u00e2\u0080\u0099re focused on app development, analytics, or microservices architecture, serverless can improve time-to-market and lower costs.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Developers\u2019 Toolkit for Building Great Applications on GCP": {
+      "url": "https://techdevguide.withgoogle.com/resources/developers-toolkit-for-building-great-applications-on-gcp/#!",
+      "short_description": "Wondering which tools best fit your needs? This helpful overview explains what\u00e2\u0080\u0099s available, from Google App Engine, Google Cloud Functions and developer tools to BigQuery, Cloud Pub/Sub, and Stackdriver. You\u00e2\u0080\u0099ll also get links to quick start guides, videos and codelabs.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "The Google Cloud Platform Compute Stack Explained": {
+      "url": "https://techdevguide.withgoogle.com/resources/the-google-cloud-platform-compute-stack-explained/#!",
+      "short_description": "Confused between Google Compute Engine and Google Kubernetes Engine? This post is for you. You&#39;ll get to know the variety of Cloud computing options and see how they facilitate app development by handling the labor-intensive infrastructure.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Cloud Platform Fundamentals: Core Infrastructure": {
+      "url": "https://techdevguide.withgoogle.com/resources/gcp-fundamentals/#!",
+      "short_description": "Get up to speed on Cloud concepts, terminology, and storage services through lectures, tutorials, and exercises. The time commitment is 1 week. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Qwiklabs Quest - Deploying Applications": {
+      "url": "https://techdevguide.withgoogle.com/resources/qwiklabs-quest-deploying-applications/#!",
+      "short_description": "This Qwiklab takes users through a number of different use cases for deploying applications written in C++, Java, Ruby, Python, and JavaScript.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Build a Bookshelf App in Python using GCP": {
+      "url": "https://techdevguide.withgoogle.com/resources/build-a-bookshelf-app-in-python-using-gcp/#!",
+      "short_description": "Want to produce a sample web app written in Python? The Bookshelf series of tutorials will walk you through the process and describe how to use a variety of GCP products, from Google App Engine Flexible Environment to Google Cloud Storage.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "How to Use Cloud Pub/Sub Notifications and Cloud Storage with App Engine": {
+      "url": "https://techdevguide.withgoogle.com/resources/use-cloud-pubsub-cloud-storage-app-engine/#!",
+      "short_description": "Want to learn how to build a Web application in the Cloud? This instructive Google Cloud Community offering will help you do it while leveraging GCP products like Cloud Storage, Pub/Sub, App Engine, Datastore, and Google Cloud Vision ML.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Building Your Next Serverless Application - The Complete Guide": {
+      "url": "https://techdevguide.withgoogle.com/resources/building-your-next-serverless-application-the-complete-guide/#!",
+      "short_description": "Consult this comprehensive tutorial and you&#39;ll find yourself building a chatbot that interacts with users and uses Google Cloud ML. It makes use of a number of APIs and you&#39;ll program almost exclusively in JavaScript. Cloud functions are featured heavily.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Romin Irani Google Cloud Functions Tutorial Series": {
+      "url": "https://techdevguide.withgoogle.com/resources/romin-irani-google-cloud-functions-tutorial-series/#!",
+      "short_description": "Need a primer on the creation of Google Cloud Functions and building serverless applications? Stroll through this blog-based tutorial series and you&#39;ll get up to speed. JavaScript knowledge required.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Build a Bookshelf App in Java using GCP": {
+      "url": "https://techdevguide.withgoogle.com/resources/build-a-bookshelf-app-in-java-using-gcp/#!",
+      "short_description": "Wish you could build a sample web app written in Java? The Bookshelf series of tutorials will walk you through the process and describe how to use a variety of GCP products, from Google App Engine Flexible Environment to Google Cloud Pub/Sub.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deploy a Grails 3 App to App Engine Flexible Environment with Cloud SQL": {
+      "url": "https://techdevguide.withgoogle.com/resources/deploy-grails-to-google-cloud/#!",
+      "short_description": "Take some time to get through this tutorial, in which you&#39;ll deploy a Grails 3 application to Google App Engine, upload images to Google Cloud Storage and use a MySQL database. Some paid services are required, as is a text editor and JDK 1.7 or higher.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Qwiklabs Quest - Websites and Web Applications": {
+      "url": "https://techdevguide.withgoogle.com/resources/qwiklabs-quest-websites-and-web-applications/#!",
+      "short_description": "Your mission? Deploy several examples of web-based applications, each featuring different use cases, solutions and integration patterns with other services. You&#39;ll fare better on your quest if you know Ruby, though other languages make an appearance. Good luck!",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "GCP Platform Guide": {
+      "url": "https://techdevguide.withgoogle.com/resources/gcp-platform-guide/#!",
+      "short_description": "Seeking a hands-on introduction to the Google Cloud Platform (GCP) and to getting certified as a Google Certified Professional (GCP)? This comprehensive website is full of useful material, brief commentary and valuable links to more information.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A GCP Flowchart a Day": {
+      "url": "https://techdevguide.withgoogle.com/resources/a-gcp-flowchart-a-day/#!",
+      "short_description": "Not sure what flowchart might fit your use case when developing on GCP? This handy blog entry on Medium showcases a collection of them to help find the right one for you.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "GCP Solutions Repo": {
+      "url": "https://techdevguide.withgoogle.com/resources/gcp-solutions-repo/#!",
+      "short_description": "Are you a visual learner? Do you have a specific issue you need help with? This handy Cloud architecture reference guide helpfully diagrams solutions to a number of scenarios while offering brief descriptions of the services being employed.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Taking the Cloud Architect Certification Test": {
+      "url": "https://techdevguide.withgoogle.com/resources/taking-the-cloud-architect-certification-test/#!",
+      "short_description": "So you think you&#39;re ready to take the Google Cloud Architect Ceritification Exam? Read this breezy blog post before you do. It&#39;s chock full of tips and words of wisdom that will help you prep for the test.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "A Practical Introduction to Container Terminology": {
+      "url": "https://techdevguide.withgoogle.com/resources/practical-introduction-to-container-terminology/#!",
+      "short_description": "Looking to master the lingo of the Cloud? This article clarifies key container concepts that you&#39;ll encounter in most cloud computing resources and demonstrates how they interact and integrate for maximum effect.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Play with Docker: Getting Started Walk-through for Developers": {
+      "url": "https://techdevguide.withgoogle.com/resources/play-with-docker-getting-started/#!",
+      "short_description": "Familiarize yourself with one of the key players in the container space using this handy resource. It lets you interact with a Docker-based environment directly in your browser so you can build/serve multi-service applications.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Smooth Sailing with Kubernetes Comic": {
+      "url": "https://techdevguide.withgoogle.com/resources/smooth-sailing-with-kubernetes-comic/#!",
+      "short_description": "Not sure why you should use Kubernetes for continuous integration and delivery? This whimsical and informative comic from the folks at Google will tell you.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kubernetes 101: Pods, Nodes, Containers, and Clusters": {
+      "url": "https://techdevguide.withgoogle.com/resources/kubernetes-101-pods-nodes-containers-and-clusters/#!",
+      "short_description": "Grasping all the different pieces that make up Kubernetes as a newcomer can get intimidating. Check out this helpful blog post for both a simplified view and a high-level overview of the most important components and how they fit together.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Best Practices for Orchestrating the Cloud with Kubernetes": {
+      "url": "https://techdevguide.withgoogle.com/resources/best-practices-for-orchestrating-the-cloud-with-kubernetes/#!",
+      "short_description": "How does infrastructure handle the growing demand for always-on apps? Learn about distributed automation platforms in this helpful video featuring Google developer Carter Morgan, who covers the basics with hands-on examples.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kubernetes in the Google Cloud": {
+      "url": "https://techdevguide.withgoogle.com/resources/kubernetes-in-the-google-cloud/#!",
+      "short_description": "Ready for a quest? Your journey starts with Docker tools, continues with Kubernetes, and leads you to sophisticated continuous delivery deployments. Take this hands-on training from Qwiklabs and earn a badge.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Microservices Resource Guide": {
+      "url": "https://techdevguide.withgoogle.com/resources/microservices-resource-guide/#!",
+      "short_description": "Take an architectural tour - microservices architecture that is. This article from martinfowler.com pairs explanations with links to curated articles, books, videos, and podcasts that go deeper into what microservices are, when to use them, and how to build them.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Scalable Microservices with Kubernetes": {
+      "url": "https://techdevguide.withgoogle.com/resources/scalable-microservices-with-kubernetes/#!",
+      "short_description": "Have an urge to create microservices with Docker and Kubernetes, but aren&#39;t sure where to start? To learn how to use these two important technologies in app deployment check out this excellent online course. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kubernetes Bootcamp": {
+      "url": "https://techdevguide.withgoogle.com/resources/kubernetes-bootcamp/#!",
+      "short_description": "Warm up your coding muscles and prepare to deploy, scale, and update a containerized app on a Kubernetes cluster. This interactive course coaches you through tutorials and quizzes.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kubernetes the Hard Way": {
+      "url": "https://techdevguide.withgoogle.com/resources/kubernetes-the-hard-way/#!",
+      "short_description": "Roll up your sleeves. In these lab tutorials, Google developer Kelsey Hightower guides you through bootstrapping a Kubernetes cluster. No shortcuts allowed. By the end you\u00e2\u0080\u0099ll understand each task and how everything fits together.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kubernetes best practices: small container images": {
+      "url": "https://techdevguide.withgoogle.com/resources/kubernetes-best-practices-small-container-images/#!",
+      "short_description": "Good things come in small packages. Learn how the size of container images impacts your Kubernetes environment in this informative blog post from Google Developer Advocate Sandeep Dinesh.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Deploying Envoy with a Python Flask webapp and Google Kubernetes Engine": {
+      "url": "https://techdevguide.withgoogle.com/resources/envoy-flask-google-kubernetes-engine/#!",
+      "short_description": "Need a way to make your app more observable and resilient in case something goes wrong? Enlisting a proxy like Envy to help get the job done is a good way to go, though it can be daunting to set up. This tutorial will walk you through the deployment.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Run a Kotlin Spring Boot application on Google Kubernetes Engine": {
+      "url": "https://techdevguide.withgoogle.com/resources/kotlin-spring-boot-google-kubernetes-engine/#!",
+      "short_description": "Do you long to deploy your Kotlin app on Google Kubernetes Engine? This tutorial will show you how to do it using the Spring Boot framework (with which you&#39;ll need some familiarity). Docker and Google Cloud SDK are must-installs.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Qwiklabs Stackdriver Quest": {
+      "url": "https://techdevguide.withgoogle.com/resources/qwiklabs-stackdriver-quest/#!",
+      "short_description": "Upgrade your knowledge of Google Stackdriver&#39;s suite of tools as you take on this comprehensive Quest. It covers everything from monitoring and creating Logs-based metrics to application performance analysis and custom dashboards.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Manage Access Control with Google Cloud IAM | Google Cloud Labs": {
+      "url": "https://techdevguide.withgoogle.com/resources/manage-access-control-with-google-cloud-iam/#!",
+      "short_description": "Are you an up and coming developer who wants to control who can do what with different GCP products? This video on Google Cloud Identify Access Management (IAM) will tell you what you need to know to make it happen.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Qwiklabs Cloud Architect Quest": {
+      "url": "https://techdevguide.withgoogle.com/resources/qwiklabs-cloud-architect-quest/#!",
+      "short_description": "Get hands-on exposure to a wide range of Google Cloud Services and techniques - all of them mapped to topics covered on the certification exam. Though the labs will boost your know-how, do remember that you&#39;ll still need other prep to pass the Q&amp;A test itself.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Cloud Architect Practice Exam": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-cloud-architect-practice-exam/#!",
+      "short_description": "Wondering if you&#39;re ready to take the Cloud Architect Exam? Find out if you need more prep time by taking this practice test, which features the types of questions you&#39;ll encounter on the certification exam. Note: The real test is longer and covers a wider range of topics.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "GCP Products Described in 4 Words or Less": {
+      "url": "https://techdevguide.withgoogle.com/resources/gcp-products-described-in-4-words-or-less/#!",
+      "short_description": "New to Google Cloud and need a quick summary of all the products? Check out this handy cheat sheet on GitHub, where you\u00e2\u0080\u0099ll see everything at a glance.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "GSuite Show - Analyze Big Data using BigQuery": {
+      "url": "https://techdevguide.withgoogle.com/resources/analyze-big-data-using-bigquery/#!",
+      "short_description": "Big datasets slowing you down? Move over spreadsheets. In this episode of the GSuite Show, discover how to quickly analyze large amounts of data using powerful processing tools and SQL in the Cloud.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Anatomy of a BigQuery Query": {
+      "url": "https://techdevguide.withgoogle.com/resources/anatomy-of-a-bigquery-query/#!",
+      "short_description": "Build confidence in crafting queries for huge datasets. This short intro guides you through an example to get you started.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Exploratory queries with Google BigQuery": {
+      "url": "https://techdevguide.withgoogle.com/resources/exploratory-queries-with-google-bigquery/#!",
+      "short_description": "Witness the ability of BigQuery to process enormous datasets in a matter of seconds. In this community tutorial, you\u00e2\u0080\u0099ll use this data science tool to explore and analyze records of every meteorite landing known to The Meteoritical Society.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Intro to Kaggle Kernels": {
+      "url": "https://techdevguide.withgoogle.com/resources/intro-to-kaggle-kernels/#!",
+      "short_description": "Watch this quick, helpful video if you\u00e2\u0080\u0099re new to data science. You\u00e2\u0080\u0099ll pick up core principles and techniques that\u00e2\u0080\u0099ll prepare you for analyzing data in a new coding environment.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "SQL Scavenger Hunt Handbook": {
+      "url": "https://techdevguide.withgoogle.com/resources/sql-scavenger-hunt-handbook/#!",
+      "short_description": "Explore adding both a BigQuery dataset to your Kaggle Kernel and running SQL queries in this useful handbook. You&#39;ll also discover common mistakes made when querying big datasets and how to avoid hitting your 5TB data quota.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Getting Started with SQL and BigQuery": {
+      "url": "https://techdevguide.withgoogle.com/resources/getting-started-with-sql-and-bigquery/#!",
+      "short_description": "Want to hone your skills in dissecting massive datasets? This Kaggle course covers the fundamentals through tutorials and hands-on exercises.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Analyzing BigQuery datasets using Python": {
+      "url": "https://techdevguide.withgoogle.com/resources/analyzing-bigquery-datasets-using-python/#!",
+      "short_description": "For a lesson in large dataset analysis, check out this blog post, which demonstrates how to analyze BigQuery&#39;s 3TB public dataset of GitHub respositories on Kaggle. Pick up tips and tricks for using kernels to query data and analyze it in Python.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Mentions of Kaggle on Hacker News": {
+      "url": "https://techdevguide.withgoogle.com/resources/mentions-of-kaggle-on-hacker-news/#!",
+      "short_description": "Test your query skills as you follow along this kernel, which analyzes the Hacker News BigQuery dataset to see how many times &#34;Kaggle&#34; has been mentioned on the site. It offers a taste of life as a real-world data analyst.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Exploring and Preparing Your Data with BigQuery": {
+      "url": "https://techdevguide.withgoogle.com/resources/exploring-and-preparing-your-data-with-bigquery/#!",
+      "short_description": "An excellent resource for all things BigQuery, this Coursera course covers many topics that aren&#39;t addressed in single tutorials. Learn to solve common challenges faced by data analysts with GCP&#39;s big data tools, and pick up some SQL along the way. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Cloud Data Analyst Training": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-cloud-data-analyst-training/#!",
+      "short_description": "Consult this Google Cloud Shell education site for information on using serverless data analysis and serverless machine learning on the GCP. You&#39;ll also find 10 tutorials on utilizing available Google Cloud ML options. (login required)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Hands-on Labs for Scientific Data Processing": {
+      "url": "https://techdevguide.withgoogle.com/resources/handson-labs-for-scientific-data-processing/#!",
+      "short_description": "Learn to ingest, analyze, transform and train machine models on scientific data in this series of labs. You&#39;ll solve real-world problems using a variety of public datasets and GCP products. (paywall)",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Science on the Google Cloud Platform": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-science-on-the-google-cloud-platform/#!",
+      "short_description": "Boost your ability to gain insight from your data using Google Cloud Platform&#39;s many tools. This easy-to-follow community resource offers efficient guidance on getting the job done.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Qwiklabs Data Engineering Quest": {
+      "url": "https://techdevguide.withgoogle.com/resources/qwiklabs-data-engineering-quest/#!",
+      "short_description": "Get hands-on exposure to the most up-to-date Google Cloud Services and techniques - all of them mapped to topics covered on the Data Engineering certification exam. Though the labs will boost your know-how, do remember that you&#39;ll still need other prep to pass the Q&amp;A test itself.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Build Service for an ML Model": {
+      "url": "https://techdevguide.withgoogle.com/resources/build-service-for-an-ml-model/#!",
+      "short_description": "So you&#39;ve trained a machine learning model for online prediction, now what? This tutorial looks at a sample service application and then helps you build your own service and Python app for deployment on Google Cloud Endpoints and Google App Engine.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "AutoML Vision in Action on GCP": {
+      "url": "https://techdevguide.withgoogle.com/resources/automl-vision-in-action-on-gcp/#!",
+      "short_description": "Want to see Google AutoML in action? Check out this real-world case study of ramen noodle bowls and you&#39;ll be able to visualize the possibilities of using automated machine learning models in data science.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Machine Learning APIs Qwiklabs Quest": {
+      "url": "https://techdevguide.withgoogle.com/resources/machine-learning-apis-qwiklabs-quest/#!",
+      "short_description": "Get up to speed on the latest offerings in machine learning, including Cloud Vision, Cloud Natural Language, Cloud Sentiment Analysis, and Cloud Speech-to-Text as you make your way through this codelab.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google Cloud Shell ML Tutorials": {
+      "url": "https://techdevguide.withgoogle.com/resources/google-cloud-shell-ml-tutorials/#!",
+      "short_description": "Need to implement translation, video analysis, speech and text into your next Google Cloud Machine Learning project? This Google Cloud Shell educational site will prep you for the job.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Open an Account and Manage Billing and Projects": {
+      "url": "https://techdevguide.withgoogle.com/resources/open-an-account-and-manage-billing-and-projects/#!",
+      "short_description": "To use many GCP services, you need a project with admin privileges and a billing account linked to it. In this codelab, you&#39;ll open a free-trial GCP account so you can manage billing accounts and projects. You&#39;ll be required to enter a valid credit card to verify that you&#39;re not a robot, but won&#39;t be billed for anything unless you exceed the free-trial limits and authorize it.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using Google Cloud Shell": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-google-cloud-shell/#!",
+      "short_description": "This video will show you how to use the Google Cloud Shell to interact with the other GCP services that will be used in the resources to come.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Getting Started with Google Cloud Shell Codelab": {
+      "url": "https://techdevguide.withgoogle.com/resources/getting-started-with-google-cloud-shell-codelab/#!",
+      "short_description": "This codelab gets takes learners on their first steps through the Google Cloud Shell and using the gcloud sdk. These tools will be used throughout the rest of the path as a way to access other GCP services.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Intro to Tutorials in Google Cloud Shell": {
+      "url": "https://techdevguide.withgoogle.com/resources/intro-to-tutorials-in-google-cloud-shell/#!",
+      "short_description": "Learn how to create interactive tutorials in Google Cloud Shell by taking an interactive tutorial in Google Cloud Shell. The code editor and shell that are introduced in this tutorial can be used as an environment to complete the activities in the rest of the resources.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Intro Python Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/intro-python-course/#!",
+      "short_description": "Introducing your students to Python? In this free Google course, they&#39;ll learn the ropes through reading materials, videos, and lots of coding exercises. Prerequisite: basic programming experience",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Pandas Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-pandas-course/#!",
+      "short_description": "Build your students\u00e2\u0080\u0099 confidence in data manipulation with these hands-on challenges. This course can work as a pre-assessment tool or as a way to help students brush up on DataFrame skills. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Kaggle Data Visualization Course": {
+      "url": "https://techdevguide.withgoogle.com/resources/kaggle-data-visualization-course/#!",
+      "short_description": "Can your students create interactive visualizations? It&#39;s a critical skill for most ML and data science courses. These Matplotlib, Seaborn, and Plotly tutorials will be especially useful for college students who need a refresher course. Prerequisite: Python and pandas",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Science Course by General Assembly": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-science-course-by-general-assembly/#!",
+      "short_description": "Searching for an in-depth overview of data analysis and ML for your class? Look no further. This github repository hosts original materials from General Assembly\u00e2\u0080\u0099s 2-month course. You&#39;ll find lessons, resources, and lots of engaging activities. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Explained Visually:  Ordinary Least Squares Regression": {
+      "url": "https://techdevguide.withgoogle.com/resources/explained-visually-ordinary-least-squares-regression/#!",
+      "short_description": "Help your students understand what&#39;s going on &#34;under the hood&#34; of their ML models using this engaging resource. Students can tinker and play with visualizations to see how the underlying principles of each ML model illuminate the data in different ways.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Visualization of Convolutional Neural Networks": {
+      "url": "https://techdevguide.withgoogle.com/resources/visualization-of-convolutional-neural-networks/#!",
+      "short_description": "Explore the inner workings of a neural network in real time with your students. By interacting with simulations on a drawing pad, they&#39;ll see how activation patterns respond to their input.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "TensorFlow Playground": {
+      "url": "https://techdevguide.withgoogle.com/resources/tensorflow-playground/#!",
+      "short_description": "Introducing your class to neural networks? Try out this interactive tool with your students. They can experiment with strategies like adjusting hyperparameters and substituting activation functions, directly from their browser. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Papers on Deep Learning": {
+      "url": "https://techdevguide.withgoogle.com/resources/papers-on-deep-learning/#!",
+      "short_description": "Escorting your students on a journey through the history of deep learning? The academic papers in this invaluable github repository introduce the milestones and breakthroughs in DL and AI that led to our current understanding.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Data Science and AI Repository": {
+      "url": "https://techdevguide.withgoogle.com/resources/data-science-and-ai-repository/#!",
+      "short_description": "Find instructions on almost any ML task in this broad collection of technical notes, suitable for students of all levels. Topics include data preprocessing, statistics, deep learning, model evaluation, and many other ML techniques. Prerequisite: Python",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "ML Academic Research Repository": {
+      "url": "https://techdevguide.withgoogle.com/resources/ml-academic-research-repository/#!",
+      "short_description": "Want to keep up with cutting edge papers on ML? The Arxiv Sanity site highlights what\u00e2\u0080\u0099s new and trending, and groups similar topics together so you can dive deeper into topics that interest you and your students.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Big Picture Group ML Visualizations": {
+      "url": "https://techdevguide.withgoogle.com/resources/big-picture-group-ml-visualizations/#!",
+      "short_description": "Use these illustrations in advanced ML courses to explore how to bring complex data to life. Created by Google\u00e2\u0080\u0099s Big Picture Group, the images show various ways of representing ML data and algorithms visually.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Teaching Cloud Computing: A Software Engineering Perspective": {
+      "url": "https://techdevguide.withgoogle.com/resources/teaching-cloud-computing-a-software-engineering-perspective/#!",
+      "short_description": "New to teaching about the Cloud and want to draw on the experience of a veteran professor? Check out this excellent article, which looks at the topic in the abstract and from a software engineering perspective.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Creating a Chatbot using Google Cloud NLP": {
+      "url": "https://techdevguide.withgoogle.com/resources/creating-a-chatbot-using-google-cloud-nlp/#!",
+      "short_description": "Ideal for students who are just breaking into college-level CS, this tutorial is aimed at  professors who want to expose their students to the Cloud Natural Language API from GCP. It&#39;s a 3-part series that expands on content learned in traditional AP courses.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Using TensorFlow and JupyterHub in Classrooms": {
+      "url": "https://techdevguide.withgoogle.com/resources/using-tensorflow-and-jupyterhub-in-classrooms/#!",
+      "short_description": "Looking for assistance in getting your students to use TensorFlow instances managed by JupyterHub and deployed on Kubernetes Engine? This tutorial will help you get them doing ML in the Cloud this way in no time.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Cloud Computing Final Project Template with MySQL": {
+      "url": "https://techdevguide.withgoogle.com/resources/cloud-computing-final-project-template-with-mysql/#!",
+      "short_description": "Need a solid template for your class&#39;s end-of-year Cloud projects? This Google doc is a great start point. It&#39;s designed for a college relational database course, but even if your course isn&#39;t structured around that topic, this option should come in handy.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Syllabus for Elements of Databases course": {
+      "url": "https://techdevguide.withgoogle.com/resources/syllabus-for-elements-of-databases-course/#!",
+      "short_description": "Developing a course using multiple GCP products and want a look at how an experienced professor structures one of her own? This great syllabus is designed to give students a practical understanding of database and big data technologies.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Exercise Lab Book for Operating Systems": {
+      "url": "https://techdevguide.withgoogle.com/resources/exercise-lab-book-for-operating-systems/#!",
+      "short_description": "Want to use GCP to help your students construct a workflow for their course? Try consulting this doc, which showcases how to set up an exercise lab notebook for an upper-level course on operating systems.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Rosebotics AppEngine for the Web": {
+      "url": "https://techdevguide.withgoogle.com/resources/rosebotics-appengine-for-the-web/#!",
+      "short_description": "Designing a course with GCP products at the center can be difficult. This free option, focused on using Google App Engine in a college settting, is a model for creating one that is offered on a digital platform.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   },
+   "Google's Higher Ed Learning Center": {
+      "url": "https://techdevguide.withgoogle.com/resources/googles-higher-ed-learning-center/#!",
+      "short_description": "Head to this site to find information about how to incorporate GCP into your higher-ed classes.  It has resources that will help both students and faculty explore Cloud resources, and will also give you tips on how to use GCP to power your classroom.",
+      "image": "https://techdevguide.withgoogle.com/static/images/icons/icon.png",
+      "price": "Free",
+      "number_of_students": "",
+      "course_duration": "",
+      "long_description": ""
+   }
+}
