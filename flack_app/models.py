@@ -53,7 +53,7 @@ class Course(db.Model):
 
 
 if __name__ == "__main__":
-
+    pass
     # p = Profession(name='SMM manager')
     # s1 = Skill(name='Team Work')
     # s2 = Skill(name='Google Analytics')
