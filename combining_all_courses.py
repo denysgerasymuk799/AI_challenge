@@ -137,7 +137,7 @@ def create_courses_json_for_profession(title_profession):
             try:
                 is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]
                                                                                     ["short_description"], title_profession)
-            # for udemy_result.json - does not have description
+            # for udemy_result.json, which courses descriptions we do not have
             except KeyError:
                 try:
                     # check if courses teach skills of title_profession in short_description
