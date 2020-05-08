@@ -1,5 +1,5 @@
 {
-    "analyst2": [
+    "analyst": [
         "data analysis",
         "performance",
         "Tableau",
@@ -10,7 +10,7 @@
         "Economics",
         "management"
     ],
-    "business+analyst2": [
+    "business analyst": [
         "team",
         "data analysis",
         "Tableau",
@@ -21,7 +21,7 @@
         "presentation",
         "Economics"
     ],
-    "data+scientist2": [
+    "data scientist": [
         "data analysis",
         "Tableau",
         "SQL",
@@ -31,7 +31,7 @@
         "Economics",
         "presentations"
     ],
-    "адміністратор+баз+даних2": [
+    "адміністратор баз даних": [
         "data analysis",
         "data visualization skills",
         "Data Analyst",
@@ -43,7 +43,7 @@
         "team",
         "presentation"
     ],
-    "программист+php2": [
+    "программист php": [
         "team",
         "Python",
         "Design Patterns",
@@ -53,7 +53,7 @@
         "Apache",
         "AWS"
     ],
-    "системный+администратор2": [
+    "системный администратор": [
         "services",
         "AWS",
         "SQL",
