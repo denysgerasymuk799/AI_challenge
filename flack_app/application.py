@@ -2,17 +2,18 @@
 import json
 import os
 from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
+from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine
 
 # from routes import app
+from my_config import Config
 
 
-app = Flask(__name__, instance_relative_config=False)
+app = Flask(__name__)
 
-app.secret_key = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://sea_team:123456@localhost:5432/sea_db.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config.from_object(Config)
 db = SQLAlchemy(app)
 
 profession_to_skill = db.Table('profession_to_skill', db.Model.metadata,
@@ -24,11 +25,6 @@ skill_to_courses = db.Table('skill_to_courses', db.Model.metadata,
                             db.Column('skill_id', db.Integer, db.ForeignKey('skill.id')),
                             db.Column('course_id', db.Integer, db.ForeignKey('course.id'))
                             )
-
-
-@app.route("/")
-def render_main_page():
-    return redirect(url_for('input_profession'))
 
 
 class Profession(db.Model):
@@ -53,25 +49,31 @@ class Skill(db.Model):
 
 class Course(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    course_title = db.Column(db.String(80), unique=True, nullable=False)
+    course_title = db.Column(db.String(150), unique=True, nullable=False)
     price = db.Column(db.String(80), unique=False, nullable=True)
     image = db.Column(db.String(100), unique=False, nullable=True)
     course_duration = db.Column(db.String(80), unique=False, nullable=True)
     number_of_students = db.Column(db.String(80), unique=False, nullable=True)
-    short_description = db.Column(db.String(200), unique=False, nullable=True)
-    long_description = db.Column(db.String(1200), unique=False, nullable=True)
+    short_description = db.Column(db.String(2000), unique=False, nullable=True)
+    long_description = db.Column(db.String(10000), unique=False, nullable=True)
     url = db.Column(db.String(200), unique=True, nullable=True)
 
     def __repr__(self):
         return '<Course - {};; {};; {};; {};; {};; {};; {};; {}>'.format(self.course_title, self.price, self.image,
-                                                                self.course_duration, self.number_of_students,
-                                                                self.short_description, self.long_description, self.url)
+                                                                         self.course_duration, self.number_of_students,
+                                                                         self.short_description, self.long_description,
+                                                                         self.url)
 
     def get_dict(self):
         return {"course_title": self.course_title, "price": self.price,
                 "image": self.image, "course_duration": self.course_duration,
                 "number_of_students": self.number_of_students, "short_description": self.short_description,
                 "long_description": self.long_description, "url": self.url}
+
+
+@app.route("/")
+def render_main_page():
+    return redirect(url_for('input_profession'))
 
 
 @app.route('/input_profession', methods=['POST', 'GET'])
@@ -123,7 +125,7 @@ def skills_for_job(job):
         skill_db = str(skill_db)
         skill_start = skill_db.find("'")
         skill_end = skill_db.rfind("'")
-        skill = skill_db[skill_start + 1: skill_end].capitalize()
+        skill = skill_db[skill_start + 1: skill_end]
         result_skill_list.append(skill)
 
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
@@ -177,23 +179,27 @@ def get_courses(current_skills):
     # course_list = json.load(json_file)
     skills_list = all_user_data["all_job_skills"]
     courses_dict = {}
-    for course_id, skill in enumerate(skills_list):
+    course_id = 0
+    for skill in skills_list:
         if skill not in current_skills:
-            course_str = Skill.query.filter_by(name=skill.lower()).first().courses
-            params = ["course_title", "price",
-                      "image", "course_duration",
-                      "number_of_students", "short_description",
-                      "long_description", "url"]
-            courses_dict[skill.lower()] = {}
-            print("str(course_str).split(\";;\")", str(course_str).split(";;"))
-            for n_param, param in enumerate(str(course_str).split(";;")):
-                if param[1] == "<":
-                    param_start = param.find("-")
-                    param = param[param_start + 2:]
+            courses = Skill.query.filter_by(name=skill).first().courses
+            skill = skill.lower()
+            courses_dict[skill] = []
+            course_dict = {}
+            for course in courses:
+                course_id += 1
+                course_dict["id"] = course_id
+                course_dict["course_title"] = course.course_title
+                course_dict["price"] = course.price
+                course_dict["image"] = course.image
+                course_dict["course_duration"] = course.course_duration
+                course_dict["number_of_students"] = course.number_of_students
+                course_dict["short_description"] = course.short_description
+                course_dict["long_description"] = course.long_description
+                course_dict["url"] = course.url
 
-                elif param.endswith(">]"):
-                    param = param[:-2]
-                courses_dict[skill.lower()][params[n_param]] = param
+            courses_dict[skill].append(course_dict)
+
     #
     # id = 0
     # for i, skill in enumerate(courses_list_input_profession.keys()):
@@ -223,8 +229,10 @@ def index():
 @app.route('/selected', methods=['POST', 'GET'])
 def selected():
     my_courses = []
-    data = request.form
-    session['my_courses'] = list(data.keys())
+    data = request.form.getlist('checkbox')
+    print(data)
+    # data = request.form
+    # session['my_courses'] = list(data.keys())
     for skill in courses.keys():
         for course in courses[skill]:
             if course['id'] in data:
@@ -234,4 +242,5 @@ def selected():
 
 
 if __name__ == '__main__':
+    # db.create_all()
     app.run(debug=True)
