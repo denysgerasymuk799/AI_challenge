@@ -6,7 +6,7 @@ import re
 from sea_db.db_functions import get_parts, transform_data_from_table_in_json
 
 temp_dir = os.getcwd()
-update_courses_dir = os.path.join(temp_dir, 'courses_jsons', '28.03.2020')
+update_courses_dir = os.path.join(temp_dir, 'courses_jsons', 'courses_for_IT_professions')
 
 
 def sort_courses_by_num_students(dict_courses_for_job):
@@ -84,7 +84,7 @@ def create_courses_json_for_profession(title_profession):
 
     page_courses_json = {}
 
-    # from dir courses_jsons//28.03.2020 extract all courses
+    # from dir courses_jsons//courses_for_IT_professions extract all courses
     for table_name in table_names:
         page_courses_json = transform_data_from_table_in_json(table_name, filename)
         # print("file--------------------------------------------", file)
