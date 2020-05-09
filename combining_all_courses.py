@@ -79,16 +79,14 @@ def is_profession_skills_course(description, title_profession):
 def create_courses_json_for_profession(title_profession):
     i = 0
     courses = Course.query.all()
-
     profession = Profession.query.filter_by(name=title_profession).first()
     for course in courses:
         print()
         print('number of course', course.id)
         # print('course --', course)
-        # i += 1
-        # if course.id == 50:
-        #     checker_break = 1
-        #     break
+        i += 1
+        if i == 200:
+            break
 
         # clean long_description from html tags
         try:
@@ -170,9 +168,6 @@ def create_courses_json_for_profession(title_profession):
             except sqlite3.IntegrityError:
                 continue
 
-        # if checker_break == 1:
-        #     break
-
 
 if __name__ == '__main__':
     with open(os.path.join(os.getcwd(), 'flack_app', 'user_data', 'skills_for_professions',
@@ -180,16 +175,28 @@ if __name__ == '__main__':
               'r', encoding="utf-8") as skills_for_profession:
         filtered_skills_for_professions = json.load(skills_for_profession)
 
-    for profession in filtered_skills_for_professions.keys():
-        # if profession[-1] == "2":
-        #     profession2 = profession[:-1]
-        #     profession2 = ' '.join(profession2.split("+"))
-        # else:
-        #     profession2 = ' '.join(profession.split("+"))
+    skills = Skill.query.all()
+    for skill in skills:
+        # print(skill.courses)
+        print("skill.name", skill.name)
+        for course in skill.courses:
+            print("course.course_title", course.course_title)
+        print()
 
-        create_courses_json_for_profession(profession)
-        print(profession, "-" * 20)
-        # break
-        # i += 1
-        # if i == 4:
-        #     break
+    # professions = Profession.query.all()
+    # for profession in professions:
+    #     print(profession.skills)
+    #
+    # for profession in filtered_skills_for_professions.keys():
+    #     # if profession[-1] == "2":
+    #     #     profession2 = profession[:-1]
+    #     #     profession2 = ' '.join(profession2.split("+"))
+    #     # else:
+    #     #     profession2 = ' '.join(profession.split("+"))
+    #
+    #     create_courses_json_for_profession(profession)
+    #     print(profession, "-" * 20)
+    #     break
+    #     # i += 1
+    #     # if i == 4:
+    #     #     break
