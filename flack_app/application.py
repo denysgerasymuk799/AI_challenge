@@ -138,6 +138,7 @@ def middle():
     if request.method == 'POST':
         current_skills = request.form.getlist("chosen_skills")
         print(current_skills)
+
         global courses
         with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
                 user_data_json_from_file:
