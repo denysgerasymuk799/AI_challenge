@@ -2,7 +2,6 @@ import json
 import os
 import sqlite3
 
-import psycopg2
 import sqlalchemy
 
 from application import db, Profession, Skill, Course
