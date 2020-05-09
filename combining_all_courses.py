@@ -4,7 +4,6 @@ import os
 import re
 import sqlite3
 
-from sea_db.db_functions import get_parts, transform_data_from_table_in_json
 from flack_app.application import Course, Profession, Skill, db
 
 temp_dir = os.getcwd()
@@ -12,6 +11,12 @@ update_courses_dir = os.path.join(temp_dir, 'courses_jsons', 'courses_for_IT_pro
 
 
 def sort_courses_by_num_students(dict_courses_for_job):
+    """
+    It is how I filter courses with number of students,
+    but Vova make other function and this function is not used in this module now
+    :param dict_courses_for_job:
+    :return:
+    """
     for skill in dict_courses_for_job.keys():
         start_lst_courses_positions = []
         lst_courses_before_sort = []
@@ -28,11 +33,8 @@ def sort_courses_by_num_students(dict_courses_for_job):
 
         sorted_courses_lst = []
         sorted_positions_lst_courses = copy.deepcopy(start_lst_courses_positions)
-        # print('start_lst_courses_positions', start_lst_courses_positions)
         sorted_positions_lst_courses.sort(reverse=True)
-        # print('sorted_positions_lst_courses', sorted_positions_lst_courses)
-        # print('sorted_positions_lst_courses', len(sorted_positions_lst_courses))
-        # print('dict_courses_for_job[skill]', len(dict_courses_for_job[skill]))
+
         for num_students in range(len(sorted_positions_lst_courses)):
             position_to_sort_courses_in_skill = start_lst_courses_positions.index(sorted_positions_lst_courses[num_students])
             sorted_courses_lst.append(lst_courses_before_sort[position_to_sort_courses_in_skill])
@@ -44,8 +46,8 @@ def sort_courses_by_num_students(dict_courses_for_job):
 
 def is_profession_skills_course(description, title_profession):
     """
-
-    :param description: str
+    Find for what skills  this course is special from skills for the profession
+    :param description: str, a short or long desiption from db for course
     :param title_profession: str
     :return: if description teach a skill from skill set of profession - True and name_skills_list,
      else - False and None
@@ -54,6 +56,8 @@ def is_profession_skills_course(description, title_profession):
     skill_lst = []
 
     for skill in filtered_skills_for_professions[title_profession]:
+        # if skill has more than one word - find 2 words from description in this skill name -
+        # if yes then add to skill_list based on this course description
         if len(skill.split()) > 1:
             flag_similar = 0
             for word in str(description).strip().split():
@@ -63,7 +67,7 @@ def is_profession_skills_course(description, title_profession):
                 if flag_similar > 1:
                     skill_lst.append(skill)
                     break
-
+        # if skill name is one word
         else:
             for word in str(description).strip().split():
                 if skill.lower() == word.lower():
@@ -77,15 +81,19 @@ def is_profession_skills_course(description, title_profession):
 
 
 def create_courses_json_for_profession(title_profession):
+    """
+
+    :param title_profession: a profession from json with professions and filtered skills for them
+    :return: make relationships in db in profession_to_skill and skill_to_courses tables
+    """
     i = 0
     courses = Course.query.all()
     profession = Profession.query.filter_by(name=title_profession).first()
     for course in courses:
         print()
         print('number of course', course.id)
-        # print('course --', course)
         i += 1
-        if i == 200:
+        if i == 200: # checker for creating relationships only for first courses
             break
 
         # clean long_description from html tags
@@ -137,10 +145,12 @@ def create_courses_json_for_profession(title_profession):
                 pass
         else:
             pass
-        # check if courses teach skills of title_profession in long_description if not check in short_description
+        # check if courses teach skills of title_profession in long_description, if not - check in short_description
         if not is_profession_skills_course_checker:
             continue
 
+        # filter courses for skills of this profession from not english,
+        # because on our platforms is also Chinese or other courses but they should not be in our service till now
         for skill_from_course in skill_names_lst:
             checker_not_english_course = 0
             for word in course.course_title.split():
@@ -175,28 +185,29 @@ if __name__ == '__main__':
               'r', encoding="utf-8") as skills_for_profession:
         filtered_skills_for_professions = json.load(skills_for_profession)
 
-    skills = Skill.query.all()
-    for skill in skills:
-        # print(skill.courses)
-        print("skill.name", skill.name)
-        for course in skill.courses:
-            print("course.course_title", course.course_title)
-        print()
+    # sample how to check if you right find courses for your skills with your sorted algorithm
+    # skills = Skill.query.all()
+    # for skill in skills:
+    #     # print(skill.courses)
+    #     print("skill.name", skill.name)
+    #     for course in skill.courses:
+    #         print("course.course_title", course.course_title)
+    #     print()
 
-    # professions = Profession.query.all()
-    # for profession in professions:
-    #     print(profession.skills)
-    #
-    # for profession in filtered_skills_for_professions.keys():
-    #     # if profession[-1] == "2":
-    #     #     profession2 = profession[:-1]
-    #     #     profession2 = ' '.join(profession2.split("+"))
-    #     # else:
-    #     #     profession2 = ' '.join(profession.split("+"))
-    #
-    #     create_courses_json_for_profession(profession)
-    #     print(profession, "-" * 20)
-    #     break
-    #     # i += 1
-    #     # if i == 4:
-    #     #     break
+    professions = Profession.query.all()
+    for profession in professions:
+        print(profession.skills)
+
+    for profession in filtered_skills_for_professions.keys():
+        # if profession[-1] == "2":
+        #     profession2 = profession[:-1]
+        #     profession2 = ' '.join(profession2.split("+"))
+        # else:
+        #     profession2 = ' '.join(profession.split("+"))
+
+        create_courses_json_for_profession(profession)
+        print(profession, "-" * 20)
+        # break
+        # i += 1
+        # if i == 4:
+        #     break

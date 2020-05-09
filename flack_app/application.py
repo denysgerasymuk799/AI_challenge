@@ -4,18 +4,16 @@ import os
 from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import create_engine
 
-# from routes import app
-from flack_app.my_config import Config
+from my_config import Config
 
 
 app = Flask(__name__)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 
+# our relationship tables
 profession_to_skill = db.Table('profession_to_skill', db.Model.metadata,
                                db.Column('profession_id', db.Integer, db.ForeignKey('profession.id')),
                                db.Column('skill_id', db.Integer, db.ForeignKey('skill.id'))
@@ -103,22 +101,13 @@ def input_profession():
 
 def skills_for_job(job):
     """
-    Test function
-    :param job:
-    :return:
+    :param job: str from yser input
+    :return: a list of skills for this profession from db
     """
-    # temp_dir = os.getcwd()
-    # os.chdir('')
-    # retrieve skills from database
-    # filename = os.path.join(os.getcwd(), 'sea_db', 'courses_and_skills_db.ini')
-    # list_from_db = get_parts(["job_title", "skills_list"], "skills_for_all_professions", filename=filename)
     if job.endswith("2"):
         job = job[:-1]
     list_from_db = Profession.query.filter_by(name=job).first().skills
 
-    # os.chdir(temp_dir)
-
-    title_profession = '+'.join(job.split())
     result_skill_list = []
     print("list_from_db", list_from_db)
     for skill_db in list_from_db:
@@ -142,6 +131,10 @@ def skills_for_job(job):
 
 @app.route('/skills', methods=['POST', 'GET'])
 def middle():
+    """
+     a function for page, where you choose courses you already have
+    :return: get courses from db based on filtered skills for input profession
+    """
     if request.method == 'POST':
         current_skills = request.form.getlist("chosen_skills")
         print(current_skills)
@@ -164,19 +157,13 @@ def middle():
 
 def get_courses(current_skills):
     """
-    test function
-    :param skills:
-    :return:
+    :param skills: a list of user skills which he input
+    :return: a dict of courses for the speial skill
     """
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         all_user_data = json.load(user_data_json_from_file)
 
-    title_profession = '+'.join(all_user_data['profession'].split())
-    courses_list_input_profession = {}
-    # with open(os.path.join(os.getcwd(), 'user_data', title_profession + '.json'), 'r', encoding='utf-8') as \
-    #         json_file:
-    # course_list = json.load(json_file)
     skills_list = all_user_data["all_job_skills"]
     courses_dict = {}
     course_id = 0
@@ -188,7 +175,7 @@ def get_courses(current_skills):
             course_dict = {}
             for course in courses:
                 course_id += 1
-                course_dict["id"] = course_id
+                course_dict["id"] = str(course_id)
                 course_dict["course_title"] = course.course_title
                 course_dict["price"] = course.price
                 course_dict["image"] = course.image
@@ -200,14 +187,6 @@ def get_courses(current_skills):
 
             courses_dict[skill].append(course_dict)
 
-    #
-    # id = 0
-    # for i, skill in enumerate(courses_list_input_profession.keys()):
-    #     for j, course in enumerate(courses_list_input_profession[skill]):
-    #         courses_list_input_profession[skill][j]["name"] = course['course_title']
-    #         courses_list_input_profession[skill][j]["id"] = "course-" + str(id)
-    #         print('courses_list_input_profession[skill]', courses_list_input_profession[skill])
-    #         id += 1
     print("courses_dict", courses_dict)
     return courses_dict
 
@@ -223,19 +202,25 @@ def a():
 
 @app.route('/courses', methods=['POST', 'GET'])
 def index():
+    """
+
+    :return: make a section - for special skill you have a list of courses in html
+    """
     return render_template("one_section.html", courses_list=courses)
 
 
 @app.route('/selected', methods=['POST', 'GET'])
 def selected():
+    """
+
+    :return: a function to page where you can view your selected courses
+    """
     my_courses = []
-    # data = request.form.getlist('checkbox')
     data = request.form
-    print(data)
     session['my_courses'] = list(data.keys())
     for skill in courses.keys():
         for course in courses[skill]:
-            if course['id'] in data:
+            if course['id'] in session['my_courses']:
                 my_courses.append(course)
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
