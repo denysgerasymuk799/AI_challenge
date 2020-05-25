@@ -170,11 +170,11 @@ def get_courses(current_skills):
     course_id = 0
     for skill in skills_list:
         if skill not in current_skills:
-            courses = Skill.query.filter_by(name=skill).first().courses
+            courses_db = Skill.query.filter_by(name=skill).first().courses
             skill = skill.lower()
             courses_dict[skill] = []
             course_dict = {}
-            for course in courses:
+            for course in courses_db:
                 course_id += 1
                 course_dict["id"] = str(course_id)
                 course_dict["course_title"] = course.course_title
@@ -189,6 +189,7 @@ def get_courses(current_skills):
             courses_dict[skill].append(course_dict)
 
     print("courses_dict", courses_dict)
+    # course_dict = students_filter(course_dict)
     return courses_dict
 
 
@@ -227,6 +228,31 @@ def selected():
     return render_template("selected.html", my_courses=my_courses)
 
 
+def students_filter(courses_dict):
+    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+            user_data_json_from_file:
+        all_user_data = json.load(user_data_json_from_file)
+
+    skills_list = all_user_data["all_job_skills"]
+    for skill in skills_list:
+        skill = skill.lower()
+        courses_dict[skill] = []
+        course_dict = {}
+        course_dict[skill] = filter_param(course_dict[skill])
+
+
+def filter_param(courses_lst):
+    new_course_lst = courses_lst
+    rest_courses = []
+    length = len(courses_lst)
+    for course_pos in range(length):
+        if not "," in courses_lst[course_pos]['number_of_students']:
+            rest_courses.append(courses_lst.pop(course_pos))
+
+    courses_lst = sorted(courses_lst, lambda course_dict: int("".join(course_dict["number_of_students"].split()[0].split(","))))
+    courses_lst += rest_courses
+    return courses_lst
+
+
 if __name__ == '__main__':
-    # db.create_all()
     app.run(debug=True)
