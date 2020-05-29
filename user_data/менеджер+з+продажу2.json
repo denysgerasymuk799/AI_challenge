@@ -1,0 +1,14 @@
+{
+    "Internet": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "12,166 students",
+            "short_description": " The limitations of the Internet for business and economic activity, and how trust is established in a pre- and post-blockchain world Terms such as miner, hash, nonce, proof-of-work, and public key cryptography, as well as the steps of a blockchain transaction Seven design principles for blockchain technology Ten challenges associated with implementing blockchain technology",
+            "long_description": "In this first course of the specialization, we will discuss the limitations of the Internet for business and economic activity, and explain how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. You’ll also meet the players in the blockchain ecosystem, and consider your own role in stewarding the blockchain revolution.",
+            "url": "https://www.coursera.org/learn/intro-blockchain-financial-services",
+            "course_title": "Introduction to Blockchain for Financial Services"
+        }
+    ]
+}

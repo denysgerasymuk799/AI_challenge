@@ -1,0 +1,378 @@
+{
+    "data analysis": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Plan for effective cloud cost management by setting up your teams, tools, and applying financial governance best practices. Set up GCP Billing account(s) and organize your resources for cost management. Export Billing reports to Google Sheets or BigQuery to gain visibility into your current cost trends and forecasted costs. Visualize billing data with Billing reports and build custom dashboards with Data Studio.",
+            "long_description": "Understanding Your Google Cloud Platform (GCP) Costs is most suitable for those working in a technology or finance role who are responsible for managing GCP costs. \n\nYou’ll learn how to set up a billing account, organize resources, and manage billing access permissions. \n\nIn the hands-on labs, you'll learn how to view your invoice, track your GCP costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Data Studio.\t\t\n\nStudents enrolling in this course do not need any prior Google Cloud technical experience.",
+            "url": "https://www.coursera.org/learn/gcp-cost-management",
+            "course_title": "Understanding Your Google Cloud Platform (GCP) Costs"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Plan for effective cloud cost management by setting up your teams, tools, and applying financial governance best practices. Set up GCP Billing account(s) and organize your resources for cost management. Export Billing reports to Google Sheets or BigQuery to gain visibility into your current cost trends and forecasted costs. Visualize billing data with Billing reports and build custom dashboards with Data Studio.",
+            "long_description": "Understanding Your Google Cloud Platform (GCP) Costs is most suitable for those working in a technology or finance role who are responsible for managing GCP costs. \n\nYou’ll learn how to set up a billing account, organize resources, and manage billing access permissions. \n\nIn the hands-on labs, you'll learn how to view your invoice, track your GCP costs with Billing reports, analyze your billing data with BigQuery or Google Sheets, and create custom billing dashboards with Data Studio.\t\t\n\nStudents enrolling in this course do not need any prior Google Cloud technical experience.",
+            "url": "https://www.coursera.org/learn/gcp-cost-management",
+            "course_title": "Understanding Your Google Cloud Platform (GCP) Costs"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/4c/f00688208c46878944beca94dce581/IBM-data-science-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "177,969 students",
+            "short_description": " How to use the SWOT, competitor, and environmental analysis tools  How to assess an industry's structure and how the competitive dynamics in an industry affect profitability How to complete a capabilities analysis and how to use this analysis to guide decision making How to analyze the advantages and disadvantages of four generic competitive positions",
+            "long_description": "Develop your ability to think strategically, analyze the competitive environment, and recommend firm positioning and value creation. In this course, we will explore the underlying theory and frameworks that provide the foundations of a successful business strategy and provide the tools you need to understand that strategy: SWOT, Competitor, Environmental, Five Forces, and Capabilities Analyses, as well as Strategy Maps.",
+            "url": "https://www.coursera.org/learn/uva-darden-foundations-business-strategy",
+            "course_title": "Foundations of Business Strategy"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 29 hours to complete",
+            "number_of_students": "172,553 students",
+            "short_description": " Define\nand explain the key concepts of data clustering     Demonstrate\nunderstanding of the key constructs and features of the Python language.     Implement\nin Python the principle steps of the K-means algorithm.     Design\nand execute a whole data clustering workflow and interpret the outputs.    ",
+            "long_description": "Organisations all around the world are using data to predict behaviours and extract valuable real-world insights to inform decisions. Managing and analysing big data has become an essential part of modern finance, retail, marketing, social science, development and research, medicine and government.\n\nThis MOOC, designed by an academic team from Goldsmiths, University of London, will quickly introduce you to the core concepts of Data Science to prepare you for intermediate and advanced Data Science courses. It focuses on the basic mathematics, statistics and programming skills that are necessary for typical data analysis tasks. \n\nYou will consider these fundamental concepts on an example data clustering task, and you will use this example to learn basic programming skills that are necessary for mastering Data Science techniques. During the course, you will be asked to do a series of mathematical and programming exercises and a small data clustering project for a given dataset.",
+            "url": "https://www.coursera.org/learn/data-science-k-means-clustering-python",
+            "course_title": "Foundations of Data Science: K-Means Clustering in Python"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/27/88f9c2b3e644808ee0d85b2cca6a9b/HPP-Penn-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "83,979 students",
+            "short_description": " Design data tables and use separating and joining data in a relational database Write query strings to subset data Create and work with raster data Create web maps",
+            "long_description": "In this course, the second in the Geographic Information Systems (GIS) Specialization, you will go in-depth with common data types (such as raster and vector data), structures, quality and storage during four week-long modules: \n\nWeek 1: Learn about data models and formats, including a full understanding of vector data and raster concepts. You will also learn about the implications of a data’s scale and how to load layers from web services. \n\nWeek 2: Create a vector data model by using vector attribute tables, writing query strings, defining queries, and adding and calculating fields. You'll also learn how to create new data through the process of digitizing and you'll use the built-in Editor tools in ArcGIS.\n\nWeek 3: Learn about common data storage mechanisms within GIS, including geodatabases and shapefiles. Learn how to choose between them for your projects and how to optimize them for speed and size. You'll also work with rasters for the first time, using digital elevation models and creating slope and distance analysis products.\n\nWeek 4: Explore datasets and assess them for quality and uncertainty.  You will also learn how to bring your maps and data to the Internet and create web maps quickly with ArcGIS Online.\n\nTake GIS Data Formats, Design and Quality as a standalone course or as part of the Geographic Information Systems (GIS) Specialization. You should have equivalent experience to completing the first course in this specialization, Fundamentals of GIS, before taking this course. By completing the second class in the Specialization you will gain the skills needed to succeed in the full program.",
+            "url": "https://www.coursera.org/learn/gis-data",
+            "course_title": "GIS Data Formats, Design and Quality"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "17,764 students",
+            "short_description": " Demonstrate how to find and fix problems, heighten visibility, improve site architecture, and accelerate page load speed within your own website\n\n Develop engaging strategies to launch a global web marketing campaign\n\n Use tools to provide insightful data to evaluate your competitors\n\n Conduct data analysis to bring value to stakeholders\n\n",
+            "long_description": "This course focuses on technical, mobile and social strategies for increasing site traffic. Learn how to build SEO for international audiences through content localization, global team alignment and optimizing for local search engines. Discover techniques to optimize mobile-friendly websites, get mobile apps discovered, and leverage social media to drive organic SEO traffic.  You will also learn how to identify key SEO metrics and collect, interpret, validate, and report success to your clients and stakeholders.",
+            "url": "https://www.coursera.org/learn/seo-strategies",
+            "course_title": "Advanced Search Engine Optimization Strategies"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "16,251",
+            "short_description": " Define networks and discover the languages networks use. Analyze a social network through data wrangling and visualizing a network. Discuss what mechanisms generate networks. Examine social networks analysis using case studies.",
+            "long_description": "This course is designed to quite literally ‘make a science’ out of something at the heart of society: social networks. Humans are natural network scientists, as we compute new network configurations all the time, almost unaware, when thinking about friends and family (which are particular forms of social networks), about colleagues and organizational relations (other, overlapping network structures), and about how to navigate delicate or opportunistic network configurations to save guard or advance in our social standing (with society being one big social network itself). While such network structures always existed, computational social science has helped to reveal and to study them more systematically. In the first part of the course we focus on network structure. This looks as static snapshots of networks, which can be intricate and reveal important aspects of social systems. In our hands-on lab, you will also visualize and analyze a network with a software yourself, which will help to appreciate the complexity social networks can take on. During the second part of the course, we will look at how networks evolve in time. We ask how we can predict what kind of network will form and if and how we could influence network dynamics.",
+            "url": "https://www.coursera.org/learn/social-network-analysis",
+            "course_title": "Social Network Analysis"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "10,941 students",
+            "short_description": " Describe a data set from scratch using descriptive statistics and simple graphical methods as a first step for advanced analysis using R software   Interpret the output from your analysis and appraise the role of chance and bias as potential explanations Run multiple logistic regression analysis in R and interpret the output      Evaluate the model assumptions for multiple logistic regression in R  ",
+            "long_description": "Welcome to Logistic Regression in R for Public Health! \n\nWhy logistic regression for public health rather than just logistic regression? Well, there are some particular considerations for every data set, and public health data sets have particular features that need special attention. In a word, they're messy. Like the others in the series, this is a hands-on course, giving you plenty of practice with R on real-life, messy data, with predicting who has diabetes from a set of patient characteristics as the worked example for this course. Additionally, the interpretation of the outputs from the regression model can differ depending on the perspective that you take, and public health doesn’t just take the perspective of an individual patient but must also consider the population angle. That said, much of what is covered in this course is true for logistic regression when applied to any data set, so you will be able to apply the principles of this course to logistic regression more broadly too. \n\nBy the end of this course, you will be able to: \nExplain when it is valid to use logistic regression \nDefine odds and odds ratios \nRun simple and multiple logistic regression analysis in R and interpret the output \nEvaluate the model assumptions for multiple logistic regression in R \nDescribe and compare some common ways to choose a multiple regression model \n\nThis course builds on skills such as hypothesis testing, p values, and how to use R, which are covered in the first two courses of the Statistics for Public Health specialisation. If you are unfamiliar with these skills, we suggest you review Statistical Thinking for Public Health and Linear Regression for Public Health before beginning this course. If you are already familiar with these skills, we are confident that you will enjoy furthering your knowledge and skills in Statistics for Public Health: Logistic Regression for Public Health. \n\nWe hope you enjoy the course!",
+            "url": "https://www.coursera.org/learn/logistic-regression-r-public-health",
+            "course_title": "Logistic Regression in R for Public Health"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "10,941 students",
+            "short_description": " Describe a data set from scratch using descriptive statistics and simple graphical methods as a first step for advanced analysis using R software   Interpret the output from your analysis and appraise the role of chance and bias as potential explanations Run multiple logistic regression analysis in R and interpret the output      Evaluate the model assumptions for multiple logistic regression in R  ",
+            "long_description": "Welcome to Logistic Regression in R for Public Health! \n\nWhy logistic regression for public health rather than just logistic regression? Well, there are some particular considerations for every data set, and public health data sets have particular features that need special attention. In a word, they're messy. Like the others in the series, this is a hands-on course, giving you plenty of practice with R on real-life, messy data, with predicting who has diabetes from a set of patient characteristics as the worked example for this course. Additionally, the interpretation of the outputs from the regression model can differ depending on the perspective that you take, and public health doesn’t just take the perspective of an individual patient but must also consider the population angle. That said, much of what is covered in this course is true for logistic regression when applied to any data set, so you will be able to apply the principles of this course to logistic regression more broadly too. \n\nBy the end of this course, you will be able to: \nExplain when it is valid to use logistic regression \nDefine odds and odds ratios \nRun simple and multiple logistic regression analysis in R and interpret the output \nEvaluate the model assumptions for multiple logistic regression in R \nDescribe and compare some common ways to choose a multiple regression model \n\nThis course builds on skills such as hypothesis testing, p values, and how to use R, which are covered in the first two courses of the Statistics for Public Health specialisation. If you are unfamiliar with these skills, we suggest you review Statistical Thinking for Public Health and Linear Regression for Public Health before beginning this course. If you are already familiar with these skills, we are confident that you will enjoy furthering your knowledge and skills in Statistics for Public Health: Logistic Regression for Public Health. \n\nWe hope you enjoy the course!",
+            "url": "https://www.coursera.org/learn/logistic-regression-r-public-health",
+            "course_title": "Logistic Regression in R for Public Health"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 3 hours to complete",
+            "number_of_students": "6,225 students",
+            "short_description": " Recognize all security related issues in big data systems and projects. Define cryptographic principles and mechanisms to manage access controls in your Big Data system. Explain security risks and challenges for Big Data system.\n\n",
+            "long_description": "This course sensitizes regarding security in Big Data environments. You will discover cryptographic principles, mechanisms to manage access controls in your Big Data system. By the end of the course, you will be ready to plan your next Big Data project successfully, ensuring that all security related issues are under control. You will look at decent-sized big data projects with security-skilled eyes, being able to recognize dangers. This will allow you to improve your systems to a grown and sustainable level. \n\nIf you are an ICT professional or someone who designs and manages systems in big data environments, this course is for you! Knowledge about Big Data and IT is advantageous, but if you are e.g. a product manager just touching the surface of Big Data and security, this course will suit you as well.",
+            "url": "https://www.coursera.org/learn/security-privacy-big-data",
+            "course_title": "Security and Privacy for Big Data - Part 1"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "5,564 students",
+            "short_description": " Distinguish operational from analytic databases, and understand how these are applied in big data Understand how database and table design provides structures for working with data Appreciate how differences in volume and variety of data affects your choice of an appropriate database system Recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis",
+            "long_description": "In this course, you'll get a big-picture view of using SQL for big data, starting with an overview of data, database systems, and the common querying language (SQL). Then you'll learn the characteristics of big data and SQL tools for working on big data platforms. You'll also install an exercise environment (virtual machine) to be used through the specialization courses, and you'll have an opportunity to do some initial exploration of databases and tables in that environment.\n\nBy the end of the course, you will be able to\n• distinguish operational from analytic databases, and understand how these are applied in big data;\n• understand how database and table design provides structures for working with data;\n• appreciate how differences in volume and variety of data affects your choice of an appropriate database system;\n• recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis; and \n• explore databases and tables in a big data platform.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/foundations-big-data-analysis-sql",
+            "course_title": "Foundations for Big Data Analysis with SQL"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science",
+            "course_title": "Introduction to Clinical Data Science"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql",
+            "course_title": "Managing Big Data in Clusters and Cloud Storage"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/5e/4c158b1f9440ed834b59c3c4eae9bd/Illinois-imba-new-image.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 6 hours to complete",
+            "number_of_students": "2,932",
+            "short_description": " Analyze and interpret epidemiologic surveillance data Present surveillance data in compliance with legal reporting requirements Apply epidmiologic surveillance principles to non-communicable chronic diseases Differentiate among indicator-based, event-based, and event-related surveillance systems",
+            "long_description": "In this course, we'll build on the previous lessons in this specialization to focus on some very specific skills related to public health surveillance. We'll learn how to get the most out of surveillance data analysis, focusing specifically on interpreting time trend data to detect temporal aberrations as well as person, place, and time in the context of surveillance data. We'll also explore strategies for the presentation of surveillance data and some of the complex legal elements that affect its use. We'll then turn our attention to surveillance of non-communicable chronic diseases and how the data can be used to support prevention efforts. Finally, we'll explore special surveillance systems, such as syndromic surveillance, antimicrobial resistance, and event-related surveillance. This course is designed for public health practitioners with a focus on those working on health surveillance in municipal, regional, state, provincial, or even national public health agencies. We really think that this course will help those with an interest in health surveillance to see which approaches are used in actual practice of public health.",
+            "url": "https://www.coursera.org/learn/epidemiology-surveillance-systems-analysis",
+            "course_title": "Surveillance Systems: Analysis, Dissemination, and Special Systems"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "2,900 students",
+            "short_description": " Evaluate data models and data processing concepts Apply relationship algebra to entity relationship models Compare major indexing schemes in Database Systems Analyze transaction properties and concurrency control concepts",
+            "long_description": "Big Data analytics tools are increasingly critical for providing meaningful information for making better business decisions.\nBig data technologies bring significant cost advantages when it comes to storing and managing large amounts of data. Understanding how to query a database to extract data will empower better analysis of large, complex datasets. Knowledge of Indexing mechanisms makes possible high-speed, selective retrieval of large amounts of information.",
+            "url": "https://www.coursera.org/learn/data-in-database",
+            "course_title": "Data in Database"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,875",
+            "short_description": " Algorithms used to solve complex problems Principles and methods in the design and implementation of various data structures Skills for algorithm design and performance analysis Background on fundamental data structures and recent results",
+            "long_description": "By learning this course, you will get a comprehensive  grasp of stack, queue, binary tree, graph and BST structures and algorithms, as well as their applications. By the end of this course, you will be able to understand and implement stack, queue and binary tree, use binary trees to solve problems such Huffman encoding, understand and implement the graph structure as well as related algorithms such BFS, DFS and PFS, understand and implement  AVL tree.\n\n通过学习本课程，你将全面了解栈、队列、二叉树、图和二叉搜索树结构、算法及其应用。 在本课程结束时，你将能够理解和实现栈、队列和二叉树，使用二叉树解决霍夫曼编码等问题，理解并实现图结构以及相关算法（例如BFS，DFS和PFS），理解并实现AVL树。",
+            "url": "https://www.coursera.org/learn/data-structures-algorithms-2",
+            "course_title": "Data Structures and Algorithms (II)"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 16 hours to complete",
+            "number_of_students": "1,561",
+            "short_description": " Algorithms used to solve complex problems Principles and methods in the design and implementation of various data structures Skills for algorithm design and performance analysis Background on fundamental data structures and recent results",
+            "long_description": "By learning this course, you will get a comprehensive grasp of hashing  and typical balanced binary search trees, as well as their applications. By the end of this course, you will be able to understand the principle of Hashing, design and implement Hashtables for real problems, understand and implement typical balanced binary search trees such as Splay tree, Red-Black tree as well as B-tree, use BBST to solve various problems such as range query.\n\n通过学习本课程，你将全面了解散列和典型的平衡二叉搜索树技术及其应用。 在本课程结束时，你将能够了解散列的原理，设计和实现用于实际问题的哈希表，了解并实现典型的平衡二叉搜索树，例如Splay树，红黑树以及B树，并使用BBST解决各种问题，例如范围查询。",
+            "url": "https://www.coursera.org/learn/data-structures-algorithms-3",
+            "course_title": "Data Structures and Algorithms (III)"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "1,352 students",
+            "short_description": " Articulate different forms of clinical and population level data. Describe the data required to answer a healthcare information problem. Distinguish between data questions and data queries when dealing with a healthcare information problem.",
+            "long_description": "Health data are notable for how many types there are, how complex they are, and how serious it is to get them straight. These data are used for treatment of the patient from whom they derive, but also for other uses. Examples of such secondary use of health data include population health (e.g., who requires more attention), research (e.g., which drug is more effective in practice), quality (e.g., is the institution meeting benchmarks), and translational research (e.g., are new technologies being applied appropriately). By the end of this course, students will recognize the different types of health and healthcare data, will articulate a coherent and complete question, will interpret queries designed for secondary use of EHR data, and will interpret the results of those queries.",
+            "url": "https://www.coursera.org/learn/the-data-science-of-health-informatics",
+            "course_title": "The Data Science of Health Informatics"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Learn what alternative data is and how it is used in financial market applications.Â  Become immersed in current academic and practitioner state-of-the-art research pertaining to alternative data applications. Perform data analysis of real-world alternative datasets using Python. Gain an understanding and hands-on experience in data analytics, visualization and quantitative modeling applied to alternative data in finance",
+            "long_description": "Over-utilization of market and accounting data over the last few decades has led to portfolio crowding, mediocre performance and systemic risks, incentivizing financial institutions which are looking for an edge to quickly adopt alternative data as a substitute to traditional data. This course introduces the core concepts around alternative data, the most recent research in this area, as well as practical portfolio examples and actual applications. The approach of this course is somewhat unique because while the theory covered is still a main component, practical lab sessions and examples of working with alternative datasets are also key. This course is fo you if you are aiming at carreers prospects as a data scientist in financial markets, are looking to enhance your analytics skillsets to the financial markets, or if you are interested in cutting-edge technology and research as  they apply to big data. The required background is: Python programming, Investment theory , and Statistics. This course will enable you to learn new data and research techniques applied to the financial markets while strengthening data science and python skills.",
+            "url": "https://www.coursera.org/learn/machine-learning-asset-management-alternative-data",
+            "course_title": "Python and Machine-Learning for Asset Management with Alternative Data Sets"
+        }
+    ],
+    "Tableau": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "72,393 students",
+            "short_description": " \nInstall Tableau Public Software and create a visualization \nExamine and navigate the Tableau Public workspace \nPractice and connect to different data sources \nExamine ways to define your project",
+            "long_description": "In this first course of the specialization, you will discover just what data visualization is, and how we can use it to better see and understand data. Using Tableau, we’ll examine the fundamental concepts of data visualization and explore the Tableau interface, identifying and applying the various tools Tableau has to offer. By the end of the course you will be able to prepare and import data into Tableau and explain the relationship between data analytics and data visualization. This course is designed for the learner who has never used Tableau before, or who may need a refresher or want to explore Tableau in more depth.  No prior technical or analytical background is required.  The course will guide you through the steps necessary to create your first visualization story from the beginning based on data context,  setting the stage for you to advance to the next course in the Specialization.",
+            "url": "https://www.coursera.org/learn/data-visualization-tableau",
+            "course_title": "Fundamentals of Visualization with Tableau"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "72,393 students",
+            "short_description": " \nInstall Tableau Public Software and create a visualization \nExamine and navigate the Tableau Public workspace \nPractice and connect to different data sources \nExamine ways to define your project",
+            "long_description": "In this first course of the specialization, you will discover just what data visualization is, and how we can use it to better see and understand data. Using Tableau, we’ll examine the fundamental concepts of data visualization and explore the Tableau interface, identifying and applying the various tools Tableau has to offer. By the end of the course you will be able to prepare and import data into Tableau and explain the relationship between data analytics and data visualization. This course is designed for the learner who has never used Tableau before, or who may need a refresher or want to explore Tableau in more depth.  No prior technical or analytical background is required.  The course will guide you through the steps necessary to create your first visualization story from the beginning based on data context,  setting the stage for you to advance to the next course in the Specialization.",
+            "url": "https://www.coursera.org/learn/data-visualization-tableau",
+            "course_title": "Fundamentals of Visualization with Tableau"
+        }
+    ],
+    "management": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 9 hours to complete",
+            "number_of_students": "142,928 students",
+            "short_description": " Distinguish between different process models for organizing software production. Gauge the applicability of process models for a software development project. Apply the fundamentals of Agile software development and management practices.",
+            "long_description": "This course delves into a variety of processes to structure software development. It also covers the foundations of core Agile practices, such as Extreme Programming and Scrum.",
+            "url": "https://www.coursera.org/learn/software-processes-and-agile-practices",
+            "course_title": "Software Processes and Agile Practices"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "6,281 students",
+            "short_description": " Recognize strategies for building a culture of compliance within an organization Identify the fundamental components of a compliance program Identify techniques and methods for compliance management and provide psychological theories that explain why they are effective Devise strategies for managing noncompliance and incident response",
+            "long_description": "Once you have an understanding of what compliance is, and why it may be important, it is natural to wonder next, “What should I do about it?”  In this course, we’ll explore one of the key factors for creating a positive culture of compliance: human psychology. We’ll think about what drives us, what makes us pay attention, what distracts, and how all of these pieces help build a strong belief in an organizational culture of compliance. \n\nWe will examine formal compliance programs, diving into the nuances of how they are applied in practice. We’ll also explore the technologies, workflows, policies, monitoring, and training necessary to create a toolkit for designing an effective compliance program.",
+            "url": "https://www.coursera.org/learn/effective-compliance-programs",
+            "course_title": "Effective Compliance Programs"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/53/92bd88767e435b9a401baabf1e4e45/Promo-Units-784x1096-2-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,922 students",
+            "short_description": " Identify key\nstakeholders in major projects and understand stakeholder management       Understand the governance of major\nprojects and its challenges and learn how governance informs project management Understand strategic risk management\nand how to manage opportunities and risks Understand the theory and practice of\nscope management",
+            "long_description": "Gain confidence when dealing with stakeholders of major projects by learning to identify and manage those that are involved in the project planning and delivery. This course will enable you to explore project governance in theory and practice.\nThrough real life examples you’ll understand how the critical challenges of the governance in major projects are resolved.\n\nBeing able to successfully manage risk and uncertainty in major projects is vital for their delivery. In this course you’ll learn to distinguish between risk and uncertainty and the role of risk register. You’ll identify the unique challenges of scope management in major projects and employ scope management tools and techniques that will facilitate your project planning. \n\nThis course explores concepts analysed in the University’s Online MSc in Engineering Management. If you are interested to develop your skills further, take a look at our online degree.",
+            "url": "https://www.coursera.org/learn/major-engineering-projects",
+            "course_title": "Major Engineering Projects: Governance, Risk and Scope"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "2,770 students",
+            "short_description": " Identify the key drivers of global supply chain effectiveness   Create supply chain networks that are aligned with supply chain and business strategy of the firm   Identify the critical success factors, pitfalls, and risks of global supply chain management   Evaluate the sustainability of global supply chain operations  ",
+            "long_description": "Businesses and their supply chains are facing increasing competition and uncertainty in what is now a truly globalised trade environment. To remain competitive, organisations need to think globally – ensuring supply chains meet customer demands while minimising costs and maximising responsiveness. From a strategic perspective, this involves making important trade-off decisions between cost, quality and flexibility of supply chains. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) this course will equip you with the future-focused capabilities needed to design and manage effective, sustainable and efficient global supply chains of tomorrow.",
+            "url": "https://www.coursera.org/learn/supply-chain-management-global",
+            "course_title": "Supply chain management: Be global"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "2,695",
+            "short_description": " Recognize the importance of planning for project sustainment.  Use the pre-mortem exercise to identify risks of project failure.  Design a change management plan that addresses technical and adaptive challenges.  Describe the 4Eâs + 2 Model and its use to engage stakeholders. ",
+            "long_description": "Keeping patient safety and quality improvement projects on track, on time, and on budget is critical to ensuring their success. In this course, students will be introduced and given the opportunity to apply a series of tools to guide and manage patient safety and quality initiatives. These include tools for defining what success looks like, developing a change management plan, and conducting a pre-mortem to identify risks for project failure.  This course will also provide tools for engaging stakeholders to ensure key players are invested in your project’s success.",
+            "url": "https://www.coursera.org/learn/patient-safety-sustainment",
+            "course_title": "Designing for Sustainment: Keeping Improvement Work on Track (Patient Safety IV)"
+        }
+    ],
+    "SQL": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science",
+            "course_title": "Databases and SQL for Data Science"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "5,564 students",
+            "short_description": " Distinguish operational from analytic databases, and understand how these are applied in big data Understand how database and table design provides structures for working with data Appreciate how differences in volume and variety of data affects your choice of an appropriate database system Recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis",
+            "long_description": "In this course, you'll get a big-picture view of using SQL for big data, starting with an overview of data, database systems, and the common querying language (SQL). Then you'll learn the characteristics of big data and SQL tools for working on big data platforms. You'll also install an exercise environment (virtual machine) to be used through the specialization courses, and you'll have an opportunity to do some initial exploration of databases and tables in that environment.\n\nBy the end of the course, you will be able to\n• distinguish operational from analytic databases, and understand how these are applied in big data;\n• understand how database and table design provides structures for working with data;\n• appreciate how differences in volume and variety of data affects your choice of an appropriate database system;\n• recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis; and \n• explore databases and tables in a big data platform.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/foundations-big-data-analysis-sql",
+            "course_title": "Foundations for Big Data Analysis with SQL"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science",
+            "course_title": "Introduction to Clinical Data Science"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 22 hours to complete",
+            "number_of_students": "3,171 students",
+            "short_description": " Validate and clean a dataset Assess and create datasets to answer your questions Solve problems using SQL Build a simple testing framework to touch on AB Testing",
+            "long_description": "This course allows you to apply the SQL skills taught in “SQL for Data Science” to four increasingly complex and authentic data science inquiry case studies. We'll learn how to convert timestamps of all types to common formats and perform date/time calculations. We'll select and perform the optimal JOIN for a data science inquiry and clean data within an analysis dataset by deduping, running quality checks, backfilling, and handling nulls. We'll learn how to segment and analyze data per segment using windowing functions and use case statements to execute conditional logic to address a data science inquiry. We'll also describe how to convert a query into a scheduled job and how to insert data into a date partition. Finally, given a predictive analysis need, we'll engineer a feature from raw data using the tools and skills we've built over the course. The real-world application of these skills will give you the framework for performing the analysis of an AB test.",
+            "url": "https://www.coursera.org/learn/data-wrangling-analysis-abtesting",
+            "course_title": "Data Wrangling, Analysis and AB Testing with SQL"
+        }
+    ],
+    "Business Analyst": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 6 hours to complete",
+            "number_of_students": "58,378 students",
+            "short_description": " New models of how to run an effective business that makes the world a better place Corporate responsibility, philanthropy, and building sustainable value Creating value for stakeholders through conscious capitalism and stakeholder theory How to develop a business idea that makes money and makes the world a better place",
+            "long_description": "In this course we will be discussing the emergence of a new story about business. This new story locates business within a societal framework. Almost every business creates or destroys value for customers, suppliers, employees, communities and society, in addition to shareholders and other financiers. A number of new models of business can be built on this idea such as corporate responsibility, philanthropy, shared value and sustainability. Profits and stakeholder value go together, and this course explains how. The final session explores the idea of how to become a stakeholder entrepreneur and create a business that makes money and makes the world a better place.",
+            "url": "https://www.coursera.org/learn/uva-darden-business-society",
+            "course_title": "New Models of Business in Society"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 5 hours to complete",
+            "number_of_students": "27,612 students",
+            "short_description": "   Analyze the growth potential of your current business by evaluating your available internal business resources.   Generate and refine your opportunities\nfor business growth. Develop your confidence with learning and communicating online.    ",
+            "long_description": "Welcome to Grow Your Business with Goldman Sachs 10,000 Women.\n\nGoldman Sachs 10,000 Women is a global initiative that fosters economic growth by providing women business owners around the world with business and management education, mentoring and networking, and access to capital.\n\nThis introductory business course has been developed from the face-to-face program which has enabled over 10,000 women to see immediate and sustained business growth. It is designed for women business owners, running established businesses operating for more than one year, to provide the practical tools and skills required to help you grow your business. The course will enable you to develop your understanding of the three key ingredients of growth potential: you, your business, and your opportunity. \n\nThrough focused and tailored exercises, you will assess the strengths and weaknesses of your business and yourself as a business leader. You will also identify and refine your key opportunities for business growth. As you complete the course, you will be connecting with like-minded business owners from around the world. The course will provide you with a unique forum to share your experiences, and provide support and advice to others. \n\nWhat can you do after this introductory course?\n\nOnce you finish this introductory course, you will have the opportunity to continue your learning journey with 10,000 Women through a further 10 weeks of online learning.\n\nThe innovative 10-week course covers a full range of business topics from your leadership style and management structure to resource allocation and operational efficiency. You will build on what you learn in the introductory course and analyze the growth of your business further through the creation of a Business Growth Plan (BGP). The BGP is a strategic and tactical implementation tool designed to guide your business’s growth and help you to communicate your opportunity, vision, and ideas to your team, stakeholders, and customers.\n\nUpon successfully completing the two courses, you will be able to join the 10,000 Women alumni community and connect with a global network of past participants.",
+            "url": "https://www.coursera.org/learn/gs10kw",
+            "course_title": "Grow Your Business with Goldman Sachs 10,000 Women"
+        }
+    ],
+    "Finance": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 16 hours to complete",
+            "number_of_students": "3,523 students",
+            "short_description": " Identify the main success factors in Supply Chain Finance. Gain knowledge about the ideal customer for Supply Chain Finance. Understand how Supply Chain Finance is priced. Identify the relevant factors for suppliers to come onboard and trade.",
+            "long_description": "Implement and manage a successful financing program for a corporate buying organization by learning about the key success factors in Supply Chain Finance. In this course, you'll learn about the challenges and bottlenecks in Supply Chain Finance and understand their impact on Supply Chain Finance programs. This course will help you understand who the ideal customer is for a Supply Chain Finance program and understand how revenue is generated and such programs are priced. You'll learn about the relevant factors for suppliers to come onboard and trade as well as identify the key roles and responsibilities involved in Supply Chain Finance.\n\nAdditionally, this course will explain how to develop metrics and list the necessary elements for developing an effective financing program. By the end of this course, you’ll be able to perform a pre-sales analysis and a detailed supplier analysis, which are crucial for setting up a Supply Chain Finance program.",
+            "url": "https://www.coursera.org/learn/key-success-factors-supply-chain-finance",
+            "course_title": "Key Success Factors in Supply Chain Finance"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "1,009 students",
+            "short_description": " Learn what alternative data is and how it is used in financial market applications.Â  Become immersed in current academic and practitioner state-of-the-art research pertaining to alternative data applications. Perform data analysis of real-world alternative datasets using Python. Gain an understanding and hands-on experience in data analytics, visualization and quantitative modeling applied to alternative data in finance",
+            "long_description": "Over-utilization of market and accounting data over the last few decades has led to portfolio crowding, mediocre performance and systemic risks, incentivizing financial institutions which are looking for an edge to quickly adopt alternative data as a substitute to traditional data. This course introduces the core concepts around alternative data, the most recent research in this area, as well as practical portfolio examples and actual applications. The approach of this course is somewhat unique because while the theory covered is still a main component, practical lab sessions and examples of working with alternative datasets are also key. This course is fo you if you are aiming at carreers prospects as a data scientist in financial markets, are looking to enhance your analytics skillsets to the financial markets, or if you are interested in cutting-edge technology and research as  they apply to big data. The required background is: Python programming, Investment theory , and Statistics. This course will enable you to learn new data and research techniques applied to the financial markets while strengthening data science and python skills.",
+            "url": "https://www.coursera.org/learn/machine-learning-asset-management-alternative-data",
+            "course_title": "Python and Machine-Learning for Asset Management with Alternative Data Sets"
+        }
+    ],
+    "presentations": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "2,713 students",
+            "short_description": " Synthesize research findings and develop insights Assess the changing roles of digital and traditional advertising Apply storytelling strategies in presentations Demonstrate effective presentation skills and deliver insights",
+            "long_description": "You have completed all the hard work of conducting your internal, secondary, and primary research. You have analyzed all the data and are able to formulate insights and recommendations based on your research proposal. But what is the best way to present your findings and be able to make a decision? \n\nIn this course, you will discuss how to incorporate a story in your marketing presentation to help you capture the attention and gain support of stakeholders and business leaders. You will choose the most effective analytical method for delivering your insights and the best presentation method for your given audience. You will incorporate data visualization best practices and use tips and tricks when presenting to your various levels of decision makers and stakeholders.",
+            "url": "https://www.coursera.org/learn/marketing-research-report",
+            "course_title": "Research Report: Delivering Insights"
+        }
+    ],
+    "Power BI": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "10,920 students",
+            "short_description": " Explain operation and modeling of switched-mode power converters Model open-loop transfer functions and frequency responses Design closed-loop regulated switched-mode power converters Verify operation of switched-mode power converters by simulations",
+            "long_description": "This course can also be taken for academic credit as ECEA 5705, part of CU Boulder’s Master of Science in Electrical Engineering degree.\n\nThis is Course #1 in the Modeling and Control of Power Electronics course sequence. The course is focused on practical design-oriented modeling and control of pulse-width modulated switched mode power converters using analytical and simulation tools in time and frequency domains. A design-oriented analysis technique known as the Middlebrook's feedback theorem is introduced and applied to analysis and design of voltage regulators and other feedback circuits. Furthermore, it is shown how circuit averaging and averaged-switch modeling techniques lead to converter averaged models suitable for hand analysis, computer-aided analysis, and simulations of converters. After completion of this course, the student will be able to practice design of high-performance control loops around switched-mode power converters using analytical and simulation techniques. \n\nWe strongly recommend students complete the CU Boulder Power Electronics specialization before enrolling in this course (course numbers provided for students in CU Boulder's MS-EE program):\n \n● Introduction to Power Electronics (ECEA 5700)\n● Converter Circuits (ECEA 5701)\n● Converter Control (ECEA 5702)\n\nAfter completing this course, you will be able to:\n\n● Explain operation and modeling of switched-mode power converters\n● Model open-loop transfer functions and frequency responses\n● Design closed-loop regulated switched-mode power converters\n● Verify operation of switched-mode power converters by simulations\n● Understand the Feedback Theorem principles\n● Apply the Feedback Theorem to practical design examples\n● Derive averaged switch models of and averaged circuit models of power converters\n● Apply averaged-switch modeling techniques to analysis and design and simulations of power converters",
+            "url": "https://www.coursera.org/learn/averagedswitchmodelingandsimulation",
+            "course_title": "Averaged-Switch Modeling and Simulation"
+        }
+    ]
+}

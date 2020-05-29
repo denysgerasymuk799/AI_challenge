@@ -1,0 +1,14 @@
+{
+    "IP": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management",
+            "course_title": "Networking in GCP: Hybrid Connectivity and Network Management"
+        }
+    ]
+}

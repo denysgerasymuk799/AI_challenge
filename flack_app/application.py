@@ -1,6 +1,8 @@
 # from docx import Document
 import json
 import os
+from pprint import pprint
+
 from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
@@ -189,7 +191,12 @@ def get_courses(current_skills):
             courses_dict[skill].append(course_dict)
 
     print("courses_dict", courses_dict)
-    # course_dict = students_filter(course_dict)
+
+    # use this filter for every courses for skill
+    courses_dict = students_filter(courses_dict)
+    if "Hour" in filter_param:
+        courses_filter_duration = duration_filter(filter_param, courses_dict)
+
     return courses_dict
 
 
@@ -229,30 +236,176 @@ def selected():
 
 
 def students_filter(courses_dict):
+    """
+
+    :param courses_dict:
+    :return: filtered by number of students dict of courses
+    """
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         all_user_data = json.load(user_data_json_from_file)
 
     skills_list = all_user_data["all_job_skills"]
+    print(courses_dict)
     for skill in skills_list:
-        skill = skill.lower()
-        courses_dict[skill] = []
-        course_dict = {}
-        course_dict[skill] = filter_param(course_dict[skill])
+        try:
+            skill = skill.lower()
+            courses_dict[skill] = filter_param(courses_dict[skill])
+        except KeyError:
+            continue
+
+    return courses_dict
 
 
 def filter_param(courses_lst):
-    new_course_lst = courses_lst
+    """
+    filter a list of courses by a number of students
+    :param courses_lst:
+    :return:
+    """
     rest_courses = []
-    length = len(courses_lst)
-    for course_pos in range(length):
-        if not "," in courses_lst[course_pos]['number_of_students']:
-            rest_courses.append(courses_lst.pop(course_pos))
+    position = 0
+    while position != len(courses_lst):
+        if not "," in courses_lst[position]['number_of_students']:
+            rest_courses.append(courses_lst.pop(position))
 
-    courses_lst = sorted(courses_lst, lambda course_dict: int("".join(course_dict["number_of_students"].split()[0].split(","))))
+        else:
+            position += 1
+
+    courses_lst = sorted(courses_lst,
+                         key=lambda courses_lst: int("".join(courses_lst["number_of_students"].split()[0].split(","))),
+                         reverse=True)
     courses_lst += rest_courses
+
+    # for checking results
+    for course in courses_lst:
+        print(course["course_title"])
+        print(course["number_of_students"])
+        print()
+
     return courses_lst
 
 
+def price_filter(type_price, courses_lst):
+    """
+
+    :param type_price: str, "free" or if any else, it will filter  payed courses
+    :param courses_lst: list
+    :return: a list of special courses with parameter
+    """
+    result_lst = []
+    if type_price.lower() == "free":
+        for course in courses_lst:
+            if course["price"].lower() == "free":
+                result_lst.append(course)
+
+    else:
+        for course in courses_lst:
+            if course["price"].lower() != "free":
+                result_lst.append(course)
+
+    return result_lst
+
+
+def duration_filter(duration, courses_lst):
+    """
+
+    :param duration: str from: "0-10 Hours", "10-20 Hours", "20-30 Hours", "30+ Hours"
+    :param courses_lst:
+    :return: a result filtered list
+    """
+    if "+" in duration:
+        min_duration, max_duration = int(duration.split("+")[0]), 40
+    else:
+        duration = duration.split()
+        min_duration, max_duration = duration[0].split("-")
+        min_duration, max_duration = int(min_duration), int(max_duration)
+
+    result_lst = []
+
+    for course_dict in courses_lst:
+        course_duration = course_dict["course_duration"].lower()
+        if "minutes" in course_duration:
+            course_duration = int(course_duration.split()[0]) / 60
+        elif "approx." in course_duration:
+            course_duration = int(course_duration.split()[1])
+        elif "week" in course_duration:
+            course_duration = 35
+        elif course_duration.strip() == "yes":
+            course_duration = 7
+        elif "-" in course_duration and "hours" in course_duration:
+            course_duration = int(course_duration.split("-")[0])
+        elif "hour" in course_duration:
+            course_duration = int(course_duration.split()[0])
+
+        else:
+            dict_durations = {"https://www.tutorialspoint.com/":12,
+                              "https://udemy.com/course/": 32,
+                              "https://techdevguide.withgoogle.com/": 7}
+
+            for site in dict_durations.keys():
+                if site in course_duration:
+                    course_duration = dict_durations[site]
+                    break
+
+        if course_duration == "":
+            course_duration = 32
+
+        if min_duration <= course_duration <= max_duration:
+            result_lst.append(course_dict)
+
+    return result_lst
+
+
+def certificate_filter(courses_lst):
+    """
+
+    :param courses_lst:
+    :return: a result list with courses in which url is one item from with_certificates list
+    """
+    with_certificates = ["https://alison.com/", "https://www.edx.org/", "https://www.codecademy.com/",
+                         "https://udemy.com/", "https://www.coursera.org/"]
+
+    result_lst = []
+
+    for course in courses_lst:
+        for site in with_certificates:
+            if course["url"].startswith(site):
+                result_lst.append(course)
+                break
+
+    return result_lst
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    # db.create_all()
+    # app.run(debug=True)
+    my_dict = {'data analysis': [
+        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '12,12',
+         'course_duration': "265 minutes", "url": "https://developers.google.com/machine-learning/problem-framing/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=problem-framing"
+         },
+        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
+         'course_duration': 'Approx. 3 hours to complete', 'number_of_students': '100,2',
+         "url": "https://udemy.com/course/penetration-testing/"
+         },
+        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,0',
+         'course_duration': "6-10 Hours", "url": "https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/?WT.mc_id=api_CatalogApi"},
+        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
+         'course_duration': '', 'number_of_students': '100,2', "url": "https://www.coursera.org/learn/sotsialnaya-set"
+         },
+        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,0',
+         'course_duration': "Yes", "url": "https://www.coursera.org/learn/sotsialnaya-set"}
+    ],
+        'data analysis2': [
+            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '',
+             'course_duration': "55 weeks", "price": "free"},
+            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
+             'course_duration': '1 Hour', 'number_of_students': '100,2', "price": "FREE"
+             },
+            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,02',
+             'course_duration': "2 Hours", "price": "$15"}
+        ]}
+
+    print(duration_filter("20-30 Hours", my_dict['data analysis']))
+    print(price_filter("payed", my_dict['data analysis2']))
+    # print(Skill.query.filter_by(id=2).first())

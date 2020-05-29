@@ -1,0 +1,210 @@
+{
+    "services": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals",
+            "course_title": "Google Cloud Product Fundamentals"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "85,849 students",
+            "short_description": " Key problems that Machine Learning can address and ultimately help solve. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance. Sneak peek into AWS DeepLens - The worldâs first deep learning enabled video camera for developers.",
+            "long_description": "Machine learning (ML) is one of the fastest growing areas in technology and a highly sought after skillset in today’s job market. The World Economic Forum states the growth of artificial intelligence (AI) could create 58 million net new jobs in the next few years, yet it’s estimated that currently there are 300,000 AI engineers worldwide, but millions are needed. This means there is a unique and immediate opportunity for you to get started with learning the essential ML concepts that are used to build AI applications – no matter what your skill levels are. Learning the foundations of ML now, will help you keep pace with this growth, expand your skills and even help advance your career. \n\nThis course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS. Each topic consists of several modules deep-diving into variety of ML concepts, AWS services as well as insights from experts to put the concepts into practice.",
+            "url": "https://www.coursera.org/learn/aws-machine-learning",
+            "course_title": "Getting Started with AWS Machine Learning"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "66,244 students",
+            "short_description": " Learn AWS fundamental concepts including Regions, Availability Zones, and Virtual Private Clouds (VPCs) Learn how to use AWS compute, storage, database, and security services via the AWS Console How to make an applications durable, distributed, and highly available",
+            "long_description": "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application. \n\nEarly in the course, your AWS instructors will discuss how the AWS cloud infrastructure is built, walk you through Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Lightsail compute services. They'll also introduce you to networking on AWS, including how to set up Amazon Virtual Public Cloud (VPC) and different cloud storage options, including Amazon Elastic Block Storage (EBS), Amazon Simple Storage Service (S3) and Amazon Elastic File Service (EFS). Later in the course you'll learn about AWS Database services, such as Amazon Relational Database Service (RDS) and Amazon DynomoDB. Your instructors will also walk you through how to monitor and scale you application on AWS using Amazon CloudWatch and Amazon EC2 Elastic Load Balancing (ELB) and Auto Scaling. Lastly, you'll learn about security on AWS, as well as how to manage costs when using the AWS cloud platform. \n\nIn this course, you won't be required to complete hands-on exercises, but we strongly suggest you take advantage of the AWS Free Tier to follow along as the instructors demonstrate the AWS services. Class forums will also allow you to ask questions and interact with AWS training instructors. After completing this course, you'll have the basic fundamentals to get started on AWS. \n\nThis course has been developed by AWS, and is delivered by AWS technical instructors who teach cloud computing courses around the globe.",
+            "url": "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native",
+            "course_title": "AWS Fundamentals: Going Cloud-Native"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 20 hours to complete",
+            "number_of_students": "29,538 students",
+            "short_description": " Understand the details of the Hypertext Transfer Protocol Be able to develop cloud services using the Java Spring Framework Understand basic issues in scaling cloud services Be able to use the Java Persistence API to integrate databases into cloud services",
+            "long_description": "This MOOC describes by example how to build cloud services via the use of object-oriented design techniques; Java programming language features; Java Servlets, the Java Spring Framework; and cloud computing platforms, such as Amazon Web Services.  Due to the importance of building secure and scalable mobile/cloud platforms, this MOOC will not only show you how to build cloud services, but how to do so securely, scalably, and efficiently. Security and scalability topics will be woven into discussions of cloud service creation so that students learn, from the start, how to create robust cloud services.",
+            "url": "https://www.coursera.org/learn/cloud-services-java-spring-framework",
+            "course_title": "Building Cloud Services with the Java Spring Framework"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/cb/04203f62084c848696643ef8f73f5d/TensorFlow-in-practice-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 12 hours to complete",
+            "number_of_students": "12,166 students",
+            "short_description": " Identify eight functions of the financial services industry and explain how blockchain will disrupt each of these functions None None None",
+            "long_description": "The current global financial system is riddled with inefficiencies, uneven developments, and bizarre contradictions. Blockchain technology has the potential to bring about profound changes to financial services. In this course, you will learn how blockchain technology will disrupt the core functions of the financial services industry, offering individuals and organizations alike real choices in how they create and manage value.",
+            "url": "https://www.coursera.org/learn/blockchain-transformations-financial-services",
+            "course_title": "Blockchain Transformations of Financial Services"
+        }
+    ],
+    "AWS": [
+
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "85,849 students",
+            "short_description": " Key problems that Machine Learning can address and ultimately help solve. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance. Sneak peek into AWS DeepLens - The worldâs first deep learning enabled video camera for developers.",
+            "long_description": "Machine learning (ML) is one of the fastest growing areas in technology and a highly sought after skillset in today’s job market. The World Economic Forum states the growth of artificial intelligence (AI) could create 58 million net new jobs in the next few years, yet it’s estimated that currently there are 300,000 AI engineers worldwide, but millions are needed. This means there is a unique and immediate opportunity for you to get started with learning the essential ML concepts that are used to build AI applications – no matter what your skill levels are. Learning the foundations of ML now, will help you keep pace with this growth, expand your skills and even help advance your career. \n\nThis course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS. Each topic consists of several modules deep-diving into variety of ML concepts, AWS services as well as insights from experts to put the concepts into practice.",
+            "url": "https://www.coursera.org/learn/aws-machine-learning",
+            "course_title": "Getting Started with AWS Machine Learning"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "66,244 students",
+            "short_description": " Learn AWS fundamental concepts including Regions, Availability Zones, and Virtual Private Clouds (VPCs) Learn how to use AWS compute, storage, database, and security services via the AWS Console How to make an applications durable, distributed, and highly available",
+            "long_description": "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application. \n\nEarly in the course, your AWS instructors will discuss how the AWS cloud infrastructure is built, walk you through Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Lightsail compute services. They'll also introduce you to networking on AWS, including how to set up Amazon Virtual Public Cloud (VPC) and different cloud storage options, including Amazon Elastic Block Storage (EBS), Amazon Simple Storage Service (S3) and Amazon Elastic File Service (EFS). Later in the course you'll learn about AWS Database services, such as Amazon Relational Database Service (RDS) and Amazon DynomoDB. Your instructors will also walk you through how to monitor and scale you application on AWS using Amazon CloudWatch and Amazon EC2 Elastic Load Balancing (ELB) and Auto Scaling. Lastly, you'll learn about security on AWS, as well as how to manage costs when using the AWS cloud platform. \n\nIn this course, you won't be required to complete hands-on exercises, but we strongly suggest you take advantage of the AWS Free Tier to follow along as the instructors demonstrate the AWS services. Class forums will also allow you to ask questions and interact with AWS training instructors. After completing this course, you'll have the basic fundamentals to get started on AWS. \n\nThis course has been developed by AWS, and is delivered by AWS technical instructors who teach cloud computing courses around the globe.",
+            "url": "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native",
+            "course_title": "AWS Fundamentals: Going Cloud-Native"
+        }
+    ],
+    "SQL": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "103,183 students",
+            "short_description": " Create and access a database instance on cloud Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE Filter, sort, group results, use built-in functions, access multiple tables Access databases from Jupyter using Python and work with real world datasets",
+            "long_description": "Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. A working knowledge of databases and SQL is a must if you want to become a data scientist.\n\nThe purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  \n\nThe emphasis in this course is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.\n\nNo prior knowledge of databases, SQL, Python, or programming is required.\n\nAnyone can audit this course at no-charge. If you choose to take this course and earn the Coursera course certificate, you can also earn an IBM digital badge upon successful completion of the course.\n\nLIMITED TIME OFFER: Subscription is only $39 USD per month for access to graded materials and a certificate.",
+            "url": "https://www.coursera.org/learn/sql-data-science",
+            "course_title": "Databases and SQL for Data Science"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/39/b921ac6c4544abb39ae48a2a2b467c/UMich-OTH-vertical-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 19 hours to complete",
+            "number_of_students": "5,564 students",
+            "short_description": " Distinguish operational from analytic databases, and understand how these are applied in big data Understand how database and table design provides structures for working with data Appreciate how differences in volume and variety of data affects your choice of an appropriate database system Recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis",
+            "long_description": "In this course, you'll get a big-picture view of using SQL for big data, starting with an overview of data, database systems, and the common querying language (SQL). Then you'll learn the characteristics of big data and SQL tools for working on big data platforms. You'll also install an exercise environment (virtual machine) to be used through the specialization courses, and you'll have an opportunity to do some initial exploration of databases and tables in that environment.\n\nBy the end of the course, you will be able to\n• distinguish operational from analytic databases, and understand how these are applied in big data;\n• understand how database and table design provides structures for working with data;\n• appreciate how differences in volume and variety of data affects your choice of an appropriate database system;\n• recognize the features and benefits of SQL dialects designed to work with big data systems for storage and analysis; and \n• explore databases and tables in a big data platform.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/foundations-big-data-analysis-sql",
+            "course_title": "Foundations for Big Data Analysis with SQL"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 22 hours to complete",
+            "number_of_students": "3,171 students",
+            "short_description": " Validate and clean a dataset Assess and create datasets to answer your questions Solve problems using SQL Build a simple testing framework to touch on AB Testing",
+            "long_description": "This course allows you to apply the SQL skills taught in “SQL for Data Science” to four increasingly complex and authentic data science inquiry case studies. We'll learn how to convert timestamps of all types to common formats and perform date/time calculations. We'll select and perform the optimal JOIN for a data science inquiry and clean data within an analysis dataset by deduping, running quality checks, backfilling, and handling nulls. We'll learn how to segment and analyze data per segment using windowing functions and use case statements to execute conditional logic to address a data science inquiry. We'll also describe how to convert a query into a scheduled job and how to insert data into a date partition. Finally, given a predictive analysis need, we'll engineer a feature from raw data using the tools and skills we've built over the course. The real-world application of these skills will give you the framework for performing the analysis of an AB test.",
+            "url": "https://www.coursera.org/learn/data-wrangling-analysis-abtesting",
+            "course_title": "Data Wrangling, Analysis and AB Testing with SQL"
+        }
+    ],
+    "Python": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 13 hours to complete",
+            "number_of_students": "325,983 students",
+            "short_description": " How to inspect and understand APIs and third party libraries to be used with Python 3 How to apply the Python imaging library (pillow) to open, view, and manipulate images, including cropping, resizing, recoloring, and overlaying text How to apply the python tesseract (py-tesseract) library with Python 3 in order to detect text in images through optical character recognition (OCR) How to apply the open source computer vision library (opencv) to detect faces in images, & how to crop and manipulate these faces into contact sheets",
+            "long_description": "This course will walk you through a hands-on project suitable for a portfolio. You will be introduced to third-party APIs and will be shown how to manipulate images using the Python imaging library (pillow), how to apply optical character recognition to images to recognize text (tesseract and py-tesseract), and how to identify faces in images using the popular opencv library. By the end of the course you will have worked with three different libraries available for Python 3 to create a real-world data-analysis project.\n\nThe course is best-suited for learners who have taken the first four courses of the Python 3 Programming Specialization. Learners who already have Python programming skills but want to practice with a hands-on, real-world data-analysis project can also benefit from this course.\n\nThis is the fifth and final course in the Python 3 Programming Specialization.",
+            "url": "https://www.coursera.org/learn/python-project",
+            "course_title": "Python Project: pillow, tesseract, and opencv"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system",
+            "course_title": "Using Python to Interact with the Operating System"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 29 hours to complete",
+            "number_of_students": "172,553 students",
+            "short_description": " Define\nand explain the key concepts of data clustering     Demonstrate\nunderstanding of the key constructs and features of the Python language.     Implement\nin Python the principle steps of the K-means algorithm.     Design\nand execute a whole data clustering workflow and interpret the outputs.    ",
+            "long_description": "Organisations all around the world are using data to predict behaviours and extract valuable real-world insights to inform decisions. Managing and analysing big data has become an essential part of modern finance, retail, marketing, social science, development and research, medicine and government.\n\nThis MOOC, designed by an academic team from Goldsmiths, University of London, will quickly introduce you to the core concepts of Data Science to prepare you for intermediate and advanced Data Science courses. It focuses on the basic mathematics, statistics and programming skills that are necessary for typical data analysis tasks. \n\nYou will consider these fundamental concepts on an example data clustering task, and you will use this example to learn basic programming skills that are necessary for mastering Data Science techniques. During the course, you will be asked to do a series of mathematical and programming exercises and a small data clustering project for a given dataset.",
+            "url": "https://www.coursera.org/learn/data-science-k-means-clustering-python",
+            "course_title": "Foundations of Data Science: K-Means Clustering in Python"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 30 hours to complete",
+            "number_of_students": "6,016",
+            "short_description": " The concept of various machine learning algorithms. How to apply machine learning models on datasets with Python in Jupyter Notebook. How to evaluate machine learning models. How to optimize machine learning models.",
+            "long_description": "This course, Machine Learning for Accounting with Python, introduces machine learning algorithms (models) and their applications in accounting problems. It covers classification, regression, clustering, text analysis, time series analysis. It also discusses model evaluation and model optimization. This course provides an entry point for students to be able to apply proper machine learning models on business related datasets with Python to solve various problems.\n\nAccounting Data Analytics with Python is a prerequisite for this course. This course is running on the same platform (Jupyter Notebook) as that of the prerequisite course. While Accounting Data Analytics with Python covers data understanding and data preparation in the data analytics process, this course covers the next two steps in the process, modeling and model evaluation. Upon completion of the two courses, students should be able to complete an entire data analytics process with Python.",
+            "url": "https://www.coursera.org/learn/machine-learning-accounting-python",
+            "course_title": "Machine Learning for Accounting with Python"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/30/5f26ecf6ee4584b87b5ecf3ee1538d/hpp-imperial-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 4 hours to complete",
+            "number_of_students": "2,837",
+            "short_description": " Implement Logistic Regression using Python and Numpy. Apply Logistic Regression to solve binary classification problems.",
+            "long_description": "In this 2-hour long project-based course, you will learn how to implement Logistic Regression using Python and Numpy. Logistic Regression is an important fundamental concept if you want break into Machine Learning and Deep Learning. Even though popular machine learning frameworks have implementations of logistic regression available, it's still a great idea to learn to implement it on your own to understand the mechanics of optimization algorithm, and the training and validation process.\n\nSince this is a practical, project-based course, you will need to have a theoretical understanding of logistic regression, and gradient descent. We will focus on the practical aspect of implementing logistic regression with gradient descent, but not on the theoretical aspect.\n\nBy the end of this course, you would create and train a logistic model that will be able to predict if a given image is of hand-written digit zero or of hand-written digit one. The model will be able to distinguish between images or 0s and 1s, and it will do that with a very high accuracy. Not only that, your implementation of the logistic model will also be able to solve any generic binary classiﬁcation problem. You will still have to train model instances on speciﬁc datasets of course, but you won’t have to change the implementation and it will be re-usable. The dataset for images of hand written digits comes from the popular MNIST dataset. This data set consists of images for the 10 hand-written digits (from 0 to 9), but since we are implementing logistic regression, and are looking to solve binary classiﬁcation problems - we will work with examples of hand written zeros, and hand written ones and we will ignore examples of rest of the digits.\n\nThis course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and Tensorflow pre-installed.\n\nNotes:\n-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.\n- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.",
+            "url": "https://www.coursera.org/learn/deep-learning-fundamentals-logistic-regression",
+            "course_title": "Project: Logistic Regression with Python and Numpy"
+        }
+    ],
+    "bash": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 34 hours to complete",
+            "number_of_students": "255,345 students",
+            "short_description": " Setup, configure, and use your own developer environment in Python Manipulate files and processes running on the Operating System using Python Understand and use regular expressions (regex), a powerful tool for processing text files Know when to choose Bash or Python, and create small scripts using Bash",
+            "long_description": "By the end of this course, you’ll be able to manipulate files and processes on your computer’s operating system. You’ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you’ll get practice using the Linux command line on a virtual machine. And, this might feel like a stretch right now, but you’ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file. That’s a super useful skill for IT Specialists to know.\n\nWe’ll kick off by exploring how to execute Python locally, and organize and use code across different Python files. We'll then learn how to read and write different types of files, and use subprocesses and input streams. We'll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems. We'll even touch on automatic testing, which allow us to automate how we check if our code is correct. To finish, we’ll put all this together by using the tools that we’ve acquired to process data and generate automatic reports.\n\nWe’ll also explain how to set up your own developer environment in your machine. This is a key step in being able to write and deploy powerful automation tools.",
+            "url": "https://www.coursera.org/learn/python-operating-system",
+            "course_title": "Using Python to Interact with the Operating System"
+        }
+    ],
+
+    "IP": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management",
+            "course_title": "Networking in GCP: Hybrid Connectivity and Network Management"
+        }
+    ],
+    "NAT": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Interconnect networks among GCP VPC networks and on-premises or other-cloud networks Configure Cloud NAT or Private Google Access to provide instances without public IP addresses access to other services Deploy networks declaratively using Cloud Deployment Manager or Terraform Configure monitoring and logging to troubleshoot networks problems",
+            "long_description": "This self-paced training course builds on the Networking in GCP: Defining and Implementing Networks course and enhances participants study of networking options on Google Cloud Platform. Through recorded lectures, demonstrations, and hands-on labs, participants explore and deploy GCP networking technologies, such as the interconnection among networks, common network design patterns and the automated deployment of networks using Deployment Manager or Terraform. The course also covers networking pricing and billing to help you  optimize your network spend and monitoring and logging features that can help you troubleshoot your GCP network infrastructure.\n\nTo get the most out of this course, participants should have:\n*Completed Google Cloud Platform Fundamentals: Core Infrastructure or have equivalent experience\n*Completed Networking in GCP: Defining and Implementing Networks \n*Prior understanding of the OSI 7-layer model\n*Prior understanding of IPv4 addressing\n*Prior experience with managing IPv4 routes",
+            "url": "https://www.coursera.org/learn/networking-gcp-hybrid-connectivity-network-management",
+            "course_title": "Networking in GCP: Hybrid Connectivity and Network Management"
+        }
+    ],
+    "Apache": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql",
+            "course_title": "Managing Big Data in Clusters and Cloud Storage"
+        }
+    ]
+}

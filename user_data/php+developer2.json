@@ -1,0 +1,130 @@
+{
+    "applications": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Describe some of the key ways an organization can modernize its infrastructure modernization with Google Cloud technology. Explain Google Cloud's recommended patterns for modernizing and developing applications and how Google Cloud Platform services can help. Explain what is meant by the term \"machine learning\" and identify good use cases for it. Explain the common challenges when it comes to cloud cost management and recommended best practices to address these challenges.",
+            "long_description": "This course builds on the Business Transformation with Google Cloud course by taking you on a journey into the technology lens of an organization's transformation. Specifically, we'll explain how an organization can achieve digital transformation using Google Cloud's technology through the following categories: modernizing its IT infrastructure, upgrading the way in which its teams develop applications that run a business, how it can leverage machine learning and artificial intelligence to build new value, how using cloud-based productivity tools like GSuite are essential to the way work gets done, and understand the cost management opportunities and challenges that come with a changing cloud-based IT infrastructure. \n\nThroughout the course, we'll explain core concepts such as compute, applications, security, APIs, databases, and their roles in digital transformation. You'll also learn about specific examples where different cloud technology has been used and the benefits they've created for individuals and companies globally. More importantly, we'll equip you with the knowledge you'll need to either lead or influence digital transformation projects, collaborating with the right stakeholders.",
+            "url": "https://www.coursera.org/learn/google-cloud-product-fundamentals",
+            "course_title": "Google Cloud Product Fundamentals"
+        }
+    ],
+    "AWS": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 31 hours to complete",
+            "number_of_students": "524,966 students",
+            "short_description": " Assess the source environment and identify potential virtual machines to migrate Familiarize with Google Cloud Platform's fundamental concepts and deploy virtual machines and global networks Set up and migrate virtual machines from On-Premises or AWS to Google Cloud Platform  Leverage the elasticity and globalization of the cloud with automation and load balancers",
+            "long_description": "This training course introduces participants to migrating workloads to Google Cloud Platform. The course explains the strategies to migrate from the source environment to the cloud. Participants are introduced to Google Cloud Platform's fundamental concepts and more in depth topics, like managing virtual machines and configuring networks. In addition to learning how to use Google Cloud Platform, the participants learn how to leverage Google's workload mobility application, Migrate for Compute Engine. The training covers the installation and migration process, including special features like test clones and wave migrations. The course also covers topics related to governance, including resource hierarchy, user identities in the cloud, and Active Directory. Lastly, participants learn how to monitor and log their environment with Stackdriver, leverage the elasticity of the cloud with managed instance groups, and use a global load balancer. \n\n>>> By enrolling in this course you agree to the Qwiklabs Terms of Service as set out in the FAQ and located at: https://qwiklabs.com/terms_of_service <<<",
+            "url": "https://www.coursera.org/learn/migrating-to-gcp",
+            "course_title": "Migrating to Google Cloud Platform"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "85,849 students",
+            "short_description": " Key problems that Machine Learning can address and ultimately help solve. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance. Sneak peek into AWS DeepLens - The worldâs first deep learning enabled video camera for developers.",
+            "long_description": "Machine learning (ML) is one of the fastest growing areas in technology and a highly sought after skillset in today’s job market. The World Economic Forum states the growth of artificial intelligence (AI) could create 58 million net new jobs in the next few years, yet it’s estimated that currently there are 300,000 AI engineers worldwide, but millions are needed. This means there is a unique and immediate opportunity for you to get started with learning the essential ML concepts that are used to build AI applications – no matter what your skill levels are. Learning the foundations of ML now, will help you keep pace with this growth, expand your skills and even help advance your career. \n\nThis course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS. Each topic consists of several modules deep-diving into variety of ML concepts, AWS services as well as insights from experts to put the concepts into practice.",
+            "url": "https://www.coursera.org/learn/aws-machine-learning",
+            "course_title": "Getting Started with AWS Machine Learning"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 7 hours to complete",
+            "number_of_students": "66,244 students",
+            "short_description": " Learn AWS fundamental concepts including Regions, Availability Zones, and Virtual Private Clouds (VPCs) Learn how to use AWS compute, storage, database, and security services via the AWS Console How to make an applications durable, distributed, and highly available",
+            "long_description": "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application. \n\nEarly in the course, your AWS instructors will discuss how the AWS cloud infrastructure is built, walk you through Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Lightsail compute services. They'll also introduce you to networking on AWS, including how to set up Amazon Virtual Public Cloud (VPC) and different cloud storage options, including Amazon Elastic Block Storage (EBS), Amazon Simple Storage Service (S3) and Amazon Elastic File Service (EFS). Later in the course you'll learn about AWS Database services, such as Amazon Relational Database Service (RDS) and Amazon DynomoDB. Your instructors will also walk you through how to monitor and scale you application on AWS using Amazon CloudWatch and Amazon EC2 Elastic Load Balancing (ELB) and Auto Scaling. Lastly, you'll learn about security on AWS, as well as how to manage costs when using the AWS cloud platform. \n\nIn this course, you won't be required to complete hands-on exercises, but we strongly suggest you take advantage of the AWS Free Tier to follow along as the instructors demonstrate the AWS services. Class forums will also allow you to ask questions and interact with AWS training instructors. After completing this course, you'll have the basic fundamentals to get started on AWS. \n\nThis course has been developed by AWS, and is delivered by AWS technical instructors who teach cloud computing courses around the globe.",
+            "url": "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native",
+            "course_title": "AWS Fundamentals: Going Cloud-Native"
+        }
+    ],
+
+    "team": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 15 hours to complete",
+            "number_of_students": "7,476",
+            "short_description": " None Develop and analyse strategies and tactics to undertake both one on one, multiparty and also team based negotiation processes None",
+            "long_description": "Modern organisations are characterised by increasingly higher levels of uncertainty, complexity and diversity. In our current globalised work environment, how can you manage the power and politics that persistently influence organisational decision-making? Being savvy about organisational politics and having the nous to negotiate and resolve conflict is a critical capability for managers at all levels. This course will develop your negotiation and conflict resolution skills – crucial to becoming a positive influence in your organisation. Via structured learning activities (video lectures, quizzes, discussion prompts and written assessments) you will conceptualise and measure power and politics; analyse and develop strategies for influencing stakeholders; and learn how to act with integrity and purpose when ‘playing politics’.",
+            "url": "https://www.coursera.org/learn/negotiation-skills-conflict",
+            "course_title": "Negotiation skills: Negotiate and resolve conflict"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/4c/f00688208c46878944beca94dce581/IBM-data-science-HPP-unit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 17 hours to complete",
+            "number_of_students": "145,936 students",
+            "short_description": " How to select and test agile practices to adaptively improve your teamâs practice of agile \n How to create an agile team charter that aligns your teamâs focus with company strategy while leaving it free to work creatively\n How to facilitate retrospectives with your team to iteratively, collaboratively improve your practice of agile How to support your teamâs transition to agile",
+            "long_description": "While agile has become the de facto standard for managing digital innovation teams, many wonder if they’re doing it ‘right’. Twitter is full of jokes about how teams say they do agile but don’t ‘really’ do it. The reality is that getting the most out of agile is less about observing specific procedures and more about how a team focuses and measures their progress. \n\nRather than just boring you with an accounting of agile methodologies, this course focuses on helping you better charter your team’s focus, definition of success, and practice of agile. While learning about agile mainstays like Scrum, XP, and kanban, you’ll also learn to help your team ask the right questions about how they’re working and facilitate good answers on how agile can help.    \n\nAs a  Project Management Institute (PMI®) Registered Education Provider, the University of Virginia Darden School of Business has been approved by PMI to issue 20 professional development units (PDUs) for this course, which focuses on core competencies recognized by PMI. (Provider #2122) \n\nThis course is supported by the Batten Institute at UVA’s Darden School of Business. The Batten Institute’s mission is to improve the world through entrepreneurship and innovation: www.batteninstitute.org.",
+            "url": "https://www.coursera.org/learn/uva-darden-agile-team-management",
+            "course_title": "Managing an Agile Team"
+        }
+    ],
+    "design patterns": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/8e/3dc35ac996428ca89a0e4d06f5ea90/UNT-hpp-unit-v2.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "206,763 students",
+            "short_description": " What design thinking is and when to use it How to prepare to see and take action when opportunity arises How to use design thinking to generate innovative ideas How to take the many ideas you generate and determine which ones are likely to produce specific, desired outcomes",
+            "long_description": "Today innovation is everyone's business. Whether you are a manager in a global corporation, an entrepreneur starting up, in a government role, or a teacher in an elementary school, everyone is expected to get lean – to do better with less. And that is why we all need design thinking. At every level in every kind of organization, design thinking provides the tools you need to become an innovative thinker and uncover creative opportunities that are there – you're just not seeing them yet.\n\nIn this course, we provide an overview of design thinking and work with a model containing four key questions and several tools to help you understand design thinking as a problem solving approach. We also look at several stories from different organizations that used design thinking to uncover compelling solutions.",
+            "url": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation",
+            "course_title": "Design Thinking for Innovation"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "24,851 students",
+            "short_description": " Describe the reverse engineering design process and workflow in Fusion 360. Summarize the trends that are influencing the design industry. Demonstrate knowledge and skills in more advanced Fusion 360 CAD and generative design skills.",
+            "long_description": "The foundation of engineering design is exploration and iteration. Design is rarely a perfectly linear and straightforward process. In this course, we explore a design for a traditional manufacturing method and use generative design to create the perfect iteration of it. From that point, we'll reverse engineer the generative design and recreate it for a traditional manufacturing method and explore the option of fabricating the generative version to weigh the pros and cons of each.\n\nYou’ll need a paid subscription to Fusion 360 to complete the assignments in this course. Be sure to review your access or payment options before enrolling: https://www.autodesk.com/products/fusion-360\n\nWant to take your learning to the next level? Complete the Autodesk Generative Design for Manufacturing Specialization, and you’ll unlock an additional Autodesk Credential as further recognition of your success! The Autodesk Credential comes with a digital badge and certificate, which you can add to your resume and share on social media platforms like LinkedIn, Facebook, and Twitter. Sharing your Autodesk Credential can signal to hiring managers that you’ve got the right skills for the job and you’re up on the latest industry trends like generative design. \n\nEnroll in the Specialization here: https://www.coursera.org/specializations/autodesk-generative-design-manufacturing",
+            "url": "https://www.coursera.org/learn/generative-design-industrial-applications",
+            "course_title": "Generative Design for Industrial Applications"
+        }
+    ],
+
+    "JavaScript": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "145,936 students",
+            "short_description": " How to take application designs and translate them into digital prototypes using HTML, CSS, and Javascript Analytically debug Javascript with the Chrome debugger Explain what digital literacy means for todayâs interdisciplinary collaborators ",
+            "long_description": "Do you want to experience what it is to go from idea to code? If so, this is the place for you! This is the second course in the  Coding for Designers, Managers, and Entrepreneurs Specialization. If you’re a hands-on collaborator with developers,  this course is specifically designed for you. In this course, we’re going to focus on creating interactive user interfaces (UI’s) with Javascript, building creative confidence and competence that will make you an even better collaborator on digital projects.",
+            "url": "https://www.coursera.org/learn/uva-coding-for-design-managers-2",
+            "course_title": "Coding for Designers, Managers, & Entrepreneurs II"
+        }
+    ],
+
+    "SOLID": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/01/05a9e84db44812a4e82a2b5e169913/HPP-ASU-MCS-new-image-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 14 hours to complete",
+            "number_of_students": "91,162 students",
+            "short_description": " Use keyword research to select best keywords to optimize your website in search results\n\n Examine how to analyze, organize, create, and build content utilizing various strategies\n\n \nUse best practices to develop a high quality local SEO approach\n\n Develop a solid approach for achieving a productive and successful relationship with your client\n\n",
+            "long_description": "Learn the ins and outs of optimizing a website, from conducting an initial audit to presenting your findings and recommendations. Hands-on activities include learning how to select and apply appropriate keywords throughout a website, incorporating keyword research in a content marketing strategy, and optimizing a site for local search. You will also learn strategies for setting goals and client/stakeholder expectations, building effective analytics and reports, and communicating SEO improvements.",
+            "url": "https://www.coursera.org/learn/optimizing-web-search",
+            "course_title": "Optimizing a Website for Search"
+        }
+    ],
+
+    "Apache": [
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/87/0b8454864a4ccf9b3e2a9112b0b05b/c4b-w-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 21 hours to complete",
+            "number_of_students": "3,693 students",
+            "short_description": " Use different tools to browse existing databases and tables in big data systems Use different tools to explore files in distributed big data filesystems and cloud storage Create and manage big data databases and tables using Apache Hive and Apache Impala Describe and choose among different data types and file formats for big data systems",
+            "long_description": "In this course, you'll learn how to manage big datasets, how to load them into clusters and cloud storage, and how to apply structure to the data so that you can run queries on it using distributed SQL engines like Apache Hive and Apache Impala. You’ll learn how to choose the right data types, storage systems, and file formats based on which tools you’ll use and what performance you need.\n\nBy the end of the course, you will be able to\n• use different tools to browse existing databases and tables in big data systems;\n• use different tools to explore files in distributed big data filesystems and cloud storage;\n• create and manage big data databases and tables using Apache Hive and Apache Impala; and\n• describe and choose among different data types and file formats for big data systems.\n\nTo use the hands-on environment for this course, you need to download and install a virtual machine and the software on which to run it. Before continuing, be sure that you have access to a computer that meets the following hardware and software requirements:\n• Windows, macOS, or Linux operating system (iPads and Android tablets will not work)\n• 64-bit operating system (32-bit operating systems will not work)\n• 8 GB RAM or more\n• 25GB free disk space or more\n• Intel VT-x or AMD-V virtualization support enabled (on Mac computers with Intel processors, this is always enabled;\non Windows and Linux computers, you might need to enable it in the BIOS)\n• For Windows XP computers only: You must have an unzip utility such as 7-Zip or WinZip installed (Windows XP’s built-in unzip utility will not work)",
+            "url": "https://www.coursera.org/learn/cloud-storage-big-data-analysis-sql",
+            "course_title": "Managing Big Data in Clusters and Cloud Storage"
+        }
+    ]
+}
