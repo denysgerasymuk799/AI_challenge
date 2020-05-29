@@ -194,8 +194,8 @@ def get_courses(current_skills):
 
     # use this filter for every courses for skill
     courses_dict = students_filter(courses_dict)
-    if "Hour" in filter_param:
-        courses_filter_duration = duration_filter(filter_param, courses_dict)
+    # if "Hour" in filter_param:
+    #     courses_filter_duration = duration_filter(filter_param, courses_dict)
 
     return courses_dict
 
@@ -378,34 +378,4 @@ def certificate_filter(courses_lst):
 
 
 if __name__ == '__main__':
-    # db.create_all()
-    # app.run(debug=True)
-    my_dict = {'data analysis': [
-        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '12,12',
-         'course_duration': "265 minutes", "url": "https://developers.google.com/machine-learning/problem-framing/?utm_source=googleAI&utm_medium=card-image&utm_campaign=training-hub&utm_term=&utm_content=problem-framing"
-         },
-        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
-         'course_duration': 'Approx. 3 hours to complete', 'number_of_students': '100,2',
-         "url": "https://udemy.com/course/penetration-testing/"
-         },
-        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,0',
-         'course_duration': "6-10 Hours", "url": "https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/?WT.mc_id=api_CatalogApi"},
-        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
-         'course_duration': '', 'number_of_students': '100,2', "url": "https://www.coursera.org/learn/sotsialnaya-set"
-         },
-        {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,0',
-         'course_duration': "Yes", "url": "https://www.coursera.org/learn/sotsialnaya-set"}
-    ],
-        'data analysis2': [
-            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '',
-             'course_duration': "55 weeks", "price": "free"},
-            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2',
-             'course_duration': '1 Hour', 'number_of_students': '100,2', "price": "FREE"
-             },
-            {'id': '7', 'course_title': 'Security and Privacy for Big Data - Part 2', 'number_of_students': '10,02',
-             'course_duration': "2 Hours", "price": "$15"}
-        ]}
-
-    print(duration_filter("20-30 Hours", my_dict['data analysis']))
-    print(price_filter("payed", my_dict['data analysis2']))
-    # print(Skill.query.filter_by(id=2).first())
+    app.run(debug=True)
