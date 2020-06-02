@@ -1,7 +1,8 @@
 import json
 import os
 import sqlite3
-from application import db, Profession, Skill, Course
+from AI_challenge.flack_app.application import db
+from AI_challenge.flack_app.models import Course, Profession, Skill
 
 
 def create_db():

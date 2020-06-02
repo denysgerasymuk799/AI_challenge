@@ -6,7 +6,42 @@
         "SQL",
         "team"
     ],
-    "current_skills": [
+    "skills_for_job": [
+        "data analysis",
+        "Tableau",
+        "SQL",
         "team"
-    ]
+    ],
+    "current_skills": [
+        "data analysis",
+        "Tableau"
+    ],
+    "courses": {
+        "sql": [
+            {
+                "id": "3",
+                "course_title": "SQL: Analyzing Business Metrics",
+                "price": "15.99$",
+                "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+                "course_duration": "1 Hour",
+                "number_of_students": "147,479 students",
+                "short_description": "Explore SQL further in this course focusing on how to analyze data.",
+                "long_description": "Why Learn Business Metrics with SQL?\nBuilding on the knowledge from the Learn SQL course, this course expands on the skillset that you\u2019ll need to be able to interact with data and run meaningful analyses. \nTake-Away Skills:\nIn this course created in partnership with Periscope, you\u2019ll get exposed to the basics of data analysis. You\u2019ll go through several workflows that will allow you to dissect and understand large amounts of data.\n ",
+                "url": "https://www.codecademy.com/learn/sql-analyzing-business-metrics"
+            }
+        ],
+        "team": [
+            {
+                "id": "4",
+                "course_title": "Continuous Delivery & DevOps ",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 11 hours to complete",
+                "number_of_students": "",
+                "short_description": " How to diagnose a team\u00e2\u0080\u0099s delivery pipeline and bring forward prioritized recommendations to improve it The skill sets and roles involved in DevOps and how they contribute toward a continuous delivery capability How to review and deliver automation tests across the development stack How to facilitate prioritized, iterative team progress on improving a delivery pipeline  ",
+                "long_description": "Amazon famously delivers new code every 11.6 seconds. Just a few years ago, this was unthinkable: many \u2018cutting edge\u2019 firms would release software quarterly. When it comes to digital innovation, velocity is critical and many would say it\u2019s the most reliable determinant of success. \n\nBringing an organization to the state of the art (or even functional capability) in this area requires strong work in a combination of disciplines and a combination of both technical and managerial skills. There is no single cookie-cutter approach for achieving this capability. Much like agile, the right focus and formulation depends a lot on the facts and circumstances of the team. This course will provide you with the interdisciplinary skill set to cultivate a continuous deployment capability in your organization. \n\nAfter completing this course, you will be able to: \n1. Diagnose a team\u2019s delivery pipeline and bring forward prioritized recommendations to improve it\n2. Explain the skill sets and roles involved in DevOps and how they contribute toward a continuous delivery capability\n3. Review and deliver automation tests across the development stack\n4. Explain the key jobs of system operations and how today\u2019s leading techniques and tools apply to them\n5. Explain how high-functioning teams use DevOps  and related methods to reach a continuous delivery capability \n6. Facilitate prioritized, iterative team progress on improving a delivery pipeline",
+                "url": "https://www.coursera.org/learn/uva-darden-continous-delivery-devops"
+            }
+        ]
+    }
 }
