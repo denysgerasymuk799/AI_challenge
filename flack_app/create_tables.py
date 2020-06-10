@@ -133,6 +133,8 @@ def create_db():
                 continue
             except sqlalchemy.exc.InvalidRequestError:
                 continue
+            except Exception:
+                continue
 
     job1 = Profession.query.filter_by(name='analyst').first()
     print(job1.skills)
