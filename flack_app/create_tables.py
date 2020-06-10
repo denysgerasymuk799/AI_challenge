@@ -33,6 +33,8 @@ def create_db():
                 pass
             except sqlalchemy.exc.IntegrityError:
                 pass
+            except Exception:
+                continue
 
             print('profession_name', profession_name2)
             # write skills for the special profession in db
@@ -50,6 +52,8 @@ def create_db():
                     continue
                 except sqlalchemy.exc.InvalidRequestError:
                     continue
+                except Exception:
+                    continue
 
             try:
                 db.session.rollback()
@@ -59,6 +63,9 @@ def create_db():
                 continue
             except sqlalchemy.exc.IntegrityError:
                 continue
+            except Exception:
+                continue
+
     num_course = 0
     # for num_file, filename in enumerate(os.listdir(os.path.join('user_data', "courses_for_all_professions",
     #                                                             "IT_courses"))):
@@ -79,6 +86,8 @@ def create_db():
             except sqlalchemy.exc.IntegrityError:
                 continue
             except sqlalchemy.exc.InvalidRequestError:
+                continue
+            except Exception:
                 continue
 
             if isinstance(course_data["image"], dict):
@@ -116,6 +125,8 @@ def create_db():
             except sqlalchemy.exc.IntegrityError:
                 pass
             except (sqlalchemy.exc.InvalidRequestError and sqlalchemy.exc.DataError):
+                continue
+            except Exception:
                 continue
 
             # db.create_all()
