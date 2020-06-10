@@ -115,7 +115,7 @@ def create_db():
                 continue
             except sqlalchemy.exc.IntegrityError:
                 pass
-            except sqlalchemy.exc.InvalidRequestError:
+            except (sqlalchemy.exc.InvalidRequestError and sqlalchemy.exc.DataError):
                 continue
 
             # db.create_all()
