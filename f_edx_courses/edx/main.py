@@ -149,4 +149,5 @@ if __name__ == '__main__':
         res_file.write("{}")
     with open("tmp_files/errors.json", 'w', encoding="utf-8") as error_file:
         error_file.write("{}")
+
     generate_info(10000, route="courses/v1/courses/")
