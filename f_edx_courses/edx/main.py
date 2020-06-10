@@ -1,5 +1,5 @@
 import requests
-from json import JSONDecodeError
+# from json import JSONDecodeError
 import json
 import get_descriptions
 from price_student_number import get_price, get_student_number
@@ -89,7 +89,7 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
 
         try:
             data = response.json()
-        except JSONDecodeError:
+        except:
             print(">>> Json error occured! something wrong!!!")
             current_page += 1
             continue
