@@ -147,8 +147,8 @@ def create_db():
             except Exception:
                 continue
 
-    job1 = Profession.query.filter_by(name='analyst').first()
-    print(job1.skills)
+    # job1 = Profession.query.filter_by(name='analyst').first()
+    # print(job1.skills)
 
 
 if __name__ == '__main__':
