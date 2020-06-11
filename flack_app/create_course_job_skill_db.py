@@ -20,6 +20,8 @@ def create_db():
 
             except sqlite3.IntegrityError:
                 continue
+            except Exception:
+                continue
 
             # write skills for the special profession in db
             for skill_name in json_skills_for_profession.keys():
@@ -44,17 +46,22 @@ def create_db():
                         db.session.add(course)
                     except sqlite3.IntegrityError:
                         continue
+                    except Exception:
+                        continue
 
                     s.courses.append(course)
+                    print(skill_name, " - ", course_data["course_title"])
 
                 db.create_all()
                 try:
                     db.session.commit()
                 except sqlite3.IntegrityError:
                     continue
+                except Exception:
+                    continue
 
-    job1 = Profession.query.filter_by(name='analyst').first()
-    print(job1.skills)
+    # job1 = Profession.query.filter_by(name='analyst').first()
+    # print(job1.skills)
 
 
 if __name__ == '__main__':

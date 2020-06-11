@@ -1,12 +1,5 @@
 {
-    "profession": "business analyst",
-    "all_job_skills": [
-        "data analysis",
-        "Tableau",
-        "SQL",
-        "team"
-    ],
-    "current_skills": [
-        "team"
+    "main_page_skills": [
+        "SQL"
     ]
 }

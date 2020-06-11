@@ -1,69 +1,4 @@
 {
-    "analyst": [
-        "data analysis",
-        "performance",
-        "Tableau",
-        "SQL",
-        "Business Analyst",
-        "Finance",
-        "presentation",
-        "Economics",
-        "management"
-    ],
-    "business analyst": [
-        "team",
-        "data analysis",
-        "Tableau",
-        "SQL",
-        "Business Analyst",
-        "Finance",
-        "G Suite Services",
-        "presentation",
-        "Economics"
-    ],
-    "data scientist": [
-        "data analysis",
-        "Tableau",
-        "SQL",
-        "Business Analyst",
-        "Finance",
-        "team",
-        "Economics",
-        "presentations"
-    ],
-    "адміністратор баз даних": [
-        "data analysis",
-        "data visualization skills",
-        "Data Analyst",
-        "stakeholders",
-        "pipeline",
-        "Tableau",
-        "software skills",
-        "SQL",
-        "team",
-        "presentation"
-    ],
-    "программист php": [
-        "team",
-        "Python",
-        "Design Patterns",
-        "API",
-        "JavaScript",
-        "code standards development",
-        "Apache",
-        "AWS"
-    ],
-    "системный администратор": [
-        "services",
-        "AWS",
-        "SQL",
-        "Python",
-        "bash",
-        "IP",
-        "NAT",
-        "Apache"
-    ],
-
     "javascript+developer": [
         "CSS",
         "CSS3",
@@ -258,16 +193,24 @@
         "DHCP",
         "FTP",
         "issues",
+
         "MySQL",
+
         "Facebook",
         "team",
+
         "web hosting services",
         "Internet services",
+
         "SSL",
+
         "hard skills development",
+
         "Ubuntu",
         "Windows",
+
         "WordPress",
+
         "e-mail",
         "CentOS",
         "Jira"

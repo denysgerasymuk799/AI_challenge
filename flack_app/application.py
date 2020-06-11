@@ -361,7 +361,6 @@ def price_filter(courses_db):
     return courses_lst
 
 
-
 def duration_filter(courses_lst):
     """
 

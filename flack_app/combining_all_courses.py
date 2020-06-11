@@ -3,7 +3,7 @@ import os
 import re
 
 temp_dir = os.getcwd()
-update_courses_dir = os.path.join(temp_dir, 'courses_jsons', '28.03.2020')
+update_courses_dir = os.path.join(temp_dir, "user_data", "courses_for_all_professions", 'IT_courses')
 
 
 def is_profession_skills_course(description, title_profession):
@@ -22,19 +22,27 @@ def is_profession_skills_course(description, title_profession):
             # for word_in_skill in skill.split():
             if len(skill.split()) > 1:
                 flag_similar = 0
-                for word in description.strip().split():
-                    if word.lower() in [item.lower() for item in skill.split()]:
-                        flag_similar += 1
+                try:
+                    for word in description.strip().split():
+                        if word.lower() in [item.lower() for item in skill.split()]:
+                            flag_similar += 1
 
-                    if flag_similar > 2:
-                        skill_lst.append(skill)
-                        break
+                        if flag_similar > 2:
+                            skill_lst.append(skill)
+                            break
+
+                except:
+                    pass
 
             else:
-                for word in description.strip().split():
-                    if skill.lower() == word.lower():
-                        skill_lst.append(skill)
-                        break
+                try:
+                    for word in description.strip().split():
+                        if skill.lower() == word.lower():
+                            skill_lst.append(skill)
+                            break
+
+                except:
+                    pass
 
     if skill_lst:
         return True, skill_lst
@@ -93,13 +101,15 @@ def create_courses_json_for_profession(title_profession):
                     pass
                 except KeyError:
                     pass
+                except:
+                    pass
 
                 is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(
                     course_title, title_profession)
 
                 try:
-                    is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]
-                                                                                        ["short_description"], title_profession)
+                    is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]["short_description"],
+                                                                                                       title_profession)
                 # for udemy_result.json - does not have description
                 except KeyError:
                     try:
@@ -132,12 +142,15 @@ def create_courses_json_for_profession(title_profession):
 
 
 if __name__ == '__main__':
-    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions2.json'), 'r',
+    with open(os.path.join(os.getcwd(), 'user_data', 'skills_for_professions', 'filtered_skills_for_IT_professions.json'), 'r',
               encoding='utf-8') as json_file:
         filtered_skills_for_professions = json.load(json_file)
 
-    lst_professions = ['аналитик', "smm-менеджер", 'специалист+технической+поддержки', 'интернет-маркетолог',
-                       'администратор', 'системный+администратор']
+    lst_professions = ['analyst', "business analyst", "data scientist", "адміністратор баз даних", "программист php",
+                       "системный администратор"]
+    #
+    # lst_professions = ["javascript+developer", "бренд-менеджер", "full+stack+програміст", "маркетолог",
+    #                    "back+end+developer", "customer+support+representative"]
 
     dict_profession_skills = dict()
 
