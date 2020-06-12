@@ -74,7 +74,10 @@ class Course(db.Model):
 @app.route("/", methods=['POST', 'GET'])
 def render_main_page():
     search_skills = request.form.getlist("chosen_skills")
+    selected_courses = request.form.getlist("course_name")
     print(search_skills)
+    print(selected_courses)
+
     courses_for_skills_lst = []
     if not search_skills:
         search_skills = ["SQL"]
@@ -82,7 +85,13 @@ def render_main_page():
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
             user_data_json_from_file:
         user_data_json = {'main_page_skills': search_skills}
-        json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+        if selected_courses:
+            user_data_json['selected_courses'] = selected_courses
+            json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+            return redirect(url_for("selected_from_main"))
+        else:
+
+            json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
 
     for skill in search_skills:
         print("skill", skill)
@@ -259,15 +268,18 @@ def selected_from_main():
 
     :return: a function to page where you can view your selected courses
     """
+    selected_courses = request.form.getlist("course_name")
+
+    print(selected_courses)
     my_courses = []
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         user_data_json = json.load(user_data_json_from_file)
 
     skill_names = user_data_json["main_page_skills"]
-    course_names = request.form.getlist("course_name")
+    # course_names = user_data_json["selected_courses"]
     print(skill_names)
-    print(course_names)
+    # print(course_names)
     for skill in skill_names:
         print("skill", skill)
         courses_db = Skill.query.filter_by(name=skill).first().courses
@@ -358,7 +370,7 @@ def price_filter(courses_db):
         else:
             courses_db[position].price = "mix payed"
 
-    return courses_lst
+    return courses_db
 
 
 def duration_filter(courses_lst):
@@ -409,7 +421,8 @@ def duration_filter(courses_lst):
 
         # courses_db[position].price = " " + courses_db[position].skill
 
-    return courses_db
+    return courses_lst
+
 
 def certificate_filter(courses_lst):
     """
@@ -436,4 +449,5 @@ def certificate_filter(courses_lst):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    db.create_all()
