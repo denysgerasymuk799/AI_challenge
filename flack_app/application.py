@@ -307,6 +307,11 @@ def selected():
     return render_template("selected.html", my_courses=my_courses)
 
 
+@app.route('/price_plans', methods=['POST', 'GET'])
+def price_plans():
+    return render_template("view_plans.html")
+
+
 def students_filter(courses_dict):
     """
 
@@ -449,5 +454,5 @@ def certificate_filter(courses_lst):
 
 
 if __name__ == '__main__':
-    # app.run(debug=True)
-    db.create_all()
+    app.run(debug=True)
+    # db.create_all()

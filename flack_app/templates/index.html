@@ -24,8 +24,12 @@
     <link rel="stylesheet" href="static/css/aos.css">
 
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style_all_courses_page.css">
+    <link rel="stylesheet" href="static/css/style_for_price_plans.css">
+
     <link rel="stylesheet" href="static/css/custom.css">
     <link rel="stylesheet" href="static/css/my.css">
+
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -45,7 +49,7 @@
 
         <div class="container-fluid">
             <div class="d-flex align-items-center">
-                <div class="site-logo mr-auto w-25"><a href="#">S.E.A</a></div>
+                <div class="site-logo mr-auto w-25"><img src="static/images/mini_sea_logo.png">S.E.A</div>
 
                 <div class="ml-auto">
                     {% block nav %}{% endblock %}
@@ -74,6 +78,8 @@
 
 
 <script src="static/js/main.js"></script>
+<script src="static/js/js_for_price_plans.js"></script>
+
 <script>
     $("#selected").click(function () {
         document.getElementById('the-form').submit()
