@@ -180,7 +180,7 @@ def create_courses_json_for_profession(title_profession):
 
 
 if __name__ == '__main__':
-    with open(os.path.join(os.getcwd(), 'flack_app', 'user_data', 'skills_for_professions',
+    with open(os.path.join(os.getcwd(), 'flask_app', 'user_data', 'skills_for_professions',
                            "filtered_skills_for_IT_professions.json"),
               'r', encoding="utf-8") as skills_for_profession:
         filtered_skills_for_professions = json.load(skills_for_profession)
