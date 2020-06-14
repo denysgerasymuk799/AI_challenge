@@ -1,0 +1,172 @@
+/*.navbar_all_courses_page {*/
+/*    overflow: hidden;*/
+/*    background-color: #7971ea;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 7%;*/
+/*}*/
+
+/*.navbar_all_courses_page a {*/
+/*    float: left;*/
+/*    display: block;*/
+/*    color: #f2f2f2;*/
+/*    text-align: center;*/
+/*    padding: 14px 16px;*/
+/*    text-decoration: none;*/
+/*    font-size: 17px;*/
+/*}*/
+
+/*.navbar_all_courses_page a:hover {*/
+/*    background: #ddd;*/
+/*    color: #7971ea;*/
+/*}*/
+
+/*div.main_all_courses{*/
+/*    margin-top: 8%;*/
+/*}*/
+
+/*div.all_courses_buttons{*/
+/*    margin-left: 90%;*/
+/*}*/
+
+/*.all_courses_buttons_right a {*/
+/*    margin-left: 80%;*/
+/*    color: #f2f2f2;*/
+/*    font-size: 17px;*/
+/*}*/
+
+.text_for_course{
+    margin: 5%;
+}
+
+.search_button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #7971ea;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+.search_button:active {
+    background-color: #2e003e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h1.skill_title {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.course_price {
+    font-size: 150%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #7971ea;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav_a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav_logo {
+    float: left;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    top: 3%;
+    left: 6%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav button{
+    float: right;
+    color: #ddd;
+    background-color: #7971ea;
+    border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #7971ea;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ddd;
+    color: #7971ea;
+}
+
+/* Change the color of links on hover */
+.topnav button:hover {
+    background-color: #ddd;
+    color: #7971ea;
+}
+
+/* Add a color to the active/current link */
+.topnav button.active {
+    background-color: #ddd;
+    color: #7971ea;
+}
+
+.title--white {
+    color: #fff !important
+}
+
+.title--center {
+    text-align: center
+}
+
+h1.title--ultra, h2.title--ultra, h3.title--ultra, h4.title--ultra, h5.title--ultra, h6.title--ultra {
+    font-weight: 900
+}
+
+.scribble-under {
+    display: inline-block;
+    line-height: 1.1
+}
+
+.pink {
+    color: #FAA;
+}
+
+.scribble-under-block {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    position: absolute;
+    pointer-events: none
+}

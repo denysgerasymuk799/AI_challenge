@@ -299,9 +299,8 @@ h1, h2, h3, h4, h5,
 .site-logo {
   position: relative;
   font-weight: 900;
-  font-size: 1.3rem; }
-  .site-logo a {
-    color: #fff; }
+  font-size: 1.3rem;
+  color: #fff; }
 
 .site-navbar {
   margin-bottom: 0px;
