@@ -28,6 +28,9 @@
 	<link rel="stylesheet" type="text/css" href="static/css/util.css">
 	<link rel="stylesheet" type="text/css" href="static/css/main.css">
 <!--===============================================================================================-->
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato|Quicksand'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="static/css/style_of_request.css">
 </head>
 <body>
 
@@ -41,22 +44,33 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<button class="btn-hide-contact100">
-				<i class="zmdi zmdi-close"></i>
-			</button>
+{#			<button class="btn-hide-contact100">#}
+{#				<i class="zmdi zmdi-close"></i>#}
+{#			</button>#}
 
 			<div class="contact100-form-title" style="background-image: url(static/images/bg-02.jpg);">
 				<span>Find Yourself</span>
 			</div>
 
 			<form class="contact100-form validate-form" method="post" id="form">
-				<div class="wrap-input100 validate-input">
-					<input id="email" class="input100" type="text" name="job" placeholder="Enter your dream job">
-					<span class="focus-input100"></span>
-					<label class="label-input100" for="email">
-						<span class="lnr lnr-briefcase"></span>
-					</label>
-				</div>
+{#				<div class="wrap-input100 validate-input">#}
+{#					<input id="email" class="input100" type="text" name="job" placeholder="Enter your dream job">#}
+{#					<span class="focus-input100"></span>#}
+{#					<label class="label-input100" for="email">#}
+{#						<span class="lnr lnr-briefcase"></span>#}
+{#					</label>#}
+{#				</div>#}
+
+                <div class="sel sel--black-panther">
+                    <label for="select-profession"></label>
+                    <select name="select-profession" id="select-profession" !important onmousedown="if(this.options.length>8){this.size=5;}"  onchange="this.size=0;" onblur="this.size=0;">
+                        <option value="" disabled>Profession</option>
+                        {% for job in job_list %}
+                            <option value="{{ job }}">{{ job }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn" type="submit" form="form" value="Submit">Search now</button>
 				</div>
@@ -64,6 +78,8 @@
 		</div>
 	</div>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="static/js/index.js"></script>
 <!--===============================================================================================-->
 	<script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->

@@ -4,11 +4,10 @@ import os
 from pprint import pprint
 
 from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
-from flask_migrate import Migrate
+# from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
 from my_config import Config
-
 
 app = Flask(__name__)
 
@@ -73,37 +72,63 @@ class Course(db.Model):
 
 @app.route("/")
 def render_main_page():
-    return redirect(url_for('input_profession'))
+    return redirect(url_for('login'))
+
+
+def function_for_login(*args):
+    return True
+
+
+@app.route('/login', methods=['POST', 'GET'])
+def login():
+    if request.method == 'POST':
+        address = request.form.get("address")
+        password = request.form.get("password")
+        re_password = request.form.get("re_password")
+        if function_for_login(address, password, re_password):
+            return redirect(url_for('input_profession'))
+    return render_template("login.html")
+
+
+def function_for_register(*args):
+    return True
+
+
+@app.route('/register', methods=['POST', 'GET'])
+def register():
+    if request.method == 'POST':
+        address = request.form.get("address")
+        password = request.form.get("password")
+        re_password = request.form.get("re_password")
+        if function_for_register(address, password, re_password):
+            return redirect(url_for('login'))
+    return render_template("register.html")
 
 
 @app.route('/input_profession', methods=['POST', 'GET'])
 def input_profession():
+    with open('translation.json') as json_file:
+        dct = json.load(json_file)
     if request.method == 'POST':
-        job = request.values.get("job").lower()
-        eng_job_titles = ["system administrator", "analyst", "business analyst",
-                          "data scientist", "database administrator", "programmer"]
-        ru_job_titles = ["системный администратор", "analyst", "business analyst", "data scientist",
-                         "адміністратор баз даних", "программист php"]
-        if job in eng_job_titles:
-            job = ru_job_titles[eng_job_titles.index(job)]
+        temp_job = request.form.get("select-profession")
+        job = dct.get(temp_job, temp_job).lower()
 
         global skills
 
         with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
                 user_data_json_from_file:
-            user_data_json = {}
-            user_data_json['profession'] = job
+            user_data_json = {'profession': job}
             json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
 
         skills = skills_for_job(job)  # your function
         return redirect(url_for("middle"))
     else:
-        return render_template("request.html")
+        return render_template("request.html", job_list=list(dct.keys()))
 
 
 def skills_for_job(job):
     """
-    :param job: str from yser input
+    :param job: str from user input
     :return: a list of skills for this profession from db
     """
     if job.endswith("2"):
@@ -337,7 +362,7 @@ def duration_filter(duration, courses_lst):
             course_duration = int(course_duration.split()[0])
 
         else:
-            dict_durations = {"https://www.tutorialspoint.com/":12,
+            dict_durations = {"https://www.tutorialspoint.com/": 12,
                               "https://udemy.com/course/": 32,
                               "https://techdevguide.withgoogle.com/": 7}
 
