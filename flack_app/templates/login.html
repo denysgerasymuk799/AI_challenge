@@ -26,19 +26,35 @@
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                  <form action="" method="post" class="form-box">
+                  <form action="" method="post" class="form-box" novalidate>
                     <h3 class="h4 text-black mb-4">Login</h3>
+                    {{ form.hidden_tag() }}
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email Addresss" name="address">
+<!--                      <input type="text" class="form-control" placeholder="Email Addresss" name="address">-->
+                      <span class="form-control">{{ form.username.label }}<br>
+                      {{ form.username(size=32) }}<br>
+                      {% for error in form.username.errors %}
+                      <span style="color: red;">[{{ error }}]</span>
+                      {% endfor %} </span>
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password" name="password">
+<!--                      <input type="password" class="form-control" placeholder="Password" name="password">-->
+                      <span class="form-control">{{ form.password.label }}<br>
+                      {{ form.password(size=32) }}<br>
+                      {% for error in form.password.errors %}
+                      <span style="color: red;">[{{ error }}]</span>
+                      {% endfor %}
+                      </span>
                     </div>
                     <div class="form-group mb-4">
-                      <input type="password" class="form-control" placeholder="Re-type Password" name="re_password">
+<!--                      <input type="password" class="form-control" placeholder="Re-type Password" name="re_password">-->
+                      <span class="form-control"><p>{{ form.remember_me() }} {{ form.remember_me.label }}</p></span>
                     </div>
                     <div class="form-group">
-                      <input type="submit" class="btn btn-primary btn-pill" value="Login">
+                      <span class="form-control"><p>{{ form.submit() }}</p></span>
+                    </div>
+                    <div class="form-group">
+                      <span class="form-control"><p>New User? <a href="{{ url_for('register') }}">Click to Register!</a></p></span>
                     </div>
                   </form>
 

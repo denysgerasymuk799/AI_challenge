@@ -5,16 +5,50 @@ import string
 from pprint import pprint
 
 from flask import Flask, Blueprint, render_template, request, redirect,\
-    url_for, session, jsonify, make_response
+    url_for, session, jsonify, make_response, flash
 # from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import UserMixin, LoginManager
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField, BooleanField, SubmitField
+from werkzeug.security import generate_password_hash, check_password_hash
+from wtforms.validators import DataRequired, Email, EqualTo, ValidationError
+from werkzeug.urls import url_parse
+from flask_login import current_user, login_user, logout_user, login_required
 
-from my_config import Config
+from AI_challenge.flack_app.my_config import Config
 
 app = Flask(__name__)
-
 app.config.from_object(Config)
 db = SQLAlchemy(app)
+login = LoginManager(app)
+login.login_view = "login"
+
+
+class LoginForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    remember_me = BooleanField('Remember Me')
+    submit = SubmitField('Sign In')
+
+
+class RegistrationForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    password2 = PasswordField('Repeat Password', validators=[DataRequired(), EqualTo('password')])
+    submit = SubmitField('Register')
+
+    def validate_username(self, username):
+        user = User.query.filter_by(username=username.data).first()
+        if user is not None:
+            raise ValidationError('Please use a different username.')
+
+    def validate_email(self, email):
+        user = User.query.filter_by(email=email.data).first()
+        if user is not None:
+            raise ValidationError('Please use a different email address.')
+
 
 # our relationship tables
 profession_to_skill = db.Table('profession_to_skill', db.Model.metadata,
@@ -72,6 +106,28 @@ class Course(db.Model):
                 "long_description": self.long_description, "url": self.url}
 
 
+class User(UserMixin, db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), index=True, unique=True)
+    email = db.Column(db.String(120), index=True, unique=True)
+    password_hash = db.Column(db.String(128))
+    subscription = db.Column(db.String(40))
+
+    def set_password(self, password):
+        self.password_hash = generate_password_hash(password)
+
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
+
+    def __repr__(self):
+        return f"User( username: {self.username}, email: {self.email})"
+
+
+@login.user_loader
+def load_user(id_):
+    return User.query.get(int(id_))
+
+
 @app.route("/", methods=['POST', 'GET'])
 def render_main_page():
     search_skills = request.form.getlist("chosen_skills")
@@ -127,33 +183,73 @@ def function_for_login(*args):
     return True
 
 
-@app.route('/login', methods=['POST', 'GET'])
+# @app.route('/login', methods=['POST', 'GET'])
+# def login():
+#     if request.method == 'POST':
+#         address = request.form.get("address")
+#         password = request.form.get("password")
+#         re_password = request.form.get("re_password")
+#         if function_for_login(address, password, re_password):
+#             return redirect(url_for('input_profession'))
+#     return render_template("login.html")
+@app.route('/login', methods=['GET', 'POST'])
 def login():
-    if request.method == 'POST':
-        address = request.form.get("address")
-        password = request.form.get("password")
-        re_password = request.form.get("re_password")
-        if function_for_login(address, password, re_password):
-            return redirect(url_for('input_profession'))
-    return render_template("login.html")
+    if current_user.is_authenticated:
+        return redirect(url_for("render_main_page"))
+
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user is None or not user.check_password(form.password.data):
+            flash('Invalid username or password')
+            return redirect(url_for('login'))
+        login_user(user, remember=form.remember_me.data)
+        next_page = request.args.get('next')
+        if not next_page or url_parse(next_page).netloc != '':
+            next_page = url_for('render_main_page')
+        return redirect(next_page)
+    return render_template('login.html', title='Sign In', form=form)
 
 
 def function_for_register(*args):
     return True
 
 
-@app.route('/register', methods=['POST', 'GET'])
+@app.route("/logout")
+def logout():
+    logout_user()
+    return redirect(url_for("index"))
+
+
+@app.route("/register", methods=["GET", "POST"])
 def register():
-    if request.method == 'POST':
-        address = request.form.get("address")
-        password = request.form.get("password")
-        re_password = request.form.get("re_password")
-        if function_for_register(address, password, re_password):
-            return redirect(url_for('login'))
-    return render_template("register.html")
+    if current_user.is_authenticated:
+        return redirect(url_for("render_main_page"))
+
+    form = RegistrationForm()
+
+    if form.validate_on_submit():
+        user = User(username=form.username.data, email=form.email.data, subscription="Free")
+        user.set_password(form.password.data)
+        db.session.add(user)
+        db.session.commit()
+        flash('Congratulations, you are now a registered user!')
+        return redirect(url_for('login'))
+    return render_template("register.html", title="Register", form=form)
+
+# @app.route('/register', methods=['POST', 'GET'])
+# def register():
+#     if request.method == 'POST':
+#         address = request.form.get("address")
+#         password = request.form.get("password")
+#         re_password = request.form.get("re_password")
+#         if function_for_register(address, password, re_password):
+#             return redirect(url_for('login'))
+#     return render_template("register.html")
 
 
 @app.route('/input_profession', methods=['POST', 'GET'])
+@login_required
 def input_profession():
     with open('translation.json') as json_file:
         dct = json.load(json_file)
@@ -209,6 +305,7 @@ def skills_for_job(job):
 
 
 @app.route('/skills', methods=['POST', 'GET'])
+@login_required
 def middle():
     """
      a function for page, where you choose courses you already have
@@ -285,15 +382,18 @@ def a():
 
 
 @app.route('/courses', methods=['POST', 'GET'])
+@login_required
 def index():
     """
 
     :return: make a section - for special skill you have a list of courses in html
     """
+    global courses
     return render_template("one_section.html", courses_list=courses)
 
 
 @app.route('/selected_from_main', methods=['POST', 'GET'])
+@login_required
 def selected_from_main():
     """
 
@@ -329,6 +429,7 @@ def selected_from_main():
 
 
 @app.route('/selected', methods=['POST', 'GET'])
+@login_required
 def selected():
     """
 
@@ -346,6 +447,7 @@ def selected():
 
 
 @app.route('/price_plans', methods=['POST', 'GET'])
+@login_required
 def price_plans():
     return render_template("view_plans.html")
 
@@ -492,5 +594,5 @@ def certificate_filter(courses_lst):
 
 
 if __name__ == '__main__':
+    db.create_all()
     app.run(debug=True)
-    # db.create_all()
