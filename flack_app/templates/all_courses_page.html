@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../static/content-filter-master/css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="../static/content-filter-master/css/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../static/css/style_all_courses_page.css">
+    <link rel="stylesheet" href="../static/fonts/icomoon/style.css">
+
 
     <script src="../static/content-filter-master/js/modernizr.js"></script> <!-- Modernizr -->
 
@@ -36,6 +38,7 @@
                 <a class="topnav_a active" href="#home">All courses</a>
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
+                <a class="topnav_a" href="{{ url_for('login') }}">Log in</a>
                 {#                <button type="submit">View selected</button>#}
             </div>
         </div>
@@ -57,46 +60,69 @@
         </div> <!-- cd-tab-filter-wrapper -->
 
         <section class="cd-gallery">
-            <form method="post" action="{{ url_for('selected_from_main') }}">
                 <ul>
                     {% for courses_for_skill in courses_for_skills_lst %}
                         {% set outer_loop = loop %}
 
                         {% for course in courses_for_skill %}
                             <li class="{{ course.price }}">
-                                <div class="col-3">
+                                <div class="course bg-white align-self-stretch">
                                     <div class="checkbox-field">
                                         <input type="checkbox" name="course_name" value="{{ course.course_title }}"/>
                                     </div>
-
                                     <figure class="m-0">
                                         {% if course.image %}
                                             {% if course.image.image_240x135 %}
-                                                <a href={{ course.url }}><img src="{{ course.image.image_480x270 }}"></a>
+                                                <a href={{ course.url }}><img
+                                                        src="{{ course.image.image_480x270 }}"
+                                                ></a>
                                             {% elif course.image.small %}
-                                                <a href={{ course.url }}><img src="{{ course.image.large }}"></a>
+                                                <a href={{ course.url }}><img
+                                                                              src="{{ course.image.large }}"></a>
                                             {% else %}
-                                                <a href={{ course.url }}><img src="{{ course.image.rsplit('?')[0] }}"></a>
+                                                <a href={{ course.url }}><img
+                                                        src="{{ course.image.rsplit('?')[0] }}"></a>
                                             {% endif %}
                                         {% endif %}
                                     </figure>
-                                </div>
-                                <div>
-                                    <div class="text_for_course"><a href="{{ course.url }}">{{ course.course_title }}</a>
-                                    </div>
+                                    <div class="course-inner-text py-4 px-4">
+                                        <span class="course-price" onclick="getCourses()">{{ course.price[:6] }}</span>
+                                            <div class="text_price"><span
+                                                class="icon-clock-o"></span>{{ course.course_duration }}
+                                        </div>
+                                        <h3><a href="{{ course.url }}" class="title_course">{{ course.course_title }}</a></h3>
+                                        {% if course.short_description %}
+                                            {% if course.short_description != ' ' %}
 
-                                    <div class="text_for_course"><span
-                                            class="icon-clock-o"></span>{{ course.course_duration }}</div>
-                                    <p class="text_for_course">{{ course.short_description }}</p>
+                                                {% if course.short_description[150] %}
+                                                    <p>{{ course.short_description[:150] + "..." }}</p>
+                                                {% else %}
+                                                    <p>{{ course.short_description }}</p>
+                                                {% endif %}
+
+                                            {% endif %}
+
+                                            {% if course.short_description == ' ' %}
+                                                <p>{{ course.long_description.split(".")[0] }}</p>
+                                            {% endif %}
+                                        {% endif %}
+                                    </div>
+                                    <div class="d-flex border-top stats">
+                                        <div class="py-3 px-4"><span
+                                                class="icon-users"></span>{{ course.number_of_students }}
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
 
                         {% endfor %}
                     {% endfor %}
                 </ul>
-            </form>
+{#            </form>#}
             <div class="cd-fail-message">No results found</div>
         </section> <!-- cd-gallery -->
+
+        <p id="demo"></p>
 
         <div class="cd-filter">
             <form method="post" id="the-form" action="{{ url_for('render_main_page') }}">
@@ -162,7 +188,10 @@
                 </div> <!-- cd-filter-block -->
 
                 <div>
-                    <button type="submit"
+{#                    <a href="{{ url_for('selected_from_main') }}" onclick="getCourses()"#}
+{#                            class="search_button">View selected</a>#}
+
+                    <button type="submit" id="submit" onclick="getCourses()"
                             class="search_button">View selected</button>
                 </div>
 
@@ -202,6 +231,53 @@
         <a href="#0" class="cd-filter-trigger">Filters</a>
     </main> <!-- cd-main-content -->
 </div>
+
+<script>
+    function getCourses(){
+        var cboxes = document.getElementsByName('course_name');
+        var len = cboxes.length;
+        var courses = new Map();
+        for (var i = 0; i < len; i++) {
+            {#alert(i + (cboxes[i].checked ? ' checked ' : ' unchecked ') + cboxes[i].value);#}
+            if (cboxes[i].checked){
+                courses.put(i, cboxes[i].value);}
+        }
+
+        console.log(courses);
+
+        fetch(`/selected_from_main`, {
+            method: "POST",
+            credentials: "include",
+            body: courses,
+            cache: "no-cache",
+            headers: new Headers({
+                "content-type": "application/json"
+            })
+        })
+            .then(function (response) {
+                if (response.status !== 200) {
+                    console.log(`Looks like there was a problem. Status code: ${response.status}`);
+                    return;
+                }
+                response.json().then(function (data) {
+                    console.log(data);
+                });
+            })
+            .catch(function (error) {
+                console.log("Fetch error: " + error);
+            });
+
+        {#const options =#}
+        {#{#}
+        {#    method: "POST",#}
+        {#    headers: {#}
+        {#        'Content-Type': "application/json"#}
+        {#    },#}
+        {#    body: JSON.stringify(payload)#}
+        {#fetch("/selected_from_main", options)#}
+    };
+
+</script>
 
 <script src="../static/content-filter-master/js/jquery-2.1.1.js"></script>
 <script src="../static/content-filter-master/js/jquery.mixitup.min.js"></script>

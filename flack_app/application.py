@@ -4,7 +4,8 @@ import os
 import string
 from pprint import pprint
 
-from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
+from flask import Flask, Blueprint, render_template, request, redirect,\
+    url_for, session, jsonify, make_response
 # from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
@@ -150,7 +151,7 @@ def register():
         if function_for_register(address, password, re_password):
             return redirect(url_for('login'))
     return render_template("register.html")
-=======
+
 
 @app.route('/input_profession', methods=['POST', 'GET'])
 def input_profession():
@@ -298,26 +299,33 @@ def selected_from_main():
 
     :return: a function to page where you can view your selected courses
     """
-    selected_courses = request.form.getlist("course_name")
+    print("hello")
+    req = request.get_json()
 
-    print(selected_courses)
-    my_courses = []
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
-            user_data_json_from_file:
-        user_data_json = json.load(user_data_json_from_file)
+    print(req)
 
-    skill_names = user_data_json["main_page_skills"]
-    # course_names = user_data_json["selected_courses"]
-    print(skill_names)
-    # print(course_names)
-    for skill in skill_names:
-        print("skill", skill)
-        courses_db = Skill.query.filter_by(name=skill).first().courses
-        for course in courses_db:
-            if course.course_title in course_names:
-                my_courses.append(course)
-    print(my_courses)
-    return render_template("selected_from_main.html", my_courses=my_courses)
+    res = make_response(jsonify(req), 200)
+    print(res)
+    # selected_courses = request.form.getlist("course_name")
+    #
+    # print(selected_courses)
+    # my_courses = []
+    # with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+    #         user_data_json_from_file:
+    #     user_data_json = json.load(user_data_json_from_file)
+    #
+    # skill_names = user_data_json["main_page_skills"]
+    # # course_names = user_data_json["selected_courses"]
+    # print(skill_names)
+    # # print(course_names)
+    # for skill in skill_names:
+    #     print("skill", skill)
+    #     courses_db = Skill.query.filter_by(name=skill).first().courses
+    #     for course in courses_db:
+    #         if course.course_title in course_names:
+    #             my_courses.append(course)
+    # print(my_courses)
+    return render_template("selected_from_main.html")
 
 
 @app.route('/selected', methods=['POST', 'GET'])
@@ -400,10 +408,10 @@ def price_filter(courses_db):
     """
     for position in range(len(courses_db)):
         if courses_db[position].price.lower() == "free":
-            courses_db[position].price = "mix free"
+            courses_db[position].price = courses_db[position].price + "    mix free"
 
         else:
-            courses_db[position].price = "mix payed"
+            courses_db[position].price = courses_db[position].price + "    mix payed"
 
     return courses_db
 

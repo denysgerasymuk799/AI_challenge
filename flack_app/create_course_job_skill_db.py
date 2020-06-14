@@ -18,7 +18,7 @@ def create_db():
             try:
                 print('profession_name', profession_name)
                 p = Profession(name=profession_name.lower())
-                # db.session.add(p)
+                db.session.add(p)
                 # db.session.commit()
 
             except sqlite3.IntegrityError:
@@ -31,7 +31,7 @@ def create_db():
             for skill_name in json_skills_for_profession.keys():
                 skill_name += "8"
                 s = Skill(name=skill_name.lower())
-                # db.session.add(s)
+                db.session.add(s)
                 # db.session.commit()
                 skill_name = skill_name[:-1]
 

@@ -1,15 +1,7 @@
 {
-    "profession": "analyst",
-    "all_job_skills": [
-        "data analysis",
-        "performance",
-        "Tableau",
-        "SQL",
-        "management"
-    ],
-    "current_skills": [
-        "Tableau"
     "main_page_skills": [
-        "SQL"
+        "API",
+        "Apache",
+        "AWS"
     ]
 }
