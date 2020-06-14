@@ -1,6 +1,7 @@
 import requests
-from json import JSONDecodeError
+# from json import JSONDecodeError
 import json
+from io import open
 import get_descriptions
 from price_student_number import get_price, get_student_number
 
@@ -65,11 +66,11 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
     while current_page <= max_page:
         PARSED_NUMBER += 1
         # make main request
-        response = requests.get(web_page, headers={"Authorization": f"JWT {ACCESS_TOKEN}"})
+        response = requests.get(web_page, headers={"Authorization": "JWT {}".format(ACCESS_TOKEN)})
 
         # some info
-        print(str(response.status_code) + '\n' + f"   Number of API requests: {current_page}\n" +
-              f"      Number of errors: {ERROR_NUMBER }")
+        print(str(response.status_code) + '\n' + "   Number of API requests: {}\n".format(current_page) +
+              "      Number of errors: {}".format(ERROR_NUMBER))
 
         # Error handling
         if str(response.status_code)[0] == '4':
@@ -89,7 +90,7 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
 
         try:
             data = response.json()
-        except JSONDecodeError:
+        except:
             print(">>> Json error occured! something wrong!!!")
             current_page += 1
             continue
@@ -128,8 +129,8 @@ def generate_info(max_page, route="", beginner = "http://courses.edx.org/api/"):
             result[course_name]["url"] = course_url
             result[course_name]["number_of_students"] = get_student_number()
             skipped_percentage = round(SKIPPED/PARSED_NUMBER, 2)
-            print(f"        Parsed_number: {PARSED_NUMBER}, Skipped Percentage: {skipped_percentage}\n"
-                  f"        Successful parse: {course_name}. ")
+            print("        Parsed_number: {}, Skipped Percentage: {}\n".format(PARSED_NUMBER, skipped_percentage),
+                  "        Successful parse: {}. ".format(course_name))
 
         # saving information
         with open("edx_results.json", 'w', encoding='utf-8', errors='ignore') as res_file:
@@ -148,4 +149,5 @@ if __name__ == '__main__':
         res_file.write("{}")
     with open("tmp_files/errors.json", 'w', encoding="utf-8") as error_file:
         error_file.write("{}")
-    generate_info(10, route="courses/v1/courses/")
+
+    generate_info(10000, route="courses/v1/courses/")

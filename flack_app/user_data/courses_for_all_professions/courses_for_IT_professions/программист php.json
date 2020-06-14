@@ -1,0 +1,14 @@
+{
+    "JavaScript": [
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "30 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn JavaScript?\nJavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.\nTake-Away Skills:\nYou will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment. \nUp Next:\nAfter learning JavaScript basics (up through the Objects lesson), try applying JavaScript to: \n\nBuild games\nBuild interactive websites\nBuild web applications with React\n\n ",
+            "short_description": "Learn the JavaScript fundamentals you'll need for front-end or back-end development.\n",
+            "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+            "number_of_students": "1,686,370 students",
+            "course_title": "Introduction to JavaScript"
+        }
+    ]
+}

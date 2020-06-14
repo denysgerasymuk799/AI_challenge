@@ -1,9 +1,47 @@
+import copy
 import json
 import os
 import re
 
 temp_dir = os.getcwd()
-update_courses_dir = os.path.join(temp_dir, 'courses_jsons', '28.03.2020')
+update_courses_dir = os.path.join(temp_dir, "user_data", "courses_for_all_professions", 'IT_courses')
+
+
+def sort_courses_by_num_students(dict_courses_for_job):
+    """
+    It is how I filter courses with number of students,
+    but Vova make other function and this function is not used in this module now
+    :param dict_courses_for_job:
+    :return:
+    """
+    for skill in dict_courses_for_job.keys():
+        start_lst_courses_positions = []
+        lst_courses_before_sort = []
+        for position_course, course in enumerate(dict_courses_for_job[skill]):
+            if "number_of_students" in course.keys():
+                if course["number_of_students"] != "" \
+                        and ',' in course["number_of_students"]:
+                    print('position', position_course)
+                    str_number = course["number_of_students"].split()[0]
+                    int_num = ''.join(str_number.split(','))
+                    if "+" in int_num:
+                        int_num = int_num[:-1]
+                    int_num = int(int_num)
+                    start_lst_courses_positions.append(int_num)
+                    lst_courses_before_sort.append(course)
+
+        sorted_courses_lst = []
+        sorted_positions_lst_courses = copy.deepcopy(start_lst_courses_positions)
+        sorted_positions_lst_courses.sort(reverse=True)
+
+        for num_students in range(len(sorted_positions_lst_courses)):
+            position_to_sort_courses_in_skill = start_lst_courses_positions.index(
+                sorted_positions_lst_courses[num_students])
+            sorted_courses_lst.append(lst_courses_before_sort[position_to_sort_courses_in_skill])
+
+        dict_courses_for_job[skill] = sorted_courses_lst
+
+    return dict_courses_for_job
 
 
 def is_profession_skills_course(description, title_profession):
@@ -22,19 +60,27 @@ def is_profession_skills_course(description, title_profession):
             # for word_in_skill in skill.split():
             if len(skill.split()) > 1:
                 flag_similar = 0
-                for word in description.strip().split():
-                    if word.lower() in [item.lower() for item in skill.split()]:
-                        flag_similar += 1
+                try:
+                    for word in description.strip().split():
+                        if word.lower() in [item.lower() for item in skill.split()]:
+                            flag_similar += 1
 
-                    if flag_similar > 2:
-                        skill_lst.append(skill)
-                        break
+                        if flag_similar > 2:
+                            skill_lst.append(skill)
+                            break
+
+                except:
+                    pass
 
             else:
-                for word in description.strip().split():
-                    if skill.lower() == word.lower():
-                        skill_lst.append(skill)
-                        break
+                try:
+                    for word in description.strip().split():
+                        if skill.lower() == word.lower():
+                            skill_lst.append(skill)
+                            break
+
+                except:
+                    pass
 
     if skill_lst:
         return True, skill_lst
@@ -93,13 +139,15 @@ def create_courses_json_for_profession(title_profession):
                     pass
                 except KeyError:
                     pass
+                except:
+                    pass
 
                 is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(
                     course_title, title_profession)
 
                 try:
-                    is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]
-                                                                                        ["short_description"], title_profession)
+                    is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]["short_description"],
+                                                                                                       title_profession)
                 # for udemy_result.json - does not have description
                 except KeyError:
                     try:
@@ -118,10 +166,12 @@ def create_courses_json_for_profession(title_profession):
 
                 # print(skill_names_lst)
                 for skill_from_course in skill_names_lst:
-                    courses_skill_dict = dict_courses_for_profession.get(skill_from_course, {})
-                    courses_skill_dict[course_title] = page_courses_json[course_title]
+                    courses_skill_dict = dict_courses_for_profession.get(skill_from_course, [])
+                    page_courses_json[course_title]["course_title"] = course_title
+                    courses_skill_dict.append(page_courses_json[course_title])
                     dict_courses_for_profession[skill_from_course] = courses_skill_dict
 
+                dict_courses_for_profession = sort_courses_by_num_students(dict_courses_for_profession)
                 # save dict_courses_for_profession
                 with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
                         user_profession_courses:
@@ -132,12 +182,15 @@ def create_courses_json_for_profession(title_profession):
 
 
 if __name__ == '__main__':
-    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions2.json'), 'r',
+    with open(os.path.join(os.getcwd(), 'user_data', 'skills_for_professions', 'filtered_skills_for_IT_professions.json'), 'r',
               encoding='utf-8') as json_file:
         filtered_skills_for_professions = json.load(json_file)
 
-    lst_professions = ['аналитик', "smm-менеджер", 'специалист+технической+поддержки', 'интернет-маркетолог',
-                       'администратор', 'системный+администратор']
+    # lst_professions = ['analyst', "business analyst", "data scientist", "адміністратор баз даних", "программист php",
+    #                    "системный администратор"]
+    #
+    lst_professions = ["javascript+developer", "бренд-менеджер", "full+stack+програміст", "маркетолог",
+                       "back+end+developer", "customer+support+representative"]
 
     dict_profession_skills = dict()
 

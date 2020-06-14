@@ -37,6 +37,6 @@ if __name__ == '__main__':
                         dict_profession_skills[profession].append(skill)
                         break
 
-    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_all_professions.json'), 'w',
+    with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_all_professions3.json'), 'w',
               encoding='utf-8') as json_file:
         json.dump(dict_profession_skills, json_file, ensure_ascii=False, indent=4)

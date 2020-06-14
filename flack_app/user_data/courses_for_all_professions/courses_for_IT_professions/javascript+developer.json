@@ -1,0 +1,531 @@
+{
+    "HTML5": [
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "9 Hours",
+            "price": "FREE",
+            "long_description": "Take-Away Skills:\nLearn how to make Phaser games in this series of lessons, quizzes, and projects. Turn your game ideas into game realities and build on an important set of skills in this JavaScript library. Learn how to make and curate interactive experiences and deploy your games to the web!\nWhy Learn Phaser?\nPhaser is the biggest HTML5 game development framework on the market. It has been used for browser games, mobile games, and desktop games. Learn how to use this library to make games for yourself!\nNote on Prerequisites\nPhaser is built in JavaScript and we will be writing JavaScript code throughout the course, so knowledge of JavaScript (especially functions and objects) will be useful. However, the course is as beginner-friendly as possible and can be attempted without any prior JavaScript knowledge. Still, if Phaser concepts and instructions seem a bit murky it might be best to take a few sections of our Introduction to JavaScript course to build conceptual knowledge.\nWhat Will You Build?\nYou’ll build eight games in this course: \n\nColor a Pegasus: a coloring book application with an eye-catching aesthetic!\nCreate an Adventure: a dungeon crawling text-based adventure game about a dungeon with an orc, a knight, a wizard, and you.\nBug Dodger: Avoid the cascading torrent of bugs and try to get a high score!\nBug Invaders: The bugs are descending to earth and it’s up to you to stop them!\nCodey’s Cave Crisis: learn the basics of how to create the quintessential platformer! \nCodey’s Counting Conundrum: Build a multi-scened game that incorporates tweens and animations. \nTundra Terror: Guide Codey through a frozen tundra brought to life through stunning visual effects.\nCodey Jump: Recreate an app classic that has Codey jumping endlessly upward. \n\n ",
+            "short_description": "Learn about the HTML5 game development framework that makes writing browser-based games a breeze.",
+            "url": "https://www.codecademy.com/learn/learn-phaser",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Game Development with Phaser.JS"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/64ffbb7557fac182fb5da99c2bb0d39f.svg",
+            "course_duration": "9 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn HTML?\nHTML is the foundation of all web pages. Without HTML, you wouldn’t be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages!\nTake-Away Skills\nYou will learn all the common HTML tags used to structure HTML pages, the skeleton of all websites. You will also be able to create HTML tables to present tabular data efficiently.\n ",
+            "short_description": "Learn the basics of HTML5 and start building & editing web pages.",
+            "url": "https://www.codecademy.com/learn/learn-html",
+            "number_of_students": "3,838,595 students",
+            "course_title": "Introduction to HTML"
+        },
+        {
+            "id": [
+                "course-v1:edX+Julia1234x+1T2018a",
+                "course-v1:edX+Julia1234x+1T2018a"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@asset+block@course_image.jpg",
+                "small": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-750x400.jpg"
+            },
+            "course_duration": "57 weeks",
+            "price": "FREE",
+            "long_description": "HTML5 is the standard language of the Web, developed by W3C. For application developers and industry, HTML5 represents a set of features that people will be able to rely on for years to come. HTML5 is supported on a wide variety of devices, lowering the cost of creating rich applications to reach users everywhere.",
+            "short_description": "HTML: just be comfortable putting together an HTML document\n\nCSS: minimal familiarity with CSS\n\nJavaScript and DOM APis: basic knowledge is sufficient, and this course will include a recap of basics\n\nStudents should follow these W3Cx courses on edX: <a href=\"https://www.edx.org/course/css-basics-w3cx-css-0x\">CSS Basics</a>, <a href=\"https://www.edx.org/course/html5-css-fundamentals-w3cx-html5-0x\">HTML5 &amp; CSS Fundamentals</a>and <a href=\"https://www.edx.org/course/javascript-introduction-w3cx-js-0x\">JavaScript Introduction</a>\n\nLearn the new simplified HTML5 tags\n\nPlay with the audio and video tags\n\nDraw and animate fun Web graphics\n\nDiscover the newest HTML5 forms features\n\nTest the basic APIs, such as Web storage and geolocation\n\nAnd most of all, practice coding techniques thanks to multiple interactive examples\n\nFrom HTML1.0 to HTML5\n\nNew structural elements\n\nOther elements and attributes\n\nMicrodata\n\nStreaming multimedia content: the video and audio elements\n\nSubtitles and closed captions\n\nEnhanced HTML5 media players and frameworks\n\nWebcam, microphone: the getUserMedia API\n\nBasics of HTML5 canvas\n\nImmediate drawing mode: rectangles, text, images, etc.\n\nPath drawing mode: lines, circles, arcs, curves and other path drawing methods\n\nColors, gradients, patterns, shadows, etc.\n\nBasic animation techniques\n\nCanvas and user interaction\n\nA glimpse of advanced canvas functionalities\n\nIntroduction to HTML5 forms\n\nAccessible forms\n\nNew input types\n\nNew forms attributes\n\nNew elements related to forms\n\nForm validation API\n\nIntroduction to HTML5 APIs\n\nHTML5 cache\n\nThe Web Storage API\n\nThe File API\n\nThe Geolocation API\n\n",
+            "url": "https://www.edx.org/course/html5-coding-essentials-and-best-practices",
+            "number_of_students": "232,736 students",
+            "course_title": "HTML5 Coding Essentials and Best Practices"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1413/alison_courseware_intro_1413.jpg",
+            "long_description": "Alison's free online Web Page Design Using HTML5 and CSS3 course will give you a much better understanding of HTML5 which is the new version of the language HTML. It comes with new elements and attributes and a larger set of technologies that allow for more diverse and powerful websites and applications. With this web page design course, you will learn how to effectively use HTML5 elements and CSS3 style sheets for responsive web design.",
+            "number_of_students": " 35,478 Students",
+            "price": "Free Course",
+            "short_description": "Learn the elements and attributes of HTML5 and CSS3, and create more responsive web pages, with this free online course.",
+            "url": "https://alison.com/course/web-page-design-using-html5-and-css3-revised",
+            "course_title": "Web Page Design Using HTML5 and CSS3 - Revised"
+        },
+        {
+            "course_duration": "1-2 Hours",
+            "image": "https://cdn01.alison-static.net/courses/385/alison_courseware_intro_385.jpg",
+            "long_description": "This free online HTML5 course will teach you about all of new features of HTML's latest iteration, including Geolocation, video, Web worker, canvas/SVG, app cache, and database. HTML5 is the markup language which structure and presents almost all content on the World Wide Web, and is an essential block of any web developer's understanding. Take this free online course today and get caught up with what you can do with HTML5!",
+            "number_of_students": " 28,873 Students",
+            "price": "Free Course",
+            "short_description": "Learn more about the new features of HTML5 for enhanced Web design and development with this course.",
+            "url": "https://alison.com/course/introduction-to-new-features-of-html5",
+            "course_title": "Introduction to New Features of HTML5"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1419/alison_courseware_intro_1419.jpg",
+            "long_description": "This free online Web Development course focuses on Advanced CSS3 Selectors and HTML5 Elements. You will study helpful features like rounded corners, shadows, gradients, transitions or animations, as well as useful layouts like multi-columns, flexible boxes, or grid layouts. With this course, you will also learn the advanced features and functionality of CSS3 and HTML5 and help you style and format web pages in a precise and professional manner.",
+            "number_of_students": " 14,264 Students",
+            "price": "Free Course",
+            "short_description": "Gain an in-depth understanding of CSS3 selectors and advanced HTML5 elements with this free web development course.",
+            "url": "https://alison.com/course/web-development-advanced-css3-selectors-and-html5-elements-revised",
+            "course_title": "Web Development - Advanced CSS3 Selectors and HTML5 Elements - Revised"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1452/alison_courseware_intro_1452.jpg",
+            "long_description": "In this free HTML5 Game Development - Lessons and Development Planning course you will learn how to construct a proper plan by teaching you all about the professional standard documentation required in the game development industry. Planning is a crucial part of any endeavour, big or small, and game development is no exception. A written plan for your game development can serve as your guide for turning your ideas into realities.",
+            "number_of_students": " 3,274 Students",
+            "price": "Free Course",
+            "short_description": "Learn effective development planning and documentation for HTML5 game development with this free online course.",
+            "url": "https://alison.com/course/html5-game-development-lessons-and-development-planning-revised",
+            "course_title": "HTML5 Game Development - Lessons and Development Planning - Revised"
+        }
+    ],
+    "JavaScript": [
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Introduction to Node.js?\nJavaScript has been the most popular programming language for the last 6 years. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. \nTake-Away Skills\nThis course is a great introduction to the concepts of server-side web development. You’ll learn the different parts that make up the back-end of a website or web application, and you’ll gain familiarity with the Node.js runtime environment. After this course, you’ll be set up to explore popular Node frameworks like Express.js to build powerful applications.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course. Previous experience with asynchronous JavaScript would be helpful but isn’t mandatory. \n ",
+            "short_description": "Learn about the different components of a web application's back-end and explore the Node.js JavaScript runtime environment.\n",
+            "url": "https://www.codecademy.com/learn/learn-node-js",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Node.js"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Introduction to Node.js?\nJavaScript has been the most popular programming language for the last 6 years. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. \nTake-Away Skills\nThis course is a great introduction to the concepts of server-side web development. You’ll learn the different parts that make up the back-end of a website or web application, and you’ll gain familiarity with the Node.js runtime environment. After this course, you’ll be set up to explore popular Node frameworks like Express.js to build powerful applications.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course. Previous experience with asynchronous JavaScript would be helpful but isn’t mandatory. \n ",
+            "short_description": "Learn about the different components of a web application's back-end and explore the Node.js JavaScript runtime environment.\n",
+            "url": "https://www.codecademy.com/learn/learn-node-js",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Node.js"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Introduction to Node.js?\nJavaScript has been the most popular programming language for the last 6 years. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. \nTake-Away Skills\nThis course is a great introduction to the concepts of server-side web development. You’ll learn the different parts that make up the back-end of a website or web application, and you’ll gain familiarity with the Node.js runtime environment. After this course, you’ll be set up to explore popular Node frameworks like Express.js to build powerful applications.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course. Previous experience with asynchronous JavaScript would be helpful but isn’t mandatory. \n ",
+            "short_description": "Learn about the different components of a web application's back-end and explore the Node.js JavaScript runtime environment.\n",
+            "url": "https://www.codecademy.com/learn/learn-node-js",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Node.js"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Introduction to Node.js?\nJavaScript has been the most popular programming language for the last 6 years. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. \nTake-Away Skills\nThis course is a great introduction to the concepts of server-side web development. You’ll learn the different parts that make up the back-end of a website or web application, and you’ll gain familiarity with the Node.js runtime environment. After this course, you’ll be set up to explore popular Node frameworks like Express.js to build powerful applications.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course. Previous experience with asynchronous JavaScript would be helpful but isn’t mandatory. \n ",
+            "short_description": "Learn about the different components of a web application's back-end and explore the Node.js JavaScript runtime environment.\n",
+            "url": "https://www.codecademy.com/learn/learn-node-js",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Node.js"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Introduction to Node.js?\nJavaScript has been the most popular programming language for the last 6 years. The powerful Node.js runtime environment has been ranked the technology most commonly used by professional developers. Node.js is an event-driven JavaScript runtime. Node has myriad potential uses for JavaScript development including being a great environment for building efficient network applications. \nTake-Away Skills\nThis course is a great introduction to the concepts of server-side web development. You’ll learn the different parts that make up the back-end of a website or web application, and you’ll gain familiarity with the Node.js runtime environment. After this course, you’ll be set up to explore popular Node frameworks like Express.js to build powerful applications.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course. Previous experience with asynchronous JavaScript would be helpful but isn’t mandatory. \n ",
+            "short_description": "Learn about the different components of a web application's back-end and explore the Node.js JavaScript runtime environment.\n",
+            "url": "https://www.codecademy.com/learn/learn-node-js",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Node.js"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "30 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn JavaScript?\nJavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.\nTake-Away Skills:\nYou will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment. \nUp Next:\nAfter learning JavaScript basics (up through the Objects lesson), try applying JavaScript to: \n\nBuild games\nBuild interactive websites\nBuild web applications with React\n\n ",
+            "short_description": "Learn the JavaScript fundamentals you'll need for front-end or back-end development.\n",
+            "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+            "number_of_students": "1,686,370 students",
+            "course_title": "Introduction to JavaScript"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "15 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn AngularJS?\nAs a web developer, you’ll need to learn how to use new frameworks on a regular basis. AngularJS is a full-featured framework that is incredibly popular among developers. For single-page applications, the AngularJS framework creates rich interactive features for a real-time experience. \nIt’s friendly to developers and has a supportive and active community. Products built with AngularJS include YouTube Video Manager, The Weather Channel site, several Google products, and Tinder. \nTake-Away Skills:\nApply your understanding of HTML and JavaScript to learn how to build single-page web applications with this popular JavaScript framework. You’ll be introduced to the Model-View-Controller (MVC) programming pattern and get a chance to build your own application from scratch by the end of this course.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course, as well as basic HTML.\n ",
+            "short_description": "Learn how to easily build single-page web applications using this popular JavaScript framework.",
+            "url": "https://www.codecademy.com/learn/learn-angularjs",
+            "number_of_students": "365,892 students",
+            "course_title": "Learn AngularJS 1.X"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "7 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn ReactJS?\nReactJS presents graceful solutions to some of front-end programming’s most persistent issues.  It’s fast, scalable, flexible, powerful, and has a robust developer community that’s rapidly growing.  There’s never been a better time to learn React.\nTake-Away Skills:\nYou’ll develop a strong understanding of React’s most essential concepts:  JSX, components, and storing information via props and state. You’ll be able to combine these ideas in React’s modular programming style.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course, as well as basic HTML.\n ",
+            "short_description": "Build powerful interactive applications with React, a popular JavaScript library.",
+            "url": "https://www.codecademy.com/learn/react-101",
+            "number_of_students": "301,129 students",
+            "course_title": "Learn ReactJS: Part I"
+        },
+        {
+            "id": [
+                "course-v1:edX+Julia1234x+1T2018a",
+                "course-v1:edX+Julia1234x+1T2018a"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@asset+block@course_image.jpg",
+                "small": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-750x400.jpg"
+            },
+            "course_duration": "57 weeks",
+            "price": "FREE",
+            "long_description": "HTML5 is the standard language of the Web, developed by W3C. For application developers and industry, HTML5 represents a set of features that people will be able to rely on for years to come. HTML5 is supported on a wide variety of devices, lowering the cost of creating rich applications to reach users everywhere.",
+            "short_description": "HTML: just be comfortable putting together an HTML document\n\nCSS: minimal familiarity with CSS\n\nJavaScript and DOM APis: basic knowledge is sufficient, and this course will include a recap of basics\n\nStudents should follow these W3Cx courses on edX: <a href=\"https://www.edx.org/course/css-basics-w3cx-css-0x\">CSS Basics</a>, <a href=\"https://www.edx.org/course/html5-css-fundamentals-w3cx-html5-0x\">HTML5 &amp; CSS Fundamentals</a>and <a href=\"https://www.edx.org/course/javascript-introduction-w3cx-js-0x\">JavaScript Introduction</a>\n\nLearn the new simplified HTML5 tags\n\nPlay with the audio and video tags\n\nDraw and animate fun Web graphics\n\nDiscover the newest HTML5 forms features\n\nTest the basic APIs, such as Web storage and geolocation\n\nAnd most of all, practice coding techniques thanks to multiple interactive examples\n\nFrom HTML1.0 to HTML5\n\nNew structural elements\n\nOther elements and attributes\n\nMicrodata\n\nStreaming multimedia content: the video and audio elements\n\nSubtitles and closed captions\n\nEnhanced HTML5 media players and frameworks\n\nWebcam, microphone: the getUserMedia API\n\nBasics of HTML5 canvas\n\nImmediate drawing mode: rectangles, text, images, etc.\n\nPath drawing mode: lines, circles, arcs, curves and other path drawing methods\n\nColors, gradients, patterns, shadows, etc.\n\nBasic animation techniques\n\nCanvas and user interaction\n\nA glimpse of advanced canvas functionalities\n\nIntroduction to HTML5 forms\n\nAccessible forms\n\nNew input types\n\nNew forms attributes\n\nNew elements related to forms\n\nForm validation API\n\nIntroduction to HTML5 APIs\n\nHTML5 cache\n\nThe Web Storage API\n\nThe File API\n\nThe Geolocation API\n\n",
+            "url": "https://www.edx.org/course/html5-coding-essentials-and-best-practices",
+            "number_of_students": "232,736 students",
+            "course_title": "HTML5 Coding Essentials and Best Practices"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/c5/21baf046b64d449b097c46668efded/Imperial_Coronavirus_HPP_Unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 10 hours to complete",
+            "number_of_students": "145,936 students",
+            "short_description": " How to take application designs and translate them into digital prototypes using HTML, CSS, and Javascript Analytically debug Javascript with the Chrome debugger Explain what digital literacy means for todayâs interdisciplinary collaborators ",
+            "long_description": "Do you want to experience what it is to go from idea to code? If so, this is the place for you! This is the second course in the  Coding for Designers, Managers, and Entrepreneurs Specialization. If you’re a hands-on collaborator with developers,  this course is specifically designed for you. In this course, we’re going to focus on creating interactive user interfaces (UI’s) with Javascript, building creative confidence and competence that will make you an even better collaborator on digital projects.",
+            "url": "https://www.coursera.org/learn/uva-coding-for-design-managers-2",
+            "course_title": "Coding for Designers, Managers, & Entrepreneurs II"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/bf5c2cdedc7008c04ffe0b974fcd41b1.svg",
+            "course_duration": "8 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn ReactJS?\nReactJS presents graceful solutions to some of front-end programming’s most persistent issues. It’s fast, scalable, flexible, powerful, and has a robust developer community that’s rapidly growing. There’s never been a better time to learn React. \nTake-Away Skills:\nYou’ll master more essential tools that any React.js programmer is expected to know, including lifecycle methods, proptypes, basic styling, stateless functional components, and more. You will also be introduced to React.js programming patterns, and learn to set up React on your local computer.\nNote on Prerequisites:\nA strong foundation in JavaScript is a prerequisite for this course, as well as basic HTML. You should also understand the concepts covered in Learn ReactJS: Part I.\n ",
+            "short_description": "Build powerful interactive applications with this popular JavaScript library.",
+            "url": "https://www.codecademy.com/learn/react-102",
+            "number_of_students": "68,013 students",
+            "course_title": "Learn ReactJS: Part II"
+        },
+        {
+            "course_duration": "10-15 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1462/alison_courseware_intro_1462.jpg",
+            "long_description": "Alison's free online Diploma in HTML5, CSS3 and JavaScript course will give you in-depth knowledge of how you can use HTML5 to define the content of web pages, CSS3 to specify the layout and style of web pages, and JavaScript to program the behavior of web pages. These sets of skills will be a great boost to your career development as a computer programmer. Learn these languages to create functional and responsive web pages, today!",
+            "number_of_students": " 63,493 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use HTML5, CSS3, and JavaScript to make interactive web pages with this free web programming course.",
+            "url": "https://alison.com/course/diploma-in-html5-css3-and-javascript-revised",
+            "course_title": "Diploma in HTML5, CSS3 and JavaScript - Revised"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "9 Hours",
+            "price": "15.99$",
+            "long_description": "Why Learn jQuery?\nWith HTML and CSS, you can build visually appealing static web pages. With a bit of JavaScript, you can add dynamic behavior to these static websites. jQuery is a JavaScript library that provides you with a lot of dynamic behavior “out-of-the-box”, allowing you to add some creative effects to otherwise dull layouts.\nTake-Away Skills:\nYou will learn how to add jQuery to web pages and how to traverse the DOM. You’ll also learn how to use effects, event handlers and style methods.\nNote on Prerequisites:\nThere aren’t any prerequisites for this lesson, but a basic understanding of JavaScript will help you understand the programming logic.\n ",
+            "short_description": "Learn the basics of jQuery, a JavaScript library that allows you to easily add dynamic behavior to static web pages.",
+            "url": "https://www.codecademy.com/learn/learn-jquery",
+            "number_of_students": "61,411 students",
+            "course_title": "Introduction to jQuery"
+        },
+        {
+            "course_duration": "4-5 Hours",
+            "image": "https://cdn01.alison-static.net/courses/322/alison_courseware_intro_322.jpg",
+            "long_description": "jQuery is one of the most popular tools used today for designing and implementing JavaScript in web pages. If you want long term employment as a computer programmer, or even if you just need to design a few really beautiful web pages for your own website, understanding how jQuery interacts with JavaScript is essential. This course will show you how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "number_of_students": " 54,159 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "url": "https://alison.com/course/javascript-and-jquery",
+            "course_title": "JavaScript and jQuery"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1434/alison_courseware_intro_1434.jpg",
+            "long_description": "This free online course in JavaScript application programming will teach you JavaScript programming principles step-by-step, in a clear and concise manner. JavaScript is an extremely common and important programming language used to program the behavior of web pages. Created in 1995, and a European Computer Manufacturers Association standard by 1997, JavaScript is the third language all web developers must learn, along with HTML and CSS.",
+            "number_of_students": " 20,660 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to program a JavaScript application and create web pages with enhanced interactivity and functionality.",
+            "url": "https://alison.com/course/javascript-application-programming-revised",
+            "course_title": "JavaScript Application Programming - Revised"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "1 Hour",
+            "price": "15.99$",
+            "long_description": "Why Learn to Connect JavaScript Apps with a SQL database?\nThis course lays the groundwork for developing fully integrated web applications, connecting your servers to your databases. With communication between a back-end database and user-facing software, you will be well on your way to writing well-designed software for immediate publication on the internet.\nTake-Away Skills:\nIn this course, you’ll learn how to integrate SQL into your JavaScript. Doing so will separate the concerns of database administration from those of application programming.\nThis delineation of responsibilities will allow you to use both languages for what they’re best at. We will learn how to perform fundamental SQL tasks—creating, reading, updating, and deleting—all within a JavaScript application.\nNote on Prerequisites:\nBefore you begin Learn Node-SQlite, we recommend that you are comfortable with beginning and intermediate JavaScript, including:\n\nIntroduction to Javascript\nControl Flow\nFunctions\nIterators\nModules\n\nYou should also be comfortable with Table Manipulation from Learn SQL.\n ",
+            "short_description": "Learn how to interact with a SQL database from within your JavaScript programs!",
+            "url": "https://www.codecademy.com/learn/learn-node-sqlite",
+            "number_of_students": "12,505 students",
+            "course_title": "Learn Node-SQLite"
+        }
+    ],
+    "Bootstrap": [
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "3 Hours",
+            "price": "15.99$",
+            "long_description": "Why learn Bootstrap?\nIf you want to quickly create a website without writing tons of CSS from scratch, then Bootstrap 4 might be the framework you’re looking for. In this course, you’ll see how Bootstrap makes it easy to layout and create interactive and responsive sites.\nTake-Away Skills:\nYou’ll learn about Bootstrap’s grid system to construct complex layouts. Then, you’ll style and populate your site using Bootstrap’s utility classes and components. With Bootstrap, HTML, some familiarity with CSS, and JavaScript, you’ll be making websites in no time.\nNote on Prerequisites:\nA basic understanding of HTML is required to start learning Bootstrap. Some familiarity with how CSS works (CSS Selectors and Visual Rules) would be helpful, but is not required.\n ",
+            "short_description": "Give your website a clear layout and polished style—fast! Learn how to use one of the most popular front-end frameworks, Bootstrap 4!\n\n",
+            "url": "https://www.codecademy.com/learn/learn-bootstrap",
+            "number_of_students": "45,000,000+ students",
+            "course_title": "Learn Bootstrap"
+        },
+        {
+            "id": [
+                "course-v1:BerkeleyX+Data8.2x+2T2019",
+                "course-v1:BerkeleyX+Data8.2x+2T2019"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:BerkeleyX+Data8.2x+2T2019+type@asset+block@course_image.jpg",
+                "small": "https://courses.edx.org/asset-v1:BerkeleyX+Data8.2x+2T2019+type@thumbnail+block@course_image-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:BerkeleyX+Data8.2x+2T2019+type@thumbnail+block@course_image-750x400.jpg"
+            },
+            "course_duration": "65 weeks",
+            "price": "FREE",
+            "long_description": "Using real-world examples from a wide range of domains including law, medicine, and football, youâll learn how data scientists make conclusions about unknowns based on the data available.",
+            "short_description": "The logical and conceptual frameworks of statistical inference\n\nHow to conduct hypothesis testing, permutation testing, and A/B testing\n\nThe purpose and power of resampling methods\n\nRelations between sample size and accuracy\n\nP-values, quantifying uncertainty, and generating confidence intervals using the bootstrap method\n\nHow to interpret the results from hypothesis testing\n\n",
+            "url": "https://www.edx.org/course/foundations-of-data-science-inferential-thinking-by-resampling",
+            "number_of_students": "16,388 students",
+            "course_title": "Foundations of Data Science: Inferential Thinking by Resampling"
+        },
+        {
+            "course_duration": "3-4 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1222/alison_courseware_intro_1222.jpg",
+            "long_description": "This free online Bootstrap course will teach you about how Bootstrap works and how you can build high-performing, attractive, and responsive web pages with Bootstrap. In this course, you will learn how to use this responsive front-end web design framework and the huge number of accessible resources that it features to rapidly prototype designs, and produce stunning finished products with minimal time and effort.",
+            "number_of_students": " 7,465 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use Bootstrap to build a responsive website for desktops, tablets, and cellphones, with this free course.",
+            "url": "https://alison.com/course/building-a-responsive-user-interface-with-bootstrap",
+            "course_title": "Building a Responsive User Interface with Bootstrap"
+        },
+        {
+            "course_duration": "3-4 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1207/alison_courseware_intro_1207.jpg",
+            "long_description": "This free online Bootstrap course will teach you how you can use Bootstrap to supercharge your web design in the Visual Studio development environment. Bootstrap is the most popular HTML, CSS, and JavaScript frameworks used for the development of responsive mobile-first projects today, and with good reason. In this course, you will learn about Bootstrap components and themes to your website, it's use in website development, and more!",
+            "number_of_students": " 5,211 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use Bootstrap to create a responsive website for desktops, tablets, and mobile phones in just a few hours.",
+            "url": "https://alison.com/course/introduction-to-responsive-design-using-bootstrap",
+            "course_title": "Introduction to Responsive Design using Bootstrap"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/75/789eb855e841a49c54d39a5614ac01/illinois_hpp_unit-logo_edit.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 29 hours to complete",
+            "number_of_students": "2,799 students",
+            "short_description": " DiseÃ±ar una pÃ¡gina web con Bootstrap Implementar tu diseÃ±o con Bootstrap Crear un diseÃ±o responsive Preparar tu sitio web para salir a producciÃ³n",
+            "long_description": "Este curso te enseñará conceptos generales de desarrollo web del lado cliente, metodologías de trabajo y herramientas. Aprenderás sobre diseño responsive, grillas, y componentes CSS y Javascript de Bootstrap. Practicarás con preprocesadores de CSS, Less y Sass. También aplicarás conceptos básicos de Node.js y NPM para gestionar tus sitios web.\n\nAl finalizar este curso, habrás practicado con todas esas herramientas y serás capaz de diseñar una página web e implementar ese diseño con Bootstrap, crear un diseño responsive y preparar tu sitio web para salir a producción.",
+            "url": "https://www.coursera.org/learn/disenando-paginas-bootstrap4",
+            "course_title": "Diseñando páginas web con Bootstrap 4"
+        }
+    ],
+    "CSS": [
+        {
+            "image": "https://www.codecademy.com/webpack/64ffbb7557fac182fb5da99c2bb0d39f.svg",
+            "course_duration": "9 Hours",
+            "price": "FREE",
+            "long_description": "Why Learn HTML and CSS?\nEverything you see on a website is a result of the combination of HTML and CSS. With these two languages, you will have the skills you need to bring your website design to life. Jumpstart that vision by using Bootstrap, a popular library that allows you to create beautiful, responsive pages with very little time and experience.\nTake-Away Skills:\nYou’ll build four simple websites using web development fundamentals, including HTML5, CSS3 and Bootstrap. You’ll learn to understand and modify the structure of a basic website, as well as how to change the way a page looks and is laid out.\n ",
+            "short_description": "Explore HTML & CSS fundamentals as you build a website in this introductory web development course.",
+            "url": "https://www.codecademy.com/learn/make-a-website",
+            "number_of_students": "1,230,463 students",
+            "course_title": "Make a Website"
+        },
+        {
+            "id": [
+                "course-v1:edX+Julia1234x+1T2018a",
+                "course-v1:edX+Julia1234x+1T2018a"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@asset+block@course_image.jpg",
+                "small": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:edX+Julia1234x+1T2018a+type@thumbnail+block@course_image-750x400.jpg"
+            },
+            "course_duration": "57 weeks",
+            "price": "FREE",
+            "long_description": "HTML5 is the standard language of the Web, developed by W3C. For application developers and industry, HTML5 represents a set of features that people will be able to rely on for years to come. HTML5 is supported on a wide variety of devices, lowering the cost of creating rich applications to reach users everywhere.",
+            "short_description": "HTML: just be comfortable putting together an HTML document\n\nCSS: minimal familiarity with CSS\n\nJavaScript and DOM APis: basic knowledge is sufficient, and this course will include a recap of basics\n\nStudents should follow these W3Cx courses on edX: <a href=\"https://www.edx.org/course/css-basics-w3cx-css-0x\">CSS Basics</a>, <a href=\"https://www.edx.org/course/html5-css-fundamentals-w3cx-html5-0x\">HTML5 &amp; CSS Fundamentals</a>and <a href=\"https://www.edx.org/course/javascript-introduction-w3cx-js-0x\">JavaScript Introduction</a>\n\nLearn the new simplified HTML5 tags\n\nPlay with the audio and video tags\n\nDraw and animate fun Web graphics\n\nDiscover the newest HTML5 forms features\n\nTest the basic APIs, such as Web storage and geolocation\n\nAnd most of all, practice coding techniques thanks to multiple interactive examples\n\nFrom HTML1.0 to HTML5\n\nNew structural elements\n\nOther elements and attributes\n\nMicrodata\n\nStreaming multimedia content: the video and audio elements\n\nSubtitles and closed captions\n\nEnhanced HTML5 media players and frameworks\n\nWebcam, microphone: the getUserMedia API\n\nBasics of HTML5 canvas\n\nImmediate drawing mode: rectangles, text, images, etc.\n\nPath drawing mode: lines, circles, arcs, curves and other path drawing methods\n\nColors, gradients, patterns, shadows, etc.\n\nBasic animation techniques\n\nCanvas and user interaction\n\nA glimpse of advanced canvas functionalities\n\nIntroduction to HTML5 forms\n\nAccessible forms\n\nNew input types\n\nNew forms attributes\n\nNew elements related to forms\n\nForm validation API\n\nIntroduction to HTML5 APIs\n\nHTML5 cache\n\nThe Web Storage API\n\nThe File API\n\nThe Geolocation API\n\n",
+            "url": "https://www.edx.org/course/html5-coding-essentials-and-best-practices",
+            "number_of_students": "232,736 students",
+            "course_title": "HTML5 Coding Essentials and Best Practices"
+        },
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "7 Hours",
+            "price": "15.99$",
+            "long_description": "Why Learn Sass?\nSass is an easy-to-use styling language that helps reduce a lot of the repetition and maintainability challenges of traditional CSS. Learning Sass will not only let you scale styles when working on big web development projects, it will also make it much faster and more efficient to write reusable styles from scratch for smaller projects.\nTake-Away Skills:\nThis course will teach you how to use nesting, variables, mixins, placeholders, and functions to write more expressive and reusable styles. At the end of the course, you will be able to transition a CSS codebase to SCSS and style multiple websites.\nNote on Prerequisites:\nWe recommend you complete Learn CSS, particularly the basics of working with CSS selectors and visual rules, before taking this course.\n ",
+            "short_description": "Expand your CSS knowledge by learning SCSS syntax, nesting, functions, and more in this course!",
+            "url": "https://www.codecademy.com/learn/learn-sass",
+            "number_of_students": "184,540 students",
+            "course_title": "Learn Sass"
+        }
+    ],
+    "SCSS": [
+        {
+            "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+            "course_duration": "7 Hours",
+            "price": "15.99$",
+            "long_description": "Why Learn Sass?\nSass is an easy-to-use styling language that helps reduce a lot of the repetition and maintainability challenges of traditional CSS. Learning Sass will not only let you scale styles when working on big web development projects, it will also make it much faster and more efficient to write reusable styles from scratch for smaller projects.\nTake-Away Skills:\nThis course will teach you how to use nesting, variables, mixins, placeholders, and functions to write more expressive and reusable styles. At the end of the course, you will be able to transition a CSS codebase to SCSS and style multiple websites.\nNote on Prerequisites:\nWe recommend you complete Learn CSS, particularly the basics of working with CSS selectors and visual rules, before taking this course.\n ",
+            "short_description": "Expand your CSS knowledge by learning SCSS syntax, nesting, functions, and more in this course!",
+            "url": "https://www.codecademy.com/learn/learn-sass",
+            "number_of_students": "184,540 students",
+            "course_title": "Learn Sass"
+        }
+    ],
+    "code review": [
+        {
+            "id": [
+                "course-v1:DelftX+ST1x+3T2020",
+                "course-v1:DelftX+ST1x+3T2020"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:DelftX+ST1x+3T2020+type@asset+block@course_image.png",
+                "small": "https://courses.edx.org/asset-v1:DelftX+ST1x+3T2020+type@thumbnail+block@course_image-png-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:DelftX+ST1x+3T2020+type@thumbnail+block@course_image-png-750x400.jpg"
+            },
+            "course_duration": "4 weeks",
+            "price": "FREE",
+            "long_description": "Software testinggets a bad rap for being difficult, time-consuming, redundant, and above all - boring. But in fact, it is a proven way to ensure that your software will work flawlessly andcan meet release schedules. ",
+            "short_description": "How to test any software system using current state-of-the-arttechniques\n\nHow to derive test cases that deal with exceptional, corner, and bad-weather cases by means of several different techniques\n\nThe limitations of current testing techniques and how to decide on the best testing strategies for a given context\n\nHow to develop testable architectures and to write maintainable test code\n\nUnderstand some basic principles of testing and whyit requires creativity.\n\nGet familiar withsome testing vocabulary, which improves our communication.\n\nDevise our first set of tests for a Java program and automatethese testsusing JUnit.\n\nUnderstand the differences between unit, integration, and system testing, as well as the testing pyramid.\n\nLearn how to read a requirement and derive the partitions, which are the actual concrete tests we will perform to make sure our system works (we call it \"partitioning\" and \"equivalent partitioning\").\n\nLearn how to think about and test possible corner cases, as developersoften forget to deal with such cases (we call itboundary testing).\n\nGet a few tips, based on experience, on common corner cases.\n\nLearn how to analyze the structure of your source code and derive meaningful tests.\n\nBe able to use the most popular structural testing adequacy criteria, such as line coverage, branch coverage, and path coverage as well as to understand their differences.\n\nDerive a minimal set of tests when your branches (e.g., ifs) are too complex.\n\nUse a standard industry code coverage tool and interpret its results.\n\nUnderstand the differences between different test levels (e.g., unit, integration, and system tests)\n\nUnderstand what makes a system more or less testable.\n\nPropose refactoring opportunities for increasing testability.\n\nBe able to apply mock objects in order to unit test a class.\n\nUnderstand when not to apply mock objects and go for integration tests.\n\nJudge the internal code quality of your test suite and advice possible improvements.\n\nUnderstand and avoid flaky tests.\n\nRefactor and clean smelly test code.\n\n",
+            "url": "https://www.edx.org/course/automated-software-testing-unit-testing-coverage-criteria-and-design-for-testability",
+            "number_of_students": "11,371 students",
+            "course_title": "Automated Software Testing: Unit Testing, Coverage Criteria and Design for Testability"
+        },
+        {
+            "price": "Free",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/d2/f16665de844222a71ea52867e347ef/SAS-programmer-professional-certificate-HP-unit-v3.png?auto=format%2Ccompress&dpr=1&w=172",
+            "course_duration": "Approx. 11 hours to complete",
+            "number_of_students": "5,284 students",
+            "short_description": " Describe how each type of clinical data are generated, specifically outlining who creates the data, when and why the data are generated. Write SQL code to combine two or more tables using database joins. Write R code to manipulate and tidy data including: selecting columns, filtering rows, and joining data sets.  Write markdown formatted text and combine with R code in RMarkdown documents.",
+            "long_description": "This course will prepare you to complete all parts of the Clinical Data Science Specialization. In this course you will learn how clinical data are generated, the format of these data, and the ethical and legal restrictions on these data. You will also learn enough SQL and R programming skills to be able to complete the entire Specialization - even if you are a beginner programmer. While you are taking this course you will have access to an actual clinical data set and a free, online computational environment for data science hosted by our Industry Partner Google Cloud. \n\nAt the end of this course you will be prepared to embark on your clinical data science education journey, learning how to take data created by the healthcare system and improve the health of tomorrow's patients.",
+            "url": "https://www.coursera.org/learn/introduction-clinical-data-science",
+            "course_title": "Introduction to Clinical Data Science"
+        }
+    ],
+    "MVC": [],
+    "Vue": [
+        {
+            "id": [
+                "course-v1:LouvainX+Louv12x+3T2019",
+                "course-v1:LouvainX+Louv12x+3T2019"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:LouvainX+Louv12x+3T2019+type@asset+block@course_image.png",
+                "small": "https://courses.edx.org/asset-v1:LouvainX+Louv12x+3T2019+type@thumbnail+block@course_image-png-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:LouvainX+Louv12x+3T2019+type@thumbnail+block@course_image-png-750x400.jpg"
+            },
+            "course_duration": "56 weeks",
+            "price": "FREE",
+            "long_description": "Ebranl&eacute;es par les crises financi&egrave;res et &eacute;conomiques mondiales, de plus en plus d&rsquo;entreprises consacrent des ressources importantes &agrave; leurs politiques de responsabilit&eacute; soci&eacute;tale. Mais qu&rsquo;est-ce que la responsabilit&eacute; soci&eacute;tale d&rsquo;une entreprise (RSE) ? Les parties prenantes aux activit&eacute;s de l&rsquo;entreprise sont-elles r&eacute;ellement int&eacute;ress&eacute;es par la RSE ? Si oui, comment les entreprises devraient-elles communiquer avec ces parties prenantes ? Dans le climat actuel d&rsquo;incertitude, la RSE est un facteur critique d&rsquo;&eacute;volution voire de r&eacute;volution du monde des affaires.",
+            "short_description": "Comme une invitation &agrave; la r&eacute;flexion sur les pratiques des entreprises.\n\nComme une source d&rsquo;innovation et un moyen de g&eacute;rer &agrave; la fois une comp&eacute;tition intense, des demandes pour un d&eacute;veloppement plus durable et un changement de paradigme au niveau de la gouvernance internationale.\n\nsoutenir les managers actuels et futurs dans leurs efforts pour positionner un leadership responsable, une production et une consommation durable au centre de leur vision strat&eacute;gique.\n\naider les citoyens &agrave; jouer plus efficacement leur r&ocirc;le de vigiles inform&eacute;s et de consommateurs responsables.\n\nDiscuter la nature multidimensionnelle du concept de la RSE.\n\nAdopter un point de vue critique sur les questions &eacute;thiques, sociales et environnementales que pose le fonctionnement des organisations contemporaines.\n\nStimuler et g&eacute;rer des changements effectifs dans les organisations, vers des postures plus responsables.\n\nConcilier les int&eacute;r&ecirc;ts des multiples parties prenantes dans un plan d&rsquo;actions et de communication clair et judicieux.\n\nReconna&icirc;tre le risque de &laquo; CSR washing &raquo; tout autant que les opportunit&eacute;s li&eacute;es &agrave; une solide strat&eacute;gie de communication de la RSE.\n\nQuelle est la raison d&rsquo;&ecirc;tre d&rsquo;une entreprise ?\n\nQu&rsquo;est-ce que la RSE ?\n\nQuelles diff&eacute;rences entre la RSE et la &laquo; cr&eacute;ation de valeur partag&eacute;e &raquo; ?\n\nQui sont les parties prenantes ?\n\nComment identifier les parties prenantes pertinentes et leurs attentes ?\n\nQuelles sont les critiques formul&eacute;es &agrave; l&rsquo;&eacute;gard de ce concept de RSE ?\n\nComment mettre en &oelig;uvre une strat&eacute;gie de RSE ?\n\nQuels sont les outils ou les guides disponibles ?\n\nQuels sont les facteurs de succ&egrave;s et les obstacles dans cette mise en &oelig;uvre ?\n\nQuel est le r&ocirc;le du dialogue avec les parties prenantes ?\n\nQuelles sont les motivations et les b&eacute;n&eacute;fices potentiels pour les entreprises ?\n\nPourquoi les entreprises devraient-elles, ou ne devraient-elles pas, communiquer &agrave; propos de leur RSE ?\n\nQuels canaux de communication utiliser ?\n\nQuand communiquer ?\n\nQue dire ?\n\nQu&rsquo;est-ce que le &laquo; CSR washing &raquo; ?\n\nQuelles recommandations pour une communication cr&eacute;dible ?\n\nPourquoi d&eacute;velopper un rapport de RSE ?\n\nQuels sont les diff&eacute;rents mod&egrave;les de rapport de RSE ?\n\nQuel est l&rsquo;&eacute;tat actuel de la l&eacute;gislation et quels sont les d&eacute;veloppements &agrave; venir ?\n\nComment &eacute;valuer la qualit&eacute; d&rsquo;un rapport RSE ?\n\nEst-ce que les consommateurs se soucient de la RSE ?\n\nQui sont les &laquo; consommateurs responsables &raquo; ?\n\nQuelles sont les barri&egrave;res &agrave; une consommation responsable ?\n\nQu&rsquo;est-ce qui stimule une consommation responsable ?\n\nQuels impacts des actions collectives des consommateurs (boycotts, buycotts) sur les entreprises ?\n\n",
+            "url": "https://www.edx.org/course/communiquer-la-responsabilité-sociétale-des-entreprises-rse",
+            "number_of_students": "8,314 students",
+            "course_title": "Communiquer la responsabilité sociétale des entreprises (RSE)"
+        }
+    ],
+    "git": [
+        {
+            "id": [
+                "course-v1:IBM+PYTEST+3T2018",
+                "course-v1:IBM+PYTEST+3T2018"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:IBM+PYTEST+3T2018+type@asset+block@Screen_Shot_2017-10-16_at_5.36.22_PM.png",
+                "small": "https://courses.edx.org/asset-v1:IBM+PYTEST+3T2018+type@thumbnail+block@Screen_Shot_2017-10-16_at_5.36.22_PM-png-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:IBM+PYTEST+3T2018+type@thumbnail+block@Screen_Shot_2017-10-16_at_5.36.22_PM-png-750x400.jpg"
+            },
+            "course_duration": "",
+            "price": "FREE",
+            "long_description": "In the information age, data is all around us. Within this data are answers to compelling questions across many societal domains (politics, business, science, etc.). But if you had access to a large dataset, would you be able to find the answers you seek?",
+            "short_description": "python\n\njupyter notebooks\n\npandas\n\nnumpy\n\nmatplotlib\n\ngit\n\nand many other tools.\n\nBasic process of data science\n\nPython and Jupyter notebooks\n\nAn applied understanding of how to manipulate and analyze uncurated datasets\n\nBasic statistical analysis and machine learning methods\n\nHow to effectively visualize results\n\n",
+            "url": "https://www.edx.org/course/python-for-data-science",
+            "number_of_students": "257,242 students",
+            "course_title": "Python for Data Science"
+        },
+        {
+            "id": [
+                "course-v1:MichiganX+ANATOMY403.4x+3T2019",
+                "course-v1:MichiganX+ANATOMY403.4x+3T2019"
+            ],
+            "image": {
+                "raw": "https://courses.edx.org/asset-v1:MichiganX+ANATOMY403.4x+3T2019+type@asset+block@course_image.jpg",
+                "small": "https://courses.edx.org/asset-v1:MichiganX+ANATOMY403.4x+3T2019+type@thumbnail+block@course_image-375x200.jpg",
+                "large": "https://courses.edx.org/asset-v1:MichiganX+ANATOMY403.4x+3T2019+type@thumbnail+block@course_image-750x400.jpg"
+            },
+            "course_duration": "54 weeks",
+            "price": "FREE",
+            "long_description": " In this anatomy course, part of the Anatomy XSeries, you&rsquo;ll learn about the various digestive, endocrine, and reproductive organs, their functions, and pathways of nerves and blood vessels serving these organs. Clinical correlations and vignettes will be used to highlight the importance of these anatomical structures and their relationships. Images and videos from cadaveric and artistic materials will be used to illustrate these concepts.</",
+            "short_description": "Understand basic anatomy and important clinical concepts related to the gastrointestinal, endocrine, and reproductive systems\n\nLearn the primary functions of the gastrointestinal, reproductive and endocrine system independently and in relation to the human body\n\nDigestive Functions of the GIT\n\nTypes of Digestion\n\nOral Cavity\n\nPharynx &amp; Divisions\n\nEsophagus &amp; Stomach\n\nDuodenum &amp; Accessory Organs\n\nLarge Intestine\n\nMesentaries &amp; Omenta\n\nOverview of Endocrinology\n\nPineal and Pituitary Glands\n\nThyroid Structure, Location &amp; Functions\n\nParathyroids\n\nAdrenal Glands\n\nPancreatic Anatomy\n\n",
+            "url": "https://www.edx.org/course/anatomy-gastrointestinal-reproductive-and-endocrine-systems",
+            "number_of_students": "25,097 students",
+            "course_title": "Anatomy: Gastrointestinal, Reproductive and Endocrine Systems"
+        }
+    ],
+    "GitHub": [],
+    "PHP": [
+        {
+            "course_duration": "10-15 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1641/alison_courseware_intro_1641.jpg",
+            "long_description": "This free online Diploma course will give you a full run through of the essential concepts around e-commerce web development. You will learn how to build an e-commerce website from scratch, using PHP and SQL. E-Commerce web developers are highly skilled and well-paid professionals who make an important contribution to any business they work for. So, start the course today and gain valuable web development skills.",
+            "number_of_students": " 8,429 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to build an e-commerce website from scratch, using PHP and SQL with this free online web development course.",
+            "url": "https://alison.com/course/diploma-in-e-commerce-web-development",
+            "course_title": "Diploma in E-Commerce Web Development"
+        }
+    ],
+    "jQuery": [
+        {
+            "course_duration": "4-5 Hours",
+            "image": "https://cdn01.alison-static.net/courses/322/alison_courseware_intro_322.jpg",
+            "long_description": "jQuery is one of the most popular tools used today for designing and implementing JavaScript in web pages. If you want long term employment as a computer programmer, or even if you just need to design a few really beautiful web pages for your own website, understanding how jQuery interacts with JavaScript is essential. This course will show you how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "number_of_students": " 54,159 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "url": "https://alison.com/course/javascript-and-jquery",
+            "course_title": "JavaScript and jQuery"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1435/alison_courseware_intro_1435.jpg",
+            "long_description": "This free online course will introduce you to the concept of the Document Object Model and how you can add greater functionality to your web pages using jQuery. JavaScript can change HTML elements in a web page, including attributes and CSS styles, remove existing HTML elements and attributes, add new HTML elements and attributes, and react to all existing HTML events in the page. Get up to speed with Javascript, today.",
+            "number_of_students": " 4,412 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to add more functionality to your web pages using the Document Object Model and jQuery plugins.",
+            "url": "https://alison.com/course/javascript-working-with-the-document-object-model-and-jquery-plugins-revised",
+            "course_title": "JavaScript - Working with the Document Object Model and jQuery Plugins - Revised"
+        }
+    ],
+    "JQuery": [
+        {
+            "course_duration": "4-5 Hours",
+            "image": "https://cdn01.alison-static.net/courses/322/alison_courseware_intro_322.jpg",
+            "long_description": "jQuery is one of the most popular tools used today for designing and implementing JavaScript in web pages. If you want long term employment as a computer programmer, or even if you just need to design a few really beautiful web pages for your own website, understanding how jQuery interacts with JavaScript is essential. This course will show you how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "number_of_students": " 54,159 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to use and understand JavaScript and jQuery when designing and developing custom web pages.",
+            "url": "https://alison.com/course/javascript-and-jquery",
+            "course_title": "JavaScript and jQuery"
+        },
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1435/alison_courseware_intro_1435.jpg",
+            "long_description": "This free online course will introduce you to the concept of the Document Object Model and how you can add greater functionality to your web pages using jQuery. JavaScript can change HTML elements in a web page, including attributes and CSS styles, remove existing HTML elements and attributes, add new HTML elements and attributes, and react to all existing HTML events in the page. Get up to speed with Javascript, today.",
+            "number_of_students": " 4,412 Students",
+            "price": "Free Course",
+            "short_description": "Learn how to add more functionality to your web pages using the Document Object Model and jQuery plugins.",
+            "url": "https://alison.com/course/javascript-working-with-the-document-object-model-and-jquery-plugins-revised",
+            "course_title": "JavaScript - Working with the Document Object Model and jQuery Plugins - Revised"
+        }
+    ],
+    "CSS3": [
+        {
+            "course_duration": "2-3 Hours",
+            "image": "https://cdn01.alison-static.net/courses/1419/alison_courseware_intro_1419.jpg",
+            "long_description": "This free online Web Development course focuses on Advanced CSS3 Selectors and HTML5 Elements. You will study helpful features like rounded corners, shadows, gradients, transitions or animations, as well as useful layouts like multi-columns, flexible boxes, or grid layouts. With this course, you will also learn the advanced features and functionality of CSS3 and HTML5 and help you style and format web pages in a precise and professional manner.",
+            "number_of_students": " 14,264 Students",
+            "price": "Free Course",
+            "short_description": "Gain an in-depth understanding of CSS3 selectors and advanced HTML5 elements with this free web development course.",
+            "url": "https://alison.com/course/web-development-advanced-css3-selectors-and-html5-elements-revised",
+            "course_title": "Web Development - Advanced CSS3 Selectors and HTML5 Elements - Revised"
+        }
+    ],
+    "MySQL": [],
+    "PostgreSQL": [],
+    "MongoDB": [],
+    "Redis": [],
+    "WebSockets": [],
+    "SVN": [],
+    "Gulp": [],
+    "SASS": [],
+    "Laravel": []
+}

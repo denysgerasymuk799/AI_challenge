@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>S.E.A</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../static/content-filter-master/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="../static/content-filter-master/css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="../static/css/style_all_courses_page.css">
+
+    <script src="../static/content-filter-master/js/modernizr.js"></script> <!-- Modernizr -->
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container-fluid">
+            <div class="topnav">
+                <img src="static/images/mini_sea_logo.png">
+                <a class="topnav_logo" href="#">S.E.A</a>
+                <a class="topnav_a active" href="#home">All courses</a>
+                <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
+                <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
+                {#                <button type="submit">View selected</button>#}
+            </div>
+        </div>
+    </header>
+
+</div>
+
+<div class="main_all_courses">
+    <main class="cd-main-content">
+        <div class="cd-tab-filter-wrapper">
+            <div class="cd-tab-filter">
+                <ul class="cd-filters">
+                    <li class="placeholder">
+                        <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+                    </li>
+                    <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+                </ul> <!-- cd-filters -->
+            </div> <!-- cd-tab-filter -->
+        </div> <!-- cd-tab-filter-wrapper -->
+
+        <section class="cd-gallery">
+            <form method="post" action="{{ url_for('selected_from_main') }}">
+                <ul>
+                    {% for courses_for_skill in courses_for_skills_lst %}
+                        {% set outer_loop = loop %}
+
+                        {% for course in courses_for_skill %}
+                            <li class="{{ course.price }}">
+                                <div class="col-3">
+                                    <div class="checkbox-field">
+                                        <input type="checkbox" name="course_name" value="{{ course.course_title }}"/>
+                                    </div>
+
+                                    <figure class="m-0">
+                                        {% if course.image %}
+                                            {% if course.image.image_240x135 %}
+                                                <a href={{ course.url }}><img src="{{ course.image.image_480x270 }}"></a>
+                                            {% elif course.image.small %}
+                                                <a href={{ course.url }}><img src="{{ course.image.large }}"></a>
+                                            {% else %}
+                                                <a href={{ course.url }}><img src="{{ course.image.rsplit('?')[0] }}"></a>
+                                            {% endif %}
+                                        {% endif %}
+                                    </figure>
+                                </div>
+                                <div>
+                                    <div class="text_for_course"><a href="{{ course.url }}">{{ course.course_title }}</a>
+                                    </div>
+
+                                    <div class="text_for_course"><span
+                                            class="icon-clock-o"></span>{{ course.course_duration }}</div>
+                                    <p class="text_for_course">{{ course.short_description }}</p>
+                                </div>
+                            </li>
+
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            </form>
+            <div class="cd-fail-message">No results found</div>
+        </section> <!-- cd-gallery -->
+
+        <div class="cd-filter">
+            <form method="post" id="the-form" action="{{ url_for('render_main_page') }}">
+
+                <div class="cd-filter-block">
+                    <h4>Price</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".free" type="checkbox" id="checkbox1">
+                            <label class="checkbox-label" for="checkbox1">Free</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".payed" type="checkbox" id="checkbox2">
+                            <label class="checkbox-label" for="checkbox2">Payed</label>
+                        </li>
+
+                    </ul> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+
+                <div class="cd-filter-block">
+                    <h4>Certification</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".with_cerf" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox1">With certificate</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".without_cerf" type="checkbox" id="checkbox4">
+                            <label class="checkbox-label" for="checkbox2">Without certificate</label>
+                        </li>
+
+                    </ul> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+
+                <div class="cd-filter-block">
+                    <h4>Duration</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".0-10_hours" type="checkbox" id="checkbox5">
+                            <label class="checkbox-label" for="checkbox3">0-10 Hours</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".10-20_hours" type="checkbox" id="checkbox6">
+                            <label class="checkbox-label" for="checkbox4">10-20 Hours</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".20-30_hours" type="checkbox" id="checkbox7">
+                            <label class="checkbox-label" for="checkbox5">20-30 Hours</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".30+_hours" type="checkbox" id="checkbox8">
+                            <label class="checkbox-label" for="checkbox6">30+ Hours</label>
+                        </li>
+                    </ul> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+
+                <div>
+                    <button type="submit"
+                            class="search_button">View selected</button>
+                </div>
+
+                <div>
+                    <button type="submit" class="search_button">Search courses</button>
+                </div>
+
+                <h4>Alphabetical order</h4>
+                {% set id_checkbox = 9 %}
+                {% for letter in sorted_skills_by_letter.keys() %}
+                    {% if sorted_skills_by_letter[letter] != [] %}
+                        <div class="cd-filter-block">
+                            <h4>{{ letter.upper() }}</h4>
+                            <ul class="cd-filter-content cd-filters list">
+                                {% for skill in sorted_skills_by_letter[letter] %}
+                                    <li>
+                                        <input class="filter"
+                                               type="checkbox"
+                                               name="chosen_skills"
+                                               value="{{ skill.name }}"
+                                               id="checkbox{{ id_checkbox }}">
+                                        <label class="checkbox-label" for="checkbox6">{{ skill.name[0].upper() +
+                                            skill.name[1:] }}</label>
+                                    </li>
+                                    {% set id_checkbox = id_checkbox + 1 %}
+                                {% endfor %}
+                            </ul> <!-- cd-filter-content -->
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+            </form>
+
+            <a href="#0" class="cd-close">Close</a>
+        </div> <!-- cd-filter -->
+
+        <a href="#0" class="cd-filter-trigger">Filters</a>
+    </main> <!-- cd-main-content -->
+</div>
+
+<script src="../static/content-filter-master/js/jquery-2.1.1.js"></script>
+<script src="../static/content-filter-master/js/jquery.mixitup.min.js"></script>
+<script src="../static/content-filter-master/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

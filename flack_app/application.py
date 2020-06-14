@@ -1,6 +1,7 @@
 # from docx import Document
 import json
 import os
+import string
 from pprint import pprint
 
 from flask import Flask, Blueprint, render_template, request, redirect, url_for, session
@@ -70,8 +71,54 @@ class Course(db.Model):
                 "long_description": self.long_description, "url": self.url}
 
 
-@app.route("/")
+@app.route("/", methods=['POST', 'GET'])
 def render_main_page():
+    search_skills = request.form.getlist("chosen_skills")
+    selected_courses = request.form.getlist("course_name")
+    print(search_skills)
+    print(selected_courses)
+
+    courses_for_skills_lst = []
+    if not search_skills:
+        search_skills = ["SQL"]
+
+    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
+            user_data_json_from_file:
+        user_data_json = {'main_page_skills': search_skills}
+        if selected_courses:
+            user_data_json['selected_courses'] = selected_courses
+            json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+            return redirect(url_for("selected_from_main"))
+        else:
+
+            json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+
+    for skill in search_skills:
+        print("skill", skill)
+        courses_db = Skill.query.filter_by(name=skill).first().courses
+        courses_db = price_filter(courses_db)
+        courses_db = duration_filter(courses_db)
+        courses_db = certificate_filter(courses_db)
+        for course_dict in courses_db:
+            print(course_dict.url)
+
+        courses_for_skills_lst.append(courses_db)
+
+    skills = Skill.query.all()
+    sorted_skills_by_letter = {}
+
+    for letter in string.ascii_lowercase:
+        sorted_skills_by_letter[letter] = []
+
+    for skill in skills:
+        sorted_skills_by_letter[str(skill.name).lower()[0]].append(skill)
+
+    return render_template("all_courses_page.html", courses_for_skills_lst=courses_for_skills_lst,
+                           sorted_skills_by_letter=sorted_skills_by_letter)
+    # return redirect(url_for('input_profession'))
+
+
+def start_login():
     return redirect(url_for('login'))
 
 
@@ -103,7 +150,7 @@ def register():
         if function_for_register(address, password, re_password):
             return redirect(url_for('login'))
     return render_template("register.html")
-
+=======
 
 @app.route('/input_profession', methods=['POST', 'GET'])
 def input_profession():
@@ -114,6 +161,10 @@ def input_profession():
         job = dct.get(temp_job, temp_job).lower()
 
         global skills
+
+        with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+                user_data_json_from_file:
+            user_data_json = json.load(user_data_json_from_file)
 
         with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
                 user_data_json_from_file:
@@ -186,7 +237,7 @@ def middle():
 def get_courses(current_skills):
     """
     :param skills: a list of user skills which he input
-    :return: a dict of courses for the speial skill
+    :return: a dict of courses for the special skill
     """
     with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
@@ -241,6 +292,34 @@ def index():
     return render_template("one_section.html", courses_list=courses)
 
 
+@app.route('/selected_from_main', methods=['POST', 'GET'])
+def selected_from_main():
+    """
+
+    :return: a function to page where you can view your selected courses
+    """
+    selected_courses = request.form.getlist("course_name")
+
+    print(selected_courses)
+    my_courses = []
+    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+            user_data_json_from_file:
+        user_data_json = json.load(user_data_json_from_file)
+
+    skill_names = user_data_json["main_page_skills"]
+    # course_names = user_data_json["selected_courses"]
+    print(skill_names)
+    # print(course_names)
+    for skill in skill_names:
+        print("skill", skill)
+        courses_db = Skill.query.filter_by(name=skill).first().courses
+        for course in courses_db:
+            if course.course_title in course_names:
+                my_courses.append(course)
+    print(my_courses)
+    return render_template("selected_from_main.html", my_courses=my_courses)
+
+
 @app.route('/selected', methods=['POST', 'GET'])
 def selected():
     """
@@ -256,6 +335,11 @@ def selected():
                 my_courses.append(course)
     print(my_courses)
     return render_template("selected.html", my_courses=my_courses)
+
+
+@app.route('/price_plans', methods=['POST', 'GET'])
+def price_plans():
+    return render_template("view_plans.html")
 
 
 def students_filter(courses_dict):
@@ -309,45 +393,35 @@ def filter_param(courses_lst):
     return courses_lst
 
 
-def price_filter(type_price, courses_lst):
+def price_filter(courses_db):
     """
 
-    :param type_price: str, "free" or if any else, it will filter  payed courses
-    :param courses_lst: list
     :return: a list of special courses with parameter
     """
-    result_lst = []
-    if type_price.lower() == "free":
-        for course in courses_lst:
-            if course["price"].lower() == "free":
-                result_lst.append(course)
+    for position in range(len(courses_db)):
+        if courses_db[position].price.lower() == "free":
+            courses_db[position].price = "mix free"
 
-    else:
-        for course in courses_lst:
-            if course["price"].lower() != "free":
-                result_lst.append(course)
+        else:
+            courses_db[position].price = "mix payed"
 
-    return result_lst
+    return courses_db
 
 
-def duration_filter(duration, courses_lst):
+def duration_filter(courses_lst):
     """
 
-    :param duration: str from: "0-10 Hours", "10-20 Hours", "20-30 Hours", "30+ Hours"
     :param courses_lst:
     :return: a result filtered list
     """
-    if "+" in duration:
-        min_duration, max_duration = int(duration.split("+")[0]), 40
-    else:
-        duration = duration.split()
-        min_duration, max_duration = duration[0].split("-")
-        min_duration, max_duration = int(min_duration), int(max_duration)
-
-    result_lst = []
-
-    for course_dict in courses_lst:
-        course_duration = course_dict["course_duration"].lower()
+    duration_dict = {
+        "0-10_hours": (0, 10),
+        "10-20_hours": (11, 20),
+        "20-30_hours": (21, 30),
+        "30+_hours": (31, 40)
+    }
+    for position in range(len(courses_lst)):
+        course_duration = courses_lst[position].course_duration.lower()
         if "minutes" in course_duration:
             course_duration = int(course_duration.split()[0]) / 60
         elif "approx." in course_duration:
@@ -374,10 +448,15 @@ def duration_filter(duration, courses_lst):
         if course_duration == "":
             course_duration = 32
 
-        if min_duration <= course_duration <= max_duration:
-            result_lst.append(course_dict)
+        for course_time in duration_dict.keys():
+            min_duration, max_duration = duration_dict[course_time]
+            if min_duration <= course_duration <= max_duration:
+                courses_lst[position].price += " " + course_time
+                break
 
-    return result_lst
+        # courses_db[position].price = " " + courses_db[position].skill
+
+    return courses_lst
 
 
 def certificate_filter(courses_lst):
@@ -389,16 +468,21 @@ def certificate_filter(courses_lst):
     with_certificates = ["https://alison.com/", "https://www.edx.org/", "https://www.codecademy.com/",
                          "https://udemy.com/", "https://www.coursera.org/"]
 
-    result_lst = []
+    for position in range(len(courses_lst)):
+        flag_with_cerf = 0
 
-    for course in courses_lst:
         for site in with_certificates:
-            if course["url"].startswith(site):
-                result_lst.append(course)
+            if courses_lst[position].url.startswith(site):
+                courses_lst[position].price += " with_cerf"
+                flag_with_cerf = 1
                 break
 
-    return result_lst
+        if flag_with_cerf == 0:
+            courses_lst[position].price += " without_cerf"
+
+    return courses_lst
 
 
 if __name__ == '__main__':
     app.run(debug=True)
+    # db.create_all()
