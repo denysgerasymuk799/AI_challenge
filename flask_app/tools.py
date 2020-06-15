@@ -7,7 +7,7 @@ c) filtering skills and courses
 
 import os
 import json
-from AI_challenge.flask_app.models import Profession, Skill
+from flask_app.models import Profession, Skill
 
 
 def get_user_info():

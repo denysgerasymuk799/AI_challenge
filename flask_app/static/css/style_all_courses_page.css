@@ -187,9 +187,6 @@ h1.title--ultra, h2.title--ultra, h3.title--ultra, h4.title--ultra, h5.title--ul
     transition: .3s all ease-in-out;
     top: 0;
     position: relative;
-
-    flex: 5;
-    padding: 16px;
 }
 
 .course .course-inner-text {

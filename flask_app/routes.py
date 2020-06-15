@@ -1,19 +1,22 @@
 import string
-from flask import render_template, request, redirect,\
+from flask import render_template, request, redirect, \
     url_for, session, jsonify, make_response, flash
 from flask_login import current_user, login_user, logout_user, login_required
-from AI_challenge.flask_app import app, db
-from AI_challenge.flask_app.forms import LoginForm, RegistrationForm
-from AI_challenge.flask_app.models import Skill, User
-from AI_challenge.flask_app.tools import *
+from flask_app import app, db
+from flask_app.forms import LoginForm, RegistrationForm
+from flask_app.models import Skill, User
+from flask_app.tools import *
 
 
 @app.route("/", methods=['POST', 'GET'])
+def start():
+    return redirect(url_for("render_main_page"))
+
+
+@app.route("/render_main_page", methods=['POST', 'GET'])
 def render_main_page():
     search_skills = request.form.getlist("chosen_skills")
-    selected_courses = request.form.getlist("course_name")
     print(search_skills)
-    print(selected_courses)
 
     courses_for_skills_lst = []
     if not search_skills:
@@ -21,12 +24,7 @@ def render_main_page():
 
     # write_user_data writes user_data_json to file
     user_data_json = {'main_page_skills': search_skills}
-    if selected_courses:
-        user_data_json['selected_courses'] = selected_courses
-        write_user_data(user_data_json)
-        return redirect(url_for("selected_from_main"))
-    else:
-        write_user_data(user_data_json)
+    write_user_data(user_data_json)
 
     for skill in search_skills:
         print("skill", skill)
@@ -50,7 +48,34 @@ def render_main_page():
 
     return render_template("all_courses_page.html", courses_for_skills_lst=courses_for_skills_lst,
                            sorted_skills_by_letter=sorted_skills_by_letter)
-    # return redirect(url_for('input_profession'))
+
+
+@app.route("/save_request", methods=['POST', 'GET'])
+def save_request():
+    req = request.get_json()
+    print(req)
+
+    res = make_response(jsonify(req), 200)
+    print(res)
+
+    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as json_file:
+        user_data_json = json.load(json_file)
+        if req is not None:
+            selected_courses = []
+
+            for course in req.values():
+                selected_courses.append(course)
+
+            print(selected_courses)
+            user_data_json['selected_courses'] = selected_courses
+
+    write_user_data(user_data_json)
+
+    # with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
+    #         user_data_json_from_file:
+    #     json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
+
+    return redirect(url_for("selected_from_main"))
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -152,33 +177,35 @@ def selected_from_main():
 
     :return: a function to page where you can view your selected courses
     """
-    print("hello")
-    req = request.get_json()
-
-    print(req)
-
-    res = make_response(jsonify(req), 200)
-    print(res)
-    # selected_courses = request.form.getlist("course_name")
+    print()
+    print("hello selected_from_main")
+    # req = request.get_json()
     #
+    # print(req)
+    # req = dict(req)
+    #
+    # res = make_response(jsonify(req), 200)
+    # print(res)
+    # selected_courses = req.values()
     # print(selected_courses)
-    # my_courses = []
-    # with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
-    #         user_data_json_from_file:
-    #     user_data_json = json.load(user_data_json_from_file)
-    #
-    # skill_names = user_data_json["main_page_skills"]
-    # # course_names = user_data_json["selected_courses"]
-    # print(skill_names)
-    # # print(course_names)
-    # for skill in skill_names:
-    #     print("skill", skill)
-    #     courses_db = Skill.query.filter_by(name=skill).first().courses
-    #     for course in courses_db:
-    #         if course.course_title in course_names:
-    #             my_courses.append(course)
-    # print(my_courses)
-    return render_template("selected_from_main.html")
+
+    my_courses = []
+    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+            user_data_json_from_file:
+        user_data_json = json.load(user_data_json_from_file)
+
+    skill_names = user_data_json["main_page_skills"]
+    course_names = user_data_json["selected_courses"]
+    print(skill_names)
+    # print(course_names)
+    for skill in skill_names:
+        print("skill", skill)
+        courses_db = Skill.query.filter_by(name=skill).first().courses
+        for course in courses_db:
+            if course.course_title in course_names:
+                my_courses.append(course)
+    print(my_courses)
+    return render_template("selected_from_main.html", my_courses=my_courses)
 
 
 @app.route('/selected', methods=['POST', 'GET'])

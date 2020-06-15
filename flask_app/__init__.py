@@ -4,7 +4,7 @@ the server
 """
 
 from flask import Flask
-from AI_challenge.flask_app.my_config import Config
+from flask_app.my_config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
@@ -23,7 +23,7 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = "login"
 
-from AI_challenge.flask_app import routes, models
+from flask_app import routes, models
 
 db.create_all()
 app.run(debug=True)

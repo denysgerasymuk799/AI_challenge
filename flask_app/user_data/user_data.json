@@ -1,5 +1,67 @@
 {
-    "main_page_skills": [
-        "SQL"
-    ]
+    "profession": "analyst",
+    "all_job_skills": [
+        "data analysis",
+        "performance",
+        "Tableau",
+        "SQL",
+        "management"
+    ],
+    "current_skills": [
+        "performance"
+    ],
+    "courses": {
+        "data analysis": [
+            {
+                "id": "7",
+                "course_title": "Security and Privacy for Big Data - Part 2",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/f9/ebf2c04efe494cb30d427a65076b24/hpp-macquarie-with-logo-3.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 3 hours to complete",
+                "number_of_students": "",
+                "short_description": " Understand what data protection is and why this is important. Explain what personal data is, and know the essential facts about the GDPR, what the GDPR has changed compared to previous data protection law. Know privacy risks arising from Big Data applications and methods which reduce or prevent privacy risks of data processing activities.  Know concepts like anonymization and pseudonymization, k-anonymity, differential privacy, secure multiparty computation, and homomorphic encryption.",
+                "long_description": "This course sensitizes regarding privacy and data protection in Big Data environments. You will discover privacy preserving methodologies, as well as data protection regulations and concepts in your Big Data system. By the end of the course, you will be ready to plan your next Big Data project successfully, ensuring that all privacy and data protection related issues are under control. You will look at decent-sized big data projects with privacy-skilled eyes, being able to recognize dangers. This will allow you to improve your systems to a grown and sustainable level. \n\nIf you are an ICT professional or someone who designs and manages systems in big data environments, this course is for you! Knowledge about Big Data and IT is advantageous, but if you are e.g. a product manager just touching the surface of Big Data and privacy, this course will suit you as well.",
+                "url": "https://www.coursera.org/learn/security-privacy-big-data-protection"
+            }
+        ],
+        "tableau": [
+            {
+                "id": "8",
+                "course_title": "Fundamentals of Visualization with Tableau",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 10 hours to complete",
+                "number_of_students": "72,393 students",
+                "short_description": " \nInstall Tableau Public Software and create a visualization \nExamine and navigate the Tableau Public workspace \nPractice and connect to different data sources \nExamine ways to define your project",
+                "long_description": "In this first course of the specialization, you will discover just what data visualization is, and how we can use it to better see and understand data. Using Tableau, we’ll examine the fundamental concepts of data visualization and explore the Tableau interface, identifying and applying the various tools Tableau has to offer. By the end of the course you will be able to prepare and import data into Tableau and explain the relationship between data analytics and data visualization. This course is designed for the learner who has never used Tableau before, or who may need a refresher or want to explore Tableau in more depth.  No prior technical or analytical background is required.  The course will guide you through the steps necessary to create your first visualization story from the beginning based on data context,  setting the stage for you to advance to the next course in the Specialization.",
+                "url": "https://www.coursera.org/learn/data-visualization-tableau"
+            }
+        ],
+        "sql": [
+            {
+                "id": "11",
+                "course_title": "SQL: Analyzing Business Metrics",
+                "price": "15.99$",
+                "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+                "course_duration": "1 Hour",
+                "number_of_students": "147,479 students",
+                "short_description": "Explore SQL further in this course focusing on how to analyze data.",
+                "long_description": "Why Learn Business Metrics with SQL?\nBuilding on the knowledge from the Learn SQL course, this course expands on the skillset that you’ll need to be able to interact with data and run meaningful analyses. \nTake-Away Skills:\nIn this course created in partnership with Periscope, you’ll get exposed to the basics of data analysis. You’ll go through several workflows that will allow you to dissect and understand large amounts of data.\n ",
+                "url": "https://www.codecademy.com/learn/sql-analyzing-business-metrics"
+            }
+        ],
+        "management": [
+            {
+                "id": "15",
+                "course_title": "Cybersecurity Awareness and Innovation",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 4 hours to complete",
+                "number_of_students": "1,009 students",
+                "short_description": " Cibersecurity awareness mainly focused on identity management Understanding of effective protection mechanisms against common threats related with Identity Capacity to devise disruptive ideas related with identity protection",
+                "long_description": "It’s not you, it’s me! What’s going on? \n\nThis course empowers students, professionals and wider community to deal with cybersecurity attacks and risks focused on identity management and it is an introduction to the upcoming full course focused on cybersecurity awareness.\nIt is provided a practical overview of challenging issues like identity credentials management and security, e-mail threats and web impersonation, or web hacking. In addition to this, you will have a practical appreciation to innovation applied to these concepts through an interview with a renowned expert in fraud and cybercrime. Teaching staff consists of Iván Pau, UPM researcher and expert in usable security, and Román Ramírez, hacker and cybersecurity expert.  \nLearning will be carried out by introducing use cases related with cybersecurity incidents, in a way which ensures that participants get really involved in the course. You will easily acquire practical skills and be ready to face real threats in a digital world.\n\nThis course is part of an online programme developed by Universidad Politécnica de Madrid (world class tech university renowned for the quality of its education programmes and the research undertaken at its centres), Ferrovial (world's leading private investor in cities and infrastructures, with a workforce of more than 74.000 employees and operations in more than 16 countries) and EIT Digital.\n\nStay tuned for the full course! COMING SOON!",
+                "url": "https://www.coursera.org/learn/cybersecurity"
+            }
+        ]
+    }
 }

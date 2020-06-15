@@ -254,8 +254,7 @@ xgallery
 -------------------------------- */
 .cd-gallery {
   padding: 26px 5%;
-  width: 1000px;
-  height: 1500px;
+  width: 100%;
 }
 
 .cd-gallery li {

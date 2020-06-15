@@ -1,7 +1,7 @@
-from AI_challenge.flask_app import db
+from flask_app import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
-from AI_challenge.flask_app import login
+from flask_app import login
 
 # our relationship tables
 profession_to_skill = db.Table('profession_to_skill', db.Model.metadata,
