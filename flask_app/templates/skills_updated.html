@@ -1,6 +1,48 @@
-{% extends "base_log_reg.html" %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SEA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="static/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="static/css/aos.css">
+
+    <link rel="stylesheet" href="static/css/style.css">
+      <style>
+          .slide-1:before {
+              opacity: 0;
+          }
+      </style>
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-image: url('static/images/background3.jpg');background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
     <link rel="stylesheet" href="static/css/checkbox_style.css">
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
@@ -28,14 +70,14 @@
     </header>
     <div class="intro-section" id="home-section">
 
-      <div class="slide-1" style="background-image: url('static/images/background3.jpg');" data-stellar-background-ratio="0.5">
+      <div class="slide-1">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
                     <form class="form" autocomplete="off" id="form" method="post">
-                      <h2>What skills do you already have?</h2>
+                      <p style="color:rgba(36,115,184,0.79); font-size: 32px">What skills do you already have?</p>
 						{%for i in skills %}
                             <div class="inputGroup">
                                 <input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{ i[0].upper() + i[1:] }}</label>
@@ -54,4 +96,20 @@
       </div>
     </div>
     <script src="static/js/svgcheckbx.js"></script>
-{% endblock %}
+  </div>
+  <script src="static/js/jquery-3.3.1.min.js"></script>
+  <script src="static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="static/js/jquery-ui.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.stellar.min.js"></script>
+  <script src="static/js/jquery.countdown.min.js"></script>
+  <script src="static/js/bootstrap-datepicker.min.js"></script>
+  <script src="static/js/jquery.easing.1.3.js"></script>
+  <script src="static/js/aos.js"></script>
+  <script src="static/js/jquery.fancybox.min.js"></script>
+  <script src="static/js/jquery.sticky.js"></script>
+  <script src="static/js/main.js"></script>
+  </body>
+</html>
