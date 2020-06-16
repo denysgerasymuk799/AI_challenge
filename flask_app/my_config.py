@@ -14,5 +14,6 @@ class Config:
     # database = "sea_db"
     # user = "postgres"
     # password = "Gettodream!25"
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{}:{}@{}/{}'.format(user, password, host, database)
+    #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{}:{}@{}/{}'.format(user, password, host, database)
     # SQLALCHEMY_TRACK_MODIFICATIONS = False
+    # SQLALCHEMY_DATABASE_URI = 'sqlite:///database.sqlite'

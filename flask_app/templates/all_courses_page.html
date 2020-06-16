@@ -18,28 +18,16 @@
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-            <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle"></span>
-            </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-    </div>
-
-
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
         <div class="container-fluid">
             <div class="topnav">
-                <img src="static/images/mini_sea_logo.png">
                 <a class="topnav_logo" href="#">S.E.A</a>
                 <a class="topnav_a active" href="#home">All courses</a>
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
                 <a class="topnav_a" href="{{ url_for('login') }}">Log in</a>
-                {#                <button type="submit">View selected</button>#}
+                <a href="{{ url_for('selected_from_main') }}">View selected</a>
             </div>
         </div>
     </header>
@@ -54,25 +42,30 @@
                     <li class="placeholder">
                         <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
                     </li>
-                    <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+                    <li class="filter"><a class="selected" href="#0" data-type="all">{{ title_search_skills }}</a></li>
                 </ul> <!-- cd-filters -->
             </div> <!-- cd-tab-filter -->
         </div> <!-- cd-tab-filter-wrapper -->
 
-        <section class="cd-gallery">
+        <section class="cd-gallery horizontal">
                 <ul>
                     {% for courses_for_skill in courses_for_skills_lst %}
                         {% set outer_loop = loop %}
 
                         {% for course in courses_for_skill %}
                             <li class="{{ course.price }}">
-                                <div class="course bg-white align-self-stretch">
+                                <div class="course bg-white">
                                     <div class="checkbox-field">
                                         <input type="checkbox" name="course_name" value="{{ course.course_title }}"/>
                                     </div>
                                     <figure class="m-0">
                                         {% if course.image %}
-                                            {% if course.image.image_240x135 %}
+                                            {% if "codecademy.com/learn" in course.url %}
+                                                <a href={{ course.url }}><img
+                                                        src="../static/images/codecademy.png"
+                                                        class="img-fluid"></a>
+
+                                            {% elif course.image.image_240x135 %}
                                                 <a href={{ course.url }}><img
                                                         src="{{ course.image.image_480x270 }}"
                                                 ></a>
@@ -118,7 +111,7 @@
                         {% endfor %}
                     {% endfor %}
                 </ul>
-{#            </form>#}
+            </form>
             <div class="cd-fail-message">No results found</div>
         </section> <!-- cd-gallery -->
 
@@ -188,11 +181,11 @@
                 </div> <!-- cd-filter-block -->
 
                 <div>
-{#                    <a href="{{ url_for('selected_from_main') }}" onclick="getCourses()"#}
-{#                            class="search_button">View selected</a>#}
+                    <a href="{{ url_for('selected_from_main') }}" onclick="getCourses()"
+                            class="search_button">View selected</a>
 
-                    <button type="submit" id="submit" onclick="getCourses()"
-                            class="search_button">View selected</button>
+<!--                    <button href="{{ url_for('selected_from_main') }}" id="submit" onclick="getCourses()"-->
+<!--                            class="search_button">View selected</button>-->
                 </div>
 
                 <div>
@@ -233,22 +226,22 @@
 </div>
 
 <script>
+    document.getElementById("price_click").addEventListener("click", getCourses);
     function getCourses(){
         var cboxes = document.getElementsByName('course_name');
         var len = cboxes.length;
-        var courses = new Map();
+        var courses = {};
         for (var i = 0; i < len; i++) {
-            {#alert(i + (cboxes[i].checked ? ' checked ' : ' unchecked ') + cboxes[i].value);#}
             if (cboxes[i].checked){
-                courses.put(i, cboxes[i].value);}
+                courses[i] = cboxes[i].value
+            }
+
         }
 
-        console.log(courses);
-
-        fetch(`/selected_from_main`, {
+        fetch(`/save_request`, {
             method: "POST",
             credentials: "include",
-            body: courses,
+            body: JSON.stringify(courses),
             cache: "no-cache",
             headers: new Headers({
                 "content-type": "application/json"
@@ -267,14 +260,6 @@
                 console.log("Fetch error: " + error);
             });
 
-        {#const options =#}
-        {#{#}
-        {#    method: "POST",#}
-        {#    headers: {#}
-        {#        'Content-Type': "application/json"#}
-        {#    },#}
-        {#    body: JSON.stringify(payload)#}
-        {#fetch("/selected_from_main", options)#}
     };
 
 </script>

@@ -26,4 +26,3 @@ login.login_view = "login"
 from flask_app import routes, models
 
 db.create_all()
-app.run(debug=True)

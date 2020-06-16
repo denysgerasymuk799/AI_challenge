@@ -4,8 +4,7 @@ import sqlite3
 
 import sqlalchemy
 
-from flask_app import db
-from flask_app.models import Profession, Skill, Course
+from flask_app import db, Profession, Skill, Course
 
 
 def create_db():

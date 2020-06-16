@@ -21,7 +21,7 @@ def sort_courses_by_num_students(dict_courses_for_job):
             if "number_of_students" in course.keys():
                 if course["number_of_students"] != "" \
                         and ',' in course["number_of_students"]:
-                    print('position', position_course)
+                    # print('position', position_course)
                     str_number = course["number_of_students"].split()[0]
                     int_num = ''.join(str_number.split(','))
                     if "+" in int_num:
@@ -65,7 +65,7 @@ def is_profession_skills_course(description, title_profession):
                         if word.lower() in [item.lower() for item in skill.split()]:
                             flag_similar += 1
 
-                        if flag_similar > 2:
+                        if flag_similar >= 2:
                             skill_lst.append(skill)
                             break
 
@@ -75,7 +75,7 @@ def is_profession_skills_course(description, title_profession):
             else:
                 try:
                     for word in description.strip().split():
-                        if skill.lower() == word.lower():
+                        if skill.strip().lower() == word.strip().lower():
                             skill_lst.append(skill)
                             break
 
@@ -145,37 +145,52 @@ def create_courses_json_for_profession(title_profession):
                 is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(
                     course_title, title_profession)
 
-                try:
-                    is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]["short_description"],
-                                                                                                       title_profession)
-                # for udemy_result.json - does not have description
-                except KeyError:
+                if not is_profession_skills_course_checker:
                     try:
-                        # check if courses teach skills of title_profession in short_description
-                        if not is_profession_skills_course_checker:
-                            is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(
-                                page_courses_json[course_title]["long_description"], title_profession)
+                        is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(page_courses_json[course_title]["short_description"],
+                                                                                                           title_profession)
+                    # for udemy_result.json - does not have description
                     except KeyError:
+                        try:
+                            # check if courses teach skills of title_profession in short_description
+                            if not is_profession_skills_course_checker:
+                                is_profession_skills_course_checker, skill_names_lst = is_profession_skills_course(
+                                    page_courses_json[course_title]["long_description"], title_profession)
+                        except KeyError:
+                            pass
+                    else:
                         pass
-                else:
-                    pass
                 #
                 #     # check if courses teach skills of title_profession in long_description if not in short_description
                 if not is_profession_skills_course_checker:
                     continue
 
-                # print(skill_names_lst)
-                for skill_from_course in skill_names_lst:
+                print("new dict")
+                for pos, skill_from_course in enumerate(skill_names_lst):
                     courses_skill_dict = dict_courses_for_profession.get(skill_from_course, [])
                     page_courses_json[course_title]["course_title"] = course_title
+
+                    checker_same_course = 0
+                    for course in courses_skill_dict:
+                        if course["course_title"] == page_courses_json[course_title]["course_title"]:
+                            checker_same_course = 1
+                            break
+
+                    if checker_same_course == 1:
+                        continue
+                    # if page_courses_json[course_title] not in courses_skill_dict:
                     courses_skill_dict.append(page_courses_json[course_title])
+                    print(pos, course_title)
                     dict_courses_for_profession[skill_from_course] = courses_skill_dict
 
+                # print("dict_courses_for_profession[skill_from_course]", dict_courses_for_profession[skill_from_course])
                 dict_courses_for_profession = sort_courses_by_num_students(dict_courses_for_profession)
                 # save dict_courses_for_profession
                 with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
                         user_profession_courses:
                     json.dump(dict_courses_for_profession, user_profession_courses, indent=4, ensure_ascii=False)
+
+        break
 
         # if checker_break == 1:
         #     break
@@ -189,8 +204,7 @@ if __name__ == '__main__':
     # lst_professions = ['analyst', "business analyst", "data scientist", "адміністратор баз даних", "программист php",
     #                    "системный администратор"]
     #
-    lst_professions = ["javascript+developer", "бренд-менеджер", "full+stack+програміст", "маркетолог",
-                       "back+end+developer", "customer+support+representative"]
+    lst_professions = ["программист php"]
 
     dict_profession_skills = dict()
 

@@ -7,6 +7,7 @@ from flask_app.forms import LoginForm, RegistrationForm
 from flask_app.models import Skill, User
 from flask_app.tools import *
 
+#print(app)
 
 @app.route("/", methods=['POST', 'GET'])
 def start():
@@ -21,7 +22,7 @@ def render_main_page():
 
     courses_for_skills_lst = []
     if not search_skills:
-        search_skills = ["SQL"]
+        search_skills = ["JavaScript"]
 
     # write_user_data writes user_data_json to file
     user_data_json = {'main_page_skills': search_skills}
@@ -47,8 +48,10 @@ def render_main_page():
     for skill in skills:
         sorted_skills_by_letter[str(skill.name).lower()[0]].append(skill)
 
+    title_search_skills = ", ".join(search_skills)
     return render_template("all_courses_page.html", courses_for_skills_lst=courses_for_skills_lst,
-                           sorted_skills_by_letter=sorted_skills_by_letter)
+                           sorted_skills_by_letter=sorted_skills_by_letter,
+                           title_search_skills=title_search_skills)
 
 
 @app.route("/save_request", methods=['POST', 'GET'])
