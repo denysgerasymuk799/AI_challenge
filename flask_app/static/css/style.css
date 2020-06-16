@@ -13,6 +13,12 @@ body {
   background: #000;
   color: #fff; }
 
+
+.next_button {
+  background: #ffffff;
+}
+
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
