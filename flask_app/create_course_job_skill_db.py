@@ -6,6 +6,7 @@ import sqlalchemy
 from flask_app import db
 from flask_app.models import Profession, Skill, Course
 
+
 def inject_all():
     root = os.path.join('user_data', "courses_for_all_professions", "courses_for_IT_professions")
     files = os.listdir(root)
