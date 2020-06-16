@@ -7,6 +7,7 @@ from flask_app.forms import LoginForm, RegistrationForm
 from flask_app.models import Skill, User
 from flask_app.tools import *
 
+#print(app)
 
 @app.route("/", methods=['POST', 'GET'])
 def start():
