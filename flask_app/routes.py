@@ -10,6 +10,7 @@ from flask_app.tools import *
 
 @app.route("/", methods=['POST', 'GET'])
 def start():
+    # return render_template("skills_updated.html")
     return redirect(url_for("render_main_page"))
 
 
@@ -86,10 +87,12 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
+        print(1, form.username.data, user)
         if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password')
             return redirect(url_for('login'))
         login_user(user, remember=form.remember_me.data)
+        print(2, form.remember_me.data)
         return redirect(url_for("render_main_page"))
     return render_template('login.html', form=form)
 
@@ -151,12 +154,12 @@ def middle():
         write_user_data(user_data_json)
         return redirect(url_for("index"))
     else:
-        return render_template("skills.html", skills=user_data_json["all_job_skills"])
+        return render_template("skills_updated.html", skills=user_data_json["all_job_skills"])
 
 
 @app.route("/a")
 def a():
-    return render_template("skills.html")
+    return render_template("skills_updated.html")
 
 
 @app.route('/courses', methods=['POST', 'GET'])

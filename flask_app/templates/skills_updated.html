@@ -1,0 +1,57 @@
+{% extends "base_log_reg.html" %}
+{% block content %}
+
+    <link rel="stylesheet" href="static/css/checkbox_style.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/button.css" />
+    <script src="static/js/modernizr.custom.js"></script>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"><a href="#">SEA</a></div>
+
+          <div class="ml-auto w-25">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li class="cta"><a href="\input_profession" class="nav-link"><span>Search again</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <div class="intro-section" id="home-section">
+
+      <div class="slide-1" style="background-image: url('static/images/background3.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row align-items-center">
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
+                    <form class="form" autocomplete="off" id="form" method="post">
+                      <h2>What skills do you already have?</h2>
+						{%for i in skills %}
+                            <div class="inputGroup">
+                                <input id={{i}} value="{{i}}" name="chosen_skills" type="checkbox"><label for={{i}}>{{ i[0].upper() + i[1:] }}</label>
+                            </div>
+						{% endfor %}
+						<div class="wrap">
+							<button class="button" type="submit" form="form" value="Submit">Confirm</button>
+						</div>
+                    </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="static/js/svgcheckbx.js"></script>
+{% endblock %}

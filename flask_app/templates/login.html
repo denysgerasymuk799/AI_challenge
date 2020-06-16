@@ -30,32 +30,30 @@
                     <h3 class="h4 text-black mb-4">Login</h3>
                     {{ form.hidden_tag() }}
                     <div class="form-group">
-<!--                      <input type="text" class="form-control" placeholder="Email Addresss" name="address">-->
-                      <span class="form-control">{{ form.username.label }}<br>
-                      {{ form.username(size=32) }}<br>
-                      {% for error in form.username.errors %}
-                      <span style="color: red;">[{{ error }}]</span>
-                      {% endfor %} </span>
+                        <input type="text" class="form-control" placeholder="Username" name="username">
+                        {% for error in form.username.errors %}
+                          <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
                     </div>
                     <div class="form-group">
-<!--                      <input type="password" class="form-control" placeholder="Password" name="password">-->
-                      <span class="form-control">{{ form.password.label }}<br>
-                      {{ form.password(size=32) }}<br>
-                      {% for error in form.password.errors %}
-                      <span style="color: red;">[{{ error }}]</span>
-                      {% endfor %}
-                      </span>
+                      <input type="password" class="form-control" placeholder="Password" name="password">
+                        {% for error in form.username.errors %}
+                          <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
                     </div>
                     <div class="form-group mb-4">
 <!--                      <input type="password" class="form-control" placeholder="Re-type Password" name="re_password">-->
-                      <span class="form-control"><p>{{ form.remember_me() }} {{ form.remember_me.label }}</p></span>
+{#                      <span class="form-control">{{ form.remember_me() }}<p>Remember me</p></span>#}
+                        <input type="checkbox" id="remember_me" name="remember_me" size="25px"> <label style="font-size: 1rem; color: #495057; padding: 5px" for="remember_me">Remember me</label>
                     </div>
                     <div class="form-group">
-                      <span class="form-control"><p>{{ form.submit() }}</p></span>
+{#                      <span class="form-control"><p>{{ form.submit() }}</p></span>#}
+                        <input type="submit" class="btn btn-primary btn-pill" value="Sign up">
+                        <span class="btn btn-primary btn-pill"><a href="{{ url_for('register') }}" style="color:white">Click to register</a></span>
                     </div>
-                    <div class="form-group">
-                      <span class="form-control"><p>New User? <a href="{{ url_for('register') }}">Click to Register!</a></p></span>
-                    </div>
+{#                    <div class="form-group">#}
+{#                      <span class="btn btn-primary btn-pill"><a href="{{ url_for('register') }}" style="color:white">Register</a></span>#}
+{#                    </div>#}
                   </form>
 
                 </div>

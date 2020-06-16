@@ -2437,6 +2437,13 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
+input[type="checkbox"] {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  display: inline-block;
+  width: auto;
+}
+
 .fade {
   -webkit-transition: opacity 0.15s linear;
   -o-transition: opacity 0.15s linear;
