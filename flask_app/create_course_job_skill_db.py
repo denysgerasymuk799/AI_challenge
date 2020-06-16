@@ -3,7 +3,7 @@ import os
 import sqlite3
 
 import sqlalchemy
-from application import db, Profession, Skill, Course
+from flask_app import db, Profession, Skill, Course
 
 
 def create_db():
