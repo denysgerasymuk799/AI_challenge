@@ -1,4 +1,13 @@
 {
+    "Learn Python 3": {
+        "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
+        "course_duration": "25 Hours",
+        "price": "15.99$",
+        "long_description": "Why Learn Python?\nPython is a general-purpose, versatile and popular programming language. It’s great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer’s stack as it can be used for everything from web development to software development and data science applications.\nTake-Away Skills\nThis course is a great introduction to both fundamental programming concepts and the Python programming language. Python 3 is the most up-to-date version of the language with many improvements made to increase the efficiency and simplicity of the code that you write.\n ",
+        "short_description": "Learn the latest and greatest version of the most popular programming language in the world!",
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "number_of_students": "45,000,000+ students"
+    },
     "Welcome To Codecademy": {
         "image": "https://www.codecademy.com/webpack/d15880dda156b6064ac1874ac93a01e8.svg",
         "course_duration": "1 Hour",
@@ -25,15 +34,6 @@
         "short_description": "Learn the basics of HTML5 and start building & editing web pages.",
         "url": "https://www.codecademy.com/learn/learn-html",
         "number_of_students": "3,838,595 students"
-    },
-    "Learn Python 3": {
-        "image": "https://www.codecademy.com/webpack/1f60b39aa9413ecb85bd8ccbc8ccdef5.svg",
-        "course_duration": "25 Hours",
-        "price": "15.99$",
-        "long_description": "Why Learn Python?\nPython is a general-purpose, versatile and popular programming language. It’s great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer’s stack as it can be used for everything from web development to software development and data science applications.\nTake-Away Skills\nThis course is a great introduction to both fundamental programming concepts and the Python programming language. Python 3 is the most up-to-date version of the language with many improvements made to increase the efficiency and simplicity of the code that you write.\n ",
-        "short_description": "Learn the latest and greatest version of the most popular programming language in the world!",
-        "url": "https://www.codecademy.com/learn/learn-python-3",
-        "number_of_students": "45,000,000+ students"
     },
     "Learn Python 2": {
         "image": "https://www.codecademy.com/webpack/497fe762d5fa31b1f2bdbe647dc6de2f.svg",

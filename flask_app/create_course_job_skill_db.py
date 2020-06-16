@@ -13,7 +13,7 @@ def inject_all():
     skills = {}
     for file in files:
         path = os.path.join(root, file)
-        profession_name = ' '.join(file[:-5].split('+')) + "6"
+        profession_name = ' '.join(file[:-5].split('+'))
         print(profession_name)
         profession = Profession(name=profession_name)
         info = json.load(open(path, encoding="utf-8"))

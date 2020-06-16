@@ -1,6 +1,8 @@
 {
     "main_page_skills": [
-        "API"
+        "JavaScript"
+    ],
+    "selected_courses": [
+        "Learn AngularJS 1.X"
     ]
-
 }
