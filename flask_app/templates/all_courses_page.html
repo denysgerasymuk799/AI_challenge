@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../static/content-filter-master/css/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../static/css/style_all_courses_page.css">
     <link rel="stylesheet" href="../static/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../static/css/my.css">
 
 
     <script src="../static/content-filter-master/js/modernizr.js"></script> <!-- Modernizr -->
@@ -27,7 +28,8 @@
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
                 <a class="topnav_a" href="{{ url_for('login') }}">Log in</a>
-                <a href="{{ url_for('selected_from_main') }}">View selected</a>
+                <a class="topnav_a" onclick="getCourses()"
+                   href="{{ url_for('selected_from_main') }}">View selected</a>
             </div>
         </div>
     </header>
@@ -67,19 +69,21 @@
 
                                             {% elif course.image.image_240x135 %}
                                                 <a href={{ course.url }}><img
+                                                        class="img-fluid"
                                                         src="{{ course.image.image_480x270 }}"
                                                 ></a>
                                             {% elif course.image.small %}
-                                                <a href={{ course.url }}><img
+                                                <a href={{ course.url }}><img class="img-fluid"
                                                                               src="{{ course.image.large }}"></a>
                                             {% else %}
                                                 <a href={{ course.url }}><img
+                                                        class="img-fluid"
                                                         src="{{ course.image.rsplit('?')[0] }}"></a>
                                             {% endif %}
                                         {% endif %}
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
-                                        <span class="course-price" onclick="getCourses()">{{ course.price[:6] }}</span>
+                                        <span class="course-price">{{ course.price[:6] }}</span>
                                             <div class="text_price"><span
                                                 class="icon-clock-o"></span>{{ course.course_duration }}
                                         </div>
@@ -88,15 +92,15 @@
                                             {% if course.short_description != ' ' %}
 
                                                 {% if course.short_description[150] %}
-                                                    <p>{{ course.short_description[:150] + "..." }}</p>
+                                                    <p class="course_description">{{ course.short_description[:150] + "..." }}</p>
                                                 {% else %}
-                                                    <p>{{ course.short_description }}</p>
+                                                    <p class="course_description">{{ course.short_description }}</p>
                                                 {% endif %}
 
                                             {% endif %}
 
                                             {% if course.short_description == ' ' %}
-                                                <p>{{ course.long_description.split(".")[0] }}</p>
+                                                <p class="course_description">{{ course.long_description.split(".")[0] }}</p>
                                             {% endif %}
                                         {% endif %}
                                     </div>
@@ -179,14 +183,6 @@
                         </li>
                     </ul> <!-- cd-filter-content -->
                 </div> <!-- cd-filter-block -->
-
-                <div>
-                    <a href="{{ url_for('selected_from_main') }}" onclick="getCourses()"
-                            class="search_button">View selected</a>
-
-<!--                    <button href="{{ url_for('selected_from_main') }}" id="submit" onclick="getCourses()"-->
-<!--                            class="search_button">View selected</button>-->
-                </div>
 
                 <div>
                     <button type="submit" class="search_button">Search courses</button>

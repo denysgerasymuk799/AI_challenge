@@ -113,6 +113,7 @@
 }
 .icon-clock-o:before {
   content: "\f017";
+  padding: 10px;
 }
 .icon-road:before {
   content: "\f018";

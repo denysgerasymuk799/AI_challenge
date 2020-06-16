@@ -149,8 +149,8 @@ def price_filter(courses_db):
     :return: a list of special courses with parameter
     """
     for position in range(len(courses_db)):
-        if courses_db[position].price.lower() == "free":
-            courses_db[position].price = courses_db[position].price + "    mix free"
+        if courses_db[position].price.split()[0].lower() == "free":
+            courses_db[position].price = "FREE    mix free"
 
         else:
             courses_db[position].price = courses_db[position].price + "    mix payed"

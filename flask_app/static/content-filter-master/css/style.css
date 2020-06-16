@@ -272,6 +272,7 @@ xgallery
   display: block;
   width: 30%;
   height: 30%;
+  padding: 10px;
 }
 .cd-gallery .cd-fail-message {
   display: none;
@@ -315,7 +316,7 @@ xgallery
   }
   .cd-gallery.filter-is-visible {
     /* reduce width when filter is visible */
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -361,9 +362,11 @@ xfilter
   background-color: #7971ea;
   z-index: 2;
 }
+
 .cd-filter form {
   padding: 70px 20px;
 }
+
 .cd-filter .cd-close {
   position: absolute;
   top: 0;
