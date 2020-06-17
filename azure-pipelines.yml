@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- f_flask_app
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
