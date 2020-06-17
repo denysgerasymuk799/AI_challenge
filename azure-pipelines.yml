@@ -11,10 +11,7 @@ pool:
 
 steps:
 - script: |
-    set -e
-    apt-get update
-    apt-get install python3-venv
-    python3 -m venv antenv
+    python -m venv -p python3 antenv
     source antenv/bin/activate
     python -m pip install --upgrade pip
     pip install setup
