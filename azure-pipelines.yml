@@ -15,6 +15,19 @@ steps:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(pythonVersion)'
+    displayName: 'Use Python $(pythonVersion)'
+- script: |
+    python -m venv antenv
+    source antenv/bin/activate
+    python -m pip install --upgrade pip
+    pip install setup
+    pip install -r requirements.txt
+  workingDirectory: $(projectRoot)
+  displayName: "Install requirements"
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
