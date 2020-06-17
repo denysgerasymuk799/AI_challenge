@@ -150,6 +150,7 @@
 }
 .icon-flag:before {
   content: "\f024";
+  padding-left: 10px;
 }
 .icon-headphones:before {
   content: "\f025";

@@ -63,8 +63,9 @@
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
                                         <span class="course-price">{{ course['price'] }}</span>
-                                        <div class="meta"><span
-                                                class="icon-clock-o"></span>{{ course['course_duration'] }}
+                                        <div class="meta">
+                                            <span class="icon-flag"></span>Rate: {{loop.index}}<br>
+                                            <span class="icon-clock-o"></span>{{ course['course_duration'] }}
                                         </div>
                                         <h3><a href="{{ course['url'] }}">{{ course['course_title'] }}</a></h3>
                                         {% if course['short_description'] %}
