@@ -124,6 +124,7 @@ def register():
     return render_template("register.html", form=form)
 
 
+
 @app.route('/_autocomplete', methods=['GET'])
 def autocomplete():
     return Response(json.dumps(list(get_translation().keys())), mimetype='application/json')

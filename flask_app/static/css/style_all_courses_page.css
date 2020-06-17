@@ -62,11 +62,15 @@ h1.skill_title {
     float: left;
     color: #f2f2f2;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     font-weight: bold;
-    top: 3%;
-    left: 6%;
+    top: 2%;
+    left: 3%;
+
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    text-shadow: #2a8d7b -2px -2px;
 }
 
 
