@@ -84,7 +84,7 @@
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
                                         <span class="course-price">{{ course.price[:6] }}</span>
-                                            <div class="text_price"><span
+                                            <div class="text_price" onclick="getCourses()" id="price_click"><span
                                                 class="icon-clock-o"></span>{{ course.course_duration }}
                                         </div>
                                         <h3><a href="{{ course.url }}" class="title_course">{{ course.course_title }}</a></h3>
@@ -223,7 +223,17 @@
 
 <script>
     document.getElementById("price_click").addEventListener("click", getCourses);
+//     document.getElementById("price_click").onclick = function () {
+//         getCourses()
+// };
+//     document.getElementById("price_click").onclick = function fun() {
+//         alert("hello");
+//         getCourses();
+//         //validation code to see State field is mandatory.
+//     }
     function getCourses(){
+        console.log("11")
+
         var cboxes = document.getElementsByName('course_name');
         var len = cboxes.length;
         var courses = {};
@@ -233,6 +243,7 @@
             }
 
         }
+        console.log(courses)
 
         fetch(`/save_request`, {
             method: "POST",
