@@ -4,7 +4,7 @@ import os
 import re
 import sqlite3
 
-from flack_app.application import Course, Profession, Skill, db
+from flack_app import Course, Profession, Skill, db
 
 temp_dir = os.getcwd()
 update_courses_dir = os.path.join(temp_dir, 'courses_jsons', 'courses_for_IT_professions')
