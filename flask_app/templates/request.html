@@ -31,6 +31,24 @@
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato|Quicksand'>
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
     <link rel="stylesheet" href="static/css/style_of_request.css">
+
+    <link href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet"></link>
+    <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $.ajax({
+                url: '{{ url_for("autocomplete") }}'
+                }).done(function (data){
+                    $('#autocomplete').autocomplete({
+                        source: data,
+                        minLength: 1
+                    });
+                });
+            });
+
+    </script>
 </head>
 <body>
 
@@ -48,7 +66,8 @@
 {#				<i class="zmdi zmdi-close"></i>#}
 {#			</button>#}
 
-			<div class="contact100-form-title" style="background-image: url(static/images/bg-02.jpg);">
+{#			<div class="contact100-form-title" style="background-image: url(static/images/bg-02.jpg);">#}
+            <div class="contact100-form-title" style="background-color: #846add;">
 				<span>Find Yourself</span>
 			</div>
 
@@ -60,16 +79,17 @@
 {#						<span class="lnr lnr-briefcase"></span>#}
 {#					</label>#}
 {#				</div>#}
-
-                <div class="sel sel--black-panther">
-                    <label for="select-profession"></label>
-                    <select name="select-profession" id="select-profession" !important onmousedown="if(this.options.length>8){this.size=5;}"  onchange="this.size=0;" onblur="this.size=0;">
-                        <option value="" disabled>Profession</option>
-                        {% for job in job_list %}
-                            <option value="{{ job }}">{{ job }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
+                <div class="wrap-input100 validate-input">
+					<input id="autocomplete" class="input100" type="text" name="autocomplete" placeholder="Profession">
+					<span class="focus-input100"></span>
+					<label class="label-input100" for="autocomplete">
+						<span class="lnr lnr-user m-b-2"></span>
+					</label>
+				</div>
+{#                <div>#}
+{#                    <label for="autocomplete"></label>#}
+{#                    <input name="autocomplete" type="text" id="autocomplete"/>#}
+{#                </div>#}
 
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn" type="submit" form="form" value="Submit">Search now</button>
@@ -78,32 +98,32 @@
 		</div>
 	</div>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src="static/js/index.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/bootstrap/js/popper.js"></script>
-	<script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/daterangepicker/moment.min.js"></script>
-	<script src="static/vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="static/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="static/js/main_req.js"></script>
+{#    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>#}
+{#    <script src="static/js/index.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/animsition/js/animsition.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/bootstrap/js/popper.js"></script>#}
+{#	<script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/select2/select2.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/daterangepicker/moment.min.js"></script>#}
+{#	<script src="static/vendor/daterangepicker/daterangepicker.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/vendor/countdowntime/countdowntime.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="static/js/main_req.js"></script>#}
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-23581568-13');
-	</script>
+{#	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>#}
+{#	<script>#}
+{#	  window.dataLayer = window.dataLayer || [];#}
+{#	  function gtag(){dataLayer.push(arguments);}#}
+{#	  gtag('js', new Date());#}
+{##}
+{#	  gtag('config', 'UA-23581568-13');#}
+{#	</script>#}
 </body>
 </html>
