@@ -10,19 +10,19 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: '$(System.DefaultWorkingDirectory)'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-
 - script: |
-    python -m venv antenv
+    python3 -m venv antenv
     source antenv/bin/activate
     python -m pip install --upgrade pip
     pip install setup
     pip install -r requirements.txt
-  workingDirectory: $(Build.ArtifactStagingDirectory)
+  workingDirectory: '$(System.DefaultWorkingDirectory)'
   displayName: "Install requirements"
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
   inputs:
