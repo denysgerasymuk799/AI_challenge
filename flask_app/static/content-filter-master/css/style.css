@@ -270,8 +270,8 @@ xgallery
 }
 .cd-gallery img {
   display: block;
-  width: 30%;
-  height: 30%;
+  width: auto;
+  height: 200px;
   padding: 10px;
 }
 .cd-gallery .cd-fail-message {
@@ -288,7 +288,7 @@ xgallery
     /*justify-content: space-between;*/
     /*align-content: space-between;*/
     display: grid;
-    grid-template-columns: 750px 750px 750px;
+    grid-template-columns: 50% 50%;
     justify-items: end;
     justify-content: end;
     margin: 1em;
@@ -299,7 +299,7 @@ xgallery
   /*  clear: both;*/
   /*}*/
   .cd-gallery li {
-    width: 200%;
+    width: 100%;
     padding: 10px;
   }
 }

@@ -11,10 +11,7 @@
         "presentation",
         "Economics"
     ],
-    "current_skills": [
-        "data analysis",
-        "Tableau"
-    ],
+    "current_skills": [],
     "courses": {
         "management": [
             {
@@ -42,9 +39,22 @@
                 "url": "https://www.coursera.org/learn/data-wrangling-analysis-abtesting"
             }
         ],
+        "data analysis": [
+            {
+                "id": "189",
+                "course_title": "Python and Machine-Learning for Asset Management with Alternative Data Sets",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 11 hours to complete",
+                "number_of_students": "1,009 students",
+                "short_description": " Learn what alternative data is and how it is used in financial market applications.Â  Become immersed in current academic and practitioner state-of-the-art research pertaining to alternative data applications. Perform data analysis of real-world alternative datasets using Python. Gain an understanding and hands-on experience in data analytics, visualization and quantitative modeling applied to alternative data in finance",
+                "long_description": "Over-utilization of market and accounting data over the last few decades has led to portfolio crowding, mediocre performance and systemic risks, incentivizing financial institutions which are looking for an edge to quickly adopt alternative data as a substitute to traditional data. This course introduces the core concepts around alternative data, the most recent research in this area, as well as practical portfolio examples and actual applications. The approach of this course is somewhat unique because while the theory covered is still a main component, practical lab sessions and examples of working with alternative datasets are also key. This course is fo you if you are aiming at carreers prospects as a data scientist in financial markets, are looking to enhance your analytics skillsets to the financial markets, or if you are interested in cutting-edge technology and research as  they apply to big data. The required background is: Python programming, Investment theory , and Statistics. This course will enable you to learn new data and research techniques applied to the financial markets while strengthening data science and python skills.",
+                "url": "https://www.coursera.org/learn/machine-learning-asset-management-alternative-data"
+            }
+        ],
         "performance": [
             {
-                "id": "168",
+                "id": "220",
                 "course_title": "Data Structures and Algorithms (III)",
                 "price": "Free",
                 "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
@@ -55,9 +65,22 @@
                 "url": "https://www.coursera.org/learn/data-structures-algorithms-3"
             }
         ],
+        "tableau": [
+            {
+                "id": "221",
+                "course_title": "Fundamentals of Visualization with Tableau",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/df/34d845db0d4a11bf1644876b6ca3fa/HEC-Paris-MasterTrack-Certificate-HPP-unit-1-.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 10 hours to complete",
+                "number_of_students": "72,393 students",
+                "short_description": " \nInstall Tableau Public Software and create a visualization \nExamine and navigate the Tableau Public workspace \nPractice and connect to different data sources \nExamine ways to define your project",
+                "long_description": "In this first course of the specialization, you will discover just what data visualization is, and how we can use it to better see and understand data. Using Tableau, we’ll examine the fundamental concepts of data visualization and explore the Tableau interface, identifying and applying the various tools Tableau has to offer. By the end of the course you will be able to prepare and import data into Tableau and explain the relationship between data analytics and data visualization. This course is designed for the learner who has never used Tableau before, or who may need a refresher or want to explore Tableau in more depth.  No prior technical or analytical background is required.  The course will guide you through the steps necessary to create your first visualization story from the beginning based on data context,  setting the stage for you to advance to the next course in the Specialization.",
+                "url": "https://www.coursera.org/learn/data-visualization-tableau"
+            }
+        ],
         "business analyst": [
             {
-                "id": "187",
+                "id": "240",
                 "course_title": "Business Considerations for 5G, IoT and AI",
                 "price": "FREE",
                 "image": "https://courses.edx.org/asset-v1:LinuxFoundationX+LFS110x+2T2019+type@thumbnail+block@course_image-png-375x200.jpg",
@@ -70,7 +93,7 @@
         ],
         "finance": [
             {
-                "id": "209",
+                "id": "262",
                 "course_title": "Python and Machine-Learning for Asset Management with Alternative Data Sets",
                 "price": "Free",
                 "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
@@ -83,7 +106,7 @@
         ],
         "presentation": [
             {
-                "id": "218",
+                "id": "271",
                 "course_title": "Microsoft Digital Literacy (ARABIC) - Productivity Programs",
                 "price": "Free Course",
                 "image": "https://cdn01.alison-static.net/courses/224/alison_courseware_intro_224.jpg",
@@ -96,7 +119,7 @@
         ],
         "economics": [
             {
-                "id": "235",
+                "id": "288",
                 "course_title": "Laws of Supply and Demand",
                 "price": "Free Course",
                 "image": "https://cdn01.alison-static.net/courses/566/alison_courseware_intro_566.jpg",
