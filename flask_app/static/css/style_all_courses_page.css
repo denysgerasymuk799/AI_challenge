@@ -58,6 +58,28 @@ h1.skill_title {
     font-size: 17px;
 }
 
+.topnav_b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 37px;
+    font-weight:600;
+}
+
+.topnav_error {
+    float: center;
+    color: #fa7373;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 37px;
+    font-weight:600;
+}
+
 .topnav_logo {
     float: left;
     color: #f2f2f2;

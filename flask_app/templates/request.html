@@ -52,10 +52,17 @@
 </head>
 <body>
 
+	<div class="site-wrap">
+		<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+			<div class="topnav"><a class="topnav_b" href="/">S.E.A</a></div>
+		</header>
+
+	</div>
+
 	<div class="bg-container-contact100" style="background-image: url(static/images/bg-01.jpg);">
 		<div class="contact100-header flex-sb-m">
 			<a href="/" class="contact100-header-logo">
-				<img src="static/images/icons/logo.png" alt="LOGO">
+				<img src="static/images/icons/logo1.png" alt="LOGO">
 			</a>
 		</div>
 	</div>
@@ -74,6 +81,13 @@
 			<form class="contact100-form validate-form" method="post" id="form">
 {#				<div class="wrap-input100 validate-input">#}
 {#					<input id="email" class="input100" type="text" name="job" placeholder="Enter your dream job">#}
+					{% with messages = get_flashed_messages() %}
+					{% if messages %}
+						{% for message in messages %}
+							<h2><span class="topnav_error">{{ message }}</span></h2>
+						{% endfor %}
+					{% endif %}
+					{% endwith %}
 {#					<span class="focus-input100"></span>#}
 {#					<label class="label-input100" for="email">#}
 {#						<span class="lnr lnr-briefcase"></span>#}

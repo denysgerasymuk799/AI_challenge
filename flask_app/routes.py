@@ -52,7 +52,7 @@ def render_main_page():
     title_search_skills = ", ".join(search_skills)
     return render_template("all_courses_page.html", courses_for_skills_lst=courses_for_skills_lst,
                            sorted_skills_by_letter=sorted_skills_by_letter,
-                           title_search_skills=title_search_skills)
+                           title_search_skills=title_search_skills, logged=current_user.is_authenticated)
 
 
 @app.route("/save_request", methods=['POST', 'GET'])
@@ -93,7 +93,7 @@ def login():
         user = User.query.filter_by(username=form.username.data).first()
         print(1, form.username.data, user)
         if user is None or not user.check_password(form.password.data):
-            flash('Invalid username or password')
+            # flash('Invalid username or password')
             return redirect(url_for('login'))
         login_user(user, remember=form.remember_me.data)
         print(2, form.remember_me.data)
@@ -119,7 +119,7 @@ def register():
         user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
-        flash('Congratulations, you are now a registered user!')
+        # flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
     return render_template("register.html", form=form)
 
@@ -136,7 +136,13 @@ def input_profession():
     dct = get_translation()
     if request.method == 'POST':
         temp_job = request.form.get("autocomplete")
-        job = dct.get(temp_job, temp_job).lower()
+        job = dct.get(temp_job, None)
+        print(job, "JOBJOB")
+        if not job:
+            flash("Wrong job!")
+            return render_template("request.html", job_list=list(dct.keys()))
+
+        job = job.lower()
 
         user_data_json = {'profession': job, "all_job_skills": skills_for_job(job)}
         write_user_data(user_data_json)
