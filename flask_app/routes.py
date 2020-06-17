@@ -1,13 +1,14 @@
 import string
 from flask import render_template, request, redirect, \
-    url_for, session, jsonify, make_response, flash
+    url_for, session, jsonify, make_response, flash, Response
 from flask_login import current_user, login_user, logout_user, login_required
 from flask_app import app, db
 from flask_app.forms import LoginForm, RegistrationForm
 from flask_app.models import Skill, User
 from flask_app.tools import *
 
-#print(app)
+
+# print(app)
 
 @app.route("/", methods=['POST', 'GET'])
 def start():
@@ -123,12 +124,18 @@ def register():
     return render_template("register.html", form=form)
 
 
+
+@app.route('/_autocomplete', methods=['GET'])
+def autocomplete():
+    return Response(json.dumps(list(get_translation().keys())), mimetype='application/json')
+
+
 @app.route('/input_profession', methods=['POST', 'GET'])
 @login_required
 def input_profession():
     dct = get_translation()
     if request.method == 'POST':
-        temp_job = request.form.get("select-profession")
+        temp_job = request.form.get("autocomplete")
         job = dct.get(temp_job, temp_job).lower()
 
         user_data_json = {'profession': job, "all_job_skills": skills_for_job(job)}

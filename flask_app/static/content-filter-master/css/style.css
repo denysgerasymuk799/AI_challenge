@@ -281,6 +281,7 @@ xgallery
 @media only screen and (min-width: 768px) {
   .cd-gallery {
     padding: 10px;
+    transition: width 0.5s;
   }
   .cd-gallery ul {
     /*text-align: justify;*/
@@ -306,8 +307,6 @@ xgallery
   . cd-gallery {
     padding: 50px 2%;
     float: right;
-    -webkit-transition: width 0.5s;
-    -moz-transition: width 0.5s;
     transition: width 0.5s;
 
   }
@@ -316,7 +315,7 @@ xgallery
   }
   .cd-gallery.filter-is-visible {
     /* reduce width when filter is visible */
-    width: 80%;
+    width: 100%;
   }
 }
 
