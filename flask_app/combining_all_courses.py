@@ -2,6 +2,7 @@ import copy
 import json
 import os
 import re
+from pprint import pprint
 
 temp_dir = os.getcwd()
 update_courses_dir = os.path.join(temp_dir, "user_data", "courses_for_all_professions", 'IT_courses')
@@ -100,7 +101,7 @@ def create_courses_json_for_profession(title_profession):
             page_courses_json = json.load(json_file)
 
             # get description from all courses
-            for course_title in page_courses_json.keys():
+            for n_dict, course_title in enumerate(page_courses_json.keys()):
                 # print()
                 # print('number of course', i + 1)
                 # print('course_title --', course_title)
@@ -172,19 +173,30 @@ def create_courses_json_for_profession(title_profession):
 
                     checker_same_course = 0
                     for course in courses_skill_dict:
-                        if course["course_title"] == page_courses_json[course_title]["course_title"]:
+                        if n_dict >= 4:
+                            print("find same")
+                            print(course["course_title"].strip().lower(),
+                                  page_courses_json[course_title]["course_title"].strip().lower())
+                        if course["course_title"].strip().lower() == \
+                                page_courses_json[course_title]["course_title"].strip().lower():
                             checker_same_course = 1
+                            print("checker_same_course", checker_same_course)
                             break
 
                     if checker_same_course == 1:
                         continue
                     # if page_courses_json[course_title] not in courses_skill_dict:
                     courses_skill_dict.append(page_courses_json[course_title])
-                    print(pos, course_title)
+                    # print(pos, course_title)
                     dict_courses_for_profession[skill_from_course] = courses_skill_dict
 
                 # print("dict_courses_for_profession[skill_from_course]", dict_courses_for_profession[skill_from_course])
                 dict_courses_for_profession = sort_courses_by_num_students(dict_courses_for_profession)
+                print("\ndict")
+                for course in dict_courses_for_profession.keys():
+                    for course2 in dict_courses_for_profession[course]:
+                        print(course2["course_title"])
+
                 # save dict_courses_for_profession
                 with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
                         user_profession_courses:

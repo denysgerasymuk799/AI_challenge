@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- f_flask_app
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(System.DefaultWorkingDirectory)/flask_app'
+    SourceFolder: '$(System.DefaultWorkingDirectory)'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
