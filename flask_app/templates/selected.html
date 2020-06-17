@@ -22,8 +22,9 @@
     <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="col-12">
+                <ul class="drag">
                 {% for course in my_courses %}
-                    <div class="course bg-white mb-5">
+                    <li class="coursedrag bg-white mb-5" draggable="true">
                         <div class="row">
                             <div class="col-3">
                                 <figure class="m-0">
@@ -46,9 +47,13 @@
                                 <p>{{ course['long_description'] }}</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
                 {% endfor %}
+                </ul>
             </div>
         </div>
     </div>
+
+<script src="static/js/drag.js"></script>
+
 {% endblock %}
