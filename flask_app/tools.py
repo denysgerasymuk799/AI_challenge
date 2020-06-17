@@ -12,7 +12,7 @@ from flask_app.models import Profession, Skill
 
 def get_user_info():
     """returns dict with information that user inputted"""
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+    with open(os.path.join(os.getcwd(), "flask_app",  'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         all_user_data = json.load(user_data_json_from_file)
     return all_user_data
@@ -20,14 +20,14 @@ def get_user_info():
 
 def write_user_data(all_user_data):
     """Saves information about user"""
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
+    with open(os.path.join(os.getcwd(), "flask_app",  'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
             user_data_json_from_file:
         json.dump(all_user_data, user_data_json_from_file, indent=4, ensure_ascii=False)
 
 
 def get_translation():
     """returns translation from file"""
-    with open('translation.json') as json_file:
+    with open(os.path.join(os.getcwd(),  "flask_app", 'translation.json')) as json_file:
         dct = json.load(json_file)
         return dct
 
@@ -98,7 +98,7 @@ def students_filter(courses_dict):
     :param courses_dict:
     :return: filtered by number of students dict of courses
     """
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+    with open(os.path.join(os.getcwd(), "flask_app",  'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         all_user_data = json.load(user_data_json_from_file)
 
