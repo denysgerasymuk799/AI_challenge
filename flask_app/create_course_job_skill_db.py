@@ -4,8 +4,8 @@ import sqlite3
 
 import sqlalchemy
 from flask_app import db
-# from models import Profession, Skill, Course
-from models import Profession2, Skill2, Course2
+from flask_app.models import Profession, Skill, Course
+from flask_app.models import Profession2, Skill2, Course2
 
 
 def inject_all():
