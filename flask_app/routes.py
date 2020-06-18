@@ -39,15 +39,19 @@ def render_main_page():
         print("skill", skill)
         # courses_db = Skill.query.filter_by(name=skill).first().courses
         courses_db = Skill2.query.filter_by(name=skill).first().courses
-        courses_db = price_filter(courses_db)
-        courses_db = duration_filter(courses_db)
-        courses_db = certificate_filter(courses_db)
-        for course_dict in courses_db:
-            print(course_dict.url)
+        for course in courses_db:
+            new_courses_lst = price_filter(courses_db)
+            new_courses_lst = duration_filter(new_courses_lst)
+            new_courses_lst = certificate_filter(new_courses_lst)
 
-        courses_for_skills_lst.append(courses_db)
+        for course_dict in new_courses_lst:
+            print(course_dict["url"])
+
+        courses_for_skills_lst.append(new_courses_lst)
 
     # skills = Skill.query.all()
+    # db.session.rollback()
+    # db.session.flush()
     skills = Skill2.query.all()
     sorted_skills_by_letter = {}
 
@@ -130,7 +134,6 @@ def register():
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
     return render_template("register.html", form=form)
-
 
 
 @app.route('/_autocomplete', methods=['GET'])

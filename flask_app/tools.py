@@ -160,14 +160,29 @@ def price_filter(courses_db):
 
     :return: a list of special courses with parameter
     """
-    for position in range(len(courses_db)):
-        if courses_db[position].price.split()[0].lower() == "free":
-            courses_db[position].price = "FREE    mix free"
+    new_courses_lst = []
+    for course in courses_db:
+        course_dict = {}
 
-        else:
-            courses_db[position].price = courses_db[position].price + "    mix payed"
+        course_dict["course_title"] = course.course_title
+        course_dict["price"] = course.price
+        course_dict["image"] = course.image
+        course_dict["course_duration"] = course.course_duration
+        course_dict["number_of_students"] = course.number_of_students
+        course_dict["short_description"] = course.short_description
+        course_dict["long_description"] = course.long_description
+        course_dict["url"] = course.url
 
-    return courses_db
+        if len(course_dict["price"].split()) > 1:
+            if course_dict["price"].split()[0].lower() == "free":
+                course_dict["price"] = "FREE    mix free"
+
+            else:
+                course_dict["price"] = course_dict["price"] + "    mix payed"
+
+        new_courses_lst.append(course_dict)
+
+    return new_courses_lst
 
 
 def duration_filter(courses_lst):
@@ -183,7 +198,7 @@ def duration_filter(courses_lst):
         "30+_hours": (31, 40)
     }
     for position in range(len(courses_lst)):
-        course_duration = courses_lst[position].course_duration.lower()
+        course_duration = courses_lst[position]["course_duration"].lower()
         if "minutes" in course_duration:
             course_duration = int(course_duration.split()[0]) / 60
         elif "approx." in course_duration:
@@ -213,7 +228,7 @@ def duration_filter(courses_lst):
         for course_time in duration_dict.keys():
             min_duration, max_duration = duration_dict[course_time]
             if min_duration <= course_duration <= max_duration:
-                courses_lst[position].price += " " + course_time
+                courses_lst[position]["price"] += " " + course_time
                 break
 
         # courses_db[position].price = " " + courses_db[position].skill
@@ -234,13 +249,12 @@ def certificate_filter(courses_lst):
         flag_with_cerf = 0
 
         for site in with_certificates:
-            if courses_lst[position].url.startswith(site):
-                courses_lst[position].price += " with_cerf"
+            if courses_lst[position]["url"].startswith(site):
+                courses_lst[position]["price"] += " with_cerf"
                 flag_with_cerf = 1
                 break
 
         if flag_with_cerf == 0:
-            courses_lst[position].price += " without_cerf"
+            courses_lst[position]["price"] += " without_cerf"
 
     return courses_lst
-
