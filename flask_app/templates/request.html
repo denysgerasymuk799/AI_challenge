@@ -27,6 +27,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="static/css/util.css">
 	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style_all_courses_page.css">
 <!--===============================================================================================-->
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato|Quicksand'>
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
@@ -52,10 +53,17 @@
 </head>
 <body>
 
+	<div class="site-wrap">
+		<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+			<div class="topnav"><a class="topnav_b" href="/">S.E.A</a></div>
+		</header>
+
+	</div>
+
 	<div class="bg-container-contact100" style="background-image: url(static/images/bg-01.jpg);">
 		<div class="contact100-header flex-sb-m">
 			<a href="/" class="contact100-header-logo">
-				<img src="static/images/icons/logo.png" alt="LOGO">
+				<img src="static/images/icons/logo1.png" alt="LOGO">
 			</a>
 		</div>
 	</div>
@@ -68,12 +76,15 @@
 
 {#			<div class="contact100-form-title" style="background-image: url(static/images/bg-02.jpg);">#}
             <div class="contact100-form-title" style="background-color: #846add;">
-				<span>Find Yourself</span>
+				<span>Input Profession</span>
 			</div>
 
 			<form class="contact100-form validate-form" method="post" id="form">
 {#				<div class="wrap-input100 validate-input">#}
 {#					<input id="email" class="input100" type="text" name="job" placeholder="Enter your dream job">#}
+					{% if error %}
+							<h2><p class="topnav_error">{{ error }}</p></h2>
+					{% endif %}
 {#					<span class="focus-input100"></span>#}
 {#					<label class="label-input100" for="email">#}
 {#						<span class="lnr lnr-briefcase"></span>#}

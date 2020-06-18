@@ -23,13 +23,17 @@
 
         <div class="container-fluid">
             <div class="topnav">
-                <a class="topnav_logo" href="#">S.E.A</a>
+                {% if not logged %}
                 <a class="topnav_a" href="{{ url_for('login') }}">Log in</a>
+                {% else %}
+                <a class="topnav_a" href="{{ url_for('logout') }}">Log out</a>
+                {% endif %}
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
                 <a class="topnav_a active" href="#home">All courses</a>
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
                 <a class="topnav_a" id="price_click"
                    href="{{ url_for('selected_from_main') }}">View selected</a>
+                <a class="topnav_b" href="#">S.E.A</a>
             </div>
         </div>
     </header>

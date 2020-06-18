@@ -2,10 +2,10 @@
 {% block nav %}
         <nav class="site-navigation position-relative text-right" role="navigation">
         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-            <li class="cta"><a href="{{ url_for("input_profession") }}"
+            <li class="cta"><a href="{{ url_for('input_profession') }}"
                                class="nav-link"><span>Find other courses</span></a></li>
-            <li class="cta"><a id="selected" href="download" class="nav-link" target="_blank"><span>Download</span></a>
-            </li>
+            <li class="cta"><a href="{{ url_for('render_main_page') }}"
+                               class="nav-link"><span>Home</span></a></li>
         </ul>
     </nav>
 {% endblock nav %}
@@ -15,6 +15,7 @@
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
                     <h3 class="section-title">Selected courses</h3>
+                    <h4 class="section-sub-title">Arrange courses by moving them</h4>
                 </div>
             </div>
         </div>
@@ -22,8 +23,9 @@
     <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="col-12">
+                <ul class="drag">
                 {% for course in my_courses %}
-                    <div class="course bg-white mb-5">
+                    <li class="coursedrag bg-white mb-5" draggable="true">
                         <div class="row">
                             <div class="col-3">
                                 <figure class="m-0">
@@ -43,12 +45,16 @@
                                 <div class="meta"><span class="icon-money"></span>
                                     <p class="course_price">{{ course.price }}</p></div>
                                 <div class="meta"><span class="icon-clock-o"></span>{{ course['course_duration'] }}</div>
-                                <p>{{ course['long_description'] }}</p>
+                                <p>{{ (".".join(course['long_description'].split(".")[:2]) + ".") }}</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
                 {% endfor %}
+                </ul>
             </div>
         </div>
     </div>
+
+<script src="static/js/drag.js"></script>
+
 {% endblock %}

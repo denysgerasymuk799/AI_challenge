@@ -55,12 +55,14 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="#">S.E.A</a></div>
+<!--          <div class="site-logo mr-auto w-25"><a href="#">S.E.A</a></div>-->
 
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                 <li class="cta"><a href="\input_profession" class="nav-link"><span>Search again</span></a></li>
+                <li class="cta"><a href="{{ url_for('render_main_page') }}"
+                               class="nav-link"><span>Home</span></a></li>
               </ul>
             </nav>
           </div>
