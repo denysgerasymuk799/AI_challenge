@@ -20,10 +20,6 @@ def create_db():
             else:
                 profession_name2 = ' '.join(profession_name.split("+"))
 
-            # if db.session.query(Profession.id).filter_by(name=profession_name2).scalar() is not None:
-            #     print("Found in db")
-            #     continue
-
             try:
                 p = Profession(name=profession_name2)
                 db.session.add(p)
@@ -67,9 +63,7 @@ def create_db():
                 continue
 
     num_course = 0
-    # for num_file, filename in enumerate(os.listdir(os.path.join('user_data', "courses_for_all_professions",
-    #                                                             "IT_courses"))):
-    # print(filename, "-" * 20)
+
     with open(os.path.join(os.getcwd(), 'user_data', "courses_for_all_professions",
                            "IT_courses", "edx_results.json"),
               'r', encoding="utf-8") as courses_for_profession:
@@ -129,7 +123,6 @@ def create_db():
             except Exception:
                 continue
 
-            # db.create_all()
             num_course += 1
             print("num_course", num_course)
             print(course_title)
@@ -146,9 +139,6 @@ def create_db():
                 continue
             except Exception:
                 continue
-
-    # job1 = Profession.query.filter_by(name='analyst').first()
-    # print(job1.skills)
 
 
 if __name__ == '__main__':

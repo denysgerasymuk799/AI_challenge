@@ -1,5 +1,9 @@
 {
     "main_page_skills": [
         "JavaScript"
+    ],
+    "selected_courses": [
+        "Learn Node.js",
+        "Building Interactive JavaScript Websites"
     ]
 }

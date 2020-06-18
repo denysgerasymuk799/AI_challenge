@@ -70,11 +70,7 @@ def get_courses(current_skills):
         if skill not in current_skills:
             # courses_db = Skill.query.filter_by(name=skill).first().courses
             courses_db = Skill2.query.filter_by(name=skill).first().courses
-            # print("skill", skill)
-            # for course in courses_db:
-            #     print("course", course.course_title)
-            #
-            # print()
+
             skill = skill.lower()
             courses_dict[skill] = []
 
@@ -96,8 +92,6 @@ def get_courses(current_skills):
                 courses_dict[skill].append(course_dict)
 
     print("courses_dict", courses_dict)
-    # use this filter for every courses for skill
-    # courses_dict = students_filter(courses_dict)
 
     return courses_dict
 
@@ -233,8 +227,6 @@ def duration_filter(courses_lst):
             if min_duration <= course_duration <= max_duration:
                 courses_lst[position]["price"] += " " + course_time
                 break
-
-        # courses_db[position].price = " " + courses_db[position].skill
 
     return courses_lst
 

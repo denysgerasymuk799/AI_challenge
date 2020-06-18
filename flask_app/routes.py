@@ -4,18 +4,15 @@ from flask import render_template, request, redirect, \
 from flask_login import current_user, login_user, logout_user, login_required
 from flask_app import app, db
 from flask_app.forms import LoginForm, RegistrationForm
-from flask_app.models import Skill, User
-# from flask_app.models import Skill2, User
+# from flask_app.models import Skill, User
+from flask_app.models import Skill2, User
 from flask_app.tools import *
 
 
-# print(app)
-
 @app.route("/", methods=['POST', 'GET'])
 def start():
-    # return render_template("skills_updated.html")
     user_data_json = {'main_page_skills': []}
-    user_data_json = {'selected_courses': []}
+    user_data_json['selected_courses'] = []
     write_user_data(user_data_json)
 
     return redirect(url_for("render_main_page"))
@@ -50,8 +47,7 @@ def render_main_page():
         courses_for_skills_lst.append(new_courses_lst)
 
     # skills = Skill.query.all()
-    # db.session.rollback()
-    # db.session.flush()
+
     skills = Skill2.query.all()
     sorted_skills_by_letter = {}
 
@@ -88,10 +84,6 @@ def save_request():
             user_data_json['selected_courses'] = selected_courses
 
     write_user_data(user_data_json)
-
-    # with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
-    #         user_data_json_from_file:
-    #     json.dump(user_data_json, user_data_json_from_file, indent=4, ensure_ascii=False)
 
     return redirect(url_for("selected_from_main"))
 
@@ -209,15 +201,6 @@ def selected_from_main():
     """
     print()
     print("hello selected_from_main")
-    # req = request.get_json()
-    #
-    # print(req)
-    # req = dict(req)
-    #
-    # res = make_response(jsonify(req), 200)
-    # print(res)
-    # selected_courses = req.values()
-    # print(selected_courses)
 
     my_courses = []
 
@@ -229,7 +212,6 @@ def selected_from_main():
     skill_names = user_data_json["main_page_skills"]
     course_names = user_data_json["selected_courses"]
     print(skill_names)
-    # print(course_names)
     for skill in skill_names:
         print("skill", skill)
         # courses_db = Skill.query.filter_by(name=skill).first().courses

@@ -126,13 +126,6 @@ def create_courses_json_for_profession(title_profession):
 
             # get description from all courses
             for n_dict, course_title in enumerate(page_courses_json.keys()):
-                # print()
-                # print('number of course', i + 1)
-                # print('course_title --', course_title)
-                # i += 1
-                # if i == 100:
-                #     checker_break = 1
-                #     break
 
                 # clean long_description from html tags
                 try:
@@ -185,45 +178,27 @@ def create_courses_json_for_profession(title_profession):
                             pass
                     else:
                         pass
-                #
-                #     # check if courses teach skills of title_profession in long_description if not in short_description
+                # check if courses teach skills of title_profession in long_description if not in short_description
                 if not is_profession_skills_course_checker:
                     continue
 
-                # print("new dict")
                 for pos, skill_from_course in enumerate(skill_names_lst):
                     courses_skill_dict = dict_courses_for_profession.get(skill_from_course, [])
                     page_courses_json[course_title]["course_title"] = course_title
 
                     checker_same_course = 0
                     for course in courses_skill_dict:
-                        # if n_dict >= 4:
-                        #     print("find same")
-                        #     print(course["course_title"].strip().lower(),
-                        #           page_courses_json[course_title]["course_title"].strip().lower())
+
                         if course["course_title"].strip().lower() == \
                                 page_courses_json[course_title]["course_title"].strip().lower():
                             checker_same_course = 1
-                            # print("checker_same_course", checker_same_course)
                             break
 
                     if checker_same_course == 1:
                         continue
-                    # if page_courses_json[course_title] not in courses_skill_dict:
-                    courses_skill_dict.append(page_courses_json[course_title])
-                    # print(pos, course_title)
-                    dict_courses_for_profession[skill_from_course] = courses_skill_dict
-                    # print("changed dict", skill_from_course)
-                    # for course2 in dict_courses_for_profession[skill_from_course]:
-                    #     print(course2["course_title"])
 
-                # # print("dict_courses_for_profession[skill_from_course]", dict_courses_for_profession[skill_from_course])
-                # print("dict---------------------------------")
-                # for course in dict_courses_for_profession.keys():
-                #     for course2 in dict_courses_for_profession[course]:
-                #         print(course2["course_title"])
-                #
-                # print()
+                    courses_skill_dict.append(page_courses_json[course_title])
+                    dict_courses_for_profession[skill_from_course] = courses_skill_dict
 
                 # save dict_courses_for_profession
                 with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
@@ -231,11 +206,11 @@ def create_courses_json_for_profession(title_profession):
                     json.dump(dict_courses_for_profession, user_profession_courses, indent=4, ensure_ascii=False)
 
         dict_courses_for_profession = sort_by_students(dict_courses_for_profession)
+
         # save dict_courses_for_profession
         with open(os.path.join(temp_dir, 'user_data', title_profession + '.json'), 'w', encoding='utf-8') as \
                 user_profession_courses:
             json.dump(dict_courses_for_profession, user_profession_courses, indent=4, ensure_ascii=False)
-
 
 
 if __name__ == '__main__':
@@ -266,22 +241,9 @@ if __name__ == '__main__':
                        "customer support representative"
 
                        ]
-    #
-    # lst_professions = ["программист php"]
 
     dict_profession_skills = dict()
 
     for profession in lst_professions:
         create_courses_json_for_profession(profession)
         print(profession)
-
-    # to write skills which starts with big letter
-
-    #     dict_profession_skills[profession] = []
-    #     for skill in filtered_skills_for_professions[profession]:
-    #         if re.match(r"[A-z]", skill[0]):
-    #             dict_profession_skills[profession].append(skill)
-    #
-    # with open(os.path.join(os.getcwd(), 'static', 'filtered_skills_for_professions2.json'), 'w',
-    #           encoding='utf-8') as json_file:
-    #     json.dump(dict_profession_skills, json_file, ensure_ascii=False, indent=4)
