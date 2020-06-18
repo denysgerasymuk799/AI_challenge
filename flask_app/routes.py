@@ -4,7 +4,8 @@ from flask import render_template, request, redirect, \
 from flask_login import current_user, login_user, logout_user, login_required
 from flask_app import app, db
 from flask_app.forms import LoginForm, RegistrationForm
-from flask_app.models import Skill, User
+# from flask_app.models import Skill, User
+from flask_app.models import Skill2, User
 from flask_app.tools import *
 
 
@@ -13,6 +14,10 @@ from flask_app.tools import *
 @app.route("/", methods=['POST', 'GET'])
 def start():
     # return render_template("skills_updated.html")
+    user_data_json = {'main_page_skills': []}
+    user_data_json = {'selected_courses': []}
+    write_user_data(user_data_json)
+
     return redirect(url_for("render_main_page"))
 
 
@@ -25,13 +30,15 @@ def render_main_page():
     if not search_skills:
         search_skills = ["JavaScript"]
 
+    print("write in file before")
     # write_user_data writes user_data_json to file
     user_data_json = {'main_page_skills': search_skills}
     write_user_data(user_data_json)
 
     for skill in search_skills:
         print("skill", skill)
-        courses_db = Skill.query.filter_by(name=skill).first().courses
+        # courses_db = Skill.query.filter_by(name=skill).first().courses
+        courses_db = Skill2.query.filter_by(name=skill).first().courses
         courses_db = price_filter(courses_db)
         courses_db = duration_filter(courses_db)
         courses_db = certificate_filter(courses_db)
@@ -40,7 +47,8 @@ def render_main_page():
 
         courses_for_skills_lst.append(courses_db)
 
-    skills = Skill.query.all()
+    # skills = Skill.query.all()
+    skills = Skill2.query.all()
     sorted_skills_by_letter = {}
 
     for letter in string.ascii_lowercase:
@@ -63,7 +71,7 @@ def save_request():
     res = make_response(jsonify(req), 200)
     print(res)
 
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as json_file:
+    with open(os.path.join(os.getcwd(), "flask_app", 'user_data', 'user_data.json'), 'r', encoding='utf-8') as json_file:
         user_data_json = json.load(json_file)
         if req is not None:
             selected_courses = []
@@ -203,7 +211,8 @@ def selected_from_main():
     # print(selected_courses)
 
     my_courses = []
-    with open(os.path.join(os.getcwd(), 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
+
+    with open(os.path.join(os.getcwd(), "flask_app", 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
         user_data_json = json.load(user_data_json_from_file)
 
@@ -213,7 +222,8 @@ def selected_from_main():
     # print(course_names)
     for skill in skill_names:
         print("skill", skill)
-        courses_db = Skill.query.filter_by(name=skill).first().courses
+        # courses_db = Skill.query.filter_by(name=skill).first().courses
+        courses_db = Skill2.query.filter_by(name=skill).first().courses
         for course in courses_db:
             if course.course_title in course_names:
                 my_courses.append(course)

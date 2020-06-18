@@ -21,9 +21,19 @@ def inject_all():
         path = os.path.join(root, file)
         profession_name = ' '.join(file[:-5].split('+'))
         print(profession_name)
+        flag_not_in_db_prof = 0
 
         try:
-            profession = Profession2(name=profession_name)
+            db.session.rollback()
+            if db.session.query(Profession2.id).filter_by(
+                    name=profession_name).scalar() is None:
+                profession = Profession2(name=profession_name)
+                flag_not_in_db_prof = 1
+
+            else:
+                print("profession_name in db")
+                profession = Profession2.query.filter_by(name=profession_name).first()
+                continue
 
         except Exception as er:
             print("ERROR1", er)
@@ -31,9 +41,18 @@ def inject_all():
 
         info = json.load(open(path, encoding="utf-8"))
         for skill_name in info:
+            flag_not_in_db = 0
             if skill_name not in skills:
                 try:
-                    skill = Skill2(name=skill_name)
+                    db.session.rollback()
+                    if db.session.query(Skill2.id).filter_by(
+                            name=skill_name).scalar() is None:
+                        skill = Skill2(name=skill_name)
+                        flag_not_in_db = 1
+
+                    else:
+                        print("skill in db")
+                        skill = Skill2.query.filter_by(name=skill_name).first()
 
                 except Exception as er:
                     print("ERROR2", er)
@@ -60,17 +79,26 @@ def inject_all():
                                     course_data["number_of_students"] = "45,000,000+ students"
 
                         try:
-                            course = Course2(course_title=course_data["course_title"],
-                                            price=course_data["price"],
-                                            image=course_data["image"],
-                                            number_of_students=course_data["number_of_students"],
-                                            course_duration=course_data["course_duration"],
-                                            short_description=course_data["short_description"],
-                                            long_description=course_data["long_description"],
-                                            url=course_data["url"])
-                            courses[course_data["url"]] = course
-                            db.session.add(course)
-                            db.session.commit()
+                            db.session.rollback()
+                            if db.session.query(Course2.id).filter_by(
+                                    course_title=course_data["course_title"]).scalar() is None:
+
+                                course = Course2(course_title=course_data["course_title"],
+                                                price=course_data["price"],
+                                                image=course_data["image"],
+                                                number_of_students=course_data["number_of_students"],
+                                                course_duration=course_data["course_duration"],
+                                                short_description=course_data["short_description"],
+                                                long_description=course_data["long_description"],
+                                                url=course_data["url"])
+                                courses[course_data["url"]] = course
+                                db.session.add(course)
+                                db.session.commit()
+
+                            else:
+                                print("course in db")
+
+                                course = Course2.query.filter_by(course_title=course_data["course_title"]).first()
 
                         except Exception as er:
                             print("ERROR3", er)
@@ -86,8 +114,9 @@ def inject_all():
                 skills[skill_name] = skill
 
                 try:
-                    db.session.add(skill)
-                    db.session.commit()
+                    if flag_not_in_db == 1:
+                        db.session.add(skill)
+                        db.session.commit()
 
                 except Exception as er:
                     print("ERROR skill commit", er)
@@ -103,8 +132,9 @@ def inject_all():
                 continue
 
         try:
-            db.session.add(profession)
-            db.session.commit()
+            if flag_not_in_db_prof == 1:
+                db.session.add(profession)
+                db.session.commit()
 
         except Exception as er:
             print("ERROR6", er)
