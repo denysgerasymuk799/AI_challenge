@@ -70,14 +70,13 @@ h1.skill_title {
 }
 
 .topnav_error {
-    float: center;
     color: #fa7373;
     text-align: center;
-    padding: 10px 20px;
     text-decoration: none;
-    letter-spacing: 3px;
-    font-size: 37px;
+    letter-spacing: 1px;
+    font-size: 28px;
     font-weight:600;
+    margin-left: 130px;
 }
 
 .topnav_logo {
