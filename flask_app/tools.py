@@ -23,9 +23,8 @@ def write_user_data(all_user_data):
     """Saves information about user"""
     with open(os.path.join(os.getcwd(), "flask_app",  'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
             user_data_json_from_file:
-        print("write in file")
+        print("write in file", os.getcwd())
         json.dump(all_user_data, user_data_json_from_file, indent=4, ensure_ascii=False)
-
 
 
 def get_translation():

@@ -77,6 +77,7 @@ def save_request():
 
     with open(os.path.join(os.getcwd(), "flask_app", 'user_data', 'user_data.json'), 'r', encoding='utf-8') as json_file:
         user_data_json = json.load(json_file)
+        print("save_request", os.getcwd())
         if req is not None:
             selected_courses = []
 
@@ -222,6 +223,7 @@ def selected_from_main():
 
     with open(os.path.join(os.getcwd(), "flask_app", 'user_data', 'user_data.json'), 'r', encoding='utf-8') as \
             user_data_json_from_file:
+        print("get file", os.getcwd())
         user_data_json = json.load(user_data_json_from_file)
 
     skill_names = user_data_json["main_page_skills"]
