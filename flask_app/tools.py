@@ -7,8 +7,8 @@ c) filtering skills and courses
 
 import os
 import json
-# from flask_app.models import Profession, Skill
-from flask_app.models import Profession2, Skill2
+from flask_app.models import Profession, Skill
+# from flask_app.models import Profession2, Skill2
 
 
 def get_user_info():
@@ -42,7 +42,8 @@ def skills_for_job(job):
     """
     if job.endswith("2"):
         job = job[:-1]
-    list_from_db = Profession2.query.filter_by(name=job).first().skills
+    list_from_db = Profession.query.filter_by(name=job).first().skills
+    # list_from_db = Profession2.query.filter_by(name=job).first().skills
 
     result_skill_list = []
     print("list_from_db", list_from_db)
@@ -68,8 +69,8 @@ def get_courses(current_skills):
     course_id = 0
     for skill in skills_list:
         if skill not in current_skills:
-            # courses_db = Skill.query.filter_by(name=skill).first().courses
-            courses_db = Skill2.query.filter_by(name=skill).first().courses
+            courses_db = Skill.query.filter_by(name=skill).first().courses
+            # courses_db = Skill2.query.filter_by(name=skill).first().courses
             # print("skill", skill)
             # for course in courses_db:
             #     print("course", course.course_title)
