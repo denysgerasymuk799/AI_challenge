@@ -55,7 +55,7 @@
                         {% set outer_loop = loop %}
 
                         {% for course in courses_for_skill %}
-                            <li class="{{ course["price"] }}">
+                            <li class="{{ course['price'] }}">
                                 <div class="course bg-white">
                                     <div class="checkbox-field">
                                         <input type="checkbox" name="course_name" value="{{ course["course_title"] }}"/>
@@ -83,8 +83,8 @@
                                         {% endif %}
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
-                                        <span class="course-price">{{ course["price"][:6] }}</span>
-                                            <div class="text_price" onclick="getCourses()"><span
+                                        <span class="course-price">{{ course["price"][:5] }}</span>
+                                            <div class="text_price"><span
                                                 class="icon-clock-o"></span>{{ course["course_duration"] }}
                                         </div>
                                         <h3><a href="{{ course['url'] }}" class="title_course">{{ course["course_title"] }}</a></h3>

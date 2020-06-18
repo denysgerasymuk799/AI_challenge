@@ -173,12 +173,15 @@ def price_filter(courses_db):
         course_dict["long_description"] = course.long_description
         course_dict["url"] = course.url
 
-        if len(course_dict["price"].split()) > 1:
+        try:
             if course_dict["price"].split()[0].lower() == "free":
-                course_dict["price"] = "FREE    mix free"
+                course_dict["price"] = "Free    mix free"
 
             else:
-                course_dict["price"] = course_dict["price"] + "    mix payed"
+                course_dict["price"] = course_dict["price"].lower() + "    mix payed"
+
+        except:
+            course_dict["price"] = course_dict["price"].lower()
 
         new_courses_lst.append(course_dict)
 
