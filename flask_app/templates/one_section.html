@@ -27,7 +27,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-1 custom-btn">
-                            <a class="customPrevBtn btn next_button">Prev</a>
+                            <a class="customPrevBtn btn btn-primary next_button">Prev</a>
                         </div>
                         <div class="owl-carousel col-10 nonloop-block-14">
 
@@ -64,8 +64,9 @@
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
                                         <span class="course-price">{{ course['price'] }}</span>
-                                        <div class="meta"><span
-                                                class="icon-clock-o"></span>{{ course['course_duration'] }}
+                                        <div class="meta">
+                                            <span class="icon-flag"></span>Rate: {{loop.index}}<br>
+                                            <span class="icon-clock-o"></span>{{ course['course_duration'] }}
                                         </div>
                                         <h3><a href="{{ course['url'] }}">{{ course['course_title'] }}</a></h3>
                                         {% if course['short_description'] %}

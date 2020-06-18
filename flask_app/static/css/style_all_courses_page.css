@@ -184,6 +184,49 @@ h1.title--ultra, h2.title--ultra, h3.title--ultra, h4.title--ultra, h5.title--ul
     justify-self: start;
 }
 
+.course:hover {
+  top: -10px;
+  -webkit-box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
+}
+
+.coursedrag {
+    -webkit-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.3);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    top: 0;
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+
+    will-change: transform;
+    list-style-type: none;
+    cursor: move;
+    transition: all 200ms;
+    user-select: none;
+}
+
+.coursedrag:after {
+    top: -10px;
+    -webkit-box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    cursor: pointer;
+    transition: all 200ms;
+    transition-timing-function: cubic-bezier(0.48, 0.72, 0.62, 1.5);
+    transform: translateX(120%);
+    opacity: 0;
+}
+
+.coursedrag:hover:after {
+  opacity: 1;
+  transform: translate(0);
+}
+
 .course .course-inner-text {
     position: relative;
     padding-top: 35px !important;
@@ -222,11 +265,6 @@ h1.title--ultra, h2.title--ultra, h3.title--ultra, h4.title--ultra, h5.title--ul
     font-size: .9rem;
 }
 
-.course:hover {
-    top: -10px;
-    -webkit-box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
-}
 
 .m-0 {
     margin: 0 !important;
@@ -258,4 +296,8 @@ h1.title--ultra, h2.title--ultra, h3.title--ultra, h4.title--ultra, h5.title--ul
 .course_description{
     padding: 5px;
     margin-left: 10px;
+}
+
+.drag {
+    padding: 0px;
 }
