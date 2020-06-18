@@ -70,18 +70,21 @@ def get_courses(current_skills):
         if skill not in current_skills:
             # courses_db = Skill.query.filter_by(name=skill).first().courses
             courses_db = Skill2.query.filter_by(name=skill).first().courses
-            print("skill", skill)
-            for course in courses_db:
-                print("course", course.course_titl)
-
-            print()
+            # print("skill", skill)
+            # for course in courses_db:
+            #     print("course", course.course_title)
+            #
+            # print()
             skill = skill.lower()
             courses_dict[skill] = []
-            course_dict = {}
-            for course in courses_db:
+
+            for course in courses_db[:25]:
+                course_dict = {}
                 course_id += 1
                 course_dict["id"] = str(course_id)
                 course_dict["course_title"] = course.course_title
+
+                print("course_dict['course_title']", course_dict["course_title"])
                 course_dict["price"] = course.price
                 course_dict["image"] = course.image
                 course_dict["course_duration"] = course.course_duration
@@ -90,7 +93,7 @@ def get_courses(current_skills):
                 course_dict["long_description"] = course.long_description
                 course_dict["url"] = course.url
 
-            courses_dict[skill].append(course_dict)
+                courses_dict[skill].append(course_dict)
 
     print("courses_dict", courses_dict)
     # use this filter for every courses for skill
