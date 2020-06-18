@@ -31,7 +31,7 @@
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
                 <a class="topnav_a active" href="#home">All courses</a>
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
-                <a class="topnav_a" onclick="getCourses()"
+                <a class="topnav_a" id="price_click"
                    href="{{ url_for('selected_from_main') }}">View selected</a>
                 <a class="topnav_b" href="#">S.E.A</a>
             </div>
@@ -59,58 +59,58 @@
                         {% set outer_loop = loop %}
 
                         {% for course in courses_for_skill %}
-                            <li class="{{ course.price }}">
+                            <li class="{{ course['price'] }}">
                                 <div class="course bg-white">
                                     <div class="checkbox-field">
-                                        <input type="checkbox" name="course_name" value="{{ course.course_title }}"/>
+                                        <input type="checkbox" name="course_name" value="{{ course["course_title"] }}"/>
                                     </div>
                                     <figure class="m-0">
-                                        {% if course.image %}
-                                            {% if "codecademy.com/learn" in course.url %}
-                                                <a href={{ course.url }}><img
+                                        {% if course["image"] %}
+                                            {% if "codecademy.com/learn" in course["url"] %}
+                                                <a href={{ course["url"] }}><img
                                                         src="../static/images/codecademy.png"
                                                         class="img-fluid"></a>
 
-                                            {% elif course.image.image_240x135 %}
-                                                <a href={{ course.url }}><img
+                                            {% elif course["image"]["image_240x135"] %}
+                                                <a href={{ course["url"] }}><img
                                                         class="img-fluid"
-                                                        src="{{ course.image.image_480x270 }}"
+                                                        src="{{ course["image"]["image_480x270"] }}"
                                                 ></a>
-                                            {% elif course.image.small %}
-                                                <a href={{ course.url }}><img class="img-fluid"
-                                                                              src="{{ course.image.large }}"></a>
+                                            {% elif course["image"]["small"] %}
+                                                <a href={{ course["url"] }}><img class="img-fluid"
+                                                                              src="{{ course["image"]["large"] }}"></a>
                                             {% else %}
-                                                <a href={{ course.url }}><img
+                                                <a href={{ course["url"] }}><img
                                                         class="img-fluid"
-                                                        src="{{ course.image.rsplit('?')[0] }}"></a>
+                                                        src="{{ course["image"].rsplit('?')[0] }}"></a>
                                             {% endif %}
                                         {% endif %}
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
-                                        <span class="course-price">{{ course.price[:6] }}</span>
+                                        <span class="course-price">{{ course["price"][:5] }}</span>
                                             <div class="text_price"><span
-                                                class="icon-clock-o"></span>{{ course.course_duration }}
+                                                class="icon-clock-o"></span>{{ course["course_duration"] }}
                                         </div>
-                                        <h3><a href="{{ course.url }}" class="title_course">{{ course.course_title }}</a></h3>
-                                        {% if course.short_description %}
-                                            {% if course.short_description != ' ' %}
+                                        <h3><a href="{{ course['url'] }}" class="title_course">{{ course["course_title"] }}</a></h3>
+                                        {% if course["short_description"] %}
+                                            {% if course["short_description"] != ' ' %}
 
-                                                {% if course.short_description[150] %}
-                                                    <p class="course_description">{{ course.short_description[:150] + "..." }}</p>
+                                                {% if course["short_description"][150] %}
+                                                    <p class="course_description">{{ course["short_description"][:150] + "..." }}</p>
                                                 {% else %}
-                                                    <p class="course_description">{{ course.short_description }}</p>
+                                                    <p class="course_description">{{ course["short_description"] }}</p>
                                                 {% endif %}
 
                                             {% endif %}
 
-                                            {% if course.short_description == ' ' %}
-                                                <p class="course_description">{{ course.long_description.split(".")[0] }}</p>
+                                            {% if course["short_description"] == ' ' %}
+                                                <p class="course_description">{{ course["long_description"].split(".")[0] }}</p>
                                             {% endif %}
                                         {% endif %}
                                     </div>
                                     <div class="d-flex border-top stats">
                                         <div class="py-3 px-4"><span
-                                                class="icon-users"></span>{{ course.number_of_students }}
+                                                class="icon-users"></span>{{ course["number_of_students"] }}
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +227,17 @@
 
 <script>
     document.getElementById("price_click").addEventListener("click", getCourses);
+//     document.getElementById("price_click").onclick = function () {
+//         getCourses()
+// };
+//     document.getElementById("price_click").onclick = function fun() {
+//         alert("hello");
+//         getCourses();
+//         //validation code to see State field is mandatory.
+//     }
     function getCourses(){
+        console.log("11")
+
         var cboxes = document.getElementsByName('course_name');
         var len = cboxes.length;
         var courses = {};
@@ -237,6 +247,7 @@
             }
 
         }
+        console.log(courses)
 
         fetch(`/save_request`, {
             method: "POST",
@@ -252,7 +263,7 @@
                     console.log(`Looks like there was a problem. Status code: ${response.status}`);
                     return;
                 }
-                response.json().then(function (data) {
+                response.text().then(function (data) {
                     console.log(data);
                 });
             })

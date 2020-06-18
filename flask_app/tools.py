@@ -7,7 +7,8 @@ c) filtering skills and courses
 
 import os
 import json
-from flask_app.models import Profession, Skill
+# from flask_app.models import Profession, Skill
+from flask_app.models import Profession2, Skill2
 
 
 def get_user_info():
@@ -22,7 +23,9 @@ def write_user_data(all_user_data):
     """Saves information about user"""
     with open(os.path.join(os.getcwd(), "flask_app",  'user_data', 'user_data.json'), 'w', encoding='utf-8') as \
             user_data_json_from_file:
+        print("write in file")
         json.dump(all_user_data, user_data_json_from_file, indent=4, ensure_ascii=False)
+
 
 
 def get_translation():
@@ -39,7 +42,7 @@ def skills_for_job(job):
     """
     if job.endswith("2"):
         job = job[:-1]
-    list_from_db = Profession.query.filter_by(name=job).first().skills
+    list_from_db = Profession2.query.filter_by(name=job).first().skills
 
     result_skill_list = []
     print("list_from_db", list_from_db)
@@ -65,14 +68,23 @@ def get_courses(current_skills):
     course_id = 0
     for skill in skills_list:
         if skill not in current_skills:
-            courses_db = Skill.query.filter_by(name=skill).first().courses
+            # courses_db = Skill.query.filter_by(name=skill).first().courses
+            courses_db = Skill2.query.filter_by(name=skill).first().courses
+            # print("skill", skill)
+            # for course in courses_db:
+            #     print("course", course.course_title)
+            #
+            # print()
             skill = skill.lower()
             courses_dict[skill] = []
-            course_dict = {}
-            for course in courses_db:
+
+            for course in courses_db[:25]:
+                course_dict = {}
                 course_id += 1
                 course_dict["id"] = str(course_id)
                 course_dict["course_title"] = course.course_title
+
+                print("course_dict['course_title']", course_dict["course_title"])
                 course_dict["price"] = course.price
                 course_dict["image"] = course.image
                 course_dict["course_duration"] = course.course_duration
@@ -81,14 +93,14 @@ def get_courses(current_skills):
                 course_dict["long_description"] = course.long_description
                 course_dict["url"] = course.url
 
-            courses_dict[skill].append(course_dict)
+                courses_dict[skill].append(course_dict)
 
     print("courses_dict", courses_dict)
-
     # use this filter for every courses for skill
-    courses_dict = students_filter(courses_dict)
+    # courses_dict = students_filter(courses_dict)
 
     return courses_dict
+
 
 # <------------------- Filters ------------------>
 
@@ -148,14 +160,32 @@ def price_filter(courses_db):
 
     :return: a list of special courses with parameter
     """
-    for position in range(len(courses_db)):
-        if courses_db[position].price.split()[0].lower() == "free":
-            courses_db[position].price = "FREE    mix free"
+    new_courses_lst = []
+    for course in courses_db:
+        course_dict = {}
 
-        else:
-            courses_db[position].price = courses_db[position].price + "    mix payed"
+        course_dict["course_title"] = course.course_title
+        course_dict["price"] = course.price
+        course_dict["image"] = course.image
+        course_dict["course_duration"] = course.course_duration
+        course_dict["number_of_students"] = course.number_of_students
+        course_dict["short_description"] = course.short_description
+        course_dict["long_description"] = course.long_description
+        course_dict["url"] = course.url
 
-    return courses_db
+        try:
+            if course_dict["price"].split()[0].lower() == "free":
+                course_dict["price"] = "Free    mix free"
+
+            else:
+                course_dict["price"] = course_dict["price"].lower() + "    mix payed"
+
+        except:
+            course_dict["price"] = course_dict["price"].lower()
+
+        new_courses_lst.append(course_dict)
+
+    return new_courses_lst
 
 
 def duration_filter(courses_lst):
@@ -171,7 +201,7 @@ def duration_filter(courses_lst):
         "30+_hours": (31, 40)
     }
     for position in range(len(courses_lst)):
-        course_duration = courses_lst[position].course_duration.lower()
+        course_duration = courses_lst[position]["course_duration"].lower()
         if "minutes" in course_duration:
             course_duration = int(course_duration.split()[0]) / 60
         elif "approx." in course_duration:
@@ -201,7 +231,7 @@ def duration_filter(courses_lst):
         for course_time in duration_dict.keys():
             min_duration, max_duration = duration_dict[course_time]
             if min_duration <= course_duration <= max_duration:
-                courses_lst[position].price += " " + course_time
+                courses_lst[position]["price"] += " " + course_time
                 break
 
         # courses_db[position].price = " " + courses_db[position].skill
@@ -222,13 +252,12 @@ def certificate_filter(courses_lst):
         flag_with_cerf = 0
 
         for site in with_certificates:
-            if courses_lst[position].url.startswith(site):
-                courses_lst[position].price += " with_cerf"
+            if courses_lst[position]["url"].startswith(site):
+                courses_lst[position]["price"] += " with_cerf"
                 flag_with_cerf = 1
                 break
 
         if flag_with_cerf == 0:
-            courses_lst[position].price += " without_cerf"
+            courses_lst[position]["price"] += " without_cerf"
 
     return courses_lst
-

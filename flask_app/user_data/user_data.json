@@ -1,5 +1,391 @@
 {
-    "main_page_skills": [
-        "JavaScript"
-    ]
+    "profession": "analyst",
+    "all_job_skills": [
+        "Python",
+        "SQL",
+        "data analysis",
+        "Planning",
+        "Communication",
+        "Team",
+        "Tableau",
+        "Google Analytics",
+        "Problem solving",
+        "Finance",
+        "English",
+        "Confidence",
+        "Business writing",
+        "Time Management",
+        "Leadership",
+        "Economics",
+        "presentations",
+        "Excel",
+        "organizational skills",
+        "Career management",
+        "Stress management",
+        "Creative thinking",
+        "Scrum",
+        "PowerPoint",
+        "Power BI",
+        "Emotional intelligence",
+        "Word",
+        "negotiations",
+        "Jira"
+    ],
+    "current_skills": [
+        "Power BI",
+        "negotiations"
+    ],
+    "courses": {
+        "python": [
+            {
+                "id": "202",
+                "course_title": "The Python Bible™ | Everything You Need to Program in Python",
+                "price": "$194.99",
+                "image": "https://i.udemycdn.com/course/125_H/903378_f32d_5.jpg",
+                "course_duration": "",
+                "number_of_students": "45,000,000+ students",
+                "short_description": "Udemy course",
+                "long_description": "Udemy course",
+                "url": "https://udemy.com/course/the-python-bible/"
+            }
+        ],
+        "sql": [
+            {
+                "id": "251",
+                "course_title": "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+                "price": "$179.99",
+                "image": "https://i.udemycdn.com/course/125_H/1187016_51b3.jpg",
+                "course_duration": "",
+                "number_of_students": "45,000,000+ students",
+                "short_description": "Udemy course",
+                "long_description": "Udemy course",
+                "url": "https://udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/"
+            }
+        ],
+        "data analysis": [
+            {
+                "id": "501",
+                "course_title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
+                "price": "$199.99",
+                "image": "https://i.udemycdn.com/course/125_H/513244_b831_2.jpg",
+                "course_duration": "",
+                "number_of_students": "45,000,000+ students",
+                "short_description": "Udemy course",
+                "long_description": "Udemy course",
+                "url": "https://udemy.com/course/datascience/"
+            }
+        ],
+        "planning": [
+            {
+                "id": "561",
+                "course_title": "Sales Planning",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/sales_planning/images/sales-planning.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Sales Planning is a key function in the procedure of sales management process. It is an effective process that involves strategy, sales forecasting, corresponding demand management, setting profit-based sales targets, the written and execution steps of a sales plan. A sales plan contains a strategic document that figures out your business targets and several resources. These can be used for some activities which you perform to reach your desired goal. In this tutorial, we will discuss how to carry out a successful Sales Planning. This tutorial is designed for those salespersons, who want to know the process of organizing the activities, so that they can achieve their business goals. It covers all the important areas that are needed to get a general idea on Sales Planning. Those of you who are newly-appointed sales managers will hopefully get a much-needed insight into the world of sales and its planning. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/sales_planning/index.htm"
+            }
+        ],
+        "communication": [
+            {
+                "id": "667",
+                "course_title": "Natural Language Toolkit",
+                "price": "FREE",
+                "image": "https://www.tutorialspoint.com/natural_language_toolkit/images/natural-language-toolkit.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Language is a method of communication with the help of which we can speak, read and write. Natural Language Processing (NLP) is the sub field of computer science especially Artificial Intelligence (AI) that is concerned about enabling computers to understand and process human language. We have various open-source NLP tools but NLTK (Natural Language Toolkit) scores very high when it comes to the ease of use and explanation of the concept. The learning curve of Python is very fast and NLTK is written in Python so NLTK is also having very good learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count. It is very elegant and easy to work with. This tutorial will be useful for graduates, post-graduates, and research students who either have an interest in NLP or have this subject as a part of their curriculum. The reader can be a beginner or an advanced learner. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/natural_language_toolkit/index.htm"
+            }
+        ],
+        "team": [
+            {
+                "id": "735",
+                "course_title": "Learn Google Colab",
+                "price": "FREE",
+                "image": "https://www.tutorialspoint.com/google_colab/images/google-colab.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Colab is a free notebook environment that runs entirely in the cloud. It lets you and your team members edit documents, the way you work with Google Docs. Colab supports many popular machine learning libraries which can be easily loaded in your notebook. This tutorial gives an exhaustive coverage of all the features of Colab and makes you comfortable working on it with confidence. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/google_colab/index.htm"
+            }
+        ],
+        "tableau": [
+            {
+                "id": "741",
+                "course_title": "Tableau 10 A-Z: Hands-On Tableau Training For Data Science!",
+                "price": "$199.99",
+                "image": "https://i.udemycdn.com/course/125_H/937678_abd2.jpg",
+                "course_duration": "",
+                "number_of_students": "45,000,000+ students",
+                "short_description": "Udemy course",
+                "long_description": "Udemy course",
+                "url": "https://udemy.com/course/tableau10/"
+            }
+        ],
+        "google analytics": [
+            {
+                "id": "792",
+                "course_title": "Learn GWT",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/gwt/images/gwt.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Google Web Toolkit (GWT) is a development toolkit for building and optimizing complex browser-based applications. GWT is used by many products at Google, including Google AdWords and Orkut. GWT is an open source, completely free, and used by thousands of developers around the world. It is licensed under the Apache License version 2.0. This tutorial will give you a great understanding of GWT concepts needed to get a web application up and running. This tutorial is designed for software professionals who are willing to learn GWT programming in simple and easy steps. This will also give you great understanding on GWT Programming concepts. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/gwt/index.htm"
+            }
+        ],
+        "problem solving": [
+            {
+                "id": "814",
+                "course_title": "Learn Creative Problem Solving",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/creative_problem_solving/images/creative-problem-solving.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Creativity is a crucial factor in business today and any manager without creative insights into a business cannot handle the multiple requirements of an increasingly adaptable customer base. Before we move on with that, we need to first give a proper meaning to the word “Creativity”, and then explain the difference between “Creativity” and “Innovation”, as these are the most interchangeably used, and easily mistaken terms. In this tutorial, we will discuss in detail about the benefits of Creative Problem Solving. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/creative_problem_solving/index.htm"
+            }
+        ],
+        "finance": [
+            {
+                "id": "891",
+                "course_title": "International Finance",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/international_finance/images/international-finance.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "International Finance deals with the management of finances in a global business. It explains how to trade in international markets and how to exchange foreign currency, and earn profit through such activities. This tutorial provides a brief overview of the current trends in finance, along with detailed inputs on the current global markets, foreign exchange markets, international capital markets, hedging and risk management, and strategic decision-making. This tutorial is an easy and informative read for management students and finance professionals. The objective of this tutorial is to equip the readers with an understanding of the international financial system and its growing importance. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/international_finance/index.htm"
+            }
+        ],
+        "english": [
+            {
+                "id": "992",
+                "course_title": "Spoken English Errors",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/spoken_english_errors/images/spoken-english-errors.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Every individual has the right to communicate as he pleases, however if the person desires to express himself effectively and confidently, he should be aware of common errors while speaking in the English language. The objective of this tutorial is to discuss a few tips and tricks that can help non-native English speakers to spot some basic errors in speech, which would ultimately benefit them in avoiding low grades, lost employment opportunities, and unproductive business. This tutorial is designed primarily for young professionals who need assistance in spotting those common errors in English speech which might result in general embarrassment while communicating in public. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/spoken_english_errors/index.htm"
+            }
+        ],
+        "confidence": [
+            {
+                "id": "1019",
+                "course_title": "Learn Work Life Balance",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/work_life_balance/images/work-life-balance.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Work–Life Balance is a concept that consists of proper prioritizing between career and domestic/personal pleasure, leisure, family and spiritual development. It helps us in addressing all those areas of our life that should co-exist peacefully, in spite of belonging to different spheres. This tutorial is for designed primarily for the students and professionals who lack confidence in expressing their opinions and feel a lack of motivation towards achieving their goals. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/work_life_balance/index.htm"
+            }
+        ],
+        "business writing": [
+            {
+                "id": "1143",
+                "course_title": "Learn Drools",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/drools/images/drools.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Drools is a business logic integration platform written in Java. This is a quick tutorial on how to use Drools in a business environment. This tutorial should be useful for all those readers who wish to define rules in their applications to integrate business logic in a standard way. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/drools/index.htm"
+            }
+        ],
+        "time management": [
+            {
+                "id": "1239",
+                "course_title": "Managing the Manager",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/managing_the_manager/images/managing-the-manager.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "The Senior Management in a company chooses persons as Managers depending on their reputation in front of their subordinates and the general observation about them. These observations often point towards many of the significant characteristics of a good manager and a great leader. In this tutorial, we will discuss in detail about the nuances of how a company handles its managers and what kind of skill sets they should have This tutorial offers a brief insight into how the top management wants a manager to perform. It is helpful especially to those people, who have just been promoted to the managerial level, or are in queue to becoming one. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/managing_the_manager/index.htm"
+            }
+        ],
+        "leadership": [
+            {
+                "id": "1291",
+                "course_title": "Learn Women in Leadership",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/women_in_leadership/images/women-in-leadership.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Women play multiple roles in a society. Women have started entering the erstwhile male dominated leadership positions. As a result of increasing globalization and the opening of new markets in developing countries, and above all, for democratization of most countries in the world, we are witnessing a new class of women leaders. This tutorial deals at length with ‘Women in Leadership’. It has been divided into several important chapters, each discussing a significant aspect of women leadership. It also provides an account of world’s famous women leaders who are role models for many other women in the world. This tutorial is useful for management students and professionals, especially those who work towards promoting women leadership in the world. The tutorial will help its readers understand the importance of women leadership in every sphere of life. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/women_in_leadership/index.htm"
+            }
+        ],
+        "economics": [
+            {
+                "id": "1331",
+                "course_title": "Learn Managerial Economics",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/managerial_economics/images/managerial-economics-reduce.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Managerial economics is concerned with the application of economic concepts and economic analysis to the problems of formulating rational managerial decisions. This tutorial covers most of the topics of managerial economics including micro, macro, and managerial economic relationship; demand forecasting, production and cost analysis, market structure and pricing theory. This tutorial is aimed at management students having a basic understanding of business concepts. It will give them an in-depth overview of the major topics of management economics. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/managerial_economics/index.htm"
+            }
+        ],
+        "presentations": [
+            {
+                "id": "1338",
+                "course_title": "Effective Business Presentations with Powerpoint",
+                "price": "Free",
+                "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-promounit-images.s3.amazonaws.com/09/e3df2bdb52464c873d65a7a5941591/HPP-UMich-MPH-new-pic-with-logo.png?auto=format%2Ccompress&dpr=1&w=172",
+                "course_duration": "Approx. 13 hours to complete",
+                "number_of_students": "",
+                "short_description": " ",
+                "long_description": "This course is all about presenting the story of the data, using PowerPoint. You'll learn how to structure a presentation, to include insights and supporting data. You'll also learn some design principles for effective visuals and slides. You'll gain skills for client-facing communication - including public speaking, executive presence and compelling storytelling. Finally, you'll be given a client profile, a business problem, and a set of basic Excel charts, which you'll need to turn into a presentation - which you'll deliver with iterative peer feedback.\n\nThis course was created by PricewaterhouseCoopers LLP with an address at 300 Madison Avenue, New York, New York, 10017.",
+                "url": "https://www.coursera.org/learn/powerpoint-presentations"
+            }
+        ],
+        "excel": [
+            {
+                "id": "1375",
+                "course_title": "Microsoft Excel - Excel from Beginner to Advanced",
+                "price": "$149.99",
+                "image": "https://i.udemycdn.com/course/125_H/793796_0e89.jpg",
+                "course_duration": "",
+                "number_of_students": "45,000,000+ students",
+                "short_description": "Udemy course",
+                "long_description": "Udemy course",
+                "url": "https://udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"
+            }
+        ],
+        "organizational skills": [
+            {
+                "id": "1404",
+                "course_title": "Learn Interpersonal Skills",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/interpersonal_skills/images/interpersonal-skills.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Interpersonal skills are sometimes referred to as people skills or social skills, and with good reason − these are skills that we use while communicating with others. Interpersonal skills include speaking, explaining, persuasion, and active listening. In the business world, it refers to a person's ability to communicate and interact effectively within the organization with colleagues and seniors. This tutorial is designed primarily for the students and professionals who seek assistance in initiating conversation and building positive impression in social circles and also at work. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/interpersonal_skills/index.htm"
+            }
+        ],
+        "career management": [
+            {
+                "id": "1494",
+                "course_title": "Managing the Manager",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/managing_the_manager/images/managing-the-manager.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "The Senior Management in a company chooses persons as Managers depending on their reputation in front of their subordinates and the general observation about them. These observations often point towards many of the significant characteristics of a good manager and a great leader. In this tutorial, we will discuss in detail about the nuances of how a company handles its managers and what kind of skill sets they should have This tutorial offers a brief insight into how the top management wants a manager to perform. It is helpful especially to those people, who have just been promoted to the managerial level, or are in queue to becoming one. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/managing_the_manager/index.htm"
+            }
+        ],
+        "stress management": [
+            {
+                "id": "1587",
+                "course_title": "Learn Workplace Stress",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/workplace_stress/images/workplace-stress.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "We all face situations where we are so stressed out and feel so unbalanced that we tend to overlook all tasks that we know are important because we cannot manage a single thing. The reasons behind such issues is workplace stress. Working professionals carry this stress back to their family lives, where it starts affecting their behavior with family and friends. This tutorial explains the influence of positive and negative stress on all our lives. The simple trick is to maximize positive stress and reduce negative stress. This tutorial provides three different options for tackling any stressful situation, along with a toolbox of personal skills like routines, relaxation techniques, and stress log system. This tutorial is designed for employees who have trouble focusing on their jobs or managing their time because of the stress they get from juggling multiple assignments, while working on a tough job. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/workplace_stress/index.htm"
+            }
+        ],
+        "creative thinking": [
+            {
+                "id": "1601",
+                "course_title": "Adobe Indesign",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/adobe_indesign_cc/images/adobe-indesign.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Adobe InDesign is a part of the Adobe Creative Suite and is an upgrade from Aldus PageMaker, a widely used Desktop Publishing (DTP) software which was subsequently purchased by Adobe. Adobe InDesign is available on Windows and Mac and can be purchased as a standalone product or as part of the Adobe Creative Suite. The functions and capabilities of InDesign are much more than what is possible with a word processing program such as Microsoft Word. It is the de facto program used by large publishing houses and big websites. This tutorial aims to give a comprehensive tour of the program enabling you to leverage its full potential. This tutorial is intended for InDesign users of all levels of experience. Beginners will find valuable information on how to set up the right document layout and choosing the best colors. Intermediate users will find information on adjusting transparency, inserting QR codes and working with objects and layers. Advanced users will find handy information on creating eBooks, preflighting and packaging documents, and also transitioning workflows between InDesign and popular software such as Word, Photoshop, and Illustrator. All lessons apply equally to users of both Windows and Mac versions of the program. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/adobe_indesign_cc/index.htm"
+            }
+        ],
+        "scrum": [
+            {
+                "id": "1607",
+                "course_title": "Learn Scrum",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/scrum/images/scrum.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Scrum is an efficient framework within which you can develop software with teamwork. It is based on agile principles. This tutorial will help you understand agile development in general and Scrum in specific. You will get familiar with its associated terminology along with appropriate examples. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/scrum/index.htm"
+            }
+        ],
+        "powerpoint": [
+            {
+                "id": "1613",
+                "course_title": "Learn Powerpoint",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/powerpoint/images/ppt_testing.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Microsoft PowerPoint is a commercial presentation application written and distributed by Microsoft for Microsoft Windows and Mac OS X. The current versions at the time of writing this tutorial are 2010 for Microsoft Windows and 2011 for Mac OS X. Microsoft PowerPoint is a presentation tool that supports text, shapes, graphics, pictures and multimedia along with integration with other Microsoft Office products like Excel. By default, documents saved in PowerPoint 2010 are saved with the .pptx extension whereas, the file extension of the prior PowerPoint versions is .ppt. This tutorial has been designed for computer users who are willing to learn Microsoft PowerPoint in simple steps and they do not have much knowledge about computer usage and Microsoft applications. This tutorial will give you enough understanding on MS PowerPoint from where you can take yourself at higher level of expertise. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/powerpoint/index.htm"
+            }
+        ],
+        "emotional intelligence": [
+            {
+                "id": "1626",
+                "course_title": "Social Intelligence",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/social_intelligence/images/social-intelligence.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Social intelligence is the human capacity to use our brains to effectively navigate through complex emotional situations and negotiate different social relationships. It is an ability that helps us adjust according to different working environments. This tutorial explains how social intelligence helps us deal with complex socialization processes such as politics, family relationships, quarrels, competition, collaboration, etc. This tutorial is designed primarily for those professionals who want to increase their social and interpersonal skills so that they can share their ideas more clearly without inhibitions and self-doubt. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/social_intelligence/index.htm"
+            }
+        ],
+        "word": [
+            {
+                "id": "1646",
+                "course_title": "Natural Language Toolkit",
+                "price": "FREE",
+                "image": "https://www.tutorialspoint.com/natural_language_toolkit/images/natural-language-toolkit.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "Language is a method of communication with the help of which we can speak, read and write. Natural Language Processing (NLP) is the sub field of computer science especially Artificial Intelligence (AI) that is concerned about enabling computers to understand and process human language. We have various open-source NLP tools but NLTK (Natural Language Toolkit) scores very high when it comes to the ease of use and explanation of the concept. The learning curve of Python is very fast and NLTK is written in Python so NLTK is also having very good learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count. It is very elegant and easy to work with. This tutorial will be useful for graduates, post-graduates, and research students who either have an interest in NLP or have this subject as a part of their curriculum. The reader can be a beginner or an advanced learner. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/natural_language_toolkit/index.htm"
+            }
+        ],
+        "jira": [
+            {
+                "id": "1647",
+                "course_title": "Learn Jira",
+                "price": "$9.99, but tutorial is free",
+                "image": "https://www.tutorialspoint.com/jira/images/jira.jpg",
+                "course_duration": "",
+                "number_of_students": "",
+                "short_description": "JIRA is a project management tool used for issues and bugs tracking system. It is widely used as an issue-tracking tool for all types of testing. This tutorial introduces the readers to the fundamental features, usage, and advantages of JIRA. This tutorial will guide the users on how to utilize this tool to track and report bugs in different applications. This tutorial has been prepared for professionals who want to learn the uses of the JIRA tool. It will provide the readers enough understanding on the various components of JIRA with suitable examples. ",
+                "long_description": "",
+                "url": "https://www.tutorialspoint.com/jira/index.htm"
+            }
+        ]
+    }
 }
