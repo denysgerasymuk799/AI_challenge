@@ -28,7 +28,7 @@
                 <a class="topnav_a" href="{{ url_for('price_plans') }}">View plans</a>
                 <a class="topnav_a active" href="#home">All courses</a>
                 <a class="topnav_a" href="{{ url_for('input_profession') }}">Create plan</a>
-                <a class="topnav_a" onclick="getCourses()"
+                <a class="topnav_a" id="price_click"
                    href="{{ url_for('selected_from_main') }}">View selected</a>
             </div>
         </div>
@@ -84,7 +84,7 @@
                                     </figure>
                                     <div class="course-inner-text py-4 px-4">
                                         <span class="course-price">{{ course.price[:6] }}</span>
-                                            <div class="text_price" onclick="getCourses()" id="price_click"><span
+                                            <div class="text_price" onclick="getCourses()"><span
                                                 class="icon-clock-o"></span>{{ course.course_duration }}
                                         </div>
                                         <h3><a href="{{ course.url }}" class="title_course">{{ course.course_title }}</a></h3>
@@ -259,7 +259,7 @@
                     console.log(`Looks like there was a problem. Status code: ${response.status}`);
                     return;
                 }
-                response.json().then(function (data) {
+                response.text().then(function (data) {
                     console.log(data);
                 });
             })
