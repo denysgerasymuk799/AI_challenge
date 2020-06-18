@@ -1,34 +1,5 @@
 {
-    "profession": "analyst",
-    "all_job_skills": [
-        "Python",
-        "SQL",
-        "data analysis",
-        "Planning",
-        "Communication",
-        "Team",
-        "Tableau",
-        "Google Analytics",
-        "Problem solving",
-        "Finance",
-        "English",
-        "Confidence",
-        "Business writing",
-        "Time Management",
-        "Leadership",
-        "Economics",
-        "presentations",
-        "Excel",
-        "organizational skills",
-        "Career management",
-        "Stress management",
-        "Creative thinking",
-        "Scrum",
-        "PowerPoint",
-        "Power BI",
-        "Emotional intelligence",
-        "Word",
-        "negotiations",
-        "Jira"
+    "main_page_skills": [
+        "JavaScript"
     ]
 }
