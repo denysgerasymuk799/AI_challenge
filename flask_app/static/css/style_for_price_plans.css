@@ -23396,6 +23396,7 @@ body.mode-edit .tabs.section .tabs--content .generic-block-wrapper {
 .price_plans_block{
     position: relative;
     top: 100px;
+    background: #7971ea;
 }
 
 .pricing-plans .pricing_plan--container {

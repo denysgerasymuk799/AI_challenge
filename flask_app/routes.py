@@ -37,8 +37,8 @@ def render_main_page():
 
     for skill in search_skills:
         print("skill", skill)
-        courses_db = Skill.query.filter_by(name=skill).first().courses
-        # courses_db = Skill2.query.filter_by(name=skill).first().courses
+        # courses_db = Skill.query.filter_by(name=skill).first().courses
+        courses_db = Skill2.query.filter_by(name=skill).first().courses
         for course in courses_db:
             new_courses_lst = price_filter(courses_db)
             new_courses_lst = duration_filter(new_courses_lst)
@@ -49,10 +49,10 @@ def render_main_page():
 
         courses_for_skills_lst.append(new_courses_lst)
 
-    skills = Skill.query.all()
+    # skills = Skill.query.all()
     # db.session.rollback()
     # db.session.flush()
-    # skills = Skill2.query.all()
+    skills = Skill2.query.all()
     sorted_skills_by_letter = {}
 
     for letter in string.ascii_lowercase:
@@ -232,8 +232,8 @@ def selected_from_main():
     # print(course_names)
     for skill in skill_names:
         print("skill", skill)
-        courses_db = Skill.query.filter_by(name=skill).first().courses
-        # courses_db = Skill2.query.filter_by(name=skill).first().courses
+        # courses_db = Skill.query.filter_by(name=skill).first().courses
+        courses_db = Skill2.query.filter_by(name=skill).first().courses
         for course in courses_db:
             if course.course_title in course_names:
                 my_courses.append(course)
