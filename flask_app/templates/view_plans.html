@@ -3,9 +3,10 @@
     <nav class="site-navigation position-relative text-right" role="navigation">
         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
             <li class="cta"><a href="{{ url_for('input_profession') }}"
-                class="nav-link"><span>Find other courses</span></a></li>
+                class="nav-link"><span>Create plan</span></a></li>
+            <li class="cta"><a href="{{ url_for('render_main_page') }}"
+                               class="nav-link"><span>Home</span></a></li>
         </ul>
-    </nav>
 {% endblock nav %}
 {% block content %}
 <main class="price_plans_block">
