@@ -1,6 +1,6 @@
 import string
 from flask import render_template, request, redirect, \
-    url_for, session, jsonify, make_response, flash, Response
+    url_for, session, jsonify, make_response, Response
 from flask_login import current_user, login_user, logout_user, login_required
 from flask_app import app, db
 from flask_app.forms import LoginForm, RegistrationForm
@@ -139,8 +139,7 @@ def input_profession():
         job = dct.get(temp_job, None)
         print(job, "JOBJOB")
         if not job:
-            flash("Wrong job!")
-            return render_template("request.html", job_list=list(dct.keys()))
+            return render_template("request.html", job_list=list(dct.keys()), error="Wrong job!")
 
         job = job.lower()
 

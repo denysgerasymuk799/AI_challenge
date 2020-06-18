@@ -81,13 +81,9 @@
 			<form class="contact100-form validate-form" method="post" id="form">
 {#				<div class="wrap-input100 validate-input">#}
 {#					<input id="email" class="input100" type="text" name="job" placeholder="Enter your dream job">#}
-					{% with messages = get_flashed_messages() %}
-					{% if messages %}
-						{% for message in messages %}
-							<h2><span class="topnav_error">{{ message }}</span></h2>
-						{% endfor %}
+					{% if error %}
+							<h2><span class="topnav_error">{{ error }}</span></h2>
 					{% endif %}
-					{% endwith %}
 {#					<span class="focus-input100"></span>#}
 {#					<label class="label-input100" for="email">#}
 {#						<span class="lnr lnr-briefcase"></span>#}
