@@ -713,12 +713,22 @@ h1, h2, h3, h4, h5,
     background-color: #1c4b82;
     color: #fff; }
 
+/*.section-sub-title {*/
+/*  color: #fff;*/
+/*  text-transform: uppercase;*/
+/*  font-size: .7rem;*/
+/*  font-weight: 900;*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  margin-bottom: 1.5rem; }*/
 .section-sub-title {
-  color: #7971ea;
+  color: #fff;
   text-transform: uppercase;
-  font-size: .7rem;
+  font-size: .9rem;
   font-weight: 900;
   display: block;
+  position:fixed;
+  padding-left: 50px;
   margin-bottom: 1.5rem; }
 
 .section-title {

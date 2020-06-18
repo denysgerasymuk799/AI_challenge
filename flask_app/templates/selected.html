@@ -15,6 +15,7 @@
             <div class="row mb-5 justify-content-center">
                 <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
                     <h3 class="section-title">Selected courses</h3>
+                    <h4 class="section-sub-title">Arrange courses by moving them</h4>
                 </div>
             </div>
         </div>
@@ -44,7 +45,7 @@
                                 <div class="meta"><span class="icon-money"></span>
                                     <p class="course_price">{{ course.price }}</p></div>
                                 <div class="meta"><span class="icon-clock-o"></span>{{ course['course_duration'] }}</div>
-                                <p>{{ course['long_description'] }}</p>
+                                <p>{{ (".".join(course['long_description'].split(".")[:2]) + ".") }}</p>
                             </div>
                         </div>
                     </li>
