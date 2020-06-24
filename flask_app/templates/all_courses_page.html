@@ -101,7 +101,9 @@
                                             {% if course["short_description"] != ' ' %}
 
                                                 {% if course["short_description"][150] %}
-                                                    <p class="course_description">{{ course["short_description"][:150] + "..." }}</p>
+                                                    {% set short_description = course["short_description"][:150] %}
+                                                    <p class="course_description">{{ short_description[:
+                                                        short_description.find('<a')] + "..." }}</p>
                                                 {% else %}
                                                     <p class="course_description">{{ course["short_description"] }}</p>
                                                 {% endif %}
