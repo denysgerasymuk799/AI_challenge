@@ -4,6 +4,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
     # heroku-----------------------------------------
+    SECRET_KEY = "ylkv0bCqPliokdenmvtcTtx19gVnGBsL"
     host = "ec2-54-211-210-149.compute-1.amazonaws.com"
     database = "db66k6dggghnrc"
     user = "cfdjamhdrgiotu"
