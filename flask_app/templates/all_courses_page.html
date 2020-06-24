@@ -71,6 +71,11 @@
                                                         src="../static/images/codecademy.png"
                                                         class="img-fluid"></a>
 
+                                            {% elif "edx.org" in course["url"] %}
+                                                <a href={{ course["url"] }}><img
+                                                        src="../static/images/edx.jpg"
+                                                        class="img-fluid"></a>
+
                                             {% elif course["image"]["image_240x135"] %}
                                                 <a href={{ course["url"] }}><img
                                                         class="img-fluid"
